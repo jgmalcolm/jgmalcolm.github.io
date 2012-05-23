@@ -1,0 +1,5 @@
+convert -pointsize 20 -fill white -draw 'text 3,20 "Malcolm, Shenton, Rathi"' case01045_3T_tc.png case01045_3T_tc.png
+
+convert -scale 70% ~/junk/writeups/fibers/figs/tensor_NI/case01045_3T_tc.png case01045_3T_tc.png
+
+convert -scale 30% ~/junk/writeups/fibers/figs/tensor_NI/case01045_2T_half_fa.png case01045_2T_half_fa_t.png 
