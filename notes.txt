@@ -1,0 +1,13 @@
+# setup remote mount point
+mkdir -p /tmp/mnt
+sshfs jgmalcolm: /tmp/mnt
+
+# sync with some nice diagnostic info (trailing slashes are important)
+rsync -avz --delete --stats ~/junk/writeups/www/ ~/mnt/html/
+
+# jump to temp directory and double check for broken links
+tmpdir
+wget --spider -r http://jgmalcolm.com
+
+# cleanup
+umount /tmp/mnt
