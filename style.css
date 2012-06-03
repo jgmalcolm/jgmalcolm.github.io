@@ -2,7 +2,7 @@ body {
     margin: 25px auto;
     background: #141414;
     color: #444;
-    font-family: Verdana, Arial, Sans-Serif; /* Georgia, 'Times New Roman', serif; */
+    font-family: Lemonde-Courrier, Georgia, Serif;  /* Verdana, Arial, Sans-Serif */
     max-width: 770px;
     letter-spacing: 0.3px;
 }
