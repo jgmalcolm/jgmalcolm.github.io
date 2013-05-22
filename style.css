@@ -1,10 +1,11 @@
 body {
     margin: 25px auto;
     background: #141414;
-    color: #444;
-    font-family: Lemonde-Courrier, Georgia, Serif;  /* Verdana, Arial, Sans-Serif */
+    /* font-family: Lemonde-Courrier, Georgia, Serif;  /* Verdana, Arial, Sans-Serif */
+    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
     max-width: 770px;
-    letter-spacing: 0.3px;
+    color: #333332;
+    line-height: 1.4;
 }
 .section {
     background: #eeeeee;
