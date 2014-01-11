@@ -1,10 +1,9 @@
 body {
     margin: 25px auto;
     background: #141414;
-    /* font-family: Lemonde-Courrier, Georgia, Serif;  /* Verdana, Arial, Sans-Serif */
-    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: 'Roboto slab',Georgia,serif;
     max-width: 770px;
-    color: #333332;
+    color: #303030;
     line-height: 1.4;
 }
 .section {
