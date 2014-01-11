@@ -13,6 +13,7 @@ body {
     padding: 1.5em;
 }
 
+h1,h2,h3 { font-family: 'Cabin condensed',sans-serif }
 h1 {
     font-weight: bold;
     margin: 0 auto;
