@@ -2,4 +2,5 @@ name: James Malcolm
 markdown: redcarpet
 # pygments: true
 url: http://jgmalcolm.com
+baseurl: /
 description: Med student in Atlanta
