@@ -7,3 +7,6 @@ layout: post
 In the margin of your FA book, put a dot next to material when you hit a
 question related to it.  Over time, you'll see what sections are high yield
 and which are not
+
+
+http://erikreinertsen.wordpress.com/2014/01/31/how-i-prepared-for-step-1-of-the-usmle
