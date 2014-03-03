@@ -19,3 +19,15 @@ mg of caffeine."
 
 
 some oils will not become soluble at lower temperature in cold-brew, only released in hot-brew
+
+
+http://www.instructables.com/id/DIY-Cold-Brew-Coffee
+
+  "It turns out that coffee is high in chlorogenic acid, which, as the
+  coffee cools, forms quinic acid, which has a noteable and
+  overwhelming astringent flavor. So the task is to brew coffee in a
+  way that does not involve heat, and also reduces the apparent
+  acidity. In the 60's the Toddy method became popular and it produces
+  a finished product that is notably less bitter and actually puts
+  forward a deep caramel and chocolaty flavor. It is perfect for a
+  warm day."
