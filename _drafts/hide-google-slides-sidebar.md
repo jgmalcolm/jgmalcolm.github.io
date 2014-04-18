@@ -13,5 +13,7 @@ javascript:function iprl5()%7Bvar d%3Ddocument,z%3Dd.createElement(%27scr%27%2B%
 
 javascript:(function (){var strip=document.getElementById('filmstrip');strip.style.display=(strip.style.display=='')?'none':'';})();void(0)
 
+TODO consider .parentElement
+
 
 TODO: force redraw
