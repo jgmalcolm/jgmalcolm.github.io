@@ -2,27 +2,20 @@
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}James Malcolm</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}James Malcolm</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    {% if page.title != "Archive (sidebar)" %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% endif %}
     <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
     <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
     <link rel="alternate" type="application/atom+xml" title="James Malcolm" href="http://feeds.feedburner.com/jgmalcolm">
     <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-{% if page.ios_app_name %}{{page.ios_app_name}}-{% endif %}72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+
+    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@jgmalcolm">
-    {% if page.ios_app_name %}
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    {% endif %}
-    <meta property="fb:admins" content="728642302">
-    <meta property="fb:app_id" content="38027689216">
+
+    <!-- Facebook OpenGraph -->
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}">
       {% if page.description %}
@@ -35,15 +28,9 @@
     {% else %}
       <meta name="description" content="Ramblings by James Malcolm -- a med student in Atlanta with a passion for tech">
     {% endif %}
-
-    {% if page.og_image_url %}
-    <meta property="og:image" content="{{ page.og_image_url }}">
-    {% else %}
-      {% if page.photo_url %}
-      <meta property="og:image" content="{{ page.photo_url }}">
-      {% endif %}
+    {% if page.photo_url %}
+    <meta property="og:image" content="{{ page.photo_url }}">
     {% endif %}
-
     <meta property="og:url" content="http://jgmalcolm.com{{ page.url | remove_first:'index.html' }}">
     <meta property="og:site_name" content="jgmalcolm.com">
     <meta property="og:type" content="article">
@@ -53,8 +40,7 @@
     {% endif %}
   </head>
 
-  <body{% if page.wide_layout %} class="wide"{% endif %}>
-    <iframe id="sidebar"></iframe>
+  <body>
     <header>
       <h1>James Malcolm</h1>
       <ul class="navigation">
