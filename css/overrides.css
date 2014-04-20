@@ -12,7 +12,6 @@ body {
 
 /* ==== main content ==== */
 div.content {
-    padding: 0px 70px 60px;
 }
 div.content.full-bleed {
     padding:0;
