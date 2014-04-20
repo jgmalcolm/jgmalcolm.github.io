@@ -10,9 +10,6 @@ layout: default
         {% if post.photo_url %}
           <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
         {% else %}
-          <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
-            {{ post.date | date: "%b %Y" }}
-          </info>
           {% if post.description %}
             <span class="body">{{ post.description | strip_html }}</span>
           {% else %}
