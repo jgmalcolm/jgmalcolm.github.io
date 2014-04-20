@@ -14,13 +14,12 @@ layout: default
             {{ post.date | date: "%b %Y" }}
           </info>
           {% if post.description %}
-          <span class="body">{{ post.description | strip_html }}</span>
+            <span class="body">{{ post.description | strip_html }}</span>
           {% else %}
-          <span class="body">{{ post.excerpt | strip_html }}</span>
+            <span class="body">{{ post.excerpt | strip_html }}</span>
           {% endif %}
         {% endif %}<!-- post.photo_url -->
       </div>
     </a>{% endfor %}
-    <div class="breaker"></div>
   </div>
 </div>
