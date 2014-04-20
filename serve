@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+jekyll serve --watch --drafts -d /tmp
