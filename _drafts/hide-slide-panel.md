@@ -6,7 +6,7 @@ layout: post
 Ever want to close that slide panel so you can get more screen space?  This
 bookmarklet will do the trick.
 
-![Panel visible (before)](/images/panel-shown.png)
+<img style="width:50%;display:inline" src="/images/panel-shown.png"><img style="width:50%;display:inline" src="/images/panel-hidden.png">
 
 Drag the bookmarklet below to your bookmarks. When you're working on your
 presentation, simply click it to hide (or show) the slide panel:
@@ -19,8 +19,6 @@ You'll notice that it simply hides the panel but doesn't refresh the screen
 layout to reclaim that space previously filled by the side panel.  Adjust the
 window or the notes tray and it'll immediately fill in.  Anyone know a good
 way to fix this or force a refresh?
-
-![Panel hidden (after)](/images/panel-hidden.png)
 
 If you refresh the page, the panel will reappear.  This bookmarklet doesn't do
 anything permanent to Google Slides.
