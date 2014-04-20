@@ -3,7 +3,7 @@ title: Hide the slide panel in Google Slides
 layout: post
 ---
 
-Ever want to close that slide panel so you can get more screen space?  This
+Ever want to close that slide panel in Google Slides so you can get more screen space?  This
 bookmarklet will do the trick.
 
 <img style="width:50%;display:inline" src="/images/panel-shown.png"><img style="width:50%;display:inline" src="/images/panel-hidden.png">
