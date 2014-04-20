@@ -1,43 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" prefix="og: http://ogp.me/ns">
   <head>
-    <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}James Malcolm</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Poly:400,400italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
-    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
-    <link rel="alternate" type="application/atom+xml" title="James Malcolm" href="http://feeds.feedburner.com/jgmalcolm">
-    <link rel="shortcut icon" href="/favicon.ico">
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@jgmalcolm">
-
-    <!-- Facebook OpenGraph -->
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}">
-      {% if page.description %}
-      <meta name="description" content="{{ page.description }}">
-      <meta name="og:description" content="{{ page.description }}">
-      {% else if content %}
-      <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
-      <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
-      {% endif %}
-    {% else %}
-      <meta name="description" content="Ramblings by James Malcolm -- a med student in Atlanta with a passion for tech">
-    {% endif %}
-    {% if page.photo_url %}
-    <meta property="og:image" content="{{ page.photo_url }}">
-    {% endif %}
-    <meta property="og:url" content="http://jgmalcolm.com{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="jgmalcolm.com">
-    <meta property="og:type" content="article">
-    <meta property="og:locale" content="en_EN" />
-    {% if page.date %}
-    <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
-    {% endif %}
+    {% include head.html %}
   </head>
 
   <body>
