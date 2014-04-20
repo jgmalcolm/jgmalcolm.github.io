@@ -2,13 +2,14 @@
 layout: default
 ---
 <div class="content{% if page.photo_url %} photo-post{% endif %}">
-  <div class="post single">
+  <div class="post">
     {% unless page.photo_url %}
     <h1>{{ page.title }}</h1>
     <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
       {{ page.date | date: "%b %d, %Y" }}
     </info>
     {% endunless %}
-    <div class="body">{{ content }}</div>
+
+    {{ content }}
   </div>
 </div>
