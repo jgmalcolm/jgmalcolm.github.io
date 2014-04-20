@@ -49,3 +49,26 @@ a.post-excerpt:hover {
 a.post-excerpt div.title {
     font-weight: bold;
 }
+
+
+/* ==== sidebar ==== */
+#sidebar {
+    text-align: center;
+}
+#social a {
+    color: inherit;
+    text-decoration: none;
+}
+#logo {
+    text-decoration: none;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#avatar {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    width: 140px;
+}

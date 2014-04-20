@@ -5,20 +5,20 @@
   </head>
 
   <body>
-    <header>
-      <h1>James Malcolm</h1>
-      <a class="icon" href="https://twitter.com/jgmalcolm" title="Twitter"><i class="icon-twitter"></i></a>
-      <a class="icon" href="https://github.com/jgmalcolm" title="GitHub"><i class="icon-github"></i></a>
-      <a class="icon" href="http://linkedin.com/in/jgmalcolm" title="LinkedIn"><i class="icon-linkedin"></i></a>
-      <a class="icon" href="http://scholar.google.com/citations?user=k8pxfGQAAAAJ" title="Google Scholar"><i class="icon-google-plus"></i></a>
-      <a class="icon" href="mailto:me@jgmalcolm.com?subject=Hi" title="E-Mail"><i class="icon-envelope"></i></a>
-      <a class="icon" href="{{ site.url }}/atom.xml" title="Subscribe (Atom)"><i class="icon-rss"></i></a>
-      <a class="icon" href="http://stackoverflow.com/users/241594" title="StackOverflow"><i class="icon-stack-overflow"></i></a>
-    </header>
 
-    <!--div class="wrapper content"-->
-      {{ content }}
-    <!--/div-->
+    <!-- Primary Page Layout
+    ================================================== -->
+    <div class="row-fluid">
+
+      <section id="sidebar" class="col-xs-12 col-md-2">
+        {% include sidebar.html %}
+      </section>
+
+      <section id="content" class="col-xs-12 col-md-10">
+        {{ content }}
+      </section>
+
+    </div><!-- container -->
 
     {% if paginator.page %}
     <div id="paginator" class="content">
