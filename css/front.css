@@ -1,0 +1,230 @@
+/* --------------------------------------------------------------------------------------------- */
+/* main content */
+div.content {
+  background:white;
+  padding:70px 60px;
+  margin-bottom:60px;
+}
+div.content.full-bleed {
+  padding:0;
+}
+div.content.photo {
+  padding: 0;
+  margin:0;
+}
+  div.content:not(.sub) h1:first-child {
+    margin-top:0; font-size:300%;
+  }
+
+  div.content img, div.content iframe { display:block; max-width:100%; margin:1em 0; }
+  div.content iframe { border:none; }
+  div.content *[align=right] { margin:0 0 1em 1em; }
+  div.content *[align=left] { margin:0 1em 1em 0; }
+
+  /*div.post strong { font-weight:inherit; background:#FBF4B1; }*/
+  div.content li { margin-left: 2em; margin-bottom:0.3em; }
+  div.content ul > li { margin-left:1.4em; }
+
+  div.content blockquote {
+    font-family: 'Poly', georgia;
+    font-style:italic;
+    line-height:1.618;
+    background:transparent url(quotation-mark.png) no-repeat scroll 25px 1.4em;
+    padding:0.1em 1em 0.1em 60px;
+    margin:1.618em 0 1.618em -60px;
+    color: #666055;
+    text-rendering: optimizelegibility;
+  }
+  div.content div.quotation blockquote { margin-left:-30px; }
+  div.content pre {
+    /*background-color:#f9f8fa;
+    border-top: 1px solid #f0f2f4;
+    border-bottom: 1px solid #f0f2f4;
+    padding:0.4em 0 0.4em 60px;
+    margin-left:-60px;*/
+
+    border-left:10px solid #C6F9FC;
+    margin-left:-60px;
+    padding:0.1em 0 0.4em 50px;
+    /*background-color:#faf9f8;*/
+
+    overflow-x: auto;
+  }
+  div.content code {
+    background-color: #f6f9fa;
+    color:black;
+    /*border: 1px solid #eaeaea;*/
+    border-radius: 3px;
+    padding:0 0.3em;
+  }
+  div.content pre > code {
+    padding:0;
+    background-color:transparent;
+    border:none;
+    border-radius: none;
+  }
+  div.content *:target { background:#fe0; }
+  div.content sup:target a { padding:2px 5px; }
+  div.content div.footnotes li { color:#999; }
+  div.content div.footnotes li:target { background:#ffc; color:inherit; }
+
+  /* wide objects */
+  /* this is b0rked */
+  /*div.content *[alt~="fullbleed"] {
+    position: relative;
+    left:-11%; right:-20%;
+  }
+  div.content *[alt~="large"] {
+    max-width:1024px;
+    margin-left:-180px;
+  }*/
+
+/*div.content { border-bottom:2px solid #D1D1D1; }*/
+
+div.content.sub {
+  margin-top:-50px;
+  padding-top:20px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* intro on first page */
+
+div.content.intro {
+  padding: 40px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* posts */
+
+div.posts div.end {
+  padding:40px;
+  text-align:center;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/* post excerpt */
+/* Wrapped in a div.content.full-bleed */
+
+a.post-excerpt {
+  display: block;
+  color: inherit;
+  border-bottom: 4px solid #ddd;
+}
+  a.post-excerpt div.padded-content {
+    display: block;
+    padding: 40px;
+  }
+  a.post-excerpt div.grid-mask { display:none; }
+  a.post-excerpt.photo {
+    height:320px;
+  }
+    /*a.post-excerpt.photo div.padded-content {
+      display: -webkit-box; display: -moz-box; display: box;
+      -webkit-box-orient: vertical; -moz-box-orient: vertical; box-orient: vertical;
+      -webkit-box-pack: end; -moz-box-pack: end; box-pack: end;
+    }*/
+    a.post-excerpt.photo div.title {
+      padding:10px 40px;
+      font-size: 300%;
+      font-weight: 100;
+      color: white;
+      /*background:rgba(255,200,0,0.1);*/
+      -webkit-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      -moz-text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+      position: absolute;
+      left:0; right:0; bottom:0;
+      z-index:2;
+    }
+    a.post-excerpt.photo div.padded-content {
+      padding:0;
+      width:100%;
+      height:100%;
+      background: transparent no-repeat center center scroll;
+      position: relative;
+    }
+    a.post-excerpt.photo div.padded-content div.image {
+      position: absolute;
+      left:0; top:0; right:0; bottom:0;
+      z-index:1;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    a.post-excerpt.photo:hover div.padded-content {
+      opacity: 1;
+    }
+    a.post-excerpt.photo:hover div.padded-content div.image {
+      opacity:0.5;
+    }
+
+  @media screen and (min-width: 680px) {
+    a.post-excerpt {
+      position:relative;
+      display: block;
+      width:50%; /* 680/2 */
+      /*height:180px;*/
+      overflow-y: hidden;
+      float:left;
+      border:none;
+      margin-bottom:10px;
+      /*background:#eee;*/
+      /*-webkit-transform: translate3d(0,0,0);*/
+    }
+    a.post-excerpt.photo {
+      height:340px;
+    }
+      a.post-excerpt.photo div.padded-content {
+        padding:0;
+        width:100%;
+        height:100%;
+        background: transparent no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      a.post-excerpt.photo:hover div.padded-content {
+        opacity:0.9;
+      }
+  } /* END @media screen and (min-width: 680px) */
+
+  /*@media screen and (min-width: 480px) {
+    a.post-excerpt {
+      width:50%;
+    }
+  }*/
+
+  a.post-excerpt:hover {
+    color:white;
+    background:#444;
+    text-decoration:none;
+  }
+
+  a.post-excerpt div.title {
+    font-weight: bold;
+  }
+
+  a.post-excerpt info {
+    display:inline-block;
+    padding-right:8px;
+    color:#999;
+    font-style:italic;
+    /*margin-bottom:3em;*/
+  }
+
+/* --------------------------------------------------------------------------------------------- */
+/* photo post */
+
+div.content.photo-post {
+  padding-top: 60px;
+}
+  div.content.photo-post p:first-child, div.content.photo-post img:first-child {
+    padding-top:0;
+    margin-top:0;
+  }
+  div.content.photo-post p, div.content.photo-post iframe {
+    padding: 40px 0 0 0;
+    margin:0;
+  }
