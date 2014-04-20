@@ -11,7 +11,7 @@ bookmarklet will do the trick.
 Drag the bookmarklet below to your bookmarks. When you're working on your
 presentation, simply click it to hide (or show) the slide panel:
 
-<a style="text-decoration:none; background: #222222; color: white; border-radius: 5px; padding: 5px"
+<a class="badge"
    href="javascript:(function (){var e=document.getElementById('filmstrip');e.style.display=(e.style.display=='')?'none':'';})();void(0)"
    onclick="void(0)">Toggle Slide Panel</a> ←  drag this button to your bookmarks
 
