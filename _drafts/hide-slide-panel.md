@@ -1,5 +1,5 @@
 ---
-title: Google Slides - Hide the slide panel
+title: Hide the slide panel in Google Slides
 layout: post
 ---
 
