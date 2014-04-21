@@ -1,9 +1,9 @@
 body {
-    font: 20px Century;
+    font: 20px 'PT serif', serif;
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: Gill sans, Helvetica, sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
     font-weight: bold;
 }
 p {
