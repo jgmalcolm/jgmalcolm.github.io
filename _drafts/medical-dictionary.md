@@ -1,8 +1,14 @@
-I recommend installing this medical dictionary on your computer for MS
-Office. Getting tired of seeing nearly every other word in the
-lectures have red squiggly marks.
+---
+layout: post
+title: Free medical dictionary for Microsoft Word and PowerPoint
+---
 
-http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary
+Getting tired of seeing red squiggly marks under your Staphylococci and
+granulomas?  I recommend installing this medical dictionary on your computer
+for MS Office. Getting tired of seeing nearly every other word in the lectures
+have red squiggly marks.
+
+[dictionary](http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary)
 
 
 Sidd: The instructions are for the older versions of word, so if you
