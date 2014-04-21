@@ -13,3 +13,8 @@ Pure CSS
 5 requests
 1.1kb transfered
 206ms
+
+
+
+http://liquidmarkup.org
+https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
