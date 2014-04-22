@@ -9,6 +9,12 @@ h1, h2, h3, h4, h5, h6 {
 p {
     padding-bottom: 10px;
 }
+a {
+    color: #930;
+}
+a:hover {
+    color: #930;
+}
 
 .article-title a {
     color: inherit;
@@ -74,7 +80,6 @@ a.post-excerpt div.title {
 }
 #social a {
     color: #777777;
-    text-decoration: none;
 }
 #logo a {
     color: inherit;
