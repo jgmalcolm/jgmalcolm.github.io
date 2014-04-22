@@ -5,8 +5,7 @@ title: Free medical dictionary for Microsoft Word and PowerPoint
 
 Getting tired of seeing red squiggly marks under your diverticula and
 granulomas?  I recommend installing this medical dictionary on your computer
-for MS Office. Getting tired of seeing nearly every other word in the lectures
-have red squiggly marks.
+for MS Office.
 
   [www]: (http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary)
 
