@@ -28,6 +28,7 @@
 {% else %}
   <meta name="description" content="Ramblings by James Malcolm -- a med student in Atlanta with a passion for tech">
 {% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 {% if page.photo_url %}
 <meta property="og:image" content="{{ page.photo_url }}">
 {% endif %}
