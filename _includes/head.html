@@ -2,9 +2,12 @@
 <title>{% if page.title %}{{ page.title }} | {% endif %}James Malcolm</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 <link rel="stylesheet" href="/css/overrides.css">
+{% for css in page.css %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
+{% for js in page.js %}<script src="{{ js }}"></script>{% endfor %}
+
 <link rel="alternate" type="application/atom+xml" title="James Malcolm" href="http://feeds.feedburner.com/jgmalcolm">
 <link rel="shortcut icon" href="/favicon.ico">
 

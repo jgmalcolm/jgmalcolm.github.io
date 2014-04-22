@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Publications
+description: Diffusion MRI and Image Processing
+js:  js/blueimp-gallery.min.js
+css: css/blueimp-gallery.min.css
 ---
-
-<script type="text/javascript" src="thickbox/jquery.js"></script>
-<link rel="stylesheet" type="text/css" href="thickbox/thickbox.css" media="screen">
-<script type="text/javascript" src="thickbox/thickbox.js"></script>
 
 <script type="text/javascript">
 function toggle(id)
@@ -14,8 +13,6 @@ function toggle(id)
   e.style.display = (e.style.display == 'none') ? 'block' : 'none';
 }
 </script>
-
-</head>
 
 <div class="section">
 
@@ -462,7 +459,7 @@ Serial No. 12/323,572. Filed on 29 Nov 2007.
 
   <center><h1>Software for Matlab/C</h1></center>
 
-  <p>Offloading computation onto Nvidia GPUs: <a href="http://www.accelereyes.com">AccelerEyes</a><br>
+  <p>Offloading computation onto NVIDIA GPUs: <a href="http://www.arrayfire.com">ArrayFire</a><br>
   Multi-label graph cut image segmentation [<a href="code/graphchop.zip">download</a>]<br>
   Level set (active contour) image segmentation [<a href="code/ls_sparse.zip">download</a>]<br>
 
@@ -470,13 +467,31 @@ Serial No. 12/323,572. Filed on 29 Nov 2007.
 
 
 <div class="section">
-<a name="filter"></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_2T_half_fa.png" title="Cut-away showing fibers within left hemisphere.  Fibers are colored by fractional anisotropy.  Two-tensor tractography."><img class=thumb src="images/fibers/case01045_2T_half_fa_t.png"></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_3T_half_fa.png" title="Same view using three-tensor fiber model for tractography."></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_1T_tc.png" title="Single-tensor streamline tractography through one slice in the middle of the brain viewed from the front.  The image backdrop shows many bright lateral areas with fibers yet the single-tensor model misses these."></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_SH_tc.png" title="Using spherical harmonics with fiber sharpening finds a few lateral projections (highlighted in blue), but still misses much of the lateral fiber system."></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_2T_tc.png" title="Two-tensor tractography is able to navigate into the lateral regions missed using either the single-tensor or spherical harmonic models."></a>
-  <a class="thickbox" rel="fibers" href="images/fibers/case01045_3T_tc.png" title="Three-tensor tractography picks up even more of the minor fiber pathways and cortical insertions."></a>
+
+<div class="gallery">
+  <a href="images/fibers/case01045_2T_half_fa.png" data-gallery="filtered"
+     title="Cut-away showing fibers within left hemisphere.  Fibers are
+     colored by fractional anisotropy.  Two-tensor tractography.">
+    <img class="thumb" src="images/fibers/case01045_2T_half_fa_t.png"></a>
+  <a href="images/fibers/case01045_3T_half_fa.png" data-gallery="filtered"
+     title="Same view using three-tensor fiber model for tractography."></a>
+  <a href="images/fibers/case01045_1T_tc.png" data-gallery="filtered"
+     title="Single-tensor streamline tractography through one slice in the
+     middle of the brain viewed from the front.  The image backdrop shows many
+     bright lateral areas with fibers yet the single-tensor model misses
+     these."></a>
+  <a href="images/fibers/case01045_SH_tc.png" data-gallery="filtered"
+     title="Using spherical harmonics with fiber sharpening finds a few
+     lateral projections (highlighted in blue), but still misses much of the
+     lateral fiber system."></a>
+  <a href="images/fibers/case01045_2T_tc.png" data-gallery="filtered"
+     title="Two-tensor tractography is able to navigate into the lateral
+     regions missed using either the single-tensor or spherical harmonic
+     models."></a>
+  <a href="images/fibers/case01045_3T_tc.png" data-gallery="filtered"
+     title="Three-tensor tractography picks up even more of the minor fiber
+     pathways and cortical insertions."></a>
+</div>
 
   <h1>Filtered Neural Tractography</h1>
 
@@ -563,7 +578,7 @@ id=malcolm_cukf><pre>
 <div class="section">
   <h1>Label Space</h1>
 
-  <img class=thumb src="images/ls/label_space.png">
+  <img class="thumb" src="images/ls/label_space.png">
 
   <p>Many techniques for multi-shape representation may often develop
   inaccuracies stemming from either approximations or inherent variation.
@@ -604,7 +619,11 @@ id=malcolm_cukf><pre>
 
 <div class="section">
 
-  <a class="thickbox" href="images/lsdm/white_matter_front.png" title="Segmentation of white matter in the brain from an MR volume."><img class=thumb src="images/lsdm/white_matter_front_t.png"></a>
+<div class="gallery">
+  <a href="images/lsdm/white_matter_front.png" data-gallery="level-set-methods"
+     title="Segmentation of white matter in the brain from an MR volume.">
+    <img class="thumb" src="images/lsdm/white_matter_front_t.png"></a>
+</div>
 
   <h1>Level set methods</h1>
 
@@ -690,10 +709,15 @@ id=malcolm_cukf><pre>
 
 </div>
 
-<div class="section">
-  <a class="thickbox" rel="icip07" href="images/icip07/shark_5_initial.png" title="Initialization of object region"><img class=thumb src="images/icip07/shark_5_final_t.png"></a>
-  <a class="thickbox" rel="icip07" href="images/icip07/shark_5_noshape.png" title="Segmentation without shape information"></a>
-  <a class="thickbox" rel="icip07" href="images/icip07/shark_5_final.png" title="Segmentation with shape information"></a>
+<div class="gallery">
+  <a href="images/icip07/shark_5_initial.png" data-gallery="icip07"
+     title="Initialization of object region">
+    <img class="thumb" src="images/icip07/shark_5_final_t.png"></a>
+  <a href="images/icip07/shark_5_noshape.png" data-gallery="icip07"
+     title="Segmentation without shape information"></a>
+  <a href="images/icip07/shark_5_final.png" data-gallery="icip07"
+     title="Segmentation with shape information"></a>
+</div>
 
   <h1>Graph cut segmentation with shape priors</h1>
 
@@ -716,9 +740,16 @@ id=malcolm_cukf><pre>
 
 
 <div class="section">
-  <a class="thickbox" rel="tensor_cuts" href="images/tensor_cuts/FISH_color_initial.png" title="Initialization of foreground and background regions"><img class=thumb src="images/tensor_cuts/FISH_color_final_t.png"></a>
-  <a class="thickbox" rel="tensor_cuts" href="images/tensor_cuts/FISH_euclidean.png" title="Segmentation assuming a Euclidean space"></a>
-  <a class="thickbox" rel="tensor_cuts" href="images/tensor_cuts/FISH_color_final.png" title="Segmentation using appropriate distance metric"></a>
+
+<div class="gallery"
+  <a href="images/tensor_cuts/FISH_color_initial.png" data-gallery="tensors"
+     title="Initialization of foreground and background regions">
+    <img class="thumb" src="images/tensor_cuts/FISH_color_final_t.png"></a>
+  <a href="images/tensor_cuts/FISH_euclidean.png" data-gallery="tensors"
+     title="Segmentation assuming a Euclidean space"></a>
+  <a href="images/tensor_cuts/FISH_color_final.png" data-gallery="tensors"
+     title="Segmentation using appropriate distance metric"></a>
+</div>
 
   <h1>Graph cut segmentation in tensor space</h1>
 
@@ -772,4 +803,31 @@ id=malcolm_cukf><pre>
 
   <a href="http://www.romeilsandhu.com">Romeil Sandhu</a> -- point cloud
   registration, model-based projective image segmentation<br>
+</div>
+
+
+
+<!-- https://github.com/blueimp/Gallery -->
+<script>
+// link up each gallery
+var galleries = document.getElementsByClassName('gallery');
+for (var i = 0; i < galleries.length; i++) {
+    galleries[i].onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event, stretchImages: true},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options).toggleControls(); // start with controls on
+    };
+}
+</script>
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
 </div>
