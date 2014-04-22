@@ -1,5 +1,5 @@
 body {
-    font: 20px 'PT serif', serif;
+    font: 22px 'PT serif', serif;
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -34,10 +34,6 @@ div.content.photo {
     padding: 0;
     margin:0;
 }
-
-div.content img { display:block; max-width:100%; margin:1em 0; }
-div.content *[align=right] { margin:0 0 1em 1em; }
-div.content *[align=left] { margin:0 1em 1em 0; }
 
 /* ==== post excerpt ==== */
 
@@ -99,5 +95,6 @@ a.post-excerpt div.title {
 
 img.thumb {
     border: 1px solid #606060;
+    margin: 10px;
     float: right;
 }
