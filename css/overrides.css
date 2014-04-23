@@ -26,6 +26,7 @@ a:hover {
 
 /* ==== main content ==== */
 div.content {
+    padding-bottom: 60px;
 }
 div.content.full-bleed {
     padding:0;
