@@ -18,8 +18,6 @@ layout to reclaim that space previously filled by the side panel.  Adjust the
 window or the notes tray and it'll immediately fill in.  Anyone know a good
 way to fix this or force a refresh?
 
-<img style="width:50%;display:inline" src="/images/panel-shown.png"><img style="width:50%;display:inline" src="/images/panel-hidden.png">
-
 If you refresh the page, the panel will reappear.  This bookmarklet doesn't do
 anything permanent to Google Slides.
 
