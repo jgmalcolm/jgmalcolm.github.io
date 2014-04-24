@@ -11,8 +11,8 @@ granulomas?  Install a free medical dictionary for Microsoft Office.
 1. First, download the [free dictionary][www].  The instructions on that page
    are for older versions of Office so keep following along.  Save the file
    somewhere permanent, like where Office puts all its own dictionaries.  On
-   Mac OSX, this would be /User/\<username\>/Library/Application
-   Support/Microsoft/Office/Preferences/Office 2011/
+   Mac OSX, this would be /User/ \<user\>/ Library/ Application
+   Support/ Microsoft/ Office/ Preferences/ Office 2011/
 
 2. Open up Word and any document (blank or existing).
 
