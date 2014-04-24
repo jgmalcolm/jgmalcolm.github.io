@@ -1,33 +1,37 @@
 ---
 layout: post
-title: Free medical dictionary for Microsoft Word and PowerPoint
+title: Free medical dictionary for Microsoft Office
 ---
 
 Getting tired of seeing red squiggly marks under your diverticula and
-granulomas?  I recommend installing this medical dictionary on your computer
-for MS Office.
+granulomas?  Install a free medical dictionary for Microsoft Office.
 
-  [www]: (http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary)
+ [www]: http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary
+
+1. First, download the [free dictionary][www].  The instructions on that page
+   are for older versions of Office so keep following along.  Save the file
+   somewhere permanent, like where Office puts all its own dictionaries.  On
+   Mac OSX, this would be /User/\<username\>/Library/Application
+   Support/Microsoft/Office/Preferences/Office 2011/
+
+2. Open up Word and any document (blank or existing).
+
+3. For Mac OSX,
+   Preferences &rarr;
+   Spelling and Grammar &rarr;
+   Custom dictionary &rarr;
+   Dictionaries ... &rarr;
+   Add ...
+
+   Note you may need to use the 'Enable' popup to see your dictionary
+   depending on its filename extension.
+
+4. For Windows,
+   File &rarr;
+   Options &rarr;
+   Proofing &rarr;
+   Custom Dictionaries &rarr;
+   Add
 
 
-Sidd: The instructions are for the older versions of word, so if you
-have a newer version the way to add this is : File -> Options ->
-Proofing -> Custom Dictionaries. Then click Add and find the
-dictionary. The dictionary doesn't need to be in the specific folder
-they mentioned.
-
-
-Jesse R: MAC: tools> spelling and grammar> options...> dictionaries..>
-add.. (then you'll have to change the option here to "all files" in
-order to select the .dic file)
-
-Naman: MAC:
-
-Make sure that a document is open.
-
-On the Word menu, click Preferences.
-Under Authoring and Proofing Tools, click Spelling and Grammar.
-Under Spelling, click Dictionaries.
-Click Add, and then locate and double-click the custom dictionary that you want to import.
-
-If the custom dictionary doesn't have a file name extension of .dic, on the Enable pop-up menu, click All Files.
+This one change handles all the Office tools: Word, PowerPoint, Outlook, Excel.
