@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Projects
+title: Research
 description: Publications in Computer Vision, Image Processing, and Filtered Tractography
 keywords: computer vision, image processing, segmentation, graph cuts, graphcut, level sets, active contours, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering
 js:  [/js/blueimp-helper.js, /js/blueimp-gallery.js, /js/blueimp-gallery-video.js, /js/blueimp-gallery-youtube.js]
@@ -15,12 +15,11 @@ function toggle(id)
 }
 </script>
 
-<h2>Software for MATLAB</h2>
+<h1>Research Projects</h1>
 
-<ul>
-  <li><a href="https://github.com/jgmalcolm/graphchop">graphchop</a> - Multi-label graph cut image segmentation</li>
-  <li><a href="https://github.com/jgmalcolm/levelsets">levelsets</a> - Level set (active contour) image segmentation</li>
-</ul>
+Below are descriptions of various projects I pursued.  There is also
+a <a href="index.html">list of publications</a>
+and <a href="#downloads">software downloads</a> associated with this work.
 
 
 <h2>Filtered Neural Tractography</h2>
@@ -165,7 +164,8 @@ id=malcolm_cukf><pre>
   <p>In many situations the regional statistics of the object of interest are
   unknown.  In such cases one approach is to separate an object from its
   background measuring their statistical difference with the Bhattacharyya
-  metric. [<a href="code/ls_sparse.zip">download</a>]
+  metric. <a href="https://github.com/jgmalcolm/levelsets">Download the MATLAB
+  code</a> for these techniques.
 
   <p>Further, the numerical considerations of the level set method often
   prohibit its use high performance applications which has driven our
@@ -205,9 +205,10 @@ id=malcolm_cukf><pre>
   image; however, because of its global nature, it is prone to capturing
   outlying areas similar to the object of interest.  This work proposes a
   method to constrain the standard graph cut technique to regions of interest
-  for tracking multiple interacting objects.  Download Matlab wrapper for
-  graph cut image segmentation (Win32,Mac,Linux32,Linux64) [<a
-  href="code/graphchop.zip">download</a>].
+  for tracking multiple interacting
+  objects.  <a href="https://github.com/jgmalcolm/graphchop">Download the
+  MATLAB wrapper</a> for graph cut image segmentation (Win32, Mac, Linux32,
+  Linux64).
 
   <p class="pub"><a href="pdfs/malcolm_dp.pdf">&#8220;Tracking Through Clutter
   Using Graph Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>British Machine
@@ -261,8 +262,9 @@ id=malcolm_cukf><pre>
   methods for accurate and efficient segmentation of such objects.  Using
   kernel principle component analysis, we demonstrate how a shape projection
   pre-image can induce an iteratively refined shape prior in a Bayesian
-  manner.  Download Matlab wrapper for graph cut image segmentation
-  (Win32,Mac,Linux32,Linux64) [<a href="code/graphchop.zip">download</a>].
+  manner.  <a href="https://github.com/jgmalcolm/graphchop">Download the
+  MATLAB wrapper</a> for graph cut image segmentation (Win32, Mac, Linux32,
+  Linux64).
 
   <p class="pub"><a href="pdfs/malcolm_shape.pdf">&#8220;Graph cut
   segmentation with nonlinear shape priors&#8221;</a>, Malcolm, Rathi,
@@ -288,8 +290,9 @@ id=malcolm_cukf><pre>
   image segmentation.  This work demonstrates extending the standard graph cut
   technique to more discriminative feature spaces.  One such space is formed
   from the tensor products of feature vectors incorporating intensity, image
-  derivatives, etc.  Download Matlab wrapper for graph cut image segmentation
-  (Win32,Mac,Linux32,Linux64) [<a href="code/graphchop.zip">download</a>].
+  derivatives, etc.  <a href="https://github.com/jgmalcolm/graphchop">Download the
+  MATLAB wrapper</a> for graph cut image segmentation (Win32, Mac, Linux32,
+  Linux64).
 
   <p class="pub"><a href="pdfs/malcolm_tc.pdf">&#8220;A Graph Cut Approach to
   Image Segmentation in Tensor Space&#8221;</a>, Malcolm, Rathi, Tannenbaum,
@@ -315,6 +318,17 @@ id=malcolm_cukf><pre>
   <p class="pub"><a href="pdfs/malcolm_qec.pdf">&#8220;Quantum error
   correction&#8221;</a>, Malcolm, final report for <a
    href="http://www.math.gatech.edu/~jeanbel/4782">Math4782</a>.</p>
+
+
+
+<a name="downloads"></a>
+<h2>Downloads for MATLAB</h2>
+<ul>
+  <li><a href="https://github.com/jgmalcolm/graphchop">graphchop</a> - Multi-label graph cut image segmentation</li>
+  <li><a href="https://github.com/jgmalcolm/levelsets">levelsets</a> - Level set (active contour) image segmentation</li>
+</ul>
+
+
 
 <!-- https://github.com/blueimp/Gallery -->
 <script>
