@@ -34,4 +34,9 @@ granulomas?  Install a free medical dictionary for Microsoft Office.
    Add
 
 
-This one change handles all the Office tools: Word, PowerPoint, Outlook, Excel.
+This one change handles all the Office tools: Word, PowerPoint, Outlook,
+Excel.  I've noticed that sometimes it doesn't take immediately so quit and
+restart any open Office instances.
+
+If the above didn't work for you, please use the comments below to post issues
+or fixes.
