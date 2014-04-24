@@ -3,7 +3,7 @@ layout: default
 title: Projects
 description: Publications in Computer Vision, Image Processing, and Filtered Tractography
 keywords: computer vision, image processing, segmentation, graph cuts, graphcut, level sets, active contours, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering
-js:  /js/blueimp-gallery.min.js
+js:  [/js/blueimp-helper.js, /js/blueimp-gallery.js, /js/blueimp-gallery-video.js, /js/blueimp-gallery-youtube.js]
 css: /css/blueimp-gallery.min.css
 ---
 
@@ -47,6 +47,18 @@ Level set (active contour) image segmentation [<a href="code/ls_sparse.zip">down
   <a href="images/fibers/case01045_3T_tc.png" data-gallery="filtered"
      title="Three-tensor tractography picks up even more of the minor fiber
      pathways and cortical insertions."></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="IPO4yZN3dw8" title="Tracing the entire corpus callosum (from side)"></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="7ei7ce5BDYM" title="Tracing the entire corpus callosum (from above)"></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="1dNBWjOykfM" title="Tracing a cross-section of the corpus callosum"></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="17vTCUuHqRM" title="Intersection of corpus callosum and internal capsule"></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="BuMacFzzNtM" title="Intersection of corpus callosum and internal capsule"></a>
+  <a data-gallery="filtered" type="text/html"
+     youtube="4oLYRgqj5D8" title="Rotating around the corpus callosum (three-fiber model)"></a>
 </div>
 
 
@@ -97,35 +109,6 @@ id=malcolm_cukf><pre>
   Magnetic Resonance in Medicine (ISMRM)</i>, 2009.  [<a
    href="pdfs/others/rathi_watson_slides.pdf">slides</a>]</p>
 
-  <h3>Videos</h3>
-
-  <ul>
-  <li>Tracing the entire corpus callosum [<a class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=2t_cc_side">from side</a>, <a
-  class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=2t_cc_top">from above</a>]
- <div style="display: none" id="2t_cc_side"><embed src="http://www.youtube.com/v/IPO4yZN3dw8&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
- <div style="display: none" id="2t_cc_top"><embed src="http://www.youtube.com/v/7ei7ce5BDYM&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
-
-  <li>Tracing a cross-section of the corpus callosum [<a
-  class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=2t_tc">watch</a>]
-<div style="display: none" id="2t_tc"><embed src="http://www.youtube.com/v/1dNBWjOykfM&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
-
-  <li>Intersection of corpus callosum and internal capsule [<a class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=2t_cc_ic_side">full</a>, <a
-  class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=2t_cc_ic_zoom">closeup</a>]
- <div style="display: none" id="2t_cc_ic_side"><embed src="http://www.youtube.com/v/17vTCUuHqRM&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
- <div style="display: none" id="2t_cc_ic_zoom"><embed src="http://www.youtube.com/v/BuMacFzzNtM&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
-
-  <li>Rotating around the corpus callosum (three-fiber model)[<a
-  class="thickbox"
-  href="#TB_inline?width=500&height=426&inlineId=3t_cc_rot">watch</a>]
-<div style="display: none" id="3t_cc_rot"><embed src="http://www.youtube.com/v/4oLYRgqj5D8&autoplay=1" type="application/x-shockwave-flash" width="500" height="416"></embed></div>
-
-  <li><a href="http://www.youtube.com/jimimalcolm">More...</a></li>
-  </ul>
 
 
 
@@ -341,7 +324,7 @@ for (var i = 0; i < galleries.length; i++) {
         event = event || window.event;
         var target = event.target || event.srcElement,
             link = target.src ? target.parentNode : target,
-            options = {index: link, event: event, stretchImages: true},
+            options = {index: link, event: event, stretchImages: true, youTubeClickToPlay: false},
             links = this.getElementsByTagName('a');
         blueimp.Gallery(links, options).toggleControls(); // start with controls on
     };
@@ -353,6 +336,5 @@ for (var i = 0; i < galleries.length; i++) {
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
-    <a class="play-pause"></a>
     <ol class="indicator"></ol>
 </div>
