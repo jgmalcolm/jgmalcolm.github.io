@@ -201,12 +201,12 @@
 
         textFactory: function (obj, callback) {
             var options = this.options,
-                videoId = obj.getAttribute(options.youTubeVideoIdProperty);
+                videoId = this.getItemProperty(obj, options.youTubeVideoIdProperty);
             if (videoId) {
-                if (obj.getAttribute(options.urlProperty) === null) {
+                if (this.getItemProperty(obj, options.urlProperty) === undefined) {
                     obj[options.urlProperty] = '//www.youtube.com/watch?v=' + videoId;
                 }
-                if (obj.getAttribute(options.videoPosterProperty) === null) {
+                if (this.getItemProperty(obj, options.videoPosterProperty) === undefined) {
                     obj[options.videoPosterProperty] = '//img.youtube.com/vi/' + videoId +
                         '/maxresdefault.jpg';
                 }
