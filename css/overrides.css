@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Gill Sans', Calibri, sans-serif;
     font-weight: bold;
     color: rgb(43, 108, 194);
 }
@@ -70,8 +70,7 @@ a.post-excerpt div.title {
 }
 #logo {
     color: inherit;
-    letter-spacing: -1px;
-    font-weight: bold;
+    letter-spacing: -3px;
 }
 
 #content img {
