@@ -35,11 +35,10 @@ p {
 a.post-excerpt {
     display: block;
     color: inherit;
-    border: 1px solid white;
 }
 a.post-excerpt div.padded-content {
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 @media screen and (min-width: 680px) {
@@ -50,13 +49,11 @@ a.post-excerpt div.padded-content {
         overflow-y: hidden;
         float:left;
         margin-bottom:10px;
-        border: 1px solid white;
     }
 }
 
 a.post-excerpt:hover {
     text-decoration:none;
-    border: 1px solid #888;
 }
 
 a.post-excerpt div.title {
