@@ -8,8 +8,14 @@ keywords: wikipedia, javascript, themes
 hacks that simplify the interface, streamline image viewing, and provide link
 previews to other pages.
 
+To use these, you'll need to create a Wikipedia account so you can save
+settings to your profile.
+
+
 Simplify the interface
 ----------------------
+
+
 
 [WideSkin][WideSkin] to remove left toolbar
 
@@ -18,7 +24,7 @@ Simplify the interface
      title="Using the WideSkin theme reclaims the wasted space on the left. Those rarely used links are now in a toolbar dropdown.">
      <img src="/images/wikipedia-hacks-full.png"></a>
   <a href="/images/wikipedia-hacks-full-before.png" data-gallery="wiki"
-     title="Normal Wikipedia has a sidebar on the left that takes up valuable screen real estate."></a>
+     title="Default Wikipedia has a sidebar on the left that takes up valuable screen real estate."></a>
 </div>
 
 
@@ -33,7 +39,7 @@ Streamline image viewing
      title="With LighbBox enabled, clicking on an image immediately brings it up full screen.  Any keypress or click returns you to the article.">
      <img src="/images/wikipedia-hacks-image.png"></a>
   <a href="/images/wikipedia-hacks-image-before.png" data-gallery="wiki"
-     title="With normal Wikipedia, clicking on an image takes you to a separate page for that file.  You have to click a second time to see the full image."></a>
+     title="With default Wikipedia, clicking on an image takes you to a separate page for that file.  You have to click a second time to see the full image."></a>
 </div>
 
 Link previews
