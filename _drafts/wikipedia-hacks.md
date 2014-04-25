@@ -11,14 +11,15 @@ previews to other pages.
 Simplify the interface
 ----------------------
 
+[WideSkin][WideSkin] to remove left toolbar
+
 <div class="gallery">
   <a href="/images/wikipedia-hacks-full.png" data-gallery="wiki"
-     title="Using the WideSkin theme reclaims the wasted space on the left.
-     Those rarely used links are now in a toolbar dropdown.">
-     <img class="thumb" src="/images/wikipedia-hacks-full.png" width="50%"></a>
+     title="Using the WideSkin theme reclaims the wasted space on the left. Those rarely used links are now in a toolbar dropdown.">
+     <img src="/images/wikipedia-hacks-full.png"></a>
+  <a href="/images/wikipedia-hacks-full-before.png" data-gallery="wiki"
+     title="Normal Wikipedia has a sidebar on the left that takes up valuable screen real estate."></a>
 </div>
-
-[WideSkin][WideSkin] to remove left toolbar
 
 
 Streamline image viewing
@@ -29,9 +30,10 @@ Streamline image viewing
 
 <div class="gallery">
   <a href="/images/wikipedia-hacks-image.png" data-gallery="wiki"
-     title="Clicking on an image brings it up full screen.  Any keypress or
-     click returns you to the article.">
-     <img class="thumb" src="/images/wikipedia-hacks-image.png" width="50%"></a>
+     title="With LighbBox enabled, clicking on an image immediately brings it up full screen.  Any keypress or click returns you to the article.">
+     <img src="/images/wikipedia-hacks-image.png"></a>
+  <a href="/images/wikipedia-hacks-image-before.png" data-gallery="wiki"
+     title="With normal Wikipedia, clicking on an image takes you to a separate page for that file.  You have to click a second time to see the full image."></a>
 </div>
 
 Link previews
@@ -42,9 +44,8 @@ Link previews
 
 <div class="gallery">
   <a href="/images/wikipedia-hacks-hover.png" data-gallery="wiki"
-     title="Hovering over any link to another Wikipedia article creates a
-     popup with the first few sentences and key image.">
-     <img class="thumb" src="/images/wikipedia-hacks-hover.png" width="50%"></a>
+     title="Hovering over any link to another Wikipedia article creates a popup with the first few sentences and key image.">
+     <img src="/images/wikipedia-hacks-hover.png"></a>
 </div>
 
 
