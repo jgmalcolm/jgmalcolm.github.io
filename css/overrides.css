@@ -25,13 +25,13 @@ a:hover {
 }
 
 /* ==== main content ==== */
-div.content {
+#content {
     padding-bottom: 60px;
 }
-div.content.full-bleed {
+#content.full-bleed {
     padding:0;
 }
-div.content.photo {
+#content.photo {
     padding: 0;
     margin:0;
 }
