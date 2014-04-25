@@ -35,7 +35,7 @@ p {
 a.post-excerpt {
     display: block;
     color: inherit;
-    border-bottom: 4px solid #ddd;
+    border: 1px solid white;
 }
 a.post-excerpt div.padded-content {
     display: block;
@@ -49,15 +49,14 @@ a.post-excerpt div.padded-content {
         width:50%;
         overflow-y: hidden;
         float:left;
-        border:none;
         margin-bottom:10px;
+        border: 1px solid white;
     }
 }
 
 a.post-excerpt:hover {
-    color:white;
-    background:#444;
     text-decoration:none;
+    border: 1px solid #888;
 }
 
 a.post-excerpt div.title {
@@ -74,19 +73,9 @@ a.post-excerpt div.title {
 }
 #logo {
     color: inherit;
-    text-decoration: none;
     letter-spacing: -1px;
     font-weight: bold;
 }
-
-#avatar {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    display: block;
-    width: 140px;
-}
-
 
 #content img {
     width: 90%;
