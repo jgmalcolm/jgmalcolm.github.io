@@ -13,9 +13,16 @@ presentation, simply click it to hide (or show) the slide panel:
    href="javascript:(function (){var e=document.getElementById('filmstrip');e.style.display=(e.style.display=='')?'none':'';})();void(0)"
    onclick="void(0)">Toggle Slide Panel</a> ←  drag this button to your bookmarks
 
+<div class="gallery">
+  <a href="/images/slides-before.png" data-gallery="slides"
+     title="Normal Google Slide view with side panel for scrolling through slides.">
+     <img class="thumb" src="/images/slides-before.png" width="50%"></a>
+  <a href="/images/slides-after.png" data-gallery="slides"
+     title="Hiding the side panel gives more room."></a>
+</div>
 You'll notice that it simply hides the panel but doesn't refresh the screen
 layout to reclaim that space previously filled by the side panel.  Adjust the
-window or the notes tray and it'll immediately fill in.  Anyone know a good
+window or the notes tray and it'll immediately fill in.  Do you know a good
 way to fix this or force a refresh?
 
 If you refresh the page, the panel will reappear.  This bookmarklet doesn't do
@@ -31,3 +38,5 @@ edit mode to navigation mode where you can use the arrow keys to move between
 slides.
 
 Any tips you'd like to add?
+
+{% include gallery.html %}
