@@ -15,7 +15,8 @@ settings to your profile.
 Simplify the interface
 ----------------------
 
-
+The default Wikipedia page layout has a sidebar that takes up a good chunk of
+the screen and that means less room for the important stuff: text and images.
 
 [WideSkin][WideSkin] to remove left toolbar
 
