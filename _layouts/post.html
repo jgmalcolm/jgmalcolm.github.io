@@ -2,13 +2,11 @@
 layout: default
 ---
 <div class="{% if page.photo_url %}photo-post{% endif %}">
-  <div class="post">
-    {% unless page.photo_url %}
-    <h1 class="article-title"><a href="{{ page.url }}" title="{{ page.title}}">{{ page.title }}</a></h1>
-    {% endunless %}
+  {% unless page.photo_url %}
+  <h1 class="article-title"><a href="{{ page.url }}" title="{{ page.title}}">{{ page.title }}</a></h1>
+  {% endunless %}
 
-    {{ content }}
+  {{ content }}
 
-    {% include disqus.html %}
-  </div>
+  {% include disqus.html %}
 </div>
