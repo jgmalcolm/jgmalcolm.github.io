@@ -16,7 +16,7 @@ presentation, simply click it to hide (or show) the slide panel:
 <div class="gallery">
   <a href="/images/slides-before.png" data-gallery="slides"
      title="Normal Google Slide view with side panel for scrolling through slides.">
-     <img class="thumb" src="/images/slides-before.png" width="50%"></a>
+     <img src="/images/slides-before.png"></a>
   <a href="/images/slides-after.png" data-gallery="slides"
      title="Hiding the side panel gives more room."></a>
 </div>
