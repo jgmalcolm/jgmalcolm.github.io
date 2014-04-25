@@ -98,3 +98,11 @@ a.post-excerpt div.title {
     margin: 10px;
     float: right;
 }
+
+
+.blueimp-gallery > .close,
+.blueimp-gallery > .title {
+  background: black;
+  padding: 5px;
+  opacity: 1;
+}
