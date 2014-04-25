@@ -26,7 +26,7 @@
   <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
   {% endif %}
 {% else %}
-  <meta name="description" content="Ramblings by James Malcolm -- a med student in Atlanta with a passion for tech">
+  <meta name="description" content="{{ site.description }}">
 {% endif %}
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 {% if page.photo_url %}
