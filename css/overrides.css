@@ -10,9 +10,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
     padding-bottom: 10px;
 }
-.article-title a {
-    color: inherit;
-    text-decoration: none;
+.article-title {
+    text-align: center;
 }
 .article-date {
     font-style: italic;
@@ -55,11 +54,6 @@ a.post-excerpt div.padded-content {
 a.post-excerpt:hover {
     text-decoration:none;
 }
-
-a.post-excerpt div.title {
-    font-weight: bold;
-}
-
 
 /* ==== sidebar ==== */
 #sidebar {

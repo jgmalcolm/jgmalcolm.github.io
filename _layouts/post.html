@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="{% if page.photo_url %}photo-post{% endif %}">
   {% unless page.photo_url %}
-  <h1 class="article-title"><a href="{{ page.url }}" title="{{ page.title}}">{{ page.title }}</a></h1>
+  <h1 class="article-title">{{ page.title }}</h1>
   {% endunless %}
 
   {{ content }}
