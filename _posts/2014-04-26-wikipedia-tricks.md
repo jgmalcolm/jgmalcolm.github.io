@@ -108,8 +108,7 @@ from the [Beta Preferences page][beta].
   [LightBox]: https://en.wikipedia.org/wiki/User:Malcolmj1/SimpleLightbox
   [MediaViewer]: https://www.mediawiki.org/wiki/Multimedia/About_Media_Viewer
   [Hovercards]: https://www.mediawiki.org/wiki/Beta_Features/Hovercards
-  [beta]: https://www.mediawiki.org/wiki/Special:Preferences#mw-prefsection-betafeatures
-
+  [beta]: https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-betafeatures
 
 Any other tips and tricks you find useful?
 
