@@ -69,8 +69,8 @@ a.post-excerpt:hover {
 
 #content img {
     max-width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #content img.thumb {
     margin: 7px;
