@@ -1,4 +1,9 @@
-Priorities are everything in life.
+---
+title: Priorities are everything
+layout: post
+---
+
+Priorities are everything.
 
 You can work very hard, be the hardest worker on your team, but if you're
 working on the wrong things, you'll fail 100% of the time.
