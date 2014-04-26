@@ -68,17 +68,16 @@ a.post-excerpt:hover {
 }
 
 #content img {
-    width: 90%;
+    max-width: 90%;
     align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 #content img.thumb {
-    width: 50%;
-    border: 1px solid #606060;
     margin: 7px;
     float: right;
     padding: 0;
+    max-width: 50%;
 }
 
 
