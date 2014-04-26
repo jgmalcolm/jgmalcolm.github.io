@@ -12,30 +12,30 @@
 <link rel="shortcut icon" href="/favicon.ico">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@jgmalcolm">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@jgmalcolm"/>
 
 <!-- Facebook OpenGraph -->
 {% if page.title %}
-<meta property="og:title" content="{{ page.title }}">
+<meta property="og:title" content="{{ page.title }}"/>
   {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  <meta name="og:description" content="{{ page.description }}">
+  <meta name="description" content="{{ page.description }}"/>
+  <meta name="og:description" content="{{ page.description }}"/>
   {% else if content %}
-  <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
-  <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
+  <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}"/>
+  <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}"/>
   {% endif %}
 {% else %}
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ site.description }}"/>
 {% endif %}
-{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}"/>{% endif %}
 {% if page.photo_url %}
-<meta property="og:image" content="{{ page.photo_url }}">
+<meta property="og:image" content="{{ page.photo_url }}"/>
 {% endif %}
-<meta property="og:url" content="http://jgmalcolm.com{{ page.url | remove_first:'index.html' }}">
-<meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:type" content="article">
-<meta property="og:locale" content="en_EN" />
+<meta property="og:url" content="http://jgmalcolm.com{{ page.url | remove_first:'index.html' }}"/>
+<meta property="og:site_name" content="{{ site.name }}"/>
+<meta property="og:type" content="article"/>
+<meta property="og:locale" content="en_EN"/>
 {% if page.date %}
 <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
 {% endif %}
