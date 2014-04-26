@@ -4,9 +4,9 @@ layout: post
 keywords: wikipedia, javascript, themes
 ---
 
-[Wikipedia](//wikipedia.org) can be a little clumsy to navigate.  Here are three
-hacks that simplify the interface, streamline image viewing, and provide link
-previews to other pages.
+[Wikipedia](//wikipedia.org) can be a little clumsy to navigate.  Here are
+three hacks that simplify the interface, streamline image viewing, and enable
+pop-up link previews.
 
 To use these, you'll need to create a Wikipedia account so you can save
 settings to your profile.
@@ -43,8 +43,8 @@ Streamline image viewing
      title="With default Wikipedia, clicking on an image takes you to a separate page for that file.  You have to click a second time to see the full image."></a>
 </div>
 
-Link previews
--------------
+Pop-up link previews
+--------------------
 
 [Hovercards][Hovercards]
 
