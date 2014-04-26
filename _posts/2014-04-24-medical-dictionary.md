@@ -6,6 +6,7 @@ title: Free medical dictionary for Microsoft Office
 Getting tired of seeing red squiggly marks under your diverticula and
 granulomas?  Install a free medical dictionary for Microsoft Office.
 
+ [dic]: http://mtherald.com/download/MTH-Med-Spel-Chek.zip
  [www]: http://mtherald.com/free-medical-spell-checker-for-microsoft-word-custom-dictionary
 
 1. First, download the [free dictionary][www].  The instructions on that page
