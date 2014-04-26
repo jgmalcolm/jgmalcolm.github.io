@@ -6,6 +6,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Gill Sans', Calibri, sans-serif;
     font-weight: bold;
     color: rgb(43, 108, 194);
+    text-align: left;
+}
 }
 p + p {
     margin-top: 1em;
@@ -35,9 +37,6 @@ p + p {
 a.post-excerpt {
     display: block;
     color: inherit;
-}
-a.post-excerpt h1 {
-    text-align: left;
 }
 a.post-excerpt div.padded-content {
     display: block;
