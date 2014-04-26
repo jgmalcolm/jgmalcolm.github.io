@@ -20,6 +20,7 @@ p + p {
 /* ==== main content ==== */
 #content {
     padding-bottom: 60px;
+    text-align: justify;
 }
 #content.full-bleed {
     padding:0;
@@ -34,6 +35,9 @@ p + p {
 a.post-excerpt {
     display: block;
     color: inherit;
+}
+a.post-excerpt h1 {
+    text-align: left;
 }
 a.post-excerpt div.padded-content {
     display: block;
