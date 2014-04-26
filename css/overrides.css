@@ -68,6 +68,7 @@ a.post-excerpt:hover {
 #logo {
     color: inherit;
     letter-spacing: -3px;
+    text-align: center;
 }
 
 #content img {
