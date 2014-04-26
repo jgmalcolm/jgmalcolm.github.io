@@ -7,8 +7,8 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     color: rgb(43, 108, 194);
 }
-p {
-    padding-bottom: 10px;
+p + p {
+    margin-top: 1em;
 }
 .article-title {
     text-align: center;
