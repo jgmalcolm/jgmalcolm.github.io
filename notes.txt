@@ -23,3 +23,6 @@ PubMed: http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VYfBjawaNhB
 
 
 favicon with initials: http://faviconist.com
+
+
+https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
