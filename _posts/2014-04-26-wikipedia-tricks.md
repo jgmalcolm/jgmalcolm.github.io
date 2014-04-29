@@ -43,7 +43,7 @@ and only involves checking that box to enable the feature.
 
 
   [WideSkin]: https://en.wikipedia.org/wiki/User:Blue-Haired_Lawyer/Wide_Skin
-  [LightBox]: https://en.wikipedia.org/wiki/User:Malcolmj1/SimpleLightbox
+  [LightBox]: https://en.wikipedia.org/wiki/User:JGMalcolm/SimpleLightbox
   [MediaViewer]: https://www.mediawiki.org/wiki/Multimedia/About_Media_Viewer
   [Hovercards]: https://www.mediawiki.org/wiki/Beta_Features/Hovercards
   [beta]: https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-betafeatures
