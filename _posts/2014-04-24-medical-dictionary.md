@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Free medical dictionary for Microsoft Office
+tags:
+- med school
+- customization
 ---
 
 Getting tired of seeing red squiggly marks under your diverticula and

@@ -1,7 +1,10 @@
 ---
 title: Wikipedia Tricks
 layout: post
-keywords: wikipedia, javascript, themes
+keywords: Wikipedia, JavaScript, themes
+tags:
+- Wikipedia
+- customization
 ---
 
 <img class="thumb" src="/images/wikipedia.png"> [Wikipedia](//wikipedia.org)
