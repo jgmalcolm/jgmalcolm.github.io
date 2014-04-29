@@ -15,11 +15,12 @@ processes, in addition to giving you more reading space.
 
 ## Creating an account to store your preferences
 
-To get started, you'll need to [create a Wikipedia account][account] so you
-can save settings to your profile.  It's quick and it just lets you save
-preferences between visits to the site.
+To get started, you'll need to [create a Wikipedia account][create] so you can
+save settings to your profile.  It's quick and it just lets you save
+preferences between visits to the site ([among other benefits][benefits]).
 
-
+ [create]: https://en.wikipedia.org/w/index.php?title=Special:UserLogin&type=signup&returnto=Main+Page
+ [benefits]:     https://en.wikipedia.org/wiki/Wikipedia:Why_create_an_account%3F
 
 ## Pop-up link previews
 
@@ -73,7 +74,6 @@ selected.  These files are either
 * theme-specific [vector.js] and [vector.css]
 
   [skins]:       https://www.mediawiki.org/wiki/Manual:Skins
-  [account]:     https://en.wikipedia.org/wiki/Wikipedia:Why_create_an_account%3F
   [preferences]: https://en.wikipedia.org/wiki/Special:Preferences#mw-prefsection-rendering
   [common.js]:   https://en.wikipedia.org/wiki/Special:MyPage/common.js
   [common.css]:  https://en.wikipedia.org/wiki/Special:MyPage/common.css
