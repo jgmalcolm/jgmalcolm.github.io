@@ -1,3 +1,5 @@
 #!/bin/sh -e
 
+screen -X number 9
+screen -X title jekyll
 jekyll serve --watch --drafts -d /tmp/_site
