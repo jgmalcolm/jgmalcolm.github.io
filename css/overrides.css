@@ -1,13 +1,23 @@
 body {
-    font: 22px 'PT serif', serif;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    font-size: 22px;
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4 {
-    font-family: 'Gill Sans', Calibri, sans-serif;
     font-weight: bold;
-    color: rgb(43, 108, 194);
+    background: #dd2222;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
     text-align: left;
     letter-spacing: -1px;
+    padding: 15px;
+}
+a {
+    color: #ee2d32;
+}
+a:hover {
+    color: #ee2d32;
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
@@ -43,7 +53,9 @@ a.post-excerpt {
 }
 a.post-excerpt div.padded-content {
     display: block;
-    padding: 10px;
+}
+div.padded-content h1 {
+    text-align: center;
 }
 
 @media screen and (min-width: 680px) {
@@ -54,6 +66,10 @@ a.post-excerpt div.padded-content {
         overflow-y: hidden;
         float:left;
         margin-bottom:10px;
+    }
+    a.post-excerpt div.padded-content {
+        display: block;
+        margin: 10px;
     }
 }
 
