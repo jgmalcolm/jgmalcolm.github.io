@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %}
     <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
       <div class="padded-content">
-        <h1 class="title">{{ post.title }}</h1>
+        <h2 class="title">{{ post.title }}</h1>
         {% if post.photo_url %}
           <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
         {% else %}
