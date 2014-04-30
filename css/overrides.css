@@ -1,11 +1,11 @@
 body {
-    font-family: 'Gill Sans', Calibri, sans-serif;
-    font-size: 22px;
+    font-family: Avenir, 'Gill Sans', Calibri, sans-serif;
+    font-size: 23px;
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4 {
     font-weight: bold;
-    background: #dd2222;
+    background: #c4161c;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
@@ -14,10 +14,10 @@ h1, h2, h3, h4 {
     padding: 15px;
 }
 a {
-    color: #ee2d32;
+    color: #c4161c;
 }
 a:hover {
-    color: #ee2d32;
+    color: #c4161c;
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
