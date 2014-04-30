@@ -70,8 +70,11 @@ a.post-excerpt:hover {
 }
 #logo {
     color: inherit;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    padding-top: 15px;
 }
 
 #content img {
