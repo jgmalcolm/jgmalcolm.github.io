@@ -31,6 +31,17 @@ p + p {
 .article-date {
     font-style: italic;
 }
+a.button {
+    font-size: 19px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: .25em 1em;
+}
+a.button:hover {
+    text-decoration: none;
+    color: white;
+    background: #c4161c;
+}
 
 /* ==== main content ==== */
 #content {
