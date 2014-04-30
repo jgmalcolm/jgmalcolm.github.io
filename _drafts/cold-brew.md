@@ -5,7 +5,7 @@ layout: post
 
 Coffee can be smooth, rich, and simple.
 
-http://www.marksdailyapple.com/yerba-mate-benefits/#axzz2r8XJcgxI
+http://www.marksdailyapple.com/yerba-mate-benefits
 http://www.americastestkitchenfeed.com/do-it-yourself/2011/08/how-to-make-cold-brew-coffee/
 http://www.examiner.com/article/cold-brewing-for-less-acid-and-caffeine
 http://www.examiner.com/article/is-coffee-really-acidic
