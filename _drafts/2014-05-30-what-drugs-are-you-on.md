@@ -11,7 +11,8 @@ the way the title has it, here's some tips and tricks I've learned to get all
 the facts.
 
 <em>Note: I'm a medical student in Atlanta, and this post is part of a series
-on "Becoming a Doctor".  More to come...</em>
+on "Becoming a Doctor" (more to come).  These posts in no way constitute
+medical advice.  Consult your doctor.</em>
 
 I typically start with:
 
@@ -30,9 +31,8 @@ make sure you have all the information.
 
 > "What pills do you put in your mouth every day?"
 
-Ask them what they take every day.  "What pills do you put in your mouth each
-day?"  Also go beyond pills and prescriptions: herbals, over the counter,
-vitamins, supplements.
+Restating it this way often shakes out one or two loose meds.  Also go beyond
+pills and prescriptions:  herbals, over the counter, vitamins, supplements.
 
 Sidebar: pre-natal vitamins pack a powerful punch of vitamins and minerals
 which can interfere with the absorption of other medications like insulin, so
