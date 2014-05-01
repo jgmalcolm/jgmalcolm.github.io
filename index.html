@@ -4,6 +4,7 @@ layout: default
 <div class="posts">
   <div id="content" class="full-bleed">
   {% for post in site.posts %}
+    <hr>
     <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
       <div class="padded-content">
         <h2 class="title">{{ post.title }}</h1>
