@@ -42,7 +42,7 @@ Solution: take one in the morning and the other at night.
 Just having the list is not enough.  For every med on that list, you need two
 more things: why are they taking the pill, are they actually taking the pill.
 
-> "Why are you taking it?"
+> "Why are you taking that?"
 
 Meds have off-label uses or can be used to treat multiple disorders.  Don't
 just assume that because the patient is on synthroid that they have
