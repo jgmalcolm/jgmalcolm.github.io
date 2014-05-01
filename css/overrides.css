@@ -111,6 +111,12 @@ a.post-excerpt:hover {
     padding: 0;
     max-width: 50%;
 }
+#content img.bookcover {
+    margin: 15px;
+    float: right;
+    padding: 0;
+    max-width: 30%;
+}
 
 
 .blueimp-gallery > .close,
