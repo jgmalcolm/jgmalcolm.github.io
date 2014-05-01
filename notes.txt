@@ -28,3 +28,4 @@ favicon with initials: http://faviconist.com
 https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
 
 http://bootflat.github.io/documentation.html
+consider carosel: http://kenwheeler.github.io/slick
