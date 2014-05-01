@@ -104,6 +104,7 @@ a.post-excerpt:hover {
     max-width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    box-shadow: 10px 10px 5px #dddddd;
 }
 #content img.thumb {
     margin: 15px;
