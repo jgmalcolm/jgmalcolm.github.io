@@ -51,9 +51,6 @@ a.button:hover {
     padding-bottom: 60px;
     text-align: justify;
 }
-#content.full-bleed {
-    padding:0;
-}
 #content.photo {
     padding: 0;
     margin:0;
@@ -62,29 +59,7 @@ a.button:hover {
 /* ==== post excerpt ==== */
 
 a.post-excerpt {
-    display: block;
     color: inherit;
-}
-a.post-excerpt div.padded-content {
-    display: block;
-}
-div.padded-content h2 {
-    text-align: center;
-}
-
-@media screen and (min-width: 680px) {
-    a.post-excerpt {
-        position:relative;
-        display: block;
-        width:50%;
-        overflow-y: hidden;
-        float:left;
-        margin-bottom:10px;
-    }
-    a.post-excerpt div.padded-content {
-        display: block;
-        margin: 10px;
-    }
 }
 
 a.post-excerpt:hover {
