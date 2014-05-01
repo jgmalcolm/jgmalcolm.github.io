@@ -102,20 +102,18 @@ a.post-excerpt:hover {
 
 #content img {
     max-width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    box-shadow: 10px 10px 5px #dddddd;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
 }
 #content img.thumb {
     margin: 15px;
     float: right;
-    padding: 0;
     max-width: 50%;
 }
 #content img.bookcover {
     margin: 15px;
     float: right;
-    padding: 0;
     max-width: 30%;
 }
 
