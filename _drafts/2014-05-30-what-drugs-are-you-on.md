@@ -48,13 +48,14 @@ Meds have off-label uses or can be used to treat multiple disorders.  Don't
 just assume that because the patient is on synthroid that they have
 hypothyroidism -- they could have had a thyroid removed due to cancer.
 
-> "Are you actually taking it?"
+> "How often do you miss a dose?"
 
-So many patients are ill simply because they're skipping doses.  How many
-doses do you miss in a typical month?  A patient may be taking meds for
-hypertension, but you find their blood pressure is elevated that morning
-because they skipped today's dose.  Side:  a high blood pressure reading on a
-medicated hypertensive patient can be a good indication of non-compliance.
+So many patients are ill simply because they're skipping doses.  Other
+variants: Are you actually taking it?  How many doses have you missed in the
+last month?  A common scenario is for a hypertensive patient on medication to
+show up with high blood pressure because they forgot to take their meds that
+morning or ran out a week ago.
+
 Often patients simply forget, so walk them through some strategies to
 remember: pill boxes, rituals (at breakfast, when setting alarm at night, in
 car while commuting), or multiple pill caches for when you forgot and you've
