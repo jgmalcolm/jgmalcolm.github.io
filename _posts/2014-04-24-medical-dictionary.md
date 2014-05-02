@@ -18,10 +18,10 @@ Excel.
 
 ## Mac OSX
 
-1. Download the [free dictionary][dic].  Save the file somewhere permanent,
-   like where Office puts all its own dictionaries.  For example, /User/
-   \<user\>/ Library/ Application Support/ Microsoft/ Office/ Preferences/
-   Office 2011/
+1. Download the [free dictionary][dic] ([alternate][MedSpel]).  Save the file
+   somewhere permanent, like where Office puts all its own dictionaries.  For
+   example, /User/ \<user\>/ Library/ Application Support/ Microsoft/ Office/
+   Preferences/ Office 2011/
 
 2. Open up Word and any document (blank or existing).
 
@@ -42,9 +42,10 @@ Excel.
 
 (adapted from [Microsoft Help](http://office.microsoft.com/en-us/word-help/create-and-use-custom-dictionaries-HP005189558.aspx))
 
-1. Download the [free dictionary][dic].  Save the file somewhere permanent,
-   like where Office puts all its own dictionaries.  For example, C:\\ Users
-   \\ \<user\> \\ AppData \\ Roaming \\ Microsoft \\ UProof
+1. Download the [free dictionary][dic] ([alternate][MedSpel]).  Save the file
+   somewhere permanent, like where Office puts all its own dictionaries.  For
+   example, C:\\ Users \\ \<user\> \\ AppData \\ Roaming \\ Microsoft \\
+   UProof
 
 2. Add the dictionary:
    Tools menu &rarr;
@@ -60,5 +61,13 @@ Excel.
 
 4. Quit and restart any Office programs.
 
+
 If the above didn't work for you, please use the comments below to post issues
 or fixes.
+
+
+#### Update
+
+[MedSpel] is another free medical dictionary you can download.
+
+[MedSpel]: http://e-medtools.com/medspel.html
