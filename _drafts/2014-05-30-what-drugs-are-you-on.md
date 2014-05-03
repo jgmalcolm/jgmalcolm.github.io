@@ -10,10 +10,6 @@ Medications are a key part of taking a patient history.  While I never say it
 the way the title has it, here's some tips and tricks I've learned to get all
 the facts.
 
-<em>Note: I'm a medical student in Atlanta, and this post is part of a series
-on "Becoming a Doctor" (more to come).  These posts in no way constitute
-medical advice.  Consult your doctor.</em>
-
 I typically start with:
 
 > "What medications are you currently taking?"
@@ -63,3 +59,5 @@ already left the house.
 
 
 Any tips you use?
+
+{% include disclaimer.html %}
