@@ -4,6 +4,7 @@ layout: post
 tags:
 - medschool
 - BaD
+nocomments: true
 ---
 
 Medications are a key part of taking a patient history.  While I never say it
