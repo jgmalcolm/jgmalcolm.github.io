@@ -31,12 +31,6 @@ blockquote {
   font-style: italic;
 }
 
-.article-title {
-    text-align: center;
-}
-.article-date {
-    font-style: italic;
-}
 a.button {
     font-size: 19px;
     border: 1px solid;
