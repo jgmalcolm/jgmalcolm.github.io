@@ -1,5 +1,5 @@
 name: james malcolm
 url: http://jgmalcolm.com
 description: med student in Atlanta with an interest in tech
-permalink: /p/:title
+permalink: :title
 markdown: kramdown
