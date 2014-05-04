@@ -2,9 +2,7 @@
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/overrides.css">
+<link rel="stylesheet" href="/css/all.css">
 {% for css in page.css %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
 {% for js in page.js %}<script src="{{ js }}"></script>{% endfor %}
 
