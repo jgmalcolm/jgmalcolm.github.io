@@ -1,14 +1,20 @@
 - tag: better
-  txt: "getting better at everything"
+  txt: getting better at everything
+
 - tag: studying
-  txt: "studying more effectively"
-- tag: medschool
-  txt: "medical school"
+  txt: studying more effectively
+
+- tag: med school
+  txt: medical school
+
 - tag: BaD
-  txt: "becoming a doctor"
+  txt: becoming a doctor
+
 - tag: review
-  txt: "product reviews"
+  txt: product reviews
+
 - tag: book
-  txt: "book reviews"
+  txt: book reviews
+
 - tag: tools
-  txt: "building a better mouse trap"
+  txt: building a better mouse trap
