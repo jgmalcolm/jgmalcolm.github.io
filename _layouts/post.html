@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 <div class="{% if page.photo_url %}photo-post{% endif %}">
   {% unless page.photo_url %}
@@ -8,5 +9,7 @@ layout: default
 
   {{ content }}
 
-  {% include disqus.html %}
+  {% if page.comments %}
+    {% include comments.html %}
+  {% endif %}
 </div>
