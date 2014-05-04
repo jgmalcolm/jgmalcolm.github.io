@@ -8,6 +8,7 @@ h1, h2, h3, h4 {
     color: #c4161c;
     text-align: left;
     letter-spacing: -1px;
+    font-style: italic;
 }
 a {
     color: #c4161c;
