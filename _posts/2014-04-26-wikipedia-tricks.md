@@ -4,7 +4,7 @@ layout: post
 keywords: Wikipedia, JavaScript, themes
 tags:
 - Wikipedia
-- customization
+- tools
 ---
 
 <img class="thumb" src="/images/wikipedia.png"> [Wikipedia](//wikipedia.org)
