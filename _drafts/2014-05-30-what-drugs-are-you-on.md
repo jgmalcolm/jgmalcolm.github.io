@@ -2,7 +2,7 @@
 title: "'What drugs are you on?'"
 layout: post
 tags:
-- medschool
+- med school
 - BaD
 ---
 
