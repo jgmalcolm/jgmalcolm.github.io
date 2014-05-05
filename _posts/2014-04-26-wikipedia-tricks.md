@@ -125,9 +125,10 @@ Any other tips and tricks you find useful?
 
 ## More tips and tricks
 
-[Keyboard shortcuts][keyboard].
+[Keyboard shortcuts][keyboard], [overview of customization][customize]
 
 [keyboard]: https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts
+[customize]: https://en.wikipedia.org/wiki/Wikipedia:Customisation
 
 
 {% include gallery.html %}
