@@ -1,10 +1,11 @@
 ---
 title: Wikipedia Tricks
 layout: post
-keywords: Wikipedia, JavaScript, themes
-tags:
-- Wikipedia
-- tools
+keywords: "Wikipedia, JavaScript, themes"
+tags: 
+  - Wikipedia
+  - tools
+published: true
 ---
 
 <img class="thumb" src="/images/wikipedia.png"> [Wikipedia](//wikipedia.org)
@@ -120,9 +121,12 @@ up the image full resolution, and clicking or hitting any key will close it.
 Wikipedia also has its own built-in alternative [MediaViewer][MediaViewer] but
 I've found it to be clunky.
 
-
-
 Any other tips and tricks you find useful?
+
+## More tips and tricks
+
+[Keyboard shortcuts][keyboard].
+[keyboard]: https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts
 
 
 {% include gallery.html %}
