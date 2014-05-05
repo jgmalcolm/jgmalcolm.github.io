@@ -53,6 +53,10 @@ a.button:hover {
     padding: 0;
     margin:0;
 }
+hr {
+    border: 1px solid #ddd;
+    width: 80%;
+}
 
 /* ==== post excerpt ==== */
 
