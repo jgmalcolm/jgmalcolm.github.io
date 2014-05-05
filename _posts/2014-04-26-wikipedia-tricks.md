@@ -126,6 +126,7 @@ Any other tips and tricks you find useful?
 ## More tips and tricks
 
 [Keyboard shortcuts][keyboard].
+
 [keyboard]: https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts
 
 
