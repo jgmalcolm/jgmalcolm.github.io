@@ -14,20 +14,29 @@ opens.  Instead of enjoying the beautiful weather, both students work hard
 until the library closes.  Here's the kicker: they put in the *same amount of
 time* but I bet they likely each learned very different amounts of material.
 
-- excuses
+This is a big topic, and this are just some cursory thoughts.
+
+- unprecedented opportunities
+  - delay entering the workforce in order to develop expertise
+  - tools and technology at our fingertips (laptops, Google, mobile)
+
+## Excuses
+
+
   - they were a Bio major so they've already seen this stuff
   - all they do is study, so they won't have anything cool on their resume
   - they're just smarter ("I just wasn't born with brains.")
   - just a variant on the "victim" mentality
 
 - focus --> [intensity][intensity]
-  - job=learn  job!="curator of facebook funnies", "top tweeter", email/texts
+  - job=learn  job!="funniest facebook feed", "most pithy tweets", email/texts
     - phone in locker
 - time - they simply put in the time, no shortcuts here
   - consistency
 - synthesis - they determine what is important & what is context
   - active learning -> study guides
     - hand written
+    - testing (not just passive reading)
   - don't get bogged down in details
   - read but don't take time to squirrel them away for later
 - spaced repetition
@@ -36,6 +45,9 @@ time* but I bet they likely each learned very different amounts of material.
   - leave all books at school
   - chronic micro-disappointment with self at not doing
   - "If you want to surprise people, do what you say you're going to do."
+
+Don't expect to become a top student over night, but you should be better than
+you were yesterday.
 
 So stop wasting your Saturdays.  Study hard so you can play hard.
 
