@@ -30,10 +30,10 @@ make sure you have all the information.
 Restating it this way often shakes out one or two loose meds.  Also go beyond
 pills and prescriptions:  herbals, over the counter, vitamins, supplements.
 
-Sidebar: pre-natal vitamins pack a powerful punch of vitamins and minerals
-which can interfere with the absorption of other medications like insulin, so
-taking them at the same time could bind the insulin rendering it ineffective.
-Solution: take one in the morning and the other at night.
+<!-- Sidebar: pre-natal vitamins pack a powerful punch of vitamins and minerals -->
+<!-- which can interfere with the absorption of other medications like insulin, so -->
+<!-- taking them at the same time could bind the insulin rendering it ineffective. -->
+<!-- Solution: take one in the morning and the other at night. -->
 
 Just having the list is not enough.  For every med on that list, you need two
 more things: why are they taking the pill, are they actually taking the pill.
