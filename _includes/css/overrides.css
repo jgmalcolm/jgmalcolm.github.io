@@ -2,19 +2,20 @@ body {
     font-family: 'PT Sans', Avenir, 'Gill Sans', Calibri, sans-serif;
     font-size: 23px;
     -webkit-font-smoothing: antialiased;
+    background-color: rgb(246, 246, 246);
 }
 h1, h2, h3, h4 {
     font-weight: bold;
-    color: #c4161c;
+    color: rgb(69, 88, 96);
     text-align: left;
     letter-spacing: -1px;
     font-style: italic;
 }
 a {
-    color: #c4161c;
+    color: rgb(72, 143, 172);
 }
 a:hover {
-    color: #c4161c;
+    color: rgb(72, 143, 172);
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
