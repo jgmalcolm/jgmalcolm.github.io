@@ -1,13 +1,13 @@
 body {
-    font-family: 'PT Sans', Avenir, 'Gill Sans', Calibri, sans-serif;
-    font-size: 23px;
-    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    /* -webkit-font-smoothing: antialiased; */
+    /* text-rendering: optimizeLegibility; */
     background-color: rgb(246, 246, 246);
+    line-height: 1.3em;
 }
 h1, h2, h3, h4 {
     font-weight: bold;
     color: rgb(69, 88, 96);
-    text-align: left;
     letter-spacing: -1px;
     font-style: italic;
 }
@@ -46,8 +46,7 @@ a.button:hover {
 
 /* ==== main content ==== */
 #content {
-    padding-bottom: 60px;
-    text-align: justify;
+    padding-bottom: 50px;
 }
 #content.photo {
     padding: 0;
