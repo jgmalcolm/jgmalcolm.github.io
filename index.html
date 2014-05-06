@@ -2,24 +2,22 @@
 layout: default
 ---
 <div class="posts">
-  <div id="content" class="full-bleed">
-  {% for post in site.posts %}
-    {% unless forloop.first %}<hr>{% endunless %}
-    <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
-      <div class="padded-content">
-        <h2 class="title">{{ post.title }}</h1>
-        {% if post.photo_url %}
-          <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+{% for post in site.posts %}
+  {% unless forloop.first %}<hr>{% endunless %}
+  <a href="{{ post.url }}" class="post-excerpt{% if post.photo_url %} photo{% endif %}">
+    <div class="padded-content">
+      <h2 class="title">{{ post.title }}</h1>
+      {% if post.photo_url %}
+        <div class="image" style="background-image:url('{{ post.photo_url }}')"></div>
+      {% else %}
+        <div class="body">
+        {% if post.description %}
+          {{ post.description | strip_html }}
         {% else %}
-          <div class="body">
-          {% if post.description %}
-            {{ post.description | strip_html }}
-          {% else %}
-            {{ post.excerpt | strip_html }}
-          {% endif %}
-          </div>
-        {% endif %}<!-- post.photo_url -->
-      </div>
-    </a>{% endfor %}
-  </div>
+          {{ post.excerpt | strip_html }}
+        {% endif %}
+        </div>
+      {% endif %}<!-- post.photo_url -->
+    </div>
+  </a>{% endfor %}
 </div>
