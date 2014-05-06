@@ -12,6 +12,9 @@
 - supertrials
 
 
+- book recommendations
+  - http://blog.codinghorror.com/recommended-reading-for-developers
+
 - module strategy
   - slides
   - FA
