@@ -15,6 +15,18 @@ layout: nil
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>http://jgmalcolm.com/pubs/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://jgmalcolm.com/pubs/research.html</loc>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   {% for post in site.posts %}
   <url>
     <loc>http://jgmalcolm.com{{ post.url }}</loc>
