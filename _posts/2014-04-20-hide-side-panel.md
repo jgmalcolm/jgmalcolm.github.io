@@ -31,10 +31,10 @@ way to fix this or force a refresh?
 If you refresh the page, the panel will reappear.  This bookmarklet doesn't do
 anything permanent to Google Slides.
 
-I've also found the text format reset keyboard shortcut useful: "Cmd + \\".
+I've also found the text format reset keyboard shortcut useful: "Ctrl + \\".
 Since a lot of my presentations are imported Microsoft PowerPoint, the notes
-text is often all wonky. "Cmd + A" followed by "Cmd + \\" selects all the text
-and resets it to baseline.
+text is often all wonky. "Ctrl + A" followed by "Ctrl + \\" selects all the
+text and resets it to baseline.  Note: Ctrl &rarr; Cmd for Mac OSX
 
 When you're writing notes you can hit Esc a couple of times to back out from
 edit mode to navigation mode where you can use the arrow keys to move between
