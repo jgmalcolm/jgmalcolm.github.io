@@ -15,14 +15,6 @@ layout: nil
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-{% comment %}
-  <url>
-    <loc>http://jgmalcolm.com/archive/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-{% endcomment %}
   {% for post in site.posts %}
   <url>
     <loc>http://jgmalcolm.com{{ post.url }}</loc>
