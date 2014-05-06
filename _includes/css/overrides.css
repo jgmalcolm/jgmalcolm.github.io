@@ -1,7 +1,7 @@
 body {
     font-size: 22px;
-    /* -webkit-font-smoothing: antialiased; */
-    /* text-rendering: optimizeLegibility; */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     background-color: rgb(246, 246, 246);
     line-height: 1.3em;
 }
