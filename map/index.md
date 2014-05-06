@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 860 Peachtree St NE, Unit 2103
+robots: norobots
 ---
 
 <h1>Map &amp; Directions</h1>
