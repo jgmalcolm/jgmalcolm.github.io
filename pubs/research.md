@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Research Projects
-description: Publications in Computer Vision, Image Processing, and Filtered Tractography
-keywords: computer vision, image processing, segmentation, graph cuts, graphcut, level sets, active contours, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering
+description: "Publications in Computer Vision, Image Processing, and Filtered Tractography"
+keywords: "computer vision, image processing, segmentation, graph cuts, graphcut, level sets, active contours, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering"
+published: true
 ---
 
 # Research Projects
@@ -142,7 +143,7 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 
 <a href="pdfs/others/rathi_segmenting_analytically.pdf">&#8220;Segmenting
 Images Analytically in Shape Space&#8221;</a>, Rathi, et al., <i>IS&T/SPIE
-Symposium on Medical Imaging</i>, 2008.</p>
+Symposium on Medical Imaging</i>, 2008.
 
 
 
