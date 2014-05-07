@@ -12,21 +12,35 @@ differently with their time?  Do they know something I don't know?
 True story: Two students go to the library Saturday morning right when it
 opens.  Instead of enjoying the beautiful weather, both students work hard
 until the library closes.  Here's the kicker: they put in the *same amount of
-time* but I bet they likely each learned very different amounts of material.
+time but I bet they likely each learned very different amounts of material*.
+Same input but very different output.
 
-This is a big topic, and this are just some cursory thoughts.
+This is a big topic, and this are just some cursory thoughts.  There's a lot
+of "right" ways to study, but there are even more "wrong" ways, but if your
+grades suck, then you're probably on the "wrong" track.
 
-- unprecedented opportunities
-  - delay entering the workforce in order to develop expertise
-  - tools and technology at our fingertips (laptops, Google, mobile)
+We live in unprecedented times.  This generation more than ever has the
+opportunity to delay entering the workforce in order to develop skills.  The
+tools and technology at our fingertips blows away anything available 20 years
+ago: laptops, mobile, online tutorials, search.  Human potential is boundless,
+and it's a shame when anyone squanders opportunity.
+
+> "[T]he free, exploring mind of the individual human is the most valuable
+> thing in the world. And this I would fight for: the freedom of the mind to
+> take any direction it wishes, undirected. And this I must fight against: any
+> idea, religion, or government which limits or destroys the individual."
+> ("East of Eden" p. 131)
+
 
 ## Excuses
 
+We often look at high achievers and see them as different
 
   - they were a Bio major so they've already seen this stuff
   - all they do is study, so they won't have anything cool on their resume
   - they're just smarter ("I just wasn't born with brains.")
   - just a variant on the "victim" mentality
+  - their successes breed confidence, but can also mask insecurity
 
 - focus --> [intensity][intensity]
   - job=learn  job!="funniest facebook feed", "most pithy tweets", email/texts
