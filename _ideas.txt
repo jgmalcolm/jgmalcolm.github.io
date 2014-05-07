@@ -1,11 +1,13 @@
 - 3D printing
   - http://geekdad.com/2014/05/mechmaker - print your own toys
-- what to do?
+- big problems ... what to do?
   - what diseases are going to hit us?
     - DM - why it's important
     - autoimmune
+    - transplants
     - contagions (screenshot from trailer)
       - Hepatitis http://www.gilead.com/news/press-releases/2013/12/us-food-and-drug-administration-approves-gileads-sovaldi-sofosbuvir-for-the-treatment-of-chronic-hepatitis-c
+    - pull from YC call for apps (pg, sama)
   - lots of brain cells are going into trivial Apps
     - recently VCs/accelerators are turning to focus on biotech (YC)
 - no one says "no" to students
@@ -39,3 +41,5 @@
 
 - nobel prize
   - read description -> determine years since
+
+Anki - templates
