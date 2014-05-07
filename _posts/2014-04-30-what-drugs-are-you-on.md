@@ -61,6 +61,6 @@ already left the house.
 
 Any tips you use?
 
-For some levity, see [How a first year takes a history](http://www.youtube.com/watch?v=zxEUOzJnSJU).
+For some levity, watch [how to get a thorough history](http://www.youtube.com/watch?v=Ed99IkTKtPY).
 
 {% include disclaimer.html %}
