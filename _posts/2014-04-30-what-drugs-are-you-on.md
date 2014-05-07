@@ -1,9 +1,10 @@
 ---
 title: "'What drugs are you on?'"
 layout: post
-tags:
-- med school
-- BaD
+tags: 
+  - med school
+  - BaD
+published: true
 ---
 
 Medications are a key part of taking a patient history.  While I never say it
@@ -59,5 +60,7 @@ already left the house.
 
 
 Any tips you use?
+
+For some levity, see [How a first year takes a history](http://www.youtube.com/watch?v=zxEUOzJnSJU).
 
 {% include disclaimer.html %}
