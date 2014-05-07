@@ -29,18 +29,18 @@ and it's a shame when anyone squanders opportunity.
 > thing in the world. And this I would fight for: the freedom of the mind to
 > take any direction it wishes, undirected. And this I must fight against: any
 > idea, religion, or government which limits or destroys the individual."
-> ("East of Eden" p. 131)
+> -&nbsp;Steinbeck in "East of Eden"
 
 
 ## Excuses
 
-We often look at high achievers and see them as different
+We often look at high achievers and see them as different.  We rationalize why
+they're doing so well: they were a Bio major so they've already seen this med
+school stuff before, all they do is study so they won't have anything cool on
+their resume, they've just got more brains, etc.  These are all excuses.
+Recognize them as such and instead find inspiration.
 
-  - they were a Bio major so they've already seen this stuff
-  - all they do is study, so they won't have anything cool on their resume
-  - they're just smarter ("I just wasn't born with brains.")
-  - just a variant on the "victim" mentality
-  - their successes breed confidence, but can also mask insecurity
+## Focus
 
 - focus --> [intensity][intensity]
   - job=learn  job!="funniest facebook feed", "most pithy tweets", email/texts
