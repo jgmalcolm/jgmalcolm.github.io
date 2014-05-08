@@ -15,7 +15,7 @@ until the library closes.  Here's the kicker: they put in the *same amount of
 time but I bet they likely each learned very different amounts of material*.
 Same input but very different output.
 
-This is a big topic, and this are just some cursory thoughts.  There's a lot
+This is a big topic, and these are just some cursory thoughts.  There's a lot
 of "right" ways to study, but there are even more "wrong" ways, but if your
 grades suck, then you're probably on the "wrong" track.
 
@@ -23,7 +23,7 @@ We live in unprecedented times.  This generation more than ever has the
 opportunity to delay entering the workforce in order to develop skills.  The
 tools and technology at our fingertips blows away anything available 20 years
 ago: laptops, mobile, online tutorials, search.  Human potential is boundless,
-and it's a shame when anyone squanders opportunity.
+and it's a shame when anyone squanders the opportunity to learn.
 
 > "[T]he free, exploring mind of the individual human is the most valuable
 > thing in the world. And this I would fight for: the freedom of the mind to
@@ -54,8 +54,8 @@ and only check it during lunch.
 
 Another secret weapon of mine is software that simply blocks internet
 connection to certain sites ([SelfControl] for Mac OSX, [ColdTurkey] for
-Windows).  Facebook, Twitter, Gmail, Buzzfeed, Upworthy, ... whatever is your
-thing, block it.
+Windows).  Facebook, Twitter, Gmail, Buzzfeed, Upworthy,
+ICanHasCheezburger ... whatever is your thing...block it.
 
 [intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
 [SelfControl]: http://selfcontrolapp.com
@@ -66,7 +66,9 @@ thing, block it.
 
 Top students simply put in the time.  There are no shortcuts here.  They
 consistently schedule and prioritize blocks of study time.  Not just 30min
-here and 1hr there, but big chunks of time.
+here and 1hr there, but big chunks of time.  The treat it like a job
+consistently starting in the morning and continuing the full day.  Taking off
+an afternoon or a long lunch here and there is important, but not the norm.
 
 
 ## Synthesis
