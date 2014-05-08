@@ -6,8 +6,8 @@ tags:
 - better
 ---
 
-What separates me from someone that's doing better than me?  What do they do
-differently with their time?  Do they know something I don't know?
+What separates you from someone that's doing better than you?  What do they do
+differently with their time?  Do they know something you don't know?
 
 True story: Two students go to the library Saturday morning right when it
 opens.  Instead of enjoying the beautiful weather, both students work hard
@@ -29,7 +29,7 @@ and it's a shame when anyone squanders opportunity.
 > thing in the world. And this I would fight for: the freedom of the mind to
 > take any direction it wishes, undirected. And this I must fight against: any
 > idea, religion, or government which limits or destroys the individual."
-> -&nbsp;Steinbeck in "East of Eden"
+> -&nbsp;Steinbeck, "East of Eden"
 
 
 ## Excuses
@@ -42,30 +42,113 @@ Recognize them as such and instead find inspiration.
 
 ## Focus
 
-- focus --> [intensity][intensity]
-  - job=learn  job!="funniest facebook feed", "most pithy tweets", email/texts
-    - phone in locker
-- time - they simply put in the time, no shortcuts here
-  - consistency
-- synthesis - they determine what is important & what is context
-  - active learning -> study guides
-    - hand written
-    - testing (not just passive reading)
-  - don't get bogged down in details
-  - read but don't take time to squirrel them away for later
-- spaced repetition
-  - making a study guide != done studying
-- work/life balance
-  - leave all books at school
-  - chronic micro-disappointment with self at not doing
-  - "If you want to surprise people, do what you say you're going to do."
+Top students don't endlessly peruse their Facebook feed several times an hour.
+Your job is to learn.  Your job is not to check email.  You're not going to
+get an A because you checked email a lot or had the most pithy tweets.  Your
+job is not to carry on text message conversations throughout the day.  All of
+those things are secondary to learning.  All of those things in fact take away
+from learning.  They cause you to break focus, and then it takes time to get
+back in the zone.  Your output is a function of both time and [intensity].
+Instead of checking your phone between classes, put your phone in your locker
+and only check it during lunch.
+
+Another secret weapon of mine is software that simply blocks internet
+connection to certain sites ([SelfControl] for Mac OSX, [ColdTurkey] for
+Windows).  Facebook, Twitter, Gmail, Buzzfeed, Upworthy, ... whatever is your
+thing, block it.
+
+[intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
+[SelfControl]: http://selfcontrolapp.com
+[ColdTurkey]: http://getcoldturkey.com/
+
+
+## Time
+
+Top students simply put in the time.  There are no shortcuts here.  They
+consistently schedule and prioritize blocks of study time.  Not just 30min
+here and 1hr there, but big chunks of time.
+
+
+## Synthesis
+
+Top students have a knack for understanding what is important, and what is
+just context.  Their study time is active learning.  Creating your own study
+guide will force you to wrestle with the material in a way that passively
+reading doesn't achieve.  Underlining key words or phrases focuses your
+attention.  [Recent studies][hand-written] show that hand written notes are
+more effective than typed.
+
+[hand-written]: http://www.theatlantic.com/technology/archive/2014/05/to-remember-a-lecture-better-take-notes-by-hand/361478
+
+
+
+## Testing
+
+Reading the same material over and over bores me.  My mind often drifts and my
+energy wanes.  I've found that I'm most engaged when I'm doing practice
+questions.  Instead of passively reading and nodding along, doing a few
+practice questions and getting stuff *wrong* gets my attention.  There's
+plenty of research into this [testing effect].
+
+Doing practice problems also helps me keep clear on what's important.  What's
+important testable material and what's just context.  While doing these
+practice sets, I try to refer to the study guides I created and make marks to
+indicate what material came up in questions.  Put a small dot in the margin
+every time a question hit on a concept, and then you'll quickly start to see
+what are the high yield topics.
+
+[testing effect]: https://en.wikipedia.org/wiki/Testing_effect
+
+
+## Spaced repetition
+
+Making a study guide is a good start.  You need to circle back to study that
+study guide.  Not only that, when you circle back matters.  Knowledge tends to
+drop off on a curve: 1hr spent reviewing 24hrs after lecture is more effective
+than 1hr spent 5 days later.  [Spaced Repetition][wiki-sr] is a technique that
+attempts to model this timing to queue up review items when most effective.
+There are great flashcard systems like [Anki] that implement these models and
+provide cute graphs and numbers so you can [gamify learning][gamify].  For
+standardized classes, chances are someone [already created the deck][decks]
+you want to study, e.g. [med school boards][usmle].  Read more about
+[incremental learning] and [spaced repetition].
+
+[wiki-sr]: https://en.wikipedia.org/wiki/Spaced_repetition
+[spaced repetition]: http://www.gwern.net/Spaced%20repetition
+[Anki]: http://ankisrs.net
+[decks]: https://ankiweb.net/shared/decks
+[usmle]: https://ankiweb.net/shared/decks/usmle
+[incremental learning]: http://www.super-memory.com/help/il_full.htm
+[gamify]: http://lifehacker.com/the-psychology-of-gamification-can-apps-keep-you-motiv-1521754385
+
+
+## Balance
+
+School isn't everything, and you'll be punished if you try to make it so.
+Find what balance means for you.  What makes you happy?  I found that I like
+to leave all my books at school and do all my studying there.  Now I feel so
+relaxed when I get home.  I make work/school a distraction-free environment,
+and home is my personal space.  Having strong barriers defining zones of study
+and relaxation helps me [avoid burnout][burnout].
+
+Get good [sleep].  Figure out personally how much sleep you need to
+consistently feel 100%.  I'm sick of hearing people brag about running on
+fumes.  I've so often stayed up late one night only to have the next one or
+two days be sub par.
+
+[sleep]: http://www.super-memory.com/articles/sleep.htm
+[burnout]: http://www.scotthyoung.com/blog/2014/04/01/study-hard-no-burnout
+
+
+
+## Conclusion
 
 Don't expect to become a top student over night, but you should be better than
-you were yesterday.
+you were yesterday.  Pick a few of the tips above and run with it.  Stop
+wasting your Saturdays, and start study hard so you can play hard.
 
-So stop wasting your Saturdays.  Study hard so you can play hard.
+Lots more could be written on the topic, and I'm sure I'll come back to it.
+I'm constantly trying new things, borrowing from the best, mixing and matching
+to suit my personality, always trying to become better.
 
-[SelfControl]: http://selfcontrolapp.com
-[spaced repetition]: http://www.gwern.net/Spaced%20repetition
-[intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
-[CalNewport]: http://calnewport.com/blog
+What works for you?
