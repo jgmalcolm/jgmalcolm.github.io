@@ -15,21 +15,23 @@ until the library closes.  Here's the kicker: they put in the *same amount of
 time but I bet they likely each learned very different amounts of material*.
 Same input but very different output.
 
-This is a big topic, and these are just some cursory thoughts.  There's a lot
-of "right" ways to study, but there are even more "wrong" ways, but if your
-grades suck, then you're probably on the "wrong" track.
-
 We live in unprecedented times.  This generation more than ever has the
 opportunity to delay entering the workforce in order to develop skills.  The
 tools and technology at our fingertips blows away anything available 20 years
 ago: laptops, mobile, online tutorials, search.  Human potential is boundless,
 and it's a shame when anyone squanders the opportunity to learn.
 
+This is a big topic, and these are just some cursory thoughts.  There's a lot
+of "right" ways to study, but there are even more "wrong" ways, but if your
+grades suck, then you're probably on the "wrong" track.
+
+{% comment %}
 > "[T]he free, exploring mind of the individual human is the most valuable
 > thing in the world. And this I would fight for: the freedom of the mind to
 > take any direction it wishes, undirected. And this I must fight against: any
 > idea, religion, or government which limits or destroys the individual."
 > -&nbsp;Steinbeck, "East of Eden"
+{% endcomment %}
 
 
 ## Excuses
@@ -143,7 +145,7 @@ two days be sub par.
 
 
 
-## Conclusion
+## Parting thoughts
 
 Don't expect to become a top student over night, but you should be better than
 you were yesterday.  Pick a few of the tips above and run with it.  Stop
