@@ -90,9 +90,9 @@ h6:hover .header-link {
 }
 #logo {
     color: inherit;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     text-align: center;
-    font-size: 150%;
+    font-size: 200%;
     font-weight: bold;
     padding-top: 15px;
 }
