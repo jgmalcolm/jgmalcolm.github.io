@@ -1,6 +1,0 @@
-#!/bin/sh -e
-
-dir=~/Documents/www
-screen -X number 9
-screen -X title jekyll
-jekyll serve --watch --drafts -s ${dir} -d /tmp/_site
