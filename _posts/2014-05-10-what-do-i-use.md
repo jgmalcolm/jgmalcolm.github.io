@@ -8,7 +8,7 @@ tags:
 A list of tools I use daily to work efficiently, stay focused, and keep
 organized.
 
-* Macbook Air 11"
+* [Macbook Air 11"](http://www.apple.com/macbook-air)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [Audéo earbuds](http://www.amazon.com/Audeo-Perfect-Bass-Earphones-Black/dp/B003V9QDXK) - excellent sound, tight fit[^bench]
 * [Google apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own jgmalcolm.com domain
