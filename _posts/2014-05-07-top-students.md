@@ -116,8 +116,7 @@ these models and provide cute graphs and numbers so you can
 [gamify learning][gamify].  For standardized classes, chances are someone
 [already created the deck][decks] you want to study,
 e.g. [med school boards][usmle].  Read more about [incremental learning] and
-spaced repetition [here][gwern], [here][sivers], [here][griffel], and
-[here][janki].
+[spaced repetition][gwern].
 
 [wiki-sr]: https://en.wikipedia.org/wiki/Spaced_repetition
 [gwern]: http://www.gwern.net/Spaced%20repetition
