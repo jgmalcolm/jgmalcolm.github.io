@@ -48,6 +48,9 @@ a.button:hover {
 /* ==== main content ==== */
 #content {
     padding-bottom: 50px;
+    background: #fefefe;
+    border: 1px solid #999;
+    border-radius: 10px;
 }
 #content.photo {
     padding: 0;
