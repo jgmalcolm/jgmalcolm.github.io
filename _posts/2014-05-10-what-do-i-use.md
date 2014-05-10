@@ -1,6 +1,8 @@
 ---
 title: "What do I use?"
 layout: post
+tags:
+- tools
 ---
 
 A list of tools I use daily to work efficiently, stay focused, and keep
