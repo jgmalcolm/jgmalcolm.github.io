@@ -125,10 +125,13 @@ Any other tips and tricks you find useful?
 
 ## More tips and tricks
 
-[Keyboard shortcuts][keyboard], [Wikipedia customizations][customize].
+[Keyboard shortcuts][keyboard],
+[Wikipedia customizations][customize],
+[syntax highlighting] while editing
 
 [keyboard]: https://en.wikipedia.org/wiki/Wikipedia:Keyboard_shortcuts
 [customize]: https://en.wikipedia.org/wiki/Wikipedia:Customisation
+[syntax highlighting]: https://www.mediawiki.org/wiki/User:Remember_the_dot/Syntax_highlighter
 
 
 {% include gallery.html %}
