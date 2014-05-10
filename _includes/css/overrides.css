@@ -59,6 +59,13 @@ p.tags span {
     font-weight: bold;
 }
 
+div.footnotes::before {
+    content: "Footnotes:";
+}
+div.footnotes {
+    font-size: 80%;
+}
+
 hr {
     border: 1px solid #ddd;
     width: 80%;
