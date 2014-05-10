@@ -2,7 +2,6 @@ body {
     font-size: 19px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    background-color: rgb(246, 246, 246);
     line-height: 1.3em;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -48,9 +47,6 @@ a.button:hover {
 /* ==== main content ==== */
 #content {
     padding-bottom: 50px;
-    background: #fefefe;
-    border: 1px solid #999;
-    border-radius: 10px;
 }
 p.tags {
     text-align: right;
