@@ -17,7 +17,7 @@ Same input but very different output.
 
 We live in unprecedented times.  This generation more than ever has the
 opportunity to delay entering the workforce in order to develop skills.  The
-tools and technology at our fingertips blows away anything available 20 years
+tools and technology at our fingertips blow away anything available 20 years
 ago: laptops, mobile, online tutorials, search.  Human potential is boundless,
 and it's a shame when anyone squanders the opportunity to learn.
 
@@ -68,7 +68,7 @@ ICanHasCheezburger ... whatever is your thing...block it.
 
 Top students simply put in the time.  There are no shortcuts here.  They
 consistently schedule and prioritize blocks of study time.  Not just 30min
-here and 1hr there, but big chunks of time.  The treat it like a job
+here and 1hr there, but big chunks of time.  They treat it like a job
 consistently starting in the morning and continuing the full day.  Taking off
 an afternoon or a long lunch here and there is important, but not the norm.
 
@@ -106,25 +106,29 @@ what are the high yield topics.
 
 ## Spaced repetition
 
-Making a study guide is a good start.  You need to circle back to study that
-study guide.  Not only that, when you circle back matters.  Knowledge tends to
-drop off on a curve: 1hr spent reviewing 24hrs after lecture is more effective
-than 1hr spent 5 days later.  [Spaced Repetition][wiki-sr] is a technique that
-attempts to model this timing to queue up review items when most effective.
-There are great flashcard systems like [Anki] that implement these models and
-provide cute graphs and numbers so you can [gamify learning][gamify].  For
-standardized classes, chances are someone [already created the deck][decks]
-you want to study, e.g. [med school boards][usmle].  Read more about
-[incremental learning] and [spaced repetition].
+Making a study guide is a good start, but you need to circle back to study
+that study guide.  Not only that, when you circle back matters.  Knowledge
+tends to drop off on a curve: 1hr spent reviewing 24hrs after lecture is more
+effective than 1hr spent 5 days later.  [Spaced Repetition][wiki-sr] is a
+technique that attempts to model this timing to queue up review items when
+most effective.  There are great flashcard systems like [Anki] that implement
+these models and provide cute graphs and numbers so you can
+[gamify learning][gamify].  For standardized classes, chances are someone
+[already created the deck][decks] you want to study,
+e.g. [med school boards][usmle].  Read more about [incremental learning] and
+spaced repetition [here][gwern], [here][sivers], [here][griffel], and
+[here][janki].
 
 [wiki-sr]: https://en.wikipedia.org/wiki/Spaced_repetition
-[spaced repetition]: http://www.gwern.net/Spaced%20repetition
+[gwern]: http://www.gwern.net/Spaced%20repetition
 [Anki]: http://ankisrs.net
 [decks]: https://ankiweb.net/shared/decks
 [usmle]: https://ankiweb.net/shared/decks/usmle
 [incremental learning]: http://www.super-memory.com/help/il_full.htm
 [gamify]: http://lifehacker.com/the-psychology-of-gamification-can-apps-keep-you-motiv-1521754385
-
+[sivers]: http://sivers.org/srs
+[janki]: http://www.jackkinsella.ie/2011/12/05/janki-method.html
+[griffel]: https://medium.com/medium-redef/5481606b087a
 
 ## Balance
 
@@ -136,9 +140,10 @@ and home is my personal space.  Having strong barriers defining zones of study
 and relaxation helps me [avoid burnout][burnout].
 
 Get good [sleep].  Figure out personally how much sleep you need to
-consistently feel 100%.  I'm sick of hearing people brag about running on
-fumes.  I've so often stayed up late one night only to have the next one or
-two days be sub par.
+consistently feel 100%.  I'm not impressed when I hear people brag about
+running on X hours of sleep.  I've done that plenty myself, and I've found my
+mood and energy sub par for a day or two after.  In other words, a few extra
+hours of cramming can often affect an entire day or two after.
 
 [sleep]: http://www.super-memory.com/articles/sleep.htm
 [burnout]: http://www.scotthyoung.com/blog/2014/04/01/study-hard-no-burnout
@@ -149,7 +154,7 @@ two days be sub par.
 
 Don't expect to become a top student over night, but you should be better than
 you were yesterday.  Pick a few of the tips above and run with it.  Stop
-wasting your Saturdays, and start study hard so you can play hard.
+wasting your Saturdays, and start studying hard so you can play hard.
 
 Lots more could be written on the topic, and I'm sure I'll come back to it.
 I'm constantly trying new things, borrowing from the best, mixing and matching
