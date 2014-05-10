@@ -1,10 +1,8 @@
 ---
 title: "'What drugs are you on?'"
 layout: post
-tags: 
+tags:
   - med school
-  - BaD
-published: true
 ---
 
 Medications are a key part of taking a patient history.  While I never say it

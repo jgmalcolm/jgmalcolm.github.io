@@ -52,10 +52,13 @@ a.button:hover {
     border: 1px solid #999;
     border-radius: 10px;
 }
-#content.photo {
-    padding: 0;
-    margin:0;
+p.tags {
+    text-align: right;
 }
+p.tags span {
+    font-weight: bold;
+}
+
 hr {
     border: 1px solid #ddd;
     width: 80%;
