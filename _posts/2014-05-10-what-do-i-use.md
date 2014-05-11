@@ -30,7 +30,7 @@ organized.
 * [IFTTT] to record all my tweets and facebook posts so I can find cool articles later
 
 [gmail]: http://gmailblog.blogspot.com/2008/03/2-hidden-ways-to-get-more-from-your.html
-[calender]: http://gmailblog.blogspot.com/2008/03/2-hidden-ways-to-get-more-from-your.html
+[calender]: https://support.google.com/calendar/answer/36604
 [^bench]: Might be interesting to [benchmark them](http://www.audiocheck.net/soundtests_headphones.php)
 [Adblock]: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
 [LastPass]: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
