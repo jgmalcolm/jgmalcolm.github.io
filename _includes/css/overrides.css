@@ -57,7 +57,7 @@ div.tags {
 }
 
 div.footnotes::before {
-    content: "Footnotes:";
+    content: "Footnotes: ";
 }
 div.footnotes {
     font-size: 80%;
