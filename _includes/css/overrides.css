@@ -51,9 +51,8 @@ a.button:hover {
 }
 p.tags {
     text-align: right;
-}
-p.tags span {
     font-weight: bold;
+    font-size: 80%;
 }
 
 div.footnotes::before {
