@@ -47,6 +47,7 @@ a.button:hover {
 
 /* ==== main content ==== */
 #content {
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 p.tags {
@@ -69,12 +70,11 @@ hr {
 
 /* ==== post excerpt ==== */
 
-a.post-excerpt {
-    color: inherit;
+p.post {
 }
 
-a.post-excerpt:hover {
-    text-decoration:none;
+p.post .title {
+    font-weight: bold;
 }
 
 .header-link {
