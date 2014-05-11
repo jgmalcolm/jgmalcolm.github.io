@@ -50,7 +50,7 @@ a.button:hover {
     padding-top: 10px;
     padding-bottom: 50px;
 }
-p.tags {
+div.tags {
     text-align: right;
     font-weight: bold;
     font-size: 80%;

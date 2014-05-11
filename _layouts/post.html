@@ -3,11 +3,13 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
-<p class="tags">
+{% if page.tags %}
+<div class="tags">
 {% for tag in page.tags %}
   <span>#{{ tag }}</span>
 {% endfor %}
-</p>
+</div>
+{% endif %}
 
 {{ content }}
 
