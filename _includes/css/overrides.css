@@ -3,19 +3,20 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.3em;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    background: white;
 }
 h1, h2, h3, h4 {
     font-weight: bold;
-    color: rgb(69, 88, 96);
+    color: #333;
     letter-spacing: -1px;
-    font-style: italic;
+    font-family: 'Patua One', sans-serif;
 }
 a {
-    color: rgb(72, 143, 172);
+    color: #c4161c;
 }
 a:hover {
-    color: rgb(72, 143, 172);
+    color: #c4161c;
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
@@ -104,6 +105,7 @@ h6:hover .header-link {
     font-size: 200%;
     font-weight: bold;
     padding-top: 15px;
+    font-family: 'Patua One', sans-serif;
 }
 
 #content img {
