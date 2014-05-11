@@ -13,10 +13,10 @@ h1, h2, h3, h4 {
     font-family: 'Patua One', sans-serif;
 }
 a {
-    color: #ef3c24;
+    color: #c4161c;
 }
 a:hover {
-    color: #ef3c24;
+    color: #c4161c;
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
@@ -75,7 +75,7 @@ p.post {
 
 p.post .title {
     font-size: 1.1em;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .header-link {
