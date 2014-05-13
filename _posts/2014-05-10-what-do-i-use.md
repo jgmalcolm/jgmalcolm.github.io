@@ -27,7 +27,7 @@ organized.
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [Flux] to alter my laptop's screen colors to the time of day
-* [SelfControl], [ColdTurkey], and [Block Site] to keep me off facebook, email, and the news when I need to be productive
+* [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [IFTTT] to record all my tweets and facebook posts so I can find cool articles later
 * [Kindle Paperwhite][kindle] for carrying around a small library of
   interesting books and articles.  The backlit screen is fantastic in low
@@ -63,5 +63,4 @@ organized.
 [Flux]: https://justgetflux.com
 [SelfControl]: http://selfcontrolapp.com
 [ColdTurkey]: http://getcoldturkey.com
-[Block Site]: https://chrome.google.com/webstore/detail/block-site/eiimnmioipafcokbfikbljfdeojpcgbh
 [IFTTT]: http://ifttt.com
