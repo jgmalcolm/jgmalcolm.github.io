@@ -11,7 +11,7 @@ organized.
 * [Macbook Air 11"](http://www.apple.com/macbook-air)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [Audéo earbuds](http://www.amazon.com/Audeo-Perfect-Bass-Earphones-Black/dp/B003V9QDXK) - excellent sound, tight fit[^bench]
-* [Google apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own jgmalcolm.com domain
+* [Google apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
   * quickly add calender entries with this [bookmarklet][calender]
   * find out which company has sold your email address with this [Gmail trick][gmail]
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions and bookmarklets:
