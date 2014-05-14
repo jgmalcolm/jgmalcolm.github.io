@@ -13,6 +13,8 @@ and advice.
   - AccelerEyes, ArrayFire, med school
 - work on important projects
   - even if starting on a grinding project, use the experience to know the tools and keep your eyes open
+  - Hamming
+  - rockstars (in any field)
 - blog
   - practice effective communication
   - evolve your thinking
@@ -30,6 +32,7 @@ and advice.
     - Mendeley
 - publish code
   - every paper has an SHA
+  - [spread the word about your code][spread]
 - every project has a website
   - for the lay and technical
   - papers, code
@@ -38,25 +41,33 @@ and advice.
   - more likely for others to build upon
   - BibTeX
 - edit wikipedia
-  - provide a road map for those entering your field
+  - provide a road map for newbies and generations to come
   - promote important discoveries and techniques
+  - organize your own thoughts
 - papers and publishing
   - work backward from conference location
   - read papers from last year's conference in which you want to publish
     - know the bar
-    - [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals
+    - [lankton-rss]
   - be sure to cite relevant members of program committee
 - writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
   - http://www.shawnlankton.com/2007/09/formula-to-write-a-paper
+- productivity
+  - top students
+  - focus
+  - time
+  - balance
 - thesis
   - repurpose the intro into book chapters (advisor connections)
 - defense
 - career
   - industry vs postdoc [r01-rate]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
+  - Hamming
 
-[mozilla]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
+[lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
+[spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
 [hamming-txt]: http://www.cs.virginia.edu/~robins/YouAndYourResearch.html "Richard Hamming: You and Your Research (text)"
 [hamming-vid]: https://www.youtube.com/watch?v=a1zDuOPkMSw "Richard Hamming: You and Your Research (video)"
 [r01-rate]: https://twitter.com/balajis/status/466395475479134208
