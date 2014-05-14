@@ -14,9 +14,14 @@
   - "can I follow you around?"
 - basic skills after 1st year
   - routine hnp -> net everything relevant, routine quesitons
+
 - finding a mentor
-- books
+  - what
+
 - supertrials
+  - http://www.stevepavlina.com/blog/2010/11/30-day-supertrials
+     http://www.pearltrees.com/#/N-play=0&N-p=55678747&N-s=1_6075712&N-u=1_799134&N-fa=6057902&N-f=1_6075712
+  - physical calendar
   - no complaint bracelet
     http://fourhourworkweek.com/2007/09/18/real-mind-control-the-21-day-no-complaint-experiment
 
@@ -29,23 +34,27 @@
   - http://blog.codinghorror.com/recommended-reading-for-developers
 
 - module strategy
-  - slides
-  - FA
-  - other sources only as needed after above have been exhaused
+  #1 slides
+  #2 FA
+  #3 other sources (only as needed after above have been exhausted)
     - FA OS
-    - Access
-    - google
-    - if you read the textbooks, you'll run out of time
+    - Access Medicine
+    - Google
+    - if you read the textbooks, you'll likely run out of time but good for spot checks
+      - Lilly
   - MCQs
+    - as you go each week
   - review sensitive areas from previous modules
     - e.g. bugs, drugs, dz you keep hearing about
 
 - simplify
-  - "don't have to read everything on the internet" http://paulstamatiou.com/simplify/
+  - "don't have to read everything on the internet" http://paulstamatiou.com/simplify
 - selling stuff
+  - Kindle
+  - books
 
-
-- nobel prize
+- Nobel Prize
   - read description -> determine years since
+  - Laskar Prize
 
 Anki - templates
