@@ -14,4 +14,5 @@ and [scientist](/pubs/research.html).
 <a href="https://github.com/jgmalcolm" title="GitHub">github</a> &middot;
 <a href="http://scholar.google.com/citations?user=k8pxfGQAAAAJ" title="Google Scholar">scholar</a> &middot;
 <a href="mailto:me@jgmalcolm.com?subject=Hi" title="E-Mail">email</a> &middot;
-<a href="{{ site.url }}/atom.xml" title="Subscribe (Atom)">rss</a>
+<a href="https://www.linkedin.com/in/jgmalcolm">linkedin</a> &middot;
+<a href="/atom.xml" title="Subscribe (Atom)">rss</a>
