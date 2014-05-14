@@ -19,6 +19,10 @@
 - supertrials
 
 
+- med school
+  summer before: http://www.dysgraphicmusings.com/2013/06/how-to-spend-summer-before-medical.html
+
+
 - book recommendations
   - http://blog.codinghorror.com/recommended-reading-for-developers
 
