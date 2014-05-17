@@ -22,8 +22,8 @@ ago: laptops, mobile, online tutorials, search.  Human potential is boundless,
 and it's a shame when anyone squanders the opportunity to learn.
 
 This is a big topic, and these are just some cursory thoughts.  There's a lot
-of "right" ways to study, but there are even more "wrong" ways, but if your
-grades suck, then you're probably on the "wrong" track.
+of "right" ways to study, but there are even more "wrong" ways, so if your
+grades suck, then you're probably doing it the "wrong" way.
 
 {% comment %}
 > "[T]he free, exploring mind of the individual human is the most valuable

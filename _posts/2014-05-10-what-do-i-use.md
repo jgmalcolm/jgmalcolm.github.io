@@ -37,9 +37,13 @@ organized.
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
     [Kindle integration][insta-kindle].
-  * [Echophon Pro] for twitter - I found this better than twitter's own client and integrates with
+  * [Echophon Pro] for twitter - I found this better than twitter's own client and integrates with [Instapaper].
   * [Sleep Cycle] to wake me up gently at just the right time
+  * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
+    insists on Safari as the default browser
+    ([reminiscent of Internet Explorer bundling][msft]).
 
+[msft]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
 [Sleep Cycle]: http://www.sleepcycle.com
 [kindle]: http://www.amazon.com/dp/B00BTI6HBS
 [Instapaper]: http://instapaper.com
