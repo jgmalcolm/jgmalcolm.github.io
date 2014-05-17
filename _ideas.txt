@@ -5,6 +5,9 @@
     - DM - why it's important
     - autoimmune
     - transplants
+    - essential tremors
+       http://www.ted.com/talks/yoav_medan_ultrasound_surgery_healing_without_cuts
+       www.npr.org/blogs/health/2014/05/13/310399325/a-spoon-that-shakes-to-counteract-hand-tremors
     - contagions (screenshot from trailer)
       - Hepatitis http://www.gilead.com/news/press-releases/2013/12/us-food-and-drug-administration-approves-gileads-sovaldi-sofosbuvir-for-the-treatment-of-chronic-hepatitis-c
     - pull from YC call for apps (pg, sama)
