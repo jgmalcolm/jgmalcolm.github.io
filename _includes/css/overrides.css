@@ -3,7 +3,7 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.3em;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: #6d6d6d;
 }
 h1, h2, h3, h4 {
