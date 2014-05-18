@@ -28,7 +28,12 @@ organized.
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [Flux] to alter my laptop's screen colors to the time of day
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
-* [IFTTT] to record all my tweets and facebook posts so I can find cool articles later
+* [IFTTT] - I use facebook and twitter to share articles with friends and
+  family.  IFTTT records all my [tweets][ifttt-tweets] and
+  [facebook posts][ifttt-fb] so I can keep track of interesting articles.
+  It's also setup to [cross post][ifttt-fb2tw] facebook article shares over to
+  twitter, so I don't have to post to both accounts.  I use the
+  [Facebook bookmarklet][fb] to quickly post.
 * [Kindle Paperwhite][kindle] for carrying around a small library of
   interesting books and articles.  The backlit screen is fantastic in low
   light.  I got the 3G model which has come in handy fetching new books while
@@ -37,12 +42,15 @@ organized.
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
     [Kindle integration][insta-kindle].
-  * [Echophon Pro] for twitter - I found this better than twitter's own client and integrates with [Instapaper].
+  * [Echophon Pro] for twitter - I found this better than twitter's own client and integrates with Instapaper.
   * [Sleep Cycle] to wake me up gently at just the right time
   * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
     insists on Safari as the default browser
     ([reminiscent of Internet Explorer bundling][msft]).
 
+[ifttt-tweets]: https://ifttt.com/recipes/175480-all-your-tweets-in-a-google-spreadsheet
+[ifttt-fb]: https://ifttt.com/recipes/175481-save-links-i-share-on-facebook-to-a-google-drive-spreadsheet
+[ifttt-fb2tw]: https://ifttt.com/recipes/175482-new-link-post-by-you-then-you-tweet-the-link
 [msft]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
 [Sleep Cycle]: http://www.sleepcycle.com
 [kindle]: http://www.amazon.com/dp/B00BTI6HBS
