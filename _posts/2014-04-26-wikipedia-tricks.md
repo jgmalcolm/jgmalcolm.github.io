@@ -28,10 +28,11 @@ preferences between visits to the site ([among other benefits][benefits]).
 
 ## Pop-up link previews
 
-Exploring any new topic on Wikipedia can be a rabbit trail, and I'm often left
-with a dozen new tabs open to other pages on Wikipedia.  The cluttered tabs
-are not really necessary because often I just could have read the first
-paragraph to get an idea before continuing on with the original article.
+Exploring any new topic on Wikipedia can be a chasing a dozen rabbits: every
+new and unfamiliar sub-topic gets its own tab, and so I'm often left with a
+dozen new tabs open to other Wikipedia pages.  The cluttered tabs are not
+really necessary because often I just could have read the first paragraph to
+get an idea before continuing on with the original article.
 
 Enter [Hovercards][Hovercards].  Hover the mouse over any link to another
 Wikipedia article and a small pop-up appears with the first few sentences.
