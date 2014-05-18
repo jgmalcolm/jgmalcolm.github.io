@@ -14,7 +14,9 @@ and advice.
 - work on important projects
   - even if starting on a grinding project, use the experience to know the tools and keep your eyes open
   - Hamming
-  - rockstars (in any field)
+  - follow rockstars (in any field)
+    - study their techniques and writing
+    - every year, understand the Nobel and be able to explain to friends and family
 - blog
   - practice effective communication
   - evolve your thinking
@@ -22,8 +24,12 @@ and advice.
   - can do without spilling the beans on your upcoming papers
 - source control
   - version both code and data
-  - get your research group involved (private repos)
+  - get your research group involved
+    - private repos for non-public stuff
   - show your advisor progress, accept updates/edits
+    - pay for private repos?
+  - https://github.com/blog/1840-improving-github-for-science
+  - https://authorea.com/users/3/articles/3904/_show_article
   - collaboration
     - papers in source control
     - google docs for non-technical collaboration, drafting
@@ -35,11 +41,14 @@ and advice.
   - [spread the word about your code][spread]
 - every project has a website
   - for the lay and technical
-  - papers, code
-  - reproducible experiments!
+  - papers
+    - .tex
+    - figures -> presentations
+    - BibTeX
+  - code & ?data
+    - reproducible experiments!
   - more likely to get cited
   - more likely for others to build upon
-  - BibTeX
 - edit wikipedia
   - provide a road map for newbies and generations to come
   - promote important discoveries and techniques
