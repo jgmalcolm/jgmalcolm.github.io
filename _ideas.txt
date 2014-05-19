@@ -1,4 +1,9 @@
+- scaling up your own life
+  - advice not taken
+    - communication takes two people: rethink your delivery
+    - blog
 - 3D printing
+  - http://www.newmatter.com
   - http://geekdad.com/2014/05/mechmaker - print your own toys
 - big problems ... what to do?
   - what diseases are going to hit us?
@@ -31,6 +36,8 @@
 
 - med school
   summer before: http://www.dysgraphicmusings.com/2013/06/how-to-spend-summer-before-medical.html
+  - gotta get good at spotting what you don't know and then prioritizing that
+    - constantly spilling information, so keep sensitive spots in round robin fashion
 
 
 - book recommendations
@@ -61,3 +68,10 @@
   - Laskar Prize
 
 Anki - templates
+
+
+
+
+timer:
+ - http://stackoverflow.com/questions/12536627
+ - http://stackoverflow.com/questions/3479734
