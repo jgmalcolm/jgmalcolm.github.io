@@ -23,7 +23,7 @@ organized.
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
   only lets you switch between full applications, not between Word docs)
-* [Wikipedia interface tricks]({% post_url 2014-04-26-wikipedia-tricks %}) to navigate and view images more efficiently
+* [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [Flux] to alter my laptop's screen colors to the time of day
@@ -52,6 +52,7 @@ organized.
 [ifttt-fb]: https://ifttt.com/recipes/175481-save-links-i-share-on-facebook-to-a-google-drive-spreadsheet
 [ifttt-fb2tw]: https://ifttt.com/recipes/175482-new-link-post-by-you-then-you-tweet-the-link
 [msft]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
+[wikipedia]: {% post_url 2014-04-26-wikipedia-tricks %}
 [Sleep Cycle]: http://www.sleepcycle.com
 [kindle]: http://www.amazon.com/dp/B00BTI6HBS
 [Instapaper]: http://instapaper.com
