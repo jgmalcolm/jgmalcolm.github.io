@@ -1,28 +1,27 @@
 ---
 layout: post
-title: "Grad school: advice and reflections"
+title: "Grad school: What I wish I did"
 ---
 
 You're only stupid enough to get a PhD once.  Here are some lessons learned
 and advice.
 
-- my story
-  - technical PhD
-  - advisors, committee
-  - links to projects and pubs
-  - AccelerEyes, ArrayFire, med school
-- work on important projects
+- Work on important projects
   - even if starting on a grinding project, use the experience to know the tools and keep your eyes open
-  - Hamming
+  - Richard Hamming
   - follow rockstars (in any field)
     - study their techniques and writing
     - every year, understand the Nobel and be able to explain to friends and family
-- blog
+- Find a rockstar advisor
+  - query their students and other faculty
+- Create a blog
   - practice effective communication
   - evolve your thinking
+  - personal website == personal brand
+    - don't start advertising yourself at the end
   - great way to show your advisor what you're up to
   - can do without spilling the beans on your upcoming papers
-- source control
+- Use source control
   - version both code and data
   - get your research group involved
     - private repos for non-public stuff
@@ -32,48 +31,88 @@ and advice.
   - https://authorea.com/users/3/articles/3904/_show_article
   - collaboration
     - papers in source control
-    - google docs for non-technical collaboration, drafting
+    - Google docs for non-technical collaboration, drafting
       - track changes
     - https://www.writelatex.com
     - Mendeley
-- publish code
+- Publish code
   - every paper has an SHA
   - [spread the word about your code][spread]
-- every project has a website
+  - open source http://tom.preston-werner.com/2011/11/22/open-source-everything.html
+- Every project needs its own page
   - for the lay and technical
   - papers
-    - .tex
+    - .TeX
     - figures -> presentations
     - BibTeX
   - code & ?data
     - reproducible experiments!
   - more likely to get cited
   - more likely for others to build upon
-- edit wikipedia
+- Contribute to Wikipedia
   - provide a road map for newbies and generations to come
   - promote important discoveries and techniques
   - organize your own thoughts
-- papers and publishing
+- Papers and publishing
   - work backward from conference location
   - read papers from last year's conference in which you want to publish
     - know the bar
     - [lankton-rss]
   - be sure to cite relevant members of program committee
-- writing
+  - co-authorship, friends
+- Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
   - http://www.shawnlankton.com/2007/09/formula-to-write-a-paper
-- productivity
+- Productivity
   - top students
   - focus
   - time
   - balance
-- thesis
+- Thesis
   - repurpose the intro into book chapters (advisor connections)
-- defense
-- career
+- Defense
+- Career
   - industry vs postdoc [r01-rate]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
+- What can I say I learned from it all?
+  - problem solving
+  - no fear or intimidation of ideas or science
+  - develop a long term research plan with milestones
+  - develop convincing experiments
+  - persuasive writing
+
+
+# My story
+
+I completed a PhD in medical imaging and computer vision with the Department
+of [Electrical & Computer Engineering](http://ece.gatech.edu) at Georgia Tech.
+My advisors provided excellent guidance and support in both life and academia:
+[Yogesh Rathi][] (co-advisor) and [Allen Tannenbaum][] (co-advisor).  My
+committee included some of the most superb scientists I have ever worked with:
+[Tony Yezzi][], [Patricio Vela][], and [Sylvain Bouix][].  I had the
+opportunity to focus on diffusion MRI as a research fellow at
+[Brigham and Women's Hospital][pnl].  You can see more about the
+[techniques][projects] and [papers][] we developed.
+
+During the course of all of that, I worked with fellow students
+[Gallagher Pryor][] and [John Melonakos][] to build [Jacket][] and
+[ArrayFire][], both software libraries for high performance technical
+computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
+
+[Yogesh Rathi]: http://pnl.bwh.harvard.edu/people/profiles/rathi.html
+[Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
+[Tony Yezzi]: http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=116
+[Patricio Vela]: http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=139
+[Sylvain Bouix]: http://pnl.bwh.harvard.edu/people/profiles/bouix.html
+[pnl]: http://pnl.bwh.harvard.edu
+[projects]: /pubs/research.html
+[papers]: /pubs
+[Gallagher Pryor]: http://thecrontab.net
+[John Melonakos]: http://notonlyluck.com
+[AccelerEyes]: https://en.wikipedia.org/wiki/AccelerEyes
+[ArrayFire]: http://www.arrayfire.com
+[Jacket]: https://en.wikipedia.org/wiki/Jacket_(software)
 
 [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
 [spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
