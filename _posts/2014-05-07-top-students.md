@@ -82,6 +82,12 @@ reading doesn't achieve.  Underlining key words or phrases focuses your
 attention.  [Recent studies][hand-written] show that hand written notes are
 more effective than typed.
 
+In addition to knowing what's important, top students seek to understand.
+Memorizing only provides short-term results.  You've probably heard that
+knowledge is like a tree: you fill in the branches, then the leaves.  Taking
+the time to understand *Why* something is the way it is will last much longer
+than simply *What* something is.
+
 [hand-written]: http://www.theatlantic.com/technology/archive/2014/05/to-remember-a-lecture-better-take-notes-by-hand/361478
 
 
