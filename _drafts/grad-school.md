@@ -6,22 +6,50 @@ title: "Grad school: What I wish I did"
 You're only stupid enough to get a PhD once.  Here are some lessons learned
 and advice.
 
-- Work on important projects
-  - even if starting on a grinding project, use the experience to know the tools and keep your eyes open
-  - Richard Hamming
-  - follow rockstars (in any field)
-    - study their techniques and writing
-    - every year, understand the Nobel and be able to explain to friends and family
-- Find a rockstar advisor
+## Work on important projects
+
+Whatever you do, make sure it's worth it.  You want your time and energy to
+make a difference.  It's so easy to work on projects that are technically
+feasible but have no consequence on the world.  This will be some of the most
+focused and productive years of your life, so make them count.
+
+At the start, you're likely to get swept up in some "awesome" project your
+advisor or a senior student dreams up.  This may seem like a grind and you
+might not be able to step out.  If that's the case, then keep at it and keep
+your eyes open for opportunities to breakout in new interesting directions.
+Use the experience to learn your tools.
+
+[Richard Hamming][] gave a famous lecture entitled
+["You and your research"][hamming-txt] ([video][hamming-vid]).  I highly
+recommend pouring over his advice.  Among the many gems in there, one I want
+to highlight here is how he would have lunch with people from other
+departments.  Often he would raise the question "What are the important
+problems in your field?"  And soon after that he would prod by asking why they
+weren't working on the important problems?  Questions like this get under your
+skin.  He wasn't welcomed at the lunch table anymore.
+
+## Follow rockstars (in any field)
+  - study their techniques and writing
+  - every year, understand the Nobel and be able to explain to friends and family
+
+## Find a rockstar advisor
+  - one of the biggest success factors outside your control
+  - find a young and hungry one, a few years out from tenure
+    - pipeline
   - query their students and other faculty
-- Create a blog
+  - review their publications
+  - review their trajectory
+  - get senior, connected advisors on your committee
+
+## Create a blog
   - practice effective communication
   - evolve your thinking
   - personal website == personal brand
     - don't start advertising yourself at the end
   - great way to show your advisor what you're up to
   - can do without spilling the beans on your upcoming papers
-- Use source control
+
+## Use source control
   - version both code and data
   - get your research group involved
     - private repos for non-public stuff
@@ -35,11 +63,13 @@ and advice.
       - track changes
     - https://www.writelatex.com
     - Mendeley
-- Publish code
+
+## Publish code
   - every paper has an SHA
   - [spread the word about your code][spread]
   - open source http://tom.preston-werner.com/2011/11/22/open-source-everything.html
-- Every project needs its own page
+
+## Every project needs its own page
   - for the lay and technical
   - papers
     - .TeX
@@ -49,33 +79,56 @@ and advice.
     - reproducible experiments!
   - more likely to get cited
   - more likely for others to build upon
-- Contribute to Wikipedia
+
+## Contribute to Wikipedia
   - provide a road map for newbies and generations to come
   - promote important discoveries and techniques
   - organize your own thoughts
-- Papers and publishing
+
+## Papers and publishing
   - work backward from conference location
   - read papers from last year's conference in which you want to publish
     - know the bar
     - [lankton-rss]
   - be sure to cite relevant members of program committee
   - co-authorship, friends
-- Writing
+
+## Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
   - http://www.shawnlankton.com/2007/09/formula-to-write-a-paper
-- Productivity
+
+## Productivity
   - top students
   - focus
   - time
   - balance
-- Thesis
+
+Hamming:
+
+> Knowledge and productivity are like compound interest. Given two people of
+> approximately the same ability and one person who works ten percent more
+> than the other, the latter will more than twice outproduce the former. The
+> more you know, the more you learn; the more you learn, the more you can do;
+> the more you can do, the more the opportunity - it is very much like
+> compound interest.
+
+
+## Important Math
+ - dot product
+ - calculus of variations
+ - compute and aggregate
+
+## Thesis
   - repurpose the intro into book chapters (advisor connections)
-- Defense
-- Career
+
+## Defense
+
+## Career
   - industry vs postdoc [r01-rate]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
-- What can I say I learned from it all?
+
+## What can I say I learned from it all?
   - problem solving
   - no fear or intimidation of ideas or science
   - develop a long term research plan with milestones
@@ -83,7 +136,7 @@ and advice.
   - persuasive writing
 
 
-# My story
+## My story
 
 I completed a PhD in medical imaging and computer vision with the Department
 of [Electrical & Computer Engineering](http://ece.gatech.edu) at Georgia Tech.
@@ -116,6 +169,7 @@ computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
 
 [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
 [spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
+[Richard Hamming]: https://en.wikipedia.org/wiki/Richard_Hamming
 [hamming-txt]: http://www.cs.virginia.edu/~robins/YouAndYourResearch.html "Richard Hamming: You and Your Research (text)"
 [hamming-vid]: https://www.youtube.com/watch?v=a1zDuOPkMSw "Richard Hamming: You and Your Research (video)"
 [r01-rate]: https://twitter.com/balajis/status/466395475479134208
