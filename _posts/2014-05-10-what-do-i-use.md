@@ -26,7 +26,7 @@ organized.
 * [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
-* [Flux] to alter my laptop's screen colors to the time of day
+* [F.lux] to alter my laptop's screen colors to the time of day.  If you're on a Chromebook then use [G.lux].
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [IFTTT] - I use facebook and twitter to share articles with friends and
   family.  IFTTT records all my [tweets][ifttt-tweets] and
@@ -73,7 +73,8 @@ organized.
 [Airfoil]: https://www.rogueamoeba.com/airfoil
 [bose]: http://www.amazon.com/SoundLink%C2%AE-Air-Digital-Music-System/dp/B0090Z3QD4
 [Caffeine]: http://lightheadsw.com/caffeine
-[Flux]: https://justgetflux.com
+[F.lux]: https://justgetflux.com
+[G.lux]: https://chrome.google.com/webstore/detail/glux/hinolicfmhnjadpggledmhnffommefaf
 [SelfControl]: http://selfcontrolapp.com
 [ColdTurkey]: http://getcoldturkey.com
 [IFTTT]: http://ifttt.com
