@@ -48,12 +48,33 @@
 /* http://ben.balter.com/2014/03/13/pages-anchor-links */
 $(document).ready(function(){
   /* hover anchor tags on all headers */
-  return $("#content :header").each(function(i, el) {
+  $("#content :header").each(function(i, el) {
     var $el = $(el);
     var id = $el.attr('id');
     if (id) {
       return $el.append(" ").append($("<a />").addClass("header-link").attr("href", "#" + id).html("[link]"));
     }
+  });
+
+  var duration      = 420;
+  var showOffset    = 220;
+  var btnFixed      = '.btn-fixed-bottom';
+  var btnToTopClass = '.back-to-top';
+
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > showOffset) {
+      $(btnFixed).fadeIn(duration);
+    } else {
+      $(btnFixed).fadeOut(duration);
+    }
+  });
+
+  $(btnToTopClass).click(function (event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, duration);
+    return false;
   });
 });
 
