@@ -113,11 +113,6 @@ Hamming:
 > compound interest.
 
 
-## Important Math
- - dot product
- - calculus of variations
- - compute and aggregate
-
 ## Thesis
   - repurpose the intro into book chapters (advisor connections)
 
