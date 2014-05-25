@@ -25,11 +25,8 @@ p + p {
     margin-top: 1em;
 }
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  font-size: 90%;
+  border-left: 5px solid #c4161c;
+  margin: 1.5em 0px;
   font-style: italic;
 }
 
