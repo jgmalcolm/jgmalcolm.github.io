@@ -1,13 +1,11 @@
 body {
     font-size: 18px;
-    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    line-height: 1.3em;
-    font-family: 'Open sans', Helvetica, Arial, sans-serif;
+    line-height: 29px;
+    font-family: Helvetica, Arial, sans-serif;
     color: #52606B;
 }
 h1, h2, h3, h4 {
-    font-weight: bold;
     color: #281B21;
     letter-spacing: -2px;
 }
@@ -27,7 +25,7 @@ p + p {
     margin-top: 1em;
 }
 blockquote {
-  border-left: 5px solid #c4161c;
+  border-left: 5px solid #603;
   margin: 1.5em 0px;
   font-style: italic;
 }
