@@ -4,7 +4,7 @@ body {
     text-rendering: optimizeLegibility;
     line-height: 1.3em;
     font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    color: #281B21;
+    color: #52606B;
 }
 h1, h2, h3, h4 {
     font-weight: bold;
@@ -13,7 +13,6 @@ h1, h2, h3, h4 {
 }
 a {
     color: #603;
-    font-weight: bold;
 }
 a:hover {
     color: #603;
