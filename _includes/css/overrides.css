@@ -1,22 +1,25 @@
 body {
-    font-size: 19px;
+    font-size: 18px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     line-height: 1.3em;
     font-family: 'Open sans', Helvetica, Arial, sans-serif;
-    color: #6d6d6d;
+    color: #281B21;
 }
 h1, h2, h3, h4 {
     font-weight: bold;
-    color: #333;
-    letter-spacing: -1px;
-    font-family: 'Patua One', sans-serif;
+    color: #281B21;
+    letter-spacing: -2px;
 }
 a {
-    color: #c4161c;
+    color: #603;
+    font-weight: bold;
 }
 a:hover {
-    color: #c4161c;
+    color: #603;
+}
+a.post-tile {
+    font-weight: normal;
 }
 p + h1, p + h2, p + h3, p + h4 {
     margin-top: 40px;
@@ -102,13 +105,12 @@ h6:hover .header-link {
     text-align: center;
 }
 #logo {
-    color: #333;
+    color: #281B21;
     letter-spacing: -2px;
     text-align: center;
     font-size: 200%;
     font-weight: bold;
     padding-top: 15px;
-    font-family: 'Patua One', sans-serif;
 }
 
 #content img {
