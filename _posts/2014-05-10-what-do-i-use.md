@@ -22,7 +22,7 @@ organized.
   * [Facebook bookmarklet][fb] to share pages with friends and family.
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
-  only lets you switch between full applications, not between Word docs)
+  only lets you switch between full applications, not between individual open Word docs)
 * [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
@@ -47,7 +47,10 @@ organized.
   * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
     insists on Safari as the default browser
     ([reminiscent of Internet Explorer bundling][msft]).
+* [TotalTerminal] for quick full-screen access to the command line
+  * [browse my config files](https://github.com/jgmalcolm/config) for emacs/vim/bash/screen/git
 
+[TotalTerminal]: http://totalterminal.binaryage.com
 [ifttt-tweets]: https://ifttt.com/recipes/175480-all-your-tweets-in-a-google-spreadsheet
 [ifttt-fb]: https://ifttt.com/recipes/175481-save-links-i-share-on-facebook-to-a-google-drive-spreadsheet
 [ifttt-fb2tw]: https://ifttt.com/recipes/175482-new-link-post-by-you-then-you-tweet-the-link
