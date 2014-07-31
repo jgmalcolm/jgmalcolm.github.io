@@ -28,41 +28,91 @@ problems in your field?"  And soon after that he would prod by asking why they
 weren't working on the important problems?  Questions like this get under your
 skin.  He wasn't welcomed at the lunch table anymore.
 
-## Follow rockstars (in any field)
-  - study their techniques and writing
-  - every year, understand the Nobel and be able to explain to friends and family
 
-## Find a rockstar advisor
-  - one of the biggest success factors outside your control
-  - find a young and hungry one, a few years out from tenure
-    - pipeline
-  - query their students and other faculty
-  - review their publications
-  - review their trajectory
-  - get senior, connected advisors on your committee
+## Follow rockstars
+
+Study their techniques and writing.  Try to distill why they are successful.
+Maybe you can find a way to relate your work to theirs and forge a joint
+project.  Have a list of rockstars both inside and outside your field.
+
+Every year when the Nobel Prize is announced, understand the technique it
+highlights enough that you can explain its significance to friends and family.
+
+
+## Choose your advisor carefully
+
+This will in large part determine what you work on, how stable funding is, and
+overall how friendly the lab will be.  Your advisor can control a lot of
+factors outside your control.
+
+Find a young and hungry advisor.  It's good for the advisor to have a few
+years at your school already so you can ask around for others' impressions and
+enjoy the benefit of an established pipeline of projects already up and
+running.  It's also good for the advisor to be a few years out from tenure so
+they are hungry for work and willing to roll up their sleeves to help.
+
+Probably above all else, you want an advisor you get along with, one you'd
+enjoy grabbing beers with.  Ask their students and other faculty for
+impressions.  If your advisor picks up the tab, that's a good sign that
+funding is secure.
+
+Review their publication record.  Do the topics interest you?  Does the
+quality match your expectations?
+
+Later, when it comes to your committee, that's the opportunity to get more
+seasoned professors involved to help make introductions.
+
+Don't just jump at the first professor offering funding.  Take your time here
+and seek the advice of others.
+
+
 
 ## Create a blog
-  - practice effective communication
-  - evolve your thinking
-  - personal website == personal brand
-    - don't start advertising yourself at the end
-  - great way to show your advisor what you're up to
-  - can do without spilling the beans on your upcoming papers
+
+You're now a knowledge worker and your personal website is your brand.  Treat
+it like an investment: early work pays dividends as you build up a valuable
+resources for those following in your footsteps.  Don't wait until your final
+years to advertise yourself.
+
+More important than building a public image, writing is a great way to evolve
+your thinking, to vet ideas, and practice effective communication.  It's also
+a great way to show your advisor what you've been up to.
+
+In some fields, there's of course the need to not give away your ideas to
+competitors, but I wager you can still put valuable information in the public.
+
+
 
 ## Use source control
-  - version both code and data
-  - get your research group involved
-    - private repos for non-public stuff
-  - show your advisor progress, accept updates/edits
-    - pay for private repos?
-  - https://github.com/blog/1840-improving-github-for-science
-  - https://authorea.com/users/3/articles/3904/_show_article
-  - collaboration
-    - papers in source control
-    - Google docs for non-technical collaboration, drafting
-      - track changes
-    - https://www.writelatex.com
-    - Mendeley
+
+Version control both code and data.  This way every experiment is repeatable:
+the [SHA](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1) for
+indicates a specific state of code and data.  If you're using a database,
+[get your database under version control](http://blog.codinghorror.com/get-your-database-under-version-control/).
+Put your papers in source control.
+
+This is a great way to show your advisor you're working: point him to the
+commit log.  But of course, just making commits do not mean you're being
+productive.
+
+Get your research group collaborating this way.  It's a great way to ensure
+proper hand-offs of code and projects between students.  If you need private
+repos to keep work confidential (pre-publication?), then ask your advisor to
+spring for it.
+[GitHub](https://github.com/blog/1840-improving-github-for-science) is making
+strides to support academics.
+
+Other great ways to collaborate may include using Google docs for real-time
+collaboration between coauthors or drafting.  You can now track changes and
+accept/reject suggested edits.  [writeLaTeX](https://www.writelatex.com)
+provides similar functionality specifically for LaTeX documents.
+[Mendeley](http://mendeley.com/) lets you share papers among colleagues and
+quickly assemble bibliographies in MS Word.
+[Authorea](https://authorea.com/users/3/articles/3904/_show_article) is a
+project to make it easier to interact and share scientific ideas.
+
+
+{% comment %}
 
 ## Publish code
   - every paper has an SHA
@@ -92,6 +142,8 @@ skin.  He wasn't welcomed at the lunch table anymore.
     - [lankton-rss]
   - be sure to cite relevant members of program committee
   - co-authorship, friends
+  - know what a "win" looks like to your advisor
+    - what does he/she need from you to move their career forward?
 
 ## Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
@@ -130,6 +182,7 @@ Hamming:
   - develop convincing experiments
   - persuasive writing
 
+{% endcomment %}
 
 ## My story
 
