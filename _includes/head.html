@@ -21,13 +21,14 @@
 
 <!-- Facebook OpenGraph -->
 {% if page.title %}
-<meta property="og:title" content="{{ page.title }}"/>
+  <meta name="title" content="{{ page.title }}"/>
+  <meta property="og:title" content="{{ page.title }}"/>
   {% if page.description %}
-  <meta name="description" content="{{ page.description }}"/>
-  <meta name="og:description" content="{{ page.description }}"/>
+    <meta name="description" content="{{ page.description }}"/>
+    <meta property="og:description" content="{{ page.description }}"/>
   {% else if content %}
-  <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}"/>
-  <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}"/>
+    <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}"/>
+    <meta property="og:description" content="{{ content | strip_html | truncatewords: 25 }}"/>
   {% endif %}
 {% else %}
   <meta name="description" content="{{ site.description }}"/>
