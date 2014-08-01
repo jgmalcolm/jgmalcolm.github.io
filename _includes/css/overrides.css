@@ -2,17 +2,18 @@ body {
     font-size: 18px;
     text-rendering: optimizeLegibility;
     line-height: 29px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Droid Sans',Helvetica, Arial, sans-serif;
     color: #52606B;
 }
 h1, h2, h3, h4 {
-    color: #281B21;
+    color: black;
+    font-weight: bold;
 }
 a {
-    color: #603;
+    color: #2077B2;
 }
 a:hover {
-    color: #603;
+    color: #2077B2;
 }
 a.post-tile {
     font-weight: normal;
@@ -24,7 +25,7 @@ p + p {
     margin-top: 1em;
 }
 blockquote {
-  border-left: 5px solid #603;
+  border-left: 5px solid #2077B2;
   margin: 1.5em 0px;
   font-style: italic;
 }
