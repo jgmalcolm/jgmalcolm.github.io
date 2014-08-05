@@ -86,10 +86,11 @@ competitors, but I wager you can still put valuable information in the public.
 ## Use source control
 
 Version control both code and data.  This way every experiment is repeatable:
-the [SHA](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1) for
-indicates a specific state of code and data.  If you're using a database,
+every experiment is uniquely identified by a
+[SHA](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1) indicating
+a specific version of the code and data.  If you're using a database,
 [get your database under version control](http://blog.codinghorror.com/get-your-database-under-version-control/).
-Put your papers in source control.
+Put your papers in source control.  Don't put source code in Dropbox.
 
 This is a great way to show your advisor you're working: point him to the
 commit log.  But of course, just making commits do not mean you're being
@@ -111,6 +112,12 @@ quickly assemble bibliographies in MS Word.
 [Authorea](https://authorea.com/users/3/articles/3904/_show_article) is a
 project to make it easier to interact and share scientific ideas.
 
+Any time you're dealing with code -- your own or from a colleague -- you want
+to get that done in source control.  Suppose an older grad student hands you a
+code base, if it wasn't through github or such, them immediately (before you
+make any edits) put the files into a fresh repo.  Unzip and make that the
+initial commit.  Only after that initial commit should you make any changes to
+get the code to run, e.g. changing hard coded values/parameters.
 
 {% comment %}
 
