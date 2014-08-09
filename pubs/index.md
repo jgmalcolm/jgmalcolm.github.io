@@ -16,7 +16,7 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 <a href="http://www.spl.harvard.edu/publications/pages/display/?authorfirst=James&authorlast=Malcolm">SPL</a>,
 <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Malcolm:James_G=.html">DBLP</a>.
 
-<a href="pdfs/malcolm2011pv.pdf">&#8220;Processing and
+<a href="malcolm2011pv.pdf">&#8220;Processing and
  Visualization of Diffusion MRI&#8221;</a>, Malcolm, Rathi, Westin, <i>Recent
  Advances in Biomedical Image Processing and Analysis</i>, T. Deserno
  (Editor), Chapter 16, pages 387-410, 2011. [<a
@@ -56,7 +56,7 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 </pre></div>
 
 
-<a href="pdfs/others/lienhard2011bitensor.pdf">&#8220;A Full Bi-tensor Neural Tractography Algorithm Using the Unscented Kalman Filter&#8221;</a>, Lienhard, Malcolm, Westin, Rathi, <i>J. of Advanced in Signal Processing</i>,
+<a href="others/lienhard2011bitensor.pdf">&#8220;A Full Bi-tensor Neural Tractography Algorithm Using the Unscented Kalman Filter&#8221;</a>, Lienhard, Malcolm, Westin, Rathi, <i>J. of Advanced in Signal Processing</i>,
  77,
  2011. [<a href="javascript:toggle('lienhard2011bitensor')">bib</a>]
 
@@ -72,7 +72,7 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 </pre></div>
 
 
-<a href="pdfs/malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
+<a href="malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
 Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1675, 2010. [<a
  href="javascript:toggle('malcolm2010tmi')">bib</a>]
 
@@ -89,7 +89,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="pdfs/malcolm2010diss.pdf">&#8220;Filtered tractography&#8221;</a>, Malcolm, (PhD dissertation), October 2010. [<a href="pdfs/malcolm2010diss_slides.pdf">slides</a>, <a
+<a href="malcolm2010diss.pdf">&#8220;Filtered tractography&#8221;</a>, Malcolm, (PhD dissertation), October 2010. [<a href="malcolm2010diss_slides.pdf">slides</a>, <a
  href="javascript:toggle('malcolm2010diss')">bib</a>]
 
 <div style="display:none" id="malcolm2010diss">
@@ -103,7 +103,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="pdfs/others/rathi2010miccai.pdf">&#8220;Biomarkers for
+<a href="others/rathi2010miccai.pdf">&#8220;Biomarkers for
  identifying first-episode schizophrenia patients using diffusion weighted
  imaging&#8221;</a>, Rathi, Malcolm, Michailovich, Goldstein, Seidman,
  McCarley, Westin, Shenton, <i>Medical Image Computing and Computer Assisted
@@ -121,7 +121,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="pdfs/others/savadjiev2010miccai.pdf">&#8220;A
+<a href="others/savadjiev2010miccai.pdf">&#8220;A
  geometry-based particle filtering approach to white matter
  tractography&#8221;</a>, Savadjiev, Rathi, Malcolm, Shenton, Westin,
  <i>Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>,
@@ -139,7 +139,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="pdfs/others/agar2010ac.pdf">&#8220;Imaging of Meningioma
+<a href="others/agar2010ac.pdf">&#8220;Imaging of Meningioma
  Progression by Matrix-Assisted Laser Desorption Ionization Time-of-Flight
  Mass Spectrometry&#8221;</a>, Agar, Malcolm, Mohan, Yang, Johnson,
  Tannenbaum, Agar, Black, <i>Analytic Chemistry</i>, 82(7), pages 2621-5, 2010. [<a
@@ -160,7 +160,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="pdfs/malcolm_watson.pdf">&#8220;A filtered approach to
+<a href="malcolm_watson.pdf">&#8220;A filtered approach to
 neural tractography using the Watson directional function&#8221;</a>, Malcolm,
 Michailovich, Bouix, Westin, Shenton, Rathi, <i>Medical Image Analysis
 (MedIA)</i>, 14(1), pages 58-69, 2010. [<a
@@ -178,7 +178,7 @@ Michailovich, Bouix, Westin, Shenton, Rathi, <i>Medical Image Analysis
 }
 </pre></div>
 
-<a href="pdfs/others/rathi2010mrm.pdf">&#8220;Tensor-kernels for
+<a href="others/rathi2010mrm.pdf">&#8220;Tensor-kernels for
 simultaneous fiber model estimation and tractography&#8221;</a>, Rathi,
 Malcolm, Michailovich, Westin, Shenton, Bouix, <i>Magnetic Resonance in
 Medicine (MRM)</i>, 64(1), pages 138-148, 2010. [<a
@@ -198,7 +198,7 @@ Medicine (MRM)</i>, 64(1), pages 138-148, 2010. [<a
 }
 </pre></div>
 
-<a href="pdfs/others/rathi_affine.pdf">&#8220;Affine
+<a href="others/rathi_affine.pdf">&#8220;Affine
 registration of label maps in Label Space&#8221;</a>, Rathi, Malcolm, Bouix,
 Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
  href="javascript:toggle('rathi_affine')">bib</a>]
@@ -215,7 +215,7 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 }
 </pre></div>
 
-<a href="pdfs/others/rathi2010isbi.pdf">&#8220;Disease classification: A probabilistic approach&#8221;</a>, Rathi, Malcolm, Bouix, McCarley, Seidman, Goldstein, Westin, Shenton,
+<a href="others/rathi2010isbi.pdf">&#8220;Disease classification: A probabilistic approach&#8221;</a>, Rathi, Malcolm, Bouix, McCarley, Seidman, Goldstein, Westin, Shenton,
  <i>Int. Symp. on Biomedical Imaging (ISBI)</i>,
  pages 1345-1348, 2010. [<a
   href="javascript:toggle('rathi2010isbi')">bib</a>]
@@ -232,10 +232,10 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 
 
 
-<a href="pdfs/malcolm_cukf.pdf">&#8220;Two-Tensor Tractography
+<a href="malcolm_cukf.pdf">&#8220;Two-Tensor Tractography
 Using a Constrained Filter&#8221;</a>, Malcolm, Shenton, Rathi, <i>Medical
 Image Computing and Computer Assisted Intervention (MICCAI)</i>, pages
-894-902, 2009. [<a href="pdfs/malcolm_cukf_poster.pdf">poster</a>, <a
+894-902, 2009. [<a href="malcolm_cukf_poster.pdf">poster</a>, <a
  href="javascript:toggle('malcolm_cukf')">bib</a>]
 
 <div style="display:none" id="malcolm_cukf"><pre>
@@ -248,14 +248,14 @@ Image Computing and Computer Assisted Intervention (MICCAI)</i>, pages
 }
 </pre></div>
 
-<a href="pdfs/others/vela_range.pdf">&#8220;Vision-Based Range Regulation
+<a href="others/vela_range.pdf">&#8220;Vision-Based Range Regulation
 of a Leader-Follower Formation&#8221;</a>, Vela, Betser, Malcolm, Tannenbaum, <i>IEEE
 Transactions on Control Systems Technology</i>, 17(2):442-448, 2009
 
-<a href="pdfs/malcolm_cukf_ext.pdf">&#8220;Filtered
+<a href="malcolm_cukf_ext.pdf">&#8220;Filtered
 Tractography: State estimation in a constrained subspace&#8221;</a>, Malcolm,
 Shenton, Rathi, <i>Diffusion Modeling and Fiber Cup (in MICCAI)</i>, 2009. [<a
- href="pdfs/malcolm_cukf_ext_poster.pdf">poster</a>, <a
+ href="malcolm_cukf_ext_poster.pdf">poster</a>, <a
  href="javascript:toggle('malcolm_cukf_ext')">bib</a>]
 
 <div style="display:none" id="malcolm_cukf_ext"><pre>
@@ -268,10 +268,10 @@ Shenton, Rathi, <i>Diffusion Modeling and Fiber Cup (in MICCAI)</i>, 2009. [<a
 }
 </pre></div>
 
-<a href="pdfs/malcolm_fc.pdf">&#8220;Filtered Tractography:
+<a href="malcolm_fc.pdf">&#8220;Filtered Tractography:
 Validation on a Physical Phantom&#8221;</a>, Malcolm, Shenton, Rathi, <i>Fiber
-Cup (in MICCAI)</i>, 2009. [<a href="pdfs/malcolm_fc_slides.pdf">slides</a>,<a
- href="pdfs/malcolm_fc.zip">submission</a>, <a
+Cup (in MICCAI)</i>, 2009. [<a href="malcolm_fc_slides.pdf">slides</a>,<a
+ href="malcolm_fc.zip">submission</a>, <a
  href="javascript:toggle('malcolm_fc')">bib</a>]
 
 <div style="display:none" id="malcolm_fc"><pre>
@@ -284,10 +284,10 @@ Cup (in MICCAI)</i>, 2009. [<a href="pdfs/malcolm_fc_slides.pdf">slides</a>,<a
 }
 </pre></div>
 
-<a href="pdfs/malcolm_study.pdf">&#8220;The Effect of Local
+<a href="malcolm_study.pdf">&#8220;The Effect of Local
 Fiber Model On Population Studies&#8221;</a>, Malcolm, Kubicki, Shenton,
 Rathi, <i>Diffusion Modeling and Fiber Cup (in MICCAI)</i>, 2009. [<a
- href="pdfs/malcolm_study_poster.pdf">poster</a>, <a
+ href="malcolm_study_poster.pdf">poster</a>, <a
  href="javascript:toggle('malcolm_study')">bib</a>]
 
 <div style="display:none" id="malcolm_study"><pre>
@@ -300,10 +300,10 @@ Rathi, <i>Diffusion Modeling and Fiber Cup (in MICCAI)</i>, 2009. [<a
 }
 </pre></div>
 
-<a href="pdfs/malcolm_2t.pdf">&#8220;Neural Tractography Using An Unscented
+<a href="malcolm_2t.pdf">&#8220;Neural Tractography Using An Unscented
 Kalman Filter&#8221;</a>, Malcolm, Shenton, Rathi, <i>Information Processing in Medical
 Imaging (IPMI)</i>, pages 126-138, 2009. [<a
- href="pdfs/malcolm_2t_slides.pdf">slides</a>, <a
+ href="malcolm_2t_slides.pdf">slides</a>, <a
  href="javascript:toggle('malcolm_2t')">bib</a>]
 
 <div style="display:none" id="malcolm_2t"><pre>
@@ -316,10 +316,10 @@ Imaging (IPMI)</i>, pages 126-138, 2009. [<a
 }
 </pre></div>
 
-<a href="pdfs/others/rathi_watson.pdf">&#8220;Mixture Model for estimating fiber
+<a href="others/rathi_watson.pdf">&#8220;Mixture Model for estimating fiber
 ODF and multi-directional Tractography&#8221;</a>, Rathi, Malcolm, Bouix, Kindlmann,
 Westin, Kubicki, Shenton, <i>Intl. Soc. of Magnetic Resonance in Medicine (ISMRM)</i>,
-2009. [<a href="pdfs/others/rathi_watson_slides.pdf">slides</a>, <a
+2009. [<a href="others/rathi_watson_slides.pdf">slides</a>, <a
  href="javascript:toggle('rathi_watson')">bib</a>]
 
 <div style="display:none" id="rathi_watson"><pre> @conference{Rathi2009ismrm,
@@ -336,11 +336,11 @@ Westin, Kubicki, Shenton, <i>Intl. Soc. of Magnetic Resonance in Medicine (ISMRM
 
 
 
-<a href="pdfs/malcolm_lss.pdf">&#8220;Label Space: A Coupled
+<a href="malcolm_lss.pdf">&#8220;Label Space: A Coupled
 Multi-Shape Representation&#8221;</a>, Malcolm, Rathi, Shenton, Tannenbaum,
 <i>Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>,
 pages 416-424, 2008. <b>Runner-Up, MICCAI Young Scientist Award</b> [<a
- href="pdfs/malcolm_lss_slides.pdf">slides</a>, <a
+ href="malcolm_lss_slides.pdf">slides</a>, <a
  href="javascript:toggle('malcolm_lss')">bib</a>]
 
 <div style="display:none" id="malcolm_lss"><pre>@conference{Malcolm2008lss,
@@ -352,22 +352,22 @@ pages 416-424, 2008. <b>Runner-Up, MICCAI Young Scientist Award</b> [<a
 }
 </pre></div>
 
-<a href="pdfs/others/karasev_hist.pdf">&#8220;Kernel-Based High-Dimensional
+<a href="others/karasev_hist.pdf">&#8220;Kernel-Based High-Dimensional
 Histogram Estimation For Visual Tracking&#8221;</a>, Karasev, Malcolm, Tannenbaum, <i>Int.
 Conf. on Image Processing (ICIP)</i>, 2008.
 
-<a href="pdfs/others/lankton_scale.pdf">&#8220;Tracking Through Changes in
+<a href="others/lankton_scale.pdf">&#8220;Tracking Through Changes in
 Scale&#8221;</a>, Lankton, Malcolm, Nakhmani, Tannenbaum, <i>Int. Conf. on Image
 Processing (ICIP)</i>, 2008. [<a
- href="pdfs/others/lankton_scale_poster.pdf">poster</a>]
+ href="others/lankton_scale_poster.pdf">poster</a>]
 
 
-<a href="pdfs/others/lankton_lsfb.pdf">&#8220;Localized statistics for
+<a href="others/lankton_lsfb.pdf">&#8220;Localized statistics for
 DW-MRI fiber bundle segmentation&#8221;</a>, Lankton, Melonakos, Malcolm, Dambreville,
 Tannenbaum, <i>MMBIA</i>, 2008. [<a
- href="pdfs/others/lankton_lsfb_poster.pdf">poster</a>]
+ href="others/lankton_lsfb_poster.pdf">poster</a>]
 
-<a href="pdfs/malcolm_ls.pdf">&#8220;Label Space: A Multi-Object Shape
+<a href="malcolm_ls.pdf">&#8220;Label Space: A Multi-Object Shape
 Representation&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Combinatorial Image
 Analysis</i>, 2008. [<a href="javascript:toggle('malcolm_ls')">bib</a>]
 
@@ -380,12 +380,12 @@ Analysis</i>, 2008. [<a href="javascript:toggle('malcolm_ls')">bib</a>]
 }
 </pre></div>
 
-<a href="pdfs/malcolm_lsdm.pdf">&#8220;Fast Approximate Surface Evolution
+<a href="malcolm_lsdm.pdf">&#8220;Fast Approximate Surface Evolution
 in Arbitrary Dimension&#8221;</a>, James, Rathi, Yezzi, Tannenbaum, <i>IS&T/SPIE Symposium
-on Medical Imaging</i>, 2008. [<a href="pdfs/malcolm_lsdt_slides.pdf">slides</a>, <a
- href="pdfs/malcolm_lsdm_poster.pdf">poster</a>]
+on Medical Imaging</i>, 2008. [<a href="malcolm_lsdt_slides.pdf">slides</a>, <a
+ href="malcolm_lsdm_poster.pdf">poster</a>]
 
-<a href="pdfs/others/rathi_segmenting_analytically.pdf">&#8220;Segmenting Images
+<a href="others/rathi_segmenting_analytically.pdf">&#8220;Segmenting Images
 Analytically in Shape Space&#8221;</a>, Rathi, Dambreville, Niethammer, Malcolm, Levitt,
 Shenton, Tannenbaum, <i>IS&T/SPIE Symposium on Medical Imaging</i>, 2008. [<a
  href="javascript:toggle('rathi_segmenting_analytically')">bib</a>]
@@ -404,41 +404,41 @@ Shenton, Tannenbaum, <i>IS&T/SPIE Symposium on Medical Imaging</i>, 2008. [<a
 
 
 
-<a href="pdfs/malcolm_gct.pdf">&#8220;Tracking with Graph Cuts:
+<a href="malcolm_gct.pdf">&#8220;Tracking with Graph Cuts:
  Treating Clutter with Adaptive Penalties&#8221;</a>, Malcolm, Rathi,
  Tannenbaum.  (unpublished)
 
-<a href="pdfs/others/georgiou_metrics.pdf">&#8220;Distribution metrics and
+<a href="others/georgiou_metrics.pdf">&#8220;Distribution metrics and
 image segmentation&#8221;</a>, Georgiou, Michailovich, Rathi, Malcolm, Tannenbaum.
 <i>Linear Algebra and Its Applications</i>, 2(425):663-672, 2007.
 
-<a href="pdfs/malcolm_tc.pdf">&#8220;A Graph Cut Approach to Image
+<a href="malcolm_tc.pdf">&#8220;A Graph Cut Approach to Image
 Segmentation in Tensor Space&#8221;</a>, Malcolm, Rathi, Tannenbaum. <i>Workshop on
 Component Analysis Methods (in CVPR)</i>, 2007. [<a
- href="pdfs/malcolm_tc_slides.pdf">slides</a>]
+ href="malcolm_tc_slides.pdf">slides</a>]
 
-<a href="pdfs/malcolm_mdp.pdf">&#8220;Multi-Object Tracking
+<a href="malcolm_mdp.pdf">&#8220;Multi-Object Tracking
 Through Clutter Using Graph Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum,
 <i>Workshop on Non-rigid Registration and Tracking through Learning (in
-ICCV)</i>, 2007. [<a href="pdfs/malcolm_mdp_slides.pdf">slides</a>].
+ICCV)</i>, 2007. [<a href="malcolm_mdp_slides.pdf">slides</a>].
 
-<a href="pdfs/malcolm_qec.pdf">&#8220;Quantum error
+<a href="malcolm_qec.pdf">&#8220;Quantum error
 correction&#8221;</a>, Malcolm (unpublished, final report for <a
  href="http://www.math.gatech.edu/~jeanbel/4782">Math4782</a>).
 
-<a href="pdfs/malcolm_dp.pdf">&#8220;Tracking Through Clutter Using Graph
+<a href="malcolm_dp.pdf">&#8220;Tracking Through Clutter Using Graph
 Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>British Machine Vision Conference
-(BMVC)</i>, 2007. [<a href="pdfs/malcolm_dp_poster.pdf">poster</a>].
+(BMVC)</i>, 2007. [<a href="malcolm_dp_poster.pdf">poster</a>].
 
-<a href="pdfs/malcolm_shape.pdf">&#8220;Graph cut segmentation with
+<a href="malcolm_shape.pdf">&#8220;Graph cut segmentation with
 nonlinear shape priors&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Int. Conf. on Image
-Processing (ICIP)</i>, 2007. [<a href="pdfs/malcolm_shape_poster.pdf">poster</a>].
+Processing (ICIP)</i>, 2007. [<a href="malcolm_shape_poster.pdf">poster</a>].
 
-<a href="pdfs/others/rathi_seeing_unseen.pdf">&#8220;Seeing the Unseen:
+<a href="others/rathi_seeing_unseen.pdf">&#8220;Seeing the Unseen:
 Segmenting with Distributions&#8221;</a>, Rathi, Michailovich, Malcolm, Tannenbaum,
 <i>Intl. Conference on Signal and Image Processing (SIP)</i>, 2006.
 
-<a href="pdfs/others/vela_closed.pdf">&#8220;Closed Loop Visual Tracking
+<a href="others/vela_closed.pdf">&#8220;Closed Loop Visual Tracking
 Using Observer-Based Dynamic Active Contours&#8221;</a>, Vela, Niethammer, Malcolm,
 Tannenbaum, <i>Conf. on Guidance, Navigation, and Control</i>, 2005.
 

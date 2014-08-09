@@ -74,10 +74,10 @@ experiments confirm the ability to trace out fibers in areas known to contain
 such crossing and branching.  Many of these known pathways were not revealed
 with single-tensor tractography.
 
-<a href="pdfs/malcolm_cukf.pdf">&#8220;Two-Tensor Tractography
+<a href="malcolm_cukf.pdf">&#8220;Two-Tensor Tractography
 Using a Constrained Filter&#8221;</a>, Malcolm, Shenton, Rathi, <i>Medical
 Image Computing and Computer Assisted Intervention (MICCAI)</i>, pages
-894-902, 2009. [<a href="pdfs/malcolm_cukf_poster.pdf">poster</a>, <a
+894-902, 2009. [<a href="malcolm_cukf_poster.pdf">poster</a>, <a
  href="javascript:toggle('malcolm_cukf')">bib</a>]
 
 <div style="display:none" id="malcolm_cukf"><pre>
@@ -90,16 +90,16 @@ Image Computing and Computer Assisted Intervention (MICCAI)</i>, pages
 }
 </pre></div>
 
-<a href="pdfs/malcolm_2t.pdf">&#8220;Neural Tractography Using An Unscented
+<a href="malcolm_2t.pdf">&#8220;Neural Tractography Using An Unscented
 Kalman Filter&#8221;</a>, Malcolm, Shenton and Rathi, <i>Information
 Processing in Medical Imaging
-(IPMI)</i>, 2009. [<a href="pdfs/malcolm_2t_slides.pdf">slides</a>]
+(IPMI)</i>, 2009. [<a href="malcolm_2t_slides.pdf">slides</a>]
 
-<a href="pdfs/others/rathi_watson.pdf">&#8220;Mixture Model for estimating
+<a href="others/rathi_watson.pdf">&#8220;Mixture Model for estimating
 fiber ODF and multi-directional Tractography&#8221;</a>, Rathi, Malcolm,
 Bouix, Kindlmann, Westin, Kubicki, Shenton, <i>Intl. Soc. of Magnetic
 Resonance in Medicine (ISMRM)</i>, 2009.
-[<a href="pdfs/others/rathi_watson_slides.pdf">slides</a>]
+[<a href="others/rathi_watson_slides.pdf">slides</a>]
 
 
 
@@ -114,17 +114,17 @@ implicit representation that offers unbiased algebraic manipulation and
 natural expression of label uncertainty.  We demonstrate smoothing and
 registration on multi-label brain MRI.
 
-<a href="pdfs/malcolm_lss.pdf">&#8220;Label Space: A Coupled
+<a href="malcolm_lss.pdf">&#8220;Label Space: A Coupled
 Multi-Shape Representation&#8221;</a>, Malcolm, Rathi, Shenton, Tannenbaum,
 <i>Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>,
 2008. <b>Runner-Up, MICCAI Young Scientist Award</b> [<a
- href="pdfs/malcolm_lss_slides.pdf">slides</a>]
+ href="malcolm_lss_slides.pdf">slides</a>]
 
-<a href="pdfs/malcolm_ls.pdf">&#8220;Label Space: A
+<a href="malcolm_ls.pdf">&#8220;Label Space: A
 Multi-Object Shape Representation&#8221;</a>, Malcolm, Rathi, Tannenbaum,
 <i>Combinatorial Image Analysis</i>, 2008.
 
-<a href="pdfs/others/rathi_affine.pdf">&#8220;Affine
+<a href="others/rathi_affine.pdf">&#8220;Affine
 registration of label maps in Label Space&#8221;</a>, Rathi, Malcolm, Bouix,
 Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
  href="javascript:toggle('rathi_affine')">bib</a>]
@@ -141,7 +141,7 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 }
 </pre></div>
 
-<a href="pdfs/others/rathi_segmenting_analytically.pdf">&#8220;Segmenting
+<a href="others/rathi_segmenting_analytically.pdf">&#8220;Segmenting
 Images Analytically in Shape Space&#8221;</a>, Rathi, et al., <i>IS&T/SPIE
 Symposium on Medical Imaging</i>, 2008.
 
@@ -167,31 +167,31 @@ Further, the numerical considerations of the level set method often prohibit
 its use high performance applications which has driven our development of an
 efficient and flexible algorithm for curve evolution.
 
-<a href="pdfs/others/rathi_seeing_unseen.pdf">&#8220;Seeing
+<a href="others/rathi_seeing_unseen.pdf">&#8220;Seeing
 the Unseen: Segmenting with Distributions&#8221;</a>, Rathi, Michailovich,
 Malcolm, Tannenbaum, <i>Intl. Conference on Signal and Image Processing
 (SIP)</i>, 2006.
 
-<a href="pdfs/malcolm_lsdm.pdf">&#8220;Fast Approximate
+<a href="malcolm_lsdm.pdf">&#8220;Fast Approximate
 Surface Evolution in Arbitrary Dimension&#8221;</a>, Malcolm, Rathi, Yezzi,
 Tannenbaum, <i>IS&T/SPIE Symposium on Medical Imaging</i>, 2008. [<a
- href="pdfs/malcolm_lsdt_slides.pdf">slides</a>, <a
- href="pdfs/malcolm_lsdm_poster.pdf">poster</a>]
+ href="malcolm_lsdt_slides.pdf">slides</a>, <a
+ href="malcolm_lsdm_poster.pdf">poster</a>]
 
-<a href="pdfs/others/vela_closed.pdf">&#8220;Closed Loop
+<a href="others/vela_closed.pdf">&#8220;Closed Loop
 Visual Tracking Using Observer-Based Dynamic Active Contours&#8221;</a>,
 Vela, Niethammer, Malcolm, Tannenbaum, <i>Conf. on Guidance, Navigation, and
 Control</i>, 2005.
 
-<a href="pdfs/others/vela_range.pdf">&#8220;Vision-Based
+<a href="others/vela_range.pdf">&#8220;Vision-Based
 Range Regulation of a Leader-Follower Formation&#8221;</a>, Vela, Betser,
 Malcolm, Tannenbaum, <i>IEEE Transactions on Control Systems Technology</i>,
 17(2):442-448, 2009
 
-<a href="pdfs/others/lankton_lsfb.pdf">&#8220;Localized
+<a href="others/lankton_lsfb.pdf">&#8220;Localized
 statistics for DW-MRI fiber bundle segmentation&#8221;</a>, Lankton,
 Melonakos, Malcolm, Dambreville, Tannenbaum, <i>MMBIA</i>, 2007. [<a
- href="pdfs/others/lankton_lsfb_poster.pdf">poster</a>]
+ href="others/lankton_lsfb_poster.pdf">poster</a>]
 
 
 
@@ -206,15 +206,15 @@ tracking multiple interacting objects.  <a
 href="https://github.com/jgmalcolm/graphchop">Download the MATLAB package</a>
 for graph cut image segmentation (Win32, Mac, Linux32, Linux64).
 
-<a href="pdfs/malcolm_dp.pdf">&#8220;Tracking Through Clutter Using Graph
+<a href="malcolm_dp.pdf">&#8220;Tracking Through Clutter Using Graph
 Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>British Machine Vision
 Conference
-(BMVC)</i>, 2007. [<a href="pdfs/malcolm_dp_poster.pdf">poster</a>].
+(BMVC)</i>, 2007. [<a href="malcolm_dp_poster.pdf">poster</a>].
 
-<a href="pdfs/malcolm_mdp.pdf">&#8220;Multi-Object Tracking Through Clutter
+<a href="malcolm_mdp.pdf">&#8220;Multi-Object Tracking Through Clutter
 Using Graph Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Workshop on
 Non-rigid Registration and Tracking through Learning (in
-ICCV)</i>, 2007. [<a href="pdfs/malcolm_mdp_slides.pdf">slides</a>].
+ICCV)</i>, 2007. [<a href="malcolm_mdp_slides.pdf">slides</a>].
 
 <!---
 #### Videos
@@ -260,10 +260,10 @@ an iteratively refined shape prior in a Bayesian manner.  <a
 href="https://github.com/jgmalcolm/graphchop">Download the MATLAB wrapper</a>
 for graph cut image segmentation (Win32, Mac, Linux32, Linux64).
 
-<a href="pdfs/malcolm_shape.pdf">&#8220;Graph cut segmentation with nonlinear
+<a href="malcolm_shape.pdf">&#8220;Graph cut segmentation with nonlinear
 shape priors&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Int. Conf. on Image
 Processing
-(ICIP)</i>, 2007. [<a href="pdfs/malcolm_shape_poster.pdf">poster</a>].
+(ICIP)</i>, 2007. [<a href="malcolm_shape_poster.pdf">poster</a>].
 
 
 
@@ -288,10 +288,10 @@ derivatives, etc.  <a href="https://github.com/jgmalcolm/graphchop">Download
 the MATLAB package</a> for graph cut image segmentation (Win32, Mac, Linux32,
 Linux64).
 
-<a href="pdfs/malcolm_tc.pdf">&#8220;A Graph Cut Approach to
+<a href="malcolm_tc.pdf">&#8220;A Graph Cut Approach to
 Image Segmentation in Tensor Space&#8221;</a>, Malcolm, Rathi, Tannenbaum,
 <i>Workshop on Component Analysis Methods (in CVPR)</i>, 2007. [<a
- href="pdfs/malcolm_tc_slides.pdf">slides</a>]
+ href="malcolm_tc_slides.pdf">slides</a>]
 
 
 
@@ -309,7 +309,7 @@ analogous techniques for quantum systems. Included is a survey of several
 advanced codes and discussion of future directions for fault tolerant quantum
 computation.
 
-<a href="pdfs/malcolm_qec.pdf">&#8220;Quantum error correction&#8221;</a>,
+<a href="malcolm_qec.pdf">&#8220;Quantum error correction&#8221;</a>,
 Malcolm, final report for <a
 href="http://www.math.gatech.edu/~jeanbel/4782">Math4782</a>.
 
