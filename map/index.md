@@ -10,10 +10,10 @@ robots: norobots
 Unit 2103<br>
 Atlanta, GA 30308</b>
 
-The building is called "Spire" at the corner of Peachtree & 7th.
-You can enter the building from inside the parking deck (entrance on
-the 2nd level), or by the Peachtree St main entrance.  The concierge
-will buzz you up to the 21st floor, and my unit is #2103.
+The building is called "Spire" at the corner of Peachtree & 7th.  You can
+enter the building from inside the parking deck (entrance at the top of the
+ramp between first and second levels), or by the Peachtree St main entrance.
+The concierge will buzz you up to the 21st floor, and our unit is #2103.
 
 <iframe
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.32288148116!2d-84.38455699999994!3d33.7781593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5046860d2b3d9%3A0xac6f097ed3fce256!2s860+Peachtree+St+NE+%232103%2C+Atlanta%2C+GA+30308!5e0!3m2!1sen!2sus!4v1390599823424"
@@ -24,8 +24,9 @@ width="100%" height="400" frameborder="0" style="border:0">&nbsp;</iframe>
 
 The <a href="http://www.itsmarta.com/ns-mid-overview.aspx">Midtown Station
 (N4)</a> is about a 5 minute walk.  Exit the station on the side of Peachtree
-Place NW.  Take a left out of the station heading toward Peachtree St.  Take a
-right onto Peachtree St heading toward 860 Peachtree St.
+Place NW.  Take a left out of the station heading slightly uphill toward
+Peachtree St.  Take a right onto Peachtree St heading South toward 860
+Peachtree St.
 
 
 <h3>From Emory.</h3>
@@ -40,15 +41,15 @@ and park in the visitor deck on your left.
 Take exit 250 for 10th/14th/17th street.  Pass through 17th and stay in the
 left lane to take a left onto 10th.  In three blocks, take a right onto
 Peachtree St.  In three blocks, take a right onto 7th street (Starbucks will
-be on your left as you turn), and park in the visitor deck on your left.</p>
+be on your left as you turn), and park in the visitor deck on your left.
 
 
 <h3>Parking.</h3>
 
 The map below shows a green star for the building which has pay parking on the
 bottom two floors. Free parking is available on Juniper St on a first-come,
-first-served basis.  There are also two pay lots at the corners of Peachtree &
-7th and Peachtree & 6th.
+first-served basis.  There are also two pay lots at the corners of
+Peachtree/7th and Peachtree/6th.
 
 <a style="a:hover { border-bottom: none }" href="860_peachtree_st.png">
   <img width="100%" src="860_peachtree_st.png" alt="Annotated map">
