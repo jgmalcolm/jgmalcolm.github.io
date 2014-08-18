@@ -178,3 +178,16 @@ layout: default
 - [OP_ Math](variables/op_m.htm) - Get an understanding of how to perform
   Floating Point math with the Operator Registers. You can even check out TI's
   own routine to input strings or values.
+
+
+
+## Dedicated to those who taught me
+<A HREF="mailto:assets@eden.rutgers.edu">Dux Gregis</A>,
+<A HREF="mailto:mja@algonet.se">Jimmy M&aring;rdell</A>,
+<A HREF="mailto:JayEll64@aol.com">Jay Hellrungen</A>,
+<A HREF="mailto:luezma@netscape.net">Patrick Davidson</A>,
+<A HREF="mailto:ComAsYuAre@aol.com">Jonah Cohen</A>,
+<A HREF="mailto:kirkmeyer@bigfoot.com">Kirk Meyer</A>,
+<A HREF="mailto:david@acz.org">David Phillips</A>,
+<A HREF="mailto:bailela@charlie.cns.iit.edu">Alan Bailey</A>,
+<A HREF="mailto:kazmet@sonic.net">Adrian Mettler</A>
