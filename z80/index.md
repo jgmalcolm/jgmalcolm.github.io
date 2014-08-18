@@ -84,6 +84,8 @@ layout: default
 - [The Screen](intermediate/scre.htm) - Manipulating the screen directly in
   video memory.
 
+
+
 # Advanced
 
 - [More Registers](advanced/inde.htm) - Now you have even more with the
@@ -130,3 +132,43 @@ layout: default
 - [Simulating Key Presses](advanced/simu.htm) - Kind of like macros, have the
   TI86 think you're pushing keys and respond to them when you're not even
   touching the calculator.
+
+
+
+# TI-OS Variables
+
+- [TI86 Variable Manipulation](variables/ti86.htm) - Manipulating data behind
+  TI-OS' back. What are the Operator Registers?
+- [Variable Name Format](variables/vari.htm) - How to set-up variables' names
+  in the OP Registers. Learn about the Variable Type byte with the included
+  reference chart and numerous full examples.
+- [Creating Variables](variables/crea.htm) - You can generate just about any
+  variable type you want through these asm calls.
+- [_FindSym](variables/_fin.htm) - The basis for *all* variable manipulation,
+  <CODE>_FindSym</CODE> finds variable data addresses fast. A must for all who
+  want to work with TI-OS variables!
+- [Absolute Addressing](variables/abso.htm) - A 24-bit address? That's right!
+  Since there's more than 64 kilobytes of memory, you need to be familiar with
+  TI's method of absolute addressing. It's used *all* the time with TI-OS
+  variables.
+- [Messing with Data](variables/mess.htm) - This is the meat of the topic: How
+  to manipulate the data within the TI-OS Variables! Through step-by-step
+  examples, you'll learn how to edit everything from Lists and Complex
+  Matrices to Real Numbers and Strings! You can even download source code for
+  Tokenized, Un-Tokenized, and Assembler Programs.
+- [Binary Coded Decimal](variables/bcd.htm) - Format Floating Point decimal
+  numbers. Work with exponents, Complex and Real numbers, and negative
+  numbers. Examples are illustrated in tables and code snippets!
+- [Floating Point Stack](variables/floa.htm) - Save and recall entire Operator
+  Registers just like with <CODE>push</CODE> and <CODE>pop</CODE>. You can
+  even push entire lists and matrices.
+- [VAT Searches](variables/vats.htm) - Learn the methodology behind the
+  Variable Allocation Table and how to search through it. You can even walk
+  through the line-by-line analysis of one of the hottest search routines out
+  there! Learn how to make your own shell.
+- [External Levels](variables/exte.htm) - Access and execute other variables
+  on the calculator as level data, plug-ins, and much more. Customizable,
+  full-featured programs are just around the corner.
+- [OP_ Math](variables/op_m.htm) - Get an understanding of how to perform
+  Floating Point math with the Operator Registers. You can even check out TI's
+  own routine to input strings or values.
