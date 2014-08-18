@@ -1,15 +1,12 @@
 ---
 layout: default
 ---
+<a href="/z80">z80</a> ::
+<a href="/z80/#{{ page.section }}">{{ page.section }}</a> ::
+<a href="#">{{ page.title }}</a>
+
 <h1>{{ page.title }}</h1>
 
-{% if page.tags %}
-<div class="tags">
-{% for tag in page.tags %}
-  <span>#{{ tag }}</span>
-{% endfor %}
-</div>
-{% endif %}
 
 {{ content }}
 
