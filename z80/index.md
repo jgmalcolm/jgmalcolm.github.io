@@ -149,7 +149,7 @@ and how the pixels are stored in memory.
 # z80 Opcodes
 
 - [Overview](opcodes/opcodes.htm)
-- [Sorted by byte value](opcodes/opcodesB.htm)
+- [Sorted by value](opcodes/opcodesB.htm)
 - [Sorted by name](opcodes/opcodesN.htm)
 
 
