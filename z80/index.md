@@ -81,6 +81,7 @@ layout: default
 
 Pixel manipulation and sprite animation. Line-by-line walk throughs of the
 most popular graphics routines.
+
 - [The Screen](intermediate/scre.htm) - Introduction to the LCD, Video Memory,
 and how the pixels are stored in memory.
 - [Find Pixel](intermediate/find.htm) - Find where on the screen pixels are
