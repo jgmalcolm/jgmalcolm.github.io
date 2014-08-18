@@ -105,10 +105,10 @@ strides to support academics.
 
 Other great ways to collaborate may include using Google docs for real-time
 collaboration between coauthors or drafting.  You can now track changes and
-accept/reject suggested edits.  [writeLaTeX](https://www.writelatex.com)
-provides similar functionality specifically for LaTeX documents.
-[Mendeley](http://mendeley.com/) lets you share papers among colleagues and
-quickly assemble bibliographies in MS Word.
+accept/reject suggested edits.
+[Several platforms](http://tex.stackexchange.com/a/1654) exist for
+collaborating with LaTeX documents.  [Mendeley](http://mendeley.com/) lets you
+share papers among colleagues and quickly assemble bibliographies in MS Word.
 [Authorea](https://authorea.com/users/3/articles/3904/_show_article) is a
 project to make it easier to interact and share scientific ideas.
 
