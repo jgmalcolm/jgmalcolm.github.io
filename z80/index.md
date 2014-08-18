@@ -61,7 +61,7 @@ layout: default
 - [TI's ROM Calls](intermediate/romc.htm) - Why draw up your own routine when
   TI's already got a ton. Use their calls for printing text, checking
   keypresses, clearing the screen, and much much more!
-- [Getkey](intermediate/_getkey.htm) - Get user input in a flash with
+- [Getkey](intermediate/getkey.htm) - Get user input in a flash with
   `_GetKey`! This routine gives you the ability to respond to certain key
   presses. Here you'll find charts filled with key press codes with their
   equates, a handy reference!
