@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Variables","Messing with Variable Data");</SCRIPT>
+---
+title: Messing with Variable Data
+section: Variables
+layout: z80
+---
 
 This is my favorite section in the entire Guide. I've referred back to
 it several times so pay attention!
@@ -231,7 +228,7 @@ save_game:
 					;2 bytes for asm
 					; identifier bytes
 	add hl,de			;hl=pointer to data
-					; in original prog 
+					; in original prog
 	adc a,$00			;in case we overlapped
 					; pages if carry was set
 					; in previous
@@ -250,7 +247,7 @@ save_game:
 	call _set_mm_num_bytes		;set that as the number
 					; of bytes to copy
 	jp _mm_ldir			;perform absolute address
-					; data block copy 
+					; data block copy
 
 data_start:				;start of data to copy
 high_score:		.db 0		;high score
@@ -312,8 +309,8 @@ _MM_Ldir		=$52ed
 
 list:	.db 6,"Stupid"		;length indexed list name
 start:
-	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00 
-	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00 
+	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00
+	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00
 end:
 .end</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
@@ -372,8 +369,8 @@ _MM_Ldir		=$52ed
 
 matrix:	.db 6,"Stupid"		;length indexed matrix name
 start:
-	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00 
-	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00 
+	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00
+	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00
 end:
 .end</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
@@ -418,4 +415,3 @@ end:</PRE>
 <P>More information on real and complex numbers
 can be found in the <A HREF="bcd.htm">Binary Coded
 Decimal Section</A>.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

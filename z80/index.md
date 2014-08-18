@@ -177,9 +177,6 @@ and how the pixels are stored in memory.
 - [Binary Coded Decimal](variables/bcd.htm) - Format Floating Point decimal
   numbers. Work with exponents, Complex and Real numbers, and negative
   numbers. Examples are illustrated in tables and code snippets!
-- [Floating Point Stack](variables/floa.htm) - Save and recall entire Operator
-  Registers just like with `push` and `pop`. You can even push entire lists
-  and matrices.
 - [VAT Searches](variables/vats.htm) - Learn the methodology behind the
   Variable Allocation Table and how to search through it. You can even walk
   through the line-by-line analysis of one of the hottest search routines out

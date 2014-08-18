@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Other","Opcodes in Alphabetic Order");</SCRIPT>
+---
+title: Opcodes Sorted By Name
+section: Opcodes
+layout: z80
+---
 
 <p ALIGN=CENTER><CODE>nn</CODE> means 2 bytes stored most significant byte first.
 <CODE>n</CODE> means 1 byte.
@@ -226,7 +223,7 @@
         cp e              bb
         cp h              bc
         cp l              bd
-        cp n              fe n 
+        cp n              fe n
 <A NAME="cpd">        cpd               ed a9
 <A NAME="cpdr">        cpdr              ed b9
 <A NAME="cpi">        cpi               ed a1
@@ -263,7 +260,7 @@
         im 1              ed 56
         im 2              ed 5e
 <A NAME="in">        in a,(c)          ed 78
-        in a,(n)          db n 
+        in a,(n)          db n
         in b,(c)          ed 40
         in c,(c)          ed 48
         in d,(c)          ed 50
@@ -354,7 +351,7 @@
         ld a,h            7c
         ld a,i            ed 57
         ld a,l            7d
-        ld a,n            3e n 
+        ld a,n            3e n
         ld b,(hl)         46
         ld b,(ix+n)       dd 46 n
         ld b,(iy+n)       fd 46 n
@@ -622,12 +619,12 @@
         rst 28h           ef
         rst 30h           f7
         rst 38h           ff
-        rst 8h            cf 
+        rst 8h            cf
 <A NAME="sbc">        sbc (hl)          9e
         sbc a             9f
         sbc a,(ix+n)      dd 9e n
         sbc a,(iy+n)      fd 9e n
-        sbc a,n           de n 
+        sbc a,n           de n
         sbc b             98
         sbc c             99
         sbc d             9a
@@ -769,4 +766,3 @@
         xor h             ac
         xor l             ad
         xor n             ee n</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

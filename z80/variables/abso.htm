@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Variables","Absolute Addressing");</SCRIPT>
+---
+title: Absolute Addressing
+section: Variables
+layout: z80
+---
 
 <P>We already went over previously how the TI86 switches in and out
 <A HREF="../intermediate/memo.htm">ROM and RAM Pages</A> so you can look back
@@ -39,7 +36,7 @@ with an 16 bit address (addressing using the register pairs: <CODE>de</CODE>,
 		<TD>$8000 to $bfff
 	<TR>	<TD>$24000 to $27fff
 		<TD>6
-		<TD>$8000 to $bfff	
+		<TD>$8000 to $bfff
 	<TR>	<TD>$28000 to $2bfff
 		<TD>7
 		<TD>$8000 to $bfff
@@ -427,4 +424,3 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
 </TABLE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

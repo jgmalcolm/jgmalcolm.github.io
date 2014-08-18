@@ -1,17 +1,14 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Variables","Creating Variables");</SCRIPT>
+---
+title: Creating Variables
+section: Variables
+layout: z80
+---
 
 <P>The TI86 has several routines that can set up space for variables.  For all
 these routines you must:
 <OL>
 	<LI>Put the name in <A HREF="vari.htm">Variable Name Format</A> into OP1 and
-	<LI>load <CODE>hl</CODE> with the desired size of the variable data area. 
+	<LI>load <CODE>hl</CODE> with the desired size of the variable data area.
 </OL>
 Some of these routines have fixed sizes (<CODE>_CreatREAL</CODE>,
 <CODE>_CreateCPLX</CODE>, etc.) so you don't have to load <CODE>hl</CODE>
@@ -28,49 +25,49 @@ number of elements in <CODE>l</CODE>.
 <P><TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD>Call<TD>Type Created
-	
+
 	<TR>
 		<TD>_CreateREAL*<TD>Real Number
-	
+
 	<TR>
 		<TD>_CreateCPLX*<TD>Complex Number
-	
+
 	<TR>
 		<TD>_CreateRCONST*<TD>Real Constant
-	
+
 	<TR>
 		<TD>_CreateCCONST*<TD>Complex Constant
-	
+
 	<TR>
 		<TD>_CreateRVECT<TD>Real Vector
-	
+
 	<TR>
 		<TD>_CreateCVECT<TD>Complex Vector
-	
+
 	<TR>
 		<TD>_CreateRLIST<TD>Real List
-	
+
 	<TR>
 		<TD>_CreateCLIST<TD>Complex List
-	
+
 	<TR>
 		<TD>_CreateRMAT<TD>Real Matrix
-	
+
 	<TR>
 		<TD>_CreateCMAT<TD>Complex Matrix
-	
+
 	<TR>
 		<TD>_CreateSTRNG<TD>String
-	
+
 	<TR>
 		<TD>_CreateEQU<TD>Equation
-	
+
 	<TR>
 		<TD>_CreatePICT*<TD>Picture
-	
+
 	<TR>
 		<TD>_CreatePROG<TD>Program
-	
+
 </TABLE>
 
 <P>The output of these calls:
@@ -104,4 +101,3 @@ a length of over 65535 ($ffff) bytes.
 
 <P>More examples on this can be found in the <A HREF="mess.htm">Messing
 With Variable Data</A> section.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

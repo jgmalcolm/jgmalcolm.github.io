@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Other","Opcodes by Byte Value");</SCRIPT>
+---
+title: Opcodes Sorted By Value
+section: Advanced
+layout: z80
+---
 
 <p ALIGN=CENTER><CODE>nn</CODE> means 2 bytes stored most significant byte first.
 <CODE>n</CODE> means 1 byte.
@@ -30,12 +27,12 @@
 
 <PRE>
 <A NAME="o0">        nop               00
-        ld bc,nn          01 n  n 
+        ld bc,nn          01 n  n
         ld (bc),a         02
         inc bc            03
         inc b             04
         dec b             05
-        ld b,n            06 n 
+        ld b,n            06 n
         rlca              07
         ex af,af'         08
         add hl,bc         09
@@ -43,15 +40,15 @@
         dec bc            0b
         inc c             0c
         dec c             0d
-        ld c,n            0e n 
+        ld c,n            0e n
         rrca              0f
 <A NAME="o10">        djnz $+2          10
-        ld de,nn          11 n  n 
+        ld de,nn          11 n  n
         ld (de),a         12
         inc de            13
         inc d             14
         dec d             15
-        ld d,n            16 n 
+        ld d,n            16 n
         rla               17
         jr $+2            18
         add hl,de         19
@@ -59,39 +56,39 @@
         dec de            1b
         inc e             1c
         dec e             1d
-        ld e,n            1e n 
+        ld e,n            1e n
         rra               1f
 <A NAME="o20">        jr nz,$+2         20
-        ld hl,nn          21 n  n 
-        ld (nn),hl        22 n  n 
+        ld hl,nn          21 n  n
+        ld (nn),hl        22 n  n
         inc hl            23
         inc h             24
         dec h             25
-        ld h,n            26 n 
+        ld h,n            26 n
         daa               27
         jr z,$+2          28
         add hl,hl         29
-        ld hl,(nn)        2a n  n 
+        ld hl,(nn)        2a n  n
         dec hl            2b
         inc l             2c
         dec l             2d
-        ld l,n            2e n 
+        ld l,n            2e n
         cpl               2f
 <A NAME="o30">        jr nc,$+2         30
-        ld sp,nn          31 n  n 
-        ld (nn),a         32 n  n 
+        ld sp,nn          31 n  n
+        ld (nn),a         32 n  n
         inc sp            33
         inc (hl)          34
         dec (hl)          35
-        ld (hl),n         36 n 
+        ld (hl),n         36 n
         scf               37
         jr c,$+2          38
         add hl,sp         39
-        ld a,(nn)         3a n  n 
+        ld a,(nn)         3a n  n
         dec sp            3b
         inc a             3c
         dec a             3d
-        ld a,n            3e n 
+        ld a,n            3e n
         ccf               3f
 <A NAME="o40">        ld b,b            40
         ld b,c            41
@@ -225,9 +222,9 @@
         pop bc            c1
         jp nz,$+3         c2
         jp $+3            c3
-        call nz,nn        c4 n  n 
+        call nz,nn        c4 n  n
         push bc           c5
-        add a,n           c6 n 
+        add a,n           c6 n
         rst 0             c7
         ret z             c8
         ret               c9
@@ -480,58 +477,58 @@
         set 7,l           cb fd
         set 7,(hl)        cb fe
         set 7,a           cb ff
-        call z,nn         cc n  n 
-        call nn           cd n  n 
-        adc a,n           ce n 
-        rst 8h            cf 
+        call z,nn         cc n  n
+        call nn           cd n  n
+        adc a,n           ce n
+        rst 8h            cf
 <A NAME="od0">        ret nc            d0
         pop de            d1
         jp nc,$+3         d2
-        out (n),a         d3 n 
-        call nc,nn        d4 n  n 
-        call nc,nn        d4 n  n 
+        out (n),a         d3 n
+        call nc,nn        d4 n  n
+        call nc,nn        d4 n  n
         push de           d5
-        sub n             d6 n 
+        sub n             d6 n
         rst 10h           d7
         ret c             d8
         en                d9
         jp c,$+3          da
-        in a,(n)          db n 
-        call c,nn         dc n  n 
+        in a,(n)          db n
+        call c,nn         dc n  n
         add ix,bc         dd 09
         add ix,de         dd 19
-        ld ix,nn          dd 21 n  n 
-        ld (nn),ix        dd 22 n  n 
+        ld ix,nn          dd 21 n  n
+        ld (nn),ix        dd 22 n  n
         inc ix            dd 23
         add ix,ix         dd 29
-        ld ix,(nn)        dd 2a n  n 
+        ld ix,(nn)        dd 2a n  n
         dec ix            dd 2b
-        inc (ix+n)        dd 34 n 
-        dec (ix+n)        dd 35 n 
-        ld (ix+n),n       dd 36 n  n 
+        inc (ix+n)        dd 34 n
+        dec (ix+n)        dd 35 n
+        ld (ix+n),n       dd 36 n  n
         add ix,sp         dd 39
-        ld b,(ix+n)       dd 46 n 
-        ld c,(ix+n)       dd 4e n 
-        ld d,(ix+n)       dd 56 n 
-        ld e,(ix+n)       dd 5e n 
-        ld h,(ix+n)       dd 66 n 
-        ld l,(ix+n)       dd 6e n 
-        ld (ix+n),b       dd 70 n 
-        ld (ix+n),c       dd 71 n 
-        ld (ix+n),d       dd 72 n 
-        ld (ix+n),e       dd 73 n 
-        ld (ix+n),h       dd 74 n 
-        ld (ix+n),l       dd 75 n 
-        ld (ix+n),a       dd 77 n 
-        ld a,(ix+n)       dd 7e n 
-        add a,(ix+n)      dd 86 n 
-        adc a,(ix+n)      dd 8e n 
-        sub (ix+n)        dd 96 n 
-        sbc a,(ix+n)      dd 9e n 
-        and (ix+n)        dd a6 n 
-        xor (ix+n)        dd ae n 
-        or (ix+n)         dd b6 n 
-        cp (ix+n)         dd be n 
+        ld b,(ix+n)       dd 46 n
+        ld c,(ix+n)       dd 4e n
+        ld d,(ix+n)       dd 56 n
+        ld e,(ix+n)       dd 5e n
+        ld h,(ix+n)       dd 66 n
+        ld l,(ix+n)       dd 6e n
+        ld (ix+n),b       dd 70 n
+        ld (ix+n),c       dd 71 n
+        ld (ix+n),d       dd 72 n
+        ld (ix+n),e       dd 73 n
+        ld (ix+n),h       dd 74 n
+        ld (ix+n),l       dd 75 n
+        ld (ix+n),a       dd 77 n
+        ld a,(ix+n)       dd 7e n
+        add a,(ix+n)      dd 86 n
+        adc a,(ix+n)      dd 8e n
+        sub (ix+n)        dd 96 n
+        sbc a,(ix+n)      dd 9e n
+        and (ix+n)        dd a6 n
+        xor (ix+n)        dd ae n
+        or (ix+n)         dd b6 n
+        cp (ix+n)         dd be n
         rlc (ix+n)        dd cb n  06
         rrc (ix+n)        dd cb n  0e
         rl (ix+n)         dd cb n  16
@@ -567,25 +564,25 @@
         push ix           dd e5
         jp (ix)           dd e9
         ld sp,ix          dd f9
-        sbc a,n           de n 
+        sbc a,n           de n
         rst 18h           df
 <A NAME="oe0">        ret po            e0
         pop hl            e1
         jp po,$+3         e2
         ex (sp),hl        e3
-        call po,nn        e4 n  n 
+        call po,nn        e4 n  n
         push hl           e5
-        and n             e6 n 
+        and n             e6 n
         rst 20h           e7
         ret pe            e8
         jp (hl)           e9
         jp pe,$+3         ea
         ex de,hl          eb
-        call pe,nn        ec n  n 
+        call pe,nn        ec n  n
         in b,(c)          ed 40
         out (c),b         ed 41
         sbc hl,bc         ed 42
-        ld (nn),bc        ed 43 n  n 
+        ld (nn),bc        ed 43 n  n
         neg               ed 44
         retn              ed 45
         im 0              ed 46
@@ -593,18 +590,18 @@
         in c,(c)          ed 48
         out (c),c         ed 49
         adc hl,bc         ed 4a
-        ld bc,(nn)        ed 4b n  n 
+        ld bc,(nn)        ed 4b n  n
         reti              ed 4d
         in d,(c)          ed 50
         out (c),d         ed 51
         sbc hl,de         ed 52
-        ld (nn),de        ed 53 n  n 
+        ld (nn),de        ed 53 n  n
         im 1              ed 56
         ld a,i            ed 57
         in e,(c)          ed 58
         out (c),e         ed 59
         adc hl,de         ed 5a
-        ld de,(nn)        ed 5b n  n 
+        ld de,(nn)        ed 5b n  n
         im 2              ed 5e
         in h,(c)          ed 60
         out (c),h         ed 61
@@ -615,11 +612,11 @@
         adc hl,hl         ed 6a
         rld               ed 6f
         sbc hl,sp         ed 72
-        ld (nn),sp        ed 73 n  n 
+        ld (nn),sp        ed 73 n  n
         in a,(c)          ed 78
         out (c),a         ed 79
         adc hl,sp         ed 7a
-        ld sp,(nn)        ed 7b n  n 
+        ld sp,(nn)        ed 7b n  n
         ldi               ed a0
         cpi               ed a1
         ini               ed a2
@@ -636,55 +633,55 @@
         cpdr              ed b9
         indr              ed ba
         otdr              ed bb
-        xor n             ee n 
+        xor n             ee n
         rst 28h           ef
 <A NAME="of0">        ret p             f0
         pop af            f1
         jp p,$+3          f2
         di                f3
-        call p,nn         f4 n  n 
+        call p,nn         f4 n  n
         push af           f5
-        or n              f6 n 
+        or n              f6 n
         rst 30h           f7
         ret m             f8
         ld sp,hl          f9
         jp m,$+3          fa
         ei                fb
-        call m,nn         fc n  n 
+        call m,nn         fc n  n
         add iy,bc         fd 09
         add iy,de         fd 19
-        ld iy,nn          fd 21 n  n 
-        ld (nn),iy        fd 22 n  n 
+        ld iy,nn          fd 21 n  n
+        ld (nn),iy        fd 22 n  n
         inc iy            fd 23
         add iy,iy         fd 29
-        ld iy,(nn)        fd 2a n  n 
+        ld iy,(nn)        fd 2a n  n
         dec iy            fd 2b
-        inc (iy+n)        fd 34 n 
-        dec (iy+n)        fd 35 n 
-        ld (iy+n),n       fd 36 n  n 
+        inc (iy+n)        fd 34 n
+        dec (iy+n)        fd 35 n
+        ld (iy+n),n       fd 36 n  n
         add iy,sp         fd 39
-        ld b,(iy+n)       fd 46 n 
-        ld c,(iy+n)       fd 4e n 
-        ld d,(iy+n)       fd 56 n 
-        ld e,(iy+n)       fd 5e n 
-        ld h,(iy+n)       fd 66 n 
-        ld l,(iy+n)       fd 6e n 
-        ld (iy+n),b       fd 70 n 
-        ld (iy+n),c       fd 71 n 
-        ld (iy+n),d       fd 72 n 
-        ld (iy+n),e       fd 73 n 
-        ld (iy+n),h       fd 74 n 
-        ld (iy+n),l       fd 75 n 
-        ld (iy+n),a       fd 77 n 
-        ld a,(iy+n)       fd 7e n 
-        add a,(iy+n)      fd 86 n 
-        adc a,(iy+n)      fd 8e n 
-        sub (iy+n)        fd 96 n 
-        sbc a,(iy+n)      fd 9e n 
-        and (iy+n)        fd a6 n 
-        xor (iy+n)        fd ae n 
-        or (iy+n)         fd b6 n 
-        cp (iy+n)         fd be n 
+        ld b,(iy+n)       fd 46 n
+        ld c,(iy+n)       fd 4e n
+        ld d,(iy+n)       fd 56 n
+        ld e,(iy+n)       fd 5e n
+        ld h,(iy+n)       fd 66 n
+        ld l,(iy+n)       fd 6e n
+        ld (iy+n),b       fd 70 n
+        ld (iy+n),c       fd 71 n
+        ld (iy+n),d       fd 72 n
+        ld (iy+n),e       fd 73 n
+        ld (iy+n),h       fd 74 n
+        ld (iy+n),l       fd 75 n
+        ld (iy+n),a       fd 77 n
+        ld a,(iy+n)       fd 7e n
+        add a,(iy+n)      fd 86 n
+        adc a,(iy+n)      fd 8e n
+        sub (iy+n)        fd 96 n
+        sbc a,(iy+n)      fd 9e n
+        and (iy+n)        fd a6 n
+        xor (iy+n)        fd ae n
+        or (iy+n)         fd b6 n
+        cp (iy+n)         fd be n
         rlc (iy+n)        fd cb n  06
         rrc (iy+n)        fd cb n  0e
         rl (iy+n)         fd cb n  16
@@ -720,6 +717,5 @@
         push iy           fd e5
         jp (iy)           fd e9
         ld sp,iy          fd f9
-        cp n              fe n 
+        cp n              fe n
         rst 38h           ff</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>
