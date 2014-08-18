@@ -1,12 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<a name="top">
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","IM 2");</SCRIPT>
+---
+title: IM 2
+section: Advanced
+layout: z80
+---
 
 <P CLASS=clsByLine>Written by
 <A HREF="mailto:matt2000@dogtech.com">Matt Johnson</A> of 86 Central</P>
@@ -75,7 +71,7 @@ int_addr equ $F8F8                      ;Start of interrupt code
  ld (hl),$F8                            ;Set first byte so it is copied to all of them ($F8F8)
  ld bc,257                              ;257 bytes (size of vector table)
  ldir                                   ;(DE) &lt;- (HL), BC=BC-1, Loop till B=0
- 
+
  ld hl,int_copy                         ;Source = interrupt routine
  ld de,int_addr                         ;Destination = $F8F8 (as specified in vector table)
  ld bc,int_end-int_start                ;Length of custom interrupt routine
@@ -151,7 +147,7 @@ int_addr equ $F8F8                      ;Start of interrupt code
  ld (hl),$F8                            ;Set first byte so it is copied to all of them ($F8F8)
  ld bc,257                              ;257 bytes (size of vector table)
  ldir                                   ;(DE) &lt;- (HL), BC=BC-1, Loop till B=0
- 
+
  ld hl,int_copy                         ;Source = interrupt routine
  ld de,int_addr                         ;Destination = $F8F8 (as specified in vector table)
  ld bc,int_end-int_start                ;Length of custom interrupt routine
@@ -185,7 +181,7 @@ Loop:
  ld a, l
  add a, 16           ; Add 16 to L (goes to next row)
  ld l, a
-        
+
  djnz Loop
 ; ----------------------------------------------------------
 
@@ -205,5 +201,3 @@ CalcPIC:
 int_end:
 
 .end</PRE>
-
-<script language="JavaScript">bottom();</SCRIPT>

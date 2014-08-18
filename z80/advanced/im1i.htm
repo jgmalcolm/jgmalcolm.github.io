@@ -1,22 +1,18 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<a name="top">
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","IM 1");</SCRIPT>
+---
+title: IM 1
+section: Advanced
+layout: z80
+---
 
 <P CLASS=clsByLine>Written by
 <A HREF="mailto:matt2000@dogtech.com">Matt Johnson</A> of 86 Central</P>
 
-<P>Welcome to the interrupt section! This section is very comprehensive, and
-I am proud of its unique and detailed information. This covers some of
-the ROM interrupt code and explains Interrupt Mode 1 and Interrupt Mode
-2 programming applications and theory. For even more <A HREF="im2i.htm">advanced
-interrupt information</A>, including "The reset, Calc-On, Calc-Off operations",
-Fixing the Down-Left Bug", "Speedy IM 1", "Speedy IM 2", "TSR techniques",
+<P>Welcome to the interrupt section! This section is very comprehensive, and I
+am proud of its unique and detailed information. This covers some of the ROM
+interrupt code and explains Interrupt Mode 1 and Interrupt Mode 2 programming
+applications and theory. For even more <A HREF="im2i.htm">advanced interrupt
+information</A>, including "The reset, Calc-On, Calc-Off operations", "Fixing
+the Down-Left Bug", "Speedy IM 1", "Speedy IM 2", "TSR techniques",
 please <A HREF="im2i.htm">proceed here</A>. Enjoy!
 
 <P>On the <A HREF="../beginner/z80p.htm">Z80 processor</A>, an interrupt is
@@ -96,8 +92,8 @@ checksum to see if the memory area is valid. Here is the code:
 0057	21c5d3		ld hl,$d3c5
 005a	96		sub (hl)
 005b	2005		jr nz,$0062
-005d	cdfed2		call $d2fe	; Checksum is OK, call user routine           
-0060	1804		jr $0066	; Go to next part of interrupt        
+005d	cdfed2		call $d2fe	; Checksum is OK, call user routine
+0060	1804		jr $0066	; Go to next part of interrupt
 0062	fdcb2396	res 2,(iy+$23)	; Checksum doesn't add up, so it disables usr routine</PRE>
 
 <P>The next part appears to branch off into three choices. If <A HREF="../beginner/numb.htm#bitp">bit 0</A>
@@ -259,7 +255,7 @@ concepts of interrupts and user routines.</P>
 	the checksum. It will now execute asm code until a <CODE>ret</CODE> statement is found,
 	from which it will then return to the interrupt.
 </OL>
- 
+
 
 <H4>How to install the user routine</H4>
 
@@ -309,13 +305,13 @@ _user_int_ram EQU $d2fd                      ;Area where interrupt handler goes
 .org _asm_exec_ram                                               ;Instruction Counter starts at $D748
         res 2,(iy+$23)                       ;turn user int off so it won't get called by
                                              ;accident before we're ready
-   
+
         ld hl,int_copy                       ;copy prog to user int buffer
         ld de,_user_int_ram+1                            ;1 byte ahead of checksum
         ld bc,int_end-int_start              ;length of interrupt handler
         ldir                                 ;hl is the source, de is the destination,
                                              ;and bc is the length
-   
+
         ld a,(_user_int_ram+1)               ;set up checksum byte
         ld hl,_user_int_ram+($28*1)          ;load byte
         add a,(hl)                           ;add to total
@@ -334,7 +330,7 @@ _user_int_ram EQU $d2fd                      ;Area where interrupt handler goes
 
 
 int_copy:
-        
+
         .org $D2FE                      ; Intruction Counter starts at $D2FE
 int_start:
 
@@ -386,13 +382,13 @@ _user_int_ram EQU $d2fd                      ;Area where interrupt handler goes
 .org _asm_exec_ram                                               ;Instruction Counter starts at $D748
         res 2,(iy+$23)                       ;turn user int off so it won't get called by
                                              ;accident before we're ready
-   
+
         ld hl,int_copy                       ;copy prog to user int buffer
         ld de,_user_int_ram+1                            ;1 byte ahead of checksum
         ld bc,int_end-int_start              ;length of interrupt handler
         ldir                                 ;hl is the source, de is the destination,
                                              ;and bc is the length
-   
+
         ld a,(_user_int_ram+1)               ;set up checksum byte
         ld hl,_user_int_ram+($28*1)          ;load byte
         add a,(hl)                           ;add to total
@@ -411,7 +407,7 @@ _user_int_ram EQU $d2fd                      ;Area where interrupt handler goes
 
 
 int_copy:
-        
+
         .org $D2FE                      ; Intruction Counter starts at $D2FE
 int_start:
         ld hl, $FC00        ; HL points to display
@@ -427,7 +423,7 @@ Loop:
         ld a, l
         add a, 16           ; Add 16 to L (goes to next row)
         ld l, a
-        
+
         djnz Loop
 
 
@@ -466,6 +462,3 @@ and no carry will produce so we don't have to worry about it.
 
 <P>Once the program is run, it is there for good until you reset your calculator's
 memory. Enjoy!
-
-
-<script language="JavaScript">bottom();</SCRIPT>

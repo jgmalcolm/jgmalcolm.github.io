@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","Grayscale");</SCRIPT>
+---
+title: Grayscale
+section: Graphics
+layout: z80
+---
 
 <P>Grayscale is what makes the good graphical games. Think of
 ZBlitz, Vertigo, Arkanoid, Boulder Dash, Bomberman, Diamonds, and the many other
@@ -49,10 +46,7 @@ many other grayscale routines that I've come across in the
 <A HREF="../download/download.htm">Download Section</A>. Each
 line in the routine is represented by a number which corresponds
 to an explanation at the end of the routine. Follow each line and
-try to picture in your head what it is doing. The easiest way to
-do this is to print out the
-<A HREF="JavaScript:popup('grap.htm')">Blitzgray Code</A> and then
-refer to the explanations.
+try to picture in your head what it is doing.
 
 <PRE><OL><LI><A HREF="#l1" NAME="c1">&darr;</A>int_addr equ $8f8f
 <LI><A HREF="#l1">&darr;</A>
@@ -97,7 +91,7 @@ refer to the explanations.
 <LI><A HREF="#l41" NAME="c41">&darr;</A>	ld a,$8e
 <LI><A HREF="#l41">&darr;</A>	ld i,a
 <LI><A HREF="#l41">&darr;</A>
-<LI><A HREF="#l41">&darr;</A>	
+<LI><A HREF="#l41">&darr;</A>
 <LI><A HREF="#l45" NAME="c45">&darr;</A>	im 2
 <LI><A HREF="#l45" NAME="c46">&darr;</A>	ei
 <LI><A HREF="#l47" NAME="c47">&darr;</A>	ret
@@ -460,4 +454,3 @@ refer to the explanations.
 		<A HREF="asse.htm#end"><CODE>.end</CODE></A> does just that.
 		<TD>none
 </TABLE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

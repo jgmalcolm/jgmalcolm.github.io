@@ -1,11 +1,8 @@
-<HTML>
-<head>
-<title>The Guide</title>
-<link rel="stylesheet" type="text/css" href="../guide.css">
-<script language="javascript" src="../guide.js"></script>
-</head>
-<body>
-<script language="javascript">top("Advanced","APD");</script>
+---
+title: APD
+section: Advanced
+layout: z80
+---
 
 <p>Automatic Power Down (APD) is like a screen saver on your
 computer (except it's more of a battery saver because there's
@@ -118,4 +115,3 @@ sub _APDSetup:
 	ld hl,_APDTimer	;main counter
 	ld (hl),$a1	;reset counter (%10100001)
 	ret</PRE>
-<script language="JavaScript">bottom();</script>

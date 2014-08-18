@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","User Fonts");</SCRIPT>
+---
+title: User Fonts
+section: Advanced
+layout: z80
+---
 
 <P>Tired of looking at the same font all the time? Well, you can change
 all that. You can make your own font on the computer stored as bitmaps
@@ -28,7 +25,7 @@ checks if certain bit in the <A HREF="syst.htm">System Flags</A> is set. If
 that bit's set, it then goes to the appropriate memory address which tells it
 a <A HREF="../variables/abso.htm">Absolute Address Pointer</A> of where
 your font is in memory. At that address it will ready a byte telling it
-again what size the font is and how many characters are in your font. 
+again what size the font is and how many characters are in your font.
 TI-OS searches for the ASCII character it wants and then displays
 that character. If the character wasn't found, it uses the
 default character.
@@ -288,4 +285,3 @@ and how I installed the font.
 <P>You can also download an example
 of an <A HREF="../download/fonti.asm">Italic
 Font</A>.
-<SCRIPT LANGUAGE=JavaScript>bottom("User Routines","user.htm");</SCRIPT>

@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","Index, Shadow, and Other Registers");</SCRIPT>
+---
+title: Index, Shadow, and Other Registers
+section: Advanced
+layout: z80
+---
 
 <P>So far you only know ,<CODE>af, bc, de,</CODE> and <CODE>hl</CODE> as
 registers.  Sometimes you probably run out of registers
@@ -82,6 +79,5 @@ between 1 and 16.</p>
 <PRE>random_number:
 	ld a,r
 	and %00001111	;is now between 0 and 15
-	inc a			;is now between 1 and 16 
+	inc a			;is now between 1 and 16
 	ret</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

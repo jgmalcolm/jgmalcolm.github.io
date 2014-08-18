@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","Entry Stack");</SCRIPT>
+---
+title: Entry Stack
+section: Advanced
+layout: z80
+---
 
 <P CLASS=clsByLine>Written by
 <A HREF="mailto:ti86z80@aol.com?subject=guide.ticalc.org entry stack page">Andy Hochhaus</A>
@@ -99,7 +96,7 @@ variable that we have created.
 	call	_get_word_ahl	;get size word of entry and store to de
 	push	de			;store size word for _mm_num_bytes
 	push	de			;store size word for size of tempvar1
-	ld	hl,equvarname-1	
+	ld	hl,equvarname-1
 	rst	20h			;_mov10toop1 puts equvarname in op1
 	pop	hl			;gets size word that program should be
 	call	_createequ		;creates new equ var
@@ -238,4 +235,3 @@ If you find any problems or have any comments or questions please send me,
 </UL>
 
 And anybody else that I am forgetting.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -91,6 +91,9 @@ and how the pixels are stored in memory.
 - [Sprites](intermediate/spri.htm) - Printing small images on the screen.
 - [Tile Maps](intermediate/tile.htm) - Draw game levels on the screen using
   compact level data.
+- [Grayscale Graphics](advanced/gray.htm) - Blend black and white to make
+  gray. Check out this line-by-line analysis of one of the hottest Grayscale
+  routines out there.
 
 
 
@@ -103,9 +106,6 @@ and how the pixels are stored in memory.
   `_GetKey`, scan for keys in an instant with Port 0. You can always count on
   the Ports for quick results. Also included, a handy reference table with key
   bitmasks for every key.
-- [Grayscale Graphics](advanced/gray.htm) - Blend black and white to make
-  gray. Check out this line-by-line analysis of one of the hottest Grayscale
-  routines out there.
 - [Assembler Directives](advanced/asse.htm) - Customize your source code in a
   flash with macros. Reference just about every directive available for the
   TASM Assembler.
@@ -115,14 +115,13 @@ and how the pixels are stored in memory.
 - [Shift and Rotate](advanced/shif.htm) - Move bits left or right within a
   byte. This handy reference provides examples and graphical representations
   of what each instruction does!
+- [Entry Stack](advanced/entr.htm) - Access and manipulate the user input
+  history.
 - [Morphic Code](advanced/morp.htm) - Programs that edit themselves, what a
   dream! Preload code with values, manipulate routines, and more.
 - [All the Ports](advanced/allp.htm) - Communicate with the z80's hardware
   behind the scenes. Change the Video Screen address, adjust the contrast,
   change the power mode, etc.
-- [User Routines](advanced/user.htm) - Run your code like interrupts, fonts,
-  Silent Link, etc. Create seemless customization of your TI86 with these
-  integrated features.
 - [Square Root Programs](advanced/squa.htm) - Take command of the many common
   tasks of TI-OS such as Parsing, Tokenizing, `_GetKey`, Graphing, and much
   much more! TI-OS lets you run your own programs before or after it performs
@@ -140,6 +139,11 @@ and how the pixels are stored in memory.
 - [Simulating Key Presses](advanced/simu.htm) - Kind of like macros, have the
   TI86 think you're pushing keys and respond to them when you're not even
   touching the calculator.
+- [Fonts](advanced/font.htm) - Create your own fonts for TI-OS to for
+  everything.
+- [Interrupt](advanced/inte.htm) - Create your own routine to be run about 200
+  times a second in the background of regular code.
+
 
 
 # z80 Opcodes

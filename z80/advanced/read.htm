@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","Reading Keypresses from Port");</SCRIPT>
+---
+title: Reading Keypresses from Port
+section: Advanced
+layout: z80
+---
 
 <UL>
 	<LI><A HREF="#chec">Checking Keys</A>
@@ -45,7 +42,7 @@ check_for_alpha:
 	ld a,%11011111		;load the bit mask so port 1 knows
 				; which row to check from
 				; table
-	out (key_port),a	;send out the bit mask 
+	out (key_port),a	;send out the bit mask
 	nop			;no operation so there's some time
 	nop			; to get a result back*
 	in a,(key_port)		;get back the results
@@ -146,4 +143,3 @@ check the certain key's bit to see if it is set (<I>not</I> pressed now) or rese
 the key buffer right before exiting your
 program. This way, if your program was run
 from a shell, it won't exit the shell too.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,12 +1,9 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<a name="top">
-<SCRIPT LANGUAGE=JavaScript>top("Advanced","Assembler Directives");</SCRIPT>
+---
+title: Assembler Directives
+section: Advanced
+layout: z80
+---
+
 <P>Your assembler is a powerful tool. Assembler directives are commands
 that tell the assembler to do some sort of calculation for you
 and incorporate those calculations into the output file. Your assembler
@@ -47,7 +44,7 @@ just as if you had typed the file in manually.
 <CODE>#define <i>arg1</i>[(<i>arg2</i>, <i>arg3</i>, ...)]
 <i>arg4</i></CODE> - Whenever <i>arg1</i> is encountered, the assembler instead puts
 <i>arg4</i> in that place with possible input such as <i>arg2</i>,
-<i>arg3</i>, ... incorporated. 
+<i>arg3</i>, ... incorporated.
 
 <PRE>#define ClLCD call _clrLCD		;'call _clrLCD' where ClLCD is
 
@@ -171,4 +168,3 @@ ld b,6
 ld c,4
 call _clrLCD
 xor a</PRE>
-<script language="JavaScript">bottom();</SCRIPT>
