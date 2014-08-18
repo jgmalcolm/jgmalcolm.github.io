@@ -146,14 +146,14 @@ and how the pixels are stored in memory.
 
 
 
-# z80 Opcodes
+# Opcodes
 
 - [Overview](opcodes/opcodes.htm)
 - [Sorted by value](opcodes/opcodesB.htm)
 - [Sorted by name](opcodes/opcodesN.htm)
 
 
-# TI-OS Variables
+# Variables
 
 - [TI86 Variable Manipulation](variables/ti86.htm) - Manipulating data behind
   TI-OS' back. What are the Operator Registers?
