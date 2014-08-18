@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Beginner","TI-BASIC to Asm Comparisons");</SCRIPT>
+---
+title: TI-BASIC to Asm Comparisons
+section: Beginner
+layout: z80
+---
 
 <P>I had lost all copies of this page for a while and thanks to
 <A HREF="mailto:a_finne@hotmail.com">Andreas Finne</A> who happened
@@ -21,29 +18,29 @@ are documented in the <A HREF="inst.htm">Instructions Section</A>.
 	<TR CLASS=header>
 		<TD WIDTH="50%"><center><b>TI-BASIC
 		<TD><center><b>Assembler
-	
+
 	<TR>
 		<TD><PRE>:a+1&rarr;a
 		<TD><PRE>inc a
-	
+
 	<TR>
 		<TD><PRE>:a+45&rarr;a
 		<TD><PRE>add a,45
-	
+
 	<TR>
 		<TD><PRE>:ClLCD
 		<TD><PRE>call _clrLCD
-	
+
 	<TR>
 		<TD><PRE>:a&rarr;b
 		<TD><PRE>ld b,a
-	
+
 	<TR>
 		<TD><PRE>:If a==23
 :Goto aIs23
 		<TD><PRE>cp 23
 jr z,aIs23
-	
+
 	<TR>
 		<TD><PRE>:If a==23
 :Then
@@ -51,7 +48,7 @@ jr z,aIs23
 :End</PRE><FONT SIZE=1>(Ais23 is a program)
 		<TD><PRE>cp 23
 call z,Ais23
-	
+
 	<TR>
 		<TD><PRE>:For(b,1,10)
 :ClLCD
@@ -62,7 +59,7 @@ for_loop:
 	call _clrLCD
 	inc a
 	djnz for_loop
-	
+
 	<TR>
 		<TD><PRE>:ClLCD
 :Disp "Shutup"
@@ -71,7 +68,6 @@ for_loop:
 	ld hl,string_label
 	jp _puts
 string_label: .db "Shutup",0
-	
+
 </TABLE>
 </center>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

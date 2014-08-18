@@ -1,11 +1,9 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Beginner","Instructions");</SCRIPT>
+---
+title: Instructions
+section: Beginner
+layout: z80
+---
+
 <UL>
 	<LI><A HREF="#labe">labels</A>
 	<LI><A HREF="#comm">comments</A>
@@ -105,7 +103,7 @@ has to go through your mouth (that was cheesy).
 	ld (hl),$35		;load byte at address
 				; hl
 	ld (de),a		;ld into address at de
-	ld ($80df),hl		
+	ld ($80df),hl
 	ld ($fc00),a		;load a into first
 				; byte of video memory
 	ld a,b
@@ -277,5 +275,3 @@ continue executing the code following the call. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
 
 <PRE>	ret</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Beginner","Math");</SCRIPT>
+---
+title: Math
+section: Beginner
+layout: z80
+---
 
 <P>All the mathmatical operations you'll
 need to start programming can be broken
@@ -45,7 +42,7 @@ Using <CODE>add</CODE>, the result will be stored in <CODE>a</CODE>.
 <PRE>	ld a,4	;one operand
 	ld b,5	;second operand
 	add a,b	;a+b (saved in a)</PRE>
-	
+
 <P>Don't forget the 16 bit registers. You can appply
 the same methods to them; but, instead of revolving
 around the accumulator (<CODE>a</CODE>), they revolve around
@@ -58,7 +55,7 @@ is that you can have way bigger operands.
 
 <P>Things can get a little more complicated when you start
 using the <A HREF="flag.htm#carry">carry flag</A>.
-The general idea is, add the two operands and, if the carry 
+The general idea is, add the two operands and, if the carry
 flag is set, add one to the answer. Don't add one if
 the carry flag was reset.
 
@@ -357,4 +354,3 @@ by higher powers of 2 (8=2^3=2*2*2)
 	rrca		;/2
 	rrca		;/4
 	rrca		;/8</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,12 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<A NAME="top">
-<SCRIPT LANGUAGE=JavaScript>top("Beginner","Flags and Conditions");</SCRIPT>
+---
+title: Flags and Conditions
+section: Beginner
+layout: z80
+---
 
 <UL>
 	<LI><A HREF="#zero">Zero Flag</A>
@@ -54,7 +50,7 @@ results in a 9 bit answer that can not be stored in the 8 bit
 register, the 9th bit is stored in the carry
 flag's spot on the <CODE>f</CODE> register. The carry flag is
 usually used in shift and rotate instructions which we will learn
-about later. 
+about later.
 
 <P>These flags are either set or reset by either a comparison or
 a testing instructions. The flags will also remain set or reset
@@ -200,4 +196,3 @@ You can also use other registers in checking.
 	cp b			;is a=b?
 	jr z,it_is		;they're both the same
 	jr nz,it_is_not		;it isn't</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>
