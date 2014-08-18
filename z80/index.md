@@ -78,8 +78,55 @@ layout: default
 - [TI-BASIC versus Asm](intermediate/ti-b.htm) - A simple chart to show you
   equivalent tasks in z80 asm and the old TI-BASIC.
 - [Tile Maps](intermediate/tile.htm) - Creating scenes from simple tiles.
-- [Down-Left Bug](intermediate/down.htm) - Why does the calculator freeze when you press down-left?
+- [Sprites](intermediate/spri.htm) - Small images at the core of any game.
+- [Down-Left Bug](intermediate/down.htm) - Why does the calculator freeze when
+  you press down-left?
+- [The Screen](intermediate/scre.htm) - Manipulating the screen directly in
+  video memory.
 
 # Advanced
 
--
+- [More Registers](advanced/inde.htm) - Now you have even more with the
+  addition of a whole hidden set of registers banks. Also, learn about the
+  Index and Refresh Registers.
+- [Reading Keys from Port](advanced/read.htm) - Don't wait up for that slow
+  `_GetKey`, scan for keys in an instant with Port 0. You can always count on
+  the Ports for quick results. Also included, a handy reference table with key
+  bitmasks for every key.
+- [Grayscale Graphics](advanced/gray.htm) - Blend black and white to make
+  gray. Check out this line-by-line analysis of one of the hottest Grayscale
+  routines out there.
+- [Assembler Directives](advanced/asse.htm) - Customize your source code in a
+  flash with macros. Reference just about every directive available for the
+  TASM Assembler.
+- [On-Off](advanced/onof.htm) - Turn your calculator On or Off in a flash
+  using the ports. Even put it in low power mode to conserve energy. Take a
+  peek at how TI-OS turns itself On and Off.
+- [Shift and Rotate](advanced/shif.htm) - Move bits left or right within a
+  byte. This handy reference provides examples and graphical representations
+  of what each instruction does!
+- [Morphic Code](advanced/morp.htm) - Programs that edit themselves, what a
+  dream! Preload code with values, manipulate routines, and more.
+- [All the Ports](advanced/allp.htm) - Communicate with the z80's hardware
+  behind the scenes. Change the Video Screen address, adjust the contrast,
+  change the power mode, etc.
+- [User Routines](advanced/user.htm) - Run your code like interrupts, fonts,
+  Silent Link, etc. Create seemless customization of your TI86 with these
+  integrated features.
+- [Square Root Programs](advanced/squa.htm) - Take command of the many common
+  tasks of TI-OS such as Parsing, Tokenizing, `_GetKey`, Graphing, and much
+  much more! TI-OS lets you run your own programs before or after it performs
+  these tasks. Step in and manipulate data before TI-OS gets it.
+- [System Flags](advanced/syst.htm) - Want a complete listing of TI-OS' flags?
+  You got it! This reference gives you everything you need to know about
+  customizing the options of TI-OS from Graph Methods to Operand calculations.
+- [Auto Power Down](advanced/apd.htm) - Like a screen saver, TI-OS will shut
+  down after inactivity. Learn how to control this process and use it to your
+  advantage.
+- [Sound](advanced/soun.htm) - How to produce mono sound with a few small
+  parts. These step-by-step instructions walk you through the process of
+  building speakers and then programming sound into your games. You can even
+  convert Wave files.
+- [Simulating Key Presses](advanced/simu.htm) - Kind of like macros, have the
+  TI86 think you're pushing keys and respond to them when you're not even
+  touching the calculator.
