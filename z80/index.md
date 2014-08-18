@@ -162,7 +162,7 @@ and how the pixels are stored in memory.
   reference chart and numerous full examples.
 - [Creating Variables](variables/crea.htm) - You can generate just about any
   variable type you want through these asm calls.
-- [_FindSym](variables/_fin.htm) - The basis for *all* variable manipulation,
+- [_FindSym](variables/findsym.htm) - The basis for *all* variable manipulation,
   `_FindSym` finds variable data addresses fast. A must for all who want to
   work with TI-OS variables!
 - [Absolute Addressing](variables/abso.htm) - A 24-bit address? That's right!
