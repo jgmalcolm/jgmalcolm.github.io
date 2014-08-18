@@ -72,8 +72,6 @@ layout: default
   individual characters to entire paragraphs. Learn how to print in standard
   or small text with a look at how to create your own
   [custom fonts](advanced/font.htm).
-- [TI-BASIC versus Asm](intermediate/ti-b.htm) - A simple chart to show you
-  equivalent tasks in z80 asm and the old TI-BASIC.
 - [Down-Left Bug](intermediate/down.htm) - Why does the calculator freeze when
   you press down-left?
 

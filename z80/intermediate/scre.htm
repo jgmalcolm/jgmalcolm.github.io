@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Intermediate","The Screen");</SCRIPT>
+---
+title: The Screen
+section: Graphics
+layout: z80
+---
 
 <P>What you look at on the
 screen is called the Video Memory or sometimes the Screen Memory.
@@ -29,7 +26,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD>$fc02
 		<TD>$fc03
 		<TD>$fc04
-	
+
 	<TR>	<TD CLASS=header>$fc00
 		<TD>76543210
 		<TD>00000000
@@ -55,7 +52,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD>00000000
 		<TD>00000000
 		<TD>00000000
-	
+
 </TABLE>
 
 <P><TABLE ALIGN=CENTER CLASS=info>
@@ -81,7 +78,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD WIDTH="10" BGCOLOR="#ffffff">
 		<TD WIDTH="10" BGCOLOR="#ffffff">
 		<TD WIDTH="10" BGCOLOR="#ffffff">
-	
+
 	<TR>
 		<TD BGCOLOR="#000000">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -91,7 +88,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#000000">
-	
+
 	<TR>
 		<TD BGCOLOR="#ffffff">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -101,7 +98,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#ffffff">
-	
+
 	<TR>
 		<TD BGCOLOR="#000000">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -111,7 +108,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#000000">
-	
+
 	<TR>
 		<TD BGCOLOR="#ffffff">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -121,7 +118,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#ffffff">
-	
+
 	<TR>
 		<TD BGCOLOR="#000000">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -131,7 +128,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#000000">
-	
+
 	<TR>
 		<TD BGCOLOR="#ffffff">&nbsp;
 		<TD BGCOLOR="#ffffff">
@@ -141,7 +138,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#ffffff">
 		<TD BGCOLOR="#ffffff">
-	
+
 	<TR>
 		<TD BGCOLOR="#000000">&nbsp;
 		<TD BGCOLOR="#000000">
@@ -151,7 +148,7 @@ Keep in mind that this is only a small slice of the whole screen.
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#000000">
 		<TD BGCOLOR="#000000">
-	
+
 </TABLE>
 
 <P>You can turn off and on pixels by writing to the Video Memory as
@@ -170,4 +167,3 @@ in the program <A HREF="../download/screen.asm">Screen.asm</A>.
 	ret		;return from program
 
 .end</PRE>
-<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>
