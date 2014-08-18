@@ -151,8 +151,8 @@ layout: default
 - [Creating Variables](variables/crea.htm) - You can generate just about any
   variable type you want through these asm calls.
 - [_FindSym](variables/_fin.htm) - The basis for *all* variable manipulation,
-  <CODE>_FindSym</CODE> finds variable data addresses fast. A must for all who
-  want to work with TI-OS variables!
+  `_FindSym` finds variable data addresses fast. A must for all who want to
+  work with TI-OS variables!
 - [Absolute Addressing](variables/abso.htm) - A 24-bit address? That's right!
   Since there's more than 64 kilobytes of memory, you need to be familiar with
   TI's method of absolute addressing. It's used *all* the time with TI-OS
@@ -166,8 +166,8 @@ layout: default
   numbers. Work with exponents, Complex and Real numbers, and negative
   numbers. Examples are illustrated in tables and code snippets!
 - [Floating Point Stack](variables/floa.htm) - Save and recall entire Operator
-  Registers just like with <CODE>push</CODE> and <CODE>pop</CODE>. You can
-  even push entire lists and matrices.
+  Registers just like with `push` and `pop`. You can even push entire lists
+  and matrices.
 - [VAT Searches](variables/vats.htm) - Learn the methodology behind the
   Variable Allocation Table and how to search through it. You can even walk
   through the line-by-line analysis of one of the hottest search routines out
