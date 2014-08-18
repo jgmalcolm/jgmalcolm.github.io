@@ -1,11 +1,9 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Beginner","Number Bases")</SCRIPT>
+---
+title: Number Bases
+section: Beginner
+layout: z80
+---
+
 <UL>
 	<LI><A HREF="#dec">Decimal</A>
 	<LI><A HREF="#bin">Binary</A>
@@ -19,7 +17,7 @@ It's good to know these three common bases: decimal for regular
 <A HREF="../intermediate/grap.htm">imagery</A>, and
 hexadecimal for <A HREF="../intermediate/memo.htm">addressing</A>.
 
-<P>Each of these groups represents a different number to the
+Each of these groups represents a different number to the
 processor. In a set of machine code, each group represents a
 different command for the processor to carry out. In asm language
 coding, you have to learn how to think like the computer. You
@@ -27,9 +25,9 @@ have to be able to use binary and decimal number bases along with
 hexadecimal, so you must learn the concept of changing between
 these number bases.
 
-<PRE>45 = %00101101 = $2d = %00101101 = 45</PRE>
+  45 = %00101101 = $2d = %00101101 = 45
 
-<P>While you're browsing through, try using a
+While you're browsing through, try using a
 <A HREF="JavaScript:popup('conv.htm')">Converter</A> to test what
 you're reading. If you experiment as you go along, you'll learn the
 concepts better.
@@ -47,7 +45,7 @@ numbers represented by a series of ones and zeros:
 
 <PRE>3=%00000011</PRE>
 
-<P>Computers don't use numbers in the form of 2, 3, 9, 134, or 6
+Computers don't use numbers in the form of 2, 3, 9, 134, or 6
 to do their math.  Instead, they use groups of <CODE>1</CODE>'s
 and <CODE>0</CODE>'s.
 
@@ -63,15 +61,15 @@ the number. I will reference them with a <CODE>%</CODE>; in the
 rest of this document. A number without any symbol before or
 after it means that it is in decimal form.
 
-<P>Let's work with the following number:
+Let's work with the following number:
 
 <PRE>%00100011 = 35</PRE>
 
-<P>A <CODE>1</CODE> in a certain spot symbolizes a certain value. A
+A <CODE>1</CODE> in a certain spot symbolizes a certain value. A
 <CODE>0</CODE> means no "no value here". The following chart shows how much a
 one is worth in each spot:
 
-<P><TABLE ALIGN=CENTER CLASS=info>
+<TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD><A NAME=bitp>Bit 7
 		<TD>Bit 6
@@ -91,10 +89,10 @@ one is worth in each spot:
 		<TD>1
 </TABLE>
 
-<P>Here's some binary and decimal equivalents starting
+Here's some binary and decimal equivalents starting
 at zero and working our way up a little.
 
-<P><TABLE ALIGN=CENTER CLASS=info>
+<TABLE ALIGN=CENTER CLASS=info>
 	<TR>	<TD>0=%00000000
 	<TR>	<TD>1=%00000001
 	<TR>	<TD>2=%00000010
@@ -108,7 +106,7 @@ at zero and working our way up a little.
 	<TR>	<TD>10=%00001010
 </TABLE>
 
-<P>So with the number <CODE>%00100011</CODE> you have a one in the
+So with the number <CODE>%00100011</CODE> you have a one in the
 bit 0 place, so we add <CODE>1</CODE> to the total, which is zero
 since we just started. We have another one in the bit 1 place, so we add
 <CODE>2</CODE> to the total bringing the total to <CODE>3</CODE>.
@@ -118,7 +116,7 @@ which is worth <CODE>32</CODE>, so we add <CODE>32</CODE> to the total
 so far and we have <CODE>35</CODE>. So, <CODE>%00100011 = 35</CODE>.
 The maximum value a byte can have is <CODE>255</CODE>.
 
-<P><TABLE ALIGN=CENTER CLASS=info>
+<TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD>&nbsp;
 		<TD>Bit 7
@@ -253,13 +251,13 @@ The maximum value a byte can have is <CODE>255</CODE>.
 		<TD CLASS=header>%11001000
 </TABLE>
 
-<P><A NAME="size">Binary numbers can be grouped in
+<A NAME="size">Binary numbers can be grouped in
 different combinations. You can have a bit, one bit;
 a nibble, 4 bits; a byte, 8 bits; a word, two bytes;
 or a long word, 4 bytes. The <A HREF="z80p.htm">z80</A>
 can only handle up to a word, two bytes.
 
-<P><TABLE ALIGN=CENTER class=info>
+<TABLE ALIGN=CENTER class=info>
 	<TR CLASS=header>
 		<TD>Name
 		<TD>Size
@@ -287,11 +285,11 @@ Hexadecimal is our next number base used. This is on a
 base sixteen because there are sixteen different symbols we can
 use: <CODE>0,1,2,3,...9, A, B, C, D, E,</CODE> and <CODE>F</CODE>.
 
-<P>A <CODE>$</CODE> before a number, or a <CODE>h</CODE> after the number, denotes
+A <CODE>$</CODE> before a number, or a <CODE>h</CODE> after the number, denotes
 that it is in hexadecimal form. The following chart is the best
 way to learn the relationship between these numbers:
 
-<P><TABLE ALIGN=CENTER CLASS=info>
+<TABLE ALIGN=CENTER CLASS=info>
 	<TR>	<TD CLASS=header>Dec
 		<TD>1
 		<TD>2
@@ -330,11 +328,11 @@ way to learn the relationship between these numbers:
 		<TD>11
 </TABLE>
 
-<P>Let's say you have the number <CODE>35</CODE> again,
+Let's say you have the number <CODE>35</CODE> again,
 the hexadecimal representation of that would be <CODE>$23</CODE>
 in hexadecimal.
 
-<P><TABLE ALIGN=CENTER CLASS=info>
+<TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD WIDTH="40">Dec
 		<TD WIDTH="40">Hex
@@ -391,4 +389,3 @@ hexadecimal form, a <CODE>%</CODE> before a number or a
 <CODE>b</CODE> after the number denotes that it's in binary
 form, and when there's just a number without those symbols
 it's just in plain old decimal form.
-<SCRIPT LANGUAGE=JavaScript>CreateBottom()</SCRIPT>
