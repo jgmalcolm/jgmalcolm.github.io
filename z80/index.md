@@ -3,7 +3,7 @@ title: Developing for the TI86 z80
 layout: default
 ---
 
-# Beginner
+## Beginner
 
 - [Number Bases](beginner/numb.htm) - Learn how to understand and convert
   between the different number systems such as binary and hexadecimal. Make
@@ -33,15 +33,12 @@ layout: default
 
 
 
-# Intermediate
+## Intermediate
 
 - [Logical Operators](intermediate/logi.htm) - Introduction to `and`, `or`,
   and `xor`. How to mask out bits and control binary data.
 - [Miscellaneous Instructions](intermediate/misc.htm) - These don't fit in
   anywhere? `Neg`, `scf`, and others!
-- [Graphics](intermediate/grap.htm) - Your one stop reference for pixel
-  manipulation and sprite animation. Line-by-line walk throughs of the most
-  popular graphics routines.
 - [All the Flags](intermediate/allt.htm) - Besides the zero and carry flags,
   there are four others! What do they all do? Come find out!
 - [Restart Commands](intermediate/rstc.htm) - Faster `call`s with the help of
@@ -77,16 +74,28 @@ layout: default
   [custom fonts](advanced/font.htm).
 - [TI-BASIC versus Asm](intermediate/ti-b.htm) - A simple chart to show you
   equivalent tasks in z80 asm and the old TI-BASIC.
-- [Tile Maps](intermediate/tile.htm) - Creating scenes from simple tiles.
-- [Sprites](intermediate/spri.htm) - Small images at the core of any game.
 - [Down-Left Bug](intermediate/down.htm) - Why does the calculator freeze when
   you press down-left?
-- [The Screen](intermediate/scre.htm) - Manipulating the screen directly in
-  video memory.
 
 
 
-# Advanced
+## Graphics
+
+Pixel manipulation and sprite animation. Line-by-line walk throughs of the
+most popular graphics routines.
+- [The Screen](intermediate/scre.htm) - Introduction to the LCD, Video Memory,
+and how the pixels are stored in memory.
+- [Find Pixel](intermediate/find.htm) - Find where on the screen pixels are
+  supposed to be from manipulating the coordinates.
+- [Pixel Manipulation](intermediate/pixe.htm) - Setting, reseting, and testing
+  pixels using Find Pixel.
+- [Sprites](intermediate/spri.htm) - Printing small images on the screen.
+- [Tile Maps](intermediate/tile.htm) - Draw game levels on the screen using
+  compact level data.
+
+
+
+## Advanced
 
 - [More Registers](advanced/inde.htm) - Now you have even more with the
   addition of a whole hidden set of registers banks. Also, learn about the
