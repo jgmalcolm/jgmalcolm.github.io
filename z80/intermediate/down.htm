@@ -20,7 +20,7 @@ to solve the problem:
 	<LI><A HREF=#crea>Creating your own interrupt handler</A>
 </UL>
 
-<H2><A NAME=disable>Disabling interrupts</H2>
+<H2><A NAME=disable></A>Disabling interrupts</H2>
 
 <P>In most games, this method is enough to avoid the problems. There are
 two disadvantages doing it this way though. Those are:
@@ -37,7 +37,7 @@ disabling interrupts is not a good way to prevent the down-left bug.
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=set>Setting Flags</H2>
+<H2><A NAME=set></A>Setting Flags</H2>
 
 <P>When disassembling the ROM I found that if the second bit at <CODE>(iy+$12)</CODE>
 is set, there will be no call to the routine that check
@@ -53,7 +53,7 @@ you <I>must</I> reset the flag with <CODE>res 2,(iy+$12)</CODE> before the progr
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=crea>Creating Your Own Interrupt Handler</H2>
+<H2><A NAME=crea></A>Creating Your Own Interrupt Handler</H2>
 
 <P>This is the most complex method, which I had some problems with first.
 Creating an interrupt handler is not much of a problem really. This is

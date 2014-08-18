@@ -26,7 +26,7 @@ layout: z80
 	<A HREF="#of0">$f0 - $ff</A><BR>
 
 <PRE>
-<A NAME="o0">        nop               00
+<A NAME="o0"></A>        nop               00
         ld bc,nn          01 n  n
         ld (bc),a         02
         inc bc            03
@@ -42,7 +42,7 @@ layout: z80
         dec c             0d
         ld c,n            0e n
         rrca              0f
-<A NAME="o10">        djnz $+2          10
+<A NAME="o10"></A>        djnz $+2          10
         ld de,nn          11 n  n
         ld (de),a         12
         inc de            13
@@ -58,7 +58,7 @@ layout: z80
         dec e             1d
         ld e,n            1e n
         rra               1f
-<A NAME="o20">        jr nz,$+2         20
+<A NAME="o20"></A>        jr nz,$+2         20
         ld hl,nn          21 n  n
         ld (nn),hl        22 n  n
         inc hl            23
@@ -74,7 +74,7 @@ layout: z80
         dec l             2d
         ld l,n            2e n
         cpl               2f
-<A NAME="o30">        jr nc,$+2         30
+<A NAME="o30"></A>        jr nc,$+2         30
         ld sp,nn          31 n  n
         ld (nn),a         32 n  n
         inc sp            33
@@ -90,7 +90,7 @@ layout: z80
         dec a             3d
         ld a,n            3e n
         ccf               3f
-<A NAME="o40">        ld b,b            40
+<A NAME="o40"></A>        ld b,b            40
         ld b,c            41
         ld b,d            42
         ld b,e            43
@@ -106,7 +106,7 @@ layout: z80
         ld c,l            4d
         ld c,(hl)         4e
         ld c,a            4f
-<A NAME="o50">        ld d,b            50
+<A NAME="o50"></A>        ld d,b            50
         ld d,c            51
         ld d,d            52
         ld d,e            53
@@ -122,7 +122,7 @@ layout: z80
         ld e,l            5d
         ld e,(hl)         5e
         ld e,a            5f
-<A NAME="o60">        ld h,b            60
+<A NAME="o60"></A>        ld h,b            60
         ld h,c            61
         ld h,d            62
         ld h,e            63
@@ -138,7 +138,7 @@ layout: z80
         ld l,l            6d
         ld l,(hl)         6e
         ld l,a            6f
-<A NAME="o70">        ld (hl),b         70
+<A NAME="o70"></A>        ld (hl),b         70
         ld (hl),c         71
         ld (hl),d         72
         ld (hl),e         73
@@ -154,7 +154,7 @@ layout: z80
         ld a,l            7d
         ld a,(hl)         7e
         ld a,a            7f
-<A NAME="o80">        add a,b           80
+<A NAME="o80"></A>        add a,b           80
         add a,c           81
         add a,d           82
         add a,e           83
@@ -170,7 +170,7 @@ layout: z80
         adc a,l           8d
         adc a,(hl)        8e
         adc a,a           8f
-<A NAME="o90">        sub b             90
+<A NAME="o90"></A>        sub b             90
         sub c             91
         sub d             92
         sub e             93
@@ -186,7 +186,7 @@ layout: z80
         sbc l             9d
         sbc (hl)          9e
         sbc a             9f
-<A NAME="oa0">        and b             a0
+<A NAME="oa0"></A>        and b             a0
         and c             a1
         and d             a2
         and e             a3
@@ -202,7 +202,7 @@ layout: z80
         xor l             ad
         xor (hl)          ae
         xor a             af
-<A NAME="ob0">        or b              b0
+<A NAME="ob0"></A>        or b              b0
         or c              b1
         or d              b2
         or e              b3
@@ -218,7 +218,7 @@ layout: z80
         cp l              bd
         cp (hl)           be
         cp a              bf
-<A NAME="oc0">        ret nz            c0
+<A NAME="oc0"></A>        ret nz            c0
         pop bc            c1
         jp nz,$+3         c2
         jp $+3            c3
@@ -481,7 +481,7 @@ layout: z80
         call nn           cd n  n
         adc a,n           ce n
         rst 8h            cf
-<A NAME="od0">        ret nc            d0
+<A NAME="od0"></A>        ret nc            d0
         pop de            d1
         jp nc,$+3         d2
         out (n),a         d3 n
@@ -566,7 +566,7 @@ layout: z80
         ld sp,ix          dd f9
         sbc a,n           de n
         rst 18h           df
-<A NAME="oe0">        ret po            e0
+<A NAME="oe0"></A>        ret po            e0
         pop hl            e1
         jp po,$+3         e2
         ex (sp),hl        e3
@@ -635,7 +635,7 @@ layout: z80
         otdr              ed bb
         xor n             ee n
         rst 28h           ef
-<A NAME="of0">        ret p             f0
+<A NAME="of0"></A>        ret p             f0
         pop af            f1
         jp p,$+3          f2
         di                f3

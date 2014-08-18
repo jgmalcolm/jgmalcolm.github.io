@@ -18,7 +18,7 @@
 Table (VAT or Symbol Lookup Table) we need to investigate
 where it is and how it's organized.
 
-<A NAME="thev"><H2>The VAT</H2>
+<A NAME="thev"></A><H2>The VAT</H2>
 The VAT is on <A HREF="../intermediate/memo.htm">RAM</A>
 page 7. You can swap it in yourself or you can
 use one of TI-OS' <A HREF="abso.htm#ram7">calls</A> to do
@@ -114,7 +114,7 @@ but <I>backwards</I> in memory.
 you're still unsure.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="sear"><H2>Searching the VAT</H2>
+<A NAME="sear"></A><H2>Searching the VAT</H2>
 If you already know the variable's exact name, you ca use
 <A HREF="findsym.htm">_FindSym</A>, but that's not always the
 case.
@@ -160,7 +160,7 @@ beginner's example of how to search the VAT.
 <LI><A HREF="#l24" NAME="c27">&darr;</A>	dec hl
 <LI><A HREF="#l24" NAME="c28">&darr;</A>	ret</OL></PRE>
 
-<P><A NAME="comm"><TABLE ALIGN=CENTER CLASS=info>
+<P><A NAME="comm"></A><TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD WIDTH="10%" ALIGN=CENTER>Line(s)
 		<TD ALIGN=CENTER>Explanation
@@ -210,7 +210,7 @@ beginner's example of how to search the VAT.
 		<TD>This might be a little tricky. We needed to
 		<A HREF="../intermediate/stac.htm"><CODE>push</CODE></A>
 		the address of where we are to start searching from so
-		that it would not be effected in the <A HREF=#c7">subtraction</A>.
+		that it would not be effected in the <A HREF="#c7">subtraction</A>.
 		If the subtraction went wrong, we will be <A HREF="#c10">returning</A>
 		from the routine. We can't return, though, with something on
 		the <A HREF="../intermediate/stac.htm">stack</A> so we get it
@@ -329,7 +329,7 @@ beginner's example of how to search the VAT.
 				; at hl</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="alph"><H2>Using <CODE>_FindAlphaUp</CODE>/<CODE>Dn</CODE></H2>
+<A NAME="alph"></A><H2>Using <CODE>_FindAlphaUp</CODE>/<CODE>Dn</CODE></H2>
 <A HREF="../download/vatsrch.inc">VATSrch.inc</A> is very fast; however, if
 speed isn't a necessity, you can use <CODE>_FindAlphaUp=$514b</CODE> and
 <CODE>_FindAlphaDn=$514f</CODE>.
@@ -408,7 +408,7 @@ beginning_var:	.db $12,1,0	;0 is the single
 				;$12=program type vari.</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="shel"><H2>Shells</H2>
+<A NAME="shel"></A><H2>Shells</H2>
 A Shell is a program on the calculator that will display programs in the
 VAT allowing you to browse through the names in order to execute them. There
 are endless variations to the basic shell, so your imagination is the limit!

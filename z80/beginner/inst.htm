@@ -61,7 +61,7 @@ instructions. Depending upon your type of
 white-space (leading spaces or tabs) before instructions. Labels
 and comments do not require white-space.
 
-<A NAME="labe"><H2>labels</H2>
+<A NAME="labe"></a><H2>labels</H2>
 <CODE><I>arg1</I>:</CODE> - The colon after a non-spaced,
 31 or less name is a label. The assembler uses it as a reference point
 for calls and jumps. It can contain underscores (<CODE>_</CODE>).
@@ -77,7 +77,7 @@ run_to_me_now:
 this_label_is_too_long_to_be_a_label:</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="comm"><H2>comments</H2>
+<A NAME="comm"></a><H2>comments</H2>
 <CODE>; <I>comments</I></CODE> - The semi-colon tells the
 processor "Ignore the rest of this line". It is useful
 for adding little reminders as to what code may do so
@@ -87,7 +87,7 @@ that later readers understand complex routines.
 	;this is all ignored</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="ld"><H2>ld</H2>
+<A NAME="ld"></a><H2>ld</H2>
 <CODE>ld <I>arg1</I>, <I>arg2</I></CODE> - Copies <I>arg2</I>
 into <I>arg1</I>. You can either copy a register's value
 into an address or an address into a register's value, but
@@ -113,7 +113,7 @@ has to go through your mouth (that was cheesy).
 	ld (_textShadow),$a4	;CAN'T do this!</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="call"><H2>call</H2>
+<A NAME="call"></a><H2>call</H2>
 <CODE>call <I>addr1</I></CODE> - Processor goes to the
 specified address (<I>addr1</I>) and starts executing code until
 it is told to go back. There are two types of calls: a ROM call
@@ -152,7 +152,7 @@ alias, it just substitutes the alias for <CODE>call $4a7e</CODE>. Can be used wi
 <A HREF="flag.htm">flags and conditions</A>.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="cp"><H2>cp</H2>
+<A NAME="cp"></a><H2>cp</H2>
 <CODE>cp <I>arg1</I></CODE> - Compares whatever is in the <CODE>a</CODE>
 register to <I>arg1</I>. <I>Arg1</I> can be either a value, a
 register that points to an address, or another register. Modifies
@@ -165,7 +165,7 @@ the <A HREF="../beginner/flag.htm">processor flags</A> accordingly.
 	cp (hl)</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="add"><H2>add</H2>
+<A NAME="add"></a><H2>add</H2>
 <CODE>add <I>arg1</I>, <I>arg2</I></CODE> - Adds the value
 of <I>arg2</I> to the value of <I>arg1</I> and stores the result
 into <I>arg1</I>. <I>Arg1</I> and <I>arg2</I> can be either a
@@ -181,7 +181,7 @@ change.
 	add a,$23</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="sub"><H2>sub</H2>
+<A NAME="sub"></a><H2>sub</H2>
 <CODE>sub <I>arg1</I></CODE> - Subtracts the value of <I>arg1</I>,
 or the register to which it is refering, from <CODE>a</CODE> and stores
 the result in <CODE>a</CODE>. <I>Arg1</I> does not change.
@@ -191,7 +191,7 @@ the result in <CODE>a</CODE>. <I>Arg1</I> does not change.
 	sub c</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="inc"><H2>inc</H2>
+<A NAME="inc"></a><H2>inc</H2>
 <CODE>inc <I>arg1</I></CODE> - Increases the value of, or
 address pointed to by, <I>arg1</I> by one. <I>Arg1</I> can be a
 register or a pointer to a register.
@@ -202,7 +202,7 @@ register or a pointer to a register.
 	inc e</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="dec"><H2>dec</H2>
+<A NAME="dec"></a><H2>dec</H2>
 <CODE>dec <I>arg1</I></CODE> - Decreases the value, or address
 pointed to by <I>arg1</I>, by one. <I>Arg1</I> can be a register
 or a pointer to a register.
@@ -213,7 +213,7 @@ or a pointer to a register.
 	dec de</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="djnz"><H2>djnz</H2>
+<A NAME="djnz"></a><H2>djnz</H2>
 <CODE>djnz <I>addr1</I></CODE> - Similar to a
 "For()" loop in TI-BASIC, djnz stands for
 "Decrease register <CODE>b</CODE> by one and Jump if Not Zero to <I>addr1</I>".
@@ -236,7 +236,7 @@ BeginningOfForLoop:
 			; For() loop is done</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="jr"><H2>jr</H2>
+<A NAME="jr"></a><H2>jr</H2>
 <CODE>jr <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
 executing code. <I>Addr1</I> must be within about 120 bytes from
 the <CODE>jr <I>addr1</I></CODE> instruction. <a
@@ -253,7 +253,7 @@ position of where the processor is executing code. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="jp"><H2>jp</H2>
+<A NAME="jp"></a><H2>jp</H2>
 <CODE>jp <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
 executing code. <I>Addr1</I> can be any distance from the
 <CODE>jp <I>addr1</I></CODE> instruction. It is best to use
@@ -268,7 +268,7 @@ the memory at $0000. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="ret"><H2>ret</H2>
+<A NAME="ret"></A><H2>ret</H2>
 <CODE>ret</CODE> - Used with <CODE>call <I>addr1</I></CODE>.
 Tells the processor to go back to wherever it was called from and
 continue executing the code following the call. Can be used with

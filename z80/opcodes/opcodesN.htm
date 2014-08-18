@@ -73,7 +73,7 @@ layout: z80
 	<A HREF="#sub">sub</A><BR>
 	<A HREF="#xor">xor</A><BR>
 <PRE>
-<A NAME="adc">        adc a,(hl)        8e
+<A NAME="adc"></A>        adc a,(hl)        8e
         adc a,(ix+n)      dd 8e n
         adc a,(iy+n)      fd 8e n
         adc a,a           8f
@@ -88,7 +88,7 @@ layout: z80
         adc hl,de         ed 5a
         adc hl,hl         ed 6a
         adc hl,sp         ed 7a
-<A NAME="add">        add a,(hl)        86
+<A NAME="add"></A>        add a,(hl)        86
         add a,(ix+n)      dd 86 n
         add a,(iy+n)      fd 86 n
         add a,a           87
@@ -111,7 +111,7 @@ layout: z80
         add iy,de         fd 19
         add iy,iy         fd 29
         add iy,sp         fd 39
-<A NAME="and">        and (hl)          a6
+<A NAME="and"></A>        and (hl)          a6
         and (ix+n)        dd a6 n
         and (iy+n)        fd a6 n
         and a             a7
@@ -122,7 +122,7 @@ layout: z80
         and h             a4
         and l             a5
         and n             e6 n
-<A NAME="bit">        bit 0,(hl)        cb 46
+<A NAME="bit"></A>        bit 0,(hl)        cb 46
         bit 0,(ix+n)      dd cb n  46
         bit 0,(iy+n)      fd cb n  46
         bit 0,a           cb 47
@@ -202,7 +202,7 @@ layout: z80
         bit 7,e           cb 7b
         bit 7,h           cb 7c
         bit 7,l           cb 7d
-<A NAME="call">        call c,nn         dc n  n
+<A NAME="call"></A>        call c,nn         dc n  n
         call m,nn         fc n  n
         call nc,nn        d4 n  n
         call nc,nn        d4 n  n
@@ -212,8 +212,8 @@ layout: z80
         call pe,nn        ec n  n
         call po,nn        e4 n  n
         call z,nn         cc n  n
-<A NAME="ccf">        ccf               3f
-<A NAME="cp">        cp (hl)           be
+<A NAME="ccf"></A>        ccf               3f
+<A NAME="cp"></A>        cp (hl)           be
         cp (ix+n)         dd be n
         cp (iy+n)         fd be n
         cp a              bf
@@ -224,13 +224,13 @@ layout: z80
         cp h              bc
         cp l              bd
         cp n              fe n
-<A NAME="cpd">        cpd               ed a9
-<A NAME="cpdr">        cpdr              ed b9
-<A NAME="cpi">        cpi               ed a1
-<A NAME="cpir">        cpir              ed b1
-<A NAME="cpl">        cpl               2f
-<A NAME="daa">        daa               27
-<A NAME="dec">        dec (hl)          35
+<A NAME="cpd"></A>        cpd               ed a9
+<A NAME="cpdr"></A>        cpdr              ed b9
+<A NAME="cpi"></A>        cpi               ed a1
+<A NAME="cpir"></A>        cpir              ed b1
+<A NAME="cpl"></A>        cpl               2f
+<A NAME="daa"></A>        daa               27
+<A NAME="dec"></A>        dec (hl)          35
         dec (ix+n)        dd 35 n
         dec (iy+n)        fd 35 n
         dec a             3d
@@ -246,20 +246,20 @@ layout: z80
         dec iy            fd 2b
         dec l             2d
         dec sp            3b
-<A NAME="di">        di                f3
-<A NAME="djnz">        djnz $+2          10
-<A NAME="ei">        ei                fb
-<A NAME="ex">        ex (sp),hl        e3
+<A NAME="di"></A>        di                f3
+<A NAME="djnz"></A>        djnz $+2          10
+<A NAME="ei"></A>        ei                fb
+<A NAME="ex"></A>        ex (sp),hl        e3
         ex (sp),ix        dd e3
         ex (sp),iy        fd e3
         ex af,af'         08
         ex de,hl          eb
-<A NAME="en">        en                d9
-<A NAME="halt">        halt              76
-<A NAME="im">        im 0              ed 46
+<A NAME="en"></A>        en                d9
+<A NAME="halt"></A>        halt              76
+<A NAME="im"></A>        im 0              ed 46
         im 1              ed 56
         im 2              ed 5e
-<A NAME="in">        in a,(c)          ed 78
+<A NAME="in"></A>        in a,(c)          ed 78
         in a,(n)          db n
         in b,(c)          ed 40
         in c,(c)          ed 48
@@ -267,7 +267,7 @@ layout: z80
         in e,(c)          ed 58
         in h,(c)          ed 60
         in l,(c)          ed 68
-<A NAME="inc">        inc (hl)          34
+<A NAME="inc"></A>        inc (hl)          34
         inc (ix+n)        dd 34 n
         inc (iy+n)        fd 34 n
         inc a             3c
@@ -283,11 +283,11 @@ layout: z80
         inc iy            fd 23
         inc l             2c
         inc sp            33
-<A NAME="ind">        ind               ed aa
-<A NAME="indr">        indr              ed ba
-<A NAME="ini">        ini               ed a2
-<A NAME="inir">        inir              ed b2
-<A NAME="jp">        jp $+3            c3
+<A NAME="ind"></A>        ind               ed aa
+<A NAME="indr"></A>        indr              ed ba
+<A NAME="ini"></A>        ini               ed a2
+<A NAME="inir"></A>        inir              ed b2
+<A NAME="jp"></A>        jp $+3            c3
         jp (hl)           e9
         jp (ix)           dd e9
         jp (iy)           fd e9
@@ -299,12 +299,12 @@ layout: z80
         jp pe,$+3         ea
         jp po,$+3         e2
         jp z,$+3          ca
-<A NAME="jr">        jr $+2            18
+<A NAME="jr"></A>        jr $+2            18
         jr c,$+2          38
         jr nc,$+2         30
         jr nz,$+2         20
         jr z,$+2          28
-<A NAME="ld">        ld (bc),a         02
+<A NAME="ld"></A>        ld (bc),a         02
         ld (de),a         12
         ld (hl),a         77
         ld (hl),b         70
@@ -434,13 +434,13 @@ layout: z80
         ld sp,ix          dd f9
         ld sp,iy          fd f9
         ld sp,nn          31 n  n
-<A NAME="ldd">        ldd               ed a8
-<A NAME="lddr">        lddr              ed b8
-<A NAME="ldi">        ldi               ed a0
-<A NAME="ldir">        ldir              ed b0
-<A NAME="neg">        neg               ed 44
-<A NAME="nop">        nop               00
-<A NAME="or">        or (hl)           b6
+<A NAME="ldd"></A>        ldd               ed a8
+<A NAME="lddr"></A>        lddr              ed b8
+<A NAME="ldi"></A>        ldi               ed a0
+<A NAME="ldir"></A>        ldir              ed b0
+<A NAME="neg"></A>        neg               ed 44
+<A NAME="nop"></A>        nop               00
+<A NAME="or"></A>        or (hl)           b6
         or (ix+n)         dd b6 n
         or (iy+n)         fd b6 n
         or a              b7
@@ -451,9 +451,9 @@ layout: z80
         or h              b4
         or l              b5
         or n              f6 n
-<A NAME="otdr">        otdr              ed bb
-<A NAME="otir">        otir              ed b3
-<A NAME="out">        out (c),a         ed 79
+<A NAME="otdr"></A>        otdr              ed bb
+<A NAME="otir"></A>        otir              ed b3
+<A NAME="out"></A>        out (c),a         ed 79
         out (c),b         ed 41
         out (c),c         ed 49
         out (c),d         ed 51
@@ -461,21 +461,21 @@ layout: z80
         out (c),h         ed 61
         out (c),l         ed 69
         out (n),a         d3 n
-<A NAME="outd">        outd              ed ab
-<A NAME="outi">        outi              ed a3
-<A NAME="pop">        pop af            f1
+<A NAME="outd"></A>        outd              ed ab
+<A NAME="outi"></A>        outi              ed a3
+<A NAME="pop"></A>        pop af            f1
         pop bc            c1
         pop de            d1
         pop hl            e1
         pop ix            dd e1
         pop iy            fd e1
-<A NAME="push">        push af           f5
+<A NAME="push"></A>        push af           f5
         push bc           c5
         push de           d5
         push hl           e5
         push ix           dd e5
         push iy           fd e5
-<A NAME="res">        res 0,(hl)        cb 86
+<A NAME="res"></A>        res 0,(hl)        cb 86
         res 0,(ix+n)      dd cb n  86
         res 0,(iy+n)      fd cb n  86
         res 0,a           cb 87
@@ -555,7 +555,7 @@ layout: z80
         res 7,e           cb bb
         res 7,h           cb bc
         res 7,l           cb bd
-<A NAME="ret">        ret               c9
+<A NAME="ret"></A>        ret               c9
         ret c             d8
         ret m             f8
         ret nc            d0
@@ -566,7 +566,7 @@ layout: z80
         ret z             c8
         reti              ed 4d
         retn              ed 45
-<A NAME="rl">        rl  (hl)          cb 16
+<A NAME="rl"></A>        rl  (hl)          cb 16
         rl  a             cb 17
         rl  b             cb 10
         rl  c             cb 11
@@ -576,8 +576,8 @@ layout: z80
         rl  l             cb 15
         rl (ix+n)         dd cb n  16
         rl (iy+n)         fd cb n  16
-<A NAME="rla">        rla               17
-<A NAME="rlc">        rlc (hl)          cb 06
+<A NAME="rla"></A>        rla               17
+<A NAME="rlc"></A>        rlc (hl)          cb 06
         rlc (ix+n)        dd cb n  06
         rlc (iy+n)        fd cb n  06
         rlc a             cb 07
@@ -587,9 +587,9 @@ layout: z80
         rlc e             cb 03
         rlc h             cb 04
         rlc l             cb 05
-<A NAME="rlca">        rlca              07
-<A NAME="rld">        rld               ed 6f
-<A NAME="rr">        rr  (hl)          cb 1e
+<A NAME="rlca"></A>        rlca              07
+<A NAME="rld"></A>        rld               ed 6f
+<A NAME="rr"></A>        rr  (hl)          cb 1e
         rr  a             cb 1f
         rr  b             cb 18
         rr  c             cb 19
@@ -599,8 +599,8 @@ layout: z80
         rr  l             cb 1d
         rr (ix+n)         dd cb n  1e
         rr (iy+n)         fd cb n  1e
-<A NAME="rra">        rra               1f
-<A NAME="rrc">        rrc (hl)          cb 0e
+<A NAME="rra"></A>        rra               1f
+<A NAME="rrc"></A>        rrc (hl)          cb 0e
         rrc (ix+n)        dd cb n  0e
         rrc (iy+n)        fd cb n  0e
         rrc a             cb 0f
@@ -610,9 +610,9 @@ layout: z80
         rrc e             cb 0b
         rrc h             cb 0c
         rrc l             cb 0d
-<A NAME="rrca">        rrca              0f
-<A NAME="rrd">        rrd               ed 67
-<A NAME="rst">        rst 0             c7
+<A NAME="rrca"></A>        rrca              0f
+<A NAME="rrd"></A>        rrd               ed 67
+<A NAME="rst"></A>        rst 0             c7
         rst 10h           d7
         rst 18h           df
         rst 20h           e7
@@ -620,7 +620,7 @@ layout: z80
         rst 30h           f7
         rst 38h           ff
         rst 8h            cf
-<A NAME="sbc">        sbc (hl)          9e
+<A NAME="sbc"></A>        sbc (hl)          9e
         sbc a             9f
         sbc a,(ix+n)      dd 9e n
         sbc a,(iy+n)      fd 9e n
@@ -635,8 +635,8 @@ layout: z80
         sbc hl,hl         ed 62
         sbc hl,sp         ed 72
         sbc l             9d
-<A NAME="scf">        scf               37
-<A NAME="set">        set 0,(hl)        cb c6
+<A NAME="scf"></A>        scf               37
+<A NAME="set"></A>        set 0,(hl)        cb c6
         set 0,(ix+n)      dd cb n  c6
         set 0,(iy+n)      fd cb n  c6
         set 0,a           cb c7
@@ -716,7 +716,7 @@ layout: z80
         set 7,e           cb fb
         set 7,h           cb fc
         set 7,l           cb fd
-<A NAME="sla">        sla (hl)          cb 26
+<A NAME="sla"></A>        sla (hl)          cb 26
         sla (ix+n)        dd cb n  26
         sla (iy+n)        fd cb n  26
         sla a             cb 27
@@ -726,7 +726,7 @@ layout: z80
         sla e             cb 23
         sla h             cb 24
         sla l             cb 25
-<A NAME="sra">        sra (hl)          cb 2e
+<A NAME="sra"></A>        sra (hl)          cb 2e
         sra (ix+n)        dd cb n  2e
         sra (iy+n)        fd cb n  2e
         sra a             cb 2f
@@ -736,7 +736,7 @@ layout: z80
         sra e             cb 2b
         sra h             cb 2c
         sra l             cb 2d
-<A NAME="srl">        srl (hl)          cb 3e
+<A NAME="srl"></A>        srl (hl)          cb 3e
         srl a             cb 3f
         srl b             cb 38
         srl c             cb 39
@@ -744,7 +744,7 @@ layout: z80
         srl e             cb 3b
         srl h             cb 3c
         srl l             cb 3d
-<A NAME="sub">        sub (hl)          96
+<A NAME="sub"></A>        sub (hl)          96
         sub (ix+n)        dd 96 n
         sub (iy+n)        fd 96 n
         sub a             97
@@ -755,7 +755,7 @@ layout: z80
         sub h             94
         sub l             95
         sub n             d6 n
-<A NAME="xor">        xor (hl)          ae
+<A NAME="xor"></A>        xor (hl)          ae
         xor (ix+n)        dd ae n
         xor (iy+n)        fd ae n
         xor a             af

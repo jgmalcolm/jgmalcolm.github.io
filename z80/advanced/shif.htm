@@ -30,7 +30,7 @@ the space where the rotated bits where either unchanged or zeroed.
 	<LI><A HREF="#srl">srl</A>
 </UL></CODE>
 
-<A NAME="rl"><H2>rl</H2>
+<A NAME="rl"></a><H2>rl</H2>
 <CODE>rl <I>arg1</I></CODE> - Rotates <I>arg1</I> register to the left
 with the carry's value put into bit 0 and bit 7 is put into the carry.
 
@@ -40,14 +40,14 @@ rl (iy+02)
 rl (ix+3)</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rla"><H2>rla</H2>
+<A NAME="rla"></a><H2>rla</H2>
 <CODE>rla</CODE> - Rotates <CODE>a</CODE> register to the left with the carry's
 value put into bit 0 and bit 7 is put into the carry. One byte shorter
 than <CODE>rl a</CODE>.
 <PRE>rla</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rlc"><H2>rlc</H2>
+<A NAME="rlc"></a><H2>rlc</H2>
 <CODE>rlc <I>arg1</I></CODE> - Rotates <I>arg1</I> to the left with bit
 7 being moved to bit 0 and also stored into the carry.
 
@@ -57,7 +57,7 @@ rlc (ix+$10)
 rlc a</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rlca"><H2>rlca</H2>
+<A NAME="rlca"></a><H2>rlca</H2>
 <CODE>rlca</CODE> - Rotates <CODE>a</CODE> to the left with bit 7
 being moved to bit 0 and also stored into the carry. It's one byte
 shorter than <CODE>rlc a</CODE>.
@@ -65,7 +65,7 @@ shorter than <CODE>rlc a</CODE>.
 <PRE>rlca</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rr"><H2>rr</H2>
+<A NAME="rr"></a><H2>rr</H2>
 <CODE>rr <I>arg1</I></CODE> - Rotates <I>arg1</I> to the right with
 the carry put in bit 7 and bit 0 put into the carry.
 
@@ -75,7 +75,7 @@ rr (ix+5)
 rr (iy+$00)</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rra"><H2>rra</H2>
+<A NAME="rra"></a><H2>rra</H2>
 <CODE>rra</CODE> - Rotates <CODE>a</CODE> to the right with the carry
 put into bit 7 and bit 0 put into the carry flag. It's one byte
 shorter than <CODE>rr a</CODE>.
@@ -83,7 +83,7 @@ shorter than <CODE>rr a</CODE>.
 <PRE>rra</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rrc"><H2>rrc</H2>
+<A NAME="rrc"></a><H2>rrc</H2>
 <CODE>rrc <I>arg1</I></CODE> - Rotates <I>arg1</I> to the right with
 bit 0 moved to bit 7 and also stored into the carry.
 
@@ -93,14 +93,14 @@ rrc (iy+$09)
 rrc e</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="rrca"><H2>rrca</H2>
+<A NAME="rrca"></a><H2>rrca</H2>
 <CODE>rrca</CODE> - Rotates <I>arg1</I> to the right with bit 0 moved to bit 7
 and also stored into the carry. This is one byte shorter than <CODE>rrc a</CODE>.
 
 <PRE>rrca</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="sla"><H2>sla</H2>
+<A NAME="sla"></a><H2>sla</H2>
 <CODE>sla <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the left with
 bit 7 moved to the carry flag and bit 0 reset (zeroed).
 
@@ -110,7 +110,7 @@ sla (ix+3)
 sla e</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="sra"><H2>sra</H2>
+<A NAME="sra"></a><H2>sra</H2>
 <CODE>sra <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the right with
 bit 0 moved to the carry flag and bit 7 retaining it's original value.
 
@@ -120,7 +120,7 @@ sra (iy+200)
 sra h</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="srl"><H2>srl</H2>
+<A NAME="srl"></a><H2>srl</H2>
 <CODE>srl <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the right with
 bit 0 moved to the carry flag and bit 7 zeroed.
 

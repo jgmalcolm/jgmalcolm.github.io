@@ -22,7 +22,7 @@ This is a strictly secondary menu. It likes to be on top of all other
 menus if there are any others up. It will not go away unless
 you exit it. Let's say you have a type $04 menu up, like the graph
 menu, and you execute your own type $00 menu. Your own menu will
-go above the graph menu. Type 
+go above the graph menu. Type
 
 
 
@@ -41,93 +41,93 @@ byte is the type of way it is pasted to the cursor position (see below
 <A HREF="#typechart">***MAKE***chart</A>), the next few bytes are a zero
 terminated string which is the text that appears in the menu slots on the
 screen.
-<A NAME="curs">
+<A NAME="curs"></A>
 <TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
 		<TD>Byte
 		<TD>Type Name
 		<TD>Example*
-	  
+
 	<TR>
 		<TD>$00
 		<TD>Straight paste
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$10
 		<TD>Straight paste special
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$20
 		<TD>Paste and space
 		<TD>"Item "
-	
+
 	<TR>
 		<TD>$30
 		<TD>Paste and space special
 		<TD>"Item "
-	
+
 	<TR>
 		<TD>$40
 		<TD>Straight paste
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$50
 		<TD>Space, paste and space special
 		<TD>" Item "
-	
+
 	<TR>
 		<TD>$60
 		<TD>Paste and open parenthesis
 		<TD>"Item("
-	
+
 	<TR>
 		<TD>$70
 		<TD>Paste and open parenthesis special
 		<TD>"Item("
-	
+
 	<TR>
 		<TD>$80
 		<TD>Put "Ans" and paste (no space)
 		<TD>"AnsItem"
-	
+
 	<TR>
 		<TD>$90
 		<TD>Put "Ans", space, and paste special
 		<TD>"Ans Item"
-	
+
 	<TR>
 		<TD>$a0
 		<TD>Put "Ans", paste, and space
 		<TD>"AnsItem "
-	
+
 	<TR>
 		<TD>$b0
 		<TD>Put "Ans", space, paste, and space special
 		<TD>"Ans Item "
-	
+
 	<TR>
 		<TD>$c0
 		<TD>Put "Ans" and paste (no space)
 		<TD>"AnsItem"
-	
+
 	<TR>
 		<TD>$d0
 		<TD>Put "Ans", space, paste, and space special
 		<TD>"Ans Item "
-	
+
 	<TR>
 		<TD>$e0
 		<TD>Put "Ans", paste, and open parenthesis
 		<TD>"AnsItem("
-	
+
 	<TR>
 		<TD>$f0
 		<TD>Put "Ans", space, paste, and open parenthesis special
 		<TD>"Ans Item("
-	
+
 </TABLE>
 <p ALIGN=CENTER><FONT SIZE=1>I used the word "Item" as what was in the menu entry.</FONT>
 
@@ -326,87 +326,87 @@ $41 and $c1 - Same as $01.</I><BR>
 		<TD>Byte
 		<TD>Type Name
 		<TD>Example*
-	  
+
 	<TR>
 		<TD>$00
 		<TD>Straight paste
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$10
 		<TD>Straight paste special
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$20
 		<TD>Paste and space
 		<TD>"Item "
-	
+
 	<TR>
 		<TD>$30
 		<TD>Paste and space special
 		<TD>"Item "
-	
+
 	<TR>
 		<TD>$40
 		<TD>Straight paste
 		<TD>"Item"
-	
+
 	<TR>
 		<TD>$50
 		<TD>Space, paste and space special
 		<TD>" Item "
-	
+
 	<TR>
 		<TD>$60
 		<TD>Paste and open parenthesis
 		<TD>"Item("
-	
+
 	<TR>
 		<TD>$70
 		<TD>Paste and open parenthesis special
 		<TD>"Item("
-	
+
 	<TR>
 		<TD>$80
 		<TD>Put "Ans" and paste (no space)
 		<TD>"AnsItem"
-	
+
 	<TR>
 		<TD>$90
 		<TD>Put "Ans", space, and paste special
 		<TD>"Ans Item"
-	
+
 	<TR>
 		<TD>$a0
 		<TD>Put "Ans", paste, and space
 		<TD>"AnsItem "
-	
+
 	<TR>
 		<TD>$b0
 		<TD>Put "Ans", space, paste, and space special
 		<TD>"Ans Item "
-	
+
 	<TR>
 		<TD>$c0
 		<TD>Put "Ans" and paste (no space)
 		<TD>"AnsItem"
-	
+
 	<TR>
 		<TD>$d0
 		<TD>Put "Ans", space, paste, and space special
 		<TD>"Ans Item "
-	
+
 	<TR>
 		<TD>$e0
 		<TD>Put "Ans", paste, and open parenthesis
 		<TD>"AnsItem("
-	
+
 	<TR>
 		<TD>$f0
 		<TD>Put "Ans", space, paste, and open parenthesis special
 		<TD>"Ans Item("
-	
+
 </TABLE>
 <p ALIGN=CENTER><FONT SIZE=1>I used the word "Item" as what was in the menu entry.</FONT>
 <SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

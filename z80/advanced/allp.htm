@@ -15,7 +15,7 @@ layout: z80
 	<LI><A HREF="#p7">Port 7 - Link Port</A>
 </UL>
 
-<A NAME=p0><H2>Port 0 - Screen Offset</H2>
+<A NAME=p0></a><H2>Port 0 - Screen Offset</H2>
 Port 0 is used for the screen offset. You can only write
 to this port. You can send any value between $00 and $3c. These
 equations show the relationship between what is
@@ -29,13 +29,13 @@ send = <u> address - $c000 </u>
 	     $100</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p1"><h2>Port 1 - Key Port</h2>
+<a name="p1"></a><h2>Port 1 - Key Port</h2>
 Port 1 is used for the keypresses. If you don't remember us
 talking about that, look back at the <A HREF="read.htm">keypress
 section</A>. I went into some pretty good detail about it.
 <p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p2"><h2>Port 2 - Contrast</h2>
+<a name="p2"></a><h2>Port 2 - Contrast</h2>
 Port 2 is used to adjust the contrast.  It is another write-only
 port.  You can send any value between 0 and 31 to specify different contrast
 levels.  Since it's a read-only port, there has to be some way of recording
@@ -60,7 +60,7 @@ increase_contrast:
 	ret</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p3"><h2>Port 3 - [ON] and Interrupts</h2>
+<a name="p3"></a><h2>Port 3 - [ON] and Interrupts</h2>
 Port 3 is used with the [ON] button and the LCD power.  This is
 a read and write port.  Here's a chart to tell you what the bits mean when
 they're either set or reset:
@@ -131,7 +131,7 @@ being pressed.
 	ret</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p4"><h2>Port 4 - Power Mode</h2>
+<a name="p4"></a><h2>Port 4 - Power Mode</h2>
 Port 4 is used for the the Power Mode mainly. It's either
 in Normal Power Mode or Low Power Mode. This is all done
 with bit 0. TI-OS puts the calculator in Low Power Mode
@@ -147,19 +147,19 @@ power_mode:
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p5"><h2>Port 5 - ROM Pages</h2>
+<a name="p5"></a><h2>Port 5 - ROM Pages</h2>
 See <A HREF="../intermediate/memo.htm">Memory
 and R_M Pages</A>.
 
 <p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p6"><h2>Port 6 - RAM Pages</h2>
+<a name="p6"></a><h2>Port 6 - RAM Pages</h2>
 See <A HREF="../intermediate/memo.htm">Memory
 and R_M Pages</A>.
 
 <p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<a name="p7"><h2>Port 7 - Link Port</h2>
+<a name="p7"></a><h2>Port 7 - Link Port</h2>
 Port 7 is used for the link port.  It can be used for
 <A HREF="soun.htm">sound</A>, memory expanders, or
 <A HREF="../variables/send.htm">sending/receiving information</A>.

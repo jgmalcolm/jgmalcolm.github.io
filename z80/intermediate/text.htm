@@ -17,7 +17,7 @@ The two types of built in font are the regular 5x7 pixel
 characters (big size font) and the variable width (menu size font) 6 pixel high
 font. Different routines are used for each size font.
 
-<H2><A NAME=curs>Big Font</H2>
+<H2><A NAME=curs></A>Big Font</H2>
 Both fonts use cursor coordinates to put text at various locations, like
 <CODE>Outpt(<I>row</I>,<I>column</I>,<I>string</I>)</CODE> in TI-BASIC. But in asm,
 you can't use arguments like that; you've got to store the row number
@@ -66,7 +66,7 @@ a letter. There are two:
 		equivolent and the cursor position is still the same.
 </TABLE>
 
-<A NAME="putc"><H3>_PutC</H3>
+<A NAME="putc"></A><H3>_PutC</H3>
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header>Description
 		<TD>Prints one letter at the cursor position and
@@ -108,7 +108,7 @@ that was the end of the line.
 				; is stored first in mem)
 	jp _putc		;print it and return</PRE>
 
-<P><A NAME="stri">Now that you know how to put a single character on the screen, it's
+<P><A NAME="stri"></A>Now that you know how to put a single character on the screen, it's
 time to move on to bunches of them at once. A bunch of letters or
 characters, one right after the other, is called a string of
 characters. There are two types of strings used with the
@@ -207,7 +207,7 @@ stupid_string:	.db "This is stupid!",0
 stupid_string:	.db 6,"Stupid"	;length indexed</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=vari>Variable Width Font</H2>
+<H2><A NAME=vari></A>Variable Width Font</H2>
 Variable width font, also called menu size font, functions much the
 same as the big font. You load the coordinates and call the routines. Like
 the big font, menu size font has its own routines for displaying. You load
@@ -336,7 +336,7 @@ stupid_string:	.db 5,"2+2=4"	;string</PRE>
 	jp _vputmap		;print it and return</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=opti>Font Options</H2>
+<H2><A NAME=opti></A>Font Options</H2>
 There are a few different ways you can display your text on the screen. You
 can turn on or off these options using the
 <A HREF="..\advanced\syst.htm">System Flags of TI-OS</A>. The basics of

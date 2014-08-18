@@ -27,7 +27,7 @@ parts:
 	.dw <I>exponent relative to $fc00</I>
 	.db <I>BCD number for 7 bytes</I></PRE>
 
-<A NAME="type"><H2>Type and Sign</H2>
+<A NAME="type"></A><H2>Type and Sign</H2>
 The first byte is broken up into two things.
 <OL>
 	<LI>If bit 7 is set the number is negative,
@@ -44,7 +44,7 @@ So there are only 4 possible combinations of numbers and what they look like.
 </OL>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="expo"><H2>Exponent</H2>
+<A NAME="expo"></A><H2>Exponent</H2>
 The next two bytes (second and third)
 of the <CODE>OP_</CODE> Register are the exponent bytes. Remember that the z80 works
 by storing an address, say for example <CODE>$1234</CODE>, backwords as
@@ -112,7 +112,7 @@ stored backwards, so <CODE>$fbfc</CODE> as a result would be stored in memory
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME="bcd">Binary Coded Decimal</H2>
+<H2><A NAME="bcd"></A>Binary Coded Decimal</H2>
 The next 7 bytes of the <CODE>OP_</CODE> Register (remember the 8th byte which isn't
 used) are used to store a number in BCD. This is simpler than it
 sounds. The number <CODE>123456</CODE> is stored as <CODE>$12,$34,$56</CODE>

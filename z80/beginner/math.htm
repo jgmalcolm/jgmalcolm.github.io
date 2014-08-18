@@ -32,7 +32,7 @@ reinvent the wheel?
 if either of your operands is zero. Infinite loops
 and bogus answers are sure to follow.
 
-<A NAME="add"><H2>Addition</H2>
+<A NAME="add"></A><H2>Addition</H2>
 Seems simple enough, right? You're using the accumulator
 (<CODE>a</CODE>) so you load it with one operand and load the other
 into another 8 bit <A HREF="regi.htm">register</A>. After you've
@@ -91,7 +91,7 @@ be seen in the <A HREF="../intermediate/simu.htm">Simulated 16 bit
 Addition</A> section, if you want to get more indepth.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="sub"><H2>Subtraction</H2>
+<A NAME="sub"></A><H2>Subtraction</H2>
 Similar but opposite,
 <A HREF="../opcodes/opcodesN.htm#sub"><CODE>sub</CODE></A>
 is used for subtraction. The value you want subtracted <I>from</I>
@@ -125,7 +125,7 @@ adding -1.
 	sub b	;a-b=4-5=-1=255
 	add a,c	;a+c=-1+6=5
 		;5 is stored in a</PRE>
-<A NAME="sbc">
+<A NAME="sbc"></A>
 As with <CODE>adc</CODE>, there is <CODE>sbc</CODE>.
 It works the same way but adds one to the
 number <I>being</I> subtracted if the carry is
@@ -150,7 +150,7 @@ number subtracted <I>from</I>).
 			;1 is stored in a</PRE>
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="mult"><H2>Multiplication</H2>
+<A NAME="mult"></A><H2>Multiplication</H2>
 If you haven't figured it out yet, there aren't
 any <A HREF="../opcodes/opcodes.htm">instructions</A> to
 directly multiply. You have to mix some
@@ -282,7 +282,7 @@ the original a couple times along the
 way.
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<A NAME="div"><H2>Division</H2>
+<A NAME="div"></A><H2>Division</H2>
 Similiar to multiplication,
 just use subtraction.
 

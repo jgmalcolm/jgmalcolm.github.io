@@ -14,7 +14,7 @@ in handy.
 	<LI><A HREF="#game">Game Saved</A>
 </UL>
 
-<H2><A NAME=temp>Temporary Trash</H2>
+<H2><A NAME=temp></A>Temporary Trash</H2>
 Values that you only need during game play. Once the game is over (player dies
 or exits), you don't care what happens to that data. An example of this
 is the coordinates of a ball bouncing on the screen. You usually need the
@@ -48,7 +48,7 @@ since we know ahead of time that it's possible to get more than 255 (the highest
 possible value for a byte).
 
 
-<PRE><A NAME=curr>save_current_score:		;routine to save money
+<PRE><A NAME=curr></A>save_current_score:		;routine to save money
 	ld (current_score),hl	;save score
 	ret			;exit routine
 
@@ -57,7 +57,7 @@ high_money:	.db 0,0		;2 bytes to save score value
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=game>Game Saved</H2>
+<H2><A NAME=game></A>Game Saved</H2>
 Let's say the player just got a high score in
 <A HREF="../download/galaxian.zip"><I>Galaxian</I></A> by
 <A HREF="mailto:luezma@netscape.net">Patrick Davidson</A>. They most
@@ -96,7 +96,7 @@ any assembly program is run.
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=resi>Resident</H2>
+<H2><A NAME=resi></A>Resident</H2>
 Resident data storage is data inside the actual program. My game
 <A HREF="../download/addict.zip">Addiction</A> is an example of this. Just
 before exiting, the program copies the data such as cash, drugs, ammunition,
@@ -156,7 +156,7 @@ can't copy more than 255 bytes of memory.
 
 <P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
 
-<H2><A NAME=exte>External</H2>
+<H2><A NAME=exte></A>External</H2>
 External data storage is a simple concept: Store the data
 in a variable other than the program running under a name that TI-OS
 doesn't pick up in variable searches. For this section, I'll be
