@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Put $1234 into every even (since it's two bytes) memory address
+		for 1000 bytes starting at $8000 using a loop instead of <CODE>ldir</CODE>.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld bc,1000/2	;we are only doing every other byte
+	ld hl,$8000	;address to start at
+	ld de,$1234	;what to write
+loop:
+	ld (hl),d	;load $12 in
+	inc hl		;increase to next address
+	ld (hl),e	;load $34 in
+	inc hl		;increase to set up for next loop
+	dec bc		;decrease counter
+	jr nz,loop	;is bc=$0000 yet...if so we're done
+	ret		;done
+	<TR>	<TD CLASS=header>Error
+		<TD>Decreasing 16 bit register pairs (<CODE>dec bc</CODE>) doesn't affect the
+		zero or carry flags.  We can use <A HREF="../intermediate/logi.htm">Logical
+		Operators</A> to see if any bits in either <CODE>b</CODE> or <CODE>c</CODE>
+		are set with <CODE>or</CODE>.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld bc,1000/2	;we are only doing every other byte
+	ld hl,$8000	;address to start at
+	ld de,$1234	;what to write
+loop:
+	ld (hl),d	;load $12 in
+	inc hl		;increase to next address
+	ld (hl),e	;load $34 in
+	inc hl		;increase to set up for next loop
+	dec bc		;decrease counter
+	ld a,b		;load accumulator with one part
+			; of address
+	or c		;are any bits in either b or c set?
+	jr nz,loop	;if there is a bit in either of
+			; them, the zero flag will be reset
+			; and we loop again
+	ret		;done
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

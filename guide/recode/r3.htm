@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Put two strings on the screen.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld hl,name1_string	;first string
+	ld bc,(256*20)+2	;column 2...row 20
+	ld (_penCol),bc
+	call _vputs		;print
+	ld hl,name2_string	;second string
+	ld bc,(256*27)+2	;column 2...row 27
+	ld (_penCol),bc
+	jp _vputs		;print & exit
+name1_string:	.db "Running",0
+name2_string:	.db "Stupid",0
+	<TR>	<TD CLASS=header>Error
+		<TD>There are two errors in this.  For the first one, you wouldn't
+		be able to see it if you hadn't looked at the
+		<A HREF="../opcodes/opcodes.htm">opcode list</A> to see that
+		<CODE>ld (<I>arg1</I>),bc</CODE> takes up 4 bytes where as <CODE>ld
+		(<I>arg1</I>),hl</CODE> only takes up 3.  If you wait a second to
+		load <CODE>hl</CODE> with the string address, you can use <CODE>hl</CODE> to
+		set up the cursor coordinates, thus saving one byte. Speed really
+		isn't a factor here, but, for every one less byte the processor
+		has to read in your code, it is a little faster.  We can't
+		use <CODE>hl</CODE> to save this byte for our second string because, as I will
+		explain in the second error, <CODE>hl</CODE> is holding the address of our
+		second string.  The second error comes
+		when you load <CODE>hl</CODE> with the address of the second string.  You
+		don't have to do this after the last <CODE>_vputs</CODE>.  After
+		<CODE>_vputs</CODE> is done, <CODE>hl</CODE> is at the address of the
+		byte after the zero terminate which, in this case, is the first
+		letter of our second string.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld hl,(256*20)+2
+	ld (_penCol),hl
+	ld hl,name1_string	;first string
+	call _vputs		;print
+	ld bc,(256*27)+2	;column 2...row 27
+	ld (_penCol),bc
+	jp _vputs		;print & exit
+name1_string:	.db "Running",0
+name2_string:	.db "Stupid",0
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

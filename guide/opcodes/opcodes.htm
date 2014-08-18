@@ -1,0 +1,57 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Opcodes");</SCRIPT>
+
+<P>You're lucky: The
+<A HREF="../beginner/z80p.htm">z80 microprocessor</A> has
+one of the shortest instruction sets of operation codes! That means
+you don't have to memorize thousands upon thousands of
+individual commands. There are only 677 commands for the
+z80, that's not much when you consider the thousands for the
+<A HREF="http://www.intel.com/intel/museum/25anniv/hof/8080.htm"
+target="_blank">Intel's 8080</A>.
+
+<P>An opcode is an instruction.
+
+<PRE>	ld hl,xxxx
+	out (x),a
+	cp xx</PRE>
+
+These are just a few examples. Each opcode is actually
+one or more bytes that tell the z80 what to do.
+The processor doesn't see <CODE>cp (hl)</CODE> or
+<CODE>ld a,b</CODE> but instead sees <CODE>$be</CODE>
+and <CODE>$78</CODE> respectively. The z80 performs
+the operation assigned to that byte value.
+
+<P>For <CODE>call xxxx</CODE>, the processor will
+see <CODE>$cd</CODE>. Once it sees that value,
+it knows it has to use the next two consecutive
+bytes in memory for the address to call.
+
+<P>So, when you type the code...
+
+<PRE>	call $1234
+	ld hl,$ff
+	cp b</PRE>
+
+The z80 sees...
+
+<PRE>	cd3412
+	21ff00
+	b8</PRE>
+
+<P>Do you want to view the list of z80 standard operation codes
+organized by <A HREF="opcodesB.htm">byte value</A> or
+in <A HREF="opcodesN.htm">alphabetical order</A>?
+
+<P>You can also check out a <I>full</I> listing of 
+<A HREF="../beginner/z80p.htm">z80</A> opcodes with clock
+cycles and flag effects:
+<A HREF="JavaScript:popup('../download/z80.txt')">z80.txt</A>.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

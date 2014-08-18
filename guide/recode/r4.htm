@@ -1,0 +1,39 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Clear the screen and put a string at (0,1).
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	call _clrLCD
+	ld hl,(256*0)+1		;column 1...row 0
+	ld (_penCol),hl
+	ld hl,stupid_string
+	jp _vputs
+stupid_string:	.db "Stupid",0
+	<TR>	<TD CLASS=header>Error
+		<TD>It was good that we used <CODE>hl</CODE> to input our cursor
+		coordinates, but by using the
+		<A HREF="../download/destroy.asm">destroy.asm</A> to find out
+		that <CODE>_clrLCD</CODE> returns <CODE>hl,bc,de</CODE> as $0000.  All we have
+		to do after calling <CODE>_clrLCD</CODE> is to increment <CODE>l</CODE> for our
+		columns value and then load <CODE>hl</CODE> into the
+		<CODE>_penCol</CODE> address.  Then we can load <CODE>hl</CODE> with the string
+		to display and print it.  In the end we save two bytes.  I bet
+		you're jumping for joy...
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	call _clrLCD
+	inc l			;column 1...row 0
+	ld (_penCol),hl
+	ld hl,stupid_string
+	jp _vputs
+stupid_string:	.db "Stupid",0
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

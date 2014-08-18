@@ -1,0 +1,360 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Math");</SCRIPT>
+
+<P>All the mathmatical operations you'll
+need to start programming can be broken
+down into four groups:
+<UL>
+	<LI><A HREF="#add">Addition</A>
+	<LI><A HREF="#sub">Subtraction</A>
+	<LI><A HREF="#mult">Multiplication</A>
+	<LI><A HREF="#div">Division</A>
+</UL>
+
+You can test these and your own math routines
+using <A HREF="../download/mathtest.asm">MathTest.asm</A>.
+In its current form it only supports the answer
+in the 8 bit <A HREF="regi.htm">register</A> <CODE>a</CODE>;
+but, you can follow the directions in the comments
+to change it to use <CODE>hl</CODE> in 2 seconds.
+
+<P>Remember also that we are only working with integers here.
+Floating point math is taken care of in
+the <A HREF="../variables/bcd.htm">Binary Coded Decimal</A>
+section. You can always write your own routines which
+will probably be faster than TI's, but why
+reinvent the wheel?
+
+<P>I wouldn't go into any of these routines
+if either of your operands is zero. Infinite loops
+and bogus answers are sure to follow.
+
+<A NAME="add"><H2>Addition</H2>
+Seems simple enough, right? You're using the accumulator
+(<CODE>a</CODE>) so you load it with one operand and load the other
+into another 8 bit <A HREF="regi.htm">register</A>. After you've
+got that setup, go ahead and add them. Let's add 4 and 5 to get 9.
+Using <CODE>add</CODE>, the result will be stored in <CODE>a</CODE>.
+
+<PRE>	ld a,4	;one operand
+	ld b,5	;second operand
+	add a,b	;a+b (saved in a)</PRE>
+	
+<P>Don't forget the 16 bit registers. You can appply
+the same methods to them; but, instead of revolving
+around the accumulator (<CODE>a</CODE>), they revolve around
+<CODE>hl</CODE>. The advantage of using 16 bit registers
+is that you can have way bigger operands.
+
+<PRE>	ld hl,4000	;4,000
+	ld de,15000	;15,000
+	add hl,de	;4,000+15,000=19,000</PRE>
+
+<P>Things can get a little more complicated when you start
+using the <A HREF="flag.htm#carry">carry flag</A>.
+The general idea is, add the two operands and, if the carry 
+flag is set, add one to the answer. Don't add one if
+the carry flag was reset.
+
+<P>This is helpful, let's say, if you want to account
+for an overflow in the previous calculation. You
+have a calculation (
+<A HREF="../opcodes/opcodesN.htm#add"><CODE>add</CODE></A>,
+<A HREF="../opcodes/opcodesN.htm#sub"><CODE>sub</CODE></A>,
+<A HREF="../opcodes/opcodesN.htm#dec"><CODE>dec</CODE></A>,
+<A HREF="../opcodes/opcodesN.htm#inc"><CODE>inc</CODE></A>, etc.)
+which may or may not have resulted in an answer that was too big
+for it to store. The carry flag will be set if so.
+
+<PRE>	ld a,200
+	ld b,150
+	add a,b		;200+150=350
+			; way too big
+			; to store in
+			; 8 bit register
+			;max it can hold
+			; is 255
+			;carry set!
+	ld a,4
+	ld b,5
+	adc a,b		;4+5=9
+			;carry is set
+			; so 9+1=10
+			;10 is stored in
+			; a</PRE>
+
+The practicality of this feature can
+be seen in the <A HREF="../intermediate/simu.htm">Simulated 16 bit
+Addition</A> section, if you want to get more indepth.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="sub"><H2>Subtraction</H2>
+Similar but opposite,
+<A HREF="../opcodes/opcodesN.htm#sub"><CODE>sub</CODE></A>
+is used for subtraction. The value you want subtracted <I>from</I>
+is loaded into the accumulator (<CODE>a</CODE>), the value you
+want to subtract is put into another register, and then you
+are ready to perform the actual subtraction.
+
+<PRE>	ld a,5	;one operand
+	ld b,4	;second operand
+	sub b	;a-b=5-4=1
+		;1 stored in a</PRE>
+
+You can get into a mess if you try subtracting a
+<I>big</I> number from a <I>little</I> number. You
+won't get the answer you expect and the
+<A HREF="flag.htm#carry">carry flag</A> will be set.
+
+<PRE>	ld a,4	;one operand
+	ld b,5	;second operand
+	sub b	;a-b=4-5=-1=255</PRE>
+
+From the <A HREF="twos.htm">Two's Compliment</A> section,
+you can see that a value of -1 means the same as
+255. You can go ahead and add this to another
+8 bit register and it will be the same as
+adding -1.
+
+<PRE>	ld c,6
+	ld a,4	;one operand
+	ld b,5	;second operand
+	sub b	;a-b=4-5=-1=255
+	add a,c	;a+c=-1+6=5
+		;5 is stored in a</PRE>
+<A NAME="sbc">
+As with <CODE>adc</CODE>, there is <CODE>sbc</CODE>.
+It works the same way but adds one to the
+number <I>being</I> subtracted if the carry is
+set (not the
+number subtracted <I>from</I>).
+
+<PRE>	ld a,200
+	ld b,150
+	add a,b		;200+150=350
+			; way too big
+			; to store in
+			; 8 bit register
+			;max it can hold
+			; is 255
+			;carry set!
+	ld a,5
+	ld b,3
+	sbc a,b		;5-(3+1)=1
+			;carry is set
+			; so 3+1=4
+			; 5-4=1
+			;1 is stored in a</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="mult"><H2>Multiplication</H2>
+If you haven't figured it out yet, there aren't
+any <A HREF="../opcodes/opcodes.htm">instructions</A> to
+directly multiply. You have to mix some
+<CODE>add</CODE>'s, <CODE>sub</CODE>'s,
+shifts, and rotates to get what you want.
+The first few examples assume
+the answer doesn't excede the capacity
+of an 8 bit register (255).
+
+<P>You've been through elementary school,
+you know how the basics of multiplication:
+add repeatedly.
+
+<P>Since it's always better to use code
+that <I>you</I> understand, this routine
+is about as simple as it gets. <CODE>B</CODE> is one
+operand and <CODE>c</CODE> is the other with
+the answer in <CODE>a</CODE>
+
+<PRE>	sub a	;zero a
+	or b	;is b=0?
+	ret z	;exit if b=0 so ret
+multiply_loop:
+	add a,c	;add c to total so far
+	djnz multiply_loop</PRE>
+
+The effect is that <CODE>c</CODE> is repeatedly
+added to itself, the very idea of
+multiplication in 6 bytes!
+
+<P>There are two drawbacks to this
+method.
+<OL>
+	<LI>The larger the numbers,
+	the more loops executed,
+	the slower the routine.
+	<LI>The answer can't
+	excede 255 or there's an
+	overflow. You need to use
+	16 bit <A HREF="regi.htm">registers</A>.
+</OL>
+
+<P>Time is of the essence, you need
+a fast routine. You need to multiply
+a number (<CODE>x</CODE>) loaded in
+<CODE>a</CODE> to a constant--let's
+try 2 first. The advantage of
+using a constant is that you
+don't need loops, it goes through
+the code once and only once.
+You know exactly how long it's
+going to take.
+
+<PRE>	add a,a	;a=a=2*a</PRE>
+
+That simple! Try times 5.
+
+<PRE>	ld b,a	;save it away temporarily
+	add a,a	;a*2
+	add a,a	;a*4
+	add a,b	;a*4+a=5*a</PRE>
+
+Eight is a good number too.
+
+<PRE>	add a,a	;*2
+	add a,a	;*2
+	add a,a	;*2=2*2*2=8</PRE>
+
+Try another odd number like 13 using
+<CODE>sub</CODE> too. Just
+<A HREF="#sub">subtract</A> the
+original a few times.
+
+<PRE>	ld b,a	;save it away temporarily
+	add a,a	;a*2
+	add a,a	;a*4
+	add a,a	;a*8
+	add a,a	;a*16
+	sub b	;a*16-a
+	sub b	;a*15-a
+	sub b	;a*14-a=13*a</PRE>
+
+None of these will hold an answer
+over 255. Try using 16 bit register
+pairs to multiply 35 and <CODE>hl</CODE>.
+
+<PRE>	ld d,h		;save it away temporarily
+	ld e,l		;save it away temporarily
+	add hl,hl	;hl*2
+	add hl,hl	;hl*4
+	add hl,hl	;hl*8
+	add hl,hl	;hl*16
+	add hl,hl	;hl*32
+	add hl,de	;hl*32+hl
+	add hl,de	;hl*32+hl+hl
+	add hl,de	;hl*32+hl+hl+hl=32*hl+3hl=35*hl</PRE>
+
+<P>In some cases, it's easier
+to add in that saved away
+original at an earlier
+date, like when the constant
+is not near a power of 2. 20's
+like that.
+
+<PRE>	ld b,a	;save away original
+	add a,a	;a*2
+	add a,a	;a*4
+	add a,b	;a*4+a=a*5
+	add a,a	;a*10
+	add a,a	;a*20</PRE>
+
+If we didn't add in the original
+early like above, our code would be
+a lot longer!
+
+<PRE>	ld b,a	;save away original
+	add a,a	;a*2
+	add a,a	;a*4
+	add a,a	;a*8
+	add a,a	;a*16
+	add a,b	;a*16+a
+	add a,b	;a*16+a+a
+	add a,b	;a*16+a+a+a
+	add a,b	;a*16+a+a+a+a=a*20</PRE>
+
+It's a good thing we thought ahead.
+Sometimes you might have to add in
+the original a couple times along the
+way.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="div"><H2>Division</H2>
+Similiar to multiplication,
+just use subtraction.
+
+<P>Let's divide <CODE>a</CODE> by <CODE>b</CODE>
+(<CODE>a</CODE>/<CODE>b</CODE>).
+In this routine, the answer is stored into <CODE>a</CODE>. Remember
+that this is for integers that divide evenly. If you
+have two numbers that you know do <I>not</I> divide
+evenly, you will get an infinite loop usually (Your
+calculator has <A HREF="ohno.htm">crashed</A>).
+
+<PRE>	ld c,$00
+divide_loop:
+	inc c
+	sub b
+	jr nz,divide_loop
+	ld a,c
+	ret</PRE>
+
+If you don't mind the final answer stored in <CODE>c</CODE>,
+and want to save a byte.
+
+<PRE>	ld c,$00
+divide_loop:
+	inc c
+	sub b
+	ret z
+	jr divide_loop</PRE>
+
+This is similiar to the basic
+multiplication routine: subtract
+repeatedly. This routine will
+also exit if <CODE>a</CODE> is zero and
+become slower the larger the
+operands are (more loops).
+
+<P>Let's divide <CODE>a</CODE> by a constant
+of 8 using <CODE>srl a</CODE>.
+
+<PRE>	srl a	;/2
+	srl a	;/4
+	srl a	;/8</PRE>
+
+I don't recommend using
+<A HREF="../advanced/shif.htm">shift
+logically</A>
+because it's two bytes long. It
+is nice because it shifts the
+bits right out of here.
+<A HREF="../advanced/shif.htm">Rotate</A>
+is faster but it just circulates those
+bits to the other side. If you're
+going to use rotate, make sure
+to mask off those
+bits using
+<A HREF="../intermediate/logi.htm"><CODE>and</CODE></A>.
+This is one byte shorter. You'll
+save more bytes if you divide
+by higher powers of 2 (8=2^3=2*2*2)
+
+<PRE>	and %11111000	;mask off (get
+			; rid of) last
+			; three bits which
+			; will be rotated
+			; out
+			;we don't want them
+			; coming back in
+			; on the other side
+	rrca		;/2
+	rrca		;/4
+	rrca		;/8</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

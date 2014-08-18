@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Menus","Executing Menus");</SCRIPT>
+
+<P>One pain of making branched programs is menus for the user to select
+where to go next by clicking a Function key (F1, F2, F3, F4, and F5). You
+have to make a routine to draw the menu, make a routine to display the text
+in the menu slots, and yet another routine to control the input of keys and
+jump to different parts of the program accordingly. This can be over 100
+bytes for this all. Thanks to <A HREF=mailto:assets@eden.rutgers.edu>Dux
+Gregis</A> and other pioneers of the TI86 ROM routines, we have gained
+much knowledge of internal TI86 routines that can do tasks like displaying
+a menu and controlling keypresses for us. There are two routines that
+we are going to study that have to do with setting up a menu structure and
+implementing the menu. The two calls are:
+
+<PRE>_ASAPloadmenu	=$49c8
+_funcDisp	=$49e8</PRE>
+
+<P>The whole idea of executing a menu is easy: load <CODE>hl</CODE> with the address
+of the menu data, call <CODE>_ASAPloadmenu</CODE>, and call <CODE>_funcDisp</CODE>.
+You can actually just jump to <CODE>_funcDisp</CODE> if you don't want to come
+back. You can lock the
+cursor so that the TI86 will not accept the [2nd] or [ALPHA]
+input. Either <CODE>set curLock,(iy+curFlags)</CODE> or <CODE>set
+4,(iy+$0c)</CODE> will lock
+the key input so that no keypress modifiers ([2nd] or [ALPHA])
+will be accepted.
+
+<P>Here is an example of running a menu located at <CODE>$f200</CODE> on RAM page 0.
+
+<PRE>menu_to_run	=$f200		;address of menu
+	ld hl,menu_to_run	;hl holds menu location
+	call _ASAPloadmenu	;set it up in memory
+	jp _funcDisp		;execute it and return to ti-os</PRE>
+
+<P>Your last thing to do is to jump (or <CODE>call _funcDisp / ret</CODE>) to
+<CODE>_funcDisp</CODE>. If You just call it and then execute code after,
+your menu will not be able to get keypresses. By jumping to
+<CODE>_funcDisp</CODE>, you display the menu and exit to TI-OS which can
+then use the menu.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

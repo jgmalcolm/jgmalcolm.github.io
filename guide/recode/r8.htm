@@ -1,0 +1,51 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Display two strings; the first on one line, the second one line
+		below.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld hl,(256*5)+10	;row 5, col 10
+	ld (_penCol),hl
+	ld hl,stupid_string	;string to display
+	call _vputs		;display it
+	ld hl,(256*(5+7))+10	;row 12, col 10
+				;each line is
+				; 7 pixels
+	ld (_penCol),hl
+	ld hl,stupid_string
+	jp _vputs		;display it & return
+	<TR>	<TD CLASS=header>Error
+		<TD>It was good that we used <CODE>hl</CODE> to load up
+		our coordinates, but there is some redundancy in that
+		we do <CODE>ld hl,stpuid_string</CODE>,
+		<CODE>call jp _vputs</CODE>, and <CODE>ld
+		(_penCol),hl</CODE> twice.  We could make a universal call
+		that would load the coordinates, load the string, and
+		display the string.  One of the keys to optimization
+		is looking for redundancies.  The second routine saves
+		4 bytes in the end.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld hl,256*5+10		;1st coords
+	call display		;put first string
+	ld hl,(256*(5+7))+10	;second coords
+display:
+	ld (_penCol),hl		;load what's in hl
+				; as coordinates
+	ld hl,stupid_string	;display same string
+				; both times
+	jp _vputs		;display it and
+				; return from our
+				; call the 1st time
+				; and from our
+				; routien the 2nd
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

@@ -1,0 +1,173 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","The Screen");</SCRIPT>
+
+<P>What you look at on the
+screen is called the Video Memory or sometimes the Screen Memory.
+It is located in the TI86 at
+memory address <CODE>$fc00</CODE> and ends at <CODE>$ffff</CODE>. That's <CODE>1024</CODE>
+bytes for the screen.
+
+<P>A bit that's been set (turned to <CODE>1</CODE>) in that memory
+area puts a little black dot in that area often called a pixel.
+The following chart illustrates the top left area
+of the screen with the proper addresses. The first byte shown
+has the numbers 0 through 7 representing the
+<A HREF="../beginner/numb.htm#bitp">bit placements</A>.
+Keep in mind that this is only a small slice of the whole screen.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>
+		<TD>$fc00
+		<TD>$fc01
+		<TD>$fc02
+		<TD>$fc03
+		<TD>$fc04
+	
+	<TR>	<TD CLASS=header>$fc00
+		<TD>76543210
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+	<TR>	<TD CLASS=header>$fc10
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+	<TR>	<TD CLASS=header>$fc20
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+	<TR>
+		<TD CLASS=header>$fc30
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+		<TD>00000000
+	
+</TABLE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR><TD>0 0 0 1 1 0 0 0
+	<TR><TD>1 1 0 1 1 0 1 1
+	<TR><TD>0 1 0 1 1 0 1 0
+	<TR><TD>1 1 0 1 1 0 1 1
+	<TR><TD>0 1 0 1 1 0 1 0
+	<TR><TD>1 1 0 1 1 0 1 1
+	<TR><TD>0 0 0 1 1 0 0 0
+	<TR><TD>1 1 1 0 0 1 1 1
+</TABLE>
+
+<p ALIGN=CENTER>looks like...
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>
+		<TD WIDTH="10" BGCOLOR="#ffffff">&nbsp;
+		<TD WIDTH="10" BGCOLOR="#ffffff">
+		<TD WIDTH="10" BGCOLOR="#ffffff">
+		<TD WIDTH="10" BGCOLOR="#000000">
+		<TD WIDTH="10" BGCOLOR="#000000">
+		<TD WIDTH="10" BGCOLOR="#ffffff">
+		<TD WIDTH="10" BGCOLOR="#ffffff">
+		<TD WIDTH="10" BGCOLOR="#ffffff">
+	
+	<TR>
+		<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+	
+	<TR>
+		<TD BGCOLOR="#ffffff">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+	
+	<TR>
+		<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+	
+	<TR>
+		<TD BGCOLOR="#ffffff">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+	
+	<TR>
+		<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+	
+	<TR>
+		<TD BGCOLOR="#ffffff">&nbsp;
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#ffffff">
+	
+	<TR>
+		<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+	
+</TABLE>
+
+<P>You can turn off and on pixels by writing to the Video Memory as
+in the program <A HREF="../download/screen.asm">Screen.asm</A>.
+
+<PRE>#include "ti86asm.inc"	;standard include file
+.org _asm_exec_ram
+
+	ld hl,$fc00	;start of video memory
+	ld a,%10000000	;since screen is based on pixels/bits
+			; it's best to use binary
+			; representation so you
+			; can picture stuff in
+			; your head
+	ld (hl),a	;write to video memory
+	ret		;return from program
+
+.end</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>

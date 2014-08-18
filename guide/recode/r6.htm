@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Quick routine loading $ff into the first five bytes
+		of the <A HREF="../intermediate/scre.htm">Video Memory</A>
+		($fc00).
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>
+	ld a,$ff	;byte to be copied
+	ld ix,$fc00	;start address to copy
+	ld (ix+0),a	;ix+0=$fc00
+	ld (ix+1),a	;ix+1=$fc01
+	ld (ix+2),a	;ix+2=$fc02
+	ld (ix+3),a
+	ld (ix+4),a
+	<TR>	<TD CLASS=header>Error
+		<TD>First off, using the <A HREF="../advanced/inde.htm">Index
+		Registers</A> is not a speed efficient choice.  The basic
+		instruction <CODE>ld (ix+$??),a</CODE> is three bytes long.  It is much
+		wiser to stay away from these registers all together.  They are
+		generally one byte longer than using the <CODE>hl</CODE> register
+		because they have a byte preceding that signals the processor
+		to use the <CODE>ix</CODE> register instead of the <CODE>hl</CODE>
+		register.  It would also be quicker here to set up a loop.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>
+	ld a,$ff	;byte to be copied
+	ld b,5		;how many times to copy
+	ld hl,$fc00	;where to start
+loop_start:
+	ld (hl),a	;load a at (hl)
+	inc hl		;inc to point to next spot
+	djnz loop_start	;do it 4 more times until
+			; b=$00
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

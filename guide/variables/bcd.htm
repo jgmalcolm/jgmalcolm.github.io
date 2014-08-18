@@ -1,0 +1,359 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","Binary Coded Decimal");</SCRIPT>
+<UL>
+	<LI><A HREF="#type">Type and Sign</A>
+	<LI><A HREF="#expo">Exponent</A>
+	<LI><A HREF="#bcd">Binary Coded Decimal</A>
+</UL>
+
+As I explained in the <A HREF="ti86.htm">Variable Manipulation</A>
+section, the OP_ Registers are also used to
+store Binary Coded Numbers (BCD) for use with math routines.
+
+<P>The OP_ Registers are 11 bytes long. They store what are called
+Floating Point Numbers (the decimal point is not in a fixed position). When
+you are putting <A HREF="vari.htm">variable's names</A> into the OP_
+Register, you usually use all 11 bytes; however, when you
+are using the OP_ Registers for BCD numbers, you only use the first 10. The
+last byte doesn't matter.
+
+<P>The first 10 bytes are broken up into three different
+parts:
+<PRE>	.db <I>type/sign</I>
+	.dw <I>exponent relative to $fc00</I>
+	.db <I>BCD number for 7 bytes</I></PRE>
+
+<A NAME="type"><H2>Type and Sign</H2>
+The first byte is broken up into two things.
+<OL>
+	<LI>If bit 7 is set the number is negative,
+	<LI>if bit 7 is reset the number is positive.
+	<LI>If bit 0 is set the number is complex,
+	<LI>if bit 0 is reset then it's a real number
+</OL>
+So there are only 4 possible combinations of numbers and what they look like.
+<OL>
+	<LI><CODE>$00</CODE> positive real number
+	<LI><CODE>$80</CODE> negative real number
+	<LI><CODE>$01</CODE> positive complex part of a number
+	<LI><CODE>$81</CODE> negative complex part of a number
+</OL>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="expo"><H2>Exponent</H2>
+The next two bytes (second and third)
+of the <CODE>OP_</CODE> Register are the exponent bytes. Remember that the z80 works
+by storing an address, say for example <CODE>$1234</CODE>, backwords as
+<CODE>$3412</CODE> in the memory. This is called Little Indian or something.
+This applies to these next two exponent bytes. They are stored <CODE>$fc00</CODE> as
+<CODE>$00fc</CODE>. This is kinda
+weird and took me a while to get used to how the number <CODE>$fc00</CODE> has anything
+to do with the exponent. When you consider exponents
+(<CODE>[number]*10^[exponent]</CODE>) you have to probably switch to Scientific
+Mode on your calculator to refresh yourself on how numbers are represented in
+Scientific Notation. The number <CODE>1,234,567</CODE> would be
+<CODE>1.234567<FONT SIZE=1>E</FONT>6</CODE> in Scientific Notation.
+
+<P>Let's do a quick review of Scientific Notation. When you have a number
+that is normal, you move the decimal point to the left or right until you've
+only got one digit before the decimal point (which has to be between 1 and
+9), then you count how many decimal places you had to move it over to get
+there...that number is positive if you moved the decimal place to the
+left...negative if you moved it to the right. The number of places you
+moved the number to the right or two the left is the exponent on the
+<CODE>10</CODE>. The remaining decimal number is put before the <CODE>10</CODE>
+to the [exponent] power.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Normal
+		<TD>Scientific
+	<TR>	<TD><CODE>12345
+		<TD><CODE>1.2345<FONT SIZE=1>E</FONT>4
+	<TR>	<TD><CODE>1.2345
+		<TD><CODE>1.2345<FONT SIZE=1>E</FONT>0
+	<TR>	<TD><CODE>12.345
+		<TD><CODE>1.2345<FONT SIZE=1>E</FONT>1
+	<TR>	<TD><CODE>0.12345
+		<TD><CODE>1.2345<FONT SIZE=1>E</FONT>-1
+	<TR>	<TD><CODE>0.012345
+		<TD><CODE>1.2345<FONT SIZE=1>E</FONT>-2
+	<TR>	<TD><CODE>5364
+		<TD><CODE>5.364<FONT SIZE=1>E</FONT>3
+	<TR>	<TD><CODE>-0.6562
+		<TD><CODE>-6.562<FONT SIZE=1>E</FONT>-1
+	<TR>	<TD><CODE>0.00090009
+		<TD><CODE>9.0009<FONT SIZE=1>E</FONT>-4
+	<TR>	<TD><CODE>90009000
+		<TD><CODE>9.0009<FONT SIZE=1>E</FONT>7
+</TABLE>
+
+<P>The decimal number that is before
+the <CODE><FONT SIZE=1>E</FONT></CODE> is called the mantissa, the part on the
+other side is called the exponent or the power. <CODE>$fc00</CODE> is
+used as the "zero" for the exponent, everything is relative to
+that. You add whatever exponent you
+want to <CODE>$fc00</CODE>. Here's the simple formula where <CODE>X</CODE>
+is the number relative to <CODE>$fc00</CODE> and <CODE>P</CODE>
+is the power you are wanting to use:
+
+<PRE>$fc00+P=X</PRE>
+
+<P>So, a power of <CODE>1</CODE> is <CODE>$fc01</CODE>, a power of <CODE>0</CODE>
+is <CODE>$fc00</CODE>, a power of <CODE>-1</CODE> is <CODE>$fbff</CODE>, a
+power of <CODE>3</CODE> is <CODE>$fc03</CODE>, and a power of <CODE>-3</CODE>
+is <CODE>$fbfd</CODE>. Practice with that or something. Remember that it is
+stored backwards, so <CODE>$fbfc</CODE> as a result would be stored in memory
+<CODE>$fcfb</CODE>.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME="bcd">Binary Coded Decimal</H2>
+The next 7 bytes of the <CODE>OP_</CODE> Register (remember the 8th byte which isn't
+used) are used to store a number in BCD. This is simpler than it
+sounds. The number <CODE>123456</CODE> is stored as <CODE>$12,$34,$56</CODE>
+(or <CODE>12 34 56</CODE>). The number <CODE>4521345323</CODE>
+(or broken up as <CODE>45 21 34 53 23</CODE>) would be stored as
+<CODE>$45,$21,$34,$53,$23</CODE> in memory. It's so simple that I don't think
+you need specific examples for this.
+
+<P>Now that you know all the components of the Floating Point Number, let's
+put it all together in some examples in yet another table!
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Sign Type
+		<TD>Exponent
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>Normal Style
+	<TR>	<TD>$00
+		<TD>$fc00
+		<TD>$12
+		<TD>$34
+		<TD>$56
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>1.23456
+	<TR>	<TD>$00
+		<TD>$fc05
+		<TD>$12
+		<TD>$34
+		<TD>$56
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>123456
+	<TR>	<TD>$00
+		<TD>$fc00
+		<TD>$12
+		<TD>$34
+		<TD>$56
+		<TD>$78
+		<TD>$90
+		<TD>$12
+		<TD>$34
+		<TD>1.2345678901234
+	<TR>	<TD>$80
+		<TD>$fc01
+		<TD>$32
+		<TD>$98
+		<TD>$97
+		<TD>$40
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>-32.98974
+	<TR>	<TD>$80
+		<TD>$fc05
+		<TD>$56
+		<TD>$45
+		<TD>$89
+		<TD>$32
+		<TD>$33
+		<TD>$40
+		<TD>$12
+		<TD>-564589.32334012
+	<TR>	<TD>$00
+		<TD>$fc00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>0
+	<TR>	<TD>$00
+		<TD>$fc00
+		<TD>$10
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>1
+	<TR>	<TD>$80
+		<TD>$fc00
+		<TD>$10
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>-1
+	<TR>	<TD>$00
+		<TD>$fc0e
+		<TD>$99
+		<TD>$99
+		<TD>$59
+		<TD>$99
+		<TD>$95
+		<TD>$99
+		<TD>$99
+		<TD>99995999959999
+	<TR>	<TD>$00
+		<TD>$fbfc
+		<TD>$23
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>0.00023
+</TABLE>
+
+<PRE>	.db $80
+	.dw $fc00
+	.db $10,$00,$00,$00,$00,$00,$00	; = -1</PRE>
+
+<P>Real numbers take up 10 bytes to represent, complex numbers take up 20
+bytes: the first 10 are for the real part of the number and the next 10 are
+for the complex part of the number. They use the same format that the ones
+above do for each part. The only difference is that if bit 0 is set it is
+complex. Bit 0 of the first byte of the real part and the first byte of
+the complex part will both be set if the number is complex. Remember
+that the TI86 displays Complex numbers in parenthesis: (<I>Real part</I>,
+<I>Complex part</I>). Here's how a complex number would be displayed like
+the above numbers.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>
+		<TD>Sign<BR>Type
+		<TD>Exponent
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>BCD
+		<TD>Final Number
+	<TR>	<TD CLASS=header>Real part
+		<TD>$01
+		<TD>$fc00
+		<TD>$12
+		<TD>$34
+		<TD>$56
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>(1.23456,1.23456)
+	<TR>	<TD CLASS=header>Complex part
+		<TD>$01
+		<TD>$fc00
+		<TD>$12
+		<TD>$34
+		<TD>$56
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>&nbsp;
+	<TR>	<TD CLASS=header>Real part
+		<TD>$01
+		<TD>$fc01
+		<TD>$23
+		<TD>$46
+		<TD>$50
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>(23.465,-0.234)
+	<TR>	<TD CLASS=header>Complex part
+		<TD>$81
+		<TD>$fbff
+		<TD>$23
+		<TD>$40
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>&nbsp;
+	<TR>	<TD CLASS=header>Real part
+		<TD>$81
+		<TD>$fc02
+		<TD>$30
+		<TD>$04
+		<TD>$50
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>(-300.45,-0.03234)
+	<TR>	<TD CLASS=header>Complex part
+		<TD>$81
+		<TD>$fbfe
+		<TD>$32
+		<TD>$34
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>$00
+		<TD>&nbsp;
+</TABLE>
+
+<PRE>	.db $01
+	.dw $fc00
+	.db $10,$00,$00,$00,$00,$00,$00
+	.db $81
+	.dw $fc00
+	.db $10,$00,$00,$00,$00,$00,$00	; = (-1,1)</PRE>
+
+<P>A good exercise you can do is to make a routine that will take a
+string pointed to be <CODE>hl</CODE> with length <CODE>b</CODE> and convert it into a
+BCD number in <CODE>OP1</CODE>. I saw an example of this by
+<A HREF=mailto:rabidcow@juno.com>Joshua Seagoe</A> called
+<A HREF="../download/atof.asm">AtoF</A>. It will help solidify your understanding of
+the format of these numbers. The AtoF routine takes a string with length
+<CODE>b</CODE> and changes it into a Floating Point BCD number in <CODE>OP1</CODE>.
+<OL>
+	<LI>Find where the decimal point is and count left or right until
+	you have the decimal in the right place.
+	<LI>Add the number of places moved to <CODE>$fc00</CODE> and store that.
+	<LI>Put the digits in BCD through the rest of the <CODE>OP1</CODE> register (any digits
+	over the allowed 14 are left out).
+</OL>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

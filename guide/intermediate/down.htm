@@ -1,0 +1,135 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Down-Left Bug");</SCRIPT>
+
+<P CLASS=clsByLine>Written by <A HREF="mailto:mja@algonet.se">Jimmy M&aring;rdell</A></P>
+
+<P>I've made some research on what causes the famous down-left freeze bug
+(or is it a feature!?) and how to get around it when programming. I hope
+some programmers find this information useful - the routines below is at
+least used in the upcoming <I>Sqrxz 1.0</I>.
+
+<P>So - how do you do to avoid the freeze bug? I've found three majorways
+to solve the problem:
+
+<UL>
+	<LI><A HREF=#disable>Disable Interrupts</A>
+	<LI><A HREF=#set><CODE>set 2,(iy+$12)</CODE></A>
+	<LI><A HREF=#crea>Creating your own interrupt handler</A>
+</UL>
+
+<H2><A NAME=disable>Disabling interrupts</H2>
+
+<P>In most games, this method is enough to avoid the problems. There are
+two disadvantages doing it this way though. Those are:
+
+<OL>
+	<LI>Keypresses must be read through ports
+	<LI>You can't create your own interrupt handlers
+</OL>
+
+<P>The first disadvantage is not much of a problem, most of the time. And
+the second disadvantage is usually not a problem either. But sometimes
+you want stuff to go on in the background (a timer for example) and then
+disabling interrupts is not a good way to prevent the down-left bug.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=set>Setting Flags</H2>
+
+<P>When disassembling the ROM I found that if the second bit at <CODE>(iy+$12)</CODE>
+is set, there will be no call to the routine that check
+<A HREF="../advanced/allp.htm#p1">Port 1</A> for keypresses.
+That routine lies at <CODE>$01a1</CODE>, and if that routine is not called, the Down-Left
+Bug is gone. This is also a very simple way to get around the problem,
+but it still has the disadvantage that you have to read keypresses through
+ports. And most of the time when method 1 (<A HREF="#disable">Disabling interrupts</A>) isn't
+enough, it usually means you want to make your own interrupt handler, and
+then method 3 is best suited for it (<A HREF=#crea>Your Handler</A>). If you use this method,
+you <I>must</I> reset the flag with <CODE>res 2,(iy+$12)</CODE> before the program terminates
+- else the calc <A HREF="../beginner/ohno.htm">freezes</A>.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=crea>Creating Your Own Interrupt Handler</H2>
+
+<P>This is the most complex method, which I had some problems with first.
+Creating an interrupt handler is not much of a problem really. This is
+easily done with the following code:
+
+<PRE>	ld hl,$8e00
+	ld de,$8e01
+	ld (hl),$8f
+	ld bc,256
+	ldir
+	ld hl,inthandler
+	ld de,$8f8f
+	ld bc,intend-inthandler
+	ldir
+	ld a,$8e
+	ld i,a
+	im 2</PRE>
+
+<P>This code stores a vector table at <CODE>$8e00-$8f00</CODE> and the interrupt handler
+at <CODE>$8f8f</CODE>. Since most of RAM Page 1 is free to use, this seems to
+work without problems. The interrupt handler could then look something
+like:
+
+<PRE>inthandler:
+	ex af,af'
+	exx
+
+	. . .
+	. . .	;interrupt code
+	. . .
+
+	ex af,af'
+	exx
+	jp $38
+intend:</PRE>
+
+<P>This method is used in <I>Sqrxz 0.9</I>. The problem is that each interrupt ends
+with a jump to the default interrupt at <CODE>$38</CODE> - which has the Down-Left Bug.
+So, I tried to replace <CODE>jp $38</CODE> with <CODE>ei / reti</CODE> (which is how the default
+interrupt handler ends) but that didn't work - The calc <A HREF="../beginner/ohno.htm">crashed</A> :( To find
+out what was wrong, I had to play around with the default interrupt handler.
+Anyway, this is how a "homemade" interrupt handler should look like, that
+doesn't use the buggy handler in the ROM AND still uses ROM routines for
+reading keys (without having the Down-Left Bug):
+
+<PRE>inthandler:
+	ex af,af'
+	exx
+
+	. . .
+	. . .	;interrupt code
+	. . .
+
+	in a,(3)
+	rra
+	push af		; This three lines are not needed
+	call nc,$01a1	; if you only read keys through ports
+	pop af
+	ld a,9
+	adc a,$00
+	out (3),a
+	ld a,$0b
+	out (3),a
+	ex af,af'
+	exx
+	ei
+	reti
+intend:</PRE>
+
+<P>It's necessary to send <CODE>$09 $0b</CODE> to <A HREF="../advanced/allp.htm#p3">Port 3</A>
+when [ON] is <I>not</I> pressed and when
+[ON] is pressed, you have to send <CODE>$0a $0b</CODE> to Port 3 - else the calc crashes.
+This method works very well - it allows the user to create his own interrupt
+handler and still use the ROM routines to convert Port 1 (Key Port) bit code to scancodes
+without having the annoying Down-Left Bug.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

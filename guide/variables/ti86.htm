@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","TI86 Variable Manipulation");</SCRIPT>
+
+<P>Before we even begin to talk about variables, you have to understand
+how the TI86 uses memory areas called the OP_ Registers. OP stands for
+OPerator. They are not really registers like <CODE>a</CODE>, <CODE>b</CODE>,
+<CODE>c</CODE>, <CODE>d</CODE>, etc. They are 11 byte long areas of memory beginning
+at the address <CODE>$c089</CODE> and ending at <CODE>$c0d6</CODE>.
+They are where the TI86 stores the variable names, types, values,
+numbers, and other junk that it needs.
+
+<P>There are 7 OP_ Registers numbered OP1, OP2, OP3, OP4, OP5,
+OP6, and OP7. Before we start to make routines, you need to have several
+of the <A HREF="../download/includes.zip">include files</A> for your code
+downloaded and in your include search path directory. If you have
+<A HREF="http://www.acz.org" target="_blank">Asm Studio</A>,
+that directory will be "Include".
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

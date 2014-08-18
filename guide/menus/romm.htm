@@ -1,0 +1,17 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Menus","ROM Menus");</SCRIPT>
+
+<P>It may be helpful (though I never found a use for this) to know that
+you can access the TI-OS' own menu structures, found on ROM page 1.  These
+mostly don't help because they consist of Menu Slot Type $03 which is
+used to execute an asm program.  We don't know much about the use of this
+type so it's really not that much use to us to work with this.  You might
+still want to take a look at ROM page 1, the first part is the pointers and
+menu structures, then following is the actual menu slot data.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

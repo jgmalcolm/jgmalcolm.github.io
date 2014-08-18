@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","The Stack");</SCRIPT>
+
+<P>The stack is a part of the
+calculator's memory that it uses for calls. When something
+is called, the TI86 has to remember where it just came from so
+that it can go back. An address is two bytes, a word, and so the
+stack is incremented/decremented a word to allow for the
+storage or removal of an address.
+
+<P>The stack is like a deck
+of cards: You put Card A on, then Card B, and then Card C.
+When you go to take them off: first comes Card C, then Card B,
+and last Card A. The first one on is the <I>last</I> one off.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>1
+		<TD style="border: none">
+		<TD>2
+		<TD style="border: none">
+		<TD>3
+	<TR>	<TD>Card A
+		<TD style="border: none">
+		<TD>Card B
+		<TD style="border: none">
+		<TD>Card C
+	<TR>	<TD style="border: none">
+		<TD style="border: none">
+		<TD>Card A
+		<TD style="border: none">
+		<TD>Card B
+	<TR>	<TD style="border: none">
+		<TD style="border: none">
+		<TD style="border: none">
+		<TD style="border: none">
+		<TD>Card A
+</TABLE>
+
+<P>Then as you take it off...
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>1
+		<TD style="border: none">
+		<TD>2
+		<TD style="border: none">
+		<TD>3
+	<TR>	<TD>Card C
+		<TD style="border: none">
+		<TD>Card B
+		<TD style="border: none">
+		<TD>Card A
+	<TR>	<TD>Card B
+		<TD style="border: none">
+		<TD>Card A
+	<TR>	<TD>Card A
+</TABLE>
+
+<P>We can use the stack to store values temporarily. This is useful
+when you have <CODE>bc</CODE> holding the value of <CODE>$3205</CODE> and you want
+to call a function that you know will change the contents of <CODE>bc</CODE>,
+so you <CODE>push bc</CODE> onto the stack, call the
+function, and <CODE>pop bc</CODE> off the stack.
+
+<P>When you
+push something, it is not stored with a label "I belong to <CODE>bc</CODE>".
+The value is just there at the top. You can <CODE>pop</CODE> it off as <CODE>hl</CODE>
+for all I care, but that might confuse you later. When you push
+something, the register still has the value, the value is just
+copied to the top of the stack.
+
+<PRE>	ld bc,$0303		;load bc with coordinates (3,3)
+		push bc		; want to keep bc so i'm pushing it
+	call clear_and_draw	;call 'clear_and_draw' routine
+		pop bc		;put the coordinates back in their place
+	ret			;exit
+clear_and_draw:			;draws bird at (3,4)
+	call _clrLCD		;clear screen
+	ld bc,$0304		;erase bc, put new coordinates
+	call draw_bird		;draw bird at (3,4) on screen
+	ret			;go home</PRE>
+
+<P>The same code can be written like this too.  There's no change the the
+actual code but the way we load the coordinates is different.  Instead of
+having to figure out the coordinates manually and put them in the right
+spaces, we can just multiply the first coordinate by 256 so it now
+a 16 bit value and is stored in the upper register of <CODE>bc</CODE> which is
+<CODE>b</CODE>.  Then we just add the second coordinate which just affects the
+bottom register, <CODE>c</CODE>.
+
+<PRE>	ld bc,256*3+3		;load bc with coordinates (3,3)
+		push bc		;i  want to keep bc so i'm pushing it
+	call clear_and_draw	;call 'clear_and_draw' routine
+		pop bc		;put the coordinates back in their place
+	ret			;exit
+clear_and_draw:			;draws bird at (3,4)
+	call _clrLCD		;clear screen
+	ld bc,3*256+4		;erase bc, put new coordinates
+	call draw_bird		;draw bird at (3,4) on screen
+	ret			;go home</PRE>
+
+<P>The functionality of this is better used
+with the
+<A HREF="text.htm#vari">variable width</A> (small) font where you have coordinates that are
+large hexadecimal numbers.  The following loads the variable cursor
+position with (25,48) which would be ($19,$30) in hexadecimal.
+
+<PRE>	ld bc,256*48+25		;load the text coordinates 25,48
+				;across 25 and down 48
+	ld (_penCol),bc		;load up the coordinates for the cursor</PRE>
+
+<P>You can also use <A HREF="../advanced/asse.htm#defi">define</A> to
+make it even easier.
+
+<PRE>#define coords(x,y)	ld hl,256*y+x / ld (_penCol),hl
+
+	coords(5,24)
+	ld hl,text_to_print
+	jp _vputs
+
+text_to_print:	.db "stupid",0</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

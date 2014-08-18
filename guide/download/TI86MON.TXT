@@ -1,0 +1,303 @@
+TI86MON version 2.0
+Copyright (C) Steve Gordon (sgordon@mich.com)
+
+------------------------------------------------------------------------------
+ INTRO
+------------------------------------------------------------------------------
+
+TI86MON is a free command line driven system monitor that runs on the TI-86
+calculator. It has a rich feature set which includes:
+
+-Z80 Disassembler
+-Dump memory in three formats
+-View and modify Z80 registers
+-Write and execute machine language programs
+-Preload registers and call ROM routines or any address
+-Search memory for a byte pattern
+-Modify memory
+-Move blocks of memory
+-Set outport
+-Read inport
+
+------------------------------------------------------------------------------
+ FUTURE FEATURES
+------------------------------------------------------------------------------
+
+-Save memory to another asm file
+-Mini assembler, basically a mnemonic to opcode converter so you can write
+ assembly programs on your TI86
+
+------------------------------------------------------------------------------
+ INSTALLATION
+------------------------------------------------------------------------------
+
+Use any program/link that can send an .86p file to the ti86. After the
+program is transfered, type Asm(ti86mon on your calculator and the program
+will start.
+
+------------------------------------------------------------------------------
+ USE
+------------------------------------------------------------------------------
+
+TI86MON is a command line driven program. All the commands are single letters
+and no 2nd or Alpha keys are ever needed. When writing this program, I made
+a deliberate decision to sacrifice convention for ease of use, so the
+commands may be slightly cryptic (ie P for dumP, K for blocK move). Hex
+digits A-F and commands are entered by using the A-F and =GHIKOPTX keys
+_WITHOUT_ the alpha key.
+
+------------------------------------------------------------------------------
+ COMMAND SUMMARY
+------------------------------------------------------------------------------
+
+Cmd   Description   Example              Comment
+---   -----------   -------              -------
+=     set memory    9000.01.DE.3.04=<Enter>
+                                         Set memory as follows:
+                                         Address 9000h=01h
+                                         Address 9001h=DEh
+                                         Address 9002h=03h
+                                         Address 9003h=04h
+
+G     Call address  7700G<Enter>         Call address 7700h. Make sure that
+                                         there is a ret somewhere or
+                                         control will never return to
+                                         TI86MON and the system may crash.
+                                         (Registers may be preloaded,
+                                         See note on registers)
+
+H     searcH        7000.FFFF.AB.EF.00H<Enter>
+                                         Search address 7000h to FFFFh for
+                                         byte string "abef00"
+
+I     In port       5I<Enter>            Read port 5h (ROM page)
+
+K     blocK move    FC00.0.400K<Enter>   Move 400h bytes from 0h to FC00h
+                                         (Video memory)
+
+O     Out port      2.EO<Enter>          Output Eh to port 2 (adjust contrast)
+
+P     dumP memory   300P<Enter>          Dump 7 lines using the current
+                                         dump format starting at address
+                                         300h.
+
+                    <Enter>              Dump 1 line starting at current
+                                         address
+
+                    A0<Enter>            Dump 1 line starting at address
+                                         00A0h
+
+                    P<Enter>             Dump 7 lines starting at the
+                                         current address
+
+T     get reg. addr T<Enter>             Get address of register storage area
+                                         (See section on registers)
+
+X     dissasemble   300X<Enter>          Dissasemble 7 lines starting at
+                                         address 300h
+
+                    X<Enter>             Dissasemble at the current address
+
+                    D748X<Enter>         Dissasemble TI86MON
+
+<CLEAR>                                  Clear the screen
+
+<F1>  help screen  <F1>                  help screen
+
+<F2>  miniassembler <F2>                 Toggle between mini-assembler and
+                                         monitor mode (Not implemeted yet)
+
+<F3>  Set Normal dump format, dumps 4 hex bytes and 4 ascii bytes per line
+      (See dump format section)
+
+<F4>  Set Hex dump format, dumps 8 hex bytes per line
+      (See dump format section)
+
+<F5>  Set Ascii dump format, dumps 16 ascii bytes per line
+      (See dump format section)
+
+<LEFT ARROW> Backspace
+<UP ARROW> Display last command
+
+<EXIT> Exit the program
+
+------------------------------------------------------------------------------
+ REGISTERS
+------------------------------------------------------------------------------
+
+Registers are temporarily held in a storage area untill right before they
+are needed for a G command. When the G command is executed, the registers
+are loaded from this area, then the call is taken. After the call, the
+registers are again stored in the storage area. This way, you can preload
+the registers before a G command, then look at them after the call.
+To get the address of this storage area, execute the T command. The registers
+are stored contiguously in memory as such:
+
+A       1 byte
+F       1 byte
+B       1 byte
+C       1 byte
+D       1 byte
+E       1 byte
+H       1 byte
+L       1 byte
+I       1 byte
+IX      2 byte
+IY      2 byte
+PC      2 byte
+R       1 byte
+SP      2 byte
+A'      1 byte
+F'      1 byte
+B'      1 byte
+C'      1 byte
+D'      1 byte
+E'      1 byte
+H'      2 bytes
+L'      2 bytes
+
+Note The PC register cannot be restored or saved accurately, so
+take its value in context
+
+------------------------------------------------------------------------------
+ FREE MEMORY
+------------------------------------------------------------------------------
+
+ I dont know a whole lot about the TI86's memory organization, but theres
+ some free memory you can use between the end if TI86MON and the Bottom of
+ the system stack. The address after the last byte of TI86MON is displayed
+ when TI86MON starts up. Be careful though, because the stack grows downward.
+
+------------------------------------------------------------------------------
+ DUMP FORMATS
+------------------------------------------------------------------------------
+
+Normal dump format:
+
+        ADDR:B0 B1 B2 B3 aaaa
+        ^    ^           ^
+        |    |           |-Ascii representation of bytes 0-3
+        |    |-Bytes 0-3
+        |-Address
+
+        example:
+        >AD00P_<Enter>
+        AD00:2B 2B 7E E1 ++~a
+        AD04:B7 28 2D 32 `(-2
+        AD08:DF D2 F1 CD *- x
+        AD0C:33 20 11 E0 3 
+        AD10:D2 21 89 C0 -!9e
+        AD14:CD 18 11 3A *= :
+        AD18:DF D2 CD 91 %-*a
+        >_
+
+Hex dump format:
+        ADDR:B0B1B2B3B4B5B6B7
+        ^    ^
+        |    |-Bytes 0-7
+        |-address
+
+        example:
+        >_<F4>
+        >AD00P_<Enter>
+        AD00:2B2B7EE1B7282D32
+        AD08:DFD2F1CD332011E0
+        AD10:D22189C0Cd18113A
+        AD18:DFD2CD913Dd7D4F0
+        AD20:1F3A8CC0CDD8242F
+        AD28:A67721E0D21189C0
+        AD30:C31811F5C5D5E52B
+        >_
+
+Ascii dump format:
+        ADDR:aaaaaaaaaaaaaaaa
+        ^    ^
+        |    |-ASCII representation of bytes 0-15
+        |-address
+
+        example:
+        >_<F5>
+        >AD00P_<Enter>
+        AD00:#@$%as54%a45$234
+        AD10:(*&DFfd987fdDF()
+        AD20:":(&KLJGDO*RE8er
+        AD30:F(*T&*(E(*jlf?>l
+        AD40::"}{}|+_RE(*JFE%
+        AD50:df;lkj*&$kjf%&94
+        AD60:?`<.Kf^57$&Jgrru
+        >_
+
+*NOTE: The ">" is the prompt, the "_" is the cursor
+
+------------------------------------------------------------------------------
+ WARNING
+------------------------------------------------------------------------------
+
+This program, and system monitors in general give you complete freedom to
+poke around, modify memory, call subroutines, output to ports, ect. In the
+case of the TI-86, all of your stored programs and variables are in battery
+backed memory so they can be damaged by errant use of TI86MON. I would
+recommend that you back up all your storage before using a monitor on your
+TI-86. Errant use of TI86MON may also lock up your system and cause you to
+have to remove all batteries (including the back-up battery) and wait a
+little bit to get the system going again. In this case, you will also loose
+all your memory. Note that if you have to remove all batteries, the contrast
+is reset to a low value, and you may not be able to see the screen when it
+comes back up, so turn up the contrast. As far as I know, there is no non-
+battery powered persistant storage (like eeprom or flash memory) in the TI-86,
+so you probably cant do any permanent damage with this (or any other)
+software. Bottom line: YOU take complete responsibility for anything that
+happens to you, your link, your computer, or your calculator while running
+this program. I am responsible for nothing.
+
+------------------------------------------------------------------------------
+ AUTHOR
+------------------------------------------------------------------------------
+
+Im 28 and employed as a software/electrical engineer. I work on magnetic
+instrumentation equipment. I write control, filtering, data acquisition,
+data presentation, and communication software under windows, embedded micro,
+and embedded DSP platforms. I like small consumer electronic things that are
+hackable and programmable (execpt VCRs), so natrually, when I got this cool
+calculator I had to program it. This is my first of hopefully many programs
+for the TI86. 
+
+------------------------------------------------------------------------------
+ POSSIBLE FUTURE PROJECTS
+------------------------------------------------------------------------------
+
+-Port of TI86MON to other TI calculators. Id love to do a TI92MON. Anyone
+ want to donate me some calculators?
+-TI-86 emulator under DOS or Win95
+-TI-86 rs232 terminal with TI-Link
+
+------------------------------------------------------------------------------
+ ACKNOWLEGEMENTS
+------------------------------------------------------------------------------
+
+- Thomas N. Anderson Maker of TASM
+- Sean young, for z80 opcode list
+- Alan Bailey Maker of asm86 and sample programs
+- TI for a great, if a little underpowered calculator :)
+
+------------------------------------------------------------------------------
+ LEGAL STUFF
+------------------------------------------------------------------------------
+
+-TI86MON is Copyright (C) 1997 Steve Gordon
+-TI86MON is free
+-You can use TI86MON for as long as you want
+-You can Distribute TI86MON FOR FREE as long as the following documents are
+ included and unmodified:
+        -ti86mon.txt (this file)
+        -ti86mon.asm (assembly file)
+        -ti86mon.86p (program file)
+-You can modify TI86MON for your own use
+-You can email me (sgordon@mich.com) with any problems or comments concerning
+ TI86MON or other producs of mine
+-You can send me some money if you somehow use TI86MON to get rich :)
+-You CANNOT blame me for _ANYTHING_ that you screw up using TI86MON
+-You CANNOT modify and repost/distribute the program, source, or docs
+-You CANNOT sell TI86MON or any package containing TI86MON without my
+ permission
+

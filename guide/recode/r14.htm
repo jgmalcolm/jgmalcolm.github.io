@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>The Guide</title>
+<link rel="stylesheet" type="text/css" href="../guide.css">
+<script language="javascript" src="../guide.js"></script>
+</head>
+<body>
+<script language="javascript">top("Other","Recode");</script>
+
+<table align="center" class="recode">
+	<tr width="30%">
+		<td class=header>Purpose
+		<td>Smallest routine possible to
+		put variable width text at top left of screen.
+	<tr>	<td class=header>Code
+		<td><pre>	ld hl,$0000		;top left (0,0)
+	ld (_penCol),hl		;load coordinates
+	ld hl,display_text	;string to put up
+	jp _vputs		;print string and return
+	<tr>	<td class=header>Error
+		<td>While <code>ld hl,$0000</code> may be the
+		fastest way to zero <code>hl</code>, there's a smaller
+		way that's five clock cycles slower. When speed's
+		not an issue, try the following method to save a byte.
+	<tr>	<td class=header>Fixed Code
+		<td><pre>
+	or a			;clear carry (nc) for sbc
+				; instruction
+	sbc hl,hl		;hl=hl-hl (always
+				; $0000 if nc)
+	ld (_penCol),hl		;load coordinates
+	ld hl,display_text	;string to put up
+	jp _vputs		;print string and return
+</table>
+<script language="JavaScript">bottom("Recode Index","recode.htm");</script>

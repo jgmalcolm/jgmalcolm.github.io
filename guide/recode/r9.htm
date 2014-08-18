@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Increase a score counter at address <CODE>score_counter</CODE>
+		and return.  Don't worry about a carry overflow.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld a,(score_counter)	;get current score
+	inc a			;increase it
+	ld (score_counter),a	;put it back
+	ret			;return
+	<TR>	<TD CLASS=header>Error
+		<TD>You can use <CODE>hl</CODE> just like any other register.  By
+		just loading the address of the score counter into <CODE>hl</CODE>,
+		you can modify it from there without having to put it back
+		into memory.  You save three bytes.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld hl,score_counter	;address of counter
+	inc (hl)		;increase it
+	ret			;return
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

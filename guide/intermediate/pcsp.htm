@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","PC and SP");</SCRIPT>
+
+<UL>
+	<LI><A HREF=#pc>Program Counter</A> (<CODE>pc</CODE>)
+	<LI><A HREF=#sp>Stack Pointer</A> (<CODE>sp</CODE>)
+</UL>
+
+<H2><A NAME=pc>Program Counter</A></H2>
+
+<P>The <A HREF="../beginner/z80p.htm">z80</A> needs to keep track of
+where it's executing code. It stores that address in the 16 bit
+register <CODE>pc</CODE>. You can't directly modify this register
+with regular instructions.
+
+<P>The only way to modify <CODE>pc</CODE> is to push a new value
+onto the <A HREF="stac.htm">Stack</A> and use a <CODE>ret</CODE>.
+The <CODE>ret</CODE> will use the last value on the stack as the
+new Program Counter. It'll jump to that address and start executing
+code again.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=sp>Stack Pointer</A></H2>
+<P>When you <CODE>push</CODE> and <CODE>pop</CODE> stuff on and
+off the <A HREF="stac.htm">Stack</A>, the Stack Pointer
+(<CODE>sp</CODE>) is updated either with the addition of two bytes by a
+<CODE>pop</CODE> or the subtraction by a <CODE>push</CODE>.
+Remember that the Stack rises in memory as more is pushed
+onto it.
+
+<P>You can modify <CODE>sp</CODE> through a few
+instructions.
+
+<PRE>	adc hl,sp
+	add hl,sp
+	add ix,sp
+	add iy,sp
+	dec sp
+	inc sp
+	ex (sp),hl
+	ex (sp),ix
+	ex (sp),iy
+	ld ($c000),sp
+	ld sp,($c000)
+	ld sp,hl
+	ld sp,ix
+	ld sp,iy
+	ld sp,$2303
+	sbc hl,sp</PRE>
+
+<P>Sometimes, you may run into a problem with exiting your program
+and not having time to <CODE>pop</CODE>
+everything you <CODE>push</CODE>ed on the Stack. Here's a simple routine
+to call before you start executing stuff in your program. It saves
+the <CODE>sp</CODE>. To exit the program, jump to this routine; it
+will restore the <CODE>sp</CODE> and exit safely. Call <CODE>SaveSP</CODE>
+at the start of the program and use <CODE>jp SafeExit</CODE> to exit.
+
+<PRE>SafeExit:
+	ld sp,(SavedSP)		;get back saved sp
+	ret			;exit
+SaveSP:
+	ld (SavedSP),sp		;save sp
+	ret			;go back
+SavedSP:	.dw 0		;memory to save sp</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

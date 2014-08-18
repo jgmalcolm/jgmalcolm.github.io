@@ -1,0 +1,412 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Menus","Creating Menus");</SCRIPT>
+
+<P>The menus are divided into four basic parts:
+<OL>
+	<LI>Menu type.
+	<LI>Number of menu slots.
+	<LI>Pointers to menu slots.
+	<LI>Menu slot data and zero-terminated strings.
+</OL>
+<TABLE ALIGN=CENTER class="index"><TR><TD>Menu type</TABLE>
+The first byte of a menu structure is one of the following choices.
+
+<H2>$00</H2>
+This is a strictly secondary menu. It likes to be on top of all other
+menus if there are any others up. It will not go away unless
+you exit it. Let's say you have a type $04 menu up, like the graph
+menu, and you execute your own type $00 menu. Your own menu will
+go above the graph menu. Type 
+
+
+
+<P>You can think of the menu data sets as
+tables. The first byte of the table is the type of menu: $03 means it can be
+moved around (either pushed up when another menu is drawn, or push another
+menu up when it itself is drawn), $08 means that it is a submenu from
+something else, and $09 means it is a new menu and so all other active menus
+need to be cleared before this one is drawn. The second byte is the number
+of menu slots (entries) there are in the menu data. The next few bytes are
+word pointers (2 bytes) that point to where the data for that entry is
+stored. There are as many of these 2 byte long pointers as the second byte
+in the menu data says there are entries. After those word pointers comes the
+actual entry data. The entry data is broken up into parts also: the first
+byte is the type of way it is pasted to the cursor position (see below
+<A HREF="#typechart">***MAKE***chart</A>), the next few bytes are a zero
+terminated string which is the text that appears in the menu slots on the
+screen.
+<A NAME="curs">
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Byte
+		<TD>Type Name
+		<TD>Example*
+	  
+	<TR>
+		<TD>$00
+		<TD>Straight paste
+		<TD>"Item"
+	
+	<TR>
+		<TD>$10
+		<TD>Straight paste special
+		<TD>"Item"
+	
+	<TR>
+		<TD>$20
+		<TD>Paste and space
+		<TD>"Item "
+	
+	<TR>
+		<TD>$30
+		<TD>Paste and space special
+		<TD>"Item "
+	
+	<TR>
+		<TD>$40
+		<TD>Straight paste
+		<TD>"Item"
+	
+	<TR>
+		<TD>$50
+		<TD>Space, paste and space special
+		<TD>" Item "
+	
+	<TR>
+		<TD>$60
+		<TD>Paste and open parenthesis
+		<TD>"Item("
+	
+	<TR>
+		<TD>$70
+		<TD>Paste and open parenthesis special
+		<TD>"Item("
+	
+	<TR>
+		<TD>$80
+		<TD>Put "Ans" and paste (no space)
+		<TD>"AnsItem"
+	
+	<TR>
+		<TD>$90
+		<TD>Put "Ans", space, and paste special
+		<TD>"Ans Item"
+	
+	<TR>
+		<TD>$a0
+		<TD>Put "Ans", paste, and space
+		<TD>"AnsItem "
+	
+	<TR>
+		<TD>$b0
+		<TD>Put "Ans", space, paste, and space special
+		<TD>"Ans Item "
+	
+	<TR>
+		<TD>$c0
+		<TD>Put "Ans" and paste (no space)
+		<TD>"AnsItem"
+	
+	<TR>
+		<TD>$d0
+		<TD>Put "Ans", space, paste, and space special
+		<TD>"Ans Item "
+	
+	<TR>
+		<TD>$e0
+		<TD>Put "Ans", paste, and open parenthesis
+		<TD>"AnsItem("
+	
+	<TR>
+		<TD>$f0
+		<TD>Put "Ans", space, paste, and open parenthesis special
+		<TD>"Ans Item("
+	
+</TABLE>
+<p ALIGN=CENTER><FONT SIZE=1>I used the word "Item" as what was in the menu entry.</FONT>
+
+<P>Just about every other item in the above chart is special. The reason that
+these seem to be a repeat is simple. When the TI86 is about to start pasting
+the text on the screen, it
+checks to see if there is anything on the command line yet, like an
+addition or a real number variable name. If there isn't anything there,
+it just goes ahead and pastes the text at the current cursor position, but,
+if there is something there, it will put a space (an implied multiply)
+and then paste the text. This is important to know when you make your
+own functions; things like "Bin" (switches to Binary number mode) are
+meant to be put after a colon or on a fresh line so they will not want
+a space before them, while things like "Ans" could be on a fresh line or
+could be needed a multiply before them when used in an equation.
+
+<P>The program <A HREF="../download/disptype.asm">disptype.asm</A> is an example
+of each of the different types of paste methods used by TI-OS.
+
+<P>Menus do not support <A HREF="../variables/abso.htm">Absolute
+Addressing</A> so you will need to do a block copy to put your menu data
+somewhere on RAM page 0. A good place would be at the end of your
+program. Check out <A HREF="../download/tempmemo.asm">another program</A> that
+does this. If your code does excede the memory between the end of your program
+and the start of the stack ($fa70), you might want to put a menu pointer to a
+little bit of code that will swap in RAM page 1 and then access the menu data at
+an address on that page.
+
+<P>Let's look at the basic menu structure...
+
+<PRE>	.db <I>menu type</I>
+	.db <I>number of slots</I>
+	.dw <I>first_slot</I>
+	.dw <I>second_slot</I>
+		. . .
+		. . .
+	.dw <I>Nth_slot</I>
+first_slot:	.db <I>type [and data]</I>,<I>zero terminated text</I>
+second_slot:	.db <I>type [and data]</I>,<I>zero terminated text</I>
+			. . .
+			. . .
+Nth_slot:	.db <I>type [and data]</I>,<I>zero terminated text</I></PRE>
+
+<P>Here is an example of a menu structure that is a pushable menu
+with three slots. The first slot pastes "Item", the second "Asm(", and
+the third "Ans Stupid".
+
+<PRE>menu:
+	.db $03			;type of menu structure
+				; (in this case pushable)
+	.db 3			;3 slots in this menu structure
+	.dw first_slot		;pointer to first slot
+	.dw second_slot		;pointer to second slot
+	.dw third_slot		;pointer to third slot
+first_slot:	.db $00,"Item",0
+second_slot:	.db $60,"Asm",0
+third_slot:	.db $90,"Stupid",0</PRE>
+
+<P>Note: The TI86 is funny when it comes to how many menu slots it
+will allow you to have. It only goes up to a certain number, not
+the number you specified! Try putting in 255,
+it will first show you 31 menu slots as you cycle through them. While
+those slots are up there, cycle through them again. Now there's only
+28 displayed. The next time you cycle through them there's only
+30. This then repeates the following time you cycle through them with
+31 slots, then 28 slots, and then 30 slots. The reason for this is that
+the calculator only allows a set amount of temporary memory for the
+menus to be stored. Depending upon the length of your menus (in my
+testing, each of my menus was 6 bytes long) you will only be able
+to get as many of your slots as will fit into the 200 bytes of temp
+menu storage. The actual menus are still stored in your program, the
+TI86 just uses a stack system to store the pointers to your menu
+data. This menu slot limit will never really effect you because most
+people never have more than 15 really, after that you need to start
+branching your menus more making sub-menus!
+
+<P>The upper bits of the slot's type byte are used to tell TI-OS what
+to paste when the menu key is selected (refer to the above
+<A HREF="#curs">chart</A> to see what value cooresponds to what type of
+paste). The lower bits are used to tell TI-OS what action to perform
+when the menu key is selected. These actions can either open a new
+menu or execute code. If you have the upper bits in the type byte doing
+one thing and the lower bits doing another, TI-OS will ignore the upper
+bits and perform the lower bits' action. The lower bits can have the
+values $01, $03, $05, $06, $41, or $c1.
+
+<H2>$01</H2>
+Followed by two bytes and then <CODE>jp <I>arg1</I></CODE> will
+jump the address <I>arg1</I> and execute code as if it was called. This will
+return to the code from whence the menu was called from. What's interesting
+about this is that the byte directly following the $01 will be stored in
+<CODE>e</CODE>. You can use this for a parameter to pass to programs or
+something. Something you <I>must</I> know is that inside your small assembly
+program, you cannot call any outside routines because of the way the
+stack is being used. If you do make a call such as <CODE>call _clrLCD</CODE>,
+you will get a crashed TI86; that has to do with the status of the
+ROM pages <A HREF="../intermediate/memo.htm">swapped in</A>.
+You can call a routine that is in the area of the executing
+code, like one of your later routines. Just don't call ROM routines that are
+outside your program.
+
+<PRE>menu:
+	.db $03		;type of menu structure
+			; (in this case pushable)
+number_of_slots:
+	.db 4		;4 slots in this menu structure
+	.dw first_slot	;pointer to first slot
+	.dw second_slot	;pointer to second slot
+	.dw third_slot	;pointer to third slot
+	.dw fourth_slot	;pointer to fourth slot
+first_slot:	.db $00,"Item",0	;"Item"
+second_slot:	.db $60,"Asm",0		;"Asm("
+third_slot:	.db $00,"Paste Me",0	;"Paste Me"
+fourth_slot:	.db $01			;execute code type
+		.db 2,0			;pass 2 to your
+					; called routine
+		jp execute_address	;address to execute
+		.db "Exec",0	;text displayed over 4th
+				; menu key
+				;will start executing code
+				; at execute_address when
+				; pressed
+execute_address:		;code called from 4th
+				; menu key press
+	ld a,e			;we can't just load e
+				; into a memory area
+	ld (number_of_slots),a	;now make it so there's
+				; only 2 menu slots
+				; displayed next time
+				; you run this program
+	ret</PRE>
+
+<H2>$03</H2>
+Runs an assembly program...don't worry about this, it's what's
+used by TI-OS when it's doing stuff like displaying all the program names
+as menu buttons like in the editor screen and stuff like that.<BR>
+
+<H2>$05</H2>
+Creates another menu under this one. Followed by word
+address to start of menu data to be displayed. The current menu is pushed
+up. There can be errors if you have most of your memory filled.
+
+<PRE>menu:
+	.db $03			;type of menu structure
+				; (in this case pushable)
+	.db 2			;2 slots in this menu structure
+	.dw first_slot		;pointer to first slot
+	.dw second_slot		;pointer to second slot
+first_slot:	.db $00,"Item",0	;"Item" at cursor position
+second_slot:	.db $05
+		.dw new_menu_data
+		.db "Menu",0
+new_menu_data:
+	.db $08			;type of menu structure
+				; (in this case submenu)
+	.db 5			;5 slots in this menu structure
+	.dw new_first_slot	;pointer to new first slot
+	.dw $0000,$0000,$0000	;we still need to fill the
+				; 2nd,3rd,4th slots
+				; with zeros to make them empty
+	.dw new_fifth_slot	;pointer to new fifth slot
+new_first_slot:	.db $00,"Stupid",0	;"Stupid"
+new_fifth_slot:	.db $00,"Smack",0	;"Smack"</PRE>
+
+<H2>$06</H2>
+Doesn't do anything. It doesn't even display text. It can
+be followed by anything, like a zero terminated string or something, it
+doesn't matter. No real purpose in this so you don't want to use it.
+
+
+<P>
+Since this is all muttled above, here's a quick reference.<BR>
+<center><b>Menu Structure Data</b></center><BR>
+Byte - Type of menu<BR>
+<I>$03 - Can be pushed up if needed<BR>
+$08 - Submenu from some other menu<BR>
+$09 - New menu so all other menus must be closed</I><BR>
+Byte - Number of menu slots in data<BR>
+Word - One address pointer for each menu slot in data pointing to menu slot's
+data. Is $0000 if there's no menu assigned to that slot.<BR>
+<center><b>Menu Slot Data</b></center><BR>
+Byte - Action to be done when menu selected by user.<BR>
+<I>$01 - Followed by byte stored in <CODE>e</CODE> and second trash byte. Then
+comes 'jp <I>arg1</I>' that will execute code at address <I>arg1</I>. Last
+is the zero-terminated string that appears in the menu slot.<BR>
+$03 - Followed by a byte passed to assembly program that key executes. Last
+is the zero-terminated string that appears in the menu slot.<BR>
+$05 - Followed by 2 byte pointer to address of new menu structure to be
+displayed. Last is the zero-terminated string that appears in the menu
+slot.<BR>
+$06 - Does nothing and does not display the following zero-terminated
+string.<BR>
+$41 and $c1 - Same as $01.</I><BR>
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Byte
+		<TD>Type Name
+		<TD>Example*
+	  
+	<TR>
+		<TD>$00
+		<TD>Straight paste
+		<TD>"Item"
+	
+	<TR>
+		<TD>$10
+		<TD>Straight paste special
+		<TD>"Item"
+	
+	<TR>
+		<TD>$20
+		<TD>Paste and space
+		<TD>"Item "
+	
+	<TR>
+		<TD>$30
+		<TD>Paste and space special
+		<TD>"Item "
+	
+	<TR>
+		<TD>$40
+		<TD>Straight paste
+		<TD>"Item"
+	
+	<TR>
+		<TD>$50
+		<TD>Space, paste and space special
+		<TD>" Item "
+	
+	<TR>
+		<TD>$60
+		<TD>Paste and open parenthesis
+		<TD>"Item("
+	
+	<TR>
+		<TD>$70
+		<TD>Paste and open parenthesis special
+		<TD>"Item("
+	
+	<TR>
+		<TD>$80
+		<TD>Put "Ans" and paste (no space)
+		<TD>"AnsItem"
+	
+	<TR>
+		<TD>$90
+		<TD>Put "Ans", space, and paste special
+		<TD>"Ans Item"
+	
+	<TR>
+		<TD>$a0
+		<TD>Put "Ans", paste, and space
+		<TD>"AnsItem "
+	
+	<TR>
+		<TD>$b0
+		<TD>Put "Ans", space, paste, and space special
+		<TD>"Ans Item "
+	
+	<TR>
+		<TD>$c0
+		<TD>Put "Ans" and paste (no space)
+		<TD>"AnsItem"
+	
+	<TR>
+		<TD>$d0
+		<TD>Put "Ans", space, paste, and space special
+		<TD>"Ans Item "
+	
+	<TR>
+		<TD>$e0
+		<TD>Put "Ans", paste, and open parenthesis
+		<TD>"AnsItem("
+	
+	<TR>
+		<TD>$f0
+		<TD>Put "Ans", space, paste, and open parenthesis special
+		<TD>"Ans Item("
+	
+</TABLE>
+<p ALIGN=CENTER><FONT SIZE=1>I used the word "Item" as what was in the menu entry.</FONT>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

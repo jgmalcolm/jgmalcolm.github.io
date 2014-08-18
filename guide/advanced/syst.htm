@@ -1,0 +1,326 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","System Flags of TI-OS");</SCRIPT>
+
+<P>The TI86 has many flags (options) available.
+They are stored as bits either set (yes, on)
+or reset (no, off) in a designated area of memory.
+They start at the following equate:
+
+<PRE>_flags	=$c3e5</PRE>
+
+<P>Each "grouping" of like options are
+stored in a byte. We reference those
+groupings as "offsets" from the start
+of the flags (<CODE>_flags</CODE>). According
+to the chart below, the '_textflags' are
+at offset $05 from '_flags'.
+
+<P>Most all the names used on this page
+are <A HREF="../advanced/asse.htm#equa">equated</A>
+in
+<A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A>.
+
+<P>TI-OS likes to keep the <CODE>iy</CODE>
+register always holding the address
+of the start of the flags. That makes
+it easier if it wants to check any
+flag at any time. That is also
+why we try not to mess with <CODE>iy</CODE>
+in our program, so we don't change
+the offset TI-OS assumes.
+
+<P>Here's an example of changing
+the <A HREF="../intermediate/text.htm#opti">text
+display option</A> to print
+white text on a black background. This
+is done by setting that option's bit.
+The next line changes it back
+to the default black text on a white
+background.
+
+<PRE>	set textinverse,(iy+textflags)	;white on black
+	res textinverse,(iy+textflags)	;default black on white</PRE>
+
+<H3>Flag Offset Name Hex/Dec</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">Name
+		<TD WIDTH="10%"><A HREF="../beginner/numb.htm#bitp">Bit</A>
+		<TD>Description
+</TABLE>
+
+<H3>trigflags $00/0</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">trigdeg
+		<TD WIDTH="10%">2
+		<TD>0 - Radians<BR>1 - Degrees
+	<TR>	<TD>doneprgm
+		<TD>5
+		<TD>1 - Program running so print
+		"Done" when finished<BR>0 - Program
+		not running
+</TABLE>
+
+<H3>plotflags/grfmodeflags $02/2</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">plotloc
+		<TD WIDTH="10%">1
+		<TD>0 - Graph writes to display and backup buffer<BR>
+		1 - Graph writes do display only
+	<TR>	<TD>plotdisp
+		<TD>2
+		<TD>0 - Graph screen not currently displayed<BR>
+		1 - Graph screen being displayed now
+	<TR>	<TD>grffuncm
+		<TD>4
+		<TD>1 - Function Graph mode
+	<TR>	<TD>grfpolarm
+		<TD>5
+		<TD>1 - Polar Graph mode
+	<TR>	<TD>grfparamm
+		<TD>6
+		<TD>1 - Parametric Graph mode
+	<TR>	<TD>grfrecurm
+		<TD>7
+		<TD>1 - Differential Equation Graph mode
+</TABLE>
+
+<H3>graphflags $03/3</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">graphdraw
+		<TD WIDTH="10%">0
+		<TD>0 - Don't need to redraw graph before displaying<BR>
+		1 - Need to redraw graph
+	<TR>	<TD>graphcursor
+		<TD>2
+		<TD>0 - Graph cursor is not displayed<BR>
+		1 - Graph cursor currently displayed
+</TABLE>
+
+<H3>grfdbflags $04/4</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">grfdot
+		<TD WIDTH="10%">0
+		<TD>0 - Graph Line mode<BR>1 - Graph Dot mode
+	<TR>	<TD>grfsimul
+		<TD>1
+		<TD>0 - Sequential Graph mode<BR>1 - Simultaneous
+		Graph mode
+	<TR>	<TD>grfgrid
+		<TD>2
+		<TD>0 - Show grid<BR>1 - Hide grid
+	<TR>	<TD>grfpolar
+		<TD>3
+		<TD>0 - Rectangular coordinates<BR>1 - Polar
+		coordinates
+	<TR>	<TD>grfnocoord
+		<TD>4
+		<TD>0 - Show coordinates<BR>1 - Hide coordinates
+	<TR>	<TD>grfnoaxis
+		<TD>5
+		<TD>0 - Show axis<BR>1 - Hide axis
+	<TR>	<TD>grflabel
+		<TD>6
+		<TD>0 - Show labels<BR>1 - Hide labels
+</TABLE>
+
+<H3><A HREF="../intermediate/text.htm#opti">textflags</A> $05/5</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">texterasebelow
+		<TD WIDTH="10%">1
+		<TD>1 - Erase line below
+		<A HREF="../intermediate/text.htm#vari">variable
+		width font</A>
+	<TR>	<TD>textscrolled
+		<TD>2
+		<TD>1 - Screen was scrolled up after last
+		printing
+	<TR>	<TD>textinverse
+		<TD>3
+		<TD>1 - Print white text on black background<BR>
+		0 - Print black text on white background
+</TABLE>
+
+<H3>apdflags $08/8</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">apdable
+		<TD WIDTH="10%">2
+		<TD>1 - APD on<BR>0 - APD off
+	<TR>	<TD>apdlock
+		<TD>3
+		<TD>1 - APD locked<BR>0 - APD unlocked
+	<TR>	<TD>apdwarmstart
+		<TD>4
+		<TD>1 - APD has expired
+</TABLE>
+
+<H3>onflags $09/9</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">onrunning
+		<TD WIDTH="10%">3
+		<TD>1 - TI86 is turned on currently
+	<TR>	<TD>oninterrupt
+		<TD>4
+		<TD>1 - [ON] interrupt occured
+</TABLE>
+
+<H3>fmtflags $0a/10</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">fmtexponent
+		<TD WIDTH="10%">0
+		<TD>1 - Exponential number format
+	<TR>	<TD>fmteng
+		<TD>1
+		<TD>1 - Engineering number format
+	<TR>	<TD>fmthex
+		<TD>2
+		<TD>1 - Hexadecimal mode
+	<TR>	<TD>fmtoct
+		<TD>3
+		<TD>1 - Octadecimal mode
+	<TR>	<TD>fmtbin
+		<TD>4
+		<TD>1 - Binary mode
+</TABLE>
+
+<H3>curflags $0c/12</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">curable
+		<TD WIDTH="10%">2
+		<TD>1 - Blinking cursor on
+	<TR>	<TD>curon
+		<TD>3
+		<TD>1 - Static cursor displayed
+	<TR>	<TD>curlock
+		<TD>4
+		<TD>1 - Cannot change cursor state
+	<TR>	<TD>
+		<TD>6
+		<TD>0 - Has to do with <CODE>_JForceCmdNoChar=$409c</CODE>
+</TABLE>
+
+<H3>appflags $0d/13</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">apptextsave
+		<TD WIDTH="10%">1
+		<TD>1 - Save characters on screen to
+		_textShadow ($c0f9)
+	<TR>	<TD>appautoscroll
+		<TD>2
+		<TD>1 - Automatically scroll text if
+		printing on bottom line
+</TABLE>
+
+<H3>indicflags $12/18</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%"><A NAME=indicrun>indicrun
+		<TD WIDTH="10%">0
+		<TD>1 - Animated
+		<A HREF="../intermediate/romc.htm">Run
+		Indicator</A>
+	<TR>	<TD><A NAME=indiconly>indiconly
+		<TD>2
+		<TD>1 - Interrupts do not work with
+		<A HREF="apd.htm">APD</A> or cursor. They
+		just animate run indicator
+	<TR>	<TD>shift2nd
+		<TD>3
+		<TD>1 - 2nd mode
+	<TR>	<TD>shiftalpha
+		<TD>4
+		<TD>1 - Alpha mode
+	<TR>	<TD>shiftlwralph
+		<TD>5
+		<TD>1 - Lowercase Alpha<BR>0 - Uppercase
+		Alpha
+	<TR>	<TD>shiftalock
+		<TD>6
+		<TD>1 - Locked in Alpha mode
+</TABLE>
+
+<H3>newgrfflags $18/24</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">textwrite
+		<TD WIDTH="10%">6
+		<TD>1 -
+		<A HREF="../intermediate/text.htm#vari">Variable
+		Width Font</A> writes to Graph screen
+</TABLE>
+
+<H3>statflags $1d/29</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">statsvalid
+		<TD WIDTH="10%">6
+		<TD>1 - Statistics results can be used
+</TABLE>
+
+<H3>graphcursorflag $1e/30</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">dispcursor
+		<TD WIDTH="10%">2
+		<TD>1 - Show status of cursor (Alpha, alpha, 2nd, or
+		regular) in upper right corner of screen. Useful
+		for string input routines.
+</TABLE>
+
+<H3><A HREF="user.htm">altflags</A>/<A HREF="user.htm">userflags</A> $23/35</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">altfont
+		<TD WIDTH="10%">0
+		<TD>1 - Use
+		<A HREF="font.htm">User Font</A> for
+		<A HREF="../intermediate/text.htm#curs">cursor
+		font</A>
+	<TR>	<TD>altvfont
+		<TD WIDTH="10%">1
+		<TD>1 - Use
+		<A HREF="font.htm">User Font</A> for
+		<A HREF="../intermediate/text.htm#vari">variable
+		width font</A>
+	<TR>	<TD>altint
+		<TD>2
+		<TD>1 - Use User Interrupt Routine
+	<TR>	<TD>alton
+		<TD>3
+		<TD>1 - Use User On Routine
+	<TR>	<TD>altlink
+		<TD>4
+		<TD>1 - Use User Link Routine
+	<TR>	<TD>altoff
+		<TD>7
+		<TD>1 - Use User Off Routine
+</TABLE>
+
+<H3><A HREF="squa.htm">sqrtflags</A> $24/36</H3>
+<TABLE ALIGN=CENTER class="flags">
+	<TR>	<TD WIDTH="20%">sqrtparse
+		<TD WIDTH="10%">0
+		<TD>1 - Use SqrtParse Routine
+	<TR>	<TD>sqrtform
+		<TD>1
+		<TD>1 - Use SqrtExec Routine
+	<TR>	<TD>sqrtexec
+		<TD>2
+		<TD>1 - Use SqrtExec Routine
+	<TR>	<TD>sqrtexpr
+		<TD>3
+		<TD>1 - Use SqrtExpr Routine
+	<TR>	<TD>sqrthome
+		<TD>4
+		<TD>1 - Use SqrtHome Routine
+	<TR>	<TD>sqrtcmdtok
+		<TD>5
+		<TD>1 - Use SqrtCmdTok Routine
+	<TR>	<TD>sqrtkey
+		<TD>6
+		<TD>1 - Use <A HREF="key.htm">SqrtKey Routine</A>
+	<TR>	<TD>sqrtgrf
+		<TD>7
+		<TD>1 - Use SqrtGrf Routine
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

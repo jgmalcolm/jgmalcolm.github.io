@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Fastest routine possible to see if the Down Arrow
+		key has been pushed.  Keep looping until it has been
+		pushed.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>keyport	=1			;key port
+loop:
+	ld a,%11111110		;row to check for
+	out (keyport),a		;send it out to get checked
+	in a,(keyport)		;collect results
+	rrca			;put down arrow's bit in
+				; the carry flag
+	jr nc,loop		;carry=held down
+				;if carry...continue
+	<TR>	<TD CLASS=header>Error
+		<TD>Absolute jumps are 2 clock cycles faster because
+		the z80 doesn't have to add relative addresses to the
+		program counter.
+		<P>Also, by saving the <A HREF="../intermediate/read.htm">Key
+		Port</A> value in <CODE>c</CODE>, we can access it faster.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>keyport	=1			;key port
+	ld c,keyport		;faster access later
+loop:
+	ld a,%11111110		;row to check for
+	out (c),a		;send it out to get checked
+	in a,(c)		;collect results
+	rrca			;put down arrow's bit in
+				; the carry flag
+	jp nc,loop		;carry=held down
+				;if carry...continue
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

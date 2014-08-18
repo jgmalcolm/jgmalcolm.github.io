@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","TileGen Routine Printout");</SCRIPT>
+
+<P><A HREF="JavaScript:window.print()">Print Code</A>.
+<BR><A HREF="JavaScript:window.close()">Close Window</A>.</p>
+
+<PRE><OL>
+<LI>;======================================
+<LI>; tilegen by jimi (malcolmj1@juno.com)
+<LI>;  draws 16x8 tile map
+<LI>;======================================
+<LI>tilegen:
+<LI>	ld ix,$fc00
+<LI>	ld b,8
+<LI>loop_row:
+<LI>		push bc
+<LI>columns:
+<LI>	ld b,16
+<LI>loop_columns:
+<LI>		push hl
+<LI>	ld l,(hl)
+<LI>	ld h,0
+<LI>	add hl,hl
+<LI>	add hl,hl
+<LI>	add hl,hl
+<LI>
+<LI>	ld de,tile0
+<LI>	add hl,de
+<LI>
+<LI>draw_tile:
+<LI>	ld de,$10
+<LI>	ld c,b
+<LI>	ld b,8
+<LI>
+<LI>		push ix
+<LI>draw_tile_loop:
+<LI>	ld a,(hl)
+<LI>	ld (ix),a
+<LI>	add ix,de
+<LI>
+<LI>	inc hl
+<LI>
+<LI>	djnz draw_tile_loop
+<LI>		pop ix
+<LI>
+<LI>	ld b,c
+<LI>		pop hl
+<LI>
+<LI>	inc hl
+<LI>	inc ix
+<LI>	djnz loop_columns
+<LI>	ld de,$10*7
+<LI>	add ix,de
+<LI>		pop bc
+<LI>	djnz loop_row
+<LI>	ret</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

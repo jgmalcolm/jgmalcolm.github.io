@@ -1,0 +1,281 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Instructions");</SCRIPT>
+<UL>
+	<LI><A HREF="#labe">labels</A>
+	<LI><A HREF="#comm">comments</A>
+	<LI><A HREF="#ld">ld</A>
+	<LI><A HREF="#call">call</A>
+	<LI><A HREF="#cp">cp</A>
+	<LI><A HREF="#add">add</A>
+	<LI><A HREF="#sub">sub</A>
+	<LI><A HREF="#inc">inc</A>
+	<LI><A HREF="#dec">dec</A>
+	<LI><A HREF="#djnz">djnz</A>
+	<LI><A HREF="#jr">jr</A>
+	<LI><A HREF="#jp">jp</A>
+	<LI><A HREF="#ret">ret</A>
+</UL>
+
+Let's learn some basic instructions you can use in
+your programs like this jumbled mess!
+
+<PRE>
+start:			;label 'start' given the
+			; address of the following
+			; byte in memory (in
+			; this case the 'ld a,__'
+			;comments
+			; comments
+		;comments
+ ;comments
+;comments....more comments;;;;more comments
+	;the assembler doesn't even see this
+	ld a,23		;store 23 in a
+	ld b,45		;store 45 in b
+	add a,b		;23+45=68 stored in a
+
+	ld hl,$fc00	;store $fc00 in hl
+	ld de,23	;store 23 in de
+	add hl,de	;$fc00+23=$fc17
+
+	call _clrLCD	;clear the screen
+
+	cp b		;is a=b?
+	cp 3		;is a=3?
+
+	ld b,4
+loop:
+	call _clrLCD	;clear screen 4 times
+	djnz loop	;b-1 stored in b
+			;if b=0...we're done
+	ret		;return from where we
+			; came from</PRE>
+
+<P>This is a listing of the most commonly used assembler
+instructions. Depending upon your type of
+<A HREF="form.htm">assembler</A>, you may need to insert
+white-space (leading spaces or tabs) before instructions. Labels
+and comments do not require white-space.
+
+<A NAME="labe"><H2>labels</H2>
+<CODE><I>arg1</I>:</CODE> - The colon after a non-spaced,
+31 or less name is a label. The assembler uses it as a reference point
+for calls and jumps. It can contain underscores (<CODE>_</CODE>).
+Labels are given the value of the address of the following byte of code.
+They take up zero space in the program so you can have as many labels
+as you want. You need to put no spaces between the left margin of the
+source code and the label name, or the assembler won't recognize it.
+
+<PRE>label:
+boring_label:
+a:
+run_to_me_now:
+this_label_is_too_long_to_be_a_label:</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="comm"><H2>comments</H2>
+<CODE>; <I>comments</I></CODE> - The semi-colon tells the
+processor "Ignore the rest of this line". It is useful
+for adding little reminders as to what code may do so
+that later readers understand complex routines.
+
+<PRE>	ld bc,$0303 ;load b with 3, c with 3
+	;this is all ignored</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="ld"><H2>ld</H2>
+<CODE>ld <I>arg1</I>, <I>arg2</I></CODE> - Copies <I>arg2</I>
+into <I>arg1</I>. You can either copy a register's value
+into an address or an address into a register's value, but
+you can not copy a value directly into a memory address, the
+value needs to go through a <I>register</I> first. It's like when you
+eat: the food can't go directly from your plate to your stomach, it
+has to go through your mouth (that was cheesy).
+
+<PRE>	ld hl,(256*2)+1		;same as $0201
+	ld b,$3
+	ld a,%01101001
+	ld a,%010		;same as %00000010
+	ld (hl),$35		;load byte at address
+				; hl
+	ld (de),a		;ld into address at de
+	ld ($80df),hl		
+	ld ($fc00),a		;load a into first
+				; byte of video memory
+	ld a,b
+	ld a,($8100)
+
+	ld ($8309),%10011100	;CAN'T do this!
+	ld (_textShadow),$a4	;CAN'T do this!</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="call"><H2>call</H2>
+<CODE>call <I>addr1</I></CODE> - Processor goes to the
+specified address (<I>addr1</I>) and starts executing code until
+it is told to go back. There are two types of calls: a ROM call
+and an address call. ROM calls go to an area in the TI86's
+own memory whereas an address call will jump to an address in
+your program or in the asm program. Most frequent ROM calls
+and asm calls are listed in
+<A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A>. They
+are listed as aliases to addresses in the TI86's memory. ROM
+calls and address calls are not different. I just made the
+distinction to show you that some people refer to calls
+made to an address in TI-OS's own memory instead of the
+actual program running.
+
+<PRE>	call _clrLCD
+	call $4a7e	;$4a7e is address of
+			; _clrLCD
+	call my_routine	;routine somewhere in your
+			; program</PRE>
+
+Call's made inside the program are called absolute calls
+because they require the exact, absolute, position of the label
+in the memory. Calls made to parts of the program itself are
+absolute also. At the start of almost all your programs will
+be the line of code <CODE>.org _asm_exec_ram</CODE> which was an
+<A HREF="../advanced/asse.htm">alias</A> saying
+<CODE>.org $d748</CODE>. This tells the assembler to make all
+the label referencing while considering
+that the program is at address $d748. The processor encounters
+<CODE>call my_routine</CODE>, which is inside the program. It then takes the
+address of the my_routine label, for example $0034 and adds that
+to $d748 to get $d77c. Then it returns to where it encountered
+<CODE>call my_routine</CODE> and substitutes that with <CODE>call $d77c</CODE>.
+When it encounters <CODE>call _clrLCD</CODE>, which it knows to be an
+alias, it just substitutes the alias for <CODE>call $4a7e</CODE>. Can be used with
+<A HREF="flag.htm">flags and conditions</A>.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="cp"><H2>cp</H2>
+<CODE>cp <I>arg1</I></CODE> - Compares whatever is in the <CODE>a</CODE>
+register to <I>arg1</I>. <I>Arg1</I> can be either a value, a
+register that points to an address, or another register. Modifies
+the <A HREF="../beginner/flag.htm">processor flags</A> accordingly.
+
+<PRE>	cp h		;compare h to a
+	cp $03
+	cp 250
+	cp %00000111
+	cp (hl)</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="add"><H2>add</H2>
+<CODE>add <I>arg1</I>, <I>arg2</I></CODE> - Adds the value
+of <I>arg2</I> to the value of <I>arg1</I> and stores the result
+into <I>arg1</I>. <I>Arg1</I> and <I>arg2</I> can be either a
+register pointing to an address and a register, a register and a
+register, or a register and a value. <I>Arg2</I> does not
+change.
+
+<PRE>	add a,(hl)	;add contents of memory at
+			; address hl with a and store
+			; result in a
+	add hl,de
+	add a,b
+	add a,$23</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="sub"><H2>sub</H2>
+<CODE>sub <I>arg1</I></CODE> - Subtracts the value of <I>arg1</I>,
+or the register to which it is refering, from <CODE>a</CODE> and stores
+the result in <CODE>a</CODE>. <I>Arg1</I> does not change.
+
+<PRE>	sub 32
+	sub (hl)
+	sub c</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="inc"><H2>inc</H2>
+<CODE>inc <I>arg1</I></CODE> - Increases the value of, or
+address pointed to by, <I>arg1</I> by one. <I>Arg1</I> can be a
+register or a pointer to a register.
+
+<PRE>	inc (hl)	;increase byte at address hl
+	inc a
+	inc bc
+	inc e</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="dec"><H2>dec</H2>
+<CODE>dec <I>arg1</I></CODE> - Decreases the value, or address
+pointed to by <I>arg1</I>, by one. <I>Arg1</I> can be a register
+or a pointer to a register.
+
+<PRE>	dec (hl)	;decrease byte at address hl
+	dec a
+	dec b
+	dec de</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="djnz"><H2>djnz</H2>
+<CODE>djnz <I>addr1</I></CODE> - Similar to a
+"For()" loop in TI-BASIC, djnz stands for
+"Decrease register <CODE>b</CODE> by one and Jump if Not Zero to <I>addr1</I>".
+This decreases the value of register <CODE>b</CODE> by one and jumps to
+start executing code at <I>addr1</I> if <CODE>b</CODE> is not zero yet,
+but if <CODE>b</CODE> has hit zero, it will just continue on in the
+code.
+
+<PRE>djnz LabelToSomewhere</PRE>
+Here it is in context with other code. This is just to give you
+the basic idea of its use:
+
+<PRE>	ld b,10		;number of iterations in
+			; loop
+BeginningOfForLoop:
+	. . .		;code to be executed in
+			; For() loop
+	djnz BeginningOfForLoop
+	. . .		;code to be executed once
+			; For() loop is done</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="jr"><H2>jr</H2>
+<CODE>jr <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
+executing code. <I>Addr1</I> must be within about 120 bytes from
+the <CODE>jr <I>addr1</I></CODE> instruction. <a
+href="../download/asmstd31.zip">Assembly Studio</A> should give
+you an error if the address is too far away.
+
+<PRE>	jr Label_To_Somewhere_Before_This_Command
+	jr Label_To_Somewhere_After_This_Command</PRE>
+Relative jumps move to an address relative to where the
+processor is executing code. The jump may tell the processor to
+"move to the label that is 35 bytes backwards from where you
+are now". That is why they are relative to the current
+position of where the processor is executing code. Can be used with
+<A HREF="flag.htm">flags and conditions</A>.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="jp"><H2>jp</H2>
+<CODE>jp <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
+executing code. <I>Addr1</I> can be any distance from the
+<CODE>jp <I>addr1</I></CODE> instruction. It is best to use
+<CODE>jr <I>addr1</I></CODE> instead wherever possible because
+<CODE>jp <I>addr1</I></CODE> takes up one byte more byte in memory.
+<PRE>	jp $01be		;jump to address $01be
+	jp LabelToSomewhere</PRE>
+Absolute jumps made inside the program are called absolute
+calls because they require the exact, absolute, position of the
+label in the memory distance wise from zero, or the beginning of
+the memory at $0000. Can be used with
+<A HREF="flag.htm">flags and conditions</A>.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="ret"><H2>ret</H2>
+<CODE>ret</CODE> - Used with <CODE>call <I>addr1</I></CODE>.
+Tells the processor to go back to wherever it was called from and
+continue executing the code following the call. Can be used with
+<A HREF="flag.htm">flags and conditions</A>.
+
+<PRE>	ret</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

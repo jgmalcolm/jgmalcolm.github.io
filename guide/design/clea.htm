@@ -1,0 +1,364 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Design","Clean Code");</SCRIPT>
+
+<P>Have you ever looked through someone else's
+source code?  Did you understand any of the
+author's functions or routines? Did
+you end up realizing that you were
+the guilty one?
+
+<P>The majority of your programming career
+will be spent pouring through already
+written code as opposed to writing
+new stuff.  That is why it is important
+to make what you're writing understandable
+to yourself and others, a important
+concept many programmers today tend to
+forget.
+
+<P>The whole idea of streamlining code is
+based upon the idea of simplifying what
+the reader sees so they think as little
+as possible about what they are
+viewing.  It should all come natural to
+them, as if someone were speaking
+directly to them.
+
+<P>These tips are just that:
+tips. The way you write your code is
+an expression of your self and your
+style.  Everyone has their own style
+and everyone is an individual.  If
+you don't believe me, download
+some source codes and compare them.
+Most are drastically different.  You
+don't have to follow these rules.
+Advanced programmers may already have
+their set patterns and ways.  That's
+fine, maybe you can improve on a couple
+of them.  However, I strongly urge
+beginners to take heed of these
+suggestions and put them to use
+until you find your own ways.  It
+is easy to get into these habits before
+bad ones creep in!
+
+<UL>
+	<LI><A HREF="#comm">Comments</A>
+	<LI><A HREF="#func">Function Headers</A>
+	<LI><A HREF="#desc">Descriptive Constants
+	and Labels</A>
+	<LI><A HREF="#inde">Indents, Margins, and
+	Syntax Highlighters</A>
+	<LI><A HREF="#beco">Be Consistant</A>
+	<LI><A HREF="#keep">Keep Your Target
+	Audience In Mind</A>
+	<LI><A HREF="#form">Format</A>
+</UL>
+
+<H2><A NAME=comm>Comments</H2>
+If you forget everything else, you must remember one
+thing: 90% of your source code should have
+a comment next to it.
+<A HREF="../beginner/inst.htm#comm">Comments</A> (delimited
+by a semi-colon <CODE>;</CODE>) are key to every
+aspect of programming.  Little
+mnemonics such as <CODE>cp</CODE> and <CODE>ld</CODE> don't
+tell us as much as <CODE>compare</CODE> or <CODE>load</CODE>
+do.  They are similiar but it is easier
+to read through code seeing <CODE>load</CODE> rather
+than see <CODE>ld</CODE> and have to think to
+realize it means <CODE>load</CODE>.
+
+<P>I have gotten myself into the
+habit of commenting every line
+of code.  The only things that I
+do not comment on all the time
+are the actual labels.  I leave
+that up to the
+<A HREF="#func">function headers</A> to
+explain.
+
+<P>The time to comment is as you
+are writing the code.  If you
+think you are going to come back
+later and comment your whole source
+for others' pleasure, I'll bet
+money against you! The chances
+are slim.  Write the comments
+while the code is fresh in your
+mind. It's more significant to
+you that way.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=func>Function Headers</H2>
+Better known as calls, algorithms, or routines;
+functions basically take input,
+manipulate it, and produce
+some form of output.  An example
+would be <a
+href="../intermediate/text.htm#putc">_PutC</A>.
+You load <CODE>a</CODE> with the character
+you want to print (the input), it
+manipulates it (finds where on
+the screen the character is
+to be put), and outputs the
+character on the screen.
+
+<P>You probably will have functions
+throughout your code:  one to clear
+the lower-half of the screen, one
+to draw a space ship on the screen
+at specified coordinates, or
+another to check for keypresses
+using the
+<A HREF="../advanced/read.htm">key
+port</A>.
+
+<P>One thing you may
+want to consider is putting
+a descriptive header at the top
+of each function.  This header
+should include some of the
+following:
+<OL>
+	<LI>Name
+	<LI>Author (If other than yourself)
+	and Contact Address
+	<LI>Input
+	<LI>Output
+	<LI>Modified Registers
+	<LI>Clock Cycles
+	<LI>Size in Bytes
+</OL>
+Here's an example of a routine
+that clears the screen.  It's faster
+than the TI86's own routine.
+
+<PRE>;==========================================
+; clear_screen by jimi (malcolmj1@juno.com)
+; input:	none
+: output:	all bits in video mem reset
+; destroy:	bc,de,hl
+; clock cycles:	68 t-states
+; size:		13 bytes
+;==========================================
+clear_screen:
+	ld hl,$fc00	;start of video memory
+	ld (hl),l	;l=$00 so we clear (hl)
+	ld de,$fc01	;2nd byte in video mem
+	ld bc,1023	;size of video mem-1
+			; since de is start+1
+	ldir		;copy already cleared
+			; byte from hl into de
+			; then increase so hl
+			; points to what was
+			; just cleared and de
+			; the byte after
+	ret		;we're done</PRE>
+<P CLASS=clsFootnote>* This routine is a widely distributed method of clearing
+the screen. I cannot take credit for its origins; I am mearly giving
+an example.
+
+<P>I have trouble following long routines
+just to see what registers have been
+modified (destroyed) during execution, so
+I made a program called
+<A HREF="../download/destroy.asm">Destroy</A>
+Which will print which registers were
+modified on the screen after it has
+called your routine.  Just follow the directions
+in the source code.  I use this all the time
+along with my
+<A HREF="../download/flagtest.asm">FlagTest</A>
+program to help me program.
+
+<P>In the <A HREF="desi.htm#code">Code Tree</A> section
+you learn that before you start designing a
+routine, it is best to outline the routine
+the same way you would an essay for
+school. Some programmers paste this code
+somewhere in the function header, so that
+readers may get an idea of the esscence
+of a routine before they even start looking
+through it.  That way they have an idea
+of what they're looking at.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=desc>Descriptive Constants and Labels</H2>
+Have you ever read through code
+and seen: <CODE>ld a,p</CODE>.  What in the world
+does that mean?  Load <CODE>a</CODE> with
+pickles? Purple? Plastic?  You don't know
+what that means because you don't know
+what I'm thinking.  If I were
+to write <CODE>ld a,power</CODE>, you would
+know right off that I was storing
+the constant variable of <CODE>power</CODE> into
+<CODE>a</CODE>. Constants and variables need
+to have descriptive names.  The
+number of Enemy Ships should be
+<CODE>enemy_ships</CODE>, not <CODE>es</CODE>. Use your
+brain!
+
+<P>The same goes for labels.  A routine
+that draws the screen should be
+labeled <CODE>draw_screen:</CODE> instead of
+<CODE>ds:</CODE> or <CODE>draw_s</CODE>.
+
+<P>Some people recommend having
+all your constants, address
+equates, variables, or other
+names specified by yourself
+in the program to be all
+capital letters. While this may
+look ugly to many, it helps
+distinguish between TI-OS's
+variables and your own.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=inde>Indents, Margins, and Syntax Highlighters</H2>
+You probably already know you need to
+have white space between the margin
+and the lines of opcodes.
+<A HREF="../download/tasm.zip">TASM</A>
+won't let you assemble the file without
+those spaces or tabs.
+
+<P>A suprising number of people don't
+indent their code like they should.
+It's good to put an extra tab for
+inner functions and keep tabbing
+in for functions so just by
+looking at the code, you can see
+the structure.
+
+<P>Make sure to put some space between
+the actual functions.  This will
+separate them out in your head.
+
+<P>I have now gotten in the habit
+of tabbing in for pushes and pops.
+It seems that 99% of crashes
+are from misshandled stack operations.
+By indenting these instructions, I
+can make them visible so problems
+can be isolated fast.  Try it out.
+Here's the general idea.
+
+<PRE>move_player:
+	call get_player_position
+		call update_coordinates
+				push bc
+			call read_keypresses
+			call move_horizontal
+			call move_verticle
+				pop bc
+		call clear_old_sprite
+		jp draw_new_sprite</PRE>
+
+<P><A HREF="http://www.acz.org" target="_blank">Assembly
+Studio</A> version 3.1 gives us a new feature:
+Syntax Highlighting.  Labels are one color,
+code is another color, and comments are yet
+another color.  This makes our code even more
+readable; however, I've turned off this
+feature since it causes a lot of flicker
+as you're typing while the computer
+redraws the colorful screen.  Later versions
+may fix this bug.  It's a great start.  I
+strongly recommend this feature for
+beginners.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=beco>Be Consistant</H2>
+Consistancy is key.  Don't change your style
+frequently; it makes reading old code
+a pain.  Don't go from writing in all
+capital to writing in all lowercase
+at different points in your
+code.  Those that read your code
+don't want to have to keep reinterpreting
+your styles.  Keep it simple and
+the same.  You can experiment once
+in a while but don't overhaul your
+entire approach.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=keep>Keep Your Target Audience In Mind</H2>
+Ask yourself: Am I intending this code
+to be read by someone of my skill level
+or less? This will determine how much
+effort goes into your
+<A HREF="#comm">commenting</A>. If
+you're writing a program designed
+for beginners to get a grasp of asm, then
+you'll be commenting like crazy. If it's
+for your peers, then you can skip commenting
+the basic stuff and only comment things
+that you yourself won't know offhand.
+
+<P>You will never write code for those
+above your skill level.  You don't know
+their thinking because they are above
+your level.  You can only write at your
+level or below.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=form>Format</H2>
+Code should always be in the following
+<A HREF="../beginner/form.htm">format</A>
+so it's standardized.
+
+<PRE>	(<I>include files for aliases</I>)
+	    . . .
+	    . . .
+	(<I>other aliases and defines defined
+	 in the program</I>)
+	    . . .
+	    . . .
+.org _asm_exec_ram
+	    . . .
+	    . . .
+	(<I>program code</I>)
+	    . . .
+	    . . .
+	(<I>variables</I>)
+	    . . .
+	    . . .
+.end</PRE>
+
+<P>This goes along with
+<A HREF="#beco">consistancy</A>. You need
+to have a set pattern for this.  Readers
+are accustomed to having all aliases
+at the start, then the code, and the
+variables at the end. If you mix
+this order around, things get complicated.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2>Conclusion</H2>
+Remember that code is an
+expression of yourself.  It should
+reflect your personal preferences
+and feelings. Don't change your
+ways just because someone
+says to, you should only change
+your style if you feel it is
+to your advantage.  There is not
+a "best style", everyone's different.
+
+<P>Also remember that much of
+your time spent programming is
+reading through old code, make
+it easy on yourself. I'm a lazy
+programmer; I follow these
+guidelines so that I don't have to
+do as much thinking later!
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

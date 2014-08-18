@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Load <CODE>a</CODE> with 69 and compare it to 68 (<CODE>cp 68</CODE>),
+		display <CODE>Z</CODE> if the zero flag was set or <CODE>N</CODE> if it was
+		reset.  Assume this is a call and that the cursor coordinates
+		are already set up.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld a,69		;number to check
+	cp 68		;number to compare it to
+	jr z,zero	;if zero branch to 'zero'
+	jr nz,not_zero	;it n-zero branch to 'not_zero'
+zero:
+	ld a,'Z'	;load a with letter
+	jr display_it
+not_zero:
+	ld a,'N'	;load a with letter
+display_it:
+	jp _putc	;display whatever's in a...ret
+	<TR>	<TD CLASS=header>Error
+		<TD>Remember that the <A HREF="../beginner/flag.htm">flags</A>
+		are stored as bits in the <CODE>f</CODE> register.  Bits have two
+		possible states:  set or reset.  This means that the condition
+		could only have resulted in zero or not zero.  If we test
+		for only one of those conditions we will know what the zero
+		flag's status is.  It's kinda like getting the wrong answer on
+		a true/false test...if you put 'true' and got it wrong, then you
+		know the answer's 'false'!  Using this we can rearrange the
+		order of the components of that routine and only have to test
+		one condition.  If that condition is false, then don't branch
+		(another name for jump) and lead into the next segment of
+		code.  We were good to use a lead in after the 'not_zero'
+		component.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>
+	ld a,69		;number to check
+	cp 68		;number to compare it to
+	ld a,'Z'	;load a with character
+	jr z,zero	;was it zero...branch
+	ld a,'N'	;load a with character
+display_it:		;lead into 'display_it'
+	jp _putc	;display whatever's in a...ret
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

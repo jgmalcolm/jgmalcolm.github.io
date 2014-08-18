@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Pixel Manipulation");</SCRIPT>
+
+<P>The first routine is
+heavily commented so that the others need not be. You should be
+able to adapt the first comments to the other routines. The chart
+at the end shows how to use them.
+
+<P>Make sure you have read the <A HREF="find.htm">Find Pixel
+Section</A> before reading on.  The following code takes for
+granted that you have the
+<A HREF="../download/findpixel.asm">FindPixel</A> routine somewhere
+in your code so you can reference it.
+
+<PRE>pixel_on:
+	call FindPixel	;hl=location in $fc00 (screen)
+			;a=byte containing pixel at hl
+			; with bit set for pixel
+			; we want to change
+	or (hl)		;logical op to make bit in
+			; a that is set be included
+			; in new a with original byte
+	ld (hl),a       ;load modified byte onto screen
+	ret             ;done
+
+pixel_off:
+	call FindPixel
+	cpl
+	and (hl)
+	ld (hl),a
+	ret
+
+pixel_change:
+	call FindPixel
+	xor (hl)
+	ld (hl),a
+	ret
+
+pixel_test:
+	call FindPixel
+	and (hl)        ;zero flag set if no pixel there
+	ret</PRE>
+
+<P>To use the above routines
+you need to put the coordinates, relative to the diagram below,
+into <CODE>bc</CODE>. You do this by <CODE>ld bc,256*3+3</CODE> which puts coordinates
+(3,3) into <CODE>bc</CODE> which then can be used when you do <CODE>call
+pixel_on</CODE> to put the pixel at (3,3) on. That pixel would be
+in the bottom left hand of the screen.  Consider the following
+representation of the TI86's screen.
+
+<P ALIGN=CENTER><IMG SRC="../images/screen.gif" ALT="TI86 Screen Coordinates">
+
+<P><A HREF="../download/pixelon.asm">PixelOn.asm</A> gives an example
+of how to turn (blacken) a pixel at certain coordinates on
+the screen. It takes into account that you have the
+<A HREF="../download/findpixel.asm">FindPixel routine</A> in your
+<A HREF="../advanced/asse.htm#incl">include</A> directory.
+
+<PRE>#include "ti86asm.inc"
+
+.org _asm_exec_ram
+	call _clrLCD	;clear screen
+
+	ld bc,256*45+2	;coords (45,2)
+	call pixel_on
+
+	ld bc,256*3+62	;coords (3,62)
+	call pixel_on
+
+	ld bc,256*100+6	;coords (100,6)
+	call pixel_on
+
+	call _getkey	;wait for keypress
+	jp _clrLCD	;clear screen and ret
+
+pixel_on:
+	call FindPixel	;hl=location in $fc00 (screen)
+			;a=byte containing pixel at hl
+			; with bit set for pixel
+			; we want to change
+	or (hl)		;logical op to make bit in
+			; a that is set be included
+			; in new a with original byte
+	ld (hl),a       ;load modified byte onto screen
+	ret             ;done
+#include "findpixel.asm"
+			;pastes the findpixel routine by clem
+			; here
+			;input:	(b,c)=(x,y)
+			;output:hl=byte address in video memory
+			;	bit set in a for offset
+.end</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>

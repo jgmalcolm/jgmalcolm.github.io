@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","VAT Search Routine Printout");</SCRIPT>
+
+<P><A HREF="JavaScript:window.print()">Print Code</A>.
+<BR><A HREF="JavaScript:window.close()">Close Window</A>.</p>
+
+<PRE><OL>
+<LI>_RAM_Page_7		=$47f3
+<LI>_PTEMP_END		=$d29a
+<LI>vatsrch:
+<LI>	call _RAM_Page_7
+<LI>	ld bc,(_PTEMP_END+1)
+<LI>		push hl
+<LI>	or a
+<LI>	sbc hl,bc
+<LI>		pop bc
+<LI>	ret c
+<LI>		push bc
+<LI>	ld b,h
+<LI>	ld c,l
+<LI>		pop hl
+<LI>	cpdr
+<LI>	ld d,a
+<LI>	ld a,b
+<LI>	or c
+<LI>	ld a,d
+<LI>	jr nz,good_found_one
+<LI>	scf
+<LI>	ret
+<LI>good_found_one:
+<LI>	dec hl
+<LI>	dec hl
+<LI>	dec hl
+<LI>	dec hl
+<LI>	ret</OL></PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top()</SCRIPT>
+
+<SCRIPT LANGUAGE=JavaScript>
+function bin()
+	{
+	parse();
+	if (check())	numb.amount.value = "%"+num_value.toString(2);
+	}
+function dec()
+	{
+	parse();
+	if (check())	numb.amount.value = num_value.toString();
+	}
+function hex()
+	{
+	parse();
+	if (check())	numb.amount.value = "$"+num_value.toString(16);
+	}
+function parse()
+	{
+	temp = this.numb.num.value.slice(0,1);
+	if (temp=="%" || temp=="$")	//strip "$" and "%";
+		{number=this.numb.num.value.slice(1,99);}
+		else
+		{number=this.numb.num.value;}
+	if (temp=="%")	//is it binary?
+		{
+		num_value = parseInt(number,2);
+		return num_value;	//exit here
+		}
+	if (temp=="$")
+		{
+		num_value = parseInt(number,16);
+		return num_value;	//exit here
+		}
+	else		//must be decimal
+		{
+		num_value = parseInt(number);
+		return num_value;	//exit here
+		}
+	}
+function check()
+	{
+	temp=this.numb.num.value.slice(0,1);
+	if (temp=="%" || temp=="$")	//strip "$" and "%"
+		{number=this.numb.num.value.slice(1,99);}
+		else
+		{number=this.numb.num.value;}
+	if (temp=="%")
+		{
+		for (place=0; place<number.length; place++)
+			{
+			if (number.substr(place,1)=="1" || number.substr(place,1)=="0")
+				{}
+				else
+				{
+				numb.amount.value="";
+				wrong =	"Binary numbers must contain a " +
+					"'%' followed by either 1's or 0's." +
+					"\n\nExample: %10010000, %001, %11111111";
+				alert(wrong);
+				return false;
+				}
+			}
+		}
+	if (temp=="$")
+		{
+		for (place=1; place<number.length; place++)
+			{
+			x=number.substr(place,1);
+			if (x=="a"||x=="b"||x=="c"||x=="d"||x=="e"||x=="f"||x=="1"||x=="2"||x=="3"||x=="4"||x=="5"||x=="6"||x=="7"||x=="8"||x=="9"||x=="0"||x=="A"||x=="B"||x=="C"||x=="D"||x=="E"||x=="F")
+					/*if someone finds a better way of doing the
+					 above line, please tell me: malcolmj1@juno.com*/
+				{}
+				else
+				{
+				numb.amount.value="";
+				wrong =	"Hexadecimal numbers must contain a " +
+					"'$' followed by either 'A'-'F', 'a'-'f', or '0'-'9'." +
+					"\n\nExample: $af, $1f, $0e";
+				alert(wrong);
+				return false;
+				}
+			}
+		}
+	if (temp=="$" || temp=="%")
+		{}
+		else 
+		{
+			for (place=1; place<number.length; place++)
+				{
+				x=number.substr(place,1);
+				if (x=="1"||x=="2"||x=="3"||x=="4"||x=="5"||x=="6"||x=="7"||x=="8"||x=="9"||x=="0")
+						/*if someone finds a better way of doing the
+						 above line, please tell me: malcolmj1@juno.com*/
+					{}
+					else
+					{
+					numb.amount.value="";
+					wrong =	"Decimal numbers must only " +
+						"digites 1 to 9." +
+						"\n\nExample: 23, 255, 100, 1";
+					alert(wrong);
+					return false;
+					}
+				}
+		}
+	return true;
+	}
+</SCRIPT>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD><form NAME=numb>
+		<input type=text NAME=num size=10 onLoad="focus()">
+		<input type=button value="bin" onclick="bin()">
+		<input type=button value="dec" onclick="dec()"> 
+		<input type=button value="hex" onclick="hex()">
+		<input type=text readonly NAME=amount size=10>
+</TABLE>
+
+<P><A HREF="JavaScript:window.close()">Close Window</A>.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

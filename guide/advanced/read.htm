@@ -1,0 +1,149 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Reading Keypresses from Port");</SCRIPT>
+
+<UL>
+	<LI><A HREF="#chec">Checking Keys</A>
+	<LI><A HREF="#keys">Bitmask Chart</A>
+</UL>
+
+The problem with <CODE>call _getkey</CODE> is that it only gives the value of the
+key last pressed and only that key. If you had [2] and [ENTER] pressed
+at the same time, if would return 0 in <CODE>a</CODE>. That's not good
+sometimes.
+
+<A NAME="chec"><H2>Checking Keys</H2>
+Another way of getting the keypresses is to read them directly
+from the keyport. You can read later about <A HREF="allp.htm">All
+the Ports</A> and how the <A HREF="../beginner/z80p.htm">z80</A> uses
+them. They are numbered with the keyport being
+number 1.) We kinda need to send a byte out through the port and
+then wait a second before reading what was returned.
+
+<P>We use the <A HREF="#keys">chart below</A>
+to determine the values returned. The byte sent is a bit mask and is
+to the left of the chart in the respective row to the key you want to check
+for. If you wanted to check for the [ALPHA] being pressed, you would send
+<CODE>%10111111</CODE> through the port, get it back, and check if bit 7 were set
+(<I>not</I> being pressed now) or reset (being pressed now).
+
+<P>This is only to detect what keys are being held down <I>currently</I> whereas
+<A HREF="../intermediate/_getkey.htm">GetKey</A> checked what the last
+key pressed was.
+
+<P>Let's make a loop that won't exit unless
+[ALPHA] is pressed. The program will then branch
+(<A HREF="../beginner/inst.htm#jr">jump</A>) if so.
+
+<PRE>key_port	=1		;number of key's port
+check_for_alpha:
+	ld a,%11011111		;load the bit mask so port 1 knows
+				; which row to check from
+				; table
+	out (key_port),a	;send out the bit mask 
+	nop			;no operation so there's some time
+	nop			; to get a result back*
+	in a,(key_port)		;get back the results
+	bit 7,a			;[alpha]'s position
+	jr z,alpha_held_down_now
+	jr check_for_alpha</PRE>
+
+<P CLASS=clsFootnote>* Most people say you need these nop's...but in my experience
+they don't do jack.</P>
+
+<P>You can download the <A HREF="../download/multikey.asm">MultiKey.asm</A> key-test
+program to see how to use this with many other keys.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="keys"><H2>Bitmask Chart</H2>
+Whenever you start using the key port, have this chart handy. It tells you the
+request value (bit mask) for the row of keys you want to check. Upon return,
+check the certain key's bit to see if it is set (<I>not</I> pressed now) or reset
+(pressed now).
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Bitmask
+		<TD WIDTH="10%">Bit 7
+		<TD WIDTH="10%">6
+		<TD WIDTH="10%">5
+		<TD WIDTH="10%">4
+		<TD WIDTH="10%">3
+		<TD WIDTH="10%">2
+		<TD WIDTH="10%">1
+		<TD WIDTH="10%">0
+	<TR>	<TD CLASS=header>%10111111
+		<TD>More
+		<TD>Exit
+		<TD>2<sup>nd</sup>
+		<TD>F1
+		<TD>F2
+		<TD>F3
+		<TD>F4
+		<TD>F5
+	<TR>	<TD CLASS=header>%11011111
+		<TD>Alpha
+		<TD>Graph
+		<TD>Log
+		<TD>Ln
+		<TD>x<sup>2</sup>
+		<TD>,
+		<TD>Sto
+		<TD>
+	<TR>	<TD CLASS=header>%11101111
+		<TD>x-Var
+		<TD>Table
+		<TD>Sin
+		<TD>EE
+		<TD>7
+		<TD>4
+		<TD>1
+		<TD>0
+	<TR>	<TD CLASS=header>%11110111
+		<TD>Del
+		<TD>Prgm
+		<TD>Cos
+		<TD>(
+		<TD>8
+		<TD>5
+		<TD>2
+		<TD>.
+	<TR>	<TD CLASS=header>%11111011
+		<TD>
+		<TD>Custom
+		<TD>Tan
+		<TD>)
+		<TD>9
+		<TD>6
+		<TD>3
+		<TD>(-)
+	<TR>	<TD CLASS=header>%11111101
+		<TD>
+		<TD>Clear
+		<TD>^
+		<TD>/
+		<TD>*
+		<TD>-
+		<TD>+
+		<TD>Enter
+	<TR>	<TD CLASS=header>%11111110
+		<TD>
+		<TD>
+		<TD>
+		<TD>
+		<TD>Up
+		<TD>Right
+		<TD>Left
+		<TD>Down
+</TABLE>
+
+<P>One thing to think about in games is to clear
+the key buffer right before exiting your
+program. This way, if your program was run
+from a shell, it won't exit the shell too.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

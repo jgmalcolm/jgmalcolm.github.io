@@ -1,0 +1,405 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Text Display");</SCRIPT>
+<UL>
+	<LI><A HREF="#curs">Big Font</A>
+	<LI><A HREF="#vari">Variable Width Font</A>
+	<LI><A HREF="#opti">Font Options</A>
+</UL>
+
+Text is an important part in any program, used to communicate with the user. There
+are three types of text you can use on the TI86. Two of them are built into the
+calculator. The third is called <A HREF="..\advanced\font.htm">User Font</A>.
+The two types of built in font are the regular 5x7 pixel
+characters (big size font) and the variable width (menu size font) 6 pixel high
+font. Different routines are used for each size font.
+
+<H2><A NAME=curs>Big Font</H2>
+Both fonts use cursor coordinates to put text at various locations, like
+<CODE>Outpt(<I>row</I>,<I>column</I>,<I>string</I>)</CODE> in TI-BASIC. But in asm,
+you can't use arguments like that; you've got to store the row number
+in one memory designated area and the column number in another designated
+area. Before you put a character (letter) on the screen, you have to
+load the coordinates of where you want the string to be printed at into
+those memory locations, or else the letters will be printed at the
+current values stored there. These memory addresses, along with
+all other ROM call addresses and cursor coordinate memory addresses are
+all defined in <A HREF="..\download\ti86asm.inc">ti86asm.inc</A> which
+should just about always be included in your source files.
+
+<PRE>_curRow		=$c00f
+_curCol		=$c010</PRE>
+
+<P>The coordinates are set up according to the following representation
+of the TI86's screen. The top left would be Row 0, Column 0. The
+bottom left would be Row 7, Column 0. Each big character is the
+same width across (5 pixels and then a pixel space between
+characters).
+
+<P><TABLE ALIGN=CENTER class="screen">
+	<TR>	<TD class="screen" align="left">(0,0)
+		<TD class="screen" align="right">(20,0)
+	<TR>	<TD class="screen" height="100" WIDTH="100">
+	<TR>	<TD class="screen" align="left">(0,7)
+		<TD class="screen" align="right">(20,7)
+</TABLE>
+
+<P>After you've loaded the cursor position into the above memory coordinates
+you load the letter, character, you want displayed into <CODE>a</CODE>. Then
+you can call the text display routine of your choice for displaying
+a letter. There are two:
+
+<H3>_PutMap</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints one letter at the cursor position and
+		does not advance the cursor.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>A</CODE> is the character to be printed.
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>A</CODE> is printed on the screen in its ASCII
+		equivolent and the cursor position is still the same.
+</TABLE>
+
+<A NAME="putc"><H3>_PutC</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints one letter at the cursor position and
+		advances the cursor.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>A</CODE> is the character to be printed.
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>A</CODE> is printed on the screen in its ASCII
+		equivolent and moves cursor position one to the
+		right. If this is past the end of the row, the cursor
+		coordinates are advanced to the start of the next row
+		down. The screen is scrolled up if needed.
+</TABLE>
+
+<P>Here's two examples of printing text using each of the above
+ROM calls. The first prints the letter <CODE>M</CODE> on row 4, column 8 and
+does not advance the cursor position. The second prints the
+question mark (<CODE>?</CODE> or <CODE>Lquestion</CODE>) and on row 2,
+column 20 and advances the cursor position to row 3, column 0 because
+that was the end of the line.
+
+<PRE>	ld a,'M'		;character to print
+	ld hl,(256*8)+4		;row 4, col 8
+	ld (_curRow),hl		;loads l into _curRow
+				; and h into _curCol
+				; (most significant byte
+				; is stored first in mem)
+	jp _putmap		;print it and return</PRE>
+
+<PRE>	ld a,Lquestion		;character to print
+				;this is the equate
+				; defined in ti86asm.inc
+	ld hl,(256*20)+2	;row 2, col 20
+	ld (_curRow),hl		;loads l into _curRow
+				; and h into _curCol
+				; (most significant byte
+				; is stored first in mem)
+	jp _putc		;print it and return</PRE>
+
+<P><A NAME="stri">Now that you know how to put a single character on the screen, it's
+time to move on to bunches of them at once. A bunch of letters or
+characters, one right after the other, is called a string of
+characters. There are two types of strings used with the
+TI86: zero-terminated and length-indexed.
+
+<P>Zero-terminated, or sometimes called null-terminated, strings
+are a bunch of letters and then a <CODE>$00</CODE> to tell the routine to stop
+displaying the letters. <CODE>$00</CODE> was used because the character <CODE>$00</CODE> is not
+used often.
+
+<P>Length-indexed strings have a byte in front of all the
+letters telling the routine how many letters follow. This leading byte
+value has a limit of 255 because it's 8 bits, so the string can only
+be up to 255 letters. The zero-terminated strings can be as long
+as you want them. I prefer to use zero-terminated strings becuase
+I hate counting how many letters are in the string. Check out the
+<A HREF="..\advanced\asse.htm">Assembler Directives</A> section to
+see the different ways you can use
+<A HREF="../advanced/asse.htm#db"><CODE>.db</CODE></A> and
+<A HREF="../advanced/asse.htm#text"><CODE>.text</CODE></A>. Here are some
+examples of both types of strings.
+
+<PRE>	.db "Stupid",0		;zero-terminated
+	.db "La..La..La..",0	;zero-terminated
+	.text "La..La..La.."	;zero-terminated
+	.db 10,"Mea Culpa."	;length-indexed
+	.db 5,"xStat"		;length-indexed
+	.db 4,'a',Lcomma,"zz"	;length-indexed</PRE>
+
+<P>There are two routines, <CODE>_PutS</CODE> and <CODE>_PutPS</CODE>, especially for
+zero-terminated strings and length-indexed strings respectfully.
+
+<H3>_PutS</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints a string of characters until it
+		encounters <CODE>$00</CODE>.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>hl</CODE> holds the address of the string
+		to print.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>hl</CODE> holds address of byte after $00.
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>hl</CODE> string is printed on the screen in its
+		ASCII equivolent. The cursor coordinates are updated to
+		the position after the last character of the string that
+		was displayed. The carry flag is set if the entire string
+		was able to be displayed, or reset if the string ran off
+		the edge of the screen. The string does not disappear off
+		the edge of the screen. It is simply wrapped around to the
+		beginning of the next line. The screen is scrolled up
+		if needed.
+</TABLE>
+
+<H3>_PutPS</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints a string of characters whose length
+		is determined by the leading byte.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>hl</CODE> holds the address of the string
+		to print.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>hl</CODE> holds address of byte after $00. <CODE>A</CODE>
+		holds the last character printed. <CODE>B</CODE> is $00.
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>hl</CODE> string is printed on the screen in its
+		ASCII equivolent. The cursor coordinates are updated to
+		the position after the last character of the string that
+		was displayed. The carry flag is set if the entire string
+		was able to be displayed, or reset if the string ran off
+		the edge of the screen. The string does not disappear off
+		the edge of the screen. It is simply wrapped around to the
+		beginning of the next line. The screen is scrolled up
+		if needed.
+</TABLE>
+
+<P>Here's two examples of printing text using each of the above
+ROM calls. The first uses <CODE>_PutS</CODE> to print the string "This is
+stupid!" on row 0, column 7. The second uses <CODE>_PutPS</CODE> to put the
+string "Stupid" on row 7, column 4.
+
+<PRE>	ld hl,(256*7)+0		;row 0, col 7
+	ld (_curRow),hl		;loads l into _curRow
+				; and h into _curCol
+	ld hl,stupid_string	;string to print
+	jp _puts		;print it and return
+stupid_string:	.db "This is stupid!",0
+				;zero terminated</PRE>
+
+<PRE>	ld hl,stupid_string	;string to print
+	ld bc,(256*7)+0		;row 0, col 7
+	ld (_curRow),bc		;loads c into _curRow
+				; and b into _curCol
+	jp _putps		;print it and return
+stupid_string:	.db 6,"Stupid"	;length indexed</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=vari>Variable Width Font</H2>
+Variable width font, also called menu size font, functions much the
+same as the big font. You load the coordinates and call the routines. Like
+the big font, menu size font has its own routines for displaying. You load
+the coordinates into the following addresses defined in
+<A HREF="..\download\ti86asm.inc">ti86asm.inc</A> which
+should just about always be included in your source files. A difference
+between this and the big font is that the coordinates are the other
+way around in memory. Big font has <CODE>_curRow</CODE> and then <CODE>_curCol</CODE>, while
+menu text has <CODE>_penCol</CODE> and then <CODE>_penRow</CODE>.
+
+<PRE>_penCol		=$c37c
+_penRow		=$c37d</PRE>
+
+<P>The coordinates are set up much like the big font's except there is
+a greater choice because the text is smaller. The coordinates are
+measured in pixels. Remember that this font is called variable
+width font because the widths of characters differ. The coordinates
+are set up according to the following representation
+of the TI86's screen. The top left would be row 0, column 0. The
+bottom left would be Row 63, Column 0.
+
+<P><TABLE ALIGN=CENTER class="screen">
+	<TR>	<TD class="screen" align="left">(0,0)
+		<TD class="screen" align="right">(127,0)
+	<TR>	<TD class="screen" height="100" WIDTH="100">
+	<TR>	<TD class="screen" align="left">(0,63)
+		<TD class="screen" align="right">(127,63)
+</TABLE>
+
+<P>After you've loaded the cursor position into the above memory coordinates
+you load the letter, character, you want displayed into <CODE>a</CODE>. Then
+you can call the text display routine of your choice for displaying
+a letter or string. Note that when you use the big font, the text will
+wrap around to the next line if it goes over. This is not the case in menu
+size font. It will go over the edge of the screen. Only will a letter be
+displayed if the whole thing fits on the screen. Here are the routines
+used. I won't go into detail about the differences between strings and letters
+because you can read above in the big font section.
+
+<H3>_VPutMap</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints one menu text size letter at the
+		menu text cursor position and does not advance
+		the cursor.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>A</CODE> is the character to be printed.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>af, de</CODE>, and <CODE>ix</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>A</CODE> is printed on the screen in its ASCII
+		equivolent in menu text and the cursor position
+		is still the same. The carry flag is set if the
+		letter wouldn't fit on the line.
+</TABLE>
+
+<H3>_VPutS</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints a string of characters until it
+		encounters $00.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>hl</CODE> holds the address of the string
+		to print.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>hl</CODE> holds address of byte after $00. <CODE>A</CODE>
+		holds the last character displayed.
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>hl</CODE> string is printed on the screen in its
+		ASCII equivolent. The cursor coordinates are updated to
+		the position after the last character of the string that
+		was displayed whether they are valid (on the screen) or
+		invalid (off the edge of the screen) coordinates. The
+		carry flag is set if the entire string
+		was able to be displayed, or reset if the string ran off
+		the edge of the screen.
+</TABLE>
+
+<H3>_VPutPS</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Prints a string of characters whose length
+		is determined by the leading byte.
+	<TR>	<TD CLASS=header>Inputs
+		<TD><CODE>hl</CODE> holds the address of the string
+		to print.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>hl</CODE> holds address of byte after $00. <CODE>A</CODE>
+		holds the last character printed. <CODE>B</CODE> is $00.
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>hl</CODE> string is printed on the screen in its
+		ASCII equivolent. The cursor coordinates are updated to
+		the position after the last character of the string that
+		was displayed whether they are valid (on the screen) or
+		invalid (off the edge of the screen) coordinates. The
+		carry flag is set if the entire string
+		was able to be displayed, or reset if the string ran off
+		the edge of the screen.
+</TABLE>
+
+<P>Here are some examples of using the above routines.
+
+<PRE>	ld hl,stupid_string	;string to print
+	ld bc,256*8+4		;column 4, row 8
+	ld (_penCol),bc		;loads c into _penCol
+				; and b into _penRow
+	jp _vputs		;print it and return
+stupid_string:	.db "2+2=4",0	;string</PRE>
+
+<PRE>	ld hl,stupid_string	;string to print
+	ld bc,256*50+40		;column 40, row 50
+	ld (_penCol),bc		;loads c into _penCol
+				; and b into _penRow
+	call _vputps		;print it
+	ret			;return
+stupid_string:	.db 5,"2+2=4"	;string</PRE>
+
+<PRE>	ld a,$20		;character to print
+				;this in hexadecimal and
+				; is the same as
+				; "ld a,' '" or "ld a,32",
+				; or "ld a,Lspace"
+	ld bc,120+256*8		;column 120, row 8
+	ld (_penCol),bc		;loads c into _penCol
+				; and b into _penRow
+	jp _vputmap		;print it and return</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=opti>Font Options</H2>
+There are a few different ways you can display your text on the screen. You
+can turn on or off these options using the
+<A HREF="..\advanced\syst.htm">System Flags of TI-OS</A>. The basics of
+these system flags is that the options stored as bits in a byte. They are
+either on (set) or off (reset). The text printing routines store their
+option byte in a table with all the rest of TI-OS's flags. The table starts
+at <CODE>$c3e5</CODE> with the text flags being 5 bytes after the start
+(at offset 5). The TI86 keeps <CODE>iy</CODE> holding the address of the start of
+that table.
+
+<P>Let's say we wanted to turn on the option that prints white
+text with a black background, called Reverse Video Print or Inverse Video.
+We execute the following command to set that bit
+(<A HREF="..\beginner\numb.htm#bitp">bit 3</A>). The first line is the command
+with the aliases as defined in <A HREF="..\download\ti86asm.inc">ti86asm.inc</A>
+and the second line is with the actual numbers instead of aliases. The are
+both the same, either is perfectly acceptable; however, it is better to use
+the names for writing <A HREF="..\design\clea.htm">better code</A>.
+
+<PRE>	set textInverse,(iy+textFlags)	;write text on
+					; black background
+	set 3,(iy+5)</PRE>
+
+<P>To turn it off we do this:
+
+<PRE>	res textInverse,(iy+textFlags)	;normal black text on
+					; white background
+	res 3,(iy+5)</PRE>
+
+<P>Here is a table showing the bit offsets in the Text Flag Byte.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Bit
+		<TD>Bit Alias
+		<TD>Name
+		<TD>Description
+	<TR>	<TD>1
+		<TD>_textEraseBelow
+		<TD>Erase Line Below
+		<TD>When set it erases the line below the menu character
+		being printed.
+	<TR>	<TD>2
+		<TD>_textScrolled
+		<TD>Scroll
+		<TD>Will be set if the screen had to be scrolled
+		up during the last printing of big text.
+	<TR>	<TD>3
+		<TD>_textInverse
+		<TD>Inverse
+		<TD>When set, it prints white letters on a black
+		background; when it's reset, it prints the normal black
+		letters on a white background.
+</TABLE>
+
+<P>There is, however, another flag that is in the option byte at offset 24 from
+<CODE>iy</CODE> that tells the TI86 to either print the menu text on the graph
+screen of on the regular display. Set it to write to the display, reset
+it to write to the graph screen (plot screen).
+
+<PRE>	set textWrite,(iy+new_grf_flgs)	;write on display screen
+	res textWrite,(iy+new_grf_flgs)	;write on graph screen</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

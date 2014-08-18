@@ -1,0 +1,203 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<A NAME="top">
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Flags and Conditions");</SCRIPT>
+
+<UL>
+	<LI><A HREF="#zero">Zero Flag</A>
+	<LI><A HREF="#carry">Carry Flag</A>
+	<LI><A HREF="#cond">Conditions</A>
+</UL>
+
+<P>Where would we be without If/Then statements? They're
+called conditions in asm. There is no If command in asm.
+Don't worry though. We have what are called
+'flags'. Remember when I was telling you about the
+register pairs? Do you remember that <CODE>a</CODE> didn't have a
+partner? It does, and it's <CODE>f</CODE>. <CODE>Af</CODE> is the
+registered pair. The z80 has six flags on it total, which are
+represented in the <CODE>f</CODE> register as being either set (1) or
+reset (0). Remember that the <CODE>f</CODE> register contains the
+flags as bits. The most commonly used flags are the 'zero
+flag' and the 'carry flag', we will learn about
+the others later on.
+
+<A NAME="zero"><H2>Zero Flag</H2>
+The zero flag is used to show us
+whether the value of the indicated operation is zero: a subtraction
+resulted in a zero, a decriment ended up being zero, or there was zero
+difference between the two values compared.
+
+<P>For instance, when you have <CODE>$01</CODE> stored in
+<CODE>b</CODE> and perform <CODE>dec b</CODE>, the
+zero flag will be set because <CODE>b</CODE> has reached zero; but if <CODE>b</CODE>
+contains <CODE>$02</CODE> and you perform <CODE>dec b</CODE>, the zero flag will
+be reset because it will be at <CODE>$01</CODE> still.
+
+<P>Another example is when
+you have <CODE>$09</CODE> stored in <CODE>a</CODE> and you do
+a <CODE>cp $09</CODE>. The
+processor will subtract <CODE>$09</CODE> from <CODE>a</CODE> and set the zero flag
+because the answer is zero.
+
+<A NAME="carry"><H2>Carry Flag</H2>
+The carry flag tells us the resultant value was too big
+to be stored in the register.
+
+<P>When you perform a command that
+results in a 9 bit answer that can not be stored in the 8 bit
+register, the 9th bit is stored in the carry
+flag's spot on the <CODE>f</CODE> register. The carry flag is
+usually used in shift and rotate instructions which we will learn
+about later. 
+
+<P>These flags are either set or reset by either a comparison or
+a testing instructions. The flags will also remain set or reset
+until a new comparative instruction is executed, this means that
+you could have a comparative command, some code, and then the
+conditional branch (jump).
+
+<P>Here's a chart that compares the flag states to test operands
+in TI-BASIC considering you used:
+
+<PRE>	cp <I>arg1</I></PRE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header> ALIGN=CENTER>
+		<TD>Assembler
+		<TD>High Level
+	<TR>	<TD>Carry
+		<TD><I>arg1</I> >= <CODE>a</CODE>
+	<TR>	<TD>Zero
+		<TD><I>arg1</I> == <CODE>a</CODE>
+	<TR>	<TD>No Carry
+		<TD><I>arg1</I> < <CODE>a</CODE>
+	<TR>	<TD>No Zero
+		<TD><I>arg1</I> != <CODE>a</CODE>
+</TABLE>
+
+<P>The following chart* shows the
+relationships of the flags to different operations being
+performed.
+
+<P>Note: When the carry flag is set, the zero
+flag is also set.  This is not neccessarily the other way around too.
+
+
+<TABLE ALIGN=CENTER CLASS=info WIDTH="80%">
+	<TR CLASS=header>
+		<TD>
+		<TD><b>ZF
+		<TD><b>CF
+		<TD>
+	<TR>	<TD><PRE>ld a,255
+inc a<TD>ZF
+		<TD>CF
+		<TD>The answer is not zero but it is a nine bit answer. <CODE>A</CODE>
+		now contains %00000000.
+	<TR>	<TD><PRE>ld a,1
+dec a<TD>ZF
+		<TD>CF
+		<TD>We just decreased <CODE>a</CODE> by one which made it zero.
+	<TR>	<TD><PRE>ld a,$10<TD>
+		<TD>
+		<TD>Nothing happened with the flags because there was no
+		test instruction.
+	<TR>	<TD><PRE>ld a,1
+sub a<TD>ZF
+		<TD>NC
+		<TD>We 'subtracted' <CODE>a</CODE> from <CODE>a</CODE>. <CODE>A</CODE>
+		is now zero.
+	<TR>	<TD><PRE>ld hl, $def4
+add hl, hl<TD>ZF
+		<TD>CF
+		<TD>We went way over the limit (65535) for a word, but it's
+		still not zero.
+	<TR>	<TD><PRE>ld a,$40
+cp $41<TD>ZF
+		<TD>CF
+		<TD>We subtracted so much from <CODE>a</CODE> that it went under
+		zero to <CODE>-1</CODE> which in binary would be like
+		<CODE>%00111111 11111111</CODE>. That's too big to store in
+		<CODE>a</CODE>.
+	<TR>	<TD><PRE>ld a,$40
+cp $40<TD>ZF
+		<TD>NC
+		<TD>Hit zero but didn't set the carry flag.
+	<TR>	<TD><PRE>ld a,0
+dec a<TD>ZF
+		<TD>CF
+		<TD>Dec and inc do not set the carry flag even if a borrow
+		is needed. A is %11111111 now.
+</TABLE>
+
+<P CLASS=clsFootnote>* ZF stands for zero flag set, CF stands for carry flag set,
+NZ stands for zero flag reset, and NC stands for carry flag
+reset.</P>
+
+<A NAME="cond"><H2>Conditions</H2>
+Conditions are used in redirection commands. If the condition is true, then
+the processor goes the the specified address and starts
+executing code.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Syntax
+		<TD>Variations
+		<TD>Explaination
+	<TR>	<TD>jr <I>addr1</I>
+		<TD><PRE>jr z,<I>addr1</I>
+jr nz,<I>addr1</I>
+jr c,<I>addr1</I>
+jr nc,add1<TD>jump if zero flag set<BR>
+jump if zero flag reset<BR>
+jump if carry flag set<BR>
+jump if carry flag reset
+	<TR>	<TD>ret
+		<TD><PRE>ret z
+ret nz
+ret c
+ret nc<TD>ret if zero flag set<BR>
+ret if zero flag reset<BR>
+ret if carry flag set<BR>
+ret if carry flag reset
+	<TR>	<TD>jp <I>addr1</I>
+		<TD><PRE>jp z,<I>addr1</I>
+jp nz,<I>addr1</I>
+jp c,<I>addr1</I>
+jp nc,add1<TD>jump if zero flag set<BR>
+jump if zero flag reset<BR>
+jump if carry flag set<BR>
+jump if carry flag reset
+	<TR>	<TD>call <I>addr1</I>
+		<TD><PRE>call z,<I>addr1</I>
+call nz,<I>addr1</I>
+call c,<I>addr1</I>
+call nc,add1<TD>call if zero flag set<BR>
+call if zero flag reset<BR>
+call if carry flag set<BR>
+call if carry flag reset
+</TABLE>
+
+<P>Check out these branch jumps in action...
+<PRE>
+	ld a,69			;load a with number
+	cp 69			;is a equal to 69?
+	jr z,it_was_69		;it was 69!
+	jr nz,it_was_not_69	;wouldn't even
+				; need this
+				; because either
+				; the zero flag is
+				; set or not</PRE>
+You can also use other registers in checking.
+<PRE>	ld b,69			;number to check
+	ld a,69			;number to check against
+	cp b			;is a=b?
+	jr z,it_is		;they're both the same
+	jr nz,it_is_not		;it isn't</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

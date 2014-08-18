@@ -1,0 +1,242 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Design","The Design Process");</SCRIPT>
+
+<P>If you ever asked anyone whose made a successful
+game, they'll tell you it took months and maybe even
+a year to make the game. Nothing great comes easy
+or over night.
+
+<P>There is a process involved in making games. You
+first start with ideas and progress from there
+to demos and drafts, then the final edition.
+
+<P>This process is analogous to writing an essay. You
+brainstorm, outline, draft, and polish. You wouldn't
+go through all that for a two paragraph essay, would
+you? No, you reserve that process for larger papers.
+The same goes for games; this process is only applicable
+for programs 1,000 lines or more.
+
+<P>Don't limit yourself to these steps, they can
+be substituted or broken down. These are meant
+to be a rough guideline. You just shouldn't change
+the order drastically or skip <I>whole</I> steps.
+
+<OL>
+	<LI><A HREF=#brai>Brainstorming</A>
+	<LI><A HREF=#orga>Organizing</A>
+	<LI><A HREF=#code>Code Tree</A>
+	<LI><A HREF=#part>Partial Coding</A>
+	<LI><A HREF=#maki>Making the Game</A>
+	<LI><A HREF=#beta>Alphas/Betas/Demos</A>
+	<LI><A HREF=#fina>Polish and Release the Final</A>
+</OL>
+
+<H2><A NAME=brai>Brainstorming</H2>
+Walk away from the computer for this one. Get away from any
+existing computer games. Go to the beach, restuarant, park, or
+anywhere relaxing and quiet. You need to get away from
+existing computer games or you'll just be thinking of
+cloning them the whole time. You want something fresh and
+new. Bring a friend to bounce ideas off of.
+
+<P>Don't write anything down yet, atleast not specifics. Just
+play with ideas right now. The really good ones should stick
+in your head. That can be a test for what's good and what's
+not.
+
+<P>Brainstorming is where it all starts, the root of all good in your
+program, and the root of all fundamental flaws. Keep it
+simple at this point, you don't have paper to write
+stuff down on so you should only play with ideas. Think
+about what type of game you want, your target audience,
+the language you want to write it in (in this case asm),
+the time you have to complete the project, what ideas
+you want to convey on the player, what emotions you
+want to invoke in the player, etc.
+
+<P>Don't limit yourself. You can do anything you
+imagine through programs. All it takes is a little
+time and some hard work. The sky's the limit!
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=orga>Organization</H2>
+Get a bunch of 3x5 index cards for this one. Start
+writing your ideas on them, one-by-one. Write down
+the object of the game, pictures of the title
+screen, characters, plot lines, options, title,
+audience, type of game (Role Playing Game, Action,
+Adventure, Board, etc.), rules of the game, etc.
+
+<P>Put all those 3x5 cards in a pile. Sort them
+into broad catagories and keep narrowing those catagories
+down until you can't anymore. Bounce some of the
+ideas off someone else.
+
+<P>List the basic functions needed for each of those
+cards (<A HREF="../intermediate/spri.htm">Put Sprite</A>,
+<A HREF="../intermediate/pixe.htm">Plot Pixel</A>, draw
+<A HREF="../intermediate/tile.htm">Tile Maps</A>, display
+title screen, and so on).
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=code>Code Tree</H2>
+Start designing your main functions' layout with outlines, like
+you would with an essay. Use indentials for sub routines.
+Here's the main outline for my <A HREF="../download/tilegen.asm">Tile
+Generation Routine</A> found in the <A HREF="../intermediate/tile.htm">Tile Map</A> section.
+
+<PRE>draw 8 rows
+	draw 16 columns
+		draw sprite
+		increase column and repeat
+	increase row and repeat</PRE>
+
+<P>Keep going over your outlines, each time moving
+in one more echelon to get more specific. The more specific
+this is, the easier the actual <A HREF="#maki">game coding</A>
+is.
+
+<PRE>draw 8 rows
+	draw 16 columns
+		draw sprite
+			get value from level data
+			find sprite for that value
+			draw 8 rows of sprite
+				get byte from sprite image data
+				draw byte onto video memory
+				increase video memory to next row
+				increase sprite data by a byte
+				loop drawing of sprite
+		increase column and repeat
+	increase row and repeat</PRE>
+
+<P>From here, writing the actual assembler instructions is
+a snap! You can take a look at the
+<A HREF="../download/tilegen.asm">source</A> to see what this
+outline turned out to be.
+
+<P>Make sure that when you're writing the outline, not to get
+real deep into it too soon. Keep everything at the same level,
+then move one more indent into the depth of each level. Then
+again...
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=part>Partial Coding</H2>
+Take those notecards and start typing out the main routines
+in assembler. Start with the medium ones, the ones that
+don't look like a daunting task. If you hit the hardest ones
+first, you could loose interest in the project; the small
+ones just clutter up the place. Use
+<A HREF="../advanced/asse.htm#incl">include files</A> to keep everything
+sorted and separated. That way you don't have to scan through tons
+of code to get to the sprite routines or something. Separate
+them out into sprite bitmaps and rendering, title screen bitmap and
+rendering, key handlers, main loop, and so on.
+
+<P>This would be a good time to get a lot of the
+<A HREF="../intermediate/debu.htm">debugging</A> out of the way.
+Test these individual routines in demo programs all by
+themselves. Try to isolate errors by putting
+<A HREF="../intermediate/debu.htm#brea">break points</A>.
+
+<P>Take a look at the <A HREF="clea.htm">Clean Code Section</A>
+for tips on how to make this task easier. Here is where the rest
+of this <A HREF="../index.html">Guide</A> comes into play!
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=maki>Making the Game</H2>
+Start weaving together all those functions. This is where
+it gets tedious. Depending on how detailed you did the
+<A HREF="#code">Code Tree</A> and <A HREF="#part">Partial
+Coding</A>, this can be easy.
+
+<P>Remember to <A HREF="../intermediate/debu.htm">debug</A>
+as much as possible. The more little stuff you debug, the
+less your chances are of having a monster bug later.
+
+<P>Again, take a look at the <A HREF="clea.htm">Clean Code Section</A>
+because here is where the rest of this <A HREF="../index.html">Guide</A>
+comes into play!
+
+<P>Look for bottlenecks you can optimize. Try to cut down the size
+of the program as much as you can. While the TI86 has
+almost "infinite" memory available, people don't
+like to wait around for huge programs to transfer
+from calculator to calculator. You should always want
+to find the shortest and fastest way to do stuff
+in all your programs.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=beta>Alphas/Betas/Demos</H2>
+Choose five lucky individuals to test your new game. It is
+best that they have some programming experience but still
+be diverse among the game's targeted genre. It should be
+in some playable form with a preliminary manual and documentation
+completed. Don't have more than five people and make sure they
+don't release the game prematurely or disclose information
+on it. While gossip about a "game in the works" can bring
+mystery to your game's origins, it can also mean answering a
+lot of questions, losing the shock effect, or people losing
+interest in your unfinished project before they have a chance
+to see the full, bug-free version.
+
+<P>You can release a demo with the core game engine with
+no frills. This should center around basic game play, no options
+available.
+
+<P>Do <I>not</I> tell the testers <I>anything</I> about the game
+except maybe the title. Don't ask them any questions about
+any of their preferences that might trigger feelings before
+gameplay. These extra emotions can contaminate their
+reaction to the game. If you ask them a questions like
+"Do you like a lot of graphics in a game?", they will be
+on the look out for that while they are playing the game and may
+be more critical towards it altering their reactions. You
+want their unbiased opinion on the game, not what you
+discussed with them beforehand.
+
+<P>Schedule time to meet with these five Beta testers. Before
+you do so, develop a questionnaire for them. If you can't meet
+with these individuals, send them the questionnaire via email.
+Ask them questions about their overall reaction to the game?
+How did they like the graphics? Did they like the layout of the game?
+Were the keys easy to use? Did they like the characters?
+
+<P>Pool their answers and make changes accordingly. It's not
+too late to redesign things, you still haven't released it yet.
+If you do decide you need to redesign the interface or something,
+repeat this step with a new set of testers.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=fina>Polish and Release the Final</H2>
+After polishing your game for what seems like forever, "release"
+it. Don't really send it out, just put it away where it's out
+of sight and out of mind. Plan to come back to it in a month
+or two and re-play it. Design flaws you didn't notice before
+will become apparent. Fix them. You are <I>now</I> ready to
+really release it to the public.
+
+<P>Create a market for your game. If it has plug-ins, make
+a handful to get the market started. Be sure to include
+their source code and thorough documentation on how people
+can make their own. Maybe include some templates and
+tutorials for these. Finalize any level editors and their
+documentation. Release copies of it everywhere. Maybe
+start some gossip for it like codes and cheats.
+
+<P>Congratulations on your new game. I hope it and
+all subsequent versions are successful.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,607 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","_GetKey Codes");</SCRIPT>
+<UL>
+	<LI><A HREF="#prim">Primary Functions</A>
+	<LI><A HREF="#seco">Secondary Functions</A>
+	<LI><A HREF="#alph">Alpha Functions</A>
+	<LI><A HREF="#seal">Secondary-Alpha Functions</A>
+</UL>
+
+<P>This is a quick reference for you to look up what the call <CODE>_getkey</CODE>
+returns. <CODE>_Getkey</CODE> waits for a keypress and stores that key press
+into <CODE>a</CODE>. It handles user input for increasing contrast and breaking programs.
+It is not very useful for breaking out of assembly programs because it doesn't
+always work. Once <CODE>_getkey</CODE> is done, it has changed <CODE>a, de</CODE>,
+and <CODE>hl</CODE> from what they were originally.
+
+<P>All of these keys are <A HREF="../advanced/asse.htm#defi">defined</A> in the include
+file <A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A> contained in
+<A HREF="../download/includes.zip">includes.zip</A>. If you
+<A HREF="../advanced/asse.htm#incl">include</A> <CODE>ti86asm.inc</CODE>
+in your source file, you will be able to reference these keys by these
+names. This chart is really unnecessary except for a quick reference for spellings
+and group associations.
+
+<P>There are several repeated key codes, such as <CODE>kLeft</CODE>. It is on three
+of these four tables. The TI86 treats it the same for each of these
+cases. If you were to have the [ALPHA] key hit (so we're in the Alpha Function)
+and were to hit [Left], the scancode <CODE>$02</CODE> would be returned by
+<CODE>_getkey</CODE>. If you were to have hit [2nd],[ALPHA] instead of
+[ALPHA], it would have returned <CODE>$02</CODE> also. These both mean the
+same thing to TI-OS.
+
+<P>Some keys that aren't clearly defined by their equate name are as follows:
+<CODE>kChs</CODE> is [(-)](the negate sign), <CODE>kNext</CODE> is [MORE],
+<CODE>kBOL</CODE> means that the user wants to go to the beginning of
+the line, <CODE>kEOL</CODE> means that the user wants to go to
+the end of the line, and <CODE>kInv</CODE> is the reciprocal key above [EE].
+
+<P>You can download the program <A HREF="../download/keytest.asm">keytest.asm</A>
+to see which key codes are returned for which keys instead of just looking at these
+charts. It's easier to use the program to find the keycodes for a key which you
+know where it is on the keypad compared to looking it up on these tables.
+
+<P>When you're in a program such as <A HREF="../download/rascall.zip">Rascall</A>,
+you can scroll through the programs by hitting the arrow keys one at a time, or you
+can hold the arrow keys down to make it scroll through the choices real fast. This
+is called Key Repeat. <CODE>_Getkey</CODE> monitors if a key is being held
+down and returns that keycode as soon as the routine is called instead of polling
+for key presses all over again. <CODE>_Getkey</CODE> does this by checking the
+status of the <A HREF="../advanced/allt.htm#p0">Key Press</A> port (Port 0)
+to what it was last time <CODE>_getkey</CODE> was called. If it is the same,
+it will return the same keycode that it got before. This, however, can
+be disrupted when you use other ports, like to change <A HREF="memo.htm#ROM">ROM
+pages</A>.
+
+<P>Here's an example of how to use <CODE>_getkey</CODE> to find out when [ENTER] was
+pressed. Remember that <CODE>_getkey</CODE> won't return to your program until
+a key is pressed, any key, including [ON].
+
+<PRE>key_check_loop:
+	call _getkey		;wait for a keypress
+	cp kEnter		;is a=kEnter
+	jr z,enter_was_pressed	;it was...jump somewhere
+	jr key_check_loop	;it wasn't...repeat</PRE>
+
+<A NAME="prim"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD COLSPAN="8">Primary Functions
+	<TR>	<TD>kRight
+		<TD>$01
+		<TD>&nbsp
+		<TD>kStore
+		<TD>$16
+		<TD>&nbsp
+		<TD>kSin
+		<TD>$60
+	<TR>	<TD>kLeft
+		<TD>$02
+		<TD>&nbsp
+		<TD>kComma
+		<TD>$18
+		<TD>&nbsp
+		<TD>kCos
+		<TD>$62
+	<TR>	<TD>kUp
+		<TD>$03
+		<TD>&nbsp
+		<TD>kChs
+		<TD>$1a
+		<TD>&nbsp
+		<TD>kTan
+		<TD>$64
+	<TR>	<TD>kDown
+		<TD>$04
+		<TD>&nbsp
+		<TD>kDecPnt
+		<TD>$1b
+		<TD>&nbsp
+		<TD>kSquare
+		<TD>$66
+	<TR>	<TD>kEnter
+		<TD>$06
+		<TD>&nbsp
+		<TD>k0
+		<TD>$1c
+		<TD>&nbsp
+		<TD>kLn
+		<TD>$68
+	<TR>	<TD>kExit
+		<TD>$07
+		<TD>&nbsp
+		<TD>k1
+		<TD>$1d
+		<TD>&nbsp
+		<TD>kLog
+		<TD>$6a
+	<TR>	<TD>kClear
+		<TD>$08
+		<TD>&nbsp
+		<TD>k2
+		<TD>$1e
+		<TD>&nbsp
+		<TD>kCustom
+		<TD>$73
+	<TR>	<TD>kDel
+		<TD>$09
+		<TD>&nbsp
+		<TD>k3
+		<TD>$1f
+		<TD>&nbsp
+		<TD>kStat
+		<TD>$80
+	<TR>	<TD>kNext
+		<TD>$0b
+		<TD>&nbsp
+		<TD>k4
+		<TD>$20
+		<TD>&nbsp
+		<TD>kGrMenu
+		<TD>$81
+	<TR>	<TD>kAdd
+		<TD>$0c
+		<TD>&nbsp
+		<TD>k5
+		<TD>$21
+		<TD>&nbsp
+		<TD>kPrgm
+		<TD>$83
+	<TR>	<TD>kSub
+		<TD>$0d
+		<TD>&nbsp
+		<TD>k6
+		<TD>$22
+		<TD>&nbsp
+		<TD>kF1
+		<TD>$c2
+	<TR>	<TD>kMul
+		<TD>$0e
+		<TD>&nbsp
+		<TD>k7
+		<TD>$23
+		<TD>&nbsp
+		<TD>kF2
+		<TD>$c3
+	<TR>	<TD>kDiv
+		<TD>$0f
+		<TD>&nbsp
+		<TD>k8
+		<TD>$24
+		<TD>&nbsp
+		<TD>kF3
+		<TD>$c4
+	<TR>	<TD>kExpon
+		<TD>$10
+		<TD>&nbsp
+		<TD>k9
+		<TD>$25
+		<TD>&nbsp
+		<TD>kF4
+		<TD>$c5
+	<TR>	<TD>kLParen
+		<TD>$11
+		<TD>&nbsp
+		<TD>kEE
+		<TD>$26
+		<TD>&nbsp
+		<TD>kF5
+		<TD>$c6
+	<TR>	<TD>kRParen
+		<TD>$12
+		<TD>&nbsp
+		<TD>kVarX
+		<TD>$5c
+		<TD>&nbsp
+		<TD>&nbsp
+		<TD>&nbsp
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="seco"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD COLSPAN="8">Secondary Functions
+	<TR>	<TD>kBOL
+		<TD>$87
+		<TD>&nbsp
+		<TD>kSqrt
+		<TD>$67
+		<TD>&nbsp
+		<TD>kList
+		<TD>$7a
+	<TR>	<TD>kEOL
+		<TD>$88
+		<TD>&nbsp
+		<TD>kExp
+		<TD>$69
+		<TD>&nbsp
+		<TD>kVector
+		<TD>$7b
+	<TR>	<TD>kUp
+		<TD>$03
+		<TD>&nbsp
+		<TD>kALog
+		<TD>$6b
+		<TD>&nbsp
+		<TD>kConst
+		<TD>$7c
+	<TR>	<TD>kDown
+		<TD>$04
+		<TD>&nbsp
+		<TD>kMath
+		<TD>$6c
+		<TD>&nbsp
+		<TD>kMatrix
+		<TD>$7d
+	<TR>	<TD>kColon
+		<TD>$05
+		<TD>&nbsp
+		<TD>kCplx
+		<TD>$6d
+		<TD>&nbsp
+		<TD>kPoly
+		<TD>$7e
+	<TR>	<TD>kIns
+		<TD>$0a
+		<TD>&nbsp
+		<TD>kString
+		<TD>$6e
+		<TD>&nbsp
+		<TD>kSimult
+		<TD>$7f
+	<TR>	<TD>kLBrack
+		<TD>$13
+		<TD>&nbsp
+		<TD>kTest
+		<TD>$6f
+		<TD>&nbsp
+		<TD>kCalcu
+		<TD>$84
+	<TR>	<TD>kRBrack
+		<TD>$14
+		<TD>&nbsp
+		<TD>kConv
+		<TD>$70
+		<TD>&nbsp
+		<TD>kSolver
+		<TD>$85
+	<TR>	<TD>kRecall
+		<TD>$17
+		<TD>&nbsp
+		<TD>kChar
+		<TD>$71
+		<TD>&nbsp
+		<TD>kTable
+		<TD>$86
+	<TR>	<TD>kAng
+		<TD>$19
+		<TD>&nbsp
+		<TD>kBase
+		<TD>$72
+		<TD>&nbsp
+		<TD>kF6
+		<TD>$c7
+	<TR>	<TD>kAns
+		<TD>$5d
+		<TD>&nbsp
+		<TD>kVars
+		<TD>$74
+		<TD>&nbsp
+		<TD>kF7
+		<TD>$c8
+	<TR>	<TD>kPi
+		<TD>$5e
+		<TD>&nbsp
+		<TD>kCatalog
+		<TD>$75
+		<TD>&nbsp
+		<TD>kF8
+		<TD>$c9
+	<TR>	<TD>kInv
+		<TD>$5f
+		<TD>&nbsp
+		<TD>kQuit
+		<TD>$76
+		<TD>&nbsp
+		<TD>kF9
+		<TD>$ca
+	<TR>	<TD>kASin
+		<TD>$61
+		<TD>&nbsp
+		<TD>kLastEnt
+		<TD>$77
+		<TD>&nbsp
+		<TD>kF10
+		<TD>$cb
+	<TR>	<TD>kACos
+		<TD>$63
+		<TD>&nbsp
+		<TD>kLinkIO
+		<TD>$78
+		<TD>&nbsp
+		<TD>kMode
+		<TD>$82
+	<TR>	<TD>kTan
+		<TD>$65
+		<TD>&nbsp
+		<TD>kMem
+		<TD>$79
+		<TD>&nbsp
+		<TD>&nbsp
+		<TD>&nbsp
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="alph"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD COLSPAN="8">Alpha Functions
+	<TR>	<TD>kRight
+		<TD>$01
+		<TD>&nbsp
+		<TD>kF3
+		<TD>$c4
+		<TD>&nbsp
+		<TD>kCapM
+		<TD>$34
+	<TR>	<TD>kLeft
+		<TD>$02
+		<TD>&nbsp
+		<TD>kF4
+		<TD>$c5
+		<TD>&nbsp
+		<TD>kCapN
+		<TD>$35
+	<TR>	<TD>kUp
+		<TD>$03
+		<TD>&nbsp
+		<TD>kF5
+		<TD>$c6
+		<TD>&nbsp
+		<TD>kCapO
+		<TD>$36
+	<TR>	<TD>kDown
+		<TD>$04
+		<TD>&nbsp
+		<TD>kSpace
+		<TD>$27
+		<TD>&nbsp
+		<TD>kCapP
+		<TD>$37
+	<TR>	<TD>kEnter
+		<TD>$06
+		<TD>&nbsp
+		<TD>kCapA
+		<TD>$28
+		<TD>&nbsp
+		<TD>kCapQ
+		<TD>$38
+	<TR>	<TD>kExit
+		<TD>$07
+		<TD>&nbsp
+		<TD>kCapB
+		<TD>$29
+		<TD>&nbsp
+		<TD>kCapR
+		<TD>$39
+	<TR>	<TD>kClear
+		<TD>$08
+		<TD>&nbsp
+		<TD>kCapC
+		<TD>$2a
+		<TD>&nbsp
+		<TD>kCapS
+		<TD>$3a
+	<TR>	<TD>kDel
+		<TD>$09
+		<TD>&nbsp
+		<TD>kCapD
+		<TD>$2b
+		<TD>&nbsp
+		<TD>kCapT
+		<TD>$3b
+	<TR>	<TD>kNext
+		<TD>$0b
+		<TD>&nbsp
+		<TD>kCapE
+		<TD>$2c
+		<TD>&nbsp
+		<TD>kCapU
+		<TD>$3c
+	<TR>	<TD>kVarX
+		<TD>$5c
+		<TD>&nbsp
+		<TD>kCapF
+		<TD>$2d
+		<TD>&nbsp
+		<TD>kCapV
+		<TD>$3d
+	<TR>	<TD>kCustom
+		<TD>$73
+		<TD>&nbsp
+		<TD>kCapG
+		<TD>$2e
+		<TD>&nbsp
+		<TD>kCapW
+		<TD>$3e
+	<TR>	<TD>kStat
+		<TD>$80
+		<TD>&nbsp
+		<TD>kCapH
+		<TD>$2f
+		<TD>&nbsp
+		<TD>kCapX
+		<TD>$3f
+	<TR>	<TD>kGrMenu
+		<TD>$81
+		<TD>&nbsp
+		<TD>kCapI
+		<TD>$30
+		<TD>&nbsp
+		<TD>kCapY
+		<TD>$40
+	<TR>	<TD>kPrgm
+		<TD>$83
+		<TD>&nbsp
+		<TD>kCapJ
+		<TD>$31
+		<TD>&nbsp
+		<TD>kCapZ
+		<TD>$41
+	<TR>	<TD>kF1
+		<TD>$c2
+		<TD>&nbsp
+		<TD>kCapK
+		<TD>$32
+		<TD>&nbsp
+		<TD>kEqual
+		<TD>$15
+	<TR>	<TD>kF2
+		<TD>$c3
+		<TD>&nbsp
+		<TD>kCapL
+		<TD>$33
+		<TD>&nbsp
+		<TD>&nbsp
+		<TD>&nbsp
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="seal"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD COLSPAN="8">Secondary-Alpha Functions
+	<TR>	<TD>kRight
+		<TD>$01
+		<TD>&nbsp
+		<TD>kF3
+		<TD>$c4
+		<TD>&nbsp
+		<TD>km
+		<TD>$4e
+	<TR>	<TD>kLeft
+		<TD>$02
+		<TD>&nbsp
+		<TD>kF4
+		<TD>$c5
+		<TD>&nbsp
+		<TD>kn
+		<TD>$4f
+	<TR>	<TD>kUp
+		<TD>$03
+		<TD>&nbsp
+		<TD>kF5
+		<TD>$c6
+		<TD>&nbsp
+		<TD>ko
+		<TD>$50
+	<TR>	<TD>kDown
+		<TD>$04
+		<TD>&nbsp
+		<TD>kSpace
+		<TD>$27
+		<TD>&nbsp
+		<TD>kp
+		<TD>$51
+	<TR>	<TD>kEnter
+		<TD>$06
+		<TD>&nbsp
+		<TD>ka
+		<TD>$42
+		<TD>&nbsp
+		<TD>kq
+		<TD>$52
+	<TR>	<TD>kExit
+		<TD>$07
+		<TD>&nbsp
+		<TD>kb
+		<TD>$43
+		<TD>&nbsp
+		<TD>kr
+		<TD>$53
+	<TR>	<TD>kClear
+		<TD>$08
+		<TD>&nbsp
+		<TD>kc
+		<TD>$44
+		<TD>&nbsp
+		<TD>ks
+		<TD>$54
+	<TR>	<TD>kDel
+		<TD>$09
+		<TD>&nbsp
+		<TD>kd
+		<TD>$45
+		<TD>&nbsp
+		<TD>kt
+		<TD>$55
+	<TR>	<TD>kNext
+		<TD>$0b
+		<TD>&nbsp
+		<TD>ke
+		<TD>$46
+		<TD>&nbsp
+		<TD>ku
+		<TD>$56
+	<TR>	<TD>kVarX
+		<TD>$5c
+		<TD>&nbsp
+		<TD>kf
+		<TD>$47
+		<TD>&nbsp
+		<TD>kv
+		<TD>$57
+	<TR>	<TD>kCustom
+		<TD>$73
+		<TD>&nbsp
+		<TD>kg
+		<TD>$48
+		<TD>&nbsp
+		<TD>kw
+		<TD>$58
+	<TR>	<TD>kStat
+		<TD>$80
+		<TD>&nbsp
+		<TD>kh
+		<TD>$49
+		<TD>&nbsp
+		<TD>kx
+		<TD>$59
+	<TR>	<TD>kGrMenu
+		<TD>$81
+		<TD>&nbsp
+		<TD>ki
+		<TD>$4a
+		<TD>&nbsp
+		<TD>ky
+		<TD>$5a
+	<TR>	<TD>kPrgm
+		<TD>$83
+		<TD>&nbsp
+		<TD>kj
+		<TD>$4b
+		<TD>&nbsp
+		<TD>kz
+		<TD>$5b
+	<TR>	<TD>kF1
+		<TD>$c2
+		<TD>&nbsp
+		<TD>kk
+		<TD>$4c
+		<TD>&nbsp
+		<TD>kEqual
+		<TD>$15
+	<TR>	<TD>kF2
+		<TD>$c3
+		<TD>&nbsp
+		<TD>kl
+		<TD>$4d
+		<TD>&nbsp
+		<TD>&nbsp
+		<TD>&nbsp
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

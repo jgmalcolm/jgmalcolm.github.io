@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Two's Compliment");</SCRIPT>
+
+<P>To represent negative numbers in binary, there is something
+called the Two's Compliment. To make <CODE>a</CODE> (containing
+<CODE>%00000101</CODE> or <CODE>5</CODE>) into a negative number,
+you flip all the 1's to 0's and all the 0's to 1's
+(<CODE>%11111010</CODE> or <CODE>250</CODE>).
+But that's not all, you have to add one to get the final <CODE>-5</CODE>
+(<CODE>%11111011</CODE> or <CODE>251</CODE>). The processor
+adds <CODE>256</CODE> (<CODE>%1 00000000</CODE> or <CODE>$100</CODE>)
+to a number to store it as a negative. You will have your
+calculator's handy base conversion handy so you will only
+have to understand the basics of this. You will learn a command
+that does this for you with <CODE>a</CODE> later on.  Here's some code that
+will make the number in <CODE>a</CODE> negative.
+
+<PRE>	xor %11111111
+	inc a</PRE>
+
+<P>A command that you haven't learned about yet will do the flipping of
+all the bits for you: <A HREF="../intermediate/misc.htm"><CODE>cpl</CODE></A>.
+It does the same thing as <CODE>xor %11111111</CODE> with <CODE>a</CODE>.
+
+<PRE>	cpl
+	inc a</PRE>
+
+<P>There is yet another command that further simplifies this code by nagating
+the number in <CODE>a</CODE> for us:
+<A HREF="../intermediate/misc.htm"><CODE>neg</CODE></A>.
+
+<PRE>	neg</PRE>
+
+These are only neccessary at run-time (while the program is
+executing). Remember, though, that your assembler does support negative
+numbers. It will do all these calculations at assembly time.
+
+<PRE>	ld de,-400
+	ld a,-24
+	ld hl,-12</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

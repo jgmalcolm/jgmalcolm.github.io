@@ -1,0 +1,87 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Index, Shadow, and Other Registers");</SCRIPT>
+
+<P>So far you only know ,<CODE>af, bc, de,</CODE> and <CODE>hl</CODE> as
+registers.  Sometimes you probably run out of registers
+to use.  There are several others you can work with too
+but they have their limits.
+
+<UL>
+	<LI><A HREF=#index>Index Registers</A>
+	<LI><A HREF=#shadow>Shadow Registers</A>
+	<LI><A HREF=#other>Other Registers</A>
+</UL>
+
+<A NAME=index><H2>Index Registers</H2>
+Index Registers
+are register pairs and cannot be broken up to use as <CODE>i, y,</CODE>
+or <CODE>x</CODE>.  The <CODE>ix</CODE> register is free to use at any
+time.  It is used synonymously with <CODE>hl</CODE>.  The assembler
+just puts an extra byte in to tell the z80 that it is going
+to use <CODE>ix</CODE> in the next instruction instead of
+<CODE>hl</CODE>.  This slows down the speed a little and adds an
+extra byte so don't use it unless you have to.  The <CODE>iy</CODE> is
+usually holding the value for the beginning of a table for
+the <A HREF="syst.htm">System Flags for TI-OS</A>. Say you
+wanted to write <A HREF="../intermediate/text.htm#opti">inverse
+video</A>. You would type the following:
+
+<PRE>set textflags,(IY+textInverse)
+res textflags,(IY+textInverse)</PRE>
+
+<P>The first command sets the text to white on black and
+the second line resets it to the normal black on
+white. You can use <CODE>iy</CODE> and <CODE>ix</CODE> to make
+your own <A HREF="../intermediate/tabl.htm">tables and arrays</A>.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME=shadow><H2>Shadow Registers</H2>
+Shadow Registers are a whole other set of all
+the registers.  It's like pushing and popping all the
+registers.  This is useful and faster when you have a routine
+that destroys all the registers and you want to get them
+back later.  Instead of pushing and popping them all, you
+just switch them with the shadow registers.  You must
+disable interrupts by 'di' before using these.  Type
+this to switch out the registers:
+
+<PRE>ex af,af'	;switch af with it's shadow
+exx		;switch bc,de, and hl with their shadows</PRE>
+
+Do the same thing when you're done using them to get the original
+register values back.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME=other><H2>Other Registers</H2>
+Other Registers you can use are the <CODE>i</CODE> and <CODE>r</CODE>
+registers.  The <CODE>i</CODE> register is used with
+<A HREF="inte">interrupts</A>.
+It just holds the higher byte of the address
+that should be jumped to when an
+<A HREF="inte.htm">Interrupt</A> occurs.  The <CODE>r</CODE>
+register is called the Memory Refresh Register.  It is incremented
+after each instruction (sometimes twice) executed by the processor.  Bit 7 is
+never set though, so it has a maximum value of 127, I don't know why.
+
+<P>It is useful for low-quality <A HREF="../intermediate/rand.htm">random number</A>
+routines but if you use it a lot in a row, your
+numbers won't be so random because they will use, for example,
+1 and then use 2 and then use 3 and so on.  Here's an OK random
+number generator you can use that will have the above problem
+if used several times in a row.  It will return a number
+between 1 and 16.</p>
+
+<PRE>random_number:
+	ld a,r
+	and %00001111	;is now between 0 and 15
+	inc a			;is now between 1 and 16 
+	ret</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

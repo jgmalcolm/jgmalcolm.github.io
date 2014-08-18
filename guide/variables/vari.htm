@@ -1,0 +1,133 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","Variable Name Format");</SCRIPT>
+
+<P>The names of variables, as you've probably
+already discovered, can only be 8 letters long.  When we use the OP_
+Registers, we usually only use OP1 for names and variable
+manipulation.  Remember that the OP_ Registers are 11 bytes long.  The
+first byte is used for the type, the second byte is used for the length
+of the name (Length Indexed String), and the remaining bytes are used for
+the name.  I haven't really talked much about Length Indexed
+Strings.  Most strings are Zero Terminated which is easier to do, but some
+are Length Indexed.  See the <A HREF="../intermediate/text.htm#stri">Text
+Printing Section</A> for more details. Here's an example of both:
+
+<PRE>	.db "stupid",0	;zero terminated
+	.db 6,"stupid"	;length indexed (six letters long)</PRE>
+
+<P>Most of the variable manipulation uses the variables length indexed.  That
+makes them easier to use for tables and arrays, but don't worry about that
+just yet.  Here's a diagram of what the OP1 register would look like with
+a TI86 Program called "Stupid" stored in it.  The first row is the hexadecimal and the
+next is the TI86 character equivalent of the hexadecimal*.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD CLASS=header>Spot**
+		<TD>0<TD>1<TD>2<TD>3<TD>4
+		<TD>5<TD>6<TD>7<TD>8<TD>9<TD>10
+	<TR>	<TD CLASS=header>Hex
+		<TD>$12<TD>$06<TD>$53<TD>$74<TD>$75
+		<TD>$70<TD>$69<TD>$64<TD>$00<TD>$00<TD>$00
+	<TR>	<TD CLASS=header>ASCII
+		<TD><TD><TD>S<TD>t<TD>u<TD>p
+		<TD>i<TD>d<TD><TD><TD>
+</TABLE>
+
+<P>The last three bytes of OP1 are not used in this case.  That's because the
+TI86 already knows how long the string is because it is length indexed so
+it doesn't even have to go any further.  I just put those last bytes as $00
+because it really doesn't matter what they are set at, the TI86 doesn't even
+look at them.
+
+<P>The first byte (spot 0...OP1) is called the Type Byte.  This is where
+the TI86 stores what kind of variable this is.  In this case it is a Program
+which has a value of <CODE>$12</CODE>.  Below is a chart with the other values for
+all the other kinds of variables.
+
+<P CLASS=clsFootnote>* A '' means that I can't find a way to represent this
+character.  It also means that this is not important in ASCII, it's
+important in hexadecimal only, kinda.
+
+<P><P CLASS=clsFootnote>** The first spot (0) is at the address OP1+0 (or just OP1),
+the second spot is at the address OP1+1, the third spot is at the address
+OP1+2, etc.  You should get the picture.  The last byte (or the 11th byte)
+is in spot 10.
+
+<P><A NAME="type"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Type<TD>Type Name
+	<TR>	<TD>$00<TD>Real Number
+	<TR>	<TD>$01<TD>Complex Number
+	<TR>	<TD>$02<TD>Real Vector
+	<TR>	<TD>$03<TD>Complex Vector
+	<TR>	<TD>$04<TD>Real List
+	<TR>	<TD>$05<TD>Complex List
+	<TR>	<TD>$06<TD>Real Matrix
+	<TR>	<TD>$07<TD>Complex Matrix
+	<TR>	<TD>$08<TD>Real Constant
+	<TR>	<TD>$09<TD>Complex Constant
+	<TR>	<TD>$0a<TD>Equation
+	<TR>	<TD>$0b<TD>TI86 system use
+	<TR>	<TD>$0c<TD>String
+	<TR>	<TD>$0d<TD>Standard Graph Database
+	<TR>	<TD>$0e<TD>Polar Graph Database
+	<TR>	<TD>$0f<TD>Parametric Graph Database
+	<TR>	<TD>$10<TD>Differential Equation Graph Database
+	<TR>	<TD>$11<TD>Picture
+	<TR>	<TD>$12<TD>Program
+	<TR>	<TD>$13<TD>Conversion Factor
+	<TR>	<TD>$14 to $1f<TD>TI86 system use
+</TABLE>
+
+<P>Want some examples?
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Spot
+		<TD>1st Hex
+		<TD>1st ASCII
+		<TD>2nd Hex
+		<TD>2nd ASCII
+		<TD>3rd Hex
+		<TD>3rd ASCII
+		<TD>4th Hex
+		<TD>4th ASCII
+		<TD>5th Hex
+		<TD>5th ASCII
+	<TR>	<TD CLASS=header>0
+		<TD>$0c<TD><TD>$12<TD><TD>$00<TD><TD>$0a<TD><TD>$04<TD>
+	<TR>	<TD CLASS=header>1
+		<TD>$04<TD><TD>$06<TD><TD>$03<TD><TD>$08<TD><TD>$05<TD>
+	<TR>	<TD CLASS=header>2
+		<TD>$4a<TD>J<TD>$53<TD>S<TD>$48<TD>H<TD>$41<TD>A<TD>$78<TD>x
+	<TR>	<TD CLASS=header>3
+		<TD>$69<TD>i<TD>$74<TD>t<TD>$69<TD>i<TD>$73<TD>s<TD>$53<TD>S
+	<TR>	<TD CLASS=header>4
+		<TD>$6d<TD>m<TD>$75<TD>u<TD>$74<TD>t<TD>$73<TD>s<TD>$74<TD>t
+	<TR>	<TD CLASS=header>5
+		<TD>$69<TD>i<TD>$70<TD>p<TD>$00<TD><TD>$65<TD>e<TD>$61<TD>a
+	<TR>	<TD CLASS=header>6
+		<TD>$00<TD><TD>$69<TD>i<TD>$00<TD><TD>$6d<TD>m<TD>$74<TD>t
+	<TR>	<TD CLASS=header>7
+		<TD>$00<TD><TD>$64<TD>d<TD>$00<TD><TD>$6d<TD>b<TD>$00<TD>
+	<TR>	<TD CLASS=header>8
+		<TD>$00<TD><TD>$00<TD><TD>$00<TD><TD>$6c<TD>l<TD>$00<TD>
+	<TR>	<TD CLASS=header>9
+		<TD>$00<TD><TD>$00<TD><TD>$00<TD><TD>$65<TD>e<TD>$00<TD>
+	<TR>	<TD CLASS=header>10
+		<TD>$00<TD><TD>$00<TD><TD>$00<TD><TD>$00<TD><TD>$00<TD>
+</TABLE>
+<P CLASS=clsFootnote>A '' means the character is not the same on the computer
+as on the TI86.
+
+<P>The 1st variable is a String named <CODE>Jimi</CODE>, the 2nd variable is a Program
+named <CODE>Stupid</CODE>, the 3rd variable is a Real Number named <CODE>Hit</CODE>, the 4th
+variable is an Equation named <CODE>Assemble</CODE>, and the 5th variable is the
+standard normal Real List <CODE>xStat</CODE>.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

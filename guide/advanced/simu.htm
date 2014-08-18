@@ -1,0 +1,46 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<A NAME="top">
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Simulating Key Presses");</SCRIPT>
+
+<P>Just an idea as of now.
+
+<!--
+
+_Jforcekey                   equ        40A2h
+If you only want to simulate one key (upon exiting a program for example), do this:
+ ld a,kEnter
+ jp _jforcekey
+If you want to simulate a lot of them in a row, you have to set up a sqrtKEY program and return predefined values, which is a bit more complicated.
+=======
+_pushQueue = $4094
+.org _asm_exec_ram
+
+    ld a,'G'
+    call _pushQueue
+    ld a,'o'
+    call _pushQueue
+    ld a,' '
+    call _pushQueue
+    ld a,'a'
+    call _pushQueue
+    ld a,'w'
+    call _pushQueue
+    ld a,'a'
+    call _pushQueue
+    ld a,'y'
+    call _pushQueue
+    ld a,'!'
+    call _pushQueue
+    ret
+
+- -josh
+
+--!>
+
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,91 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Logical Operators");</SCRIPT>
+
+<P>You can easily manipulate
+the different bits in a register by using commands called logical
+operators. There are three main logical operators: <CODE>and</CODE>,
+<CODE>or</CODE>,<CODE>xor</CODE>. Each of these commands resets all
+the bits in <CODE>a</CODE> to <CODE>0</CODE>'s before it starts; however,
+<CODE>or</CODE> will add in what <CODE>a</CODE> was before execution.
+
+<UL>
+	<LI><A HREF="#and">and</A>
+	<LI><A HREF="#or">or</A>
+	<LI><A HREF="#xor">xor (exclusive or)</A>
+	<LI><A HREF="#effe">Effects</A>
+</UL>
+
+<A NAME="and"><H2>and</H2>
+<CODE>and <I>arg1</I></CODE>
+- <I>Arg1</I> must be either a register, a register pointing to a
+memory address, or a value. This sets the bits of <CODE>a</CODE> only
+if those bits are also set in <I>arg1</I>.
+
+
+<PRE>and h
+and a
+and %10001010</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="or"><H2>or</H2>
+<CODE>or <I>arg1</I></CODE>
+- <I>Arg1</I> must be either a register, a register pointing to a
+memory address, or a value. This sets the bits of <CODE>a</CODE> if
+those bits are set in either <I>arg1</I> or <CODE>a</CODE>.
+
+<PRE>or b
+or a
+or %10010011</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="xor"><H2>xor</H2>
+<CODE>xor <I>arg1</I></CODE>
+- <I>Arg1</I> must be either a register, a register pointing to a
+memory address, or a value. This sets the bits of <CODE>a</CODE> if
+they are only set in either <I>arg1</I> or <CODE>a</CODE> but not both.
+
+<PRE>xor a
+xor %10001101
+xor h</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="effe"><H2>Effects</H2>
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD CLASS=header>and
+		<TD><PRE>   a = %11001001
+<u><I>arg1</I> = %10101010</u>
+   a = %10001000
+		<TD><PRE>   a = %01001101
+<u><I>arg1</I> = %01010100</u>
+   a = %01000100
+		<TD><PRE>   a = %01001101
+<u><I>arg1</I> = %01010100</u>
+   a = %01000100<TR>	<TD CLASS=header>or
+		<TD><PRE>   a = %11001001
+<u><I>arg1</I> = %10101010</u>
+   a = %11101011
+		<TD><PRE>   a = %01001101
+<u><I>arg1</I> = %01010100</u>
+   a = %01011101
+		<TD><PRE>   a = %11001010
+<u><I>arg1</I> = %11001011</u>
+   a = %11001011
+	<TR>	<TD CLASS=header>xor
+		<TD><PRE>   a = %11001001
+<u><I>arg1</I> = %10101010</u>
+   a = %01100011
+		<TD><PRE>   a = %01001101
+<u><I>arg1</I> = %01010100</u>
+   a = %00011001
+		<TD><PRE>   a = %10010010
+<u><I>arg1</I> = %11010001</u>
+   a = %01000011
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,42 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Make a loop that will fill the first eight rows of the Video Memory
+		with <CODE>%11111111</CODE>.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld hl,$fc00		;address of start
+				; of video memory
+	ld b,$10*8		;do 8 rows (16
+				; bytes in each row)
+loop:
+	ld (hl),%11111111	;what to put at
+				; that address
+	djnz loop		;repeat until b=$00
+	<TR>	<TD CLASS=header>Error
+		<TD>We keep filling the same byte (the byte at $fc00) over and over again
+		with %11111111.  We need to increase hl (<CODE>inc hl</CODE>) so it points
+		to the next byte after each successive loop.
+		<P>Speed up the routine by preloading <CODE>a</CODE> with the value
+		to fill <CODE>(hl)</CODE> with before we start the loop.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld hl,$fc00		;start address of
+				; video memory
+	ld b,$10*8		;do 8 rows (16 bytes
+				; per row)
+	ld a,%11111111		;what to put at that
+				; address
+loop:
+	ld (hl),a		;load up that address
+	inc hl			;increase to next address
+	djnz loop		;repeat until b=$00
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

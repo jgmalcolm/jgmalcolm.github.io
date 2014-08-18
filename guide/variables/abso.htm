@@ -1,0 +1,430 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","Absolute Addressing");</SCRIPT>
+
+<P>We already went over previously how the TI86 switches in and out
+<A HREF="../intermediate/memo.htm">ROM and RAM Pages</A> so you can look back
+at that if you want to refresh yourself real quick.  Here is a chart that
+tells the equivalents of the Absolute Address Pointer (ABS) to the RAM Page
+with an 16 bit address (addressing using the register pairs: <CODE>de</CODE>,
+<CODE>bc</CODE>, <CODE>hl</CODE>, and <CODE>ix</CODE>).
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>24 Bit Address
+		<TD>RAM Page
+		<TD>16 Bit Address
+	<TR>	<TD>$0c000 to $0ffff
+		<TD>0
+		<TD>$c000 to $ffff
+	<TR>	<TD>$10000 to $13fff
+		<TD>1
+		<TD>$8000 to $bfff
+	<TR>	<TD>$14000 to $17fff
+		<TD>2
+		<TD>$8000 to $bfff
+	<TR>	<TD>$18000 to $1bfff
+		<TD>3
+		<TD>$8000 to $bfff
+	<TR>	<TD>$1c000 to $1ffff
+		<TD>4
+		<TD>$8000 to $bfff
+	<TR>	<TD>$20000 to $23fff
+		<TD>5
+		<TD>$8000 to $bfff
+	<TR>	<TD>$24000 to $27fff
+		<TD>6
+		<TD>$8000 to $bfff	
+	<TR>	<TD>$28000 to $2bfff
+		<TD>7
+		<TD>$8000 to $bfff
+</TABLE>
+
+<P>You don't really have to know this table.  It really isn't helpful in a
+program or anything.  I just thought I'd copy it down for you.  It's
+basically just to illustrate how the TI86's system of 24 bit (<CODE>ahl</CODE>
+or <CODE>bde</CODE>, absolute pointers) can be converted to a 16 bit (<CODE>hl</CODE>,
+<CODE>bc</CODE>, <CODE>de</CODE>, or <CODE>ix</CODE>, register pair pointers).  The TI86's
+own routines deal with this mainly.  One call that converts ABS <CODE>ahl</CODE>
+into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</A>.
+
+<P><TABLE ALIGN=CENTER class=info WIDTH="50%">
+	<TR CLASS=header><TD>Calls
+	<TR><TD><A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</A>
+	<TR><TD><A HREF="#_Conv_ahl">_Conv_ahl</A>
+	<TR><TD><A HREF="#_Set_ABS_Src_Addr">_Set_ABS_Src_Addr</A>
+	<TR><TD><A HREF="#_Set_ABS_Dest_Addr">_Set_ABS_Dest_Addr</A>
+	<TR><TD><A HREF="#_Set_MM_Num_Bytes">_Set_MM_Num_Bytes</A>
+	<TR><TD><A HREF="#_MM_Ldir">_MM_Ldir</A>
+	<TR><TD><A HREF="#_ABS_Mov10toOP1_NoSet">_ABS_Mov10toOP1_NoSet</A>
+	<TR><TD><A HREF="#_ABS_Mov10B">_ABS_Mov10B</A>
+	<TR><TD><A HREF="#_ABS_MovFrOP1">_ABS_MovFrOP1</A>
+	<TR><TD><A HREF="#_DataSize">_DataSize</A>
+	<TR><TD><A HREF="#_Inc_Ptr_ahl">_Inc_Ptr_ahl</A>
+	<TR><TD><A HREF="#_Inc_Ptr_ade">_Inc_Ptr_ade</A>
+	<TR><TD><A HREF="#_Inc_Ptr_bde">_Inc_Ptr_bde</A>
+	<TR><TD><A HREF="#_Dec_Ptr_ahl">_Dec_Ptr_ahl</A>
+	<TR><TD><A HREF="#_Dec_Ptr_ade">_Dec_Ptr_ade</A>
+	<TR><TD><A HREF="#_Dec_Ptr_bde">_Dec_Ptr_bde</A>
+	<TR><TD><A HREF="#_GetB_AHL">_GetB_AHL</A>
+	<TR><TD><A HREF="#_RAM_Page_1">_RAM_Page_1</A>
+	<TR><TD><A HREF="#_RAM_Page_7">_RAM_Page_7</A>
+	<TR><TD><A HREF="#_WriteB_Inc_ahl">_WriteB_Inc_ahl</A>
+	<TR><TD><A HREF="#_Cp_ahl_bde">_Cp_ahl_bde</A>
+	<TR><TD><A HREF="#_Ex_ahl_bde">_Ex_ahl_bde</A>
+	<TR><TD><A HREF="#_Get_Word_ahl">_Get_Word_ahl</A>
+	<TR><TD><A HREF="#_Set_Word_ahl">_Set_Word_ahl</A>
+	<TR><TD><A HREF="#_ahl_Plus_2_Pg3">_ahl_Plus_2_Pg3</A>
+</TABLE>
+
+<A NAME="_Load_RAM_ahl"><H3>_Load_RAM_ahl=$462f</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> CLASS=header> WIDTH="15%">Description
+		<TD>Converts ABS pointer <CODE>ahl</CODE> into RAM page and <CODE>hl</CODE> as
+		pointer (loads RAM page)
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - ABS pointer (24 bit)
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD>appropriate RAM page loaded<BR>
+		<CODE>hl</CODE> - address on that page according to <CODE>ahl</CODE>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Conv_ahl"><H3>_Conv_ahl=$4633</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> CLASS=header> WIDTH="15%">Description
+		<TD>Converts ABS pointer <CODE>ahl</CODE> into RAM page and <CODE>hl</CODE> as
+		pointer (does <I>not</I> load RAM page)
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - ABS pointer (24 bit)
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>a</CODE> - RAM page to load<BR>
+		<CODE>hl</CODE> - address on that page according to <CODE>ahl</CODE>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Set_ABS_Src_Addr"><H3>_Set_ABS_Src_Addr=$4647</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Copies <CODE>ahl</CODE> into _Abs_Src_Addr for use with block copies
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> is ABS pointer
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> is stored in _Abs_Src_Addr for use with block
+		copies
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Set_ABS_Dest_Addr"><H3>_Set_ABS_Dest_Addr=$5285</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Copies <CODE>ahl</CODE> into <CODE>_Abs_Dest_Addr</CODE> for use
+		with block copies
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> is ABS pointer
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> is stored in <CODE>_Abs_Dest_Addr</CODE> for use
+		with block copies
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Set_MM_Num_Bytes"><H3>_Set_MM_Num_Bytes=$464f</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Sets number of bytes to be copied in ABS block copies
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> is ABS pointer
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> is stored in <CODE>_MM_Num_Bytes</CODE>
+		for use with block copies
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_MM_Ldir"><H3>_MM_Ldir=$52ed</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Performs ABS pointer block copy like <CODE>ldir</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ABS_Src_Addr</CODE> - source to copy from<BR>
+		<CODE>ABS_Dest_Addr</CODE> - destination to copy to<BR>
+		<CODE>MM_Num_Bytes</CODE> - number of bytes to copy<BR>
+		Note: These are all setup using
+		<A HREF="#src">_Set_ABS_Src_Addr</A>,
+		<A HREF="#dest">_Set_ABS_Dest_Addr</A>, and
+		<A HREF="#num">_Set_MM_Num_Bytes</A>.
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>Abs_Src_Addr</CODE>, <CODE>Abs_Dest_Addr</CODE>,
+		<CODE>mm_num_bytes</CODE> - modified just like
+		<CODE>ldir</CODE> does in 16 bit block copies
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_ABS_Mov10toOP1_NoSet"><H3>_ABS_Mov10toOP1_NoSet=$5239</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Copy 10 bytes from ABS pointer in <CODE>_ABS_Src_Addr</CODE>
+		to <CODE>OP1</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>Abs_Src_Addr</CODE> - ABS pointer of where to copy from
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a</CODE> and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD>OP1 - a copy of the 10 bytes starting at
+		<CODE>Abs_Src_Addr</CODE>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_ABS_Mov10B"><H3>_ABS_Mov10B=$5249</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Move 10 bytes from ABS pointer in <CODE>_Abs_Src_Addr</CODE>
+		to ABS pointer in <CODE>_Abs_Dest_Addr</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>Abs_Src_Addr</CODE> - ABS pointer of where to copy from
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a</CODE> and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>Abs_Dest_Addr</CODE> - ABS pointer of where 10
+		bytes copied to
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_ABS_MovFrOP1"><H3>_ABS_MovFrOP1=$5245</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Move 10 bytes from <CODE>OP1</CODE> to the ABS pointer
+		in <CODE>_Abs_Dest_Addr</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD>ABS pointer in <CODE>_Abs_Dest_Addr</CODE> where to copy to<BR>
+		<CODE>OP1</CODE> - 10 bytes to copy
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a</CODE> and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD>ABS pointer in <CODE>_Abs_Dest_Addr</CODE> where copied to
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_DataSize"><H3>_DataSize=$477f</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>After performing <A HREF="_fin.htm">_FindSym</A>, use
+		it to find the variable's size.
+	<TR>	<TD CLASS=header>Input
+		<TD>The output of <A HREF="_fin.htm">_FindSym</A>
+		(like _Delvar=$475f).
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>c</CODE> - <A HREF="vari.htm#type">variable type</A><BR>
+		<CODE>de</CODE> - size of variable's data<BR>
+		carry cleared
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Inc_Ptr_ahl"><H3>_Inc_Ptr_ahl=$4637</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Increase the ABS pointer <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - the ABS pointer to increase
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE> (always <CODE>l</CODE>, sometimes <CODE>h</CODE>, rarely
+		<CODE>a</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> + 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<A NAME="_Inc_Ptr_ade"><H3>_Inc_Ptr_ade=$45ef</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Increase the ABS pointer <CODE>ade</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ade</CODE> - the ABS pointer to increase
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ade</CODE> (always <CODE>e</CODE>, sometimes <CODE>d</CODE>, rarely
+		<CODE>a</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ade</CODE>code> = <CODE>ade</CODE> + 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Inc_Ptr_bde"><H3>_Inc_Ptr_bde=$463F</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Increase the ABS pointer <CODE>bde</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>bde</CODE> - the ABS pointer to increase
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>bde</CODE> (always <CODE>e</CODE>, sometimes <CODE>d</CODE>, rarely
+		<CODE>b</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>bde</CODE> = <CODE>bde</CODE> + 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Dec_Ptr_ahl"><H3>_Dec_Ptr_ahl=$463b</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Decrease the ABS pointer <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - the ABS pointer to decrease
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE> (always <CODE>l</CODE>, sometimes <CODE>h</CODE>, rarely
+		<CODE>a</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> - 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Dec_Ptr_ade"><H3>_Dec_Ptr_ade=$46bf</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Decrease the ABS pointer <CODE>ade</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ade</CODE> - the ABS pointer to decrease
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ade</CODE> (always <CODE>e</CODE>, sometimes <CODE>d</CODE>, rarely
+		<CODE>a</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ade</CODE> = <CODE>ade</CODE> - 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Dec_Ptr_bde"><H3>_Dec_Ptr_bde=$4643</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Decrease the ABS pointer <CODE>ade</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ade</CODE> - the ABS pointer to decrease
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ade</CODE> (always <CODE>e</CODE>, sometimes <CODE>d</CODE>, rarely
+		<CODE>a</CODE>)
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ade</CODE> = <CODE>ade</CODE> - 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_GetB_AHL"><H3>_GetB_AHL=$46c3</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Gets the byte at ABS <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - where to get byte from
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a</CODE> and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>a</CODE> - byte at ABS <CODE>ahl</CODE><BR>
+		<CODE>hl</CODE> - converted <CODE>ahl</CODE> to 16 bit address
+		<CODE>hl</CODE> and correct <A HREF="../intermediate/memo.htm">RAM
+		page swapped</A>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_RAM_Page_1"><H3>_RAM_Page_1=$47e3</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Loads RAM page 1 (<A HREF="floa.htm">Floating
+		Point Stack</A>)
+	<TR>	<TD CLASS=header>Input
+		<TD>none
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD>RAM Page 1 <A HREF="../intermediate/memo.htm">swapped in</A>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_RAM_Page_7"><H3>_RAM_Page_7=$47f3</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Loads RAM page 7 (Variable Allocation Table)
+	<TR>	<TD CLASS=header>Input
+		<TD>none
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD>RAM Page 7 <A HREF="../intermediate/memo.htm">swapped in</A>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_WriteB_Inc_ahl"><H3>_WriteB_Inc_ahl=$5567</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Store a byte at ABS <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>c</CODE> - the byte to store<BR><CODE>ahl</CODE> - the ABS pointer
+		to where to store to
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE> is incremented just like
+		<A HREF="#iahl"><CODE>_Inc_Ptr_ahl</CODE></A>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>c</CODE> is stored at <CODE>ahl</CODE><BR>
+		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 1
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Cp_ahl_bde"><H3>_Cp_ahl_bde=$46c7</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Compare the bytes at <CODE>ahl</CODE> and <CODE>bde</CODE> much
+		like <A HREF="../beginner/inst.htm#cp"><CODE>cp</CODE></A>.
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> and <CODE>bde</CODE> are ABS pointers to the
+		byte being checked
+	<TR>	<TD CLASS=header>Destroys
+		<TD>none
+	<TR>	<TD CLASS=header>Output
+		<TD><A HREF="../beginner/flag.htm">Flags</A> set accordingly
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Ex_ahl_bde"><H3>_Ex_ahl_bde=$45f3</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Exchange the ABS pointers <CODE>ahl</CODE> and <CODE>bde</CODE> much
+		like <CODE>ex de,hl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> and <CODE>bde</CODE> are the ABS addresses to be
+		swapped around.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE> now is <CODE>bde</CODE><BR>
+		<CODE>bde</CODE> is now <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> now is <CODE>bde</CODE><BR>
+		<CODE>bde</CODE> is now <CODE>ahl</CODE>
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Get_Word_ahl"><H3>_Get_Word_ahl=$521d</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Get the word at ABS <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - where to get the two bytes from
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>de</CODE> and <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>de</CODE> = (<CODE>ahl</CODE>)<BR>
+		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_Set_Word_ahl"><H3>_Set_Word_ahl=$5221</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Load <CODE>de</CODE> into memory at <CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - where to set the two bytes
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD>(<CODE>ahl</CODE>) = <CODE>de</CODE><BR>
+		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
+</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="_ahl_Plus_2_Pg3"><H3>_ahl_Plus_2_Pg3=$4c3f</H3>
+<TABLE ALIGN=CENTER class=function>
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Increments <CODE>ahl</CODE> twice
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>ahl</CODE> - address to increment
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>ahl</CODE> is always two more
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

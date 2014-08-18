@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","_FindSym");</SCRIPT>
+
+<P>Once you have the name loaded into OP1 you can <CODE>call _FindSym</CODE>
+to get the TI86 to return all the information and locations of the variable
+whose name is in OP1.  Before calling <CODE>_FindSym</CODE>, you need to have OP1
+containing the variable name you want to find (case is sensitive) in Variable
+Name Format.  Once called, it will return: carry flag set if variable by that
+name doesn't exist, carry flag reset if variable exists, <CODE>a</CODE> is
+<A HREF="vari.htm#type">variable type</A>, OP1 will still contain the
+variable in Variable Name Format, <CODE>bde</CODE> will be an
+<A HREF="abso.htm">Absolute Address Pointer</A> to variable data, and
+<CODE>hl</CODE> will point to the address of the VAT entry of the variable.
+
+<H3>_FindSym=$46cb</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header>Description
+		<TD>Finds the variable with the name stored in OP1.
+	<TR>	<TD CLASS=header>Input
+		<TD>OP1 - case sensitive variable name in
+		<A HREF="vari.htm">Variable Name Format</A>. Note: You
+		can leave out the variable type byte, <CODE>_FindSym</CODE>
+		ignores it and just finds a variable with the same name.
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD>Carry reset - variable exists<BR>
+		Carry set - variable doesn't exist<BR>
+		<CODE>a</CODE> - variable type<BR>
+		OP1 - case sensitive variable name in Variable Name Format<BR>
+		<CODE>bde</CODE> - absolute address pointer to variable data<BR>
+		<CODE>hl</CODE> - address of the symbol table entry
+</TABLE>
+
+<P>Check out <CODE>_FindSym</CODE> in context...
+
+<PRE>find_variable:
+	ld hl,variable	;our variable's type and length
+			; indexed name
+	ld de,OP1	;where we want it to go
+	ld bc,11	;OP_'s are 11 bytes long
+	ldir		;(hl)->(de),dec bc,repeat till bc=0
+	jp _FindSym	;go find it and return
+variable:  .db $0c,$06,"Stupid"
+			;we don't need any more text
+			; after "Stupid" because the TI86
+			; will just ignore it anyway so we
+			; just copy whatever is after the
+			; string along with the type and
+			; length indexed string</PRE>
+
+<P>There is a call that will copy 10 bytes starting at <CODE>hl</CODE> into OP1:
+_Mov10toOP1. This is even shortened more by just putting
+<A HREF="../intermediate/rstc.htm"><CODE>rst 20h</A></CODE> instead
+of <CODE>call _Mov10toOP1</CODE>. So the above code would be 22 bytes
+(I'm counting <A HREF="../opcodes/opcodes.htm">opcodes</A>) whereas the
+below code, doing exactly the same thing, would only be 13 bytes.
+
+<PRE>find_variable:
+	ld hl,variable	;our variable's type and length
+			; indexed name
+	rst 20h		;same as 'call _Mov10toOP1'
+	rst 10h		;same as 'call _FindSym'
+	ret		;done so return
+variable:  .db $0c,$06,"Stupid"</PRE>
+
+<P>Remember that <CODE>_FindSym</CODE> ignores the type byte that
+the first byte of OP1 is holding.  We can put some trash in
+there...anything you want.  This can be to our advantage because
+we can have our routine copy the byte before our 'variable' storage
+area as the type; but we need to account for that when we're
+loading <CODE>hl</CODE> with the address of the name to be sure
+that it's copying starting one byte ahead of this label.  This is really
+confusing so try to think through our new optimized routine.
+
+<PRE>find_variable:
+	ld hl,variable-1
+			;address of one byte before
+			; 'variable' label
+	rst 20h		;same as 'call _Mov10toOP1'
+	rst 10h		;same as 'call _FindSym'
+	ret
+variable:  .db $06,"Stupid"
+			;just need the length and string
+			; now because we're using the byte
+			; infront of this as our type</PRE>
+
+<P>Our final draft of this routine is only 12 bytes long compared to the
+original that took up 22 bytes. Give me a second to do that higher
+math...1...4...2...we saved 10 bytes!  That may not mean much to you now but in a
+game, every byte counts...you'll appreciate it later, maybe.  (Those byte
+counts include the variable name which is 8 bytes in the first two examples
+and 7 bytes in the last example.)
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

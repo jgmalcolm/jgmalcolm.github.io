@@ -1,0 +1,135 @@
+		CUSTOM MENU POINTERS
+			by Benjamin Setton
+
+
+These are pointers for the CUSTOM Menu on the TI 86.
+See the file '86custom' by Andres Garcia to know how to set CUSTOM entries
+in ASM.
+
+You will define the options like this:
+
+Option1:
+	.db $45,$29,072h,052h,075h,06Eh,00,00,00,00,00
+		     x   S     p    e    e    d
+$45,$29 will set the pointer to CONV SPEED. I have listed the other
+values and their effects here.
+The file included is an example that will set Run as F4 and Speed as F5.
+For help, e-mail me at setton@alpes-net.fr
+
+
+
+$45,$00		CHAR
+$45,$01		CHAR MISC
+$45,$02		CHAR GREEK
+$45,$03		CHAR INTL
+
+$45,$04		MATH
+$45,$05		MATH NUM
+$45,$06		MATH PROB
+$45,$07		MATH ANGLE
+$45,$08		MATH HYP
+$45,$09		MATH MISC
+
+$45,$10		BOOLEAN
+$45,$11		BASE BIT
+
+$45,$12		LIST
+$45,$13		LIST OPS
+$45,$14		LIST
+
+$45,$15		TEST
+
+$45,$16		CPLX
+
+$45,$17		STRNG
+
+$45,$18		CONS
+$45,$19		CONS BLTIN
+$45,$20		CONS USER
+
+$45,$21		MATRX
+$45,$22		MATRX EDIT
+$45,$23		MATRX NAMES
+$45,$24		MATRX MATH
+$45,$25		MATRX OPS
+$45,$26		MATRX CPLX
+$45,$27		MATRX without the EDIT option
+
+$45,$28		PRGM
+$45,$29		PRGM NAMES (=RUN)
+
+$45,$30		GRAPH VARS
+$45,$31		GRAPH ZOOM
+$45,$32		GRAPH 
+
+$45,$33		DRAW
+
+$45,$34		STAT
+$45,$35		Some menu
+$45,$36		STAT EDIT NAMES
+$45,$37		id
+$45,$38		STAT CALC
+$45,$39		STAT VARS
+
+$45,$40		VARS or MEM DEL
+$45,$41		DISPLAYS NTL, Goes to GRAPH
+$45,$42		ZOOM
+$45,$43		GRAPH MATH
+$45,$44		GRAPH DRAW
+
+$45,$45		(POL) GRAPH
+$45,$46		(POL) GRAPH MATH
+$45,$47		(POL) GRAPH DRAW
+
+$45,$48		(PARAM) GRAPH
+$45,$49		(PARAM) GRAPH MATH
+
+$45,$50		GOTO/QUIT appears as the mother menu
+$45,$51		..../QUIT appears as the mother menu
+
+
+$45,$52		SIMULT (like after you've entered the number of varibles)
+$45,$53		SIMULT (like after you've solved)
+
+$45,$54		puts GRAPH Y= as the mother menu and exits to it
+$45,$55		puts (Pol) GRAPH Y= as the mother menu and exits to it
+$45,$56		puts (Param) GRAPH Y= as the mother menu and exits to it
+$45,$57		puts (DifEq) GRAPH Y= as the mother menu and exits to it
+
+$45,$58		VECTR EDIT
+$45,$59		puts ..../SOLVE as the mother menu and exits to it
+$45,$60		puts CONT/EXIT/... as the mother menu and exits to it
+$45,$61		puts RENAM/OVERW/SKIP/EXIT/. as the mother menu and exits to it
+$45,$62		puts EXIT/.... as the mother menu and exits to it
+$45,$63		puts SKIP/EXIT/... as the mother menu and exits to it
+$45,$64		EMPTY MENU
+$45,$65		GRAPH/WIND/ZOOM/TRACE/SOLVE effective keys
+$45,$66		EDIT/WIND/ZOOM/TRACE/SOLVE
+		EDIT and SOLVE send you to Solver, other keys effective
+$45,$67		puts ZOOM as the mother menu and exits to it
+$45,$68		GRAPH/EDIT/ZOOM/TRACE/.
+		EDIt send you to Solver, other keys effective
+$45,$69		EMPTY SUBMENU
+
+$45,$70		CONV AREA
+$45,$71		CONV VOL
+$45,$72		CONV TIME
+$45,$73		CONV TEMP
+$45,$74		CONV MASS
+$45,$75		CONV FORCE
+$45,$76		CONV PRESS
+$45,$77		CONV ENRGY
+$45,$78		CONV POWER
+$45,$79		CONV SPEED
+
+$45,$80		Puts PLOTS as the mother menu and exits to it
+$45,$81		STAT DRAW
+$45,$82		PLOT MARKS not usable
+$45,$83		Q/....
+$45,$84		PAGEDWN/PAGEUP/... effective
+
+$45,$85		TABLE
+$45,$86		(Pol) TABLE
+$45,$87		(Param) TABLE
+$45,$88		(DifEq) TABLE
+$45,$89		(DifEq) TABLE

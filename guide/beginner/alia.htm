@@ -1,0 +1,84 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Aliases");</SCRIPT>
+
+<P>Aliases are like AKA's. For example,
+<A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A>
+contains many common aliases which are used in your program and
+the <A HREF="../download/hey.asm">program below</A> uses them. Line 4 contains the phrase
+<CODE>call _clrLCD</CODE>. The assembler looks at
+<CODE>_clrLCD</CODE> and looks at
+<A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A> and sees
+that in <A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A>
+there is a line of code
+<CODE>_clrLCD =$4a7e</CODE> which tells the assembler to paste
+<CODE>$4a7e</CODE> wherever it encounters <CODE>_clrLCD</CODE>.
+
+<PRE>#include "ti86asm.inc"
+.org _asm_exec_ram
+
+	call _clrLCD	;line 4 - alias _clrLCD=$4a7e
+			;clears screen
+
+	call _homeup	;put cursor at top left of
+			; screen
+
+	ld hl,text_to_print
+			;load hl with address of text
+			; to print
+	call _puts	;print string on screen
+
+	call _getkey	;wait for keypress
+	call _clrLCD	;alias again!
+			;clears screen
+	ret		;return from program
+text_to_print:	.db "hey",$00
+			;text to print with a zero
+			; at the end to tell the
+			; ti86 to stop printing
+.end</PRE>
+
+<P><CODE>Call</CODE> is an alias too, but we'll leave explaining that
+to the <A HREF="../opcodes/opcodes.htm">Opcodes Section</A>.
+Aliases make code easier to understand. Wouldn't
+you rather see <CODE>_clrLCD</CODE> instead of <CODE>$4a7e</CODE>?
+
+<P>You can make your own
+aliases in your code if you want to which we will also learn
+about in the <A HREF="../advanced/asse.htm#equa">Assembler Directives
+Section</A>.
+
+<P>Check out some additional helpful include files all of which are in the
+<A HREF="../download/includes.zip">Includes Package</A>.
+
+<P><TABLE ALIGN=CENTER class=info>
+	<TR CLASS=header>
+		<TD>File
+		<TD>Description
+	<TR>	<TD><A HREF="../download/ti86asm.inc">ti86asm.inc</A>
+		<TD>The <I>basic</I> package. Great for beginners!
+	<TR>	<TD><A HREF="../download/ram86.inc">RAM86.inc</A>
+		<TD>Almost all the RAM equates for the TI86.
+	<TR>	<TD><A HREF="../download/rom86.h">ROM86.h</A>
+		<TD>Tons of ROM equates.
+	<TR>	<TD><A HREF="../download/ti86abs.inc">TI86Abs.inc</A>
+		<TD>Lots of <A HREF="../variables/abso.htm">Absolute
+		Address</A> calls for
+		<A HREF="../variables/ti86.htm">variable manipulation</A>.
+	<TR>	<TD><A HREF="../download/ti86math.inc">TI86Math.inc</A>
+		<TD>TI-OS math routines.
+	<TR>	<TD><A HREF="../download/ti86ops.inc">TI86OPs.inc</A>
+		<TD><A HREF="../variables/ti86.htm">Operator</A>
+		manipulation calls for variable
+		<A HREF="../variables/op_m.htm">math</A>.
+	<TR>	<TD><A HREF="../download/ti86un.inc">TI86Un</A>
+		<TD><I>Undocumented</I> routines and flags for TI-OS.
+	<TR>	<TD><A HREF="../download/ .inc"> </A>
+		<TD>
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,377 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Sprites");</SCRIPT>
+
+<P>One of the most basic components of any image based game are sprites, small images
+which move about the screen at high speeds.  The mouse cursor is a sprite that
+Windows&copy; redraws thousands of times a second on the screen.  The TI86 doesn't
+have color, just black and white.  A bit set in the Video Memory, as you know,
+represents a pixel turned on (black).  A sprite is made up of many bits in a row.  Each
+bit in the sprite data represents a pixel on the screen.
+
+<P>You can play around with making your own sprites right now using
+<A HREF="JavaScript:popup('../misc/spriteedit.htm')">SpriteEdit</A>.
+Just copy and paste the results right into your source!
+
+<P>Now that you know how to put single pixels on the screen, you
+can move onto putting whole pictures onto the screen. We
+won't use FindPixel this time because that would take too
+long for each and every pixel in a 64 pixel image (8x8 pixel
+image). Instead we will be manipulating whole bytes at a time.
+
+<P>When you play Super Mario
+on your old 2D Nintendo 8-Bit, there are several characters that
+are moving on the screen at once. (I'm using the old
+Nintendo as an example because it uses 2 dimensional graphics
+like the TI86 does.) Those fast moving images are called sprites
+because they are small and are used constantly. Stuff like trees
+are called tiles because they make up the background total image
+along with, say, part of a castle wall.
+
+<P>You can't always just copy a sprite onto the screen and be
+done.  Sometimes the sprite might overlap from one byte to the
+next one the screen.  Take for example this to be a part of the
+video memory.  Each <CODE>0</CODE> is a bit and each group of 8
+<CODE>0</CODE>'s is a byte.  These bytes extend in all directions
+on the screen.  The bits are zeros because it is clear, blank,
+no pixels set.
+
+<PRE>00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000
+00000000 00000000 00000000 00000000 00000000</PRE>
+
+<P>Here is the assembler code for the sprite we want to work with.
+<A HREF="../advanced/asse.htm#db"><CODE>.db</CODE></A> tells the assembler
+the following is to be directly inputted into the program as bytes.
+
+<PRE>.db %00011000
+.db %11011011
+.db %01011010
+.db %11011011
+.db %01011010
+.db %11011011
+.db %00011000
+.db %11100111</PRE>
+
+<P>Here is a graphical representation of what the above will look like
+on the screen.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD WIDTH=15 BGCOLOR=#ffffff>&nbsp;
+		<TD WIDTH=15 BGCOLOR=#ffffff>
+		<TD WIDTH=15 BGCOLOR=#ffffff>
+		<TD WIDTH=15 BGCOLOR=#000000>
+		<TD WIDTH=15 BGCOLOR=#000000>
+		<TD WIDTH=15 BGCOLOR=#ffffff>
+		<TD WIDTH=15 BGCOLOR=#ffffff>
+		<TD WIDTH=15 BGCOLOR=#ffffff>
+	<TR>	<TD BGCOLOR=#000000>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+	<TR>	<TD BGCOLOR=#ffffff>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+	<TR>	<TD BGCOLOR=#000000>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+	<TR>	<TD BGCOLOR=#ffffff>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+	<TR>	<TD BGCOLOR=#000000>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+	<TR>	<TD BGCOLOR=#ffffff>&nbsp;
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#ffffff>
+	<TR>	<TD BGCOLOR=#000000>&nbsp;
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#ffffff>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+		<TD BGCOLOR=#000000>
+</TABLE>
+
+<P>We are now going to copy the that sprite into the video memory
+where it will overlap two bytes.
+that it will overlap bytes
+
+<PRE>xxxxxx00 011000xx xxxxxxxx
+xxxxxx11 011011xx xxxxxxxx
+xxxxxx01 011010xx xxxxxxxx
+xxxxxx11 011011xx xxxxxxxx
+xxxxxx01 011010xx xxxxxxxx
+xxxxxx11 011011xx xxxxxxxx
+xxxxxx00 011000xx xxxxxxxx
+xxxxxx11 100111xx xxxxxxxx</PRE>
+
+<P>We need to now cover the routine that handles the writing of the
+image onto the Video Memory.  This routine needs to figure out
+if the image runs over two bytes of is in one byte, how much
+of an overlap there is if it spans over two bytes, and then write
+the image taking the overlap into consideration.
+
+<P>I emailed
+<A HREF="mailto:JayEll64@aol.com">Jay Hellrung</A> when he just
+released his <A HREF="../download/sdr.zip">Sprite Display Routines</A>
+asking for some info on them.  From his reply I have put together
+the following on the standard <A HREF="../download/sdr8.h">SDR8.h</A>
+routine included in the <A HREF="../download/sdr.zip">zip</A>.
+
+<P>On the <A HREF="../download/download.htm">Download</A> page
+you can find a zip with several
+<A HREF="../download/sprite.zip">Sprite Routines</A> packaged for
+you to choose from.
+
+<P>The routine is pasted here and referenced with the following
+table by the line numbers. Follow each line and
+try to picture in your head what it is doing. The <I>easiest</I> way to
+do this is to print out the
+<A HREF="JavaScript:popup('sprp.htm')">SDR8 Code</A> and then
+refer to the explanations.
+
+<PRE><OL>
+<LI><A HREF="#l1" NAME="c1">&darr;</A>SDR_8x8:
+<LI><A HREF="#l2" NAME="c2">&darr;</A>	ld a,63
+<LI><A HREF="#l2">&darr;</A>	sub c
+<LI><A HREF="#l2">&darr;</A>	ld c,a
+<LI><A HREF="#l5" NAME="c5">&darr;</A>	push hl
+<LI><A HREF="#l6" NAME="c6">&darr;</A>	call FindPixel
+<LI><A HREF="#l7" NAME="c7">&darr;</A>	ld c,8
+<LI><A HREF="#l8" NAME="c8">&darr;</A>	add a,a
+<LI><A HREF="#l8">&darr;</A>	dec a
+<LI><A HREF="#l8">&darr;</A>	ld e,a
+<LI><A HREF="#l11" NAME="c11">&darr;</A>	ld a,b
+<LI><A HREF="#l11">&darr;</A>	and %00000111
+<LI><A HREF="#l11">&darr;</A>	inc a
+<LI><A HREF="#l11">&darr;</A>	ld b,a
+<LI><A HREF="#l15" NAME="c15">&darr;</A>SDR_8x8_NewRow:
+<LI><A HREF="#l16" NAME="c16">&darr;</A>	ex (sp),hl
+<LI><A HREF="#l16">&darr;</A>	ld a,(hl)
+<LI><A HREF="#l16">&darr;</A>	inc hl
+<LI><A HREF="#l16">&darr;</A>	ex (sp),hl
+<LI><A HREF="#l20" NAME="c20">&darr;</A>	push bc
+<LI><A HREF="#l21" NAME="c21">&darr;</A>	rlca
+<LI><A HREF="#l22" NAME="c22">&darr;</A>SDR_8x8_PrepByte:
+<LI><A HREF="#l22">&darr;</A>	rrca
+<LI><A HREF="#l22">&darr;</A>	djnz SDR_8x8_PrepByte
+<LI><A HREF="#l25" NAME="c25">&darr;</A>	ld d,a
+<LI><A HREF="#l26" NAME="c26">&darr;</A>	and e
+<LI><A HREF="#l27" NAME="c27">&darr;</A>	or (hl)
+<LI><A HREF="#l27">&darr;</A>	ld (hl),a
+<LI><A HREF="#l27">&darr;</A>	inc hl
+<LI><A HREF="#l30" NAME="c30">&darr;</A>	ld a,e
+<LI><A HREF="#l30">&darr;</A>	cpl
+<LI><A HREF="#l32" NAME="c32">&darr;</A>	and d
+<LI><A HREF="#l33" NAME="c33">&darr;</A>	or (hl)
+<LI><A HREF="#l33">&darr;</A>	ld (hl),a
+<LI><A HREF="#l35" NAME="c35">&darr;</A>	ld c,$10-1
+<LI><A HREF="#l35">&darr;</A>	add hl,bc
+<LI><A HREF="#l37" NAME="c37">&darr;</A>	pop bc
+<LI><A HREF="#l38" NAME="c38">&darr;</A>	dec c
+<LI><A HREF="#l38">&darr;</A>	jr nz,SDR_8x8_NewRow
+<LI><A HREF="#l40" NAME="c40">&darr;</A>	pop hl
+<LI><A HREF="#l41" NAME="c41">&darr;</A>	ret</PRE>
+
+<P>
+
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="10%" ALIGN=CENTER>Line(s)
+		<TD ALIGN=CENTER>Explanation
+		<TD WIDTH="5%" ALIGN=CENTER>Bytes
+	<TR>	<TD><A HREF="#c1" NAME="l1">&uarr;</A>1
+		<TD>You need to use it like this:
+<PRE>	ld hl,sprite	;location of sprite
+	ld bc,$1414	;coordinates
+	call SDR_8x8	;call sprite routine
+	ret		;done
+PutSprite:		;the routine's label
+			;paste jay's or some other sprite
+			; routine here
+			;make sure to paste findpixel if
+			; it's needed
+Sprite_Label:		;the sprite label
+	.db %01111110	;first line
+	.db %10011001	;second line
+		. . .
+		. . .
+	.db %01111110	;eight line
+		<TD>none
+	<TR>	<TD><A HREF="#c2" NAME="l2">&uarr;</A>2-4
+		<TD>We inputted the routine thinking that the origin (0,0)
+		was at the top left.  FindPixel  thinks it's at the bottom
+		left.  We need to subtract 63 so we have the value from 64
+		(the height of the screen in pixels).
+		<TD>4
+	<TR>	<TD><A HREF="#c5" NAME="l5">&uarr;</A>5
+		<TD>We are going to have to use (and therefore destroy) hl
+		(pointing at the sprite) and then come back to it so we need
+		to save it.
+		<TD>1
+	<TR>	<TD><A HREF="#c6" NAME="l6">&uarr;</A>6
+		<TD>FindPixel just takes the coordinates and converts them
+		into the exact address in the memory that needs to be edited
+		for the desired pixel placement.  It returns <CODE>hl</CODE> pointing to
+		where in the video memory we want to mess with and <CODE>a</CODE>
+		is <CODE>(hl)</CODE>.
+		<TD>3
+	<TR>	<TD><A HREF="#c7" NAME="l7">&uarr;</A>7
+		<TD>Most sprites are 8 bytes high and 1 byte (8 pixels) wide
+		(8 x 8).  This routine takes for granted that it is dealing
+		with an 8x8 sprite.  If you don't want your sprite to be 8
+		bytes high, then you need to change the 8 to whatever the height
+		you want, but bear in mind that it means all your sprites are
+		going to need to be the same height.
+		<TD>2
+	<TR>	<TD><A HREF="#c8" NAME="l8">&uarr;</A>8-10
+		<TD>We may or may not be using all of a byte to put our sprite
+		in.  We add <CODE>a</CODE> to <CODE>a</CODE> and decrease it so that every
+		bit is set from the far left being written to, all the way to
+		bit 0.  This used with
+		<A HREF="logi.htm#and"><CODE>and</CODE></A> makes a bit mask so that we only
+		manipulate the bits that are set in that byte.  We need to save
+		this bit mask into <CODE>e</CODE> for use with each row.
+		<TD>3
+	<TR>	<TD><A HREF="#c11" NAME="l11">&uarr;</A>11-14
+		<TD>Now we need to set up for a
+		<A HREF="../beginner/inst.htm#djnz"><CODE>djnz</CODE></A> loop.  We need to have
+		the routine figure out how many times it needs to copy a bit
+		from the sprite to the video memory.  We do this using the 'scraps'
+		from the find pixel routine.  The find pixel routine divides the
+		x coordinate by 8 to figure out its stuff.  It leaves the remainder
+		in <CODE>b</CODE>.  We can use that to figure out how many times we need
+		to the drawing loop.  We mask out anything above 7 (line 12).  Since
+		it could be zero, we increase it so it's at least one (line 13);
+		therefore, we have a number of the remainder somewhere between 1
+		and 8.  We put that back into <CODE>b</CODE> (line 14) which tells us
+		how many rows we have.
+		<TD>5
+	<TR>	<TD><A HREF="#c15" NAME="l15">&uarr;</A>15
+		<TD>We are going to begin the loop that does each row.
+		<TD>none
+	<TR>	<TD><A HREF="#c16" NAME="l16">&uarr;</A>16-19
+		<TD>Remember that we pushed the location of the sprite to the
+		stack.  The <CODE>sp</CODE> register is the Stack Pointer which I
+		will probably discuss more later.  We switch what's at the
+		<CODE>sp</CODE> with hl temporarily, so we are loading the first
+		row of the sprite into <CODE>a</CODE> and then we increment <CODE>hl</CODE>
+		so that it's ready for next time.  After we're done, we put
+		<CODE>hl</CODE> back where it was at the <CODE>sp</CODE>.
+		<TD>4
+	<TR>	<TD><A HREF="#c20" NAME="l20">&uarr;</A>20
+		<TD>We want to save our rotating counter (<CODE>b</CODE>) and our
+		row counter (<CODE>c</CODE>) for next time around.
+		<TD>1
+	<TR>	<TD><A HREF="#c21" NAME="l21">&uarr;</A>21
+		<TD>We know we are going to rotate (will be discussed later)
+		atleast once down below, so we rotate it once to the left so
+		it'll be the same when we're through.
+		<TD>1
+	<TR>	<TD><A HREF="#c22" NAME="l22">&uarr;</A>22-24
+		<TD>Since we already figured out the overlapping on the
+		bytes, we just rotate the sprite part we have in <CODE>a</CODE>
+		as many times as needed to fit into the bit mask we already
+		figured out.  We use our rotating counter already saved and
+		in <CODE>b</CODE> and rotate the sprite part using a
+		<A HREF="../beginner/inst.htm#djnz"><CODE>djnz</CODE></A> loop.
+		<TD>3
+	<TR>	<TD><A HREF="#c25" NAME="l25">&uarr;</A>25
+		<TD>We want to save what we did into <CODE>d</CODE> and we'll
+		come back to it later in line 32.
+		<TD>1
+	<TR>	<TD><A HREF="#c26" NAME="l26">&uarr;</A>26
+		<TD>Remember back to lines 8,9, and 10 where we got our
+		bit mask.  We now put it to use <CODE>and</CODE>ing it with our part of
+		our sprite we've rotated.
+		<TD>1
+	<TR>	<TD><A HREF="#c27" NAME="l27">&uarr;</A>27-29
+		<TD>Now here is where we actually put the pixel on the
+		screen using
+		<A HREF="logi.htm#or"><CODE>or</CODE></A> with what's currently on the screen and
+		what we've done and then putting the answer back on the
+		screen!  Then we just increase <CODE>hl</CODE> to point to
+		where we're write to next in the next byte over!
+		<TD>3
+	<TR>	<TD><A HREF="#c30" NAME="l30">&uarr;</A>30-31
+		<TD>Get our mask back into <CODE>a</CODE> and invert it so we have
+		the mask for this new byte.
+		<TD>2
+	<TR>	<TD><A HREF="#c32" NAME="l32">&uarr;</A>32
+		<TD>We <CODE>and</CODE> it again with our rotated sprite to get the
+		other half rotated around that we didn't use yet.
+		<TD>1
+	<TR>	<TD><A HREF="#c33" NAME="l33">&uarr;</A>33-34
+		<TD>We're going to do some more drawing.  Like in lines
+		27-29, we're going to use <CODE>or</CODE> again and load the answer
+		onto the screen!
+		<TD>2
+	<TR>	<TD><A HREF="#c35" NAME="l35">&uarr;</A>35-36
+		<TD>We want to go to the next row since we're all done.  We
+		would normally add $10 to go to the byte directly under
+		the one we are at now, but we want to go $10-1 because
+		we want to be down and one byte to the left (or minus a
+		byte).  <CODE>B</CODE> was zero because it was used in a <CODE>djnz</CODE>
+		loop ended when <CODE>b</CODE> was zero so we just have to use
+		<CODE>c</CODE> which will determine the value of <CODE>bc</CODE>.
+		<TD>3
+	<TR>	<TD><A HREF="#c37" NAME="l37">&uarr;</A>37
+		<TD>Time to restore our rotating counter (<CODE>b</CODE>) and our
+		row counter (<CODE>c</CODE>) for use next time around.
+		<TD>1
+	<TR>	<TD><A HREF="#c38" NAME="l38">&uarr;</A>38-39
+		<TD>We are using <CODE>b</CODE> as a rotation counter for use
+		in the inner <CODE>djnz</CODE> loop and we are going to use <CODE>c</CODE>
+		for an 'artificial djnz loop'.
+		<TD>3
+	<TR>	<TD><A HREF="#c40" NAME="l40">&uarr;</A>40
+		<TD>We pushed the sprite location so we could use <CODE>ex (sp),hl</CODE>
+		instead of another register pair.  That saves time and
+		space.  We need to pop it off so we'll return to the right spot!
+		<TD>1
+	<TR>	<TD><A HREF="#c41" NAME="l41">&uarr;</A>41
+		<TD>I'm not going to bother telling you.
+		<TD>1
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>

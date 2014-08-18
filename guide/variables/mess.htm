@@ -1,0 +1,421 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","Messing with Variable Data");</SCRIPT>
+
+This is my favorite section in the entire Guide. I've referred back to
+it several times so pay attention!
+
+<UL>
+	<LI><A HREF="#gett">Getting to the Data</A>
+	<LI><A HREF="#stri">Stupid Strings</A>
+	<LI><A HREF="#high">High Scores</A>
+	<LI><A HREF="#list">Lists</A>
+	<LI><A HREF="#matr">Matrices</A>
+	<LI><A HREF="#ever">Every Variable</A>
+</UL>
+
+<A NAME="gett"><H2>Getting to the Data</H2>
+A lot of times you need to access the data in TI86 variables. One good
+example of this is if your program is larger than 9k. The TI86 will only
+handle 9k or less asm programs, so you'll have to break up your program into
+several 9k or less parts...or you can just make an asm program that starts
+executing a string (which can be any length) and then returns to the asm
+program.
+
+<P>First you have to use <A HREF="_fin.htm"><CODE>_FindSym</CODE></A>
+to locate the file. <A HREF="_fin.htm"><CODE>_FindSym</CODE></A>'s
+output puts an ABS pointer in <CODE>bde</CODE>. All the routines we'll
+be using to access this will use <CODE>ahl</CODE> so we need to do
+two commands to put <CODE>bde</CODE> into <CODE>ahl</CODE>
+
+<PRE>	ex de,hl
+	ld a,b</PRE>
+
+<P>This can be further simplified by using
+<A HREF="abso.htm#ex"><CODE>_Ex_ahl_bde</A>=$45f3</CODE>. This is
+one byte longer since it is a <A HREF="../beginner/inst.htm#call"><CODE>call</CODE></A>
+but will still retain <CODE>a</CODE> instead of writing <CODE>b</CODE> over it.
+
+<P>I hate trying to assemble someone else's code and
+getting all these error messages dealing with the
+<A HREF="../advanced/asse.htm#incl">include</A> files. That
+is why I've pasted the equates for many of the
+<A HREF="../intermediate/romc.htm">ROM Calls</A> used
+at the top of the routine. Their addresses are also
+pasted in the comments.
+
+<P>Since there's no step by step process to learn this
+section which I can lay out for you, I'm just going to
+go through some examples. You can do anything with TI-OS
+variables, so adapt these routines to what you want
+to do.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="stri"><H2>Stupid Strings</H2>
+Let's make a routine called
+<A HREF="../download/stupstr.asm">StupStr.asm</A>
+which will create a string and store a sentence
+to it.
+
+<PRE>#include "ti86asm.inc"		;normal include file
+				; with common ROM calls
+_Ex_ahl_bde		=$45f3	;like 'ex bde,ahl'
+_ahl_Plus_2_Pg3		=$4c3f	;ahl=ahl+2
+_Set_ABS_Dest_Addr	=$5285
+_Set_ABS_Src_Addr	=$4647
+_Set_MM_Num_Bytes	=$464f
+_MM_Ldir		=$52ed
+.org _asm_exec_ram
+	ld hl,string-1		;copy anything before string
+				; for type byte
+	rst 20h			;call _Mov10toOP1
+	rst 10h			;call _FindSym to see if
+				; variable exists
+	call nc,_delvar		;delete variable if it exists
+				;all necessary info still
+				; preserved
+	ld hl,end-start		;minus start from end of string
+				; so result is length of string
+	call _CreateSTRNG	;$472f  create string
+	call _ex_ahl_bde	;$45f3  ABS bde &  ahl swapped
+	call _AHL_Plus_2_Pg3	;$4c3f  increase ABS ahl by two
+	call _Set_ABS_Dest_Addr	;$5285  set that as
+				; destination for block copy
+	sub a			;AKA ld a,0
+	ld hl,start		;hl points to string_start
+				;address of string is in
+				; relation to 16 bit
+				; and ram page
+	call _Set_ABS_Src_Addr	;$4647  set that as source
+				; for block copy
+	sub a			;AKA ld a,0 -it's on already
+				; swapped in page (0)
+	ld hl,end-start		;length of string
+	call _Set_MM_Num_Bytes	;$464f  set # of bytes to copy
+				; in block copy
+	jp _MM_Ldir		;$52ed  ABS block copy
+				;we jump instead of calling
+				; and returning
+				;this way we just use
+				; _MM_Ldir's ret as ours
+				;saves 1 byte
+
+string:	.db 6,"Stupid"		;length indexed string name
+start:	.db "This is a stupid string."
+end:
+.end</PRE>
+
+<P>This routine creates a String named "Stupid" and puts "This is a stupid
+string" as its data.
+<OL>
+	<LI>We first load the variable name into OP1 and the length
+	into <CODE>hl</CODE> and create it.
+	<LI>Then we put the ABS pointer <CODE>bde</CODE> (what
+	_CreateSTRNG returned) into <CODE>ahl</CODE>.
+	<LI>Increase it by two to get past the <A HREF="crea.htm#leng">Length
+	Word</A>
+	<LI>Set that as where we want to ABS block copy to.
+	<LI>Then we put the address of our string into the ABS block copy
+	source.
+	<LI>Load <CODE>a</CODE> with zero because our string is in the
+	<A HREF="../intermediate/memo.htm">64k</A> of bytes currently
+	available. We can access it with a 16 bit pointer because it
+	is on a page that is swapped in (all asm programs are put
+	into an area on RAM page 0 which is always
+	<A HREF="../intermediate/memo.htm">swapped in</A>).
+	<LI>Then we get the length of the string and put that into the
+	number of bytes to ABS block copy.
+	<LI>Perform the block copy. We jump to the block copy routine
+	because we know we're going to return when we get back so we might
+	as well just use that routine's return for ours. This is something
+	to remember when you're optimizing code because it saves 1 byte
+	and may be a little faster or something.
+</OL>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="high"><H2>High Scores</H2>
+Uh, Oh! TI-OS doesn't save your high scores. You need to copy them to the
+program as explained in the <A HREF="../intermediate/vari.htm#game">game saved</A>
+variables section.
+
+<P>A major thing to remember when
+you're creating programs is that the first byte of the data (after the two
+bytes for the length of the program) there is a byte telling whether the
+program has been tokenized or not. It will be $00 if it is untokenized, or
+$33 if it has been tokenized.
+
+<PRE>_asapvar		=$d6fc	;name of the currently
+				; running program (this
+				; one!)
+_set_abs_src_addr	=$4647
+_set_abs_dest_addr	=$5285
+_set_mm_num_bytes	=$464f
+_mm_ldir		=$52ed
+	. . .
+	. . .
+save_game:
+	ld hl,_asapvar			;name of current
+					; program running
+	rst 20h				;copy to OP1
+	rst 10h				;_findsym
+	ld a,b				;returns bde as prog data
+	ld hl,data_start-_asm_exec_ram+2+2
+					;offset in this program
+					; for start
+					; of saved game data
+					;2 bytes for prog length
+					;2 bytes for asm
+					; identifier bytes
+	add hl,de			;hl=pointer to data in
+					; original prog
+	adc a,$00			;in case we overlapped pages
+					;if carry was set in previous
+					; instruction...this will
+					; add 1 to a else...it
+					; adds 0 to a
+	call _Load_RAM_ahl		;$462f - convert ahl to a
+					; RAM page and 16 bit pointer
+	ld a,(high_score)		;get high_score from
+					; this program
+	ld (hl),a			;store it into the
+					; actual program's
+					; data
+	ret
+	. . .
+	. . .
+high_score:		.db 0		;high score in game</PRE>
+
+<P>What we did was:
+<OL>
+	<LI>Got the address of our program was in the variable
+	memory on the TI86 (not where it is stored at
+	<CODE>_asm_exec_ram</CODE> on execution).
+	<LI>Then we added the offset of the high score address
+	to the start of the program. We had to change that into a
+	16 bit pointer. Then we were able to save the high score
+	data located in our program at
+	<CODE>_asm_exec_ram</CODE> into the accumulator
+	(<CODE>a</CODE>) and then put that into the high score of the
+	program on the <A HREF="../intermediate/memo.htm">swapped
+	in RAM page</A>.
+</OL>
+
+<P>Suppose you wanted to not just copy one byte, but several. Here's
+an example of copying several bytes of program data back
+to the original program in memory. It's
+the Write Back routine discussed in
+the <A HREF="../intermediate/vari.htm#game">Intermediate Variables
+Section</A>.
+
+<PRE>_asapvar		=$d6fc
+_set_abs_src_addr	=$4647
+_set_abs_dest_addr	=$5285
+_set_mm_num_bytes	=$464f
+_mm_ldir		=$52ed
+save_game:
+	ld hl,_asapvar			;name of current
+					; program running
+	rst 20h				;copy to OP1
+	rst 10h				;_findsym
+	ld a,b				;returns bde as prog data
+	ld hl,data_start-_asm_exec_ram+2+2
+					;offset in this program
+					; for start
+					; of saved game data
+					;2 bytes for prog length
+					;2 bytes for asm
+					; identifier bytes
+	add hl,de			;hl=pointer to data
+					; in original prog 
+	adc a,$00			;in case we overlapped
+					; pages if carry was set
+					; in previous
+					; instruction...this
+					; will add 1 to a
+					; else...it adds 0 to a
+	call _set_abs_dest_addr		;set that as the absolute
+					; destination address
+					; to copy to
+	sub a				;no absolute addressing now
+	ld hl,data_start		;*get data from here
+	call _set_abs_src_addr		;set that as the absolute
+					; source address to copy
+					; from
+	ld hl,data_end-data_start	;*number of bytes to save
+	call _set_mm_num_bytes		;set that as the number
+					; of bytes to copy
+	jp _mm_ldir			;perform absolute address
+					; data block copy 
+
+data_start:				;start of data to copy
+high_score:		.db 0		;high score
+high_score_initials:	.db "AAA",0	;initials of high score
+					; holder
+data_end:</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="list"><H2>Lists</H2>
+Now, let's make a list named "Stupid" with
+2 elements in it. You can download the
+program <A HREF="../download/stuplst.asm">StupLst</A>.
+
+<PRE>#include "ti86asm.inc"		;normal include file with
+				; common ROM calls
+_Ex_ahl_bde		=$45f3	;like 'ex bde,ahl'
+_ahl_Plus_2_Pg3		=$4c3f	;ahl=ahl+2
+_Set_ABS_Dest_Addr	=$5285
+_Set_ABS_Src_Addr	=$4647
+_Set_MM_Num_Bytes	=$464f
+_MM_Ldir		=$52ed
+.org _asm_exec_ram
+	ld hl,list-1		;copy anything before
+				; list for type byte
+	rst 20h			;call _Mov10toOP1
+	rst 10h			;call _FindSym to see if
+				; variable exists
+	call nc,_delvar		;delete variable if it
+				; exists all necessary
+				; info still preserved
+	ld hl,2			;2 elements
+	call _CreateRLIST	;create real list (as
+				; opposed to complex)
+	call _ex_ahl_bde	;$45f3  ABS bde &  ahl
+				; swapped
+	call _ahl_Plus_2_Pg3	;get paste element # byte
+	call _Set_ABS_Dest_Addr	;$5285  set that as
+				; destination for
+				; block copy
+	sub a			;AKA ld a,0
+	ld hl,start		;hl points to list_start
+				;address of list is
+				; in relation to 16 bit
+				; and ram page
+	call _Set_ABS_Src_Addr	;$4647  set that as
+				; source for block copy
+	sub a			;AKA ld a,0 -it's on
+				; already swapped in
+				; page (0)
+	ld hl,end-start		;length of list
+	call _Set_MM_Num_Bytes	;$464f  set # of bytes
+				; to copy in block copy
+	jp _MM_Ldir		;$52ed  ABS block copy
+				;we jump instead of
+				; calling and returning
+				;this way we just use
+				; _MM_Ldir's ret as ours
+				;saves 1 byte
+
+list:	.db 6,"Stupid"		;length indexed list name
+start:
+	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00 
+	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00 
+end:
+.end</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="matr"><H2>Matrices</H2>
+Check out how to make matrices in
+<A HREF="../download/stupmat.asm">StupMat</A>.
+
+<PRE>#include "ti86asm.inc"		;normal include file
+				; with common ROM calls
+_Ex_ahl_bde		=$45f3	;like 'ex bde,ahl'
+_ahl_Plus_2_Pg3		=$4c3f	;ahl=ahl+2
+_Set_ABS_Dest_Addr	=$5285
+_Set_ABS_Src_Addr	=$4647
+_Set_MM_Num_Bytes	=$464f
+_MM_Ldir		=$52ed
+.org _asm_exec_ram
+	ld hl,matrix-1		;copy anything before
+				; matrix for type byte
+	rst 20h			;call _Mov10toOP1
+	rst 10h			;call _FindSym to see
+				; if variable exists
+	call nc,_delvar		;delete variable if it
+				; exists
+				;all necessary info
+				; still preserved
+	ld hl,1*256+2		;1 row, 2 columns
+	call _CreateRMAT	;create real matrix
+				; (as opposed to complex)
+	call _ex_ahl_bde	;$45f3  ABS bde &  ahl
+				; swapped
+	call _ahl_Plus_2_Pg3	;get paste row byte
+				; and col byte
+	call _Set_ABS_Dest_Addr	;$5285  set that as
+				; destination for
+				; block copy
+	sub a			;AKA ld a,0
+	ld hl,start		;hl points to matrix_start
+				;address of matrix is
+				; in relation to 16 bit
+				; and ram page
+	call _Set_ABS_Src_Addr	;$4647  set that as
+				; source for block copy
+	sub a			;AKA ld a,0 -it's on
+				; already swapped
+				; in page (0)
+	ld hl,end-start		;length of matrix
+	call _Set_MM_Num_Bytes	;$464f  set # of bytes
+				; to copy in block copy
+	jp _MM_Ldir		;$52ed  ABS block copy
+				;we jump instead of
+				; calling and returning
+				;this way we just use
+				; _MM_Ldir's ret as ours
+				;saves 1 byte
+
+matrix:	.db 6,"Stupid"		;length indexed matrix name
+start:
+	.db $00,$00, $fc, $10, $00, $00, $00, $00, $00, $00 
+	.db $00,$00, $fc, $20, $00, $00, $00, $00, $00, $00 
+end:
+.end</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="ever"><H2>Every Variable</H2>
+I hope that's all the examples you need. If you
+didn't catch it above, you can download
+all the source files for these routines:
+<UL>
+	<LI><A HREF="../download/stuplst.asm">lists</A>
+	<LI><A HREF="../download/stupmat.asm">matrices</A> and
+	<A HREF="../download/matrmess.asm">messing with them</A>
+	<LI><A HREF="../download/stupstr.asm">strings</A>
+	<LI><A HREF="../download/stupaprg.asm">asm programs</A>
+	<LI><A HREF="../download/stupbprg.asm">Un-Tokenized
+	TI-BASIC programs</A>
+	<LI><A HREF="../download/stuptbp.asm">Tokenized TI-BASIC
+	programs</A>
+	<LI><A HREF="../download/stupreal.asm">real numbers</A>
+	<LI><A HREF="../download/stupcplx.asm">complex numbers</A>
+	<LI><A HREF="../download/stupequ.asm">equations</A>
+	<LI><A HREF="../download/stupvect.asm">vectors</A>
+</UL>
+
+<P>Remember that if you want to make a complex type
+of the above variables, create the complex
+form of the variable with double the size. You're
+going to have to put put the real
+part with the complex part following. Here's the
+data for a complex list with two elements.
+
+<PRE>complex_list:
+start:
+		;element 1 = (1,1)
+	.db $01, $00, $fc, $10, $00, $00, $00, $00, $00, $00
+	.db $01, $00, $fc, $10, $00, $00, $00, $00, $00, $00
+		;element 2 = (2,2)
+	.db $01, $00, $fc, $20, $00, $00, $00, $00, $00, $00
+	.db $01, $00, $fc, $20, $00, $00, $00, $00, $00, $00
+end:</PRE>
+
+<P>More information on real and complex numbers
+can be found in the <A HREF="bcd.htm">Binary Coded
+Decimal Section</A>.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

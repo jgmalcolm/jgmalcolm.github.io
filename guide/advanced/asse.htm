@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<a name="top">
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Assembler Directives");</SCRIPT>
+<P>Your assembler is a powerful tool. Assembler directives are commands
+that tell the assembler to do some sort of calculation for you
+and incorporate those calculations into the output file. Your assembler
+can do all the thinking for you if you know how to use it. I'm going
+to give you some of the many useful assembler directives that you can
+use to your advantage.
+<ul>
+	<li><A HREF="#incl">#include</A>
+	<li><A HREF="#defi">#define</A>
+	<li><A HREF="#defc">#defcont</A>
+	<li><A HREF="#db">.db</A>
+	<li><A HREF="#dw">.dw</A>
+	<li><A HREF="#pc">$</A>
+	<li><A HREF="#end">.end</A>
+	<li><A HREF="#equa">=</A>
+	<li><A HREF="#org">.org</A>
+	<li><A HREF="#pad">.pad</A>
+	<li><A HREF="#text">.text</A>
+	<li><A HREF="#back">/</A>
+</ul>
+
+<P>Note: These are specific to Telemark Assembler
+(<A HREF="../download/tasm.zip">TASM</A>)
+
+<a name="incl"><h2>#include</h2>
+<CODE>#include "<i>arg1</i>"</CODE> - Pastes the file
+named <i>arg2</i> in the same directory (or in the search path
+specified in your assembler's settings if it has any) into
+your source file right where you put the <CODE>#include</CODE> directive
+just as if you had typed the file in manually.
+<PRE>#include 'asm86.inc'
+#include "asm86.inc"
+#include asm86.inc
+#include asm86</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="defi"><h2>#define</h2>
+<CODE>#define <i>arg1</i>[(<i>arg2</i>, <i>arg3</i>, ...)]
+<i>arg4</i></CODE> - Whenever <i>arg1</i> is encountered, the assembler instead puts
+<i>arg4</i> in that place with possible input such as <i>arg2</i>,
+<i>arg3</i>, ... incorporated. 
+
+<PRE>#define ClLCD call _clrLCD		;'call _clrLCD' where ClLCD is
+
+#define i_am_bored (i am bored)		;"(i am bored)"
+
+#define i_am_bored i am bored		;"i am bored"
+
+#define m_coords(x,y) ld bc,(x<<8)+y / ld (_penCol),bc
+	;puts the 'ld b,x and following with / meaning a new line
+
+#define coords(x,y) ld bc,(y<<8)+x / ld (_curRow),bc
+	;puts the 'ld b,x and following with / meaning a new line
+
+#define coords(x,y) ld bc,(y*256)+x / ld (_curRow),bc	;same as above</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="defc"><h2>#defcont</h2>
+<CODE>#defcont <i>arg1</i>[(<i>arg2</i>, <i>arg3</i>, ...)]
+<i>arg4</i></CODE> - Use this in conjunction with <A HREF="#defi"><CODE>#define</CODE></A>
+to roll the define over onto multiple lines (DEFine CONTinue). Useful so that the text
+doesn't go way out to the right of the screen.
+
+<PRE>
+#define coords(x,y)	push hl
+#defcont		\ ld h,x
+#defcont		\ l,y
+#defcont		\ ld (_penCol),hl
+#defcont		pop hl</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="db"><h2>.db</h2>
+<CODE>.db <i>arg1</i>[, <i>arg2</i>, <i>arg3</i>, ...]</CODE> - This
+inserts direct values into the source as bytes. It's called the Data
+Byte directive. It's used a ton for strings, characters, and values. You
+can put several bytes in a row by separating them by commas. In a string, each letter
+is a byte.
+<PRE>.db 0
+.db $ff
+.db %00110011, 'J', $f0, 23-$10, 2*5
+.db "This is a string."
+.db "This"," is"," a"," string."
+.db "Zero terminated string.",0
+.db 22,"Length indexed string."
+.byte "Stupid"
+.byte 'A',$f0,0,%01010000</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="dw"><h2>.dw</h2>
+<CODE>.dw <i>arg1</i>[, <i>arg2</i>, <i>arg3</i>, ...]</CODE> - This is
+almost exactly like <A HREF="#db"><CODE>.db</CODE></A> byte it inserts
+things as words (2 bytes) instead of single bytes. It's useful for addresses.
+<PRE>.dw AddressOne
+.dw $1234
+.dw 4345
+.word address_one
+.word $ffff</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="pc"><h2>$</h2>
+<CODE>$</CODE> - Just like how the Program counter is updated after every command,
+the assembler is keeping track of where it is while it's compiling. It
+records this in relation to the address you designate as the origin
+(<A HREF="#org"><CODE>.org</CODE></A>). Useful in other aliases, it is also called the
+Instruction Pointer because it points to (holds) the address
+of the next instruction following.
+<PRE>new_address = $+4	;new_address=current address+4</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="end"><h2>.end</h2>
+<CODE>.end</CODE> - Tells the assembler to quit; it's done compiling
+your file and everything after this command is ignored.
+<PRE>.end</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="equa"><h2>=</h2>
+<CODE><i>arg1</i> = <i>arg2</i></CODE> - Takes label
+<i>arg1</i> and assigns it the value of <i>arg2</i>. This is like an alias
+or an AKA.
+<PRE>_clrLCD = $4a7e
+Number_Three = 3
+Binary_for_Three = %00000011
+Binary_for_Three equ %00000011
+Binary_for_Three .equ %00000011</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="org"><h2>.org</h2>
+<CODE>.org <i>arg1</i></CODE> - Tells assembler to make all
+<A HREF="../beginner/inst.htm#jp">absolute jumps</A> and all
+<A HREF="../beginner/inst.htm#call">absolute calls</A> considering
+the source start at address <i>arg1</i>. All addresses after
+this directive are in relation to <i>arg1</i>.
+<PRE>.org 0
+.org _asm_exec_ram
+.org $23a4</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="pad"><h2>.pad</h2>
+<CODE>.pad <i>arg1</i></CODE> - This inserts zeroes from the current
+position to the address specified by <i>arg1</i>.
+<PRE>.pad address_later_in_source
+.pad $ + 8	;from current address ('$') to 8 bytes later</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="text"><h2>.text</h2>
+<CODE>.text "<i>arg1</i>"</CODE> - This
+is just like <CODE>.db</CODE> when you use it for strings. It puts <i>arg1</i> as
+a string into the source and automatically adds a <CODE>0</CODE> at the end to zero
+terminate it.
+<PRE>.text "Stupid"	;= .db "Stupid",0</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<a name="back"><h2>/</h2>
+<CODE><i>arg1</i> / <i>arg2</i></CODE> - This treats the commands of
+<i>arg1</i> and <i>arg2</i> as if they were on separate lines.
+<PRE>ld b,6 / ld c,4
+call _clrLCD / xor a
+
+; the above is the same as the below
+
+ld b,6
+ld c,4
+call _clrLCD
+xor a</PRE>
+<script language="JavaScript">bottom();</SCRIPT>

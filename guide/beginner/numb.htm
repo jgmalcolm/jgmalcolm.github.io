@@ -1,0 +1,394 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Number Bases")</SCRIPT>
+<UL>
+	<LI><A HREF="#dec">Decimal</A>
+	<LI><A HREF="#bin">Binary</A>
+	<LI><A HREF="#hex">Hexadecimal</A>
+	<LI><A HREF="#conv">Conversions</A>
+</UL>
+
+Number Bases are different methods of displaying the same numerical value.
+It's good to know these three common bases: decimal for regular
+<A HREF="math.htm">numeration</A>, binary for
+<A HREF="../intermediate/grap.htm">imagery</A>, and
+hexadecimal for <A HREF="../intermediate/memo.htm">addressing</A>.
+
+<P>Each of these groups represents a different number to the
+processor. In a set of machine code, each group represents a
+different command for the processor to carry out. In asm language
+coding, you have to learn how to think like the computer. You
+have to be able to use binary and decimal number bases along with
+hexadecimal, so you must learn the concept of changing between
+these number bases.
+
+<PRE>45 = %00101101 = $2d = %00101101 = 45</PRE>
+
+<P>While you're browsing through, try using a
+<A HREF="JavaScript:popup('conv.htm')">Converter</A> to test what
+you're reading. If you experiment as you go along, you'll learn the
+concepts better.
+
+<A NAME="dec"><H2>Decimal</H2>
+Decimal numbers are a base ten. It's base ten
+because there are ten different symbols used: <CODE>0,1,2,3...9</CODE>. We
+use decimal for almost everything, so I'm not going to
+explain how to write a number in that form.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="bin"><H2>Binary</H2>
+You probably have heard of binary numbers before, meaning
+numbers represented by a series of ones and zeros:
+
+<PRE>3=%00000011</PRE>
+
+<P>Computers don't use numbers in the form of 2, 3, 9, 134, or 6
+to do their math.  Instead, they use groups of <CODE>1</CODE>'s
+and <CODE>0</CODE>'s.
+
+<PRE>%00010101 %01110100 %01101110 %01101111</PRE>
+
+Binary is just a group of eight ones and zeros with a
+base two. It's base two because there are only two symbols
+used: <CODE>0</CODE> and <CODE>1</CODE>. If you have a binary
+number, you have to look at the whole thing starting from
+the right side. Binary numbers are shown with a <CODE>%</CODE> before
+them or a <CODE>b</CODE>; after
+the number. I will reference them with a <CODE>%</CODE>; in the
+rest of this document. A number without any symbol before or
+after it means that it is in decimal form.
+
+<P>Let's work with the following number:
+
+<PRE>%00100011 = 35</PRE>
+
+<P>A <CODE>1</CODE> in a certain spot symbolizes a certain value. A
+<CODE>0</CODE> means no "no value here". The following chart shows how much a
+one is worth in each spot:
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD><A NAME=bitp>Bit 7
+		<TD>Bit 6
+		<TD>Bit 5
+		<TD>Bit 4
+		<TD>Bit 3
+		<TD>Bit 2
+		<TD>Bit 1
+		<TD>Bit 0
+	<TR>	<TD>128
+		<TD>64
+		<TD>32
+		<TD>16
+		<TD>8
+		<TD>4
+		<TD>2
+		<TD>1
+</TABLE>
+
+<P>Here's some binary and decimal equivalents starting
+at zero and working our way up a little.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD>0=%00000000
+	<TR>	<TD>1=%00000001
+	<TR>	<TD>2=%00000010
+	<TR>	<TD>3=%00000011
+	<TR>	<TD>4=%00000100
+	<TR>	<TD>5=%00000101
+	<TR>	<TD>6=%00000110
+	<TR>	<TD>7=%00000111
+	<TR>	<TD>8=%00001000
+	<TR>	<TD>9=%00001001
+	<TR>	<TD>10=%00001010
+</TABLE>
+
+<P>So with the number <CODE>%00100011</CODE> you have a one in the
+bit 0 place, so we add <CODE>1</CODE> to the total, which is zero
+since we just started. We have another one in the bit 1 place, so we add
+<CODE>2</CODE> to the total bringing the total to <CODE>3</CODE>.
+The next three bit places (bits 2 through bit 4) all have <CODE>0</CODE>'s
+in them so we skip them. Our last <CODE>1</CODE> is in the bit 5 place
+which is worth <CODE>32</CODE>, so we add <CODE>32</CODE> to the total
+so far and we have <CODE>35</CODE>. So, <CODE>%00100011 = 35</CODE>.
+The maximum value a byte can have is <CODE>255</CODE>.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>&nbsp;
+		<TD>Bit 7
+		<TD>Bit 6
+		<TD>Bit 5
+		<TD>Bit 4
+		<TD>Bit 3
+		<TD>Bit 2
+		<TD>Bit 1
+		<TD>Bit 0
+		<TD>&nbsp;
+	<TR CLASS=header>
+		<TD>&nbsp;
+		<TD>128
+		<TD>64
+		<TD>32
+		<TD>16
+		<TD>8
+		<TD>4
+		<TD>2
+		<TD>1
+		<TD>&nbsp;
+	<TR>	<TD CLASS=header>12
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%00001100
+	<TR>	<TD CLASS=header>44
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>1
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%00101100
+	<TR>	<TD CLASS=header>75
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>1
+		<TD>1
+		<TD CLASS=header>%01001011
+	<TR>	<TD CLASS=header>00
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%00000000
+	<TR>	<TD CLASS=header>128
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%10000000
+	<TR>	<TD CLASS=header>255
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD CLASS=header>%11111111
+	<TR>	<TD CLASS=header>3
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>1
+		<TD CLASS=header>%00000011
+	<TR>	<TD CLASS=header>4
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%00000100
+	<TR>	<TD CLASS=header>58
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>1
+		<TD>1
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD CLASS=header>%00111010
+	<TR>	<TD CLASS=header>69
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>1
+		<TD CLASS=header>%01000101
+	<TR>	<TD CLASS=header>200
+		<TD>1
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD>1
+		<TD>0
+		<TD>0
+		<TD>0
+		<TD CLASS=header>%11001000
+</TABLE>
+
+<P><A NAME="size">Binary numbers can be grouped in
+different combinations. You can have a bit, one bit;
+a nibble, 4 bits; a byte, 8 bits; a word, two bytes;
+or a long word, 4 bytes. The <A HREF="z80p.htm">z80</A>
+can only handle up to a word, two bytes.
+
+<P><TABLE ALIGN=CENTER class=info>
+	<TR CLASS=header>
+		<TD>Name
+		<TD>Size
+		<TD>Visual
+	<TR>	<TD>Bit
+		<TD>A single 1 or 0
+		<TD>0
+	<TR>	<TD>Nibble
+		<TD>Four bits
+		<TD>0000
+	<TR>	<TD>Byte
+		<TD>8 Bits
+		<TD>00000000
+	<TR>	<TD>Word
+		<TD>Two bytes
+		<TD>00000000 00000000
+	<TR>	<TD>Long Word
+		<TD>Four bytes
+		<TD>00000000 00000000 00000000 00000000
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="hex"><H2>Hexadecimal</H2>
+Hexadecimal is our next number base used. This is on a
+base sixteen because there are sixteen different symbols we can
+use: <CODE>0,1,2,3,...9, A, B, C, D, E,</CODE> and <CODE>F</CODE>.
+
+<P>A <CODE>$</CODE> before a number, or a <CODE>h</CODE> after the number, denotes
+that it is in hexadecimal form. The following chart is the best
+way to learn the relationship between these numbers:
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD CLASS=header>Dec
+		<TD>1
+		<TD>2
+		<TD>3
+		<TD>4
+		<TD>5
+		<TD>6
+		<TD>7
+		<TD>8
+		<TD>9
+		<TD>10
+		<TD>11
+		<TD>12
+		<TD>13
+		<TD>14
+		<TD>15
+		<TD>16
+		<TD>17
+	<TR>	<TD CLASS=header>Hex
+		<TD>1
+		<TD>2
+		<TD>3
+		<TD>4
+		<TD>5
+		<TD>6
+		<TD>7
+		<TD>8
+		<TD>9
+		<TD>a
+		<TD>b
+		<TD>c
+		<TD>d
+		<TD>e
+		<TD>f
+		<TD>10
+		<TD>11
+</TABLE>
+
+<P>Let's say you have the number <CODE>35</CODE> again,
+the hexadecimal representation of that would be <CODE>$23</CODE>
+in hexadecimal.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="40">Dec
+		<TD WIDTH="40">Hex
+	<TR>	<TD>1
+		<TD>$1
+	<TR>	<TD>23
+		<TD>$17
+	<TR>	<TD>52
+		<TD>$34
+	<TR>	<TD>12
+		<TD>$0c
+	<TR>	<TD>255
+		<TD>$ff
+	<TR>	<TD>128
+		<TD>$80
+	<TR>	<TD>69
+		<TD>$45
+	<TR>	<TD>95
+		<TD>$5f
+	<TR>	<TD>74
+		<TD>$4a
+	<TR>	<TD>111
+		<TD>$6f
+</TABLE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+
+<A NAME="conv"><H2>Conversions</H2>
+You can practice converting numbers with simple scripts such as the
+<A HREF="JavaScript:popup('conv.htm')">Converter</A> or
+you can use your TI86's Base Conversion menu by pressing the
+following keys:
+<OL>
+	<LI>[2nd]
+	<LI>[1].
+</OL>
+Then you have the option of choosing any one of the following:
+<OL>
+	<LI>[F1] will give you a menu filled with the letters used
+	in hexadecimal representation.
+	<LI>[F2] will give you the symbols used to denote which
+	base a number is in so the TI86 can understand it.
+	<LI>[F3] gives you the conversion commands.
+	<LI>[F4] brings up the Boolean Items discussed in the
+	<A HREF="../intermediate/logi.htm">Logical Operators</A> section.
+	<LI>[F5] loads the bit manipulation routines
+	discussed in the <A HREF="../advanced/shif.htm">Shift and
+	Rotate</A> section.
+</OL>
+Play around with all that until you get
+the hang of it. Remember that a <CODE>$</CODE> before a number or a
+<CODE>h</CODE> after the number denotes that it's in
+hexadecimal form, a <CODE>%</CODE> before a number or a
+<CODE>b</CODE> after the number denotes that it's in binary
+form, and when there's just a number without those symbols
+it's just in plain old decimal form.
+<SCRIPT LANGUAGE=JavaScript>CreateBottom()</SCRIPT>

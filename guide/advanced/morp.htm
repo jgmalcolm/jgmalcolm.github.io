@@ -1,0 +1,85 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Morphic Code");</SCRIPT>
+
+<P>Morphic code is code that edits other code.  This is such a broad definition
+because it changes, as the name hints.  You can have a routine that puts
+a return instruction between some code to return early.  It would
+load the value for <CODE>ret</CODE> (<CODE>$c9</CODE>)
+into a <CODE>nop</CODE> (<CODE>$00</CODE>) so it wouldn't move any
+code around affecting all addresses after.  Morphic code isn't
+used that often.  One time it is used is for random number generators.  Here's
+an example of a random number generator that edits a constant every time
+it is run.
+
+<PRE>random_number_generator:
+		push hl		;save hl
+	ld a,r			;refresh register
+				; is increased after
+				; every instruction
+				; is executed
+	ld hl,random_byte_addr	;address of byte
+				; we keep changing
+	add a,(hl)		;add r to what's at hl
+	adc a,a			;multiply by 2 and
+				;increase if carry
+				; was set last time
+	ld (hl),a		;load the result back
+				; at hl
+		pop hl		;get back hl saved
+				; from when we
+				; started the routine
+	ret
+random_byte_addr:
+	.db $00			;byte we change</PRE>
+
+<P>Now that code wasn't trully morphic.  It more or less
+resembled using variables.  Morphic code is powerful when
+used to modify other code as this next example shows.  Upon
+entering this routine, the byte at address <CODE>loop_iterations</CODE>
+will contain the number of times we should loop using
+<CODE>djnz</CODE>.  We load that value into the byte loaded into
+<CODE>b</CODE> using the <A HREF="asse.htm#pc">Instruction
+Pointer</A> (<CODE>$</CODE>) and start the loop.
+
+<PRE>loop_iteration_change:
+	ld hl,loop_iteration
+	ld a,(hl)
+	ld hl,byte_to_change
+	ld (hl),a
+byte_to_change	= $ + 1		;the $ would be
+				; the opcode byte
+				; telling the z80
+				; to load the following
+				; byte into b
+				;$ + 1 would be the
+				; byte to be loaded
+				; into b
+	ld b,$00		;the $00 is changed
+				; from the 'ld (hl),a'
+				; code
+	ld a,1			;load a with 1 so we can
+				; start multiplying
+				; (really adding)
+loop:
+	add a,a			;a*2=a
+	djnz loop
+	ret			;we now have a=2^b
+
+loop_iteration:	.db $00		;byte determined before
+				; routine starts</PRE>
+
+<P>Let's reference a <A HREF="../intermediate/vari.htm#temp">Temporary
+Trash</A> variable within the program code.
+
+<PRE>	ld a,69
+	ld (variable_addr),a
+
+	ld a,$00
+variable_addr	=$-1</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

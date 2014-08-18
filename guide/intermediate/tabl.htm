@@ -1,0 +1,208 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Tables and Arrays");</SCRIPT>
+
+<P>A lot of times you want to access info in a table or a list.  Remember
+the <A HREF="../advanced/inde.htm#index">index registers</A>?
+
+<PRE>	ld iy,table_start
+	ld a,(iy+4)</PRE>
+
+You would be referencing the fourth item from the beginning of the list
+with the address of <CODE>iy</CODE>'s value.  You still retain the address
+for the beginning of the table.
+
+<P>That's good for accessing specific elements in the list.  If you
+want to take a list and check each thing against a value, the best
+thing is to use a recursive loop.  Here's a simple routine to check
+what's in <CODE>a</CODE> in comparison to every item in the table.  If there's
+a match, the place value of that match is put into <CODE>b</CODE>; if there's no
+match, <CODE>b</CODE> is loaded with 0:
+
+<PRE>check:
+	ld b,end_of_table-table
+	ld hl,table
+check_loop:
+	cp (hl)
+	ret z
+	inc hl
+	djnz check_loop
+	ret
+table:  .db $34,$a3,$eb,$56,4,1,$20,$ff,220,$0a
+end_of_table:</PRE>
+
+<P>Here's some different code that does the same thing but is shorter
+and uses a new instruction (<CODE>cpir</CODE>) which does the following:  compares
+<CODE>a</CODE> to <CODE>(hl)</CODE>, if it's equal then exit, if not decrease <CODE>bc</CODE>
+and repeat until either <CODE>bc</CODE> is zero or <CODE>a</CODE>=<CODE>(hl)</CODE>.  Here
+is the same routine from above, but instead it uses <CODE>cpir</CODE>:
+
+<PRE>check:
+	ld bc,end_of_table-table
+	ld hl,table
+	cpir
+	ret
+table:  .db $34,$a3,$eb,$56,4,1,$20,$ff,220,$0a
+end_of_table:</PRE>
+
+<P>The second routine is two bytes shorter.  Two bytes doesn't seem like
+anything really but it adds up and everything.  Sometimes the only
+difference between two versions of a game is a five or six byte
+change!
+
+<P>Let's say you wanted to make an array (list) with
+each element 1 byte in length to hold the
+letters of the alphabet. Let's also
+say the array can be trashed once your program is
+done. We'll use a <A HREF="memo.htm#safe">safe memory</A>
+area at the end of our program at, say, address
+$f200. Let's start loading the array with
+letter values, incrementing the array length counter
+(<CODE>array_size</CODE> at address $f200). We already
+know that we only have 26 letters but we're using
+a counter to demonstrate the principle of having
+some counter to tell you the size of the array. The
+actual array's element data will start
+at address $f201. You can just
+download the <A HREF="../download/array.asm">source
+code</A> if you want to assemble it to see
+the results.
+
+<P>Keep in mind, this is a really cumbersome method of
+referencing elements. I'm only trying to show you
+the fundamentals. It would be much faster to do
+it as shown in
+<A HREF="../download/array2.asm">Array2.asm</A> with
+<A HREF="simu.htm">Simulated 16 bit Addition</A>.
+
+<PRE>a_size		=$f200	;array size
+array_start	=$f201	;start of element data
+e_size		=1	;element size in bytes
+#define array(element)	array_start+((element-1)*e_size)
+	;each element is two bytes
+	;when we want the 2nd element, we usually
+	; put 'array(2)' but since 0 is the first
+	; element, we subtract 1 from what we
+	; requested
+#include "ti86asm.inc"
+.org _asm_exec_ram
+
+;let's start loading the array with
+; values
+	ld hl,array(1)	;return the address of the
+			; first element in de
+	ld ix,a_size	;size/length counter address
+	ld (ix),$00	;initialize counter to $00
+			; because we haven't stored
+			; anything in it yet
+			;ix register pair can be used
+			; just like hl
+	ld de,e_size	;load de with the size
+			; of each element so we
+			; can move from one element
+			; to the next
+	ld b,26		;there are 26 characters
+			; in the alphabet...i hope
+	ld a,'a'	;letter to start with
+initialize_loop:
+	ld (hl),a	;load element
+	inc a		;increment letter value
+	inc (ix)	;increment counter value
+	add hl,de	;add where we are to
+			; the length of each element
+			; to get the next element's
+			; address
+	djnz initialize_loop
+
+	call _clrScrn	;clear the screen
+	call _homeup	;put cursor at top left
+
+;now let's print the word "stupid" letter by letter
+
+	ld hl,array(19)		;'s'
+	call print_element
+
+	ld hl,array(20)		;'t'
+	call print_element
+
+	ld hl,array(21)		;'u'
+	call print_element
+
+	ld hl,array(16)		;'p'
+	call print_element
+
+	ld hl,array(9)		;'i'
+	call print_element
+
+	ld hl,array(4)		;'d'
+	call print_element
+
+	call _getkey	;wait for keypress
+	jp _clrScrn	;clear screen and return
+;print_element prints the character in the
+; array at address held by hl
+print_element:
+	ld a,(hl)	;get that element's value
+	jp _putc	;print character and return
+.end</PRE>
+
+<P>To get a little more complicated,
+let's check out tables. Here's a look up
+routine for a table with 3 columns.
+You input into <CODE>d</CODE> the desired row,
+<CODE>e</CODE> the desired column, and have <CODE>hl</CODE>
+hold the address of the queried table. You
+can see this routine in action used
+by <A HREF="../download/table.asm">Table.asm</A>.
+It also uses <A HREF="simu.htm">Simulated 16
+bit Addition</A>.
+
+<PRE>	ld de,1*256+2	;row 1, col 2
+	ld hl,table
+	call get_cell
+	. . .
+	. . .
+;input: d=row
+;	e=col
+;	hl=address of 3x3 table
+;output:a=value
+get_cell:
+	dec e		;decrease columns
+			; since $00 is 1st
+			; column
+	dec d		;decrease rows
+			; since $00 is 1st
+			; column
+	sub a		;initialize to $00
+	ld b,d		;get row #
+	jr z,no_row_mult
+row_multiply_loop:
+	add a,table_width	;width of table (3)
+	djnz row_multiply_loop
+no_row_mult:
+	add a,e		;add in col #
+;now we get into simulated 16 bit addition
+; of adding an 8 bit register (a) to a 16 bit one (hl)
+	add a,l
+	ld l,a
+	adc a,h
+	sub l
+	ld h,a
+	ld a,(hl)
+	ret
+table:
+	.db 'a','b','c'
+	.db 'd','e','f'
+	.db 'g','h','i'</PRE>
+
+<P>This is still only an introduction, designed
+just to teach you the <I>basics</I>. There are
+so many other ways to use tables and arrays that
+you will have to discover on your own and tailor
+to your programs.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

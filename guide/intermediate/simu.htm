@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Simulated 16 bit Addition");</SCRIPT>
+
+<P>Have you ever wanted to add an 8-bit register to a 16-bit register?  You've probably
+just ran the following code to add <CODE>a</CODE> to <CODE>hl</CODE>.
+
+<PRE><OL>
+<LI>	ld b,0		;2 bytes	7 cycles
+<LI>	ld c,a		;1 byte		4 cycles
+<LI>	add hl,bc	;<u>1 byte		11 cycles</u>
+			;4 bytes	22 cycles (totals)</PRE>
+
+<P>I wrote the opcode information to the right of each of those instructions for
+clock cycles and size.  At the bottom I totalled the information so we can compare
+it with a new way of adding 8-bit registers to 16-bit ones totalled later on.
+
+<P>The faster way to do this is the following code using the
+<A HREF="../beginner/flag.htm#carry">carry flag</A>.
+
+<PRE><OL>
+<LI>	add a,l		;1 byte		4 cycles
+<LI>	ld l,a		;1 byte		4 cycles
+<LI>	adc a,h		;1 byte		4 cycles
+<LI>	sub l		;1 byte		4 cycles
+<LI>	ld h,a		;<u>1 byte		4 cycles</u>
+			;5 bytes	20 cycles (totals)
+</PRE>
+<P>
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="10%">Line
+		<TD>Explanation
+	<TR>	<TD>1
+		<TD>Add the Least Significant Byte (LSB)
+		of <CODE>a</CODE> to the LSB of <CODE>hl</CODE>.  If there
+		was a overflow, the
+		<A HREF="../beginner/flag.htm">carry flag</A> will
+		be set or reset accordingly.
+	<TR>	<TD>2
+		<TD>Store the result in the LSB of <CODE>hl</CODE>.  This
+		does not dissrupt the
+		<A HREF="../beginner/flag.htm">carry flag's</A> status.
+	<TR>	<TD>3
+		<TD>Add the result again into <CODE>h</CODE>, this will also
+		add 1 to that if the carry was set, or 0 if it was
+		reset. The result is still in <CODE>a</CODE>.
+	<TR>	<TD>4
+		<TD>Subtract the original result (what's now in
+		<CODE>l</CODE>) from the most recent result.  This has
+		the effect of just adding the carry to <CODE>h</CODE>.  It
+		undoes what line 3 did so that we either
+		added 1 or 0 to <CODE>h</CODE>.
+	<TR>	<TD>5
+		<TD>Put that final result of the Most Significant
+		Byte (MSB) into <CODE>h</CODE> giving us the final
+		product: <PRE>	hl = hl + a
+</TABLE>
+<P>Our final routine saves us 2 clock cycles at a cost of 1 byte
+extra.  In programs where speed is of the escence, this routine is
+a must compared to the original method.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

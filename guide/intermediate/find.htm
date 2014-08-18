@@ -1,0 +1,213 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Find Pixel");</SCRIPT>
+
+<P>Find Pixel is a small routine that sets the basis for plotting pixels on the
+screen. It takes the x and y coordinates of where you want to put a pixel and transforms
+those coordinates into an address and a bit offset. The address it gives you is
+for the byte that that pixel coordinate is in the Video Memory.
+
+<P>Some routines give you
+this address relative to zero being the top left of the screen. You might have to add
+$fc00 to the address outputted in order to get the exact address in the Video Memory. The
+bit offset is stored as a bit set in the accumulator (<CODE>a</CODE>
+<A HREF="../beginner/regi.htm">register</A>). The bit
+cooresponds to the pixel you want. If you set the same bit in <CODE>a</CODE> as the address in
+the video memory given by <CODE>hl</CODE>, you will have a little black dot at the coordinates
+you want on the screen. Most routines accept the x coordinate in <CODE>b</CODE> and the y
+coordinate in <CODE>c</CODE>.
+
+<P>I've pasted <A HREF="mailto:darkclem@wanadoo.fr">Clem Vasseur's</A>
+<A HREF="../download/findpixel.asm">FindPixel.asm</A> Routine here. You
+can <A HREF="../download/findpixel.zip">download</A> this along with
+many other Find Pixel routines that I've come across in the
+<A HREF="../download/download.htm">Download Section</A>. Each
+line in the routine is represented by a number which corresponds
+to an explanation at the end of the routine. Follow each line and
+try to picture in your head what it is doing. The <I>easiest</I> way to
+do this is to print out the
+<A HREF="JavaScript:popup('finp.htm')">FindPixel Code</A> and then
+refer to the explanations.
+
+<PRE>
+<OL>
+<LI><A HREF="#l2" NAME="c1">&darr;</A>FindPixel:
+<LI><A HREF="#l2" NAME="c2">&darr;</A>	ld h,63
+<LI><A HREF="#l3" NAME="c3">&darr;</A>	ld a,c
+<LI><A HREF="#l4" NAME="c4">&darr;</A>	add a,a
+<LI><A HREF="#l4">&darr;</A>	add a,a
+<LI><A HREF="#l6" NAME="c6">&darr;</A>	ld l,a
+<LI><A HREF="#l7" NAME="c7">&darr;</A>	ld a,b
+<LI><A HREF="#l8" NAME="c8">&darr;</A>	rra
+<LI><A HREF="#l9" NAME="c9">&darr;</A>	add hl,hl
+<LI><A HREF="#l10" NAME="c10">&darr;</A>	rra
+<LI><A HREF="#l11" NAME="c11">&darr;</A>	add hl,hl
+<LI><A HREF="#l12" NAME="c12">&darr;</A>	rra
+<LI><A HREF="#l13" NAME="c13">&darr;</A>	or l
+<LI><A HREF="#l13">&darr;</A>	ld l,a
+<LI><A HREF="#l15" NAME="c15">&darr;</A>	ld a,b
+<LI><A HREF="#l16" NAME="c16">&darr;</A>	and %00000111
+<LI><A HREF="#l17" NAME="c17">&darr;</A>	ld bc,FP_Bits
+<LI><A HREF="#l18" NAME="c18">&darr;</A>	add a,c
+<LI><A HREF="#l18">&darr;</A>	ld c,a
+<LI><A HREF="#l18">&darr;</A>	adc a,b
+<LI><A HREF="#l18">&darr;</A>	sub c
+<LI><A HREF="#l18">&darr;</A>	ld b,a
+<LI><A HREF="#l23" NAME="c23">&darr;</A>	ld a,(bc)
+<LI><A HREF="#l24" NAME="c24">&darr;</A>	ret
+<LI><A HREF="#l25" NAME="c25">&darr;</A>FP_Bits:
+<LI><A HREF="#l25">&darr;</A>	.db %10000000
+<LI><A HREF="#l25">&darr;</A>	.db %01000000
+<LI><A HREF="#l25" NAME="c28">&darr;</A>	.db %00100000
+<LI><A HREF="#l25">&darr;</A>	.db %00010000
+<LI><A HREF="#l25">&darr;</A>	.db %00001000
+<LI><A HREF="#l25">&darr;</A>	.db %00000100
+<LI><A HREF="#l25">&darr;</A>	.db %00000010
+<LI><A HREF="#l25">&darr;</A>	.db %00000001
+</PRE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="10%" ALIGN=CENTER>Line(s)
+		<TD ALIGN=CENTER>Explanation
+		<TD WIDTH="5%" ALIGN=CENTER>Bytes
+	<TR>
+		<TD><A HREF="#c2" NAME="l2">&uarr;</A>2
+		<TD>This routine is great because it knows
+		we are going to want the address relative to the Video Memory
+		($fc00) and not relative to zero ($0000). We are going to
+		be multiplying <CODE>hl</CODE> times 4. We can think ahead and
+		see that 63*4 converted to hexadecimal is $fc. That's the
+		Most Significant Byte (MSB) of what we want. This will
+		handle for us the adding of the final address to $fc00. The
+		multiplying by 4 will come in lines <A HREF="#c9">9</A> and
+		<A HREF="#c11">11</A>.
+		<TD>2
+	<TR>
+		<TD><A HREF="#c3" NAME="l3">&uarr;</A>3
+		<TD>We need to get the y coordinate and multiply
+		it by 16 (or 2<sup>4</sup>) so we move down 16 bytes (one row)
+		until we're at the row designated by the y coordinate. We can't
+		just do 16*<CODE>c</CODE>. We can square the y coordinate 4 times so
+		we have it times 16. We are going to use 'add a,a' for the first 2
+		squares because we know we won't exceed 256 with just 2 multiplies
+		since the maximum y value is 64 (64*2*2=256). 'Add a,a' is over
+		two times faster than 'add hl,hl' which we will have to use
+		later.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c4" NAME="l4">&uarr;</A>4-5
+		<TD>Now we've got to start multiplying the
+		y coordinate (which was in <CODE>c</CODE>) by 16. It's nice that
+		the screen is 16 bytes across because that way it's a power
+		of 2 so we can figure this stuff out fast with just shifting
+		bits over to the right once.
+		<TD>2
+	<TR>
+		<TD><A HREF="#c6" NAME="l6">&uarr;</A>6
+		<TD>We put what we've just got into the Least
+		Significant Byte (LSB) of our final address to be stored in
+		<CODE>hl</CODE>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c7" NAME="l7">&uarr;</A>7
+		<TD>Now's time to start working with the
+		x coordinate stored in <CODE>b</CODE>. Since it's in terms of
+		pixels (or bits in each pixel) we need to think of each
+		byte containing 8 pixels. We need to divide the x coordinate
+		by 8 to account for each of the 8 pixels in a byte.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c8" NAME="l8">&uarr;</A>8
+		<TD>If this is unfamiliar to you, refer to the
+		<A HREF="../advanced/shif.htm">Shift and Rotate Section</A> to
+		get a quick lesson. It rotates the bits one to the right with
+		bit 0 being moved to bit 7 and also copied into the carry
+		flag. This also acts as dividing by 2 since we shift over by a
+		power of 2 (2<sup>1</sup>=2). This is the same as lines
+		<A HREF="#c10">10</A> and <A HREF="#c12">12</A>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c9" NAME="l9">&uarr;</A>9
+		<TD>We need to perform the third multiplication
+		of the y coordinate by 2. This is the same as line
+		<A HREF="#c11">11</A>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c10" NAME="l10">&uarr;</A>10
+		<TD>See <A HREF="#l8">explanation</A> for line
+		<A HREF="#c8">8</A>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c11" NAME="l11">&uarr;</A>11
+		<TD>See <A HREF="#l9">explanation</A> for line
+		<A HREF="#c8">9</A>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c12" NAME="l12">&uarr;</A>12
+		<TD>See <A HREF="#l8">explanation</A> for line
+		<A HREF="#c8">8</A>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c13" NAME="l13">&uarr;</A>13-14
+		<TD>This adds in the result we just found with
+		whatever is currently in the LSB of <CODE>hl</CODE> (<CODE>l</CODE>). Then
+		we put that result into the LSB. We now have the final
+		address in the Video Memory in <CODE>hl</CODE> ready to be used.
+		<TD>2
+	<TR>
+		<TD><A HREF="#c15" NAME="l15">&uarr;</A>15
+		<TD>Out next task is to figure out the bit offset
+		needed in <CODE>a</CODE>. Let's get back out x coordinate from <CODE>b</CODE>
+		and work with it again.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c16" NAME="l16">&uarr;</A>16
+		<TD>We have already figured out which byte the
+		pixel is in. The remainder of after that calculation tells
+		us where in that byte. The remainder would be the bits we
+		shifted out the right, the last 3 bits (%00000111). If
+		the remainder were 3, then we would know that the pixel
+		is the 3rd from the left. We want to mask off (get rid of)
+		all the bits except for the ones that would be our remainder.
+		<TD>2
+	<TR>
+		<TD><A HREF="#c17" NAME="l17">&uarr;</A>17
+		<TD>Lines <A HREF="#c25">25</A> and following are
+		a set of precalculated bit offsets. We use that table and
+		add the remainder to that to get the correct offset. If the
+		remainder were 3, then we would need the
+		<A HREF="#c28">3rd element</A> in the table which is %00100000.
+		<TD>3
+	<TR>
+		<TD><A HREF="#c18" NAME="l18">&uarr;</A>18-22
+		<TD>This is
+		<A HREF="../intermediate/simu.htm">Simulated 16-bit Addition</A>
+		which will be covered later in more detail. It's faster than just doing
+		<CODE>ld h,0 / ld l,a / add hl,bc</CODE> to get the offset in the table. It
+		adds <CODE>a</CODE> to the LSB of <CODE>hl</CODE>, stores the result in the LSB,
+		adds the result to the MSB with the carry and subtracts the LSB. The
+		MSB is either increased by one (if the carry is set) or remains the
+		same (if the carry is reset).
+		<TD>5
+	<TR>
+		<TD><A HREF="#c23" NAME="l23">&uarr;</A>23
+		<TD>Put that element of the table into <CODE>a</CODE>.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c24" NAME="l24">&uarr;</A>24
+		<TD>Done with the routine so return to caller.
+		<TD>1
+	<TR>
+		<TD><A HREF="#c25" NAME="l25">&uarr;</A>25-33
+		<TD>Here begins a table with all possible bit offsets
+		for <CODE>a</CODE>. They are in binary to make it easier for viewing. See
+		lines <A HREF="#l15">15</A> and following to see how this is used.
+		<TD>8
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>

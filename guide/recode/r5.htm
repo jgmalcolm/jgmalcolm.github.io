@@ -1,0 +1,59 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Load zero into six sequential memory areas.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld a,$00	;byte to be stored
+	ld (mem_1),a	;load into memory
+	ld (mem_2),a	; addresses 1-6
+	ld (mem_3),a
+	ld (mem_4),a
+	ld (mem_5),a
+	ld (mem_6),a
+	<TR>	<TD CLASS=header>Error
+		<TD>Two errors in this one also. The first is that
+		you can use your <A HREF="../intermediate/logi.htm">logical
+		operators</A> to zero <CODE>a</CODE> just as easily as
+		<CODE>ld a,$00</CODE>. Try
+		<CODE>xor a</CODE>. It will take <CODE>a</CODE> and <CODE>a</CODE> (itself...if you
+		haven't caught on yet) and if a bit is set in one and not the
+		other, then that bit will be set in the new <CODE>a</CODE>. Since
+		both bits will be the same because it is the same register, the
+		result will have no bits set in it, thus zero. The second
+		error is one of size. Every time you load a memory address
+		with <CODE>a</CODE>, you take three bytes. That's okay if we're
+		only going to do it one or two times but if we want to do it
+		four or more times to sequential memory addresses, then you want
+		to try using the <A HREF="../intermediate/misc.htm">block copy</A>
+		instruction <CODE>ldir</CODE> to copy a byte that's been zeroed to the
+		following memory address, and then incrementing both to do it
+		again (the address copying from having been zeroed the previous
+		loop). This works great for zeroing temporary memory locations
+		at the start of your programs or clearing parts of the screen
+		for graphics.
+		<P>Speed up the routine even more by waiting until you've loaded
+		<CODE>bc</CODE> with <CODE>6</CODE> before clearing <CODE>(hl)</CODE>.
+		When you load <CODE>bc</CODE> with <CODE>6</CODE> you are clearing
+		the Most Significant Byte (<CODE>b</CODE>) because <CODE>6</CODE>
+		is <CODE>$0006</CODE> in Hexadecimal; so, we might as well
+		use that to clear <CODE>(hl)</CODE> while we have it!
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>	ld hl,mem_1	;source
+	ld de,mem_2	;destination
+	ld bc,6		;how many bytes to copy
+			;clears c also
+	ld (hl),b	;what's going to be copied
+	ldir		;(hl) to (de); inc hl & de;
+			; dec bc; repeate till
+			; bc=$00000
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

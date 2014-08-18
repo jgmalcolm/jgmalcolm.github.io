@@ -1,0 +1,132 @@
+Glossary of Assembly Terms
+
+ASAP	A term that refers to a user definable token 
+TI	Texas Instruments - Company that created all the TI-8x and TI-92 
+	calcs. Their web site is at www.ti.com 
+TI-86	A cool calculator with 128K of RAM, Nice LCD screen, improved 
+	Keypad layout, and more. 
+BIT	A binary unit containing 0 or 1 
+BYTE	A unit of measurement in computers that typically contains 8-bits. 
+Nibble	A unit of measure in computers that typically contains 4-bits, 
+	or one hex digit 
+Hex	A base 16 numbering system, where each digit has a range of: 
+	1,2,3,4,5,6,7,8,9,A,B,C,D,E,F (read my first tutorial) 
+Binary	A base 2 numbering system where each digit contains 0 or 1. This 
+	is represented by ON or OFF, TRUE or FALSE, etc, and is the key 
+	ingredient to all digital computers. (Read my first tutorial) 
+Token	The numerical representation of an OS command / function, or the 
+	command / function itself 
+Tokenize	to change the string representation of a command or function 
+	to a numerical representation. 
+User Defined Tokens	A token which can be programmed into the calculator 
+Function Token	Reads parameter(s) and returns a value to the EOS, or 
+	modifies handling; types of functions: unary (ex: cos), immediate 
+	unary (ex: >mile), binary (ex: +), function w/ multiple arguments 
+	(ex: Line), function w/ no arguments (ex: rand) 
+Command Token	Modifies some aspect of the calculator's handling; has no 
+	numerical value (ex: AxesOff) 
+Parser	Calculator utility which tokenizes and then evalutes tokens 
+asap	A customizeable RAM location to house user defined tokens 
+EOS (Equation Operating System)	Handles the calculator's function hierarchy 
+Hierarchy	The order of token evaluation (ex: * takes priority over +) 
+Interrupt	In the TI-86, A interrupt is an action occuring in that causes 
+	a calculator to stop what it is doing to perform another action. 
+	The default interrupt mode is called IM 1. When IM 1 occurs, 200 
+	times a second, the calculator will jump to 38h. 
+MODE 0	This mode gets the data from the data bus and thus isnt used for 
+	TI programming. 
+MODE 1	Default Interrupt Response Mode, when this interrupt occurs (200 
+	times/second on the TI-86), the calculator performs a restart (rst) 
+	to location 38h. 
+MODE 2	Mode 2 interrupt response mode is an interrupt that will jump to a 
+	table in memory to form a 16-bit address from that table. It will 
+	then use that 16-bit value gotten from the table to jump there. 
+LCD	Liquid Crystal Display, the basic display screen on the calculator. 
+	An LCD contains special crystals (covalent bonds?) that change 
+	color when electricity flows through them. 
+Keypad	Refers to the keys on the calculator 
+Linkport	Refers to the 2.5mm jack on the bottom of the calculator where 
+	the TI-Graphlink plugs in. 
+Sprite	A Sprite is a 'grid' of bytes that represent an image or picture. 
+	The typical size of a sprite is 8 pixels by 8 pixels, and you need 
+	8 bytes for this sprite (8 pixels/byte). Sprites are mainly used in 
+	games. For example, in SQRXZ, the bug is a sprite, and in frogger, 
+	the frog is the sprite. 
+Assembly Language	A low-level language that deals with programming the 
+	CPU directly. 
+CPU	Central Processing Unit, the main processor in a computer. The Z80 
+	is the CPU of the calculator 
+Ram Page	On the TI-86, refers to a 16K page of memory. There is one 
+	static ram page and seven swappable ram pages. 
+Static	Means it doesn't change, stays the same, set 
+Swappable RAM Page	A RAM Page that is located in memory but has to be 
+	loaded (swapped) into a 16K region (generally $8000) in order to 
+	be used. 
+Swappable ROM Page	A ROM Page that is located in memory but has to be 
+	loaded (swapped) into a l6K region (generally $4000) in order to 
+	be used. 
+RAM	Random Access Memory - Memory that can be accessed freely and 
+	written to freely. The RAM needs constant power to hold it's 
+	information. 
+ROM	Read Only Memory - The ROM never changes, and cannot be changed. 
+	The ROM holds all the system data and the actual operating system. 
+	This is the stuff that cannot be erased, no matter how many 
+	batteries you take out ;) 
+TI-OS	Texas Instruments Operating System - Refers to the Operating 
+	System of the calculator, the actual parsing and math utilities 
+	and the normal functionality of the calculator. 
+Stack	A section in memory that is designed like a 'stack' of plates. 
+	This is a LIFO structure, Last In First Out, meaning that when 
+	you PUSH a byte on the stack the stack growns downward, and when 
+	you POP a byte from the stack, the stack grows upward. The byte 
+	POPed is the last byte PUSHed. 
+User Memory	Memory in the Calculator between RAM pages 2 - 7 that holds 
+	variables (data types) such as programs, strings, matrix's, etc 
+VAT	Also called Symbol Table - Variable Allocation Table. The VAT is 
+	the combination of variable names and a 24-bit pointer to the 
+	variable data. The VAT is like a FAT that can be used to find 
+	data-types such as programs and strings. It starts at the end 
+	($8fff) and grows backward. first is a sign byte, then there is a
+	24 bit pointer to the data of the variable, then a one byte flag byte (not used by us), then the length 
+	of the name (byte), then the actual characters (as many as there 
+	are in the name. Then
+	the next byte is the sign byte of the next symbol and so on.
+Variable	Also called Symbol - A variable is a broad term that describes 
+	a data type. A variable has a 'header' that describes a data-type 
+	in the VAT, and the VAT contains a 24-bit absolute pointer to the 
+	actual variable data. 
+Variable Data	Sort of means data type - The Variable Data is the data 
+	type itself and the contents of this data type. The Variable Data 
+	also may have a header of it's own. For example, if the variable 
+	was a Program then the first two bytes of the variable data would 
+	be the size. The next two bytes would be the token 'AsmPgrm' and 
+	then the rest of the bytes would be the actual program itself. 
+Variable Name	Outside of the VAT there needs to be a way to refer to a 
+	variable. The TI-86 uses a variable name, which is 10 bytes of data 
+	(stored in the OP registers, i.e. OP1) that is used to refer to a 
+	variable. You need a variable name if you are going to search for a 
+	variable, create a variable, or delete a variable. 
+Pointer	A pointer is a general term that means one memory location holds 
+	the address of another memory location. You can then use the first 
+	memory address to indirectly access the second. 
+Flag	A flag is a bit in memory that is reserved for indicating the 
+	status of something on the TI-86. All flags are stored in the bit 
+	flag area accessed off of IY. A flag could be used to indicate, 
+	for example, whether to display text as white over black or black 
+	over white. 
+Label	A label is an assembly directive (meaning an addition to the 
+	assembler) that mainly is a simple method of holding an address. 
+	Labels are 'nicknames' for a memory location and are used for 
+	convience when using the JR, JP, or DJNZ instructions. 
+Grayscale	A technique that makes the LCD screen display multiple shades 
+	of gray. The LCD screen can normally only display two shades (ON 
+	or OFF), but grayscale uses rapid buffer exchange 200 times per 
+	second to trick your eyes into thinking there are more than one 
+	shade of gray. Grayscale can work with 4 or 8 shades, although 8 
+	shades sometimes can flicker. 
+Zilog	Company that made the z80 microprocessor. 
+z80	A cool 8-bit processor designed for small computer systems. This 
+	processor has speeds up to 20 MHZ and has an address bus of 16-bits, 
+	meaning it can address up to 64K of memory at one time. The TI-86 
+	uses a 6 Mhz z80. Systems that use the Z80 include the Gameboy, 
+	TRS-80, and Commodore 128.

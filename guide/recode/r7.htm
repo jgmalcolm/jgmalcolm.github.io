@@ -1,0 +1,53 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Wait using <CODE>_getkey</CODE> until a key is pressed, then return from
+		subroutine.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>
+routine:
+	call _getkey	;gets key press to a
+	cp $00		;was $00 returned?
+	jr z,routine	;if it's zero try again
+	ret		;must not have been zero...
+			; so return
+	<TR>	<TD CLASS=header>Error
+		<TD>Two errors.  First, <CODE>_getkey</CODE> will not return to your program
+		until a key is pressed.  You can just jump to the routine like a
+		pause that will continue if any key was pressed.  If [ON] was pressed,
+		it will return $00 and gives ERROR 06 BREAK and give you the option
+		to exit to the homescreen.  The second error is with the
+		<CODE>cp $00</CODE>.  Remember back to our
+		<A HREF="../intermediate/logi.htm">logical
+		operators</A>, <CODE>or
+		<CODE>arg1</CODE></CODE> will return any bits set in either
+		<CODE>arg1</CODE> or <CODE>a</CODE>.  So, if you <CODE>or a</CODE>, it
+		will return any bits set
+		in <CODE>a</CODE> or <CODE>a</CODE>...itself!  So if <CODE>a</CODE>
+		does not have any bits set, it will leave <CODE>a</CODE> as zero and set the
+		<A HREF="../beginner/flag.htm">Zero Flag</A>.  <CODE>Or a</CODE>
+		is also only one
+		byte so it is faster than the two byte <CODE>cp $00</CODE>
+		or <CODE>cp 0</CODE>.  This little
+		change is only to speed up the <CODE>cp $00</CODE> part of
+		the above code, but we
+		don't even need it if we are going just jump to the routine and not worry
+		if zero was returned.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>
+routine:
+	jp _getkey	;wait until a key is
+			; pressed and store
+			; that scancode in a
+			; then return
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

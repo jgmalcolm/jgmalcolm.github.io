@@ -1,0 +1,121 @@
+<HTML>
+<head>
+<title>The Guide</title>
+<link rel="stylesheet" type="text/css" href="../guide.css">
+<script language="javascript" src="../guide.js"></script>
+</head>
+<body>
+<script language="javascript">top("Advanced","APD");</script>
+
+<p>Automatic Power Down (APD) is like a screen saver on your
+computer (except it's more of a battery saver because there's
+no phosporous in the screen to save). After about four minutes
+with no keys being pushed, the calculator will shut down the
+screen and wait until a key is pressed.
+
+<p>The actual APD is just a counter in memory that is decreased
+every interrupt (so interrupts must be enabled). When a key is
+pressed, that counter starts all over again from the top. If
+the counter wound down because no key was pressed, the interrupt
+handler will <A HREF="onof.htm">shut down</A> and will not be
+exited until the [ON] key is pressed. The screen is saved
+and, when turned back on, will be displayed again along
+with program execution resuming.
+
+<p>There are a few addresses and constants you must
+know about before you start working with the APD.
+
+<PRE>;call equates for handlers
+_APDHandler	=$4058	;main handler
+_idle		=$405c	;shuts down if _APDWarmUp=$00
+_APDSetup	=$4060	;resets _APDTimer to $a1
+
+;memory addresses for apd counters
+_APDSubTimer	=$c009	;APD sub-timer
+_APDTimer	=$c00a	;APD timer
+_APDWarmUp	=$c00b
+
+;system flags at iy offset 8
+APDable	=2		;enable APD counter
+APDlock	=3		;lock APD
+APDdone	=4		;APD has expired
+</PRE>
+
+<p>The above calls have no inputs. Let's say
+you want to turn off the TI86 if nothing's
+been pressed in a while, just call '_idle'.
+It will check to see if it's time to shut
+down the calculator based on the
+<A HREF="inte.htm">interrupt
+handler's</A> checking the status of
+keypresses. If you want to reset the _APD
+so it's fresh again, just call '_APDSetup'.
+That will reset the counter at '_APDTimer' to
+$a1 (its default value).
+
+<p>At '_APDHandler', TI-OS performs
+it's own updating of the APD counters. This
+is run from the
+<A HREF="inte.htm">interrupt
+handler</A>, so don't use it on your own.
+
+<p>If you want to turn off the APD, reset
+APDable of the <A HREF="syst.htm">system
+flags</A>. You need to set it before exiting
+your program of the calculator won't
+enable it again.
+
+<p>Here's the code for the APD routines from
+the TI86's ROM. The left most numbers are
+the address of the code in hexadecimal,
+then comes the code. Keep in mind that
+this is for <A HREF="../beginner/ti86.htm">ROM
+version 1.6</A>. The first three sets of code
+will be the same on all ROM versions but where
+they refer to may be different among versions.
+
+<PRE>_APDHandler: 		;($4058)
+	call sub _APDHandler	;($0170)
+	ret
+
+_idle:				;($405c)
+	call sub _idle		;($0194)
+	ret
+
+_APDSetup:			;($4060)
+	call sub _APDSetup	;($019b)
+	ret
+
+sub _APDHandler:
+	ld hl,_APDWarmUP
+	ld a,(hl)
+	or a
+	jr z,$0178
+	dec (hl)
+	ld a,($c3ed)	;the apd flag set
+	bit 2,a		;APDable
+	ret z		;not turned on so ret
+	bit 3,a		;APDlock
+	ret z		;unlocked so leave
+	ld hl,_APDSubTimer
+	dec (hl)
+	ret nz
+	inc hl		;not at _APDTimer
+	dec (hl)
+	ret nz
+	res 3,(iy+8)	;unlock APD
+	set 4,(iy+8	;tell ti-os it ran out
+	jp $0c34	; -> shutdown routine
+
+sub _idle:
+	ld a,(_APDWarmUP)
+	or a
+	ret nz
+	halt		;wait for interrupt
+	ret
+
+sub _APDSetup:
+	ld hl,_APDTimer	;main counter
+	ld (hl),$a1	;reset counter (%10100001)
+	ret</PRE>
+<script language="JavaScript">bottom();</script>

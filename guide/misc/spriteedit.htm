@@ -1,0 +1,88 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<STYLE TYPE="text/css">
+body		{ margin: 25 }
+.clsSprite	{ border-top: 2 solid #d0d0d0;
+		border-left: 2 solid #d0d0d0;
+		border-bottom: 2 solid #a0a0a0;
+		border-right: 2 solid #a0a0a0;
+		cursor: hand }
+.clsSprite td	{ height: 20;
+		width: 20 }
+</STYLE>
+<SCRIPT LANGUAGE=JavaScript>
+function DrawPixel()
+	{
+	Color = window.event.srcElement.style.background;
+	if (Color == 'black')
+		Color = 'e0e0e0';
+		else
+		Color = 'black';
+	window.event.srcElement.style.background = Color;
+	ParseSprite();
+	}
+
+function ClearSprite()
+	{
+	for (var i = 0; i < 8; i++)
+		{
+		for (var i2 = 0; i2 < 8; i2++)
+			eval("td" + i + i2).style.background = '#e0e0e0';
+		}
+	ParseSprite();
+	}
+
+function ParseSprite()
+	{
+	SpriteStr = "Sprite:";
+	for (i = 0; i < 8; i++)
+		{
+		SpriteStr += "<BR>&nbsp;&nbsp;.db ";
+		for (i2 = 0; i2 < 8; i2++)
+			{
+			SpriteStr += eval("td" + i + i2).style.background == 'black'? '1' : '0';
+			SpriteStr += i2 < 7? ',' : '';
+			}
+		}
+	tblSpriteData.innerHTML = SpriteStr;
+	}
+function InvertSprite()
+	{
+	for (i = 0; i < 8; i++)
+		{
+		for (i2 = 0; i2 < 8; i2++)
+			eval("td" + i + i2).style.background = eval("td" + i + i2).style.background == '#e0e0e0'? 'black' : '#e0e0e0';
+		}
+	ParseSprite();
+	}
+</SCRIPT>
+</HEAD>
+<BODY>
+<TABLE CLASS=clsSprite ID=tblSprite onClick="DrawPixel()">
+<SCRIPT LANGUAGE=JavaScript>
+for (var i = 0; i < 8; i++)
+	{
+	document.write("<TR>");
+	for (var i2 = 0; i2 < 8; i2++)
+		document.write("<TD STYLE='background:#e0e0e0' ID=td" + i + i2 + ">");
+	}
+</SCRIPT>
+</TABLE>
+
+<P><TABLE WIDTH=200 HEIGHT=150><TR><TD ID=tblSpriteData>Sprite:<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0<BR>
+&nbsp;&nbsp;.db 0,0,0,0,0,0,0,0</TABLE>
+
+
+<P><INPUT TYPE=BUTTON ONCLICK="ClearSprite()" VALUE=Clear>
+<P><INPUT TYPE=BUTTON ONCLICK="InvertSprite()" VALUE=Invert>
+
+<P><A HREF="JavaScript:window.close()">Close Window</A>

@@ -1,0 +1,54 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","User Interrupt");</SCRIPT>
+
+<P>Interrupts are when regular
+code execution is suspended while
+a separate section of code is
+executed.
+
+<P>The
+<A HREF="../intermediate/romc.htm#_runIndicOff">Run
+Indicator</A> at the top right of
+the screen is an example: it is 'animated'
+by the interrupts until
+the calculations are finished.
+The calculations don't have
+to worry about redrawing it.
+The interrupt routine will
+check to see if the calculations
+are still being performed
+and, if so, continue animating
+the indicator.
+
+<P>Another example is the mouse
+pointer on your computer screen.
+The computer is redrawing the
+mouse on the screen all the time.
+When it's moved, the old
+position is erased and the new
+spot is rendered.
+
+<P>TI-OS allows you to execute
+your own interrupt routine 100+
+times a second, while regular code
+is running. This all depends upon
+the battery power: faster with
+fresher batteries. All you
+have to do is copy
+your own routine to a designated
+area and set the appropriate
+<A HREF="syst.htm">flag</A>.
+<!--
+* greyscale
+* crash protection
+* custom keyboard handlers
+* fix [down][left] bug
+* provide somewhat accurate timers for games
+--!>
+<SCRIPT LANGUAGE=JavaScript>bottom("User Routines","user.htm");</SCRIPT>

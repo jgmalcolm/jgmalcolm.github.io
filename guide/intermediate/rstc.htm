@@ -1,0 +1,74 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Restart Commands")</SCRIPT>
+
+<P>Similiar to <CODE>call</CODE>s, the <CODE>rst</CODE> commands jump
+to an address and execute code until encountering a return command.
+They are exactly like calls but only take up 1 byte (instead of
+3). They are only capable of going to a few preset addresses.
+Those addresses are: <CODE>$0000, $0008, $0010, $0018, $0020, $0028,
+$0030,</CODE> and <CODE>$0038</CODE>.
+
+<P><TABLE ALIGN=CENTER CLASS=info WIDTH=80%>
+	<TR CLASS=header>
+		<TD>Command
+		<TD>Equivalent Call
+		<TD>Description
+	<TR>	<TD><CODE>rst 00h</CODE>
+		<TD>none
+		<TD>Hardware Restart. It's just like when you pull
+		out the batteries; once the calculator has power, the Program Counter is
+		reset to <CODE>$0000</CODE> and the TI86 starts executing code at <CODE>$0000</CODE>.
+		Only use this if you want to reset the calculator.
+	<TR>	<TD><CODE>rst 08h</CODE>
+		<TD><CODE>_OP1toOP2</CODE>
+		<TD>Copies 11 bytes from <CODE>_OP1</CODE> to <CODE>_OP2</CODE>.
+	<TR>	<TD><CODE>rst 10h</CODE>
+		<TD><CODE>_FindSym</CODE>
+		<TD>See the section on
+		<A HREF="../variables/_Fin.htm">FindSym</A> in the
+		<A HREF="../index.html#vari">Variables Section</A>.
+	<TR>	<TD><CODE>rst 18h</CODE>
+		<TD><CODE>_push_FP</CODE> (<CODE>$4827</CODE>)
+		<TD>Pushes OP1 to the
+		<A HREF="../variables/floa.htm">Floating Point Stack</A>
+	<TR>	<TD><CODE>rst 20h</CODE>
+		<TD><CODE>_MOV10toOP1</CODE>
+		<TD>Copies 10 bytes starting at the address
+		pointed to by HL to OP1.
+	<TR>	<TD><CODE>rst 28h</CODE>
+		<TD><CODE>_FPMULT</CODE>
+		<TD>Multiplies OP1 and OP2 and stores the result
+		in OP1.
+	<TR>	<TD><CODE>rst 30h</CODE>
+		<TD><CODE>_FPADD</CODE>
+		<TD>Adds OP1 and OP2 and stores the result
+		in OP1.
+	<TR>	<TD><CODE>rst 38h</CODE>
+		<TD>none
+		<TD>This is the interrupt handler. See the
+		secion on <A HREF="../advanced/inte.htm">Interrupts</A>.
+</TABLE>
+
+<P>Here's an example from the <A HREF="../variables/_fin.htm">_FindSym</A> section using
+<CODE>rst 20h</CODE> (<CODE>_MOV10toOP1</CODE>) and <CODE>rst 10h</CODE>
+(<CODE>_FindSym</CODE>) to find a variable.
+
+<PRE>find_variable:
+	ld hl,variable-1
+			;address of one byte before
+			; 'variable' label
+	rst 20h		;same as 'call _Mov10toOP1'
+	rst 10h		;same as 'call _FindSym'
+	ret
+variable: .db $06,"Stupid"
+			;just need the length and string
+			; now because we're using the byte
+			; infront of this as our type</PRE>
+
+<script language=JavaScript>CreateBottom();</SCRIPT>

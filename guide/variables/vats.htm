@@ -1,0 +1,425 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","VAT Searches");</SCRIPT>
+<UL>
+	<LI><A HREF="#thev">The VAT</A>
+	<LI><A HREF="#sear">Searching the VAT</A>
+	<LI><A HREF="#alph">Using <CODE>_FindAlphaUp</CODE>/<CODE>Dn</CODE></A>
+	<LI><A HREF="#shel">Shells</A>
+</UL>
+<P>Want to make your own shell? Then keep reading!
+
+<P>Before you learn to search the Variable Allocation
+Table (VAT or Symbol Lookup Table) we need to investigate
+where it is and how it's organized.
+
+<A NAME="thev"><H2>The VAT</H2>
+The VAT is on <A HREF="../intermediate/memo.htm">RAM</A>
+page 7. You can swap it in yourself or you can
+use one of TI-OS' <A HREF="abso.htm#ram7">calls</A> to do
+the work for you saving one byte.
+
+<PRE>_RAM_Page_7	=$47f3
+	call _RAM_Page_7	;swap in ram page 7
+				;destroys none</PRE>
+
+<P>Backwards, that's how it's stored. If you had a variable
+named 'Stupid', it would be stored as 'diputS' in
+memory.
+
+<P>Since the VAT is backwards and on RAM page 7,
+it starts at address <CODE>$bfff</CODE>. To swap in
+RAM page 7 and go to the start of the VAT...
+
+<PRE>_RAM_Page_7	=$47f3
+start_of_vat		=$bfff
+	call _RAM_Page_7	;swap in ram page 7
+	ld hl,start_of_vat	;hl=beginning of first
+				; variable name in
+				; vat</PRE>
+
+<P>There's a good reason behind making it backwards.
+Think of the variables' memory in the
+<A HREF="../intermediate/memo.htm">RAM</A> as
+being one long block. We could store all the names
+in one area, and all the data  in another but we
+might be wasting space or corrupting memory if
+the data runs over the name area. By having both
+areas (name and data) start at opposite ends
+and work towards the center, you will maximize
+the allotted memory so that each area only takes
+up as much space as needed. When you run out of
+memory for storing names, that means you're out
+of space to store the data. Want a visual
+example?
+
+<P><TABLE ALIGN=CENTER class=info WIDTH=50%>
+	<TR>
+		<TD WIDTH="70%">Data &rarr;
+		<TD><p align="right">&larr; semaN*
+</TABLE>
+
+<P CLASS=clsFootnote>* That's 'Names' spelled backwards since
+the variable names are backwards in memory.
+
+<P>It's not just the names that are stored backwards,
+it's the entire variable entry (all the info associated with that
+variable). Let's say you were to swap in RAM page 7,
+at <CODE>$bfff</CODE> would be the first byte of
+the first entry in the VAT. Here's an example of
+what the first variable on page 7 would look like
+on a freshly reset calculator using my
+<A HREF="../download/memsee.asm">MemSee.asm</A> program.
+
+<PRE><u>Address</u>	<u>Byte</u>	<u>ASCII</u>
+$bff5	74	t
+$bff6	61	a
+$bff7	74	t
+$bff8	53	S
+$bff9	78	x
+$bffa	05	
+$bffb	00	
+$bffc	01	
+$bffd	40	@
+$bffe	00	
+$bfff	04	</PRE>
+
+The variable data comes five different parts in the following order
+but <I>backwards</I> in memory.
+<P><TABLE align=center class=info>
+	<TR CLASS=header>
+		<TD>Description
+		<TD>Size (bytes)
+	<TR>	<TD>Variable <A HREF="vari.htm#type">type</A>
+		<TD>1
+	<TR>	<TD><A HREF="abso.htm">Absolute Address</A> for start
+		of variable data
+		<TD>3
+	<TR>	<TD>Trash byte you can use to store anything you
+		want. It's not used by TI-OS.
+		<TD>1
+	<TR>	<TD>Length of variable name
+		<TD>1
+	<TR>	<TD>Name of variable
+		<TD>1-8
+</TABLE>
+
+<P>After that all, the next variable follows in that same order. Download
+<A HREF="../download/memsee.asm">MemSee.asm</A> to see this first hand if
+you're still unsure.
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="sear"><H2>Searching the VAT</H2>
+If you already know the variable's exact name, you ca use
+<A HREF="_fin.htm">_FindSym</A>, but that's not always the
+case.
+
+<P>There's several different ways to go about sifting through the
+VAT. One way, and probably the most used, is by searching for
+a certain variable <A HREF="vari.htm#type">type</A>, most often a
+string (<CODE>$0c</CODE>) or program (<CODE>$12</CODE>). Another way is to search alphabetically.
+We're going to focus on searching by the variable type, and our
+examples will search for programs to execute.
+
+<P>Let's begin this section by explaining my simple routine to
+search the VAT: <A HREF="../download/vatsrch.inc">VATSrch.inc</A>. It's a
+beginner's example of how to search the VAT. The best way to understand
+this routine is to get the code printout with line markings from
+the <A HREF="JavaScript:popup('vatp.htm')">VAT Search Routine Printout</A>
+page; then, follow along with the <A HREF="#comm">explanations</A> on this page.
+
+<PRE><OL>
+<LI><A HREF="#l1" NAME="c1">&darr;</A>_RAM_Page_7		=$47f3
+<LI><A HREF="#l2" NAME="c2">&darr;</A>_PTEMP_END		=$d29a
+<LI><A HREF="#l3" NAME="c3">&darr;</A>vatsrch:
+<LI><A HREF="#l4" NAME="c4">&darr;</A>	call _RAM_Page_7
+<LI><A HREF="#l5" NAME="c5">&darr;</A>	ld bc,(_PTEMP_END+1)
+<LI><A HREF="#l6" NAME="c6">&darr;</A>		push hl
+<LI><A HREF="#l7" NAME="c7">&darr;</A>	or a
+<LI><A HREF="#l7" NAME="c8">&darr;</A>	sbc hl,bc
+<LI><A HREF="#l9" NAME="c9">&darr;</A>		pop bc
+<LI><A HREF="#l10" NAME="c10">&darr;</A>	ret c
+<LI><A HREF="#l11" NAME="c11">&darr;</A>		push bc
+<LI><A HREF="#l12" NAME="c12">&darr;</A>	ld b,h
+<LI><A HREF="#l12" NAME="c13">&darr;</A>	ld c,l
+<LI><A HREF="#l14" NAME="c14">&darr;</A>		pop hl
+<LI><A HREF="#l15" NAME="c15">&darr;</A>	cpdr
+<LI><A HREF="#l16" NAME="c16">&darr;</A>	ld d,a
+<LI><A HREF="#l17" NAME="c17">&darr;</A>	ld a,b
+<LI><A HREF="#l17" NAME="c18">&darr;</A>	or c
+<LI><A HREF="#l19" NAME="c19">&darr;</A>	ld a,d
+<LI><A HREF="#l20" NAME="c20">&darr;</A>	jr nz,good_found_one
+<LI><A HREF="#l21" NAME="c21">&darr;</A>	scf
+<LI><A HREF="#l21" NAME="c22">&darr;</A>	ret
+<LI><A HREF="#l23" NAME="c23">&darr;</A>good_found_one:
+<LI><A HREF="#l24" NAME="c24">&darr;</A>	dec hl
+<LI><A HREF="#l24" NAME="c25">&darr;</A>	dec hl
+<LI><A HREF="#l24" NAME="c26">&darr;</A>	dec hl
+<LI><A HREF="#l24" NAME="c27">&darr;</A>	dec hl
+<LI><A HREF="#l24" NAME="c28">&darr;</A>	ret</OL></PRE>
+
+<P><A NAME="comm"><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="10%" ALIGN=CENTER>Line(s)
+		<TD ALIGN=CENTER>Explanation
+		<TD WIDTH="5%" ALIGN=CENTER>Bytes
+	<TR>	<TD><A HREF="#c1" NAME="l1">&uarr;</A>1
+		<TD>This call swaps in <A HREF="../intermediate/memo.htm">RAM</A>
+		page 7 (the VAT) without destroying any
+		<A HREF="../beginner/regi.htm">registers</A>. This three byte
+		<A HREF="../beginner/inst.htm#call"><CODE>call</CODE></A> is
+		used instead of<PRE>	ld a,7
+	out (5),a</PRE>
+		<TD>none
+	<TR>	<TD><A HREF="#c2" NAME="l2">&uarr;</A>2
+		<TD><CODE>_PTEMP_END</CODE> is where the
+		<A HREF="abso.htm">absolute address</A> for
+		the end of the VAT is.
+		<TD>none
+	<TR>	<TD><A HREF="#c4" NAME="l4">&uarr;</A>4
+		<TD>Swap in <A HREF="../intermediate/memo.htm">RAM</A>
+		page 7.
+		<TD>3
+	<TR>	<TD><A HREF="#c5" NAME="l5">&uarr;</A>5
+		<TD>We just swapped in RAM page 7. <CODE>_PTEMP_END</CODE>
+		is an <A HREF="abso.htm">absolute</A> pointer with
+		3 bytes for addressing; but, if we have the correct
+		memory page swapped in, we only need the last 2 bytes
+		to make up a valid 16 bit pointer. We get that
+		16 bit address which tells us where the last
+		byte of the VAT is. If we subtract the <CODE>end</CODE>
+		from the <CODE>start</CODE> (Notice that we usually
+		subtract the start from the end but the VAT is backwards.)
+		resulting in the length of the VAT.
+		<TD>4
+	<TR>	<TD><A HREF="#c6" NAME="l6">&uarr;</A>6
+		<TD>Hold everything! We need to check if there's VAT left
+		to search. Since that will probably destroy <CODE>hl</CODE>,
+		save it.
+		<TD>1
+	<TR>	<TD><A HREF="#c7" NAME="l7">&uarr;</A>7-8
+		<TD><A HREF="../beginner/math.htm#sbc"><CODE>Sbc</CODE></A>
+		is the only 16 bit subtractor that we have. Clear the carry
+		before you use it so you won't get your answer one off. The
+		size of the VAT will be stored in <CODE>hl</CODE> (if everything
+		went alright).
+		<TD>3
+	<TR>	<TD><A HREF="#c9" NAME="l9">&uarr;</A>9
+		<TD>This might be a little tricky. We needed to
+		<A HREF="../intermediate/stac.htm"><CODE>push</CODE></A>
+		the address of where we are to start searching from so
+		that it would not be effected in the <A HREF=#c7">subtraction</A>.
+		If the subtraction went wrong, we will be <A HREF="#c10">returning</A>
+		from the routine. We can't return, though, with something on
+		the <A HREF="../intermediate/stac.htm">stack</A> so we get it
+		off, for a second, and then in <A HREF="#c11">line 11</A> we
+		put it back. Note that we are saving it as <CODE>bc</CODE> because
+		we want <CODE>hl</CODE> to still contain the size of the VAT.
+		<TD>1
+	<TR>	<TD><A HREF="#c10" NAME="l10">&uarr;</A>10
+		<TD>The <A HREF="../beginner/flag.htm#carry">carry flag</A>
+		will be set if we don't have any VAT left to search, the
+		subtraction was invalid.
+		<TD>1
+	<TR>	<TD><A HREF="#c11" NAME="l11">&uarr;</A>11
+		<TD>Put back where we are to start from. This is setting
+		us up for the <A HREF="../intermediate/allt.htm#cp_r"><CODE>cpdr</CODE></A>
+		on <A HREF="#c15">line 15</A>.
+		<TD>1
+	<TR>	<TD><A HREF="#c12" NAME="l12">&uarr;</A>12-13
+		<TD>Remember that the size of the VAT was
+		stored in <CODE>hl</CODE> from our calculations on
+		<A HREF="#c7">lines 7-8</A>. <CODE>Cpdr</CODE> needs
+		the size of bytes to search in <CODE>bc</CODE>.
+		<TD>2
+	<TR>	<TD><A HREF="#c14" NAME="l14">&uarr;</A>14
+		<TD>Get back where we are to search from. Remember that we
+		had temporarily saved it away in <A HREF="#c11">line 11</A>
+		as <CODE>bc</CODE> so we could use <CODE>hl</CODE> in the subtraction
+		on <A HREF="#c8">line 8</A>.
+		<TD>1
+	<TR>	<TD><A HREF="#c15" NAME="l15">&uarr;</A>15
+		<TD>Now we perform the actual search!
+		<A HREF="../intermediate/allt.htm"><CODE>Cpdr</CODE></A>
+		will search, starting at address <CODE>hl</CODE> for
+		a byte with a value of <CODE>a</CODE> for <CODE>bc</CODE> amount
+		of bytes or until it finds a match incrementing
+		<CODE>hl</CODE> each iteration and decrementing <CODE>bc</CODE> at the
+		same time.
+		<P>The <A HREF="../intermediate/allt.htm">Parity Odd</A>
+		flag condition will occur if no match was found.
+		We won't be using it, however. We'll check the value
+		of <CODE>bc</CODE> on our own in the next few bytes.
+		<TD>2
+	<TR>	<TD><A HREF="#c16" NAME="l16">&uarr;</A>16
+		<TD>We're about to check the value of <CODE>bc</CODE>
+		now to see if there was a match found.
+		<P>This routine will probably be called
+		several times in a row. The user will not want
+		to have to keep loading up <CODE>a</CODE> with the same
+		<A HREF="vari.htm#type">Variable Type</A> after each
+		iteration. By our saving that value, we save the
+		user this wasted effort at the cost of using <CODE>d</CODE>.
+		<TD>1
+	<TR>	<TD><A HREF="#c17" NAME="l17">&uarr;</A>17-18
+		<TD>Now it's time to check the value of <CODE>bc</CODE> which,
+		if it's zero, tells us to quit searching...there's nothing left.
+		<P>We'll use <A HREF="../intermediate/logi.htm#or"><CODE>or</CODE></A>
+		to see if <CODE>any</CODE> bits are set in either <CODE>b</CODE>
+		or <CODE>c</CODE>.
+		<TD>2
+	<TR>	<TD><A HREF="#c19" NAME="l19">&uarr;</A>19
+		<TD>We are still preserving the <A HREF="vari.htm#type">Variable
+		Type</A> byte in <CODE>d</CODE>. Let's put it back before we exit
+		the routine. That way it's there if we exit or if we continue along.
+		It was only needed for <CODE>cpdr</CODE>. Remember: <CODE>ld</CODE>
+		does <I>not</I> affect the flags. Our
+		<A HREF="#c18"><CODE>or</CODE></A>'s results are not changed.
+		<TD>1
+	<TR>	<TD><A HREF="#c20" NAME="l20">&uarr;</A>20
+		<TD>If <CODE>bc</CODE> wasn't zero after the <CODE>or</CODE>, then
+		we continue right along with <A HREF="#c23">line 23</A>.
+		<TD>2
+	<TR>	<TD><A HREF="#c21" NAME="l21">&uarr;</A>21-22
+		<TD>Well, <CODE>bc</CODE> must have been zero. There's nothing left for
+		us to search in the VAT. By setting the
+		<A HREF="../beginner/flag.htm#carry">carry</A> flag, we signal
+		that there was an error of some sort.
+		<P><A HREF="../intermediate/misc.htm"><CODE>Scf</CODE></A> is
+		a great way to set the carry flag. It can tell a user that an
+		error just occured in that routine.
+		<TD>2
+	<TR>	<TD><A HREF="#c24" NAME="l24">&uarr;</A>24-28
+		<TD>Recall that the VAT is backwards. We are currently at the
+		<A HREF="vari.htm#type">Type</A> byte of the variable, the
+		first byte in the viariable's entry. Let's decrement the address
+		past the type byte, past the three bytes for the
+		<A HREF="abso.htm">Absolute Address</A> pointer, and past
+		the trash byte so we are now at the
+		<A HREF="../intermediate/text.htm#stri">length index</A> byte of the
+		variable's name (all the user needs to reference the variable
+		using <A HREF="_fin.htm"><CODE>_FindSym</CODE></A>).
+		<TD>5
+</TABLE>
+
+<P>Check out <A HREF="../download/vatsrch.inc"><CODE>VATSrch.inc</CODE></A>'s
+<CODE>VATSrch</CODE> and <CODE>Copy_to_OP1</CODE> in action!
+
+<PRE>	ld a,$12		;$12 - program
+				;$0c - string
+	ld hl,$bfff		;absolute start of vat
+				;the routine automatically
+				; swaps in ram page 7 (the
+				; vatiable allocation table)
+				; so this is a valid address
+	call vatsrch		;search starting at hl for
+				; program
+	ret c			;carry set tells us there was
+				; an error or it reached the
+				; end of the vat
+	ld de,_OP1		;where we want to store
+				; name at
+	call copy_to_op1	;copy backwards vat name to
+				; op1 the right way
+	ex de,hl		;we need it in hl so we
+				; can display it
+	call _putps		;display length indexed string
+				; at hl</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="alph"><H2>Using <CODE>_FindAlphaUp</CODE>/<CODE>Dn</CODE></H2>
+<A HREF="../download/vatsrch.inc">VATSrch.inc</A> is very fast; however, if
+speed isn't a necessity, you can use <CODE>_FindAlphaUp=$514b</CODE> and
+<CODE>_FindAlphaDn=$514f</CODE>.
+
+<H3>_FindAlphaUp=$514b</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Finds the variable higher (closer to 'Z') alphabetically than the
+		one stored in OP1 in <A HREF="vari.htm">Variable Name</A>
+		format.
+	<TR>	<TD CLASS=header>Input
+		<TD>OP1 - case sensitive variable name in
+		<A HREF="vari.htm">Variable Name Format</A><BR>
+		<CODE>a</CODE> - if not equal to <CODE>$00</CODE> then
+		ignore type<BR>
+		zero flag set - search for same type variables (real or
+		complex)
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><A HREF="../beginner/flag.htm#carry">Carry</A> set - didn't
+		find one<BR>
+		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo.htm">RAM
+		page</A> swapped in<BR>
+		<A HREF="ti86.htm">OP1</A> and <A HREF="ti86.htm">OP3</A> -
+		found variable in <A HREF="vari.htm">Variable Name</A> format
+</TABLE>
+
+<H3>_FindAlphaDn=$514f</H3>
+<TABLE ALIGN=CENTER class="function">
+	<TR>	<TD CLASS=header> WIDTH="15%">Description
+		<TD>Finds the variable lower (closer to 'A') alphabetically than the
+		one stored in OP1 in <A HREF="vari.htm">Variable Name</A>
+		format.
+	<TR>	<TD CLASS=header>Input
+		<TD>OP1 - case sensitive variable name in
+		<A HREF="vari.htm">Variable Name Format</A><BR>
+		<CODE>a</CODE> - if not equal to <CODE>$00</CODE> then
+		ignore type<BR>
+		zero flag set - search for same type variables (real or
+		complex)
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
+	<TR>	<TD CLASS=header>Output
+		<TD><A HREF="../beginner/flag.htm#carry">Carry</A> set - didn't
+		find one<BR>
+		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo.htm">RAM
+		page</A> swapped in<BR>
+		<A HREF="ti86.htm">OP1</A> and <A HREF="ti86.htm">OP3</A> -
+		found variable in <A HREF="vari.htm">Variable Name</A> format
+</TABLE>
+
+<P>Speed is a huge drawback with these two; it's atleast 156,000 clock-cycles
+each time you call these which increases exponentially the deeper you are in
+the VAT. It's said to be the worst routine TI ever wrote; it's extremely slow!
+If you're only looking up one or two variables, OK. If you're making a shell that
+displays 30 variables, it could take upwards of <I>30</I> seconds!
+
+<PRE>	ld hl,beginning_var	;the variable name
+				; to start searching up
+				; from alphabetically
+	rst 20h			;_mov10toOP1
+	ld a,1			;ignore type
+	call _FindAlphaUp	;find a variable higher
+				; (closer to 'z') than the
+				; one in OP1
+				;hl=start of VAT entry
+				;c - nothing found
+				;nc - found one
+				;OP1&3 - variable found
+	ret c			;no such variable found
+beginning_var:	.db $12,1,0	;0 is the single
+				; character name
+				;the lowest variable name
+				; possible
+				;$12=program type vari.</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="shel"><H2>Shells</H2>
+A Shell is a program on the calculator that will display programs in the
+VAT allowing you to browse through the names in order to execute them. There
+are endless variations to the basic shell, so your imagination is the limit!
+
+<P>For a basic rendition of a shell, check out the demo program
+<A HREF="../download/shell.asm">Shell.asm</A>. It gives you all the basics
+to make your own shell for running Asm programs. You can easily add support
+for running TI-BASIC programs, displaying pictures, editing equations,
+editing programs, renaming variables, folders, etc.!
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

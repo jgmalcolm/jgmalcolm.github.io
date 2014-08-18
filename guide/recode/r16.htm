@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Clear the screen
+		and draw lines down the right
+		and left sides of the screen.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>
+disp_sidelines:
+	call _clrLCD		;clear the screen
+rows_down	=3		;start lines
+				; this many rows
+				; down the screen
+	ld a,64-rows_down	;how many rows down
+sideline_loop:
+	ld hl,side_bar_graphics	;graphics for one line
+				; with the side bars
+	ld bc,$10		;one line
+	ldir			;copy that one line
+	dec a			;we're using a as our
+				; counter since b
+				; is used with ldir
+	jr nz,sideline_loop
+	ret
+side_bar_graphics:		;graphics to copy over
+				; and over and over
+	.db %10000000, 0, 0, 0, 0, 0, 0, 0	;left
+	.db 0, 0, 0, 0, 0, 0, 0, %00000001	;right
+	<TR>	<TD CLASS=header>Error
+		<TD>We need to rewrite the entire
+		routine.  Sometimes we want to have something
+		written at the top of the screen, we won't want that
+		cleared.  That takes our the <CODE>_clrLCD</CODE>.
+		<P>Let's still keep <CODE>ldir</CODE> but make it copy the first
+		line (which probably is zeroed) over and over
+		all the way down the screen.
+		<P>We save 15 bytes! Not to mention lots
+		of clock cycles.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>
+rows_down	=3		;rows down from top
+				; to start at
+rows_up		=5		;rows up from bottom
+				; to end at
+left_side	=%10000000	;what left side looks
+				; like
+right_side	=%00000001	;what right side looks
+				; like
+disp_sidelines:
+	ld hl,$fc00+(rows_down*$10)	;starting row
+	ld de,$fc00+(rows_down*$10)+$0f	;end of first row
+	ld (hl),left_side		;left graphic
+	ld a,right_side			;right graphic 
+	ld (de),a
+	inc de				;new row
+	ld bc,$0400-((rows_down+rows_up)*$10+$10)
+					;# bytes to end
+					; of screen
+	ldir
+	ret
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Clear the screen fast.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	call _clrLCD	;clears the screen
+	<TR>	<TD CLASS=header>Error
+		<TD>This may be the shortest way to
+		clear the screen but it sure isn't the fastest.  This
+		routine has to switch ROM pages to be run which
+		takes time.  the following code is the fastest but
+		is about 10 bytes longer.  It clears (loads with <CODE>l</CODE>
+		which was just cleared) byte A first.  After
+		that it copies the cleared byte A to byte B, increases
+		both so we now are going to load the recently cleared
+		byte B into byte C and so on.
+		<P>Some people do <CODE>ld (hl),$00</CODE>
+		but since we just cleared <CODE>l</CODE> with <CODE>ld hl,$fc00</CODE>,
+		we can just use <CODE>ld (hl),l</CODE> saving one byte.
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>clear_screen:
+	ld hl,$fc00	;start of video memory
+	ld (hl),l	;l=$00 so we clear (hl)
+	ld de,$fc01	;2nd byte in video mem
+	ld bc,1023	;size of video mem-1
+			; since de is start+1
+	ldir		;copy already cleared
+			; byte from hl into de
+			; then increase so hl
+			; points to what was
+			; just cleared and de
+			; the byte after
+	ret		;we're done
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>

@@ -1,0 +1,241 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Entry Stack");</SCRIPT>
+
+<P CLASS=clsByLine>Written by
+<A HREF="mailto:ti86z80@aol.com?subject=guide.ticalc.org entry stack page">Andy Hochhaus</A>
+on April 21, 2000</P>
+
+<P>Have you ever wondered how to access items that were typed in on the
+home screen and are now in the TI-86's history? This tutorial is meant
+to show you how to access entries or add new ones into the TIOS's entry stack.
+
+<P>Here are all the special equates that you will need to work with the
+last entry stack. The RAM equates (the first four) are found in the
+standard <A HREF="../download/includes.zip">include</A> files of
+<A HREF="www.acz.org" TARGET=_blank>Assembly Studio</A> 86 ver 3.1. However the
+ROM call <CODE>_GETLASTENTRY</CODE> is not in the include files so
+you must add its equate to your source:
+
+<PRE>_LASTENTRYPTR	=$ce2a
+_LASTENTRYSTK	=$ce2c
+_numlastentries	=$ceac
+_currlastentry	=$cead
+_GETLASTENTRY	=$4627</PRE>
+
+Here is a description of what each does:
+
+<H2><CODE>_LASTENTRYPTR</CODE></H2>
+This is a word size variable that is a pointer to the end of the last entry
+(<CODE>_numlastentries</CODE>) in the entry stack <CODE>_LASTENTRYSTK</CODE>.
+
+<H2><CODE>_LASTENTRYSTK</CODE></H2>
+This is the entry stack where all of the calculators' entries from 1
+to <CODE>_numlastentries</CODE> are stored. They are stored in compiled
+(tokenized) form with the first word being a size word, just like a
+standard TIOS variable.
+
+<P>For example, <CODE>1+1</CODE> in ascii would be stored as
+<CODE>07 00 44 31 00 60 44 31 00</CODE> in the stack. The first
+two bytes are the entry size; next x bytes are compiled data.
+
+<P>NOTE: Entry 0 is not stored here it is the hidden system <CODE>#</CODE> variable. (I think)
+
+<P>NOTE: <CODE>_LASTENTRYSTK</CODE> is 128 bytes long.
+
+<H2><CODE>_numlastentries</CODE></H2>
+This is a one-byte variable that is a counter of the total number of  entries that
+the calculator is currently storing.
+
+<H2><CODE>_currlastentry</CODE></H2>
+This is a one byte variable that points to the entry number we wish to recall in
+the <CODE>_LASTENTRYSTK</CODE>.
+
+<P><CODE>_currlastentry</CODE> is incremented everytime you press [2nd][Entry] on the homescreen.
+
+<H2><CODE>_GETLASTENTRY</CODE>*</H2>
+This gets a pointer to a Homescreen History entry (used to recall entries from stack)
+
+<H3>_GETLASTENTRY=$4627</H3>
+<TABLE ALIGN=CENTER CLASS=function>
+	<TR>	<TD CLASS=header WIDTH=15%>Description
+		<TD>Returns a pointer to the requested Homescreen History entry.
+	<TR>	<TD CLASS=header>Input
+		<TD><CODE>_currlastentry</CODE> - the entry number you want (can be a
+		number anywhere between 0 and <CODE>(_numlastentries)</CODE>.
+	<TR>	<TD CLASS=header>Output
+		<TD><CODE>bde</CODE> - points to entry size (two bytes) at the start
+		of the requested entry<BR>
+		<CODE>_curlastentry</CODE> either incremented or reset
+	<TR>	<TD CLASS=header>Destroys
+		<TD><CODE>a</CODE> is zeroed<BR>
+		<CODE>hl</CODE>
+</TABLE>
+
+<P CLASS=clsFootnote>* Based off a description written by Josh Seagoe on A86.</P>
+
+<P>This tutorial assumes that you are familiar with <A HREF="../variables/abso.htm">absolute addressing</A>
+and its ROM calls. Please refer here if you need <A HREF="../download/ti86abs.inc">equates</A>
+or you want a good tutorial on absolute addressing.
+
+<P>Now on to the actual code it self. I will start with a basic example of recalling an entry from the stack.
+
+<P>First we must store whatever entry number we wish to recall to <CODE>_curlastentry</CODE>. Next we
+must call <CODE>_GETLASTENTRY</CODE> which will convert our entry number into an absolute pointer
+to our entry in the <CODE>_LASTENTRYSTK</CODE>. Now we must copy the data out into a temporary
+variable that we have created.
+
+<PRE>	ld	a,1			;I want to retrieve entry #1
+	ld	(_curlastentry),a	;set up _curlastentry for _GETLASTENTRY
+	call	_GETLASTENTRY	;points bde to our data
+	call	_ex_ahl_bde		;ahl=bde
+	push	af			;ahl pushed onto stack for later use
+	push	hl			;ahl=start of last entry in _LASTENTRYSTK
+	call	_get_word_ahl	;get size word of entry and store to de
+	push	de			;store size word for _mm_num_bytes
+	push	de			;store size word for size of tempvar1
+	ld	hl,equvarname-1	
+	rst	20h			;_mov10toop1 puts equvarname in op1
+	pop	hl			;gets size word that program should be
+	call	_createequ		;creates new equ var
+	call	_ex_ahl_bde		;ahl points to size word of tempvar1
+	call	_set_abs_dest_addr;sets dest addr, tempvar1, for copy
+
+	ld	a,0
+	pop	hl			;ahl=number of bytes to copy - 2
+	call	_ahl_plus_2_pg3	;ahl=number to bytes to copy
+	call	_set_mm_num_bytes	;set number of bytes to be copied
+
+	pop	hl			;ahl=start of entry in _LASTENTRYSTK
+	pop	af			;
+	call	_set_abs_src_addr	;sets source as ahl
+	call	_mm_ldir		;copy from _LASTENTRYSTK to tempvar1
+
+	. . .
+	. . .
+	. . .
+
+equvarname:
+	.db	8,"tempvar1"	;temp variable name
+</PRE>
+
+Now we have copied an entry from the <CODE>_LASTENTRYSTK</CODE> into a temporary variable being used
+by our program. Note that this variable is still in compiled (tokenized) form and must be detokenized
+before you display it.
+
+<P>So far, I have gone over how to retrieve an entry already in the stack. But what if you wanted
+to add a new item onto the stack? This is slightly harder but can be achieved by using this
+algorithm*.
+
+<P CLASS=clsFootnote>* The basis for this routine has been supplied by Josh Seagoe on A86.</P>
+
+<P>First, get the last entry's location. (using <CODE>_GETLASTENTRY</CODE>) Then add the amount of
+space taken by the new entry. Update <CODE>_LASTENTRYPTR</CODE> to point to the new end of the
+last entry. Now move all the entries in <CODE>_LASTENTRYSTK</CODE> up by the size of the new
+entry. This provides space for our new entry to be added into the entry stack. Next copy the new
+entry, including size word, to <CODE>_LASTENTRYSTK</CODE>. Then add one to <CODE>_numlastentries</CODE>.
+Finally set <CODE>_currlastentry</CODE> to zero. This is for compatibility with TIOS.
+
+<PRE>	ld	hl,tempprogname-1
+	rst	20h
+	rst	10h
+	call	_ex_ahl_bde
+
+	call	_get_word_ahl	;gets size word and stores it in (de)
+
+	inc	de
+	inc	de			;lenght of data to be added plus size word
+
+	ld	hl,127		;length of _LASTENTRYSTK
+	call	_cphlde		;is entry too big for _LASTENTRYSTK
+	ret	c			;if entry to big don't store to stack
+	push	de			;store length of new data + 2 (size word)
+
+checkforlastentryprt:
+	ld	hl,_LASTENTRYPTR
+	ld	c,(hl)
+	inc	hl
+	ld	b,(hl)		;bc=end of last entry (i.e. _LASTENTRYPTR)
+
+	push	bc
+	ex	de,hl
+	add	hl,bc			;hl=end of last entry after new data is added
+	ex	de,hl
+	ld	hl,_numlastentries-1
+	call	_cphlde
+	jp	c,calcnewlastentryptr
+
+	ld	hl,_LASTENTRYPTR
+	ld	(hl),e
+	inc	hl
+	ld	(hl),d			;de=destination of data move
+
+	pop	hl
+	push	hl
+	ld	bc,_LASTENTRYSTK-1
+	xor	a
+	sbc	hl,bc			;hl=# of bytes to be moved
+	push	hl
+	pop	bc
+	pop	hl			;hl=source of move
+	lddr
+
+	ld	hl,tempprogname-1
+	call	_mov10toop1
+	call	_findsym
+	ld	a,b
+	ex	de,hl
+	call	_set_abs_src_addr
+	ld	a,0
+	pop	hl
+	call	_set_mm_num_bytes
+
+	ld	a,0
+	ld	hl,_LASTENTRYSTK
+	call	_set_abs_dest_addr
+
+	call	_mm_ldir
+
+	ld	a,(_numlastentries)
+	inc	a
+	ld	(_numlastentries),a
+
+	ld	a,0
+	ld	(_currlastentry),a
+
+	. . .
+	. . .
+	. . .
+
+equvarname:
+	.db	8,"tempvar1"	;temp variable name
+</PRE>
+
+This code adds a entry to the <CODE>_LASTENTRYSTK</CODE> and has error checking. It checks to see
+if the entry is too long, longer than <CODE>_LASTENTRYSTK</CODE>, and doesn't add the entry if it
+is. This code also checks to see if any old entries will no longer fit into <CODE>_LASTENTRYSTK</CODE>
+and if they won't it deletes them. The only problem with this code is that the variable you are
+adding needs to be compiled.
+
+<P>I hope that this tutorial gave you a better understanding of how the calculator deals with
+entries. Hopefully you now understand how to access and add entries into the <CODE>_LASTENTRYSTK</CODE>.
+If you find any problems or have any comments or questions please send me,
+<A HREF="mailto:ti86z80@aol.com?subject=guide.ticalc.org entry stack page">Andy Hochhaus</A>, an email.
+
+<P>Special thanks to:
+<UL>
+	<LI>Josh Seagoe (rabidcow) Web page Without his posts to A86 I would have never learned about
+	the entry stack! Thanks for all your help Josh. This tutorial wouldn't be around without him!
+	<LI><A HREF="mailto:malcolmj1@juno.com">Jimi Malcolm</A> Web Page For creating a great TI-86 ASM
+	resource and for letting me post my tutorial to it.
+	<LI>Clem Vasseur for making some great updated Include files. From which I got new equates from.
+	<LI>Tim Costa for helping me to revise this tutorial.
+</UL>
+
+And anybody else that I am forgetting.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,463 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Grayscale");</SCRIPT>
+
+<P>Grayscale is what makes the good graphical games. Think of
+ZBlitz, Vertigo, Arkanoid, Boulder Dash, Bomberman, Diamonds, and the many other
+games that use grayscale to enhance their sprites. There are many
+different forms of grayscale out there. Grayscale has the basic
+idea of using two or more different video screens and switching
+them back and forth really fast. Each will stay visible for a different
+amount of time.
+
+<P>A graphical example might help. Screen 1 is visible a third (1/3) of
+the time while Screen 2 is visible the remaining two-thirds (2/3) of
+the time. The resultant shows the shade of gray viewed.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Screen 1 (1/3)
+		<TD>Screen 2 (2/3)
+		<TD>Result
+	<TR>	<TD BGCOLOR="#ffffff">&nbsp;
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#ffffff">
+	<TR>	<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#ffffff">
+		<TD BGCOLOR="#aaaaaa">
+	<TR>	<TD BGCOLOR="#ffffff">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#555555">
+	<TR>	<TD BGCOLOR="#000000">&nbsp;
+		<TD BGCOLOR="#000000">
+		<TD BGCOLOR="#000000">
+</TABLE>
+<P>If you still don't get this and you are really bored, get a black
+piece of paper and a white piece. Put one in each hand and move
+them back and forth really fast. You will get a blurred image that
+will seem sort of gray. That's the general idea of grayscale!
+
+<P>I've pasted <A HREF="mailto:assets@eden.rutgers.edu">Dux Gregis'</A>
+<A HREF="../download/Blitzgry.h">Blitzgry</A> Routine here. You
+can <A HREF="../download/grayscale.zip">download this</A> along with
+many other grayscale routines that I've come across in the
+<A HREF="../download/download.htm">Download Section</A>. Each
+line in the routine is represented by a number which corresponds
+to an explanation at the end of the routine. Follow each line and
+try to picture in your head what it is doing. The easiest way to
+do this is to print out the
+<A HREF="JavaScript:popup('grap.htm')">Blitzgray Code</A> and then
+refer to the explanations.
+
+<PRE><OL><LI><A HREF="#l1" NAME="c1">&darr;</A>int_addr equ $8f8f
+<LI><A HREF="#l1">&darr;</A>
+<LI><A HREF="#l1">&darr;</A>;===============================
+<LI><A HREF="#l1">&darr;</A>; Install IM 2 Grayscale Routine
+<LI><A HREF="#l1">&darr;</A>;===============================
+<LI><A HREF="#l1">&darr;</A>
+<LI><A HREF="#l7" NAME="c7">&darr;</A>OpenGray:
+<LI><A HREF="#l8" NAME="c8">&darr;</A>	ld hl,$ce00
+<LI><A HREF="#l8">&darr;</A>	ld de, SixBytes
+<LI><A HREF="#l8">&darr;</A>	ld bc, 6
+<LI><A HREF="#l8" NAME="c11">&darr;</A>	ldir
+<LI><A HREF="#l8">&darr;</A>
+<LI><A HREF="#l13" NAME="c13">&darr;</A>	ld hl,$8e00
+<LI><A HREF="#l13">&darr;</A>	ld de,$8e01
+<LI><A HREF="#l13">&darr;</A>	ld (hl),$8f
+<LI><A HREF="#l13">&darr;</A>	ld bc,256
+<LI><A HREF="#l13">&darr;</A>	ldir
+<LI><A HREF="#l13">&darr;</A>
+<LI><A HREF="#l19" NAME="c19">&darr;</A>	ld hl,int_copy
+<LI><A HREF="#l19">&darr;</A>	ld de,int_addr
+<LI><A HREF="#l19" NAME="c21">&darr;</A>	ld bc,int_end-int_start
+<LI><A HREF="#l19">&darr;</A>	ldir
+<LI><A HREF="#l19">&darr;</A>
+<LI><A HREF="#l24" NAME="c24">&darr;</A>	call _runindicoff
+<LI><A HREF="#l24">&darr;</A>
+<LI><A HREF="#l24">&darr;</A>;================================================
+<LI><A HREF="#l24">&darr;</A>; Set up parameters to pass the interrupt handler
+<LI><A HREF="#l24">&darr;</A>; via the alternate register set
+<LI><A HREF="#l24">&darr;</A>;================================================
+<LI><A HREF="#l30" NAME="c30">&darr;</A>	di
+<LI><A HREF="#l31" NAME="c31">&darr;</A>	exx
+<LI><A HREF="#l32" NAME="c32">&darr;</A>	ld b,$3c
+<LI><A HREF="#l33" NAME="c33">&darr;</A>	ld c,0
+<LI><A HREF="#l34" NAME="c34">&darr;</A>	ld d,5
+<LI><A HREF="#l35" NAME="c35">&darr;</A>	ld e,%110110
+<LI><A HREF="#l36" NAME="c36">&darr;</A>	ld hl,UserCounter
+<LI><A HREF="#l37" NAME="c37">&darr;</A>	exx
+<LI><A HREF="#l38" NAME="c38">&darr;</A>	xor a
+<LI><A HREF="#l38">&darr;</A>	ld (UserCounter),a
+<LI><A HREF="#l38">&darr;</A>
+<LI><A HREF="#l41" NAME="c41">&darr;</A>	ld a,$8e
+<LI><A HREF="#l41">&darr;</A>	ld i,a
+<LI><A HREF="#l41">&darr;</A>
+<LI><A HREF="#l41">&darr;</A>	
+<LI><A HREF="#l45" NAME="c45">&darr;</A>	im 2
+<LI><A HREF="#l45" NAME="c46">&darr;</A>	ei
+<LI><A HREF="#l47" NAME="c47">&darr;</A>	ret
+<LI><A HREF="#l47">&darr;</A>
+<LI><A HREF="#l47">&darr;</A>;==================================
+<LI><A HREF="#l47">&darr;</A>; Close Grayscale Handler
+<LI><A HREF="#l47">&darr;</A>;==================================
+<LI><A HREF="#l47">&darr;</A>
+<LI><A HREF="#l53" NAME="c53">&darr;</A>CloseGray:
+<LI><A HREF="#l54" NAME="c54">&darr;</A>	im 1
+<LI><A HREF="#l55" NAME="c55">&darr;</A>	ld a,$3c
+<LI><A HREF="#l55">&darr;</A>	out (0),a
+<LI><A HREF="#l55">&darr;</A>
+<LI><A HREF="#l58" NAME="c58">&darr;</A>	call _clrLCD
+<LI><A HREF="#l58">&darr;</A>
+<LI><A HREF="#l60" NAME="c60">&darr;</A>	ld hl,_plotSScreen
+<LI><A HREF="#l60">&darr;</A>	ld de,_plotSScreen+1
+<LI><A HREF="#l60">&darr;</A>	ld (hl), 0
+<LI><A HREF="#l60">&darr;</A>	ld bc,1024
+<LI><A HREF="#l60">&darr;</A>	ldir
+<LI><A HREF="#l60">&darr;</A>
+<LI><A HREF="#l66" NAME="c66">&darr;</A>	ld hl, SixBytes
+<LI><A HREF="#l66">&darr;</A>	ld de, $ce00
+<LI><A HREF="#l66">&darr;</A>	ld bc, 6
+<LI><A HREF="#l66">&darr;</A>	ldir
+<LI><A HREF="#l66">&darr;</A>
+<LI><A HREF="#l71" NAME="c71">&darr;</A>	ret
+<LI><A HREF="#l71">&darr;</A>
+<LI><A HREF="#l73" NAME="c73">&darr;</A>.org $8f8f
+<LI><A HREF="#l75" NAME="c75">&darr;</A>int_copy:
+<LI><A HREF="#l75">&darr;</A>
+<LI><A HREF="#l76" NAME="c76">&darr;</A>int_start:
+<LI><A HREF="#l76">&darr;</A>	ex af,af'
+<LI><A HREF="#l76">&darr;</A>	exx
+<LI><A HREF="#l79" NAME="c79">&darr;</A>
+<LI><A HREF="#l79">&darr;</A>	in a,(3)
+<LI><A HREF="#l79">&darr;</A>	bit 1,a
+<LI><A HREF="#l79">&darr;</A>	jr z,leave_int
+<LI><A HREF="#l83" NAME="c83">&darr;</A>
+<LI><A HREF="#l84" NAME="c84">&darr;</A>	inc (hl)
+<LI><A HREF="#l84">&darr;</A>	out (c),b
+<LI><A HREF="#l86" NAME="c86">&darr;</A>
+<LI><A HREF="#l86">&darr;</A>	dec d
+<LI><A HREF="#l88" NAME="c88">&darr;</A>	call z,reset_int_counter
+<LI><A HREF="#l88">&darr;</A>	ld a,d
+<LI><A HREF="#l88">&darr;</A>	cp 2
+<LI><A HREF="#l88">&darr;</A>	call z,change_pages
+<LI><A HREF="#l92" NAME="c92">&darr;</A>
+<LI><A HREF="#l93" NAME="c93">&darr;</A>leave_int:
+<LI><A HREF="#l93">&darr;</A>	in a,(3)
+<LI><A HREF="#l95" NAME="c95">&darr;</A>	rra
+<LI><A HREF="#l95">&darr;</A>	ld a,c
+<LI><A HREF="#l95">&darr;</A>	adc a,9
+<LI><A HREF="#l98" NAME="c98">&darr;</A>	out (3),a
+<LI><A HREF="#l98">&darr;</A>	ld a,$0b
+<LI><A HREF="#l98">&darr;</A>	out (3),a
+<LI><A HREF="#l101" NAME="c101">&darr;</A>
+<LI><A HREF="#l101">&darr;</A>	ex af,af'
+<LI><A HREF="#l103" NAME="c103">&darr;</A>	exx
+<LI><A HREF="#l103">&darr;</A>	ei
+<LI><A HREF="#l103">&darr;</A>	reti
+<LI><A HREF="#l103">&darr;</A>
+<LI><A HREF="#l107" NAME="c107">&darr;</A>reset_int_counter:
+<LI><A HREF="#l107">&darr;</A>	ld d,5
+<LI><A HREF="#l109" NAME="c109">&darr;</A>change_pages:
+<LI><A HREF="#l109">&darr;</A>	ld a,e
+<LI><A HREF="#l109">&darr;</A>	xor b
+<LI><A HREF="#l109">&darr;</A>
+<LI><A HREF="#l109">&darr;</A>
+<LI><A HREF="#l109">&darr;</A>	ld b,a
+<LI><A HREF="#l115" NAME="c115">&darr;</A>	ret
+<LI><A HREF="#l116" NAME="c116">&darr;</A>int_end:
+<LI><A HREF="#l116">&darr;</A>
+<LI><A HREF="#l118" NAME="c118">&darr;</A>UserCounter:	.db 5
+<LI><A HREF="#l118">&darr;</A>SixBytes:	.db 0,0,0,0,0,0
+<LI><A HREF="#l118">&darr;</A>
+<LI><A HREF="#l121" NAME="c121">&darr;</A>.end
+</PRE>
+
+<P>
+<TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="13%"ALIGN=CENTER>Line(s)
+		<TD ALIGN=CENTER>Explanation
+		<TD WIDTH="5%" ALIGN=CENTER>Bytes
+	<TR>	<TD><A HREF="#c1" NAME="l1">&uarr;</A>1
+		<TD>Our interrupt is going to need to be put at $8f8f. That's
+		where all interrupts are put. This runs on an interrupt so
+		that every 200th of a second it will be run (200 Mhz). That's fast to
+		us; it's hard to imagine how fast the processor is running. That
+		all depends on battery power too. Remember, this routine is only
+		to set up grayscale, it's not to put sprites and stuff on the
+		screen. If you put text, it will be light colored because it's
+		only on one plane (one of the two or more video memories).
+		<TD>none
+	<TR>	<TD><A HREF="#c7" NAME="l7">&uarr;</A>7
+		<TD>Now we are going to switch
+		to grayscale mode. We need to prep
+		everything and copy the grayscale interrupt routine to where
+		it needs to be.
+		<TD>none
+	<TR>	<TD><A HREF="#c8" NAME="l8">&uarr;</A>8-11
+		<TD>We are going to use the video
+		memory ($fc00 to $ffff) for one
+		plane and the graph screen (_plotScreen to $cdf9 1024 bytes) for
+		the other plane. The graph screen needs the first 6 bytes
+		to keep for system use. We are going to have to save those
+		six bytes and put them back later. Our routine will use the
+		entire area, including the six bytes we saved away. We are going
+		to save them using a block copy to a part of our code.
+		<TD>11
+	<TR>	<TD><A HREF="#c13" NAME="l13">&uarr;</A>13-17
+		<TD>The interrupt system uses a
+		256 byte long vector table
+		for it's interrupt routines to know which addresses to
+		call. We need to put $8f8f into all the slots in the
+		vector table. We use another block copy to put $8f repeatedly
+		which makes $8f8f8f8f8f8f8f8f which is the address we want over
+		and over and over again.
+		<TD>13
+	<TR>	<TD><A HREF="#c19" NAME="l19">&uarr;</A>19-22
+		<TD>Now we want to actually put
+		our routine at $8f8f to be called every
+		interrupt (approximately 200 times a second). Remember in
+		<A HREF="#c1">line 1</A> where we made an alias to
+		<CODE>int_addr =$8f8f</CODE> so we won't have to
+		type $8f8f anymore. It's easier to remember int_addr being where
+		the interrupt address is than the $8f8f stuff. Between lines
+		<A HREF="#c73">73</A> and <A HREF="#c115">115</A> is our
+		interrupt to be copied so we just use a block copy.
+		<TD>11
+	<TR>	<TD><A HREF="#c24" NAME="l24">&uarr;</A>24
+		<TD>We don't want to see that little busy indicator at the top
+		that TI doesn't do away with, so we call a routine that turns
+		it off. The TI86 automatically turns it back on when the asm
+		program is done. I just wish it would turn it off for us. That
+		would be 3 bytes saved for every program made.
+		<TD>3
+	<TR>	<TD><A HREF="#c30" NAME="l30">&uarr;</A>30
+		<TD>We are going to use the shadow registers so we need to
+		disable interrupts for a second while we put some data in
+		the shadow registers for use during the grayscale routine. The
+		grayscale routine will exchange out the shadow registers with
+		the regular ones and so it will have the contents of the shadow
+		registers to use which we have prepared.
+		<TD>1
+	<TR>	<TD><A HREF="#c31" NAME="l31">&uarr;</A>31
+		<TD>Change out <CODE>bc, de,</CODE> and <CODE>hl</CODE> with their shadow
+		registers. We won't be needing to change out <CODE>af</CODE> with
+		its shadow register because <CODE>a</CODE> changes so much and we don't
+		need the flags.
+		<TD>1
+	<TR>	<TD><A HREF="#c32" NAME="l32">&uarr;</A>32
+		<TD>$3c is used in conjunction with port 0 (which we will learn
+		about later) to tell the TI86 which part of memory is to be used as
+		the video memory. $3c would tell the processor it needs to
+		use $fc00 as the video memory. $0a would mean $ca00 as the start
+		of the video memory. You don't really have to understand this
+		yet.
+		<TD>2
+	<TR>	<TD><A HREF="#c33" NAME="l33">&uarr;</A>33
+		<TD>We are going to need to save which port (port 0) we are using
+		so we can reference it faster during the routine.
+		<TD>2
+	<TR>	<TD><A HREF="#c34" NAME="l34">&uarr;</A>34
+		<TD>We are going to use 5 as a counter.
+		<TD>2
+	<TR>	<TD><A HREF="#c35" NAME="l35">&uarr;</A>35
+		<TD>When you xor %110110 with $3c you get $0a which is the other
+		value we need for port 0.
+		<TD>2
+	<TR>	<TD><A HREF="#c36" NAME="l36">&uarr;</A>36
+		<TD>This is the counter which we are going to need to time how long
+		different planes are visible.
+		<TD>3
+	<TR>	<TD><A HREF="#c37" NAME="l37">&uarr;</A>37
+		<TD>Put back all the shadow registers in their place for use
+		during the grayscale routine.
+		<TD>1
+	<TR>	<TD><A HREF="#c38" NAME="l38">&uarr;</A>38-39
+		<TD>We need to zero the UserCounter. <CODE>Xor a</CODE> is a one byte method
+		of <CODE>ld a,0</CODE> which is two bytes. It's faster and saves a byte. Like
+		most counting, we start from zero and work our way up.
+		<TD>4
+	<TR>	<TD><A HREF="#c41" NAME="l41">&uarr;</A>41-42
+		<TD>Remember that <CODE>i</CODE> used with <CODE>r</CODE> together tell where on
+		the vector table the interrupt handler is supposed to be. We need
+		to put the address of the vector table ($8e) into <CODE>i</CODE> to make
+		up the most significant byte of the address.
+		<TD>4
+	<TR>	<TD><A HREF="#c45" NAME="l45">&uarr;</A>45-46
+		<TD>Start up Interrupt Mode 2 on <A HREF="#c45">line 45</A>
+		and then Enable Interrupts
+		on <A HREF="#c46">line 46</A>.
+		<TD>3
+	<TR>	<TD><A HREF="#c47" NAME="l47">&uarr;</A>47
+		<TD>No need to explain.
+		<TD>1
+	<TR>	<TD><A HREF="#c53" NAME="l53">&uarr;</A>53
+		<TD>Now that we've got the routine to turn on grayscale mode, we
+		need a routine to turn it off.
+		<TD>none
+	<TR>	<TD><A HREF="#c54" NAME="l54">&uarr;</A>54
+		<TD>Start up interrupt Mode 1 again.
+		<TD>2
+	<TR>	<TD><A HREF="#c55" NAME="l55">&uarr;</A>55-56
+		<TD>Remember port 0 is the port for the video memory. We are going
+		to send $3c out it which tells the TI86's screen to show from
+		$fc00 to $ffff as the video memory.
+		<TD>4
+	<TR>	<TD><A HREF="#c58" NAME="l58">&uarr;</A>58
+		<TD>Clear the screen at $fc00.
+		<TD>3
+	<TR>	<TD><A HREF="#c60" NAME="l60">&uarr;</A>60-64
+		<TD>Since <CODE>_clrLCD</CODE> only clears <CODE>$fc00</CODE> to
+		<CODE>$ffff</CODE>, we need to make our
+		own routine that will clear the graph memory (our second plane). We
+		are going to clear the first byte of the graph screen, then copy it
+		to the second byte. Then we are going to copy the second byte to the
+		third byte. Now each byte gets cleared by the previous loop of
+		<CODE>ldir</CODE>. This is really handy to know. There are 1024 bytes to
+		clear. Think about how this works because you can use it in a lot of
+		things.
+		<TD>13
+	<TR>	<TD><A HREF="#c66" NAME="l66">&uarr;</A>66-69
+		<TD>Remember in lines <A HREF="#c8">8</A> through
+		<A HREF="#c11">11</A> when we saved those precious first
+		six bytes of the graph screen? Well, we need to put them back now.
+		<TD>11
+	<TR>	<TD><A HREF="#c71" NAME="l71">&uarr;</A>71
+		<TD>Done with it all!
+		<TD>1
+	<TR>	<TD><A HREF="#c73" NAME="l73">&uarr;</A>73
+		<TD>This is an assembler directive which I will teach you about
+		later. Don't pay attention to it now.
+		<TD>none
+	<TR>	<TD><A HREF="#c75" NAME="l75">&uarr;</A>75
+		<TD>Now we're going to start the actual routine to continuously
+		switch between each of the two video planes.
+		<TD>none
+	<TR>	<TD><A HREF="#c76" NAME="l76">&uarr;</A>76-77
+		<TD>This is sometimes called while another code is being run
+		in normal mode. We break for a micro-second and run this. Because
+		of this we need to save the registers that the other code was
+		using so it will have them when it is resumed. We need to save
+		them before we do our routine and return them like they were
+		after we're done switching video planes. Remember that we
+		saved some data in the shadow registers before we started, we're
+		going to exchange the registers so that the regular registers will
+		be filled with that data. When we're done we'll put that data
+		back in and return our parameters to the shadow registers.
+		<TD>2
+	<TR>	<TD><A HREF="#c79" NAME="l79">&uarr;</A>79-81
+		<TD>Bit 1 of port 3 is to tell us if the video screen is in the
+		middle of refreshing itself or not. If bit 1 is reset, the screen
+		is refreshing and we shouldn't flip panels in the middle of a
+		refresh. These refreshes take mini-micro-seconds.
+		<TD>6
+	<TR>	<TD><A HREF="#c83" NAME="l83">&uarr;</A>83
+		<TD>Remember that <CODE>hl</CODE> was loaded with the address of
+		the <CODE>UserCounter</CODE> which we had saved in our
+		parameters. We want to increment that because it's our
+		counter.
+		<TD>1
+	<TR>	<TD><A HREF="#c84" NAME="l84">&uarr;</A>84
+		<TD>We saved <CODE>c</CODE> with 0, so we can save a byte by not
+		putting in <CODE>out (0),a</CODE>. That one byte difference makes
+		the routine faster. Our sending $3c or $0a through port
+		0 will change part of memory to be shown on the screen, which
+		changes between $fc00 and $ca00.
+		<TD>2
+	<TR>	<TD><A HREF="#c86" NAME="l86">&uarr;</A>86-87
+		<TD>To give 4 shades of gray (white, light gray, dark gray,
+		black), we have to hold one of the planes
+		up for a little longer than the other. Remember that we loaded
+		<CODE>d</CODE> with 5. We use that as a counter to let one show 3
+		times when the other only shows 1. If the counter falls to
+		zero after we decrease it, we call the routine to reset the counter
+		and change planes.
+		<TD>4
+	<TR>	<TD><A HREF="#c88" NAME="l88">&uarr;</A>88-90
+		<TD>We now need to check to see if we need to flip planes. We
+		started at <CODE>d</CODE> being 5 and decreased it until it was 2. While
+		we are decreasing it, one of the planes is on the screen. When it
+		hits 2, we change to the other plane for the remaining two
+		decreases. That's 3 decreases on one plane and 2 on the other.
+		<TD>6
+	<TR>	<TD><A HREF="#c92" NAME="l92">&uarr;</A>92
+		<TD>We are going to have to leave now. We need to put the remains
+		of the parameters back into the shadow registers and clean up to
+		return from the interrupt.
+		<TD>none
+	<TR>	<TD><A HREF="#c93" NAME="l93">&uarr;</A>93-94
+		<TD>We need to check the status of the [ON] button. We get
+		a byte from port 3 and rotate (We'll discuss that later) it
+		once to the right. The bit rotated out is put in the carry. That
+		means that the carry is either set or reset.
+		<TD>3
+	<TR>	<TD><A HREF="#c95" NAME="l95">&uarr;</A>95-97
+		<TD>Remember that <CODE>c</CODE> was zero because we were saving that
+		for referencing port 0 when changing video pages. We need
+		to zero <CODE>a</CODE>, so we can either <CODE>xor a</CODE>, <CODE>sub a</CODE>,
+		or, <CODE>ld a,c</CODE> (because <CODE>c</CODE> is zero at this time). Each of
+		those are one byte long and so are faster than
+		the two byte <CODE>ld a,0</CODE>. We use <CODE>adc</CODE> to
+		add 9 to whatever is in
+		<CODE>a</CODE> and then add the carry flag (either of value 1 or 0)
+		to <CODE>a</CODE> on top of the 9 we are already loading. <CODE>A</CODE>
+		will either be 9 or 10 ($09 or $0a; %00001001 or %00001010). That
+		will turn the screen back on. We refreshed it when it was off I
+		think. We now turn it on.
+		<TD>5
+	<TR>	<TD><A HREF="#c98" NAME="l98">&uarr;</A>98-99
+		<TD>Now we need to send %00001011 through port 3 to do something. I
+		don't know this junk.
+		<TD>4
+	<TR>	<TD><A HREF="#c101" NAME="l101">&uarr;</A>101-102
+		<TD>We need to put back the parameters in the shadow registers
+		and return the regular registers to what they were before we
+		started our grayscale interrupt routine.
+		<TD>2
+	<TR>	<TD><A HREF="#c103" NAME="l103">&uarr;</A>103-104
+		<TD>We need to enable interrupts (<A HREF="#c103">line 104</A>)
+		and return from the
+		interrupts (<CODE>reti</CODE>). This not only returns from our routine but
+		from the whole interrupt thing. Instead of just the regular
+		return, this also checks the state of the interrupts for the
+		system.
+		<TD>3
+	<TR>	<TD><A HREF="#c107" NAME="l107">&uarr;</A>107-108
+		<TD>This is part of a call that is just added onto the front of
+		the routine that changes pages. This part resets the counter
+		and then leads right into the page changing routine.
+		<TD>2
+	<TR>	<TD><A HREF="#c109" NAME="l109">&uarr;</A>109-114
+		<TD>Remember that <CODE>e</CODE> has a value that when <CODE>xor</CODE>ed with
+		our byte to be sent to change the video planes, will yield
+		what we need to use next time for switching video planes. We
+		load our mask into <CODE>a</CODE> and <CODE>xor</CODE> it with
+		<CODE>b</CODE> and put the result back into <I>b</I>. Then we're
+		done with this call.
+		<TD>4
+	<TR>	<TD><A HREF="#c116" NAME="l116">&uarr;</A>116
+		<TD>This is an easy way for us to determine in
+		<A HREF="#c21">line 21</A> how
+		much we need to copy and paste. We let the assembler figure
+		out the length of the interrupt code by subtracting the
+		beginning address from the end. This gives us the difference
+		in the addresses which is the length of the code we need.
+		<TD>none
+	<TR>	<TD><A HREF="#c118" NAME="l118">&uarr;</A>118-119
+		<TD>This is where we store the data to use in our routine. This
+		isn't copied cause we don't need to have it with the routine. It
+		can be stored with the rest of this
+		<A HREF="../download/blitzgry.h"><CODE>blitzgry.h</CODE></A> code in your
+		program.
+		<TD>7
+	<TR>	<TD><A HREF="#c121" NAME="l121">&uarr;</A>121
+		<TD>We're done, and we need to tell the assembler that.
+		<A HREF="asse.htm#end"><CODE>.end</CODE></A> does just that.
+		<TD>none
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

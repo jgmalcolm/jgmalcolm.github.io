@@ -1,0 +1,307 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Variables");</SCRIPT>
+
+<P>Say your game is a racing game. You have to know what speed the car is going
+at. You don't want to designate <CODE>c</CODE> to hold the speed because you need
+to use it for calculations all over the game code. This is where variables come
+in handy.
+
+<UL>
+	<LI><A HREF="#temp">Temporary Trash</A>
+	<LI><A HREF="#game">Game Saved</A>
+</UL>
+
+<H2><A NAME=temp>Temporary Trash</H2>
+Values that you only need during game play. Once the game is over (player dies
+or exits), you don't care what happens to that data. An example of this
+is the coordinates of a ball bouncing on the screen. You usually need the
+x coordinate and the y coordinate. Those both would be stored in two separate
+bytes usually.
+
+<P>Before you ever begin to start to use game data, you need to define the
+address in memory that you are refering to, or else the assembler thinks you're
+crazy. This is similiar to the defined addresses for calls in
+<A HREF="../download/ti86asm.inc">ti86asm.inc</A>. If you're not familiar with
+the <A HREF="../advanced/asse.htm#equa">equate</A> directive, glance at the
+<A HREF="../advanced/asse.htm">Assembler Directives Section</A>. There are
+plenty of areas you can store data to in memory during program execution;
+check out the <A HREF="memo.htm#safe">Memory and ROM Pages</A> section for
+some of those addresses. After you know all
+that stuff, the next example should be clear. We're going to save
+the speed of our car already in <CODE>a</CODE> into the byte at <CODE>car_speed</CODE>
+and exit.
+
+<PRE>car_speed	=_textShadow	;address in memory ($c0f9)
+save_speed:
+	ld (car_speed),a	;save speed
+	ret			;exit routine</PRE>
+
+<P>You probably already understood this concept before I ever covered it. Here's
+another example of storing the player's current score in a <I>Tetris</I>
+type game. We're goint to store the score already in <CODE>hl</CODE> at memory
+address <CODE>current_score</CODE> designated in our
+program's memory. We need to save the money into 2 bytes (a word) this time
+since we know ahead of time that it's possible to get more than 255 (the highest
+possible value for a byte).
+
+
+<PRE><A NAME=curr>save_current_score:		;routine to save money
+	ld (current_score),hl	;save score
+	ret			;exit routine
+
+high_money:	.db 0,0		;2 bytes to save score value
+				; in (could have used .dw)</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=game>Game Saved</H2>
+Let's say the player just got a high score in
+<A HREF="../download/galaxian.zip"><I>Galaxian</I></A> by
+<A HREF="mailto:luezma@netscape.net">Patrick Davidson</A>. They most
+definitely want to have it saved so they can come back later
+and try to beat it.
+
+<P>We need to save that high score among our program data like the
+<A HREF="#curr">last example</A> under Temporary Trash. There's a
+difference though. You'll might understand this more once you've gone through
+the <A HREF="../index.html#vari">TI-OS Variables Sections</A> and have
+understood how the TI-OS variables work on the calculator. When you
+go to run a program, the TI86 gets that program and copies it
+to a designated area used only for running assembly programs. The
+<CODE>_asm_exec_ram</CODE> is the address (<CODE>$d748</CODE>) where the program
+is copied to. The name of the program currently running is
+stored in <CODE>_asapvar</CODE> (<CODE>$d6fc</CODE>) in
+<A HREF="../variables/vari.htm">Variable Name Format</A>.
+TI-OS will execute your program at <CODE>_asm_exec_ram</CODE>
+until finished. It will then return the the caller (either the homescreen,
+the TI-BASIC program that ran the assembly program, or the assembly
+program that called the program). What TI-OS doesn't do is copy
+the program back to it's original location in memory, so if you
+got a high score and saved it somewhere in the program, that
+wouldn't be saved for next time. You have to manually copy that
+high score data back the the original program location (or from
+whence it came) or it will be overwritten the next time
+any assembly program is run.
+
+<P>You have two choices of data storage:
+<OL>
+	<LI><A HREF="#resi">Resident</A> - The data is stored
+	in memory allocated to the actual program.
+	<LI><A HREF="#exte">External</A> - The data is specific to
+	that calculator and not be transferable to another calculator.
+</OL>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=resi>Resident</H2>
+Resident data storage is data inside the actual program. My game
+<A HREF="../download/addict.zip">Addiction</A> is an example of this. Just
+before exiting, the program copies the data such as cash, drugs, ammunition,
+bank account, and health back to where they were in the program. This
+technique is called Write Back. Here's a snippet of the code in
+<A HREF="../download/addict.zip">Addiction</A> that copies the data.
+
+<PRE>_asapvar		=$d6fc
+_set_abs_src_addr	=$4647
+_set_abs_dest_addr	=$5285
+_set_mm_num_bytes	=$464f
+_mm_ldir		=$52ed
+save_game:
+	ld hl,_asapvar			;name of current program running
+	rst 20h				;copy to OP1
+	rst 10h				;_findsym
+	ld a,b				;returns bde as prog data
+	ld hl,data_start-_asm_exec_ram+4
+					;offset in this program for start
+					; of saved game data
+					;2 bytes for prog length
+					;2 bytes for asm identifier bytes
+	add hl,de			;hl=pointer to data in original
+					; prog
+	adc a,$00			;in case we overlapped pages
+					;if carry was set in previous
+					; instruction...this will add 1 to
+					; a else...it adds 0 to a
+	call _set_abs_dest_addr		;set that as the absolute
+					; destination address to copy to
+	xor a				;no absolute addressing now
+	ld hl,data_start		;*get data from here
+	call _set_abs_src_addr		;set that as the absolute source
+					; address to copy from
+	ld hl,data_end-data_start	;*number of bytes to save
+	call _set_mm_num_bytes		;set that as the number of bytes
+					; to copy
+	call _mm_ldir			;perform absolute address data
+					; block copy
+	jp _clrScrn			;clear screen and exit
+data_start:				;start of data to copy
+saved_game_data:	.db 0,0,0,0,0	;drugs
+saved_health:		.db 5		;health (start out at 5)
+saved_ammo:		.db 0		;ammo
+saved_bank:		.dw 0		;bank account
+saved_cash:		.dw 20		;cash on hand
+data_end:</PRE>
+
+<P>The routine locates where the actual program is in memory, adds the offset
+of the data to work with to the start of the absolute address of the program,
+and then performs an absolute address data block copy before exiting.
+
+<P>This routine is adaptable to any program of yours. All you need to change
+are the lines of code with the <CODE>*</CODE> in the comments to wherever the start and
+finish of your program data is. There one limitation to this method: you
+can't copy more than 255 bytes of memory.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=exte>External</H2>
+External data storage is a simple concept: Store the data
+in a variable other than the program running under a name that TI-OS
+doesn't pick up in variable searches. For this section, I'll be
+refering to two programs in the
+<A HREF="../download/external.zip">External</A> Zip:
+<OL>
+	<LI>Create.86p - Creates the hidden variable and loads it
+	with the data.
+	<LI>Access.86p - Accesses the hidden variable and prints
+	the contents in ASCII on the screen.
+	<LI>%data.86s - Hidden string containing the characters
+	"AB".
+</OL>
+
+
+<P>Hidden variables are made by placing an invalid variable name
+character in the variable's name, such as <CODE>%</CODE> or <CODE>$</CODE>. When TI-OS
+is searching for variables to display in the Memory Delete Screen,
+it won't detect these hidden variables because they are not valid
+names. TI-OS will skip right over them in all of its variable
+detection routines, except the Free RAM Screen. These
+variables take up memory just as any regular variable would. When
+TI-OS calculates how much Free RAM you have left, it takes
+the address of the last byte in RAM being used and subtracts
+the start of the RAM to get the length of the RAM. These hidden
+variables are counted in that space.
+
+<P>The first program to run is Create.86p. It will create a new
+string variable named <CODE>%data.86p</CODE> that is hidden because of the
+invalid character "%" in the name. I have commented all
+the code.
+
+<PRE>_createstrng		=$472f	;all our equates needed in
+_ex_ahl_bde		=$45f3	; the program
+_ahl_plus_2_pg3		=$4c3f
+_set_abs_dest_addr	=$5285
+_set_abs_src_addr	=$4647
+_set_mm_num_bytes	=$464f
+_mm_ldiR		=$52ed
+
+#include "ti86asm.inc"
+
+.org _asm_exec_ram
+
+	ld hl,string-1		;copy anything before string for
+				; type byte
+	rst 20h			;call _Mov10toOP1
+	rst 10h			;call _FindSym to see if variable
+				; exists
+	call nc,_delvar		;delete variable if it exists
+				;all necessary info still preserved
+	ld hl,string_end-string_start	;minus start from end of
+					; string so result is length
+					; of string
+	call _createstrng	;$472f	create string
+	call _ex_ahl_bde	;$45f3	ABS bde & ahl swapped
+	call _ahl_plus_2_pg3	;$4c3f	increase ABS ahl by two
+	call _set_abs_dest_addr	;$5285	set that as destination for
+				; block copy
+	xor a			;AKA ld a,0
+	ld hl,string_start	;hl points to string_start
+				;address of string is in relation
+				; to 16 bit and ram page
+	call _set_abs_src_addr	;$4647	set that as source for
+				; block copy
+	xor a			;AKA ld a,0 -it's on already swapped
+				; in page (0)
+	ld hl,string_end-string_start	;length of string
+	call _set_mm_num_bytes	;$464f	set # of bytes to copy in
+				; block copy
+	jp _mm_ldir		;$52ed	ABS block copy
+				;we jump instead of calling
+				; and returning this way we just use
+				; _mm_ldir's ret as ours
+				;saves 1 byte
+
+string:		.db 5,"%data"	;length indexed string name
+string_start:	.db "AB"	;two bytes storage
+string_end:</PRE>
+
+<P>We now have a string named <CODE>%data</CODE> containing two
+characters <CODE>A</CODE> and <CODE>B</CODE>. We need to set up the program that
+will access that hidden variable and display the contents.
+
+<PRE>_ex_ahl_bde		=$45f3	;all our equates needed in
+_ahl_plus_2_pg3		=$4c3f	; the program
+_set_abs_dest_addr	=$5285
+_set_abs_src_addr	=$4647
+_set_mm_num_bytes	=$464f
+_mm_ldiR		=$52ed
+#include "ti86asm.inc"
+.org _asm_exec_ram
+
+	call _homeup		;cursor coordinates at
+				; top left
+	ld hl,name-1		;
+	rst 20h			;copy 10 bytes from hl to op1
+	rst 10h
+	call _ex_ahl_bde
+	call _ahl_plus_2_pg3	;hl points to start of
+			;data in program
+
+	call _set_abs_src_addr	;$5285	set that as destination
+				; for block copy
+	sub a			;AKA ld a,0
+	ld hl,data		;hl points to data's start address
+				;address of string is in
+				; relation to 16 bit and ram page
+	call _set_abs_dest_addr	;$4647	set that as source for
+				; block copy
+	xor a			;AKA ld a,0 -it's on already
+				; swapped in page (0)
+	ld hl,2			;length of data
+	call _set_mm_num_bytes	;$464f	set # of bytes to
+				; copy in block copy
+	call _mm_ldir		;$52ed	ABS block copy
+
+	ld de,data
+	ld a,(de)
+	call _putc		;print first character
+	inc de
+	ld a,(de)
+	jp _putc		;print second character
+				; and return
+
+data:	.dw 0			;data copied from %data.86s
+name:	.db 5,"%data"		;length indexed string name
+
+.end</PRE>
+
+<P>If you are going to use this routine in a game to save high
+scores, make sure you have a routine that checks to see if
+the hidden file is even there. Since the hidden file doesn't
+travel with the main program, there has to be a routine
+to create the hidden file for the first time. If the hidden
+file's not there, everything will go screwy!
+
+<P>The best way
+to do this is using <A HREF="../variables/_fin.htm"><CODE>_FindSym</CODE></A>
+which will return with the <A HREF="../beginner/flag.htm#carry">carry
+flag</A> set if the variable doesn't exist. Just use that
+condition to jump to a routine to create a new data variable
+with defaults.
+
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

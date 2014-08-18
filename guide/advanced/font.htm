@@ -1,0 +1,291 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","User Fonts");</SCRIPT>
+
+<P>Tired of looking at the same font all the time? Well, you can change
+all that. You can make your own font on the computer stored as bitmaps
+and use it on the TI86.
+
+<P>Everything discussed in this lesson is
+embodied in the program
+<A HREF="../download/fontb.asm">FontB.asm</A>. This
+creates a bold character set switching on
+or off every other execution.
+
+<UL>
+	<LI><A HREF="#24bi">Pointer</A>
+	<LI><A HREF="#turn">Turning it On</A>
+	<LI><A HREF="#font">Font Data</A>
+</UL>
+
+<P>Every time TI-OS goes to put text on the screen, it
+checks if certain bit in the <A HREF="syst.htm">System Flags</A> is set. If
+that bit's set, it then goes to the appropriate memory address which tells it
+a <A HREF="../variables/abso.htm">Absolute Address Pointer</A> of where
+your font is in memory. At that address it will ready a byte telling it
+again what size the font is and how many characters are in your font. 
+TI-OS searches for the ASCII character it wants and then displays
+that character. If the character wasn't found, it uses the
+default character.
+
+<P>You need to have the following equates
+in your code. These are the addresses
+where a 24 bit pointer will be stored.  The pointer
+will have the address of where your font data
+is at. These addresses are for
+<A HREF="../intermediate/text.htm#curs">Cursor Font</A>
+and <A HREF="../intermediate/text.htm#vari">Variable
+Width Font</A> respectively.
+<PRE>_AltLFontPtr	=$d2ed	;large font pointer
+_AltSFontPtr	=$d2f0	;small font pointer</PRE>
+
+<P>There are three steps to setting up your custom font.
+<OL>
+	<LI>At either <CODE>_AltLFontPtr</CODE> or <CODE>_AltSFontPtr</CODE>,
+	put a 24 bit pointer to where the font data is for that type of font.
+	<LI>Set either bit 0
+	(<A HREF="../intermediate/text.htm#curs">Cursor
+	Font</A>) or bit 1
+	(<A HREF="../intermediate/text.htm#vari">Variable
+	Width Font</A>) at offset $23 from the
+	<A HREF="syst.htm">System Flags</A>.
+	<LI>Make the font data
+</OL>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="24bi"><H2>24 bit Pointer</H2>
+From reading the <A HREF="../variables/abso.htm">Absolute
+Addressing Section</A> you should be familiar with
+24 bit pointers. The best way to setup your code is
+to make a pointer to your actual program where the
+font data is stored, as opposed to copying all
+the font data somewhere else. The only drawback
+to this is, if your program gets moved around in
+RAM, the pointer is invalid. The only work around
+to that is to somehow make your program the first
+one on the calculator. I don't know how but there's
+got to be some way. If you find out, send me an
+<A HREF="mailto:malcolmj1@juno.com">electronic mail</A>.
+
+<P>Here's how to setup the absolute pointer. You
+will also need the following equate. It is where
+the name of the current program running is stored
+in <A HREF="../variables/vari.htm">Variable Name
+Format</A>.
+<PRE>_asapvar	=$d6fc</PRE>
+This routine will find the absolute
+address of the font data in your program. It
+then puts the address into the correct pointer
+to install cursor font.
+
+<PRE>_altlfontptr	=$d2ed	;large font pointer
+_altsfontptr	=$d2f0	;small font pointer
+_asapvar	=$d6fc	;prog currently being run
+
+install:
+	ld hl,_asapvar		;current program running
+	rst 20h			;_mov10toOP1
+	rst 10h			;_findsym
+				;returns abs address bde!
+	ld a,b			;get MSB of address in a
+	ld hl,font_data-_asm_exec_ram+2+2
+				;offset in ram of font data
+				; in program relative
+				; to start of this program
+				;not _asm_exec_ram!
+				;+2 for asm prog identifier
+				; bytes
+				;+2 for length of asm prog
+				; bytes
+	add hl,de		;we want to add it to
+				; the start of what _findsym
+				; returned
+	adc a,$00		;account for 24 bit pointer
+				; carry
+	ld (_AltLFontPtr),a	;load MSB in
+	ld (_AltLFontPtr+1),hl	;load the rest in
+
+	ret</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="turn"><H2>Turning It On</H2>
+Now we need to set the correct bit to verify the user
+font usage. It would be nice if the user
+could toggle user font On or Off every time
+they ran the program, so we're going to
+<CODE>xor</CODE> the bit so it's flipped (set...reset...set)
+each time the program is run.
+
+<P>Here's how to set the bits.
+
+<PRE>
+exceptionflg	=$23	;offset
+alt_font	=0	;cursor
+alt_vfont	=1	;variable
+	set alt_font,(iy+exceptionflg)	;cursor
+	set alt_vfont,(iy+exceptionflg)	;variable</PRE>
+
+<P>Here's the completed code for installing
+the font.
+<PRE>_altlfontptr	=$d2ed	;large font pointer
+_altsfontptr	=$d2f0	;small font pointer
+_asapvar	=$d6fc	;current program being run
+install:
+	ld hl,_asapvar
+	rst 20h
+	rst 10h
+	ld a,b
+	ld hl,font_data-_asm_exec_ram+2+2
+	add hl,de
+	adc a,$00
+	ld (_AltLFontPtr),a
+	ld (_AltLFontPtr+1),hl
+	ld a,%00000001		;bit we're working with
+				; for cursor font
+	xor (iy+$23)		;flips bit  0 at iy+$23
+	ld (iy+$23),a		;load result in
+	ret</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="font"><H2>Font Data</H2>
+This is the hard part: Designing each
+character for your font set. It needs
+to be in the following
+format.
+
+<PRE>font_data:
+	.db <I>size byte</I>
+	.db <I>number of characters</I>
+			;easy way to figure this
+			; out is:
+			; (end_font_data-begin_font_data)/8
+			; since each character is
+			; 8 bytes long
+begin_font_data:
+	.db <I>ascii code</I>
+	.db %00000	;bitmap, within these
+	.db %00000	; constraints, of the
+	.db %00000	; character
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+
+	.db <I>next character's ascii code</I>
+	.db %00000
+	. . .
+	. . .
+
+	.db <I>last character</I>
+	.db %00000	;bitmap, within these
+	.db %00000	; constraints, of the
+	.db %00000	; character
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+end_font_data:</PRE>
+
+<P>The <I>size byte</I> is either
+one of the following telling the size
+of the subsquent font characters:
+
+<PRE>cursor_font	=$6f
+v_width_font	=$64</PRE>
+
+<P>Here's a sample of font
+data for cursor size font.
+
+<PRE>font_data:
+	.db $6f		;type of font (large)
+	.db (end_font_data-begin_font_data)/8
+			;# of characters in font
+			;each is 8 bytes so
+			; we take the total space
+			; used and divide by
+			; 8 to get how many
+			; fonts we are doing
+begin_font_data:
+	.db ' '
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+	.db %00000
+
+	.db 223		;cursor that blinks usually
+	.db %11111
+	.db %10001
+	.db %10001
+	.db %10001
+	.db %10001
+	.db %10001
+	.db %11111
+
+	.db 'A'
+	.db %01110
+	.db %11111
+	.db %11011
+	.db %11111
+	.db %11011
+	.db %11011
+	.db %11011
+
+end_font_data:</PRE>
+
+<P>I condensed the font characters
+to three just so i could emphasize the format
+rather than the chracters. These are
+characters taken from my bold font
+set program
+<A HREF="../download/fontb.asm">FontB.asm</A>.
+
+<P>The organization of your characters
+is <I>critical</I> to the speed
+of printing. Since TI-OS starts
+searching through the character
+set to find the right
+character, it starts at the beginning
+and works it's way to the
+end. It's best to put
+heavily used characters at
+the beginning so TI-OS can
+find them fast. Here are the
+characters in the order
+they should be listed in
+your program. You should always include the
+space, <CODE>x</CODE>, and <CODE>y</CODE> characters even if you don't
+change them from the look of the defaults. That
+way, TI-OS finds them fast!
+<OL>
+	<LI><CODE>LSpace</CODE> (<CODE>$20</CODE>) - Always put this in even though
+	it's blank.  TI-OS uses it to clear the
+	screen and everything so it's used a ton!
+	<LI>Cursor (<CODE>$df</CODE>) - Since it blinks a ton.
+	<LI><CODE>x</CODE> and <CODE>y</CODE> (<CODE>$78-$79</CODE>) -
+	Used in many math applications.
+	<LI>Numbers (<CODE>0-9</CODE>) (<CODE>$30-$39</CODE>)
+	<LI>Lowercase Alphabet (<CODE>a-z</CODE>) (<CODE>$61-$7a</CODE>) - Used more
+	than the uppercase letters.
+	<LI>Uppercase Alphabet (<CODE>A-Z</CODE>) (<CODE>$41-$5a</CODE>)
+</OL>
+For more info on this section,
+take a look at
+<A HREF="../download/fontb.asm">FontB.asm</A>
+to see how I made the different characters
+and how I installed the font.
+
+<P>You can also download an example
+of an <A HREF="../download/fonti.asm">Italic
+Font</A>.
+<SCRIPT LANGUAGE=JavaScript>bottom("User Routines","user.htm");</SCRIPT>

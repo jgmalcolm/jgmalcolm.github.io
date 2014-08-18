@@ -1,0 +1,121 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Format and Compiling");</SCRIPT>
+
+<P>Before you can really start learning to program you are going
+to have to have some basic tools.
+<OL>
+	<LI>TI-GRAPHLINK (<A HREF="http://www.ti.com" target="_blank">Texas
+	Instruments</A>)
+	<LI>Assembly Studio 86
+	(<A HREF="http://www.acz.org" target="_blank">Assembly Coders Zenith</A>)
+</OL>
+
+The general syntax of an assembly program for the TI86 is as follows:
+
+<PRE>#include "ti86asm.inc"
+	    . . .
+	    . . .
+	(<I>aliases and defines</I>)
+	    . . .
+	    . . .
+.org _asm_exec_ram
+	    . . .
+	    . . .
+	(<I>program code</I>)
+	    . . .
+	    . . .
+	(<I>variables</I>)
+	    . . .
+	    . . .
+.end</PRE>
+
+<P>Those are the two tools I have so those are what I will be
+referring to. It is definitely possible to program with a homemade
+link and some freeware linking software, but Assembly Studio is
+nice because it combines all aspects of programming into one
+program. You don't have to use MS-DOS EDIT to edit the file,
+another MS-DOS program to compile it, your linking software
+to send it, and then overwrite the file if you already have it on
+the calculator.
+
+<P>Asm Studio also lets you select options
+so that all you do is his [Ctrl] and [F5] and Asm Studio sends
+the file to your calculator and overwrites the previous version.
+Asm Studio just takes care of the bottlenecks, not to
+mention adding several features that you will wonder how you
+could ever have lived without.
+
+<P>Later on in programming you will want to have a complete set of
+<A HREF="../download/includes.zip">include files</A> for your code
+downloaded and in your include search path directory. If you have Asm
+Studio, that directory would be "Include". You will also want to start
+collecting your own library of reference
+material. Check out the <A HREF="../download/download.htm">Download
+Section</A> for my current stash of files. Start collecting now so you can get
+all the weird files on all the weird stuff there is with asm programming.
+
+<P>To start you off getting comfortable with Asm Studio, we're
+going to try to compile something and send it to your TI86.
+
+<OL>
+	<LI>Make sure your calculator is plugged into the graph link
+	and turned on.
+	<LI>From inside Asm Studio select File | New. We'll need to copy
+	and paste the following section of code into
+	the new document, overwriting everything already in 'Document 1'.
+	To do that, hold down the [Shift] key while dragging
+	your mouse from the top to the bottom of this example program.
+	<LI>While holding down [Ctrl] hit [C] to copy the code from this page.
+	<LI>Go into Asm Studio and, while holding down [Ctrl], hit [A] to
+	select all the text in the window.
+	<LI>Paste the code with [CTRL] [V].
+	<LI>Save the file as <CODE>practice1</CODE> in the 
+	'Programs' directory of your Asm Studio folder.
+	Asm Studio will automatically save it with an
+	<CODE>*.asm</CODE> file extension.
+</OL>
+
+When I first started programming
+I saved all my tests, examples, and practices as
+<CODE>practiceN.asm</CODE> with <CODE>N</CODE> being some number.
+
+<PRE>#include "ti86asm.inc"	;equate file
+.org _asm_exec_ram		;where it starts
+	call _clrLCD		;clear the screen
+	ld bc,$0000		;at coordinates (0,0)
+	ld (_curRow),bc		;load coodinates
+	ld hl,hello_text	;address of text
+	call _puts		;display it
+	call _getkey		;wait for keypress
+	ret			;exit program
+hello_text:	.db "hello",0	;text to display
+.end				;end of source code</PRE>
+
+<P>You need to have your TI86 plugged into your Graph Link, turned on, and at
+the homescreen. If you have errors, go to the Asm Studio Help section
+"Troubleshooting". To run your program, once it has been sent to the TI86,
+type the following:
+
+<PRE>Asm(<I>arg1</I>)</PRE>
+
+Where <I>arg1</I> is type the name of the program. You can get <CODE>Asm(</CODE>
+from the TI86's Catalogue, and you can go get the name of your program through
+the Program Menues. Hit [ENTER] to startup your program.
+
+<P>Let's say you saved your above program as
+<A HREF="../download/hello.asm">hello.asm</A> and assembled it as
+<A HREF="../download/hello.86p">hello.86p</A>. You would send the
+<CODE>*.86p</CODE> file to your calculator and type in the following at the homescreen.
+
+<PRE>Asm(hello)</PRE>
+
+<P>Make sure you put a Tab at the start of every line in your code that has
+an instruction on it. The assembler will then recognize them as instructions
+and not labels.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

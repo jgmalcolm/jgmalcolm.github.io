@@ -1,0 +1,23 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Random Numbers");</SCRIPT>
+
+<P>Random Number Generators are great for games: random events
+in an Role Playing Game, random
+<A HREF="spri.htm">sprite</A> movement, random
+<A HREF="tile.htm">level maps</A>, 
+
+<!--
+xor a   ;ld a,0
+call _setXXop1  ;content of a into OP1
+ld a,10
+call _setXXop2  ;content of a into OP2
+call _randint   ;random integeter between OP1 and OP2 to OP1
+call _convop1   ;convert number in OP1 to 'a'
+--!>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

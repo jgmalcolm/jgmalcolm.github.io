@@ -1,0 +1,93 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Beginner","Registers");</SCRIPT>
+
+<P>All processors have small memory banks located on the
+processor itself. These are for high speed data transfer. The
+processor loads a value from the RAM onto the high speed data
+location, manipulates it, and then puts it back in it's
+place in the RAM.
+
+<P>These small, high speed data locations are
+called registers. They have letter names to distinguish them.
+Right now we will learn a few of the most commonly used
+registers: <CODE>a</CODE>, <CODE>b</CODE>, <CODE>c</CODE>,
+<CODE>d</CODE>, <CODE>e</CODE>, <CODE>h</CODE>, and <CODE>l</CODE>.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD>a
+		<TD>b
+		<TD>c
+		<TD>d
+		<TD>e
+		<TD>h
+		<TD>l
+</TABLE>
+
+<P>On the z80 they are 1 <A HREF="numb.htm#size">byte</A> long
+(8 bits, 8 1's and 0's); however, they can be put into pairs (<CODE>bc</CODE>,
+<CODE>de</CODE>, and <CODE>hl</CODE>) so that then they can hold two bytes, or a
+<A HREF="numb.htm#size">word</A>. These registers are called Register Pairs
+because it is two registers put together. The can only be grouped
+into <CODE>bc</CODE>, <CODE>de</CODE>, or <CODE>hl</CODE>. <CODE>Bh</CODE> and
+<CODE>da</CODE> don't exist.
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>	<TD>a f
+		<TD>b c
+		<TD>d e
+		<TD>h l
+</TABLE>
+
+
+<P>The <CODE>a</CODE> register is called the Accumulator because it
+is used the most, just as <CODE>hl</CODE> is called the Address
+Register Pair because it is used for referencing memory addresses
+mostly.
+
+<P>Putting parenthesis around a registered pair signifies
+that you are talking about the byte at the <I>address</I> held
+by the register pair.
+
+<PRE>	ld hl,$fc00	;store $fc00 in hl
+			;(this is the address of
+			; the first byte in
+			; the video memory)
+	ld (hl),$11	;store $11 in
+			; the byte at hl
+			;the value that hl holds
+			; is considered the
+			; address of the byte
+			; we are talking about</PRE>
+
+<P>Before you can every manipulate data, it <I>must</I> pass through
+a register. You cannot add the contents of one memory address to the
+contents of another memory address. You have to store the bytes
+at both memory addresses into registers and then you can
+add those registers.
+
+<PRE>	ld a,($fc00)	;get byte at address $fc00
+	ld b,a		;put that in b
+	ld a,($fc01)	;get byte at address $fc01
+	add a,b		;add the two
+			;these 4 lines are valid
+
+	;CANNOT do the following line
+	add ($fc01),($fc00)	;invalid instruction
+	;you'll get all kinds of errors</PRE>
+
+You can't add straight values either.
+
+<PRE>	ld a,2
+	ld b,3
+	add a,b		;you can do this
+			;2+3=5 stored in a
+
+	add 2,3		;CANNOT do this!!
+			;won't work</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

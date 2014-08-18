@@ -1,0 +1,272 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Memory and R_M Pages");</SCRIPT>
+
+<UL>
+	<LI><A HREF="#memo">Memory</A>
+	<LI><A HREF="#rom">ROM</A>
+	<LI><A HREF="#ram">RAM</A>
+	<LI><A HREF="#safe">Safe Areas</A>
+</UL>
+
+<H2><A NAME=memo>Memory</H2>
+Did you know that your TI86 has over 384
+kilobytes of memory on it? 98 kilobytes of that is all that
+TI-OS lets you store stuff to.
+
+<P>If you already know what calculator memory is, then
+skip down to the <A HREF="#rom">ROM</A> and <A HREF="#ram">RAM</A>
+sections.
+
+<P>Picture a tape measure. It's one long continuous length of
+metal with markings for every centimeter (cm). Memory is sort of
+like that. It is continuous and marked off. A tape measure marks
+off cm's just as memory marks off bytes. Just like
+you could say an object is 3 cm away from another, you could say
+a byte is 3 bytes from the start of memory (<CODE>$0000</CODE>).
+
+<P>You really wouldn't be saying "a byte is 3 bytes from the start";
+you would just say it's at address <CODE>$0003</CODE>. The 6th byte
+in memory is at address <CODE>$0006</CODE>.
+
+<P>Addresses are always given in
+<A HREF="../beginner/numb.htm#hex">hexadecimal</A>. It seems
+awkward to tell someone an address as <CODE>22322</CODE> compared
+to the easier <CODE>$5732</CODE>. There are fewer digits to
+remember.
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=rom>ROM</H2>
+Read Only Memory (ROM) can only be read from. You can't write
+(record) any data to it.
+
+<P>TI-OS is residing in the ROM from address <CODE>$0000</CODE>
+to address <CODE>$7fff</CODE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=ram>RAM</H2>
+Random Access Memory (RAM) is free for you to mess with.
+
+<P>Since the TI86 has so much memory and you can only access
+64k at a time using a word address pointer, TI used a system
+of addressing using three registers for addressing. <CODE>Ahl</CODE> and
+<CODE>BDE</CODE> are two groupings used to address memory. Instead of the
+standard $3ad9 to address something, you have an extra byte
+to give $023ad9. That way you are able to access more memory
+as explained in the <A HREF="../variables/abso.htm">Absolute
+Addressing Section</A>.
+
+<P>Another method developed to access more memory is changing
+out 'pages' of memory. TI has several memory pages that can
+be swapped interchangeably to access different routines. This
+method is faster than using the un-natural three byte
+<A HREF="../variables/abso.htm">addressing</A>
+($000000). These pages are loaded into the memory of the TI86
+by different routines for temporary use. They are put between
+$010000 and $02bfff for RAM pages and between $02c000 and $05ffff
+for ROM pages. This whole system of swapping out pages is called
+Asynchronous Serial Communications Interface. The ROM port is port
+5 and the RAM port is port 6.
+
+<P>The most frequent <A HREF="romc.htm">ROM calls</A> are to page $0d which then will
+swap in whichever memory page needed, execute the routine on that
+page, and return the pages to how they were before execution.
+You won't have to worry too much about memory pages unless you
+are accessing variables on the TI86.
+
+<P>A better way of understanding this is to think of old computers for
+a second. Most of them didn't have large hard drives but
+instead had the programs on disk. The old games like King's
+Quest had three or four disks to switch around to play a game on
+top of all the data you pre-loaded onto the hard drive. There
+wasn't enough memory to load the whole game onto the hard
+drive at once. That is how the TI86's memory is, with 16 ROM
+pages, all numbered. You don't use page 0. There are different pages,
+or disks as in King's Quest, that take turns being switched
+around. Say you wanted to switch to ROM page 3. To switch to
+it, your program needs to execute the following lines of code:
+
+<PRE>rom_page_number	=$0d		;page number to switch to
+rom_page_port	=5		;port controlling rom page
+	ld a,rom_page_number	;page number in a
+	out (rom_page_port),a	;tell ti-os to switch to ROM page in a</PRE>
+
+<P>That will put you on ROM
+page $0d where many calls are such as _clrLCD. If you make
+a call to a page memory address and the page you are thinking
+about is not swapped in, your program will probably crash since
+the routine you want isn't where you think it is.
+
+<P>TI changes their
+<A HREF="../beginner/ti86.htm">ROM versions</A> among their
+calculators. To keep up with those ROM versions and call
+addresses, they use ROM page $0d as a reference to all the
+common calls. You usually call the routine which is located
+at the same location on ROM page $0d in all versions. At
+that address, it jumps to where the call is located in that
+certain ROM version. This helps TI keep the same addresses
+for ROM calls between every version. The call address will
+always be the same on ROM page $0d but the reference from
+there may be different. My program
+<A HREF="../download/memsee.asm">MemSee.asm</A> shows
+how to swap in any ROM page you want and still call
+routines on page $0d safely.
+
+<P>The TI86 has four pages in memory, each of 16 kilobytes. There
+are two pages that are static (you cannot switch them) and
+two that are dynamic (you can switch them).
+
+<P><TABLE ALIGN=CENTER class="function">
+	<TR CLASS=header>
+		<TD>Start
+		<TD>End
+		<TD>Size in bytes
+		<TD>Contents
+	<TR>	<TD WIDTH="10%">$0000
+		<TD WIDTH="10%">$3fff
+		<TD WIDTH="10%">16,384
+		<TD>ROM page 0 - you can always access this
+		part of static memory.
+	<TR>	<TD>$4000
+		<TD>$7fff
+		<TD>16,384
+		<TD>ROM - this part can be switched around
+		for access to different routines on any of the 16 pages.
+	<TR>	<TD>$8000
+		<TD>$bfff
+		<TD>16,373
+		<TD>RAM - this part can be switched around for
+		access to different areas of the editable memory with any
+		one of 8 pages of RAM.
+	<TR>	<TD>$c000
+		<TD>$ffff
+		<TD>16,384
+		<TD>RAM - page 0 always - Temporary storage
+		space for system use
+</TABLE>
+
+<P>When TI-OS runs a program. It automatically swaps in RAM
+page 1 for use.
+
+<P>There is something that you must understand when working
+with ports: You can swap in a ROM page or a RAM page into
+the same memory area. The only difference between requesting
+a ROM page versus a RAM page is whether or not
+<A HREF="../beginner/numb.htm#bitp">bit 6</A> of <CODE>a</CODE> is set
+or reset. If bit 6 is set, then the TI86 swaps in a RAM page;
+if is reset, it swaps in a ROM page. Here's two routines,
+they require upon entry that <CODE>a</CODE> is the requested page. To
+change in a ROM page between address $4000 and $7fff, call
+'swap_ROM'; to swap in a RAM page between addresses $8000 and
+$bfff, call 'swap_RAM'. The code swaps in ROM page $0a
+and RAM page $07 (the <A HREF="../variables/vats.htm">Variable
+Allocation Table</A>) and quits.
+
+<PRE>desired_ROM	=$0a	;ROM page we want to swap in
+desired_RAM	=$07	;RAM page we want to swap in
+ROM_port	=5	;ROM port
+RAM_port	=6	;RAM port
+	ld a,desired_ROM
+	call swap_ROM
+	ld a,desired_RAM
+			;walk right into the routine
+			; to swap in desired RAM page
+swap_RAM:
+	ld c,RAM_port	;port to work with
+	and $07		;can't have a value greater
+			; than $07 because there
+			; aren't that many RAM pages
+	set 6,a		;tell ti-os it's a RAM page
+			; that you want
+	out (c),a	;load that page
+	ret
+swap_ROM:
+	ld c,ROM_port	;port to work with
+	and $0f		;can't have a value greater
+			; than $0f because there
+			; aren't that many ROM pages
+	out (c),a	;load that page
+	ret</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=safe>Safe Areas</H2>
+The following chart shows
+some frequently used data areas where you can store stuff
+temporarily during program
+execution. The <A HREF="vari.htm">Variables Section</A> goes
+into much more detail on this.
+
+<P>
+<TABLE ALIGN=CENTER class="function">
+	<TR CLASS=header>
+		<TD><A NAME=safe>Start Address
+		<TD>Size in bytes
+		<TD ALIGN=CENTER>Use
+	<TR>	<TD>$???? to $fa70
+		<TD>????
+		<TD>You can store temporary variables after the end
+		of your program. Your
+		program is given a space of about 10k to use when it's run. When you run the
+		program, TI-OS copies your entire program to
+		<CODE>_asm_exec_ram=$d748</CODE>. From
+		there you can store until but you reach the address
+		<CODE>$fa70</CODE> (which is used for
+		one of the stack systems...don't mess with it). This area is zeroed once a new
+		program is run, so this is only temporary.<BR><BR>
+		Example: <A HREF="../download/tempmemo.asm">tempmemo.asm</A> |
+		<A HREF="../download/tempmemo.86p">tempmemo.86p</A>
+	<TR>	<TD>$c0f9
+		<TD>168
+		<TD><CODE>_textShadow</CODE>. This is one of the most
+		useful places to store variables, which we will talk
+		about later, because it's not used by the calculator
+		during your program's execution.
+		<P>TI-OS will store the values of the large text
+		written to the screen in this area. To stop it from
+		doing this, execute the following:</FONT>
+		<PRE>	res appTextSave,(IY+appflags)</PRE>
+		When you are done with your program, execute the
+		following to clear this memory so you don't have a
+		bunch of junk on your screen:</FONT>
+		<PRE>	set appTextSave,(IY+appflags)
+	call _clrScrn
+	<TR>	<TD>$c9fa
+		<TD>1024
+		<TD><CODE>_plotSScreen</CODE>. Another useful place to
+		store variables or images during program execution. When
+		you exit though, this is not cleared so TI-OS will graph
+		a bunch of garbage next time the user goes to the graph.
+		To avoid this just put:</FONT>
+		<PRE>	set graphdraw,(IY+graphflags)</PRE>
+		That will tell the TI86 that it needs to clear the graph
+		next time the user accesses it.
+	<TR>	<TD>$fc00
+		<TD>1024
+		<TD>This is where the <A HREF="scre.htm">LCD</A> is
+		and where the pixels you <A HREF="pixe.htm">draw</A> are displayed. Each byte
+		stands for 8 pixels, meaning that each bit stands for a
+		pixel black (set) or white (reset). Each row is 16 bytes.
+		This will be explained later in more detail but you shouldn't
+		use this area unless you have to.
+	<TR>	<TD>$8100 to $bfff
+		<TD>~16k
+		<TD>RAM PAGE 1. This page is used for two things by TI-OS:
+		<A HREF="../variables/floa.htm">Floating Point Stack</A>
+		and Operator Stack. They start their storage
+		space at opposite ends of the page and work thier way to
+		the center. Because of these sensitive areas, start
+		storing from atleast $8100 instead of $8000 because the floating
+		point stack usually has one or two items pushed to it, like
+		your program's name. If your program uses the
+		<A HREF="../variables/floa.htm">Floating Point Stack</A> then
+		you may want to start even later.
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

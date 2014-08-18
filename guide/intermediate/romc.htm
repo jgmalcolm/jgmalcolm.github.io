@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","TI's ROM Calls");</SCRIPT>
+
+<P>I thought about giving detailed descriptions about the uses of different
+calls frequently used from TI, but then I remembered that I'm lazy. If you
+want to learn, experiment like I did. Maybe I'll teach you some later. Here
+are a couple that you'll use a lot. Most of these calls are already
+defined in <A HREF="../download/includes.zip"><CODE>ti86asm.inc</CODE></A>. If you don't
+use that file and you want to put them in your program you have to define
+them somewhere in your program. Say you wanted to use <CODE>_clrLCD</CODE>
+in your program, you would have to have the following somewhere in your program
+with no leading spaces.
+
+<PRE>	_clrLCD = $4a7e</PRE>
+
+<P>Remember how these calls are used in conjunction with the
+<A HREF="../beginner/flag.htm">flags</A>:
+
+<PRE>	call <I>arg1</I>
+	call _clrLCD		;clear the screen
+	call _homeup		;put cursor at top left
+	call z,_homeup
+	call nz,_homeup
+	call c,_homeup
+	call nc,_homeup</PRE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Alias
+		<TD>Address
+		<TD>What It Does
+	<TR>	<TD><CODE>_clrLCD
+		<TD><CODE>$4a7e
+		<TD>Clears the screen.
+	<TR>	<TD><CODE>_clrScrn
+		<TD><CODE>$4a82
+		<TD>Clears the screen and sets the <CODE>_textShadow</CODE>
+		area all to ' ' (<CODE>LSpace</CODE>).
+	<TR>	<TD><CODE>_Exec_Assembly
+		<TD><CODE>$5730
+		<TD>Execute the assembly program whose name is in
+		<A HREF="../variables/ti86.htm">OP1</A> in
+		<A HREF="../variables/vari.htm">Variable Name Format</A>.
+	<TR>	<TD><CODE>_FlushAllMenus
+		<TD><CODE>$49dc
+		<TD>Clear all current menus. This allows text to be written
+		on the last two rows if menus were running.
+	<TR>	<TD><CODE>_getkey
+		<TD><CODE>$55aa
+		<TD>Returns the value of the last key pressed into <CODE>a</CODE>. You
+		need a <A HREF="_getkey.htm">chart</A> to see which key is what.
+	<TR>	<TD><CODE>_homeup
+		<TD><CODE>$4a95
+		<TD>Puts the big cursor's position at the top left of the screen.
+	<TR>	<TD><CODE>_move10b
+		<TD><CODE>$427b
+		<TD>Moves 10 bytes from <CODE>hl</CODE> to <CODE>de</CODE>.
+	<TR>	<TD><CODE>_NewLine
+		<TD><CODE>$4a5f
+		<TD>Execute a carrage return in
+		<A HREF="text.htm#curs">cursor font</A>.
+	<TR>	<TD><CODE>_PDspGrph
+		<TD><CODE>$4d6f
+		<TD>Displays the graph screen with the current settings. If you jump
+		to this (so you exit right from your program) it will have the graph
+		menu at the bottom just as if you had hit [GRAPH] at the homescreen.
+	<TR>	<TD><CODE>_putc
+		<TD><CODE>$4a2b
+		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
+		cursor position and advances the cursor position. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><CODE>_putmap
+		<TD><CODE>$4a27
+		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
+		cursor position but does not advance the cursor position. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><CODE>_putps
+		<TD><CODE>$4a3b
+		<TD>Puts the length-indexed string pointed to by <CODE>hl</CODE>
+		at the current cursor position. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><CODE>_puts
+		<TD><CODE>$4a37
+		<TD>Puts the zero-terminated string pointed to by <CODE>hl</CODE>
+		at the current cursor position. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><CODE>_vputmap
+		<TD><CODE>$4aa1
+		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
+		cursor position in menu text and advances the cursor position. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><CODE>_vputs
+		<TD><CODE>$4aa5
+		<TD>Puts the zero-terminated string pointed to by <CODE>hl</CODE>
+		at the current cursor position in menu text. More on this
+		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
+	<TR>	<TD><A NAME=_runIndicOff><CODE>_runIndicOff
+		<TD><CODE>$4ab1
+		<TD>Turn off that annoying busy indicator.
+	<TR>	<TD><CODE>_runIndicOn
+		<TD><CODE>$4aad
+		<TD>Turn on that annoying busy indicator.
+	<TR>	<TD><CODE>_StoAns
+		<TD><CODE>$4c9f
+		<TD>Store <A HREF="../variables/ti86.htm">OP1</A> into
+		the Answer (Ans) variable. If OP1 is a complex number,
+		OP2 will be used as the imaginary part.
+</TABLE>
+
+<P>Here's a sample program using a few of the above ROM calls.
+
+<PRE>#include "ti86asm.inc"
+
+.org _asm_exec_ram
+
+	call _clrLCD		;clear the screen
+	ld hl,(256*23)+7	;load values for the
+				; coordinates into hl
+				;column 7
+				;row 23
+	ld (_penCol),hl		;set coordinates in memory
+	ld hl,strWaiting	;load pointer to
+				; string into hl
+	call _vputs		;print string on screen
+	call _getkey		;wait for any key to be
+				; pressed before continuing
+	call _clrLCD		;clear the screen again
+	ret			;exit
+
+strWaiting:	.db "Waiting...",0
+
+.end
+</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

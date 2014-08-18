@@ -1,0 +1,107 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Variables","Creating Variables");</SCRIPT>
+
+<P>The TI86 has several routines that can set up space for variables.  For all
+these routines you must:
+<OL>
+	<LI>Put the name in <A HREF="vari.htm">Variable Name Format</A> into OP1 and
+	<LI>load <CODE>hl</CODE> with the desired size of the variable data area. 
+</OL>
+Some of these routines have fixed sizes (<CODE>_CreatREAL</CODE>,
+<CODE>_CreateCPLX</CODE>, etc.) so you don't have to load <CODE>hl</CODE>
+with the desired size. These such routines have a '*' after their
+names.
+
+<P>The only other special inputs needed for these variables are that
+<CODE>_CreateRMAT</CODE> and <CODE>_CreateCMAT</CODE> need the number
+of rows in <CODE>h</CODE> and the number of columns in <CODE>l</CODE>;
+<CODE>_CreateRVECT</CODE> and <CODE>_CreateCVECT</CODE> need the
+number of elements in <CODE>l</CODE>.
+
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Call<TD>Type Created
+	
+	<TR>
+		<TD>_CreateREAL*<TD>Real Number
+	
+	<TR>
+		<TD>_CreateCPLX*<TD>Complex Number
+	
+	<TR>
+		<TD>_CreateRCONST*<TD>Real Constant
+	
+	<TR>
+		<TD>_CreateCCONST*<TD>Complex Constant
+	
+	<TR>
+		<TD>_CreateRVECT<TD>Real Vector
+	
+	<TR>
+		<TD>_CreateCVECT<TD>Complex Vector
+	
+	<TR>
+		<TD>_CreateRLIST<TD>Real List
+	
+	<TR>
+		<TD>_CreateCLIST<TD>Complex List
+	
+	<TR>
+		<TD>_CreateRMAT<TD>Real Matrix
+	
+	<TR>
+		<TD>_CreateCMAT<TD>Complex Matrix
+	
+	<TR>
+		<TD>_CreateSTRNG<TD>String
+	
+	<TR>
+		<TD>_CreateEQU<TD>Equation
+	
+	<TR>
+		<TD>_CreatePICT*<TD>Picture
+	
+	<TR>
+		<TD>_CreatePROG<TD>Program
+	
+</TABLE>
+
+<P>The output of these calls:
+<OL>
+	<LI><CODE>bde</CODE> will be an absolute pointer to the data area
+	for the variable created
+	<LI>OP4 will hold the name of the variable
+	<LI><CODE>hl</CODE> will point to where in the Variable Allocation Table
+	(VAT) this variable is
+	<LI>RAM page 7 will be loaded (meaning <CODE>hl</CODE> is a valid
+	pointer to the VAT entry).
+</OL>
+
+Let's make an optimized routine to create a string named "Stupid".
+
+<PRE>	ld hl,name-1		;load name address in to hl
+				;we can put a trash byte in
+				; for the type byte because
+				; it doesn't matter so we
+				; include the byte before the
+				; name
+	rst 20h			;same as 'call _Mov10ToOP1'
+	jp _CreateSTRNG		;create the string and return</PRE>
+
+<A NAME="leng">
+<P>For variables that have varying sizes (programs, strings, equations),
+the first two bytes in the variable's data will be the Length
+Word. This is a word (2 bytes) that tells the length of the
+variable. This means that we can't have a variable with
+a length of over 65535 ($ffff) bytes.
+
+<P>More examples on this can be found in the <A HREF="mess.htm">Messing
+With Variable Data</A> section.
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,92 @@
+/*
+		jimi malcolm
+		malcolmj1@juno.com
+		http://guide.ticalc.org
+							*/
+body		{ font: x-small verdana,arial;
+		background: white;
+		color: black;
+		margin: 0px 20px 0px 20px }
+
+.clsHome	{ margin-left: -20px }
+.clsHome img	{ margin-left: 0px }
+
+a:visited,
+a:link,
+a:active
+		{ color: #003070 }
+a:hover		{ color: #0060aa }
+
+.clsFrontLeft, .clsFrontRight, .clsFrontTop
+		{ background: #6699cc }
+
+.clsFrontTop	{ height: 30px }
+
+.clsFrontTbl	{ background: white }
+
+.clsFrontTbl td	{ border: none }
+
+.clsFrontLeft	{ width: 140px;
+		color: white;
+		font: xx-small }
+
+.clsFrontLeft input
+		{ font: xx-small }
+
+.clsFrontMid	{ padding: 10px;
+		padding-top: 0px;
+		width: 350px;
+		border: none;
+		background: white; }
+
+.clsFrontRight	{ width: 140px;
+		padding: 5px;
+		color: white;
+		font: xx-small }
+
+table		{ background: #f0f0f0;
+		border-collapse: collapse }
+
+td		{ border: 2 solid #ffffff;
+		font-size: 80% }
+
+h1, h2, h4	{ margin: 35 5 5 0 }
+h1		{ font: large }
+h2		{ font: bold small }
+h3		{ text-align: center;
+		margin: 10 30% 0;
+		background: #6699cc }
+h4		{ font: bold x-small }
+
+.clsFrontMid h2	{ margin: 5 }
+
+img		{ border: none }
+
+pre		{ margin: 15 50;
+		font : x-small;
+		color: #404070;
+		background: #f0f0f0 }
+
+code		{ color: #404070;
+		font: x-small }
+
+table pre	{ margin: 0 }
+
+.clsFootnote	{ text-align: center;
+		color: #505050;
+		margin: 10 30%;
+		font-size: 70% }
+
+.clsByLine	{ font: italic }
+
+.header		{ background: #b0b0b0;
+		text-align: center;
+		font: bold }
+
+.recode , .function, .flags, .index
+		{ width: 80% }
+
+.screen		{ border: thin solid; background: #000000; color: #ffffff }
+.screen td	{ border: 0 }
+
+ul		{ list-style-type: none }

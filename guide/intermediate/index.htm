@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+</HEAD>
+<BODY>
+<div class=clsTopTitle>Intermediate Asm</div>
+<div class=clsBackToIndex><A HREF="../index.html">Index</A></div>
+<TABLE style="border:none;background:none">
+<TR><TD COLSPAN="5" height="20">
+<TR>
+<TD style="position:absolute;left:15;top:100">
+<TABLE onmouseover="LeftPanel()" class=clsLinkTable>
+	<TR><TD align="right"><A HREF="logi.htm" id="int-0">Logical Operators</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="misc.htm" id="int-1">Miscellaneous Instructions</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="grap.htm" id="int-2">Graphics</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="allt.htm" id="int-3">All the Flags</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="rstc.htm" id="int-4">Restart Commands</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="memo.htm" id="int-5">Memory and Pages of It</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="vari.htm" id="int-6">Variables</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="stac.htm" id="int-7">The Stack</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="tabl.htm" id="int-8">Tables and Arrays</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="simu.htm" id="int-9">Simulated 16-bit Addition</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="rand.htm" id="int-10">Random Numbers</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="romc.htm" id="int-11">TI's ROM Calls</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><CODE><A HREF="_getkey.htm" id="int-12">_GetKey</A></CODE>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="text.htm" id="int-13">Text Display</A>
+	<TR><TD COLSPAN="2" height="6">
+	<TR><TD align="right"><A HREF="ti-b.htm" id="int-14">TI-BASIC versus Asm</A>
+</TABLE>
+<TD WIDTH="10">
+<TD WIDTH="180" style="position:absolute;left:260;top:100">
+	<div id=divMidPanel>
+	<H2>Beyond the Basics!</H2>
+	You've mastered the intro, now move on to discover the world of asm programming.
+	Join the ranks as you explore how to take even more control of the z80. You're well
+	on your way to creating your dreams. You've reached the pinnacle of asm programming,
+	now push your skills just a little farther!</div>
+<TD WIDTH="10">
+<TD style="position:absolute;left:450;top:100" WIDTH="180">
+	<H2>What Next?</H2>
+	Grayscale, sound, and interrupts are just a few of the many topics out there for
+	you to discover. Push the limits of your imagination with these offered tools.
+	This level brings the skills necessary to harness Creative and Functional Programming!
+</TABLE>
+
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+<script language=JavaScript>var intermediate = new Array()
+intermediate[0]="<H2>Logical Operators</H2>Introduction to <CODE>and</CODE>, <CODE>or</CODE>, and <CODE>xor</CODE>. How to mask out bits and control binary data.";
+intermediate[1]="<H2>Miscellaneous Instructions</H2>These don't fit in anywhere? <CODE>Neg</CODE>, <CODE>scf</CODE>, and others!";
+intermediate[2]="<H2>Graphics</H2>Your one stop reference for pixel manipulation and sprite animation. Line-by-line walk throughs of the most popular graphics routines.";
+intermediate[3]="<H2>All the Flags</H2>Besides the zero and carry flags, there are four others! What do they all do? Come find out!";
+intermediate[4]="<H2>Restart Commands</H2>Faster <CODE>call</CODE>s with the help of these one byte instructions used for some of the most frequent ROM calls.";
+intermediate[5]="<H2>Memory and Pages of It</H2>Literally delve into the memory of your calculator. What is Consecutive Addressing and how to reference addresses in memory. Explore some safe areas to store data at!";
+intermediate[6]="<H2>Variables</H2>Start off storing user input and data like high scores and such.";
+intermediate[7]="<H2>The Stack</H2>Ever heard of \"Last On, First Off\"? Save register pairs and recall their values later with <CODE>push</CODE> and <CODE>pop</CODE>!";
+intermediate[8]="<H2>Tables and Arrays</H2>The famous <CODE>For</CODE> loop used in recursion. Take advantage of the <CODE>ix</CODE> and <CODE>iy</CODE> register pairs for lists with an intro into matrices!";
+intermediate[9]="<H2>Simulated 16-bit Addition</H2>Check out this faster method of adding <CODE>a</CODE> to <CODE>hl</CODE>. In time crunch areas, this beats conventional methods!";
+intermediate[10]="<H2>Random Numbers</H2>Need a random number? This is the place for you! Take your pick of several different routines, all designed to give you a different number each time.";
+intermediate[11]="<H2>TI's ROM Calls</H2>Why draw up your own routine when TI's already got a ton. Use their calls for printing text, checking keypresses, clearing the screen, and much much more!";
+intermediate[12]="<H2>Getkey</H2>Get user input in a flash with <CODE>_GetKey</CODE>! This routine gives you the ability to respond to certain key presses. Here you'll find charts filled with key press codes with their equates, a handy reference!";
+intermediate[13]="<H2>Text Display</H2>Print text on the screen in an instant with your choice of several routines printing everything from individual characters to entire paragraphs. Learn how to print in standard or small text with a look at how to create your own <A HREF='../advanced/font.htm'>custom fonts</A>!";
+intermediate[14]="<H2>TI-BASIC versus Asm</H2>A simple chart to show you equivalent tasks in z80 asm and the old TI-BASIC.";
+</SCRIPT>
+</body>
+</html>

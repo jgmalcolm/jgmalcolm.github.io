@@ -1,0 +1,134 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Advanced","Shift and Rotate");</SCRIPT>
+
+<P>Before I start to teach you the shift and rotate instructions. You
+probably want to review the
+<A HREF="../beginner/numb.htm#bitp">bit placements</A>. You'll
+need to look at the bit place names especially. Each
+of these shift and rotate commands rotates one bit to the left or
+right.
+
+<P>There is only really one difference between the shift and rotate
+instructions: rotate cycles the bits around going out one side and coming in
+the other, while shift rotates the bits out one side or the other leaving
+the space where the rotated bits where either unchanged or zeroed.
+
+<UL><CODE>
+	<LI><A HREF="#rl">rl</A>
+	<LI><A HREF="#rla">rla</A>
+	<LI><A HREF="#rlc">rlc</A>
+	<LI><A HREF="#rlca">rlca</A>
+	<LI><A HREF="#rr">rr</A>
+	<LI><A HREF="#rra">rra</A>
+	<LI><A HREF="#rrc">rrc</A>
+	<LI><A HREF="#rrca">rrca</A>
+	<LI><A HREF="#sla">sla</A>
+	<LI><A HREF="#sra">sra</A>
+	<LI><A HREF="#srl">srl</A>
+</UL></CODE>
+
+<A NAME="rl"><H2>rl</H2>
+<CODE>rl <I>arg1</I></CODE> - Rotates <I>arg1</I> register to the left
+with the carry's value put into bit 0 and bit 7 is put into the carry.
+
+<PRE>rl d
+rl (hl)
+rl (iy+02)
+rl (ix+3)</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rla"><H2>rla</H2>
+<CODE>rla</CODE> - Rotates <CODE>a</CODE> register to the left with the carry's
+value put into bit 0 and bit 7 is put into the carry. One byte shorter
+than <CODE>rl a</CODE>.
+<PRE>rla</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rlc"><H2>rlc</H2>
+<CODE>rlc <I>arg1</I></CODE> - Rotates <I>arg1</I> to the left with bit
+7 being moved to bit 0 and also stored into the carry.
+
+<PRE>rlc (hl)
+rlc (iy+5)
+rlc (ix+$10)
+rlc a</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rlca"><H2>rlca</H2>
+<CODE>rlca</CODE> - Rotates <CODE>a</CODE> to the left with bit 7
+being moved to bit 0 and also stored into the carry. It's one byte
+shorter than <CODE>rlc a</CODE>.
+
+<PRE>rlca</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rr"><H2>rr</H2>
+<CODE>rr <I>arg1</I></CODE> - Rotates <I>arg1</I> to the right with
+the carry put in bit 7 and bit 0 put into the carry.
+
+<PRE>rr (hl)
+rr b
+rr (ix+5)
+rr (iy+$00)</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rra"><H2>rra</H2>
+<CODE>rra</CODE> - Rotates <CODE>a</CODE> to the right with the carry
+put into bit 7 and bit 0 put into the carry flag. It's one byte
+shorter than <CODE>rr a</CODE>.
+
+<PRE>rra</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rrc"><H2>rrc</H2>
+<CODE>rrc <I>arg1</I></CODE> - Rotates <I>arg1</I> to the right with
+bit 0 moved to bit 7 and also stored into the carry.
+
+<PRE>rrc (hl)
+rrc (ix+3)
+rrc (iy+$09)
+rrc e</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="rrca"><H2>rrca</H2>
+<CODE>rrca</CODE> - Rotates <I>arg1</I> to the right with bit 0 moved to bit 7
+and also stored into the carry. This is one byte shorter than <CODE>rrc a</CODE>.
+
+<PRE>rrca</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="sla"><H2>sla</H2>
+<CODE>sla <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the left with
+bit 7 moved to the carry flag and bit 0 reset (zeroed).
+
+<PRE>sla (hl)
+sla (iy+$08)
+sla (ix+3)
+sla e</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="sra"><H2>sra</H2>
+<CODE>sra <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the right with
+bit 0 moved to the carry flag and bit 7 retaining it's original value.
+
+<PRE>sra (hl)
+sra (ix+0)
+sra (iy+200)
+sra h</PRE>
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<A NAME="srl"><H2>srl</H2>
+<CODE>srl <I>arg1</I></CODE> - Shifts <I>arg1</I> register to the right with
+bit 0 moved to the carry flag and bit 7 zeroed.
+
+<PRE>srl (hl)
+srl (ix+$fe)
+srl (iy+32)
+srl c</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

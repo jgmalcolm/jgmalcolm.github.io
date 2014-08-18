@@ -1,0 +1,439 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Tile Maps");</SCRIPT>
+
+<UL>
+	<LI><A HREF="#spri">Sprite Image Data</A>
+	<LI><A HREF="#leve">Level Data</A>
+	<LI><A HREF="#rout">The Routine</A>
+</UL>
+
+<P>The basic concept of tile maps are to take several generic texture sprites, all of
+equal size, and print them on the screen in order with respect to a set of data
+cataloging the arrangement.
+
+<P>Think of a person that puts down bathroom tiles.  He (or she) has a set of
+multicolored tiles and some sort of drawing to show him (or her) the pattern
+that they need to be laid out.  That person will pick and place the tiles on the
+floor according to the drawing they have.  The same goes for calculator tile
+map routines.
+
+<P>Games like <I>Joltima</I>, <I>DStar</I>, and <I>Journey</I> use tile map
+routines to display the different objects on the screen.  Each level in the game
+has it's own distinct data representing a pattern on the screen.  The game also
+contains a table of <A HREF="../intermediate/spri.htm">sprites</A> (all of
+equal length) that coorespond to a value that can be in the level data.  Say for
+example the value <CODE>4</CODE> when found in the level data could refer to an 8 by 8 sprite
+of heart while a <CODE>5</CODE> refers to a diamond.  The tile map routine will:
+<OL>
+	<LI>Take a byte in the level data
+	<LI>Match that byte to its cooresponding generic sprite from a table
+	<LI>Render that sprite on the screen
+	<LI>Set up the coordinates for the next tile
+	<LI>Move on to the next byte in the level data
+</OL>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=spri>Sprite Image Data</H2>
+Tile map image generators use a set of sprites to make up the final image on
+the screen.  These sprites need to all be the same size.  The routines usually
+store the sprites all in order.  If the routine wants the 3rd sprite and each
+sprite is 8 bytes long, then it will multiply 3 and 8 and add that to the
+starting address of the first sprite.  Since most of the sprites are 8 bytes
+long, we can use our commands to multiply by 2 three times (2*2*2=8).  Follows
+is how to store the data for two sprites.  The first is a picture of a square;
+the second is a picture of a circle.
+
+<PRE>sprites:		;start of sprite data
+sprite_square:		;first sprite
+	.db %00000000
+	.db %01111110
+	.db %01000010
+	.db %01000010
+	.db %01000010
+	.db %01000010
+	.db %01111110
+	.db %00000000
+sprite_circle:		;second sprite
+	.db %00011000
+	.db %00100100
+	.db %01000010
+	.db %01000010
+	.db %01000010
+	.db %00100100
+	.db %00011000
+	.db %00000000</PRE>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=leve>Level Data</H2>
+Level data for the sprite value can be stored in various forms:  each byte,
+each nibble, every 2 bits, every bit.  This all depends upon how many different
+sprite choices are available to the tilegenerator from the sprite data.  If
+there are 256 different sprites in the sprite image data, then use a byte
+to store each tile's data; if there are 16 different ones, use a nibble;
+if there are 4, use every 2 bits; if there are only 2, use just one bit.  The
+amount of possible tiles also weighs in to how bit the level data will
+be.  For a 16 by 8 tile map, every byte being a tile would mean 128 bytes for
+each tile map's level data.  If you had every nibble for a tile, that would
+cut that level's size in half to 64 bytes.
+
+<P>The tile generator routine is designed to be fast.  The level data has to
+suit the routine.  Say you have a routine, just so it can be fast, start
+drawing at the bottom right of the screen moving left and up.  Your data
+might also need to start with the first byte being the bottom right, the second
+byte being the next byte to the left, etc.  The routine should not have to
+accommodate the data.
+
+<P>Here's an example of level data (starting at the top left and reading
+from left to right, like a book).  Following the data is a simple
+user chart telling you what each value encountered in the level data looks
+like as a sprite.  These values are going to coorespond to letters.  Following
+that will be a graphical representation of the TI86 screen after the
+tile map has been drawn.
+
+<PRE>level_data:
+	.db 0,1,0,0,2,0,0,0,0,3,0,0,0,0,0,0
+	.db 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+	.db 0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0
+	.db 0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0
+	.db 0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0
+	.db 0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0
+	.db 0,0,0,0,1,0,0,3,0,2,0,2,0,0,0,0
+	.db 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</PRE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD>Value
+		<TD>Letter
+	<TR>	<TD>0
+		<TD>' '
+	<TR>	<TD>1
+		<TD>'a'
+	<TR>	<TD>2
+		<TD>'b'
+	<TR>	<TD>3
+		<TD>'c'
+</TABLE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR>
+		<TD><PRE> a  b    c
+       a
+    a  c b b    
+    a  c b b
+    a  c b b
+    a  c b b
+    a  c b b
+aaaaaaaaaaaaaaaa
+</TABLE>
+<P>If you ever start to build a game like <I>Joltima</I>, <I>DStar</I>,
+or <I>Journey</I>, you probably want to consider writting a quick C/C++
+application to make the level data.  Probably have it use bitmaps of the
+actual sprites that will be used.  If you can't do it in C/C++, then try
+using QBASIC or batch files somehow.  If you end up making tons of levels,
+you're going to get a headache trying to figure out all the data and
+what it looks like in your head; a quick application can be a life saver!
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
+<H2><A NAME=rout>The Routine</H2>
+Let's construct a routine to generate the tile map for us.  The basic
+routine,as stated at the top, will need to:
+<OL>
+	<LI>Take a byte in the level data,
+	<LI>match that byte to its cooresponding generic sprite from a table,
+	<LI>render that sprite on the screen,
+	<LI>set up the coordinates for the next tile,
+	<LI>move on to the next byte in the level data.
+</OL>
+
+<P>In the <A HREF="../design/desi.htm#code">Code Tree</A> section, you learn that
+before you start designing a routine, it is best to outline the routine
+the same way you would an essay for school.  Here's the indention outline
+for the routine we are going to make.
+
+<PRE>draw 8 rows
+	draw 16 columns
+		draw sprite
+			get value from level data
+			find sprite for that value
+			draw 8 rows of sprite
+				get byte from sprite image data
+				draw byte onto video memory
+				increase video memory to next row
+				increase sprite data by a byte
+				loop drawing of sprite
+		increase column and repeat
+	increase row and repeat</PRE>
+
+<P>There are only a few routines out there that print tile maps on the
+screen.  One of the most notable comes from
+<A HREF="http://www.acz.org" target="_blank">Assembly Coders
+Zenith</A>.  ACZ is one of the top
+programming groups around.  They're routine
+<A HREF="../download/DrawMap.asm">DrawMap</A> is one of the fastest
+tile map generators.  It uses
+<A rhef="../download/GridPutSprite.asm">GridPutSprite</A> by
+<A HREF="mailto:daneble">Dan Eble</A> in the routine.  When I started
+making this tutorial, I decided to make my own tile map engine.  When
+it was done, I ran it against DrawMap and saw it was over 10% faster
+running about 5 times more per a second.
+
+<P>I've pasted my <A HREF="../download/tilegen.asm">TileGen</A>
+Routine here.  You
+can download this along with
+many other Tile Engine routines that I've come across in the
+<A HREF="../download/download.htm">Download Section</A>. Each
+line in the routine is represented by a number which corresponds
+to an explanation at the end of the routine. Follow each line and
+try to picture in your head what it is doing. The <I>easiest</I> way to
+do this is to print out the
+<A HREF="JavaScript:popup('tilp.htm')">TileGen Code</A> and then
+refer to the explanations.
+
+
+<PRE><OL>
+<LI><A HREF="#l5">&darr;</A>;======================================
+<LI><A HREF="#l5">&darr;</A>; tilegen by jimi (malcolmj1@juno.com)
+<LI><A HREF="#l5">&darr;</A>;  draws 16x8 tile map
+<LI><A HREF="#l5">&darr;</A>;======================================
+<LI><A HREF="#l5" NAME="c5">&darr;</A>tilegen:
+<LI><A HREF="#l6" NAME="c6">&darr;</A>	ld ix,$fc00
+<LI><A HREF="#l7" NAME="c7">&darr;</A>	ld b,8
+<LI><A HREF="#l7">&darr;</A>loop_row:
+<LI><A HREF="#l9" NAME="c9">&darr;</A>		push bc
+<LI><A HREF="#l9">&darr;</A>columns:
+<LI><A HREF="#l11" NAME="c11">&darr;</A>	ld b,16
+<LI><A HREF="#l11">&darr;</A>loop_columns:
+<LI><A HREF="#l13" NAME="c13">&darr;</A>		push hl
+<LI><A HREF="#l14" NAME="c14">&darr;</A>	ld l,(hl)
+<LI><A HREF="#l14">&darr;</A>	ld h,0
+<LI><A HREF="#l16" NAME="c16">&darr;</A>	add hl,hl
+<LI><A HREF="#l16">&darr;</A>	add hl,hl
+<LI><A HREF="#l16">&darr;</A>	add hl,hl
+<LI><A HREF="#l20">&darr;</A>
+<LI><A HREF="#l20" NAME="c20">&darr;</A>	ld de,tile0
+<LI><A HREF="#l20">&darr;</A>	add hl,de
+<LI><A HREF="#l20">&darr;</A>
+<LI><A HREF="#l20">&darr;</A>draw_tile:
+<LI><A HREF="#l24" NAME="c24">&darr;</A>	ld de,$10
+<LI><A HREF="#l25" NAME="c25">&darr;</A>	ld c,b
+<LI><A HREF="#l26" NAME="c26">&darr;</A>	ld b,8
+<LI><A HREF="#l26">&darr;</A>
+<LI><A HREF="#l28" NAME="c28">&darr;</A>		push ix
+<LI><A HREF="#l28">&darr;</A>draw_tile_loop:
+<LI><A HREF="#l30" NAME="c30">&darr;</A>	ld a,(hl)
+<LI><A HREF="#l30">&darr;</A>	ld (ix),a
+<LI><A HREF="#l32" NAME="c32">&darr;</A>	add ix,de
+<LI><A HREF="#l32">&darr;</A>
+<LI><A HREF="#l34" NAME="c34">&darr;</A>	inc hl
+<LI><A HREF="#l34">&darr;</A>
+<LI><A HREF="#l36" NAME="c36">&darr;</A>	djnz draw_tile_loop
+<LI><A HREF="#l37" NAME="c37">&darr;</A>		pop ix
+<LI><A HREF="#l37">&darr;</A>
+<LI><A HREF="#l39" NAME="c39">&darr;</A>	ld b,c
+<LI><A HREF="#l40" NAME="c40">&darr;</A>		pop hl
+<LI><A HREF="#l40">&darr;</A>
+<LI><A HREF="#l42" NAME="c42">&darr;</A>	inc hl
+<LI><A HREF="#l43" NAME="c43">&darr;</A>	inc ix
+<LI><A HREF="#l44" NAME="c44">&darr;</A>	djnz loop_columns
+<LI><A HREF="#l45" NAME="c45">&darr;</A>	ld de,$10*7
+<LI><A HREF="#l45">&darr;</A>	add ix,de
+<LI><A HREF="#l47" NAME="c47">&darr;</A>		pop bc
+<LI><A HREF="#l48" NAME="c48">&darr;</A>	djnz loop_row
+<LI><A HREF="#l48">&darr;</A>	ret</PRE>
+
+<P><TABLE ALIGN=CENTER CLASS=info>
+	<TR CLASS=header>
+		<TD WIDTH="10%" ALIGN=CENTER>Line(s)
+		<TD ALIGN=CENTER>Explanation
+		<TD WIDTH="5%" ALIGN=CENTER>Bytes
+	<TR>	<TD><A HREF="#c5" NAME="l5">&uarr;</A>5
+		<TD>TileGen is called in context as follows:
+<PRE>	ld hl,tile_data		;pointer to start of tile data
+	call tilegen		;run tile generator
+		<TD>none
+	<TR>	<TD><A HREF="#c6" NAME="l6">&uarr;</A>6
+		<TD>We almost always want our tile map to be
+		drawn on the screen (address $fc00).  Sometimes
+		you may want to draw to a video buffer
+		such as the graph screen (_plotSScreen at
+		$c9fa) and then copy that to the current
+		screen during game play.  This line tells
+		where to draw the map to.
+		<TD>4
+	<TR>	<TD><A HREF="#c7" NAME="l7">&uarr;</A>7
+		<TD>If you divide the height of the
+		screen by 8, you have 8 rows.  Each of
+		the tiles is probably going to be
+		8 bytes tall.  We are drawing the routine
+		row by row according to the
+		<A HREF="#tree">code tree</A>above.
+		<TD>2
+	<TR>	<TD><A HREF="#c9" NAME="l9">&uarr;</A>9
+		<TD>During the main routine we are going
+		to be using <CODE>b</CODE> and so we must
+		save it since it's our row counter as
+		stated in <A HREF="#c7">line 7</A>.
+		<TD>1
+	<TR>	<TD><A HREF="#c11" NAME="l11">&uarr;</A>11
+		<TD>Each row has 16 tiles on it because
+		they are 1 byte wide.  This is our counter
+		for each column.
+		<TD>2
+	<TR>	<TD><A HREF="#c13" NAME="l13">&uarr;</A>13
+		<TD>We need to save our position in the tile
+		data.  We are going to need <CODE>hl</CODE> to
+		figure out which sprite to use.
+		<TD>1
+	<TR>	<TD><A HREF="#c14" NAME="l14">&uarr;</A>14-15
+		<TD>We need to get the tile number from the
+		data.  We want to store that number into
+		<CODE>hl</CODE> and clear the MSB <CODE>h</CODE> so
+		that <CODE>hl</CODE> is really just an 8 bit number
+		of the tile.  This makes it easier to multiply
+		by 8 to get the sprite offset.
+		<TD>3
+	<TR>	<TD><A HREF="#c16" NAME="l16">&uarr;</A>16-18
+		<TD>Each sprite is 8 bytes long.  Our tile
+		value can be multiplied by 8 and added to
+		the start of the tile sprites to get the
+		start of the tile we want.  We multiply
+		by 2 three times.  2*2*2 is 8.
+		<TD>3
+	<TR>	<TD><A HREF="#c20" NAME="l20">&uarr;</A>20-21
+		<TD>Now that we've got the number
+		of bytes until we have the desired tile,
+		we need to add that the the start of the
+		tile sprite data.  This will give us
+		the start of the sprite we want in memory.
+		<TD>4
+	<TR>	<TD><A HREF="#c24" NAME="l24">&uarr;</A>24
+		<TD>Each row of the screen has $10 bytes (16
+		bytes).  We are going to have to add $10
+		each iteration to get the the exact
+		same column one row down.
+		<TD>3
+	<TR>	<TD><A HREF="#c25" NAME="l25">&uarr;</A>25
+		<TD>Since we are going to need <CODE>b</CODE> as
+		another loop counter, we can temporarily
+		save it into <CODE>c</CODE> which is faster
+		than pushing it.
+		<TD>1
+	<TR>	<TD><A HREF="#c26" NAME="l26">&uarr;</A>26
+		<TD>Each sprite is 8 bytes long.  We need to
+		copy those 8 bytes of the sprite image to
+		the screen.
+		<TD>2
+	<TR>	<TD><A HREF="#c28" NAME="l28">&uarr;</A>28
+		<TD><CODE>Ix</CODE> is currently holding where
+		on the screen we are displaying the tile
+		map. We want to save where we are on the
+		screen so we can draw the sprite for
+		8 rows down and then get back the address
+		of the top row and increment it to the
+		next column (byte) over.
+		<TD>2
+	<TR>	<TD><A HREF="#c30" NAME="l30">&uarr;</A>30-31
+		<TD>We want to copy a byte from the sprite
+		image to the screen.
+		<TD>2
+	<TR>	<TD><A HREF="#c32" NAME="l32">&uarr;</A>32
+		<TD><CODE>De</CODE> contains $10 (the number of bytes
+		in a row) from <A HREF="#c24">line 24</A>.  We
+		add it to where we are currently to move down
+		one row.
+		<TD>1
+	<TR>	<TD><A HREF="#c34" NAME="l34">&uarr;</A>34
+		<TD>As stated in the explaination of
+		<A HREF="#l28">line 28</A>, we need to incrememt
+		the column so we move right one.
+		<TD>1
+	<TR>	<TD><A HREF="#c36" NAME="l36">&uarr;</A>36
+		<TD>Repeat drawing the sprite row by row another
+		seven times.
+		<TD>2
+	<TR>	<TD><A HREF="#c37" NAME="l37">&uarr;</A>37
+		<TD>Now that we're done copying the sprite
+		to the screen we need to get back the row and
+		column of where we started copying the sprite
+		from, as stated in the explaination of
+		<A HREF="#l28">line 28</A>.
+		<TD>2
+	<TR>	<TD><A HREF="#c39" NAME="l39">&uarr;</A>39
+		<TD>Now that we're done drawing the tile, we
+		need to get back our column counter.
+		<TD>1
+	<TR>	<TD><A HREF="#c40" NAME="l40">&uarr;</A>40
+		<TD>Get back where we are in the tile map level
+		data.
+		<TD>1
+	<TR>	<TD><A HREF="#c42" NAME="l42">&uarr;</A>42
+		<TD>Increment where we are in the tile map level
+		data so we are now on the next tile.
+		<TD>1
+	<TR>	<TD><A HREF="#c43" NAME="l43">&uarr;</A>43
+		<TD>Increase where we are in the video memory
+		so we are one column over to the right.
+		<TD>2
+	<TR>	<TD><A HREF="#c44" NAME="l44">&uarr;</A>44
+		<TD>We need to repeat the drawing of the columns.
+		<TD>2
+	<TR>	<TD><A HREF="#c45" NAME="l45">&uarr;</A>45-46
+		<TD>We need to move down one whole tile's worth of
+		rows.  Since we are already on row 1 of the tile, we
+		only need to move down 7 rows since each tile is 8
+		rows high.  We add 7 rows of $10 bytes (16 bytes in
+		each row of the sreen) to the current position
+		in the video memory.
+		<TD>5
+	<TR>	<TD><A HREF="#c47" NAME="l47">&uarr;</A>47
+		<TD>Get back our row counter.
+		<TD>1
+	<TR>	<TD><A HREF="#c48" NAME="l48">&uarr;</A>48
+		<TD>Repeat another 7 times to get the remaining
+		rows.
+		<TD>2
+</TABLE>
+
+<P>This routine can be modified.  If you want to have the routine
+draw the tile map to the graph screen so you can use a virtual
+screen, just change <A HREF="#c6">line 6</A> to
+<CODE>ld ix,_plotSScreen</CODE>.
+
+<P>Let's say you want to have a status
+bar at the bottom of the screen.  Just change <A HREF="#c7">line
+7</A> to <CODE>ld b,7</CODE> and it will leave the bottom row empty.
+You could also do the above change and move the start address
+indicated by <A HREF="#c6">line 6</A> to start one row down
+so you can have your status bar along the top.  If you wanted
+to have your status bar along the right, it gets a little
+bit trickier.  You need to edit lines <A HREF="#c11">11</A> and
+<A HREF="#c45">45</A> to account for not writing to the
+right most column.  <A HREF="#c45">Line 45</A> will have to
+add 7 rows to go down another row and also over one column
+since the previous time around it didn't make it to the right
+most edge.
+
+<P>You can have multiple tile sets by adding a few lines
+at the beginning to accomodate the routine so that
+<CODE>de</CODE> is loaded with the address of the desired
+tile set to use.  The routine would edit <A HREF="#c20">line
+20</A> to write in that address instead of "tile0" with
+the new address of the first tile in the new set.
+
+<PRE>	ld (<I>address of line 20</I>+1),de</PRE>
+
+Make sure to put a label above <A HREF="#c20">line
+20</A> to so that you can reference it in the
+above code.	
+
+<SCRIPT LANGUAGE=JavaScript>bottom("Graphics","grap.htm");</SCRIPT>

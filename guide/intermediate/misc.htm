@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","Miscellaneous Instructions");</SCRIPT>
+
+<P>There are four small instructions that are very handy
+but I can't really categorize.
+
+<P><TABLE ALIGN=CENTER CLASS=info WIDTH="80%">
+	<TR>	<TD><PRE>ccf
+		<TD>Compliment Carry Flag - Inverts the carry flag.
+	<TR>	<TD><PRE>cpl
+		<TD>ComPLiment accumulator - Inverts all bits in <CODE>a</CODE>.  If
+		<CODE>a</CODE> was <CODE>%11001111</CODE> then it would now be
+		<CODE>%00110000</CODE>.
+	<TR>	<TD><PRE>neg</PRE>
+		<TD>NEGate accumulator - If <CODE>a</CODE> was
+		2 then it's now -2.  See the <A HREF="../beginner/twos.htm">Two's
+		Compliment</A> Section.
+	<TR>	<TD><PRE>scf</PRE>
+		<TD>Set Carry Flag - No real reason but
+		just thought I'd tell you.  Maybe use it for return
+		conditions on routines, like if there was an error during the
+		routine, it would set the accumulator, then the user could see if
+		there was an error by checking the carry flag.
+	<TR>	<TD><PRE>ldir</PRE>
+		<TD>LoaD (<CODE>de</CODE>) with (<CODE>hl</CODE>), Decrement
+		<CODE>bc</CODE>, Increment <CODE>de</CODE> and <CODE>hl</CODE>,
+		and Repeat until <CODE>bc</CODE> is zero.  It's
+		basically a block copy.  It copies <CODE>bc</CODE> size to copy (amount of
+		bytes from <CODE>hl</CODE> to <CODE>de</CODE>).<PRE>	ld hl,source_code
+	ld de,destination_code
+	ld bc,source_code_end-source_code
+	ldir
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Intermediate","SDR8 Routine Printout");</SCRIPT>
+
+<P><A HREF="JavaScript:window.print()">Print Code</A>.
+<BR><A HREF="JavaScript:window.close()">Close Window</A>.</p>
+
+<PRE><OL>
+<LI>SDR_8x8:
+<LI>	ld a,63
+<LI>	sub c
+<LI>	ld c,a
+<LI>	push hl
+<LI>	call FindPixel
+<LI>	ld c,8
+<LI>	add a,a
+<LI>	dec a
+<LI>	ld e,a
+<LI>	ld a,b
+<LI>	and %00000111
+<LI>	inc a
+<LI>	ld b,a
+<LI>SDR_8x8_NewRow:
+<LI>	ex (sp),hl
+<LI>	ld a,(hl)
+<LI>	inc hl
+<LI>	ex (sp),hl
+<LI>	push bc
+<LI>	rlca
+<LI>SDR_8x8_PrepByte:
+<LI>	rrca
+<LI>	djnz SDR_8x8_PrepByte
+<LI>	ld d,a
+<LI>	and e
+<LI>	or (hl)
+<LI>	ld (hl),a
+<LI>	inc hl
+<LI>	ld a,e
+<LI>	cpl
+<LI>	and d
+<LI>	or (hl)
+<LI>	ld (hl),a
+<LI>	ld c,$10-1
+<LI>	add hl,bc
+<LI>	pop bc
+<LI>	dec c
+<LI>	jr nz,SDR_8x8_NewRow
+<LI>	pop hl
+<LI>	ret</PRE>
+<SCRIPT LANGUAGE=JavaScript>bottom()</SCRIPT>

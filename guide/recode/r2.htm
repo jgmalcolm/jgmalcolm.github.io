@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+<TITLE>The Guide</TITLE>
+<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
+<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE=JavaScript>top("Other","Recode");</SCRIPT>
+
+<TABLE ALIGN=CENTER class="recode">
+	<TR WIDTH="30%">
+		<TD CLASS=header>Purpose
+		<TD>Put the string "Stupid" on the screen at column 4, row 20 in
+		menu size font.
+	<TR>	<TD CLASS=header>Code
+		<TD><PRE>	ld b,20			;row 20 in b
+	ld c,4			;column 4 in c
+	ld hl,stupid_string	;string address
+	call _vputs		;put string
+	ret			;return
+stupid_string:	.db "Stupid",0	;string to put
+	<TR>	<TD CLASS=header>Error
+		<TD>There are two errors in this one.  The first error is that
+		there you don't need to load in the coordinates separately, you can
+		load them into the <CODE>bc</CODE> register all at once.  The second
+		error is that if you have a call (<CODE>call _vptus</CODE>) followed
+		by a return instruction (<CODE>ret</CODE>), you can change the call to
+		a jump and take out the return.  This uses that call's own
+		return as yours.  It's like jumping to another part of your code
+		from which you will return out of your routine.  Remember that you
+		have to use an absolute jump (<CODE>jp</CODE>) instead of a relative
+		jump (<CODE>jr</CODE>).
+	<TR>	<TD CLASS=header>Fixed Code
+		<TD><PRE>
+	ld bc,256*20+4		;20 in b, 4 in c
+	ld (_penCol),bc		;load those coordinates
+	ld hl,stupid_string	;string address
+	jp _vputs		;put string & return
+stupid_string:	.db "Stupid",0	;string to put
+</TABLE>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>
