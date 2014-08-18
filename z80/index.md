@@ -134,6 +134,12 @@ layout: default
   touching the calculator.
 
 
+# z80 Opcodes
+
+- [Overview](opcodes/opcodes.htm)
+- [Sorted by byte value](opcodes/opcodesB.htm)
+- [Sorted by name](opcodes/opcodesN.htm)
+
 
 # TI-OS Variables
 
