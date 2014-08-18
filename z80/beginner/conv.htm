@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top()</SCRIPT>
+---
+title: Number Bases
+section: Beginner
+layout: z80
+---
 
 <SCRIPT LANGUAGE=JavaScript>
 function bin()
@@ -92,7 +89,7 @@ function check()
 		}
 	if (temp=="$" || temp=="%")
 		{}
-		else 
+		else
 		{
 			for (place=1; place<number.length; place++)
 				{
@@ -120,10 +117,7 @@ function check()
 	<TR>	<TD><form NAME=numb>
 		<input type=text NAME=num size=10 onLoad="focus()">
 		<input type=button value="bin" onclick="bin()">
-		<input type=button value="dec" onclick="dec()"> 
+		<input type=button value="dec" onclick="dec()">
 		<input type=button value="hex" onclick="hex()">
 		<input type=text readonly NAME=amount size=10>
 </TABLE>
-
-<P><A HREF="JavaScript:window.close()">Close Window</A>.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>
