@@ -200,3 +200,6 @@ and how the pixels are stored in memory.
 <A HREF="mailto:david@acz.org">David Phillips</A>,
 <A HREF="mailto:bailela@charlie.cns.iit.edu">Alan Bailey</A>,
 <A HREF="mailto:kazmet@sonic.net">Adrian Mettler</A>
+
+
+<!--- http://xkcd.com/768/ -->
