@@ -119,23 +119,32 @@ make any edits) put the files into a fresh repo.  Unzip and make that the
 initial commit.  Only after that initial commit should you make any changes to
 get the code to run, e.g. changing hard coded values/parameters.
 
-{% comment %}
-
-## Publish code
-  - every paper has an SHA
-  - [spread the word about your code][spread]
-  - open source http://tom.preston-werner.com/2011/11/22/open-source-everything.html
 
 ## Every project needs its own page
-  - for the lay and technical
-  - papers
-    - .TeX
-    - figures -> presentations
-    - BibTeX
-  - code & ?data
-    - reproducible experiments!
-  - more likely to get cited
-  - more likely for others to build upon
+
+Every project should have its own online page where people can learn more.  At
+a minimum this should have the paper itself, but consider making available
+code/data for those wishing to replicate/extend your work, high resolution
+figures, any slides or poster you created, full citation already formated for
+BibTeX or similar, etc.  Make it easy for those wishing to learn more and
+extend your work.  Maybe some student wants to present your work to his/her
+lab group, so having a ready-made slide deck makes this easy.  This is a great
+way to [spread the word about your code][spread] and there are many benefits
+to [open sourcing everything][preston-werner].  You're more likely to get
+cited and for others to build upon your results.  When you package up code,
+set it up so it runs right out of the box on some sample image/data.
+
+Make it accessible to the non-technical readers too.  Your research was likely
+funded by taxpayers, so make some effort to dumb it down some.  Make it easy
+for anyone to quickly grasp the importance of your result and the basic
+technique.
+
+  [spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
+  [preston-werner]: http://tom.preston-werner.com/2011/11/22/open-source-everything.html
+
+
+{% comment %}
+
 
 ## Contribute to Wikipedia
   - provide a road map for newbies and generations to come
@@ -223,7 +232,6 @@ computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
 [Jacket]: https://en.wikipedia.org/wiki/Jacket_(software)
 
 [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
-[spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
 [Richard Hamming]: https://en.wikipedia.org/wiki/Richard_Hamming
 [hamming-txt]: http://www.cs.virginia.edu/~robins/YouAndYourResearch.html "Richard Hamming: You and Your Research (text)"
 [hamming-vid]: https://www.youtube.com/watch?v=a1zDuOPkMSw "Richard Hamming: You and Your Research (video)"
