@@ -6,13 +6,11 @@ layout: default
 <p class="post">
   <a href="{{ post.url }}" class="title">{{ post.title }}</a>
   <br>
-  <a href="{{ post.url }}" class="post-tile">
-    {% if post.description %}
-      {{ post.description | strip_html }}
-    {% else %}
-      {{ post.excerpt | strip_html }}
-    {% endif %}
-  </a>
+  {% if post.description %}
+    {{ post.description | strip_html }}
+  {% else %}
+    {{ post.excerpt | strip_html }}
+  {% endif %}
   <a href="{{ post.url }}">more...</a>
 </p>
 {% endfor %}
