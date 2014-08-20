@@ -3,6 +3,14 @@ title: Developing for the TI86 z80
 layout: default
 ---
 
+# Developing for the TI86 z80
+
+This is formerly "The Guide", a collection of tutorials on developing z80
+assembler for the TI86 calculator.  While focused on the TI86, much of this
+applies to any z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.
+
+![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "1996")
+
 ## Beginner
 
 - [Number Bases](beginner/numb.htm) - Learn how to understand and convert
@@ -200,6 +208,3 @@ and how the pixels are stored in memory.
 <A HREF="mailto:david@acz.org">David Phillips</A>,
 <A HREF="mailto:bailela@charlie.cns.iit.edu">Alan Bailey</A>,
 <A HREF="mailto:kazmet@sonic.net">Adrian Mettler</A>
-
-
-<!--- http://xkcd.com/768/ -->
