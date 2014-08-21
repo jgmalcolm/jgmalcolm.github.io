@@ -446,9 +446,9 @@ Tannenbaum, <i>Conf. on Guidance, Navigation, and Control</i>, 2005.
 
 ## Patent
 
-<a href="http://www.google.com/patents/US20090141034">&#8220;System for
-Improving Utilization of GPU Resources&#8221;</a>, Pryor, Malcolm, Melonakos, Rehman. U.S.
-Serial No. 12/323,572. Filed on 29 Nov 2007.
+[&#8220;System for Improving Utilization of GPU Resources&#8221;](https://www.google.com/patents/US8339404),
+Pryor, Malcolm, Melonakos, Rehman. U.S.  App No. 12/323,572, filed 29 Nov
+2007, granted 25 Dec 2012.
 
 
 
