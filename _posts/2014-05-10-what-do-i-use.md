@@ -15,7 +15,7 @@ organized.
   * quickly add calender entries with this [bookmarklet][calender]
   * find out which company has sold your email address with this [Gmail trick][gmail]
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions and bookmarklets:
-  * [Adblock] to knock out advertisements
+  * [µBlock] to knock out advertisements
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
   * [Google Drive Offline][offline] to enable editing documents and slides without internet
   * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
@@ -68,6 +68,7 @@ organized.
 [calender]: https://support.google.com/calendar/answer/36604
 [^bench]: Might be interesting to [benchmark them](http://www.audiocheck.net/soundtests_headphones.php)
 [Adblock]: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
+[µBlock]: https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm
 [LastPass]: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
 [offline]: https://support.google.com/drive/answer/2375012
 [Google Quick Scroll]: https://chrome.google.com/webstore/detail/google-quick-scroll/okanipcmceoeemlbjnmnbdibhgpbllgc
