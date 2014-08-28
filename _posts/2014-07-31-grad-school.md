@@ -36,7 +36,8 @@ Maybe you can find a way to relate your work to theirs and forge a joint
 project.  Have a list of rockstars both inside and outside your field.
 
 Every year when the Nobel Prize is announced, understand the technique it
-highlights enough that you can explain its significance to friends and family.
+highlights enough that you can explain its significance to friends and
+family.  Same goes for the Fields Medal, Turing Award, etc.
 
 
 ## Choose your advisor carefully
