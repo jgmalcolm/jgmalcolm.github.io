@@ -8,37 +8,8 @@ tags:
 A list of tools I use daily to work efficiently, stay focused, and keep
 organized.
 
+## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air)
-* [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
-* [Audéo earbuds](http://www.amazon.com/Audeo-Perfect-Bass-Earphones-Black/dp/B003V9QDXK) - excellent sound, tight fit[^bench]
-* [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
-  * quickly add calender entries with this [bookmarklet][calender]
-  * find out which company has sold your email address with this [Gmail trick][gmail]
-* [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions and bookmarklets:
-  * [µBlock] to knock out advertisements
-  * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
-  * [Google Drive Offline][offline] to enable editing documents and slides without internet
-  * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
-  * [Facebook bookmarklet][fb] to share pages with friends and family.
-  * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
-* [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
-* [Witch] to switch between the individual windows of an application (Mac OSX
-  only lets you switch between full applications, not between individual open Word docs)
-* [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
-* [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
-* [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
-* [F.lux] to alter my laptop's screen colors to the time of day (blue light is bad at night).  If you're on a Chromebook then use [G.lux].
-* [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
-* [IFTTT] - I use facebook and twitter to share articles with friends and
-  family.  IFTTT records all my [tweets][ifttt-tweets] and
-  [facebook posts][ifttt-fb] so I can keep track of interesting articles.
-  It's also setup to [cross post][ifttt-fb2tw] facebook article shares over to
-  twitter, so I don't have to post to both accounts.  I use the
-  [Facebook bookmarklet][fb] to quickly post.
-* [Kindle Paperwhite][kindle] for carrying around a small library of
-  interesting books and articles.  The backlit screen is fantastic in low
-  light.  I got the 3G model which has come in handy fetching new books while
-  traveling in the US and abroad.
 * [iPhone 5][iphone] apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
@@ -48,8 +19,46 @@ organized.
   * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
     insists on Safari as the default browser
     ([reminiscent of Internet Explorer bundling][msft]).
-* [TotalTerminal] for quick full-screen access to the command line
-  * [browse my config files](https://github.com/jgmalcolm/config) for emacs/vim/bash/screen/git
+* [Kindle Paperwhite][kindle] for carrying around a small library of
+  interesting books and articles.  The backlit screen is fantastic in low
+  light.  I got the 3G model which has come in handy fetching new books while
+  traveling in the US and abroad.  Integrates with [Instapaper][instapaper].
+* [Audéo earbuds](http://www.amazon.com/Audeo-Perfect-Bass-Earphones-Black/dp/B003V9QDXK) - excellent sound, tight fit[^bench]
+
+## Software
+* [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions and bookmarklets:
+  * [µBlock] to knock out advertisements
+  * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
+  * [Google Drive Offline][offline] to enable editing documents and slides without internet
+  * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
+  * [Facebook bookmarklet][fb] to share pages with friends and family.
+  * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
+* [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
+* [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
+* [Witch] to switch between the individual windows of an application (Mac OSX
+  only lets you switch between full applications, not between individual open Word docs)
+* [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
+* [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
+* [F.lux] to alter my laptop's screen colors to the time of day (blue light is
+  bad at night).  If you're on a Chromebook then use [G.lux].
+* [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
+* [TotalTerminal] for quick full-screen access to the command line.
+* Emacs/vim/bash/screen/git.  Browse my
+  [config files](https://github.com/jgmalcolm/config).
+
+
+## Services
+* [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
+  * quickly add calender entries with this [bookmarklet][calender]
+  * find out which company has sold your email address with this [Gmail trick][gmail]
+* [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
+* [IFTTT] - I use facebook and twitter to share articles with friends and
+  family.  IFTTT records all my [tweets][ifttt-tweets] and
+  [facebook posts][ifttt-fb] so I can keep track of interesting articles.
+  It's also setup to [cross post][ifttt-fb2tw] facebook article shares over to
+  twitter, so I don't have to post to both accounts.  I use the
+  [Facebook bookmarklet][fb] to quickly post.
+
 
 [TotalTerminal]: http://totalterminal.binaryage.com
 [ifttt-tweets]: https://ifttt.com/recipes/175480-all-your-tweets-in-a-google-spreadsheet
