@@ -84,10 +84,11 @@ competitors, but I wager you can still put valuable information in the public.
 
 
 
-## Use source control
+## Put everything under version control
 
-Version control both code and data.  This way every experiment is repeatable:
-every experiment is uniquely identified by a
+Version control is like today's version of the lab notebook: a record of
+everything tried.  Version control both code and data.  This way every
+experiment is repeatable:  every experiment is uniquely identified by a
 [SHA](http://git-scm.com/book/ch6-1.html#A-SHORT-NOTE-ABOUT-SHA-1) indicating
 a specific version of the code and data.  If you're using a database,
 [get your database under version control](http://blog.codinghorror.com/get-your-database-under-version-control/).
