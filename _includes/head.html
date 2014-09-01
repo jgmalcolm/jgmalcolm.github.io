@@ -49,14 +49,13 @@
 {% endif %}
 
 <script>
-/* http://ben.balter.com/2014/03/13/pages-anchor-links */
 $(document).ready(function(){
   /* highlight all code */
   $("pre").each(function(i, block) {
     hljs.highlightBlock(block);
   });
 
-  /* hover anchor tags on all headers */
+  /* hover anchor tags on all headers http://ben.balter.com/2014/03/13/pages-anchor-links */
   $("#content :header").each(function(i, el) {
     var $el = $(el);
     var id = $el.attr('id');
@@ -65,6 +64,7 @@ $(document).ready(function(){
     }
   });
 
+  /* [top] button only shows once down a screen */
   var duration      = 420;
   var showOffset    = 220;
   var btnFixed      = '.btn-fixed-bottom';
@@ -87,6 +87,7 @@ $(document).ready(function(){
   });
 });
 
+/* remove click delays on mobile */
 $(function() {
     FastClick.attach(document.body);
 });
