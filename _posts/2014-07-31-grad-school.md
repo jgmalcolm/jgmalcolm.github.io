@@ -153,17 +153,28 @@ and generations to come.  This will help you organize your own thoughts and
 mental map of the research landscape.  See [how to customize Wikipedia]({% post_url 2014-04-26-wikipedia-tricks %}).
 
 
-{% comment %}
-
 ## Papers and publishing
-  - work backward from conference location
-  - read papers from last year's conference in which you want to publish
-    - know the bar
-    - [lankton-rss]
-  - be sure to cite relevant members of program committee
-  - co-authorship, friends
-  - know what a "win" looks like to your advisor
-    - what does he/she need from you to move their career forward?
+
+Figure out your target conferences and journals, and then obsess over those.
+Skim the last few years proceedings to get an idea of where the bar is at and
+what's hot.  Some journals have [RSS feeds][lankton-rss] so you can keep up.
+
+Pick some target conferences and workshops (ones with great locations!) and
+work backward from those submission dates.  Put them on your calendar.  Map
+out the Program Committee members, and be sure you're familiar with their
+interests and cite their papers where relevant.  A PC member will easily frown
+upon a paper that fails to mention their relevant work.
+
+Increase your network and chance of publication by teaming up with colleagues.
+Each of you submits as a primary author but have the other as coauthor (with
+appropriate contribution).  Hopefully at least one of you gets a paper
+accepted.
+
+Know what a "Win" looks like to your advisor.  Where do they want to publish?
+What do they need to move their own career forward?
+
+
+{% comment %}
 
 ## Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
