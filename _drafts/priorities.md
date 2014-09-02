@@ -27,3 +27,7 @@ then you're probably not in a fast growing market.
 
 My job is to pave the way.  To define targets, chart a course, communicate,
 coordinate, and set standards for those that follow.
+
+
+No one ever said "I got to where I am because I watched a lot of movies."  Cut
+that shit out.
