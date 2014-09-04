@@ -206,14 +206,16 @@ Hamming:
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
 
-## What can I say I learned from it all?
-  - problem solving
-  - no fear or intimidation of ideas or science
-  - develop a long term research plan with milestones
-  - develop convincing experiments
-  - persuasive writing
-
 {% endcomment %}
+
+## What can I say I learned from it all?
+
+I learned how to frame and solve problems.  I no longer fear a research paper
+or am intimidated by big fancy science.  When faced with the uncertainty of
+new topic, I can come up with a research plan and milestones.  I can develop
+convincing experiments.  And I can craft an efficient and comprehensive
+writeup.
+
 
 ## My story
 
