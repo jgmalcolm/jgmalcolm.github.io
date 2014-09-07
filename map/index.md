@@ -13,7 +13,7 @@ Atlanta, GA 30308</b>
 The building is called "Spire" at the corner of Peachtree & 7th.  You can
 enter the building from inside the parking deck (entrance at the top of the
 ramp between first and second levels), or by the Peachtree St main entrance.
-The concierge will buzz you up to the terrace level.
+The concierge will buzz you up to the 21st floor.
 
 <iframe
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.32288148116!2d-84.38455699999994!3d33.7781593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5046860d2b3d9%3A0xac6f097ed3fce256!2s860+Peachtree+St+NE+%232103%2C+Atlanta%2C+GA+30308!5e0!3m2!1sen!2sus!4v1390599823424"
