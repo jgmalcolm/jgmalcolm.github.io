@@ -40,7 +40,9 @@ We often look at high achievers and see them as different.  We rationalize why
 they're doing so well: they were a Bio major so they've already seen this med
 school stuff before, all they do is study so they won't have anything cool on
 their resume, they've just got more brains, etc.  These are all excuses.
-Recognize them as such and instead find inspiration.
+Recognize them as such and instead find inspiration.  So what if they are
+better?  That's got nothing to do with your success but relying on excuses is
+one way to guarantee failure.
 
 ## Focus
 
