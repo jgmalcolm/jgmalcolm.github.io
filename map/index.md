@@ -47,9 +47,9 @@ be on your left as you turn), and park in the visitor deck on your left.
 <h3>Parking.</h3>
 
 The map below shows a green star for the building which has pay parking on the
-bottom two floors. Free parking is available on Juniper St on a first-come,
-first-served basis.  There are also two pay lots at the corners of
-Peachtree/7th and Peachtree/6th.
+bottom two floors.  Free parking is available on Juniper St on a first-come,
+first-served basis.  There are meters on 7th st, and there are two pay lots at
+the corners of Peachtree/7th and Peachtree/6th (yellow star).
 
 <a style="a:hover { border-bottom: none }" href="860_peachtree_st.png">
   <img width="100%" src="860_peachtree_st.png" alt="Annotated map">
