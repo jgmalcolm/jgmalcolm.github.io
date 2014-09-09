@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+wget -nv --spider -e robots=off -r -p http://0.0.0.0:4000
