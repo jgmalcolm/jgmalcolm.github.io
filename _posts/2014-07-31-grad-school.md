@@ -83,6 +83,38 @@ In some fields, there's of course the need to not give away your ideas to
 competitors, but I wager you can still put valuable information in the public.
 
 
+## Don't take classes
+
+You'll have some minimal requirements.  Get those out of the way as fast as
+possible.  You will be way more productive once you can spend 100% of your
+brainpower on research, instead of breaking to go to some random class.  At
+this point, with all that's available online, a top student can teach
+themselves anything necessary.  Your advisor can point out most of your
+deficiencies; ask her what you should take classes in, and what can be
+avoided.
+
+It's fine to "drop in" on a few lectures here and there that you enjoy, but
+don't delude yourself into actually taking the course to learn.  Classes,
+especially those at the grad level, have you jumping through hoops to complete
+ethereal homework assignments and cramming for exams when you could be putting
+that energy into a publication that will advance your career.  To broaden your
+horizons, attend some seminar lectures, drop in on some specific classes, have
+lunch with a particular professor, ask your advisor to point you in the right
+direction, let yourself wander on the internet for a few hours.  But don't
+consign yourself to a static lecture every Wednesday afternoon.
+
+If you're really interested in something, approach the professor personally
+and ask for any lecture notes or a book recommendation, and then block off
+several days to work through the first few chapters and associated problems --
+no research, just working through the book and Wikipedia..  Come back to their
+office for help.  I would wager that a professor watching you do this would be
+ecstatic to see a student with such diligence and true interest.  You'll
+likely learn more out of a few focused days rather than some sprinkled one
+hour lectures and a final.
+
+Invest in yourself and understanding how you learn, so that you can forever
+after teach yourself anything you want.
+
 
 ## Put everything under version control
 
