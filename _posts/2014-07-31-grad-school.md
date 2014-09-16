@@ -234,7 +234,7 @@ Hamming:
 ## Defense
 
 ## Career
-  - industry vs postdoc [r01-rate]
+  - industry vs postdoc [r01-rate], [phd-positions]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
 
@@ -285,6 +285,7 @@ computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
 [hamming-txt]: http://www.cs.virginia.edu/~robins/YouAndYourResearch.html "Richard Hamming: You and Your Research (text)"
 [hamming-vid]: https://www.youtube.com/watch?v=a1zDuOPkMSw "Richard Hamming: You and Your Research (video)"
 [r01-rate]: https://twitter.com/balajis/status/466395475479134208
+[phd-positions]: http://www.nature.com/nbt/journal/v31/n10/full/nbt.2706.html
 [wikitricks]: /wikipedia-tricks "Wikipedia Tricks"
 [leone]: http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mleone/web/how-to.html "Collected Advice on Research and Writing"
 [3sins]: http://www.cs.cmu.edu/~jrs/sins.html "Three Sins of Authors in Computer Science and Math"
