@@ -125,9 +125,9 @@ h6:hover .header-link {
     margin: 20px 0;
 }
 #content img.thumb {
-    margin: 15px;
-    float: right;
+    margin: 10px;
     max-width: 50%;
+    float: right;
 }
 #content img.bookcover {
     margin: 15px;
