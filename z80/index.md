@@ -7,7 +7,8 @@ layout: default
 
 This is formerly "The Guide", a collection of tutorials on developing z80
 assembler for the TI86 calculator.  While focused on the TI86, much of this
-applies to any z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.
+applies to any z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This was
+formerly hosted with [TI-Calc.org](//ticalc.org).
 
 ![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "1996")
 
