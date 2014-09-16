@@ -80,6 +80,59 @@ experiments confirm the ability to trace out fibers in areas known to contain
 such crossing and branching.  Many of these known pathways were not revealed
 with single-tensor tractography.
 
+<a href="malcolm2011pv.pdf">&#8220;Processing and
+ Visualization of Diffusion MRI&#8221;</a>, Malcolm, Rathi, Westin, <i>Recent
+ Advances in Biomedical Image Processing and Analysis</i>, T. Deserno
+ (Editor), Chapter 16, pages 387-410, 2011. [<a
+ href="javascript:toggle('malcolm2011pv')">bib</a>]
+
+<div style="display:none" id="malcolm2011pv"><pre>
+@incollection{malcolm2011pv,
+  author = "J. G. Malcolm and Y. Rathi and C.-F. Westin",
+  title = "Processing and Visualization of Diffusion {MRI}",
+  booktitle = "Recent Advances in Biomedical Image Processing and Analysis",
+  editor = "T. Deserno",
+  publisher = "Springer",
+  chapter = 16,
+  pages = "387--410",
+  year = 2011,
+  isbn = "978-3-642-15815-5"
+}
+</pre></div>
+
+
+<a href="malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
+Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1675, 2010. [<a
+ href="javascript:toggle('malcolm2010tmi')">bib</a>]
+
+<div style="display:none" id="malcolm2010tmi"><pre>
+@article{malcolm2010tmi,
+  author = "J. G. Malcolm and M. E. Shenton and Y. Rathi",
+  title = "Filtered multi-tensor tractography",
+  journal = "IEEE Trans. on Medical Imaging",
+  volume = 29,
+  issue = 9,
+  pages = {1664-1675},
+  year = 2010,
+  doi = {10.1109/TMI.2010.2048121}
+}
+</pre></div>
+
+<a href="malcolm2010diss.pdf">&#8220;Filtered tractography&#8221;</a>, Malcolm, (PhD dissertation), October 2010. [<a href="malcolm2010diss_slides.pdf">slides</a>, <a
+ href="javascript:toggle('malcolm2010diss')">bib</a>]
+
+<div style="display:none" id="malcolm2010diss">
+<pre>@phdthesis{malcolm2010diss,
+  author = "J. G. Malcolm",
+  title = "Filtered tractography",
+  school = "Georgia Institute of Technology",
+  address = "Atlanta, GA",
+  month = October,
+  year = 2010,
+}
+</pre></div>
+
+
 <a href="malcolm_cukf.pdf">&#8220;Two-Tensor Tractography
 Using a Constrained Filter&#8221;</a>, Malcolm, Shenton, Rathi, <i>Medical
 Image Computing and Computer Assisted Intervention (MICCAI)</i>, pages
@@ -107,7 +160,7 @@ Bouix, Kindlmann, Westin, Kubicki, Shenton, <i>Intl. Soc. of Magnetic
 Resonance in Medicine (ISMRM)</i>, 2009.
 [<a href="others/rathi_watson_slides.pdf">slides</a>]
 
-
+<a href="/pubs">More...</a>
 
 
 ## Label Space
@@ -151,6 +204,7 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 Images Analytically in Shape Space&#8221;</a>, Rathi, et al., <i>IS&T/SPIE
 Symposium on Medical Imaging</i>, 2008.
 
+<a href="/pubs">More...</a>
 
 
 ## Level set methods
@@ -199,6 +253,7 @@ statistics for DW-MRI fiber bundle segmentation&#8221;</a>, Lankton,
 Melonakos, Malcolm, Dambreville, Tannenbaum, <i>MMBIA</i>, 2007. [<a
  href="others/lankton_lsfb_poster.pdf">poster</a>]
 
+<a href="/pubs">More...</a>
 
 
 
@@ -221,6 +276,8 @@ Conference
 Using Graph Cuts&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Workshop on
 Non-rigid Registration and Tracking through Learning (in
 ICCV)</i>, 2007. [<a href="malcolm_mdp_slides.pdf">slides</a>].
+
+<a href="/pubs">More...</a>
 
 <!---
 #### Videos
@@ -271,6 +328,7 @@ shape priors&#8221;</a>, Malcolm, Rathi, Tannenbaum, <i>Int. Conf. on Image
 Processing
 (ICIP)</i>, 2007. [<a href="malcolm_shape_poster.pdf">poster</a>].
 
+<a href="/pubs">More...</a>
 
 
 
@@ -299,6 +357,8 @@ Image Segmentation in Tensor Space&#8221;</a>, Malcolm, Rathi, Tannenbaum,
 <i>Workshop on Component Analysis Methods (in CVPR)</i>, 2007. [<a
  href="malcolm_tc_slides.pdf">slides</a>]
 
+<a href="/pubs">More...</a>
+
 
 
 ## Quantum error correction
@@ -325,6 +385,7 @@ href="http://www.math.gatech.edu/~jeanbel/4782">Math4782</a>.
 
 * <a href="https://github.com/jgmalcolm/graphchop">graphchop</a> - Multi-label graph cut image segmentation
 * <a href="https://github.com/jgmalcolm/levelsets">levelsets</a> - Level set (active contour) image segmentation
+* <a href="https://github.com/jgmalcolm">More...</a>
 
 
 
