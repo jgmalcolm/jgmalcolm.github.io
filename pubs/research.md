@@ -19,7 +19,13 @@ href="#downloads-for-matlab">software downloads</a> associated with this work.
   <a href="images/fibers/case01045_2T_half_fa.png" data-gallery="filtered"
      title="Cut-away showing fibers within left hemisphere.  Fibers are
      colored by fractional anisotropy.  Two-tensor tractography.">
-    <img class="thumb" src="images/fibers/case01045_2T_half_fa.png"></a>
+    <img class="thumb" src="images/fibers/case01045_2T_half_fa.png">
+    <img class="thumb" src="images/fibers/case01045_3T_half_fa.png">
+    <img class="thumb" src="images/fibers/case01045_1T_tc.png">
+    <img class="thumb" src="images/fibers/case01045_SH_tc.png">
+    <img class="thumb" src="images/fibers/case01045_2T_tc.png">
+    <img class="thumb" src="images/fibers/case01045_3T_tc.png">
+  </a>
   <a href="images/fibers/case01045_3T_half_fa.png" data-gallery="filtered"
      title="Same view using three-tensor fiber model for tractography."></a>
   <a href="images/fibers/case01045_1T_tc.png" data-gallery="filtered"
