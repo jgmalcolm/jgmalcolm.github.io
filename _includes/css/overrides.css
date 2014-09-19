@@ -1,9 +1,10 @@
-body {
+html, body {
     font-size: 18px;
     text-rendering: optimizeLegibility;
     line-height: 29px;
     font-family: 'Roboto Slab',serif;
     color: #333;
+    background: #222;
 }
 h1, h2, h3, h4 {
     color: #c3180f;
@@ -53,6 +54,7 @@ a.button:hover {
 #content {
     padding-top: 10px;
     padding-bottom: 50px;
+    background: white;
 }
 div.tags {
     text-align: right;
@@ -107,9 +109,20 @@ h6:hover .header-link {
 /* ==== sidebar ==== */
 #sidebar {
     text-align: center;
+    padding: 10px;
+    color: #ddd;
 }
+#sidebar a {
+    color: white;
+    border-bottom: 1px dotted white;
+}
+#sidebar a:hover {
+    color: red;
+    border-bottom: 1px dotted red;
+}
+
 #logo {
-    color: #c3180f;
+    color: #dddddd;
     letter-spacing: -2px;
     text-align: center;
     font-size: 200%;
