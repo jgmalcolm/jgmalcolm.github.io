@@ -21,7 +21,7 @@ Use the experience to learn your tools.
 
 [Richard Hamming][] gave a famous lecture entitled
 ["You and your research"][hamming-txt] ([video][hamming-vid]).  I highly
-recommend pouring over his advice.  Among the many gems in there, one I want
+recommend pouring over his advice.  Among the gems in there, one I want
 to highlight here is how he would have lunch with people from other
 departments.  Often he would raise the question "What are the important
 problems in your field?"  And soon after that he would prod by asking why they
@@ -90,8 +90,7 @@ possible.  You will be way more productive once you can spend 100% of your
 brainpower on research, instead of breaking to go to some random class.  At
 this point, with all that's available online, a top student can teach
 themselves anything necessary.  Your advisor can point out most of your
-deficiencies; ask her what you should take classes in, and what can be
-avoided.
+deficiencies; ask her what you should take classes in, and what to avoid.
 
 It's fine to "drop in" on a few lectures here and there that you enjoy, but
 don't delude yourself into actually taking the course to learn.  Classes,
@@ -243,7 +242,7 @@ Hamming:
 ## What can I say I learned from it all?
 
 I learned how to frame and solve problems.  I no longer fear a research paper
-or am intimidated by big fancy science.  When faced with the uncertainty of
+or get intimidated by big fancy science.  When faced with the uncertainty of
 new topic, I can come up with a research plan and milestones.  I can develop
 convincing experiments.  And I can craft an efficient and comprehensive
 writeup.
