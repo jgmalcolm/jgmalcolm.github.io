@@ -3,14 +3,14 @@ title: Developing for the TI86 z80
 layout: default
 ---
 
-# Developing for the TI86 z80
+# Developing z80 assembler
 
-This is formerly "The Guide", a collection of tutorials on developing z80
-assembler for the TI86 calculator.  While focused on the TI86, much of this
-applies to any z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This
-content was formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
+This is a collection of tutorials on developing z80 assembler for the TI
+calculators.  While focused on the TI86, much of this applies to any z80-based
+TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was formerly hosted
+as "The Guide" on [TI-Calc.org](//ticalc.org).
 
-![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "1996")
+![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
 
 ## Beginner
 
@@ -22,7 +22,7 @@ content was formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [TI86 Specs](beginner/ti86.htm) - Basic information about the TI86 and its
   ROM versions. Also some info on the LCD.
 - [Format and Compiling](beginner/form.htm) - Start coding. Get the necessary
-  tools to get you on your way. Walk through creating your very first program
+  tools to get you on your way. Walk through creating your first program
   and running it.
 - [Oh, No! It Crashed!](beginner/ohno.htm) - What to do when it freezes up on
   you. A step-by-step diagnosis.
@@ -52,7 +52,7 @@ content was formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
   there are four others! What do they all do? Come find out!
 - [Restart Commands](intermediate/rstc.htm) - Faster `call`s with the help of
   these one byte instructions used for some of the most frequent ROM calls.
-- [Memory and Pages of It](intermediate/memo.htm) - Literally delve into the
+- [Memory and Pages of It](intermediate/memo.htm) - Dive into the
   memory of your calculator. What is Consecutive Addressing and how to
   reference addresses in memory. Explore some safe areas to store data at!
 - [Variables](intermediate/vari.htm) - Start off storing user input and data
@@ -65,7 +65,7 @@ content was formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Simulated 16-bit Addition](intermediate/simu.htm) - A faster method of
   adding `a` to `hl`. In time crunch areas, this beats conventional methods.
 - [Random Numbers](intermediate/rand.htm) - Need a random number? This is the
-  place for you! Take your pick of several different routines, all designed to
+  place for you! Take your pick of different routines, all designed to
   give you a different number each time.
 - [TI's ROM Calls](intermediate/romc.htm) - Why draw up your own routine when
   TI's already got a ton. Use their calls for printing text, checking
