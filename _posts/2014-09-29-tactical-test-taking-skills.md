@@ -8,16 +8,17 @@ tags:
 
 Lessons learned from taking thousands of multiple choice questions.
 
-# Train
+# Practice
 
-Only through practice on questions will you build your accuracy and endurance.
-Do not passively read your review books and notes.  You should jump into doing
-questions before you feel ready.  If you wait until you feel ready, you’re too
-late.  Questions sharpen contrasts, a key part of learning to differentiate
-diseases and disorders.  Don’t wait until you’ve reviewed to start questions;
-consider the questions themselves part of the learning process.  Wrestling
-with a question and the immediate emotional and intellectual feedback of
-seeing the answer helps solidify the knowledge.
+Only through practice on questions will you improve your process, accuracy,
+endurance, and learn what's important.  Do not passively read your review
+books and notes.  You should jump into doing questions before you feel ready.
+If you wait until you feel ready, you’re too late.  Questions sharpen
+contrasts, a key part of learning to differentiate diseases and disorders.
+Don’t wait until you’ve reviewed to start questions; consider the questions
+themselves part of the learning process.  Wrestling with a question and the
+immediate emotional and intellectual feedback of seeing the answer helps
+solidify the knowledge.
 
 Drilling on questions also helps you understand your own psychology.
 Recognize the signs that you’re tiring or getting sloppy, and learn to
@@ -77,7 +78,7 @@ cannot explain it with your answer, then think harder about the other choices.
   history, think acquired instead of congenital.
 
 
-# Classic tip-offs
+# Classic demographics
 
 There are some triggers that should perk your ears to a likely diagnosis.
 
@@ -143,10 +144,21 @@ Specific constructs can help clue you in.
 
 > Patient is having a reaction to heparin.
 >
-> A. Discontinue heparin, do X.
-> B. Discontinue heparin, do Y.
-> C. Discontinue heparin, do Z.
-> D. Do something completely different.    (probably the wrong answer)
+> - Discontinue heparin, do X.
+> - Discontinue heparin, do Y.
+> - Discontinue heparin, do Z.
+> - Do something completely different.    (probably the wrong answer)
+
+* One answer may refer to a combination of others.  Often you can ignore the
+  other choices not involved in that combination.  This shows up more so on
+  lower quality tests.
+
+> Question, blah, blah, blah.
+>
+> - Dog
+> - Cat
+> - Tiger
+> - Dog & Cat   (probably ignore Tiger and choose some combination of Dog/Cat)
 
 
 # Read the entire question carefully.
@@ -158,6 +170,14 @@ this too and can create a dead obvious question except for one small detail
 that totally changes.  And they know exactly the trap answer to put for those
 zipping through.  Make sure you’ve taken into consideration every single
 symptom.
+
+
+# High-Yield Material
+
+Not all information is weighted equally.  Every time a concept is tested, put
+a dot in the margin of your notes.  You'll soon start to see which topics are
+most important.
+
 
 
 # The aftermath
