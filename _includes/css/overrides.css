@@ -52,8 +52,7 @@ a.button:hover {
 
 /* ==== main content ==== */
 #content {
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding: 50px;
     background: white;
 }
 div.tags {
@@ -127,7 +126,6 @@ h6:hover .header-link {
     text-align: center;
     font-size: 200%;
     font-weight: bold;
-    padding-top: 15px;
 }
 
 #content img {
