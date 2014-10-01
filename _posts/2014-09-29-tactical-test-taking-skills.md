@@ -176,7 +176,8 @@ symptom.
 
 Not all information is weighted equally.  Every time a concept is tested, put
 a dot in the margin of your notes.  You'll soon start to see which topics are
-most important.
+most important.  Taking it one step further, you might want to only note items
+you get wrong: no sense noting what material you already know.
 
 
 
