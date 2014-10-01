@@ -78,13 +78,14 @@ cannot explain it with your answer, then think harder about the other choices.
   history, think acquired instead of congenital.
 
 
-# Classic demographics
+# Classic clues
 
 There are some triggers that should perk your ears to a likely diagnosis.
 
 * African-American female - autoimmune
 * 20-40yo female - autoimmune, multiple sclerosis
-* “Patient presents to emergency room” - unlikely a chronic issue
+* "Patient presents to emergency room..." - unlikely a chronic issue
+* "Complaining of progressive X for the past few months" - tumor symptoms typically develop over months
 * Infant or first few weeks of birth - genetic
    * no family history - recessive
 * female - ignore x-linked
