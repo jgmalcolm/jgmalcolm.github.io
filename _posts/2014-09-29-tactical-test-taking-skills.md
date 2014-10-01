@@ -6,7 +6,9 @@ tags:
 - studying
 ---
 
-Lessons learned from taking thousands of multiple choice questions.
+Lessons learned from taking thousands of multiple choice questions.  While
+most of this is from med-school tests, the principles apply to nearly all
+multiple choice exams.
 
 # Practice
 
@@ -186,10 +188,10 @@ you get wrong: no sense noting what material you already know.
 
 Always review explanations.  First for the correct answer, second for your
 wrong answer, but also for all the other answers.  Look for how you could have
-ruled out each wrong answer.  Find the topic in FA and make notes, underline
-the tested fact, emphasize the most important physical or lab findings, etc.
-Put a tally mark in the margin indicating the topic was tested.  Over time,
-the highly tested topics become apparent.
+ruled out each wrong answer.  Find the topic in your notes, underline the
+tested fact, emphasize the most important physical or lab findings, etc.  Put
+a tally mark in the margin indicating the topic was tested.  Over time, the
+highly tested topics become apparent.
 
 The NBME self assessments do not allow you to review individual answers.
 These are still good uses of time because you practice your techniques against
