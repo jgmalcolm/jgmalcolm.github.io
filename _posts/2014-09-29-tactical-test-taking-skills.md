@@ -36,7 +36,7 @@ the core knowledge.
 # Avoid outliers
 
 > * Oxygen curve is shifted to the left because A.
->   <i>If you have to guess, don’t choose this one.  Notice how it’s the only answer choice that uses "left".</i>
+>   (If you have to guess, don’t choose this one.  Notice how it’s the only answer choice that uses "left".)
 > * Oxygen curve is shifted to the right because of B.
 > * Oxygen curve is shifted to the right because of C.
 > * Oxygen curve is shifted to the right because of D.
