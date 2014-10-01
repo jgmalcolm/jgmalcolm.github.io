@@ -87,11 +87,11 @@ There are some triggers that should perk your ears to a likely diagnosis.
 * African-American female - autoimmune
 * 20-40yo female - autoimmune, multiple sclerosis
 * "Patient presents to emergency room..." - unlikely a chronic issue
-* "Complaining of progressive X for the past few months" - tumor symptoms typically develop over months
+* "Complaining of progressive symptoms for the past few months" - tumors can develop over months
 * Infant or first few weeks of birth - genetic
    * no family history - recessive
 * female - ignore x-linked
-* “multiple rounds of antibiotics” - no gut flora - Vit K deficiency
+* "multiple rounds of antibiotics" - no gut flora causing Vitamin K deficiency
   (bleeding), C diff
 
 
@@ -128,6 +128,11 @@ to make a connection to the prompt.  If there’s an image, look at it before
 reading the full question to see if you recognize anything.  Often, after only
 reading the final prompt and glancing at the answer choices, you can already
 rule out one or more wrong choices in seconds.
+
+Another variant is to read the first sentence and the last sentence, and
+between those two you should be able to come up with a differential diagnosis
+that can immediately rule out some of the answer choices.  Often the answer is
+immediate.
 
 
 # Question stems
