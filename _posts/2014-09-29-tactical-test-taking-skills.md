@@ -86,7 +86,7 @@ There are some triggers that should perk your ears to a likely diagnosis.
 
 * African-American female - autoimmune
 * 20-40yo female - autoimmune, multiple sclerosis
-* "Patient presents to emergency room..." - unlikely a chronic issue
+* "Patient presents to emergency room..." - unlikely a chronic issue, acute often means vascular
 * "Complaining of progressive symptoms for several months" - tumors can develop over months
 * Infant or first few weeks of birth - genetic
    * no family history - recessive
