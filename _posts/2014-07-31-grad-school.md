@@ -67,6 +67,17 @@ Don't just jump at the first professor offering funding.  Take your time here
 and seek the advice of others.
 
 
+## Consult your advisor
+
+Read all of their major works.  Ask them where to start and what to read.
+You'll find that a key papers keep coming up, especially as you prepare
+background citations in your work and go on to meet former students at
+conference.
+
+Ask your advisor to sketch out her view of the entire field and how her work
+fits within it.  Which topics should you master and which should you only be
+familiar?  What are new hot areas?  Any related fields to pay attention to?
+
 
 ## Create a blog
 
