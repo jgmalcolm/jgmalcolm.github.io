@@ -12,7 +12,7 @@ multiple choice exams.
 
 # Practice
 
-Only through practice on questions will you improve your process, accuracy,
+Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
 books and notes.  You should jump into doing questions before you feel ready.
 If you wait until you feel ready, you’re too late.  Questions sharpen
@@ -131,8 +131,9 @@ rule out one or more wrong choices in seconds.
 
 Another variant is to read the first sentence and the last sentence, and
 between those two you should be able to come up with a differential diagnosis
-that can immediately rule out some of the answer choices.  Often the answer is
-immediate.
+that can immediately rule out some of the answer choices.  *These two
+sentences help you frame the question, and the answer is often immediately
+apparent.*
 
 
 # Question stems
