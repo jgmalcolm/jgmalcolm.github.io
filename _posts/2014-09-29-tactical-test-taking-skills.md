@@ -190,6 +190,18 @@ you get wrong: no sense noting what material you already know.
 
 
 
+# Review topics, not isolated details
+
+If you get a question wrong, don't just memorize the specific fact you missed.
+Go and skim over the entire disease or pathway in context.  If the answer
+stems were all a cluster of related diseases, skim those and understand how to
+compare and contrast.  If it was a bone tumor question and the answer was a
+particular bone cancer, review the specifics of that cancer, but also do a
+quick recap of the other ones.  If the answer was a particular enzyme in the
+purine salvage pathway, review the entire pathway.  Take every opportunity to
+learn in context.
+
+
 # The aftermath
 
 Always review explanations.  First for the correct answer, second for your
@@ -199,10 +211,10 @@ tested fact, emphasize the most important physical or lab findings, etc.  Put
 a tally mark in the margin indicating the topic was tested.  Over time, the
 highly tested topics become apparent.
 
+
 The NBME self assessments do not allow you to review individual answers.
-These are still good uses of time because you practice your techniques against
-the real benchmark and you do get feedback on weak subjects (not individual
-topics or questions).
+These are still good uses of time because you practice your technique against
+the real benchmark and you do get an idea of your weak subjects.
 
 
 # Attacking a qbank
@@ -211,3 +223,6 @@ Consider doing a test with all easy questions so you can start easing into
 concepts and get some positive vibes going.  However, don’t be fooled into
 thinking this is your actual performance until you’ve cut your teeth on some
 harder questions.
+
+
+  > Thanks to my classmate Juan-Manuel Duran for suggestions.
