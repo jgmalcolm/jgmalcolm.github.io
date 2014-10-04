@@ -49,6 +49,7 @@ organized.
 
 ## Services
 * [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
+  * <a href="javascript:(function(){var a=encodeURIComponent(location.href)+escape('\x0A'+'\x0A')+encodeURIComponent((!!document.getSelection)?document.getSelection():(!!window.getSelection)?window.getSelection():document.selection.createRange().text);var u='http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+encodeURIComponent(document.title)+'&body='+a;if(u.length >= 2048){window.alert('Please select less text');return;}window.open(u,'gmail','height=640,width=840');console.debug(a)})();void(0);">send the current page/quote</a>
   * quickly add calender entries with this [bookmarklet][calender]
   * find out which company has sold your email address with this [Gmail trick][gmail]
 * [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
