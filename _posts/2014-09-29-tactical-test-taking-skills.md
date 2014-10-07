@@ -10,7 +10,7 @@ Lessons learned from taking thousands of multiple choice questions.  While
 most of this is from med-school tests, the principles apply to nearly all
 multiple choice exams.
 
-# Practice
+## Practice
 
 Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
@@ -35,7 +35,7 @@ habits.  But techniques will only tweak your performance.  There are no true
 shortcuts on these exams and these techniques only work when you already have
 the core knowledge.
 
-# Avoid outliers
+## Avoid outliers
 
 > * Oxygen curve is shifted to the left because A.
 >   (If you have to guess, don’t choose this one.  Notice how it’s the only answer choice that uses "left".)
@@ -43,7 +43,7 @@ the core knowledge.
 > * Oxygen curve is shifted to the right because of C.
 > * Oxygen curve is shifted to the right because of D.
 
-# A single phrase can rule out an answer choice
+## A single phrase can rule out an answer choice
 
 The question prompt may mention an ancillary test that was performed whose
 only purpose is to rule out one specific answer choice.
@@ -56,13 +56,13 @@ only purpose is to rule out one specific answer choice.
 > * <strike>Autoimmune hemolysis</strike>
 > * D
 
-# Every abnormal lab value needs to be explained
+## Every abnormal lab value needs to be explained
 
 Your answer needs to account for every abnormal lab value given.  If there’s
 some seemingly completely unrelated lab value that’s wildly abnormal and you
 cannot explain it with your answer, then think harder about the other choices.
 
-# Ruling out answers
+## Ruling out answers
 
 * Never jump to an answer without first ruling out 1-2 choices.  This will
   make sure you’re paying attention and not just jumping for a distractor.
@@ -80,7 +80,7 @@ cannot explain it with your answer, then think harder about the other choices.
   history, think acquired instead of congenital.
 
 
-# Classic clues
+## Classic clues
 
 There are some triggers that should perk your ears to a likely diagnosis.
 
@@ -95,7 +95,7 @@ There are some triggers that should perk your ears to a likely diagnosis.
   (bleeding), C diff
 
 
-# The first sentence contains a big clue.
+## The first sentence contains a big clue.
 
 * chief complaint - your diagnosis must absolutely explain this
    * whatever the patient came in complaining of is the most important thing to address
@@ -115,7 +115,7 @@ There are some triggers that should perk your ears to a likely diagnosis.
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
 
 
-# The last sentence is the first sentence
+## The last sentence is the first sentence
 
 Read the last sentence of the question first.  Then go back to read from the
 start of the scenario.  This frames what you’re being tested on and you’ll be
@@ -136,7 +136,7 @@ sentences help you frame the question, and the answer is often immediately
 apparent.*
 
 
-# Question stems
+## Question stems
 
 Specific constructs can help clue you in.
 
@@ -146,7 +146,7 @@ Specific constructs can help clue you in.
 [zebras]: https://en.wikipedia.org/wiki/Zebra_(medicine)
 
 
-# Answer choice tip-offs
+## Answer choice tip-offs
 
 * If most of the questions (3-4) have the same base phrase but differ in the
   second half, look to choose among those if you have to guess.
@@ -170,7 +170,7 @@ Specific constructs can help clue you in.
 > - Dog & Cat   (probably ignore Tiger and choose some combination of Dog/Cat)
 
 
-# Read the entire question carefully.
+## Read the entire question carefully.
 
 Your middle school teacher was right.  As you’ve gotten used to banging
 through questions, sometimes a question will seem so easy that you jump right
@@ -181,7 +181,7 @@ zipping through.  Make sure you’ve taken into consideration every single
 symptom.
 
 
-# High-Yield Material
+## High-Yield Material
 
 Not all information is weighted equally.  Every time a concept is tested, put
 a dot in the margin of your notes.  You'll soon start to see which topics are
@@ -190,7 +190,7 @@ you get wrong: no sense noting what material you already know.
 
 
 
-# Review topics, not isolated details
+## Review topics, not isolated details
 
 If you get a question wrong, don't just memorize the specific fact you missed.
 Go and skim over the entire disease or pathway in context.  If the answer
@@ -202,7 +202,7 @@ purine salvage pathway, review the entire pathway.  Take every opportunity to
 learn in context.
 
 
-# The aftermath
+## The aftermath
 
 Always review explanations.  First for the correct answer, second for your
 wrong answer, but also for all the other answers.  Look for how you could have
@@ -217,7 +217,7 @@ These are still good uses of time because you practice your technique against
 the real benchmark and you do get an idea of your weak subjects.
 
 
-# Attacking a qbank
+## Attacking a qbank
 
 Consider doing a test with all easy questions so you can start easing into
 concepts and get some positive vibes going.  However, don’t be fooled into
