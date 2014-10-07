@@ -6,18 +6,13 @@
 
   <body>
 
-    <div class="container content">
-      <header class="masthead hidden-print">
-        <h3 class="masthead-title">
-          {% include sidebar.html %}
-        </h3>
-      </header>
+    <header class="masthead hidden-print">
+        {% include sidebar.html %}
+    </header>
 
-      <main>
-      <div class="content container">
-        {{ content }}
-      </div>
-      </main>
+    <main class="content container">
+      {{ content }}
+    </main>
 
     {% include analytics.html %}
   </body>
