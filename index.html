@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<br>
 {% for post in site.posts %}
 <p class="post">
-  <a href="{{ post.url }}" class="title">{{ post.title }}</a>
-  <br>
+  <h1 class="post-title">
+  <a href="{{ post.url }}#content" class="title">{{ post.title }}</a>
+  </h1>
+
   {% if post.description %}
     {{ post.description | strip_html }}
   {% else %}
