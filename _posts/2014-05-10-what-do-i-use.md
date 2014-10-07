@@ -60,7 +60,6 @@ organized.
   twitter, so I don't have to post to both accounts.  I use the
   [Facebook bookmarklet][fb] to quickly post.
 
-
 [TotalTerminal]: http://totalterminal.binaryage.com
 [ifttt-tweets]: https://ifttt.com/recipes/175480-all-your-tweets-in-a-google-spreadsheet
 [ifttt-fb]: https://ifttt.com/recipes/175481-save-links-i-share-on-facebook-to-a-google-drive-spreadsheet

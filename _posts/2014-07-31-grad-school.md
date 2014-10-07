@@ -21,12 +21,25 @@ Use the experience to learn your tools.
 
 [Richard Hamming][] gave a famous lecture entitled
 ["You and your research"][hamming-txt] ([video][hamming-vid]).  I highly
-recommend pouring over his advice.  Among the gems in there, one I want
-to highlight here is how he would have lunch with people from other
-departments.  Often he would raise the question "What are the important
-problems in your field?"  And soon after that he would prod by asking why they
-weren't working on the important problems?  Questions like this get under your
-skin.  He wasn't welcomed at the lunch table anymore.
+recommend pouring over his advice.  Among the gems in there, one I want to
+highlight here is how he would have lunch with people from other departments.
+Often he would raise the question "What are the important problems in your
+field?"  And soon after that he would prod by asking why they weren't working
+on the important problems?  Questions like this get under your skin.  He
+wasn't welcomed at the lunch table anymore.  [Paul Graham][procrastination]
+has a good discussion of this.
+
+
+Elon Musk is another a fascinating individual with wildly ambitious goals.
+[The story goes][elon-musk] that he dropped out of the Stanford robotics PhD
+to attack the biggest problems facing Earth's limited resources:  solar power,
+electric cars, space exploration.  How much of this was true from the start
+and how much was filling in history for a convenient story, I'm not sure --
+but regardless he's an inspiration of the impact you can have on humanity,
+beyond your dissertation.
+
+  [procrastination]: http://paulgraham.com/procrastination.html
+  [elon-musk]: https://en.wikipedia.org/wiki/Elon_Musk#Early_life_and_education
 
 
 ## Follow rockstars
