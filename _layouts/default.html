@@ -5,13 +5,17 @@
   </head>
 
   <body>
-    <div id="sidebar" class="col-md-3 col-sm-3 col-xs-12 hidden-print">
-      {% include sidebar.html %}
-    </div>
 
-    <div id="content" class="col-md-9 col-sm-9 col-xs-12">
-      {{ content }}
-    </div>
+    <div class="container content">
+      <header class="masthead hidden-print">
+        <h3 class="masthead-title">
+          {% include sidebar.html %}
+        </h3>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
 
     <a href="#" class="btn back-to-top btn-light btn-fixed-bottom hidden-print hidden-xs hidden-sm">top</a>
 

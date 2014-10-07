@@ -1,5 +1,6 @@
 ---
 ---
 {% include css/poole.css %}
+{% include css/hyde.css %}
 {% include css/syntax.css %}
 {% include css/overrides.css %}
