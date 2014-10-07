@@ -112,7 +112,7 @@ There are some triggers that should perk your ears to a likely diagnosis.
    * construction worker, old apartment, painter - lead poisoning
 * exotic environment
    * an emergency department in the third world - think of old drugs not used anymore in the US
-      * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in Guatemala)
+      * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
 
 
 # The last sentence is the first sentence
