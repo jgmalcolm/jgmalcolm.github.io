@@ -1,5 +1,5 @@
-name: james malcolm
+name: James Malcolm
 url: http://jgmalcolm.com
-description:  "i'm a med student in Atlanta with an interest in ideas, tools, and tech."
-permalink: :title
+description:  "I'm a med student in Atlanta with an interest in ideas, tools, and tech."
+permalink: /:title
 markdown: kramdown
