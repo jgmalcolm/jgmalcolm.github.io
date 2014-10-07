@@ -15,19 +15,19 @@ h6:hover .header-link {
 }
 
 
-#content img {
+.content img {
     max-width: 100%;
     border: 1px solid #aaa;
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
     margin: 20px 0;
 }
-#content img.thumb {
+.content img.thumb {
     margin: 10px;
     max-width: 50%;
     float: right;
 }
-#content img.bookcover {
+.content img.bookcover {
     margin: 15px;
     float: right;
     max-width: 30%;
