@@ -3,13 +3,15 @@ layout: default
 ---
 {% for post in site.posts %}
 <p class="post">
-  <a href="{{ post.url }}#content" class="title">{{ post.title }}</a>
+  <h1 class="post-title">
+    <a href="{{ post.url }}#content">{{ post.title }}</a>
+  </h1>
 
   {% if post.description %}
     {{ post.description | strip_html }}
   {% else %}
     {{ post.excerpt | strip_html }}
   {% endif %}
-  <a href="{{ post.url }}">more...</a>
+  <a href="{{ post.url }}">Read more...</a>
 </p>
 {% endfor %}
