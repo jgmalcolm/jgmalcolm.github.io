@@ -1,13 +1,19 @@
-<header>
-  <div id="logo">{{ site.name }}</div>
-  <br/>
-  i'm a med student in Atlanta with an interest in ideas, tools, and tech.
-</header>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">{{ site.name }}</a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
 
-<nav>
-  <a href="/about">about</a> &middot;
-  <a href="/">posts</a> &middot;
-  <a href="/pubs/research.html">research</a> &middot;
-  <a href="/pubs">pubs</a> &middot;
-  <a href="/z80">z80</a>
-</nav>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/about">about</a>
+      <a class="sidebar-nav-item" href="/">posts</a>
+      <a class="sidebar-nav-item" href="/pubs/research.html">research</a>
+      <a class="sidebar-nav-item" href="/pubs">pubs</a>
+      <a class="sidebar-nav-item" href="/z80">z80</a>
+    </nav>
+
+  </div>
+</div>
