@@ -83,14 +83,14 @@ html {
 }
 
 /* Sidebar nav */
-.sidebar-nav {
+nav {
   margin-bottom: 1rem;
 }
-.sidebar-nav a:hover,
-.sidebar-nav a:focus {
+nav a:hover,
+nav a:focus {
   text-decoration: underline;
 }
-.sidebar-nav a.active {
+nav a.active {
   font-weight: bold;
 }
 
