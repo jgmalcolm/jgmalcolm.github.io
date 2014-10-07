@@ -3,9 +3,9 @@ layout: default
 ---
 {% for post in site.posts %}
 <p class="post">
-  <h1 class="post-title">
+  <h2 class="post-title">
     <a href="{{ post.url }}#content">{{ post.title }}</a>
-  </h1>
+  </h2>
 
   {% if post.description %}
     {{ post.description | strip_html }}
