@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Grad school: What I wish I did"
+tags:
+- studying
 ---
 
 You're only stupid enough to get a PhD once.  Here are some lessons learned

@@ -40,3 +40,10 @@ h6:hover .header-link {
   padding: 5px;
   opacity: 1;
 }
+
+
+.tags {
+    padding: 4px;
+    color: #369;
+    font-weight: bold;
+}
