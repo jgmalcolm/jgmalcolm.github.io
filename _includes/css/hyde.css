@@ -78,21 +78,8 @@ html {
 /* About section */
 .sidebar-about h1 {
   color: #fff;
-  margin-top: 0;
-  font-size: 2rem;
 }
 
-/* Sidebar nav */
-nav {
-  margin-bottom: 1rem;
-}
-nav a:hover,
-nav a:focus {
-  text-decoration: underline;
-}
-nav a.active {
-  font-weight: bold;
-}
 
 /* Sticky sidebar
  *
