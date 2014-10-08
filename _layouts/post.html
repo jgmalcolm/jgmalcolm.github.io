@@ -11,6 +11,10 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.description %}
+  <div class="message">{{ page.description }}</div>
+  {% endif %}
+
   {{ content }}
 </div>
 

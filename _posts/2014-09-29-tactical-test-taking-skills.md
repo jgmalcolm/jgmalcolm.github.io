@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Tactical Test-Taking Skills"
+description: "Lessons learned from taking thousands of multiple choice questions."
 tags:
 - medschool
 - studying
 ---
 
-Lessons learned from taking thousands of multiple choice questions.  While
-most of this is from med-school tests, the principles apply to nearly all
-multiple choice exams.
+While most of this is from med-school tests, the principles apply to nearly
+all multiple choice exams.
 
 ## Practice
 

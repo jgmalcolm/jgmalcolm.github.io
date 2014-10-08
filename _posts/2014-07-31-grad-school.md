@@ -1,12 +1,10 @@
 ---
 layout: post
 title: "Grad school: What I wish I did"
+description: "You're only stupid enough to get a PhD once.  Here are some lessons learned and advice."
 tags:
 - studying
 ---
-
-You're only stupid enough to get a PhD once.  Here are some lessons learned
-and advice.
 
 ## Work on important projects
 
