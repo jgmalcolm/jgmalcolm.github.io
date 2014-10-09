@@ -289,7 +289,10 @@ focus on diffusion MRI as a research fellow at
 During the course of all of that, I worked with fellow students
 [Gallagher Pryor][] and [John Melonakos][] to build [Jacket][] and
 [ArrayFire][], both software libraries for high performance technical
-computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
+computing.
+
+After all that, I'm now pursuing a lifelong dream as a medical student in
+Atlanta.
 
 [Yogesh Rathi]: http://pnl.bwh.harvard.edu/people/profiles/rathi.html
 [Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
