@@ -47,3 +47,8 @@ h6:hover .header-link {
     color: #666;
     font-weight: bold;
 }
+
+
+li > ul {
+    margin-bottom: 0;
+}
