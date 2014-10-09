@@ -67,27 +67,6 @@ $(document).ready(function(){
     }
   });
 
-  /* [top] button only shows once down a screen */
-  var duration      = 420;
-  var showOffset    = 220;
-  var btnFixed      = '.btn-fixed-bottom';
-  var btnToTopClass = '.back-to-top';
-
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > showOffset) {
-      $(btnFixed).fadeIn(duration);
-    } else {
-      $(btnFixed).fadeOut(duration);
-    }
-  });
-
-  $(btnToTopClass).click(function (event) {
-    event.preventDefault();
-    $('html, body').animate({
-      scrollTop: 0
-    }, duration);
-    return false;
-  });
 });
 
 /* remove click delays on mobile */
