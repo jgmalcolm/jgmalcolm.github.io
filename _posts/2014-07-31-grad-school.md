@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grad school: What I wish I did"
-description: "You're only stupid enough to get a PhD once.  Here are some lessons learned and advice."
+description: "You're only stupid enough to get a PhD once.  Here are some lessons learned the hard way."
 tags:
 - studying
 ---
@@ -29,17 +29,17 @@ on the important problems?  Questions like this get under your skin.  He
 wasn't welcomed at the lunch table anymore.  [Paul Graham][procrastination]
 has a good discussion of this.
 
-
 Elon Musk is another a fascinating individual with wildly ambitious goals.
 [The story goes][elon-musk] that he dropped out of the Stanford robotics PhD
-to attack the biggest problems facing Earth's limited resources:  solar power,
-electric cars, space exploration.  How much of this was true from the start
-and how much was filling in history for a convenient story, I'm not sure --
-but regardless he's an inspiration of the impact you can have on humanity,
-beyond your dissertation.
+and ultimately came to focus his energy on the biggest problems facing Earth's
+limited resources: energy ([solar][SolarCity], [electric cars][Tesla]) and
+[space exploration][SpaceX].
 
   [procrastination]: http://paulgraham.com/procrastination.html
   [elon-musk]: https://en.wikipedia.org/wiki/Elon_Musk#Early_life_and_education
+  [SolarCity]: https://en.wikipedia.org/wiki/SolarCity
+  [Tesla]: https://en.wikipedia.org/wiki/Tesla_Motors
+  [SpaceX]: https://en.wikipedia.org/wiki/SpaceX
 
 
 ## Follow rockstars
