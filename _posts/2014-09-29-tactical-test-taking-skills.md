@@ -20,7 +20,10 @@ contrasts, a key part of learning to differentiate diseases and disorders.
 Don’t wait until you’ve reviewed to start questions; consider the questions
 themselves part of the learning process.  Wrestling with a question and the
 immediate emotional and intellectual feedback of seeing the answer helps
-solidify the knowledge.
+solidify the knowledge.  If you do questions before you're ready and you fail,
+[it's okay][failing].
+
+ [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 Drilling on questions also helps you understand your own psychology.
 Recognize the signs that you’re tiring or getting sloppy, and learn to
