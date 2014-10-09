@@ -1,12 +1,10 @@
 ---
 title: "What do I use?"
 layout: post
+description: "A list of tools I use daily to work efficiently, stay focused, and keep organized."
 tags:
 - tools
 ---
-
-A list of tools I use daily to work efficiently, stay focused, and keep
-organized.
 
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air)

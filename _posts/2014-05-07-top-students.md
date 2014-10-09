@@ -1,13 +1,11 @@
 ---
 title: "Top Students: What do they do differently?"
 layout: post
+description: "What separates you from someone that's doing better than you?  What do they do differently with their time?  Do they know something you don't know?"
 tags:
 - studying
 - better
 ---
-
-What separates you from someone that's doing better than you?  What do they do
-differently with their time?  Do they know something you don't know?
 
 True story: Two students go to the library Saturday morning right when it
 opens.  Instead of enjoying the beautiful weather, both students work hard
