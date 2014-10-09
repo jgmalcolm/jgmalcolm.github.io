@@ -17,6 +17,9 @@ taking them for as long as they can remember.  Patients are more apt to report
 something they started taking a few months ago, not the med they've been
 taking for 10 years.
 
+It's also good to fish for any drugs they recently stopped taking or ran out
+of refills.
+
 So this is often just a good start, but the next three questions will help
 make sure you have all the information.
 
