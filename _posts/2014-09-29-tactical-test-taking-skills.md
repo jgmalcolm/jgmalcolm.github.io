@@ -35,64 +35,27 @@ habits.  But techniques will only tweak your performance.  There are no true
 shortcuts on these exams and these techniques only work when you already have
 the core knowledge.
 
-## Avoid outliers
-
-> * Oxygen curve is shifted to the left because A.
->   (If you have to guess, don’t choose this one.  Notice how it’s the only answer choice that uses "left".)
-> * Oxygen curve is shifted to the right because of B.
-> * Oxygen curve is shifted to the right because of C.
-> * Oxygen curve is shifted to the right because of D.
-
-## A single phrase can rule out an answer choice
-
-The question prompt may mention an ancillary test that was performed whose
-only purpose is to rule out one specific answer choice.
-
-> Patient presents with X, Y, Z that appear to be some form of anemia.  In the
-> course of working, <u>direct Coombs test was negative</u>.
->
-> * A
-> * B
-> * <strike>Autoimmune hemolysis</strike>
-> * D
-
-## Every abnormal lab value needs to be explained
-
-Your answer needs to account for every abnormal lab value given.  If there’s
-some seemingly completely unrelated lab value that’s wildly abnormal and you
-cannot explain it with your answer, then think harder about the other choices.
-
-## Ruling out answers
-
-* Never jump to an answer without first ruling out 1-2 choices.  This will
-  make sure you’re paying attention and not just jumping for a distractor.
-  Once you rule out a choice, you can completely forget about it and use brain
-  power to compare the remaining choices.
-* If there are multiple answers that are similar to each other, then they are
-  probably all incorrect.
-* If you’ve narrowed it down to two possibilities, the most common disease is
-  probably the best answer.  Avoid [zebras].
-* If two answers are the opposite of each other, then the answer is likely one
-  of those.  Ignore the other choices.
-* An adult patient with no mention of chronic or childhood issues, then rule
-  out congenital diseases that would have shown up in early childhood
-  (e.g. hemophilia, sickle cell).  Anything that occurs suddenly without any
-  history, think acquired instead of congenital.
 
 
-## Classic clues
+## The last sentence is the first sentence
 
-There are some triggers that should perk your ears to a likely diagnosis.
+Read the last sentence of the question first.  Then go back to read from the
+start of the scenario.  This frames what you’re being tested on and you’ll be
+more primed to pay attention to key information.  You’ll avoid the situation
+where you’re reading along thinking you know exactly the diagnosis, only to
+come to the end and realize the prompt is asking you something different like
+a side effect of the treatment for that obvious disease.  If you had known the
+prompt, you could have been reading the scenario and already thinking of how
+to make a connection to the prompt.  If there’s an image, look at it before
+reading the full question to see if you recognize anything.  Often, after only
+reading the final prompt and glancing at the answer choices, you can already
+rule out one or more wrong choices in seconds.
 
-* African-American female - autoimmune
-* 20-40yo female - autoimmune, multiple sclerosis
-* "Patient presents to emergency room..." - unlikely a chronic issue, acute often means vascular
-* "Complaining of progressive symptoms for several months" - tumors can develop over months
-* Infant or first few weeks of birth - genetic
-   * no family history - recessive
-* female - ignore x-linked
-* "multiple rounds of antibiotics" - no gut flora causing Vitamin K deficiency
-  (bleeding), C diff
+Another variant is to read the first sentence and the last sentence, and
+between those two you should be able to come up with a differential diagnosis
+that can immediately rule out some of the answer choices.  *These two
+sentences help you frame the question, and the answer is often immediately
+apparent.*
 
 
 ## The first sentence contains a big clue.
@@ -115,25 +78,67 @@ There are some triggers that should perk your ears to a likely diagnosis.
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
 
 
-## The last sentence is the first sentence
+## Avoid outliers
 
-Read the last sentence of the question first.  Then go back to read from the
-start of the scenario.  This frames what you’re being tested on and you’ll be
-more primed to pay attention to key information.  You’ll avoid the situation
-where you’re reading along thinking you know exactly the diagnosis, only to
-come to the end and realize the prompt is asking you something different like
-a side effect of the treatment for that obvious disease.  If you had known the
-prompt, you could have been reading the scenario and already thinking of how
-to make a connection to the prompt.  If there’s an image, look at it before
-reading the full question to see if you recognize anything.  Often, after only
-reading the final prompt and glancing at the answer choices, you can already
-rule out one or more wrong choices in seconds.
+> * Oxygen curve is shifted to the left because A.
+>   (If you have to guess, don’t choose this one.  Notice how it’s the only answer choice that uses "left".)
+> * Oxygen curve is shifted to the right because of B.
+> * Oxygen curve is shifted to the right because of C.
+> * Oxygen curve is shifted to the right because of D.
 
-Another variant is to read the first sentence and the last sentence, and
-between those two you should be able to come up with a differential diagnosis
-that can immediately rule out some of the answer choices.  *These two
-sentences help you frame the question, and the answer is often immediately
-apparent.*
+## A single phrase can rule out an answer choice
+
+The question prompt may mention an ancillary test that was performed whose
+only purpose is to rule out one specific answer choice.
+
+> Patient presents with X, Y, Z that appear to be some form of anemia.  In the
+> course of workup, <u>direct Coombs test was negative</u>.
+>
+> * A
+> * B
+> * <strike>Autoimmune hemolysis</strike>
+> * D
+
+## Every abnormal lab value needs to be explained
+
+Your answer needs to account for every abnormal lab value given.  If there’s
+some seemingly completely unrelated lab value that’s wildly abnormal and you
+cannot explain it with your answer, then think harder about the other choices.
+
+## Ruling out answers
+
+Never jump to an answer without first ruling out 1-2 choices.  This will make
+sure you’re paying attention and not just jumping for a distractor.  Once you
+rule out a choice, you can completely forget about it and focus your attention
+on comparing the remaining choices.
+
+If you have to guess, do so intelligently:
+
+* If you’ve narrowed it down to two possibilities, the most common disease is
+  probably the best answer.  Avoid [zebras].
+* If there are multiple answers that are equivalent and one that is different,
+  then it's likely the equivalent group is all wrong together.
+* If two answers are the opposite of each other, then the answer is likely one
+  of those.  Ignore the other choices.
+* An adult patient with no mention of chronic or childhood issues, then rule
+  out congenital diseases that would have shown up in early childhood
+  (e.g. hemophilia, sickle cell).  Anything that occurs suddenly without any
+  history, think acquired instead of congenital.
+
+
+## Classic clues
+
+There are some triggers that should perk your ears to a likely diagnosis.
+
+* African-American female - autoimmune
+* 20-40yo female - autoimmune, multiple sclerosis
+* "Patient presents to emergency room..." - unlikely a chronic issue, acute often means vascular
+* "Complaining of progressive symptoms for several months" - tumors can develop over months
+* Infant or first few weeks of birth - genetic
+   * no family history - recessive
+* female - ignore x-linked
+* "multiple rounds of antibiotics" - no gut flora causing Vitamin K deficiency
+  (bleeding), C diff
 
 
 ## Question stems
@@ -217,7 +222,7 @@ These are still good uses of time because you practice your technique against
 the real benchmark and you do get an idea of your weak subjects.
 
 
-## Attacking a qbank
+## Attacking a question bank
 
 Consider doing a test with all easy questions so you can start easing into
 concepts and get some positive vibes going.  However, don’t be fooled into
