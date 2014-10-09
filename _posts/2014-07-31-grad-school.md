@@ -279,8 +279,10 @@ of [Electrical & Computer Engineering](http://ece.gatech.edu) at Georgia Tech.
 My advisors provided excellent guidance and support in both life and academia:
 [Yogesh Rathi][] (co-advisor) and [Allen Tannenbaum][] (co-advisor).  My
 committee included some of the most superb scientists I have ever worked with:
-[Tony Yezzi][], [Patricio Vela][], and [Sylvain Bouix][].  I had the
-opportunity to focus on diffusion MRI as a research fellow at
+[Tony Yezzi][], [Patricio Vela][], and [Sylvain Bouix][].  I worked and shared
+an office with some amazing friends: [Gallagher Pryor][], [John Melonakos][],
+[Shawn Lankton][], Rome Sandhu, and more.  Afterward I had the opportunity to
+focus on diffusion MRI as a research fellow at
 [Brigham and Women's Hospital][pnl].  You can see more about the
 [techniques][projects] and [papers][] we developed.
 
@@ -302,6 +304,7 @@ computing.  I'm now pursuing a lifelong dream as a medical student in Atlanta.
 [AccelerEyes]: https://en.wikipedia.org/wiki/AccelerEyes
 [ArrayFire]: http://www.arrayfire.com
 [Jacket]: https://en.wikipedia.org/wiki/Jacket_(software)
+[Shawn Lankton]: http://shawnlankton.com
 
 [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
 [Richard Hamming]: https://en.wikipedia.org/wiki/Richard_Hamming
