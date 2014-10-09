@@ -42,25 +42,34 @@ the core knowledge.
 
 
 
-## The last sentence is the first sentence
+## The first and last sentences
 
-Read the last sentence of the question first.  Then go back to read from the
-start of the scenario.  This frames what you’re being tested on and you’ll be
-more primed to pay attention to key information.  You’ll avoid the situation
-where you’re reading along thinking you know exactly the diagnosis, only to
-come to the end and realize the prompt is asking you something different like
-a side effect of the treatment for that obvious disease.  If you had known the
-prompt, you could have been reading the scenario and already thinking of how
-to make a connection to the prompt.  If there’s an image, look at it before
-reading the full question to see if you recognize anything.  Often, after only
-reading the final prompt and glancing at the answer choices, you can already
-rule out one or more wrong choices in seconds.
+Read the first sentence and then the last sentence.  Skip everything in
+between for the moment.  Skim the answer choices.  Now you've got your
+context.  You know what topics are going to be relevant.  You know what type
+of answer is expected.  As you go through the rest of the scenario and answer
+choices, your brain is already working quietly to connect the dots.  You're
+primed to pay close attention to key information as you continue reading.
 
-Another variant is to read the first sentence and the last sentence, and
-between those two you should be able to come up with a differential diagnosis
-that can immediately rule out some of the answer choices.  *These two
-sentences help you frame the question, and the answer is often immediately
-apparent.*
+At this point, you can skim the answer choices and probably immediately rule
+out one or two.  In some cases, the answer is obvious (but don't jump until
+you've read everything)..
+
+Finally, go back to read the rest of the scenario and attack the answer
+choices.
+
+You’ll avoid the situation where you’re reading along thinking you know
+exactly the diagnosis, only to come to the end and realize the prompt is
+asking you something different like a side effect of the treatment for that
+obvious disease.  If you had known the prompt, you could have been reading the
+scenario and already thinking of how to make a connection to the prompt.
+Wasted time and energy.
+
+If there’s an image, look at it before reading the full question to see if you
+recognize anything.  Often, after only reading the final prompt and glancing
+at the answer choices, you can already rule out one or more wrong choices in
+seconds.  Classic histology can be a tip off.
+
 
 
 ## The first sentence contains a big clue.
