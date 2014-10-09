@@ -277,10 +277,10 @@ writeup.
 I completed a PhD in medical imaging and computer vision with the Department
 of [Electrical & Computer Engineering](http://ece.gatech.edu) at Georgia Tech.
 My advisors provided excellent guidance and support in both life and academia:
-[Yogesh Rathi][] (co-advisor) and [Allen Tannenbaum][] (co-advisor).  My
-committee included some of the most superb scientists I have ever worked with:
-[Tony Yezzi][], [Patricio Vela][], and [Sylvain Bouix][].  I worked and shared
-an office with some amazing friends: [Gallagher Pryor][], [John Melonakos][],
+[Yogesh Rathi][] and [Allen Tannenbaum][].  My committee included some of the
+most superb scientists I have ever worked with:  [Tony Yezzi][],
+[Patricio Vela][], and [Sylvain Bouix][].  I worked and shared an office with
+some amazing friends: [Gallagher Pryor][], [John Melonakos][],
 [Shawn Lankton][], Rome Sandhu, and more.  Afterward I had the opportunity to
 focus on diffusion MRI as a research fellow at
 [Brigham and Women's Hospital][pnl].  You can see more about the
