@@ -39,8 +39,12 @@
 <meta property="og:url" content="{{ url }}" />
 <meta property="article:author" content="https://www.facebook.com/jamesgmalcolm" />
 
-{% if page.keywords %}
-<meta name="keywords" content="{{ page.keywords }}" />
+{% assign keywords = page.keywords %}
+{% if page.tags %}
+{% capture keywords %}{{ keywords }}{% if keywords %},{% endif %}{{ page.tags | join: ',' }}{% endcapture %}
+{% endif %}
+{% if keywords.length > 0 %}
+<meta name="keywords" content="{{ keywords }}" />
 {% endif %}
 {% if page.photo_url %}
 <meta property="og:image" content="{{ page.photo_url }}" />

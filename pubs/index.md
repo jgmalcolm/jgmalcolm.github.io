@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 description: "Publications in Computer Vision, Image Processing, and Filtered Tractography"
-keywords: "computer vision, image processing, segmentation, graph cuts, graphcut, level sets, active contours, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering"
+keywords: computer vision, image processing, segmentation, graph cut, graphcut, level set method, active contour, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering
 published: true
 ---
 
