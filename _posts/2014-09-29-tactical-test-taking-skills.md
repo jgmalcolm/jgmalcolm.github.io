@@ -23,7 +23,8 @@ Wrestling with a question and the immediate emotional and intellectual
 feedback of seeing the answer helps solidify the knowledge.  There's some
 evidence that if you take a pretest before you've even been exposed to
 material, [you'll do better][failing] when it comes to the actual test
-afterward.
+afterward.  If your scores are not improving, you might not be ready.
+Consider stepping back to review more.
 
  [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
@@ -70,6 +71,50 @@ recognize anything.  Often, after only reading the final prompt and glancing
 at the answer choices, you can already rule out one or more wrong choices in
 seconds.  Classic histology can be a tip off.
 
+
+## The aftermath
+
+Always review explanations.  First for the correct answer, second for your
+wrong answer, but also for all the other answers.  Look for how you could have
+ruled out each wrong answer.  Find the topic in your notes, underline the
+tested fact, emphasize the most important physical or lab findings, etc.  Put
+a tally mark in the margin indicating the topic was tested.  Over time, the
+highly tested topics become apparent.
+
+The NBME self assessments do not allow you to review individual answers.
+These are still good uses of time because you practice your technique against
+the real benchmark and you do get an idea of your weak subjects.
+
+
+
+## High-Yield Material
+
+Not all information is weighted equally.  Every time a concept is tested, put
+a dot in the margin of your notes.  You'll soon start to see which topics are
+most important.  Taking it one step further, you might want to only note items
+you get wrong: no sense noting what material you already know.
+
+
+
+
+## Review topics, not isolated details
+
+If you get a question wrong, don't just memorize the specific fact you missed.
+Go and skim over the entire disease or pathway in context.  If the answer
+stems were all a cluster of related diseases, skim those and understand how to
+compare and contrast.  If it was a bone tumor question and the answer was a
+particular bone cancer, review the specifics of that cancer, but also do a
+quick recap of the other ones.  If the answer was a particular enzyme in the
+purine salvage pathway, review the entire pathway.  Take every opportunity to
+learn in context.
+
+
+## Attacking a question bank
+
+Consider doing a test with all easy questions so you can start easing into
+concepts and get some positive vibes going.  However, don’t be fooled into
+thinking this is your actual performance until you’ve cut your teeth on some
+harder questions.
 
 
 ## The first sentence contains a big clue.
@@ -119,7 +164,7 @@ Your answer needs to account for every abnormal lab value given.  If there’s
 some seemingly completely unrelated lab value that’s wildly abnormal and you
 cannot explain it with your answer, then think harder about the other choices.
 
-## Ruling out answers
+## Ruling out answers & guessing intelligently
 
 Never jump to an answer without first ruling out 1-2 choices.  This will make
 sure you’re paying attention and not just jumping for a distractor.  Once you
@@ -200,48 +245,5 @@ zipping through.  Make sure you’ve taken into consideration every single
 symptom.
 
 
-## High-Yield Material
 
-Not all information is weighted equally.  Every time a concept is tested, put
-a dot in the margin of your notes.  You'll soon start to see which topics are
-most important.  Taking it one step further, you might want to only note items
-you get wrong: no sense noting what material you already know.
-
-
-
-## Review topics, not isolated details
-
-If you get a question wrong, don't just memorize the specific fact you missed.
-Go and skim over the entire disease or pathway in context.  If the answer
-stems were all a cluster of related diseases, skim those and understand how to
-compare and contrast.  If it was a bone tumor question and the answer was a
-particular bone cancer, review the specifics of that cancer, but also do a
-quick recap of the other ones.  If the answer was a particular enzyme in the
-purine salvage pathway, review the entire pathway.  Take every opportunity to
-learn in context.
-
-
-## The aftermath
-
-Always review explanations.  First for the correct answer, second for your
-wrong answer, but also for all the other answers.  Look for how you could have
-ruled out each wrong answer.  Find the topic in your notes, underline the
-tested fact, emphasize the most important physical or lab findings, etc.  Put
-a tally mark in the margin indicating the topic was tested.  Over time, the
-highly tested topics become apparent.
-
-
-The NBME self assessments do not allow you to review individual answers.
-These are still good uses of time because you practice your technique against
-the real benchmark and you do get an idea of your weak subjects.
-
-
-## Attacking a question bank
-
-Consider doing a test with all easy questions so you can start easing into
-concepts and get some positive vibes going.  However, don’t be fooled into
-thinking this is your actual performance until you’ve cut your teeth on some
-harder questions.
-
-
-  > Thanks to my classmate Juan-Manuel Duran for suggestions.
+> Thanks to my classmates Juan-Manuel Duran and Jason Boulter for discussions.

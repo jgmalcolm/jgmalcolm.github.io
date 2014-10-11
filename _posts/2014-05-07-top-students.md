@@ -107,7 +107,11 @@ indicate what material came up in questions.  Put a small dot in the margin
 every time a question hit on a concept, and then you'll quickly start to see
 what are the high yield topics.
 
-[testing effect]: https://en.wikipedia.org/wiki/Testing_effect
+> Read more on [Tactical Test-Taking Skills][tactical]
+
+ [testing effect]: https://en.wikipedia.org/wiki/Testing_effect
+ [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
+ [tactical]: {% post_url 2014-09-29-tactical-test-taking-skills %}
 
 
 ## Spaced repetition
@@ -134,6 +138,8 @@ e.g. [med school boards][usmle].  Read more about [incremental learning] and
 [sivers]: http://sivers.org/srs
 [janki]: http://www.jackkinsella.ie/2011/12/05/janki-method.html
 [griffel]: https://medium.com/medium-redef/5481606b087a
+
+
 
 ## Balance
 
