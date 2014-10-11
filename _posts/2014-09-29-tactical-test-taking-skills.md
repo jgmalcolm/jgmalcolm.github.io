@@ -23,8 +23,8 @@ Wrestling with a question and the immediate emotional and intellectual
 feedback of seeing the answer helps solidify the knowledge.  There's some
 evidence that if you take a pretest before you've even been exposed to
 material, [you'll do better][failing] when it comes to the actual test
-afterward.  If your scores are not improving, you might not be ready.
-Consider stepping back to review more.
+afterward.  If your scores are not improving or you simply feel lost, you
+might not be ready.  Consider stepping back to review more.
 
  [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
