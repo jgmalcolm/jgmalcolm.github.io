@@ -1,3 +1,14 @@
+body {
+    color: #3A4145;
+    background-color: #F1F3F2;
+}
+blockquote {
+    color: #767676;
+}
+a {
+    color: #ae1429;
+}
+
 .header-link {
   font-size: 75%;
   opacity: 0;
