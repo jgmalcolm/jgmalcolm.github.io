@@ -17,18 +17,19 @@ exams.
 
 Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
-books and notes.  You should jump into doing questions before you feel ready.
-If you wait until you feel ready, you’re too late.  Questions sharpen
-contrasts, a key part of learning to differentiate diseases and disorders.
-Don’t wait until you’ve reviewed to start questions; consider the questions
-and working through the explanations as part of the learning process.
-Wrestling with a question and the immediate emotional and intellectual
-feedback of seeing the answer helps solidify the knowledge.  There's some
-evidence that if you take a pretest before you've even been exposed to
-material, [you'll do better][failing] when it comes to the actual test
-afterward.  If your scores are not improving or you simply feel lost, you
-might not be ready.  Consider stepping back to review more.
+books and notes.  You should jump into doing questions
+[before you feel ready][retrieval].  If you wait until you feel ready, you’re
+too late.  Questions sharpen contrasts, a key part of learning to
+differentiate diseases and disorders.  Don’t wait until you’ve reviewed to
+start questions; consider the questions and working through the explanations
+as part of the learning process.  Wrestling with a question and the immediate
+emotional and intellectual feedback of seeing the answer helps solidify the
+knowledge.  There's some evidence that if you take a pretest before you've
+even been exposed to material, [you'll do better][failing] when it comes to
+the actual test afterward.  If your scores are not improving or you simply
+feel lost, you might not be ready.  Consider stepping back to review more.
 
+ [retrieval]: http://www.sciencemag.org/content/331/6018/772.full
  [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 Drilling on questions also helps you understand your own psychology.
