@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "'Washington: A Life'"
+title: "Washington: A Life"
 tag:
 - review
 ---
