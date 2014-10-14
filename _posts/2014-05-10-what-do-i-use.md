@@ -6,6 +6,10 @@ tags:
 - tools
 ---
 
+The right mix of tools can save you hours a week, or cost you hours.  I'm
+always looking for better ways of doing things and new ways of getting
+leverage.  Here are lists of the hardware, software, and services I use daily.
+
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air)
 * [iPhone 5][iphone] apps:

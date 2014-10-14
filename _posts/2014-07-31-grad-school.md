@@ -6,6 +6,7 @@ tags:
 - studying
 ---
 
+
 ## Work on important projects
 
 Whatever you do, make sure it's worth it.  You want your time and energy to
