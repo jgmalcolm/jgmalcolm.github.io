@@ -39,34 +39,12 @@ personality and learned to master his temper and curb his tongue."
 hour misspent is lost forever” and that “future years cannot compensate for
 lost days at this period of your life.”
 
-"When his adopted grandson entered college, Washington lectured him thus:
-“Light reading (by this, I mean books of little importance) may amuse for the
-moment, but leaves nothing solid behind.”"
-
 "In trying to form himself as an English country gentleman, the self-invented
 young Washington practiced the classic strategy of outsiders: he studied
 closely his social betters and tried to imitate their behavior in polite
 society. Whether to improve his penmanship or perhaps as a school assignment,
 he submitted to the drudgery of copying out 110 social maxims from The Rules
 of Civility and Decent Behavior in Company and Conversation,"
-
-
-"Some practical reasons made Washington an excellent choice. He knew the
-western country from surveying; had the robust constitution to survive the
-winter woods; was mostly unflappable; had a mature appearance and sound
-judgment; and was a model youth, with no tincture of rowdiness in his
-nature. In certain ways, he was a very old young man. In London’s Gentleman’s
-Magazine, an approving author explained Washington’s selection by stating that
-he was “a youth of great sobriety, diligence, and fidelity.”"
-
-
-"Destiny had now conferred upon Washington a pivotal place in colonial, and
-even global, affairs, for the Jumonville incident was recognized as the
-opening shot that precipitated the French and Indian War, known in Europe as
-the Seven Years’ War. In the words of Sir Horace Walpole in London, “The
-volley fired by a young Virginian in the backwoods of America set the world on
-fire.”"
-
 
 "Washington believed that ambitious men should hide their true selves, retreat
 into silence, and not tip people off to their ambition. To sound out people,
@@ -86,16 +64,6 @@ early risers, used every moment profitably, and stuck to the same daily
 routines."
 
 
-"The newlyweds were by no means prudish. In his first postnuptial order to
-London, George ordered four ounces of Spanish fly, a popular aphrodisiac
-prepared from dried beetles. At some point that year, he also drew up a list
-of books inherited from the Custis estate that may disclose something of the
-amorous interests of Daniel and Martha Custis, or perhaps of Daniel’s
-father. The couple possessed a copy of Conjugal lewdness: or matrimonial
-whoredom by Daniel Defoe and The lover’s watch: or the art of making love by
-Aphra Behn."
-
-
 "As best we can tell, Mary Ball Washington boycotted the wedding and,
 according to Martha’s biographer Patricia Brady, may not have met the bride
 until the year after the wedding."
@@ -112,30 +80,6 @@ that the little ones would follow of themselves.”10 Later on Washington
 coached his stepson on how to be a Virginia legislator, reminding him to be
 punctual in attendance and “hear dispassionately and determine coolly all
 great questions.”"
-
-
-"Perhaps the earthiest comment Washington ever made about sex occurred when he
-learned of the marriage of forty-seven-year-old Colonel Joseph Ward. He seemed
-to find forty-seven a comically advanced age for matrimony. “I am glad to hear
-that my old acquaintance Colo. Ward is yet under the influence of vigorous
-passions,” he told a correspondent. He supposed that Ward, “like a prudent
-general,” had “reviewed his strength, his arms, and ammunition before he got
-involved in an action. But if these have been neglected . . . let me advise
-him to make the first onset upon his fair del Tobosa
-[Dulcinea del Toboso, the country girl in Don Quixote] with vigor that the
-impression may be deep, if it cannot be lasting or frequently renewed.”"
-
-
-"Historians have often pondered the paradox of why rich Virginia planters
-later formed a hotbed of revolutionary ferment, and the explanation partly
-lies in their long, sullen dependence upon London factors."
-
-
-"By the Revolutionary War, Washington made a regular practice of inoculating
-slaves against smallpox. The standard method was to scrape contaminated matter
-from the pustules of a victim with a mild case of smallpox, then slip it on a
-thread under the skin of the inoculated person. This produced a mild case of
-the disease, which prevented the more virulent form."
 
 
 "Whether on the plantation, in the army, or in government, he stressed the
