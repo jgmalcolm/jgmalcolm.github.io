@@ -7,10 +7,13 @@ tags:
 - studying
 ---
 
-While most of this is from med-school tests, the principles apply to nearly
-all multiple choice exams.
+Med school is all test after test after test, and so a little over a year into
+it and I'm noticing some patterns.  Here are simple strategies that brought
+order and a system to the chaos that can be test day.  While most of this is
+from med-school tests, the principles apply to nearly all multiple choice
+exams.
 
-## Practice
+## Practice questions
 
 Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
