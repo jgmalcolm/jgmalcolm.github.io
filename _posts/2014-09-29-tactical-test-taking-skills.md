@@ -119,6 +119,9 @@ harder questions.
 
 ## The first sentence contains a big clue.
 
+The first sentence contains probably the most important clue and sets the
+context.  Here are a few classic tip-offs.
+
 * chief complaint - your diagnosis must absolutely explain this
    * whatever the patient came in complaining of is the most important thing to address
 * race - anytime race is mentioned, it’s a clue
@@ -135,6 +138,9 @@ harder questions.
 * exotic environment
    * an emergency department in the third world - think of old drugs not used anymore in the US
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
+* immigrant who recently became ill
+   * immigrated long ago: unvaccinated
+   * immigrated recently: endemic disease
 
 
 ## Avoid outliers
