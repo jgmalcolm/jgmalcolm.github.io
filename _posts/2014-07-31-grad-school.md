@@ -6,6 +6,11 @@ tags:
 - studying
 ---
 
+I should admit from the start that I didn't do all of these.  If you could
+manage to do them all, you would be a rock star.  These are things I wish I
+did, in some cases saw others do.  Some ideas might resonate with you, others
+might fall flat.  Grad school is a time to find your own path.
+
 
 ## Work on important projects
 
