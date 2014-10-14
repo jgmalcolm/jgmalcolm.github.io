@@ -1,10 +1,13 @@
 ---
 title: "What drugs are you on?"
 layout: post
-description: "Medications are a key part of taking a patient history.  While I never say it the way the title has it, here's some tips and tricks I've learned to get all the facts."
+description: "Medications are a key part of taking a patient history."
 tags:
   - med school
 ---
+
+While I never say it the way the title has it, here's some tips and tricks
+I've learned to get all the facts.
 
 I typically start with:
 
