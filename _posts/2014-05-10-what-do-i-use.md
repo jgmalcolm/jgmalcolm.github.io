@@ -35,6 +35,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
   * [Facebook bookmarklet][fb] to share pages with friends and family.
   * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
+  * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
@@ -48,6 +49,8 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * Emacs/vim/bash/screen/git.  Browse my
   [dot files](https://github.com/jgmalcolm/dotfiles).
 
+[Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
+[GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
 
 ## Services
 * [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
