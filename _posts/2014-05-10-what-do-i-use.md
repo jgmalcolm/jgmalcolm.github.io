@@ -46,7 +46,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [TotalTerminal] for quick full-screen access to the command line.
 * Emacs/vim/bash/screen/git.  Browse my
-  [config files](https://github.com/jgmalcolm/config).
+  [dot files](https://github.com/jgmalcolm/dotfiles).
 
 
 ## Services
