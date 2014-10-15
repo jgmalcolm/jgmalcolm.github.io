@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Search"
+---
+
+<h1 id="key"></h1>
+<div id="results"></div>
+
+<script>
+(function(){
+
+  function getParam(name) {
+      name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+      var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+          results = regex.exec(location.search);
+      return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+  }
+
+  <!-- set title -->
+  var query = getParam('q').toLowerCase();
+  $("#key").html(query);
+
+  <!-- populate results -->
+  $.getJSON("posts.json", function(data) {
+    var items = [];
+    $.each(data, function (idx, entry) {
+      if (entry.tags.indexOf(query) >= 0) {
+        items.push("<p><h3 class='post-title'><a href='" + entry.url + "'>" + entry.title + "</a></h3>" + entry.desc + "</p>");
+      }
+    });
+    $("#results").html((items.length > 0) ? items.join("") : "<i>No results found for '" + query + "'</i>");
+  });
+
+})();
+</script>
