@@ -2,7 +2,7 @@
 layout: post
 title: Free medical dictionary for Microsoft Office
 tags:
-- med school
+- medschool
 - tools
 ---
 

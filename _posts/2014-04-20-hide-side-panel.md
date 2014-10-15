@@ -2,7 +2,7 @@
 title: Hide the side panel in Google Slides
 layout: post
 tags:
-- Google Drive
+- GoogleDrive
 - tools
 ---
 
