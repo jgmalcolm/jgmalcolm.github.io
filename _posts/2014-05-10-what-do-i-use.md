@@ -39,7 +39,9 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
-  only lets you switch between full applications, not between individual open Word docs)
+  only lets you switch between full applications with Command+Tab, and
+  Command+` between windows within one application; Witch lets you switch
+  between individual windows in separate applications, just like Windows)
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [F.lux] to alter my laptop's screen colors to the time of day (blue light is
