@@ -12,6 +12,16 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 
 ![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
 
+
+## Table of Contents
+- [Beginner](#beginner) - getting started with assembler code, registers, arithmetic, flags, and memory
+- [Intermediate](#intermediate) - more details on the beginner topics
+- [Graphics](#graphics) - manipulating pixels and grayscale
+- [Advanced](#advanced) - ports, hidden TI-OS features
+- [Opcodes](#opcodes) - listing of all z80 opcodes (numeric or alphabetic)
+- [Variables](#variables) - manipulate TI-OS variables
+
+
 ## Beginner
 
 - [Number Bases](beginner/numb.htm) - Learn how to understand and convert
@@ -155,14 +165,14 @@ and how the pixels are stored in memory.
 
 
 
-# Opcodes
+## Opcodes
 
 - [Overview](opcodes/opcodes.htm)
 - [Sorted by value](opcodes/opcodesB.htm)
 - [Sorted by name](opcodes/opcodesN.htm)
 
 
-# Variables
+## Variables
 
 - [TI86 Variable Manipulation](variables/ti86.htm) - Manipulating data behind
   TI-OS' back. What are the Operator Registers?
