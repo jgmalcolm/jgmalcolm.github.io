@@ -26,7 +26,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   light.  I got the 3G model which has come in handy fetching new books while
   traveling in the US and abroad.  Integrates with [Instapaper][instapaper].
 * sound:
-  * stationary listening: [Audéo earbuds](http://www.amazon.com/dp/B003V9QDXK) - superb sound, tight fit (sidenote: might be interesting to [benchmark them][bench])
+  * stationary listening: [Audéo earbuds](http://www.amazon.com/dp/B003V9QDXK) - expensive but superb sound and snug fit (sidenote: might be interesting to [benchmark them][bench])
   * listening on the go: [Jarv NMotion Sport Wireless Bluetooth](http://www.amazon.com/gp/product/B00JAAJ1F6) - good sound, excellent price, great for commute and cordless jogging (despite the description saying not good for jogging, they're fine)
 
   [bench]: http://www.audiocheck.net/soundtests_headphones.php
