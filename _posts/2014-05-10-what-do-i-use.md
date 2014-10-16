@@ -25,7 +25,12 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   interesting books and articles.  The backlit screen is fantastic in low
   light.  I got the 3G model which has come in handy fetching new books while
   traveling in the US and abroad.  Integrates with [Instapaper][instapaper].
-* [Audéo earbuds](http://www.amazon.com/Audeo-Perfect-Bass-Earphones-Black/dp/B003V9QDXK) - excellent sound, tight fit[^bench]
+* sound:
+  * stationary listening: [Audéo earbuds](http://www.amazon.com/dp/B003V9QDXK) - superb sound, tight fit (sidenote: might be interesting to [benchmark them][bench])
+  * listening on the go: [Jarv NMotion Sport Wireless Bluetooth](http://www.amazon.com/gp/product/B00JAAJ1F6) - good sound, excellent price, great for commute and cordless jogging (despite the description saying not good for jogging, they're fine)
+
+  [bench]: http://www.audiocheck.net/soundtests_headphones.php
+
 
 ## Software
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions:
@@ -96,7 +101,6 @@ snippet of JavaScript.  To use one, drag it to your Bookmarks (toolbar).
 [fb]: https://www.facebook.com/share_options.php
 [gmail]: http://gmailblog.blogspot.com/2008/03/2-hidden-ways-to-get-more-from-your.html
 [calender]: https://support.google.com/calendar/answer/36604
-[^bench]: Might be interesting to [benchmark them](http://www.audiocheck.net/soundtests_headphones.php)
 [Adblock]: https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
 [µBlock]: https://chrome.google.com/webstore/detail/%C2%B5block/cjpalhdlnbpafiamejdnhcphjbkeiagm
 [LastPass]: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
