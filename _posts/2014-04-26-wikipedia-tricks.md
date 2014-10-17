@@ -2,9 +2,7 @@
 title: Wikipedia Tricks
 layout: post
 keywords: "Wikipedia, JavaScript, themes"
-tags:
-  - Wikipedia
-  - tools
+tags: Wikipedia, tools
 published: true
 ---
 

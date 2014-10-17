@@ -2,8 +2,7 @@
 layout: post
 title: "Grad school: What I wish I did"
 description: "You're only stupid enough to get a PhD once.  Here are some lessons learned the hard way."
-tags:
-- studying
+tags: studying
 ---
 
 I should admit from the start that I didn't do all of these.  If you could

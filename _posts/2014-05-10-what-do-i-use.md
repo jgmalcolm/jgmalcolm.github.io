@@ -2,8 +2,7 @@
 title: "What do I use?"
 layout: post
 description: "A list of tools I use daily to work efficiently, stay focused, and keep organized."
-tags:
-- tools
+tags: tools
 ---
 
 The right mix of tools can save you hours a week, or cost you hours.  I'm

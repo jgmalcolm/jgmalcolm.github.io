@@ -41,9 +41,9 @@
 
 {% assign keywords = page.keywords %}
 {% if page.tags %}
-{% capture keywords %}{{ keywords }}{% if keywords %},{% endif %}{{ page.tags | join: ',' }}{% endcapture %}
+  {% capture keywords %}{{ keywords }}{% if keywords %},{% endif %}{{ page.tags }}{% endcapture %}
 {% endif %}
-{% if keywords.length > 0 %}
+{% if keywords.size > 0 %}
 <meta name="keywords" content="{{ keywords }}" />
 {% endif %}
 {% if page.photo_url %}
