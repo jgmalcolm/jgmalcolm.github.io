@@ -6,6 +6,11 @@ keywords: STEP1
 description: "Ranking study resources for the first two years of med school."
 ---
 
+There are a billion resources available to help you study, and new ones pop up
+every year.  I'm not going to even try to catalog them all.  This is a short
+list of the resources I frequented during the didactic portion of med school.
+
+
 * First Aid: http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428
   (referred to as First Aid or FA) and
   http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744
