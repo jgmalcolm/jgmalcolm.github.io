@@ -19,7 +19,11 @@ description: "Ranking study resources for the first two years of med school."
      resource will improve your score; only time spent learning will improve
      your score.  (thank Jason Boulter)
 
+## Videos
+
 * YouTube channels
+* [Handwritten Tutorials](//handwrittentutorials.com)
+  ([YouTube channel](https://www.youtube.com/user/harpinmartin)).
 
 
 ## Spaced Repetition
