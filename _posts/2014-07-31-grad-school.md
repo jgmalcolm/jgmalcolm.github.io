@@ -211,7 +211,10 @@ technique.
 Evangelize about your research area.  Link it into other relevant topics.
 Link to seminal research and online resources.  Provide a road map for newbies
 and generations to come.  This will help you organize your own thoughts and
-mental map of the research landscape.  See [how to customize Wikipedia]({% post_url 2014-04-26-wikipedia-tricks %}).
+mental map of the research landscape.  If you're going to be spending a lot of
+time on Wikipedia, [customize the user interface][wikipedia] for efficiency.
+
+  [wikipedia]: {% post_url 2014-04-26-wikipedia-tricks %}
 
 
 ## Papers and publishing
