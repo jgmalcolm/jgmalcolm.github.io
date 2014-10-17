@@ -117,12 +117,6 @@ description: "Ranking study resources for the first two years of med school."
 # Question Banks
 
 
-### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
-
-Consider buying a paper-based question bank because sometimes it's nice to
-study without your computer or outside on a sunny day.
-
-
 ### [U World](http://www.usmleworld.com/purchase.aspx).
 
 * $250 for qbank and self-assessment
@@ -131,13 +125,17 @@ study without your computer or outside on a sunny day.
 
 ### [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
-   * 2524 total questions
-   * 12mo subscription is $149 with $50 discount after free AMSA membership (regularly $199)
-      * http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx
-      * https://www.usmle-rx.com/amsa
-   * by the authors of First Aid, follows very closely
-   * Strategy
-      * Dont simply repeat questions you got wrong.  Instead, repeat questions that you thought were valuable (taught you something, had excellent explanations, drew a sharp contrast).  To do this, mark these valuable questions and later create a test of marked questions.
+* 2524 total questions
+* 12mo subscription is $149 with $50 discount after free AMSA membership
+  (regularly $199)
+   * http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx
+   * https://www.usmle-rx.com/amsa
+* by the authors of First Aid, follows very closely
+* Strategy
+   * Dont simply repeat questions you got wrong.  Instead, repeat questions
+     that you thought were valuable (taught you something, had excellent
+     explanations, drew a sharp contrast).  To do this, mark these valuable
+     questions and later create a test of marked questions.
 
 ### [Kaplan](http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html)
 
@@ -152,6 +150,15 @@ study without your computer or outside on a sunny day.
 * hard to say which is better
 * Kaplan has very thorough (better) explanations, but often too detailed
 * Rx ties directly into FA (the explanations literally show you the relevant FA pages)
+
+
+### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
+
+* Consider buying a paper-based question bank because sometimes it's nice to
+  study without your computer or outside on a sunny day.
+* I've found only a couple of questions duplicated in USMLE-Rx Qmax
+
+
 
 
 # Pathology
