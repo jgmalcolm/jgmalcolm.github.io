@@ -2,33 +2,9 @@
 title: Med School Resources
 layout: post
 tags: medschool, studying
-description: "A catalog of study aids for the first two years of med school."
+keywords: STEP1
+description: "Ranking study resources for the first two years of med school."
 ---
-
-* Slides are enough to study from to pass, but not enough to be at the top
-   * only refer to TR/audio (or LO) if you need explanation
-   * TR/audio tells you important/key
-   * classmate LOs can be too detailed or wordy but are good reviews
-   * if something on a slide is in different font/color then very important,
-     very good chance it will be on exam
-   * You should study first from EUSOM material (so you know what topics are
-     covered), then First Aid (to reinforce whats important for STEP), then
-     other 3rd party (to get different/better explanations).  Many students
-     get caught up in 3rd party materials and forget to cover Emory-specific
-     material that shows up on this specific module exam, but wasnt covered in
-     3rd party simply because its covered in other chapters of 3rd party
-     materials (ie. would show up on later modules).
-   * Conversely, only using external resources (FA, Pathoma, the
-     module-recommended text) will only get you 80-90% of the material for
-     Emorys MCQs and SA.  Every module will have lectures and questions that
-     arent even mentioned in the standard external resources.
-
-* YouTube channels
-
-* First Aid USMLE Step Question book (MCQs)
-   * http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029
-   * Human Disease: get a current copy and markup each section of questions as
-     you proceed
 
 * First Aid: http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428
   (referred to as First Aid or FA) and
@@ -43,10 +19,10 @@ description: "A catalog of study aids for the first two years of med school."
      resource will improve your score; only time spent learning will improve
      your score.  (thank Jason Boulter)
 
+* YouTube channels
 
-* U World (http://www.usmleworld.com/purchase.aspx)
-   * 90 days out - $250 for qbank and self-assessment ~1 Nov
-   * organize with classmates to purchase a group package
+
+## Spaced Repetition
 
 * https://firecracker.me - like Anki but pre-populated with First Aid material
    * read up on Spaced Repetition: http://www.gwern.net/Spaced%20repetition
@@ -132,7 +108,25 @@ description: "A catalog of study aids for the first two years of med school."
       * You need to spend time on weekends and vacations chipping away at
         questions, or they pile up.
 
-* USMLE-Rx https://www.usmle-rx.com/content/step-1-qmax
+
+
+# Question Banks
+
+
+### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
+
+Consider buying a paper-based question bank because sometimes it's nice to
+study without your computer or outside on a sunny day.
+
+
+### [U World](http://www.usmleworld.com/purchase.aspx).
+
+* $250 for qbank and self-assessment
+* Purchase about 90 days out from your STEP1 date
+* Organize your classmates to get a group discount
+
+### [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
+
    * 2524 total questions
    * 12mo subscription is $149 with $50 discount after free AMSA membership (regularly $199)
       * http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx
@@ -141,24 +135,33 @@ description: "A catalog of study aids for the first two years of med school."
    * Strategy
       * Dont simply repeat questions you got wrong.  Instead, repeat questions that you thought were valuable (taught you something, had excellent explanations, drew a sharp contrast).  To do this, mark these valuable questions and later create a test of marked questions.
 
-* Kaplan http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html
-   * 2006 total questions
-   * $210 with AMA membership ($20) for a total of $230
-      * regularly $300 without AMA membership)
+### [Kaplan](http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html)
 
-* Comparing Kaplan and Rx
-   * Kaplan has a terrible interface (Flash) and even worse iOS app
-   * Rx has an excellent, smooth web interface (HTML)
-   * hard to say which is better
-   * Kaplan has very thorough (better) explanations, but often too detailed
-   * Rx ties directly into FA (the explanations literally show you the relevant FA pages)
+* 2006 total questions
+* $210 with AMA membership ($20) for a total of $230
+   * regularly $300 without AMA membership)
 
-* Pathoma (https://www.pathoma.com)
-   * $99 for 12 month, video + slim review text
-   * highly, highly recommend (Youll also see it highly recommended in FA Step 1 resource recommendations appendix)
-   * 12 month subscription, so purchase 12 months out from exam (and use to review before exam), or purchase during Prologue 1 and then rely on the textbook during final month before exam -- either is okay, I did the former
-   * about 1.5 - 2.5 hours of video per module
-   * [record the audio][record audio]
+### Comparing Kaplan and Rx
+
+* Kaplan has a terrible interface (Flash) and even worse iOS app
+* Rx has an excellent, smooth web interface (HTML)
+* hard to say which is better
+* Kaplan has very thorough (better) explanations, but often too detailed
+* Rx ties directly into FA (the explanations literally show you the relevant FA pages)
+
+
+# Pathology
+
+### [Pathoma](https://www.pathoma.com)
+
+* $99 for 12 month, video + slim review text
+* highly, highly recommend (Youll also see it highly recommended in FA Step 1
+  resource recommendations appendix)
+* 12 month subscription, so purchase 12 months out from exam (and use to
+  review before exam), or purchase during Prologue 1 and then rely on the
+  textbook during final month before exam -- either is okay, I did the former
+* about 1.5 - 2.5 hours of video per module
+* [record the audio][record audio]
 
 [record audio]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
 
@@ -222,7 +225,7 @@ description: "A catalog of study aids for the first two years of med school."
 
 
 
-## Anatomy
+# Anatomy
 
 * Buy the recommended Clemente dissector and Netter atlas, same edition recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
