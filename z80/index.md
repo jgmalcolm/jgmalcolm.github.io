@@ -29,8 +29,8 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
   your calculator do all the work.
 - [z80 Processor](beginner/z80p.htm) - History and specifications of the z80
   processor. What's really behind the games.
-- [TI86 Specs](beginner/ti86.htm) - Basic information about the TI86 and its
-  ROM versions. Also some info on the LCD.
+- [TI86 Specs](beginner/ti86.htm) - Basic information about the TI86, ROM
+  versions, and the LCD.
 - [Format and Compiling](beginner/form.htm) - Start coding. Get the necessary
   tools to get you on your way. Walk through creating your first program
   and running it.
