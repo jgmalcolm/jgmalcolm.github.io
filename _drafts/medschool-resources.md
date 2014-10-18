@@ -9,26 +9,41 @@ description: "Ranking study resources for the first two years of med school."
 There are a billion resources available to help you study, and new ones pop up
 every year.  I'm not going to even try to catalog them all.  This is a short
 list of the resources I frequented during the didactic portion of med school.
+I've experimented with various channels for learning: review texts, memory
+palaces, video tutorials, spaced repetition software, physical note cards, and
+more.
 
 
-* First Aid: http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428
-  (referred to as First Aid or FA) and
-  http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744
-   * at start of school, purchase Basic Sciences
-   * through Healthy Human, use a current FA
-   * purchase new FA when it comes out (December), use that until Step 1
-      * give your old copy to an underclassman
-   * Consolidate resources: don't buy every book out there, experiment some to
-     find what works for you, but ultimately settle on a few resources and
-     know them thoroughly.  It's easy to be fooled into thinking buying a
-     resource will improve your score; only time spent learning will improve
-     your score.  (thank Jason Boulter)
+### [First Aid for STEP1](http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428)
 
-## Videos
+* Often referred to simply as First Aid or FA
+ * at start of school, purchase Basic Sciences
+ * through Healthy Human, use a current FA
+ * purchase new FA when it comes out (December), use that until Step 1
+    * give your old copy to an underclassman
+ * Consolidate resources: don't buy every book out there, experiment some to
+   find what works for you, but ultimately settle on a few resources and know
+   them thoroughly.  It's easy to be fooled into thinking buying a resource
+   will improve your score; only time spent learning will improve your score.
+   (thank Jason Boulter)
+
+### [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
+
+
+
+# Videos
 
 * YouTube channels
 * [Handwritten Tutorials](//handwrittentutorials.com)
   ([YouTube channel](https://www.youtube.com/user/harpinmartin)).
+* Khan Academy: [biology], [cells], [cellular respiration], [immunology], [human biology], [physiology], and more
+
+[cells]:                https://www.khanacademy.org/test-prep/mcat/cells
+[biology]:              https://www.khanacademy.org/science/biology
+[cellular respiration]: https://www.khanacademy.org/science/biology/cellular-respiration
+[immunology]:           https://www.khanacademy.org/science/biology/immunology
+[human biology]:        https://www.khanacademy.org/science/biology/human-biology
+[physiology]:           https://www.khanacademy.org/science/health-and-medicine
 
 
 ## Spaced Repetition
@@ -162,6 +177,10 @@ list of the resources I frequented during the didactic portion of med school.
 * Consider buying a paper-based question bank because sometimes it's nice to
   study without your computer or outside on a sunny day.
 * I've found only a couple of questions duplicated in USMLE-Rx Qmax
+* I sometimes use these as throwaway [pretest questions][pretesting] early on
+  in a module to "prime" my brain for key concepts to be on the lookout for.
+
+[pretesting]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 
 
