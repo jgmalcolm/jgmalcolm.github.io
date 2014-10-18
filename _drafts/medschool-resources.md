@@ -199,6 +199,7 @@ more.
 * [record the audio][record audio]
 
 [record audio]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
+[mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
 
 * Picmonic (http://picmonic.com)
    * $250 for 12 months, or $25/month
