@@ -10,7 +10,7 @@ layout: default
   {% if post.description %}
   <h4>{{ post.description }}</h4>
   {% endif %}
-  {{ post.excerpt | remove: '</p>' }}
-  <a href="{{ post.url }}">Continue reading...</a></p>
+
+  {{ post.excerpt }}
 </p>
 {% endfor %}
