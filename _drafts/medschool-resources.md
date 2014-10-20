@@ -16,19 +16,20 @@ more.
 
 ### [First Aid for STEP1](http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428)
 
+* Everything you need to know to pass STEP1.  Not a good primary learning
+  tool, but an excellent review
 * Often referred to simply as First Aid or FA
- * at start of school, purchase Basic Sciences
- * through Healthy Human, use a current FA
- * purchase new FA when it comes out (December), use that until Step 1
-    * give your old copy to an underclassman
- * Consolidate resources: don't buy every book out there, experiment some to
-   find what works for you, but ultimately settle on a few resources and know
-   them thoroughly.  It's easy to be fooled into thinking buying a resource
-   will improve your score; only time spent learning will improve your score.
-   (thank Jason Boulter)
+* Every med student will purchase a copy of this.  New editions come out
+  before Christmas.  This is the book you will likely spend the most time with
+  in the months leading up to STEP1.
+  * Consolidate resources: annotate
 
 ### [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
 
+* A companion to First Aid for STEP1, but this is a learning tool.
+* Covers all basic science in First Aid
+* You could probably get buy purchasing this instead of the random specialized
+  and overly-detailed books that professors recommend.
 
 
 # Videos
@@ -163,13 +164,16 @@ more.
 * $210 with AMA membership ($20) for a total of $230
    * regularly $300 without AMA membership)
 
-### Comparing Kaplan and Rx
+### Comparing Kaplan and USMLE-Rx
 
 * Kaplan has a terrible interface (Flash) and even worse iOS app
 * Rx has an excellent, smooth web interface (HTML)
 * hard to say which is better
-* Kaplan has very thorough (better) explanations, but often too detailed
-* Rx ties directly into FA (the explanations literally show you the relevant FA pages)
+* Kaplan has very thorough (better) explanations, but often too detailed.
+  That said, if you get good at Kaplan, you'll probably know the material
+  nuances better than with Rx.
+* Rx ties directly into FA (the explanations literally show you the relevant
+  FA pages).  Use it as a way to learn FA and then move on to UWorld.
 
 
 ### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
@@ -183,44 +187,59 @@ more.
 [pretesting]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 
-
-
 # Pathology
 
 ### [Pathoma](https://www.pathoma.com)
 
 * $99 for 12 month, video + slim review text
-* highly, highly recommend (Youll also see it highly recommended in FA Step 1
+* highly, highly recommend (you'll also see it highly recommended in FA Step 1
   resource recommendations appendix)
 * 12 month subscription, so purchase 12 months out from exam (and use to
-  review before exam), or purchase during Prologue 1 and then rely on the
-  textbook during final month before exam -- either is okay, I did the former
-* about 1.5 - 2.5 hours of video per module
+  review before exam)
+* about 1.5 - 2.5 hours of video per organ system
+
+
+
+# Misc resource links
+
+[BRS Physiology](http://www.amazon.com/BRS-Physiology-Board-Review-Series/dp/0781798760)
+
+[Goljan Rapid Review Pathology](http://www.amazon.com/Rapid-Review-Pathology-STUDENT-CONSULT/dp/0323087876)
+
+
+### [Picmonic](http://picmonic.com)
+
+* static [memory scenes] with audio guide
+* $250 for 12 months, or $25/month
+* I use this only for spot treatment of various drugs and diseases that often
+  times just require brute memorization (eg. vasculitides) rather than
+  conceptual material (eg. pathophysiology of systems)
+* Whenever I hit something in Firecracker/etc that I have trouble recalling, I
+  skim the picture in Picmonic.
+* I only use the Learn feature (not the Explore or other)
+* I'm thinking the [Sketchy Micro](#sketchy-micro) approach is better for bacteria
 * [record the audio][record audio]
 
-[record audio]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
-[mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
 
-* Picmonic (http://picmonic.com)
-   * $250 for 12 months, or $25/month
-   * I use this only for spot treatment of various drugs and diseases that often times just require brute memorization (eg. vasculitides) rather than conceptual material (eg. pathophysiology of systems)
-   * Whenever I hit something in Firecracker/etc that I have trouble recalling, I skim the picture in Picmonic.
-   * I only use the Learn feature (not the Explore or other)
-   * Im thinking Sketchy Micro is better
+### [Sketchy Micro](http://sketchymicro.com)
 
-* Sketchy Micro http://sketchymicro.com/
-   * video memory scenes of 47 bacteria
-   * create free account to get: S aureus, S epidermidis, S saprophyticus, S
-     pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus
-     * examples: https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w
-   * $40/6mo
-   * Focused only on bacteria
-   * Compared to Picmonic:
-      * only bacteria (Picmonic: bacteria + viral + diseases + drugs + pathophys + more)
-      * more cohesive scenes, less ridiculousness
-      * for me, watching the scene getting drawn is more captivating (Picmonic: static scene)
-      * cheaper ($7/mo versus $25/mo for Picmonic)
-   * [record the audio][record audio]
+* video [memory scenes] of 47 bacteria
+* create free account to get: S aureus, S epidermidis, S saprophyticus, S
+  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus
+  * examples: https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w
+* $40/6mo
+* Focused only on bacteria
+* Compared to Picmonic:
+   * Overall higher quality and better explanations
+   * only bacteria (Picmonic: bacteria + viral + diseases + drugs + pathophys + more)
+   * more intuitive scenes (Picmonic can be ridiculous and make no sense)
+   * for me, watching the scene getting drawn is more captivating (Picmonic: static scene)
+   * cheaper ($7/mo versus $25/mo for Picmonic)
+   * simple but poor navigation vs Picmonic which is overly complicated and
+     buggy in a lot of cases
+* [record the audio][record audio]
+
+[memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
 * Edward Goljan audio (google for it)
    * A series of lectures recorded at an AMA conference years ago
@@ -285,9 +304,35 @@ Blogs
 
 
 
-## Misc resource links
+# Recording audio from video
 
-http://www.amazon.com/BRS-Physiology-Board-Review-Series/dp/0781798760
-http://www.amazon.com/Rapid-Review-Pathology-STUDENT-CONSULT/dp/0323087876 - probably too dense but excellent tables, figures, and margin notes
-http://www.usmlestep.com/edward-f-goljan.htm $30 (audio + notes) - not recommended, can use free audio and follow along in his Rapid Review book
-Emory Proxy Bookmarklet - http://proxybookmarklet.com/proxy.php?s=emory - access emory library articles/texts from off campus
+For Pathoma and SketchyMicro, I recorded the audio to mp3 so that I could
+listen to it while working out or on the commute.  While lacking the visual
+learning experience it's a way to eek out a little extra learning, but keep in
+mind that it's not as engaging or valuable as watching the videos to pick up
+the mental imagery.
+
+* Install Audacity to record and export audio
+* Install Soundflower to channel audio from your browser to Audacity
+
+* Record settings
+  * Enable 'Sound activated recording' so you won't have to start/stop/trim;
+    it'll just start when the video starts, and stop when the video stops.
+    * Audacity: Preferences > Recording > enable 'Sound activated recording'
+  * Audacity
+    * Set the microphone to Soundflower (2ch), Mono
+* MP3 export settings
+  * ID3 tags: Artist / Album / Track
+    * Pathoma / chapter / topic
+    * SketchyMicro / bug group / bug
+    * Picmonic / organ system play list / vignette
+  * Encoding settings
+    * Install either LAME or FFmpeg
+    * 22 KHz sampling, (fast) variable 65-105 kbps, mono
+
+
+* [record the audio][record audio] so you can listen to it while on your
+  commute or working out ([optimal mp3 settings][mp3 settings])
+
+[record audio]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
+[mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
