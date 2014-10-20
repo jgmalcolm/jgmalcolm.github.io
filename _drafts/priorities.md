@@ -13,7 +13,9 @@ You can use Time Boxing to force yourself to
 You can use the Pareto Princple to work on the most valuable parts of a
 project.
 
-You can be efficient with your time and get more done faster.
+You can be efficient with your time and get more done faster.  You can spend
+hours and hours reading productivity blogs that just help you do the wrong
+thing faster.
 
 
 Growing up is an undefined process.
