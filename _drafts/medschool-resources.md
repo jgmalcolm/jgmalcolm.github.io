@@ -337,3 +337,7 @@ the mental imagery.
 
 [wikihow]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
 [mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
+
+
+> Thanks to classmates Evan McClure and Giacomo Waller for tips on recording
+> MP3s
