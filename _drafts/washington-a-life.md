@@ -946,6 +946,7 @@ became an official federal holiday.
 
 Washington would have died either way from his upper respiratory infection,
 but the multiple rounds of blood letting sure hastened things.
+[More details.](https://en.wikipedia.org/wiki/George_Washington#Death)
 
 
 
