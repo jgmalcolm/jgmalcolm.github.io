@@ -10,7 +10,8 @@ was the commanding general in the American Colonial Revolution, reluctant
 political figure, and by his actions defined the role of President of the
 United States.
 
-Amazon: ['Washington: A Life' by Ron Chernow][amazon]
+Amazon:
+['Washington: A Life' by Ron Chernow](http://www.amazon.com/Washington-A-Life-Ron-Chernow/dp/0143119966)
 
 ## Take away points
 
@@ -27,21 +28,26 @@ Amazon: ['Washington: A Life' by Ron Chernow][amazon]
   more difficult for him to collect on the debts he was owed by land tenants
   and such.
 
+
+
 ## Great quotes
 
 
 ### Discipline
 
-"As president, he lectured a young relative about to enter college that “every
-hour misspent is lost forever” and that “future years cannot compensate for
-lost days at this period of your life.”
+> "As president, he lectured a young relative about to enter college that
+> “every hour misspent is lost forever” and that “future years cannot
+> compensate for lost days at this period of your life.”"
 
-"A master of the profitable use of time, Washington listed his monthly doings
-in his diary under the rubric “Where and how my time is spent.” Whether for
-business or social occasions, his punctuality was legendary, and he expected
-everyone to be on time. In his business dealings, he boasted that “no man
-discharges the demand of wages or fulfills agreements with more punctuality
-than I do.”"
+Corollary: Waste a dollar and you can always later earn a dollar to replace
+it, but waste an hour and it's gone forever.
+
+> "A master of the profitable use of time, Washington listed his monthly
+> doings in his diary under the rubric “Where and how my time is spent.”
+> Whether for business or social occasions, his punctuality was legendary, and
+> he expected everyone to be on time. In his business dealings, he boasted
+> that “no man discharges the demand of wages or fulfills agreements with more
+> punctuality than I do.”"
 
 "As the eldest child, Martha Dandridge was occupied with domestic skills that
 she later taught to indentured servants and slaves at Mount Vernon. Her
@@ -892,33 +898,56 @@ until the year after the wedding."
 
 ### Random
 
-"The Americans are a curious, original people. They know how to govern
-themselves, but nobody else can govern them.”"
+When the British surrendered New York City back to the Americans, one
+anonymous British officer was still gathering his belongings after the British
+had departed, and he noted that the Americans were peacefully reentering the
+city compared to the relatively less peaceful camp-life during the British
+occupation.  He noted:
 
-"Unable to tell a lie, Washington admitted in his diary that he had “cut down
-the two cherry trees in the courtyard.”"
+> "The Americans are a curious, original people. They know how to govern
+> themselves, but nobody else can govern them."
 
-"In addition to his better-known title of Father of His Country, Washington is
-also revered in certain circles as the Father of the American Mule."
+> "Unable to tell a lie, Washington admitted in his diary that he had “cut
+> down the two cherry trees in the courtyard.”"
 
-On Thomas Jefferson's often duplicitous actions: "The letter gave the world a
-peek into a very different Thomas Jefferson: not the political savant but the
-crafty, partisan operative marked by unrelenting zeal."
+That's where that saying comes from.  This was from his own courtyard once the
+Mount Vernon property was his; not when he was a child.
 
-"Prior to leaving New York, Washington also signed a proclamation for the
-first Thanksgiving on November 26, declaring that “Almighty God” should be
-thanked for the abundant blessings bestowed on the American people, including
-victory in the war against England, creation of the Constitution,
-establishment of the new government, and the “tranquillity, union, and plenty”
-that the country now enjoyed."
+> "In addition to his better-known title of Father of His Country, Washington
+> is also revered in certain circles as the Father of the American Mule."
 
-"Joined at last by Dr. Brown, they took two more pints from Washington's
-depleted body. It has been estimated that Washington surrendered five pints of
-blood altogether, or about half of his body's total supply."
+Washington always sought to experiment in better agricultural methods and more
+hardy livestock.
+
+On Thomas Jefferson's often duplicitous actions:
+
+> "The letter gave the world a peek into a very different Thomas Jefferson:
+> not the political savant but the crafty, partisan operative marked by
+> unrelenting zeal."
+
+> "Prior to leaving New York, Washington also
+> [signed a proclamation][proclamation] for the first Thanksgiving on November
+> 26, declaring that “Almighty God” should be thanked for the abundant
+> blessings bestowed on the American people, including victory in the war
+> against England, creation of the Constitution, establishment of the new
+> government, and the “tranquillity, union, and plenty” that the country now
+> enjoyed."
+
+While Washington set the date for one of the first Thanksgiving celebrations,
+it was not until
+[Lincoln](https://en.wikipedia.org/wiki/Thanksgiving_(United_States)) that it
+became an official federal holiday.
+
+  [proclamation]: http://www.huffingtonpost.com/2013/11/28/thanksgiving-proclamation_n_4078958.html
+
+> "Joined at last by Dr. Brown, they took two more pints from Washington's
+> depleted body. It has been estimated that Washington surrendered five pints
+> of blood altogether, or about half of his body's total supply."
+
+Washington would have died either way from his upper respiratory infection,
+but the multiple rounds of blood letting sure hastened things.
 
 
-
-[amazon]: http://www.amazon.com/Washington-A-Life-Ron-Chernow/dp/0143119966
 
 <!---
 Sometime similar to :
