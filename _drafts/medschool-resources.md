@@ -212,12 +212,11 @@ more.
 * static [memory scenes] with audio guide
 * $250 for 12 months, or $25/month
 * I use this only for spot treatment of various drugs and diseases that often
-  times just require brute memorization (eg. vasculitides) rather than
+  times just require brute memorization (eg. pharm, vasculitides) rather than
   conceptual material (eg. pathophysiology of systems)
-* Whenever I hit something in Firecracker/etc that I have trouble recalling, I
-  skim the picture in Picmonic.
+* Whenever I hit something I have trouble recalling, I skim the picture in
+  Picmonic or queue it up in a review play list.
 * I only use the Learn feature (not the Explore or other)
-* I'm thinking the [Sketchy Micro](#sketchy-micro) approach is better for bacteria
 * [record the audio][record audio]
 
 
@@ -226,7 +225,8 @@ more.
 * video [memory scenes] of 47 bacteria
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
   pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus
-  * examples: https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w
+  * browse
+    [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
 * $40/6mo
 * Focused only on bacteria
 * Compared to Picmonic:
@@ -304,7 +304,10 @@ Blogs
 
 
 
+
 # Recording audio from video
+
+  [record audio]: #recording-audio-from-video
 
 For Pathoma and SketchyMicro, I recorded the audio to mp3 so that I could
 listen to it while working out or on the commute.  While lacking the visual
@@ -322,17 +325,15 @@ the mental imagery.
   * Audacity
     * Set the microphone to Soundflower (2ch), Mono
 * MP3 export settings
-  * ID3 tags: Artist / Album / Track
+  * How I name MP3s from each service (ID3 info): Artist / Album / Track
     * Pathoma / chapter / topic
     * SketchyMicro / bug group / bug
     * Picmonic / organ system play list / vignette
   * Encoding settings
     * Install either LAME or FFmpeg
     * 22 KHz sampling, (fast) variable 65-105 kbps, mono
+    * [advanced details][mp3 settings]
 
 
-* [record the audio][record audio] so you can listen to it while on your
-  commute or working out ([optimal mp3 settings][mp3 settings])
-
-[record audio]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
+[wikihow]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
 [mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
