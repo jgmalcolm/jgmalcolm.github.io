@@ -6,9 +6,9 @@ tags: medschool, studying
 ---
 
 Med school is all test after test after test, and so a little over a year into
-it and I'm noticing some patterns.  I'm not a top student, but here are simple
-strategies that brought order to chaos.  While most of this is from med-school
-tests, the principles apply to nearly all multiple choice exams.
+it and I'm noticing some patterns.  Here are simple strategies that brought
+order to chaos.  While most of this is from med-school tests, the principles
+apply to nearly all multiple choice exams.
 
 ## Practice questions
 
