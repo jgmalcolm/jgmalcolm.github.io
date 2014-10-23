@@ -33,3 +33,25 @@ coordinate, and set standards for those that follow.
 
 No one ever said "I got to where I am because I watched a lot of movies."  Cut
 that shit out.
+
+
+{% comment %}
+
+http://www.quora.com/How-should-a-22-year-old-invest-time
+
+http://qr.ae/DIePK
+- develop good habits
+  - take care of your body
+    - exercise
+    - eat fresh and healthy food
+    - avoid junk food
+    - play a sport you enjoy each day
+  - take care of your mind
+    - read daily
+    - write daily
+    - avoid junk ideas
+  - take care of your relationships
+    - remember birthdays and anniversaries
+    -
+-
+{% endcomment %}
