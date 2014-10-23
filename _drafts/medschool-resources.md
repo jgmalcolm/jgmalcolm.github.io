@@ -47,91 +47,111 @@ more.
 [physiology]:           https://www.khanacademy.org/science/health-and-medicine
 
 
-## Spaced Repetition
+# Spaced Repetition
 
-* https://firecracker.me - like Anki but pre-populated with First Aid material
-   * read up on Spaced Repetition: http://www.gwern.net/Spaced%20repetition
-   * purchase either:
-      * 18 months at start of school ($375)
-      * 12 months during Prologue 1, extend 1-2 months if you need when the
-        time comes
-   * If youre overwhelmed in starting out, consider using Normal mode (in
-     settings) to limit it to key topics.  Youll want to move to Legendary at
-     some point, but this might make it a little less daunting to start.
-   * For information youve never seen, mark as Forgot (1)
-      * Pause and just skim the information because you need to learn this
-        stuff anyway.  Try to learn one little piece from that question.  For
-        now breeze through it.
-      * You will come back to these questions in the months before STEP
-      * If you skip, youll just accumulate cards.
-   * use the keyboard shortcuts (when youre doing a quiz, theres a little
-     laptop icon on the bottom right)
-   * as you cover material (daily/weekly) you add it to the question pool
-     (flag it)
-   * this does include NBME-style questions but they are not as high quality
-     as Kaplan, USMLE-Rx, and UWorld
-   * How I use Firecracker
-      * 1-5 ratings - theyre a self assessment, and youll soon get comfortable
-        with what they mean to you.  Heres my thinking:
-         * never seen, completely forgot, messed it up royal, want to see
-           tomorrow 1
-            * if you missed an important part of the answer and want to retest
-              tomorrow
-         * got most of it, some recall, want to see it in 2-3 days 2
-            * if you missed an important part of the answer and think you can
-              wait a few days to retest
-         * got most of it, reasoned guess was correct, want to see it in 4-5
-           days 3
-         * got all but one or two details, see it in a week 4
-         * knew it perfectly, minor detail missed that you dont think is
-           important 5
-         * In general: I use 1,2 a lot while Im learning.  3 if something is
-           shakey.  Using 4-5 will quickly push things out too far into the
-           horizon. I only use 5 if I have something down and I want to push
-           it out on the order of weeks.
-      * If youre coming to the party late (a few months/year into medical
-        school), then youll have a lot of catching up to do.  Youll want to
-        eventually have everything flagged that youve touched on in school.
-        Itll be an overwhelming number of questions and theres no excuse but
-        to put in time slogging through so the algorithm calibrates what you
-        know and what you dont know.  Just put in the time.  Theres no
-        substitute.
-         * On the Study Plan dashboard
-           (https://med.firecracker.me/study_plan), under Do Questions choose
-           More Options (https://med.firecracker.me/quiz/advanced) Do Fewer
-           Questions uncheck everything select a topic like Pulmonology to
-           focus your questions.
-         * While Im in a module, I find the algorithm doesnt feed me enough
-           questions daily (it is focused on long term and not backward
-           planning from your module exam), so Ill go Do More Questions
-           <Module> All Days and get a few hundred questions to pound through.
-            * You need to have everything flagged (ie. first pass in studying)
-              by about into the module, that way the algorithm spends the last
-              of your module focusing in on what you dont know in that whole
-              big pile.
-            * The last week of a module should all be daily maintenance of FC
-              questions and full qbank assault.  During exam week, FC may only
-              be feeding you 10-20 module-related questions per day.
-            * Dont slack off still going through review of old questions.
-              Otherwise, they pile up!
-         * A few times a month, Ill spend half the day focused on some old
-           topic and slowly chip away.  As you go, make notes on what youre
-           learning.  Switch over to view the topic to get more context
-           (keyboard shortcut: t).  If something is completely unfamiliar,
-           take a few moments to learn one or two things before moving on (and
-           rating as 1).
-         * All of the above actually subverts the normal algorithm, so
-           eventually (once youve whittled down the big pile) you should
-           settle into doing whatever FC decides you to do for that day.
-      * After a week or so, youll start going through questions faster: youre
-        learning!  Youll also get some positive reinforcement from seeing the
-        graphs on the Insights page (https://med.firecracker.me/dashboard)
-      * Theres a lot of upfront work of slogging through questions before you
-        start to reach steady state maintenance mode.  As long as youre
-        flagging new topics a few times a week (as youre going through new
-        material), itll be a battle to keep that number down.
-      * You need to spend time on weekends and vacations chipping away at
-        questions, or they pile up.
+
+
+[spaced repetition]: http://www.gwern.net/Spaced%20repetition
+
+
+### [Firecracker](https://firecracker.me)
+
+* prepopulated with STEP1 material
+* purchase either:
+   * 18 months at start of school ($375)
+   * 12 months during Prologue 1, extend 1-2 months if you need when the
+     time comes
+* If youre overwhelmed in starting out, consider using Normal mode (in
+  settings) to limit it to key topics.  Youll want to move to Legendary at
+  some point, but this might make it a little less daunting to start.
+* For information youve never seen, mark as Forgot (1)
+   * Pause and just skim the information because you need to learn this
+     stuff anyway.  Try to learn one little piece from that question.  For
+     now breeze through it.
+   * You will come back to these questions in the months before STEP
+   * If you skip, youll just accumulate cards.
+* use the keyboard shortcuts (when youre doing a quiz, theres a little
+  laptop icon on the bottom right)
+* as you cover material (daily/weekly) you add it to the question pool
+  (flag it)
+* this does include NBME-style questions but they are not as high quality
+  as Kaplan, USMLE-Rx, and UWorld
+
+
+
+### How I use Firecracker
+
+* It can be overwhelming and your pile of flagged topics will only grow, so
+  consider switching from Legendary mode (default) to Normal mode to just hit
+  the high points.
+  * You get the benefit of reviewing topics according to how strong you are,
+    and you can always take a moment to review the full topic and all its
+    sub-topic details.
+
+#### Ratings  1-5 ratings
+
+* they're a self assessment, and you'll soon get comfortable with what they
+  mean to you.  Heres my thinking:
+   * never seen, completely forgot, messed it up royal, want to see
+     tomorrow 1
+      * if you missed an important part of the answer and want to retest
+        tomorrow
+   * got most of it, some recall, want to see it in 2-3 days 2
+      * if you missed an important part of the answer and think you can
+        wait a few days to retest
+   * got most of it, reasoned guess was correct, want to see it in 4-5
+     days 3
+   * got all but one or two details, see it in a week 4
+   * knew it perfectly, minor detail missed that you dont think is
+     important 5
+   * In general: I use 1,2 a lot while Im learning.  3 if something is
+     shakey.  Using 4-5 will quickly push things out too far into the
+     horizon. I only use 5 if I have something down and I want to push
+     it out on the order of weeks.
+
+* If youre coming to the party late (a few months/year into medical
+  school), then youll have a lot of catching up to do.  Youll want to
+  eventually have everything flagged that youve touched on in school.
+  Itll be an overwhelming number of questions and theres no excuse but
+  to put in time slogging through so the algorithm calibrates what you
+  know and what you dont know.  Just put in the time.  Theres no
+  substitute.
+   * On the Study Plan dashboard
+     (https://med.firecracker.me/study_plan), under Do Questions choose
+     More Options (https://med.firecracker.me/quiz/advanced) Do Fewer
+     Questions uncheck everything select a topic like Pulmonology to
+     focus your questions.
+   * While Im in a module, I find the algorithm doesnt feed me enough
+     questions daily (it is focused on long term and not backward
+     planning from your module exam), so Ill go Do More Questions
+     <Module> All Days and get a few hundred questions to pound through.
+      * You need to have everything flagged (ie. first pass in studying)
+        by about into the module, that way the algorithm spends the last
+        of your module focusing in on what you dont know in that whole
+        big pile.
+      * The last week of a module should all be daily maintenance of FC
+        questions and full qbank assault.  During exam week, FC may only
+        be feeding you 10-20 module-related questions per day.
+      * Dont slack off still going through review of old questions.
+        Otherwise, they pile up!
+   * A few times a month, Ill spend half the day focused on some old
+     topic and slowly chip away.  As you go, make notes on what youre
+     learning.  Switch over to view the topic to get more context
+     (keyboard shortcut: t).  If something is completely unfamiliar,
+     take a few moments to learn one or two things before moving on (and
+     rating as 1).
+   * All of the above actually subverts the normal algorithm, so
+     eventually (once youve whittled down the big pile) you should
+     settle into doing whatever FC decides you to do for that day.
+* After a week or so, youll start going through questions faster: youre
+  learning!  Youll also get some positive reinforcement from seeing the
+  graphs on the Insights page (https://med.firecracker.me/dashboard)
+* Theres a lot of upfront work of slogging through questions before you
+  start to reach steady state maintenance mode.  As long as youre
+  flagging new topics a few times a week (as youre going through new
+  material), itll be a battle to keep that number down.
+* You need to spend time on weekends and vacations chipping away at
+  questions, or they pile up.
 
 
 
