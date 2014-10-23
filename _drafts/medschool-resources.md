@@ -335,8 +335,9 @@ learning experience it's a way to eek out a little extra learning, but keep in
 mind that it's not as engaging or valuable as watching the videos to pick up
 the mental imagery.
 
-* Install Audacity to record and export audio
-* Install Soundflower to channel audio from your browser to Audacity
+* Install [Audacity](http://audacity.sourceforge.net) to record and export audio
+* Install [Soundflower](https://code.google.com/p/soundflower/downloads/list)
+  to channel audio from your browser to Audacity
 
 * Record settings
   * Enable 'Sound activated recording' so you won't have to start/stop/trim;
