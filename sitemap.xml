@@ -15,6 +15,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://jgmalcolm.com/resume/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://jgmalcolm.com/pubs/</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>monthly</changefreq>
