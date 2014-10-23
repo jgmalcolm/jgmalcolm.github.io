@@ -7,7 +7,7 @@ keywords: resume, cv
 
 # James G Malcolm
 
-me@jgmalcolm.com - www.jgmalcolm.com - (770)856-9045
+me@jgmalcolm.com -- [jgmalcolm.com](/jgmalcolm.com) -- (770) 856-9045
 
 
 # Education
