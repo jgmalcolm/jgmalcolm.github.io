@@ -75,83 +75,83 @@ me@jgmalcolm.com -- [jgmalcolm.com](/jgmalcolm.com) -- (770) 856-9045
    In T. Deserno, editor, Recent Advances in Biomedical Image Processing and
    Analysis, chapter 16, pages 403­424. Springer, 2011.
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. Filtered multi-tensor
-   tractography. Trans. on Med. Imag., 29:1664­1675, 2010.
-
-1. Y. Rathi, J. G. Malcolm, S. Bouix, C.-F. Westin, and
-   M. E. Shenton. Probabilistic classification of schizophrenic patients using
-   diffusion tensor imaging. In submission.
+1. J. G. Malcolm, M. E. Shenton, and
+   Y. Rathi. [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Trans. on
+   Med. Imag., 29:1664­1675, 2010.
 
 1. J. G. Malcolm, O. Michailovich, S. Bouix, C.-F. Westin, M. E. Shenton, and
-   Y. Rathi. A filtered approach to neural tractography using the Watson
-   directional function. Medical Image Analysis, 14:58­69, 2010.
+   Y. Rathi. [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf). Medical
+   Image Analysis, 14:58­69, 2010.
 
 1. Y. Rathi, J. G. Malcolm, O. Michailovich, C.-F. Westin, M. E. Shenton, and
-   S. Bouix. Tensor-kernels for simultaneous fiber model estimation and
-   tractography.  Magnetic Resonance in Medicine, 64(1):138­148, 2010.
+   S. Bouix. [Tensor-kernels for simultaneous fiber model estimation and tractography](/pubs/others/rathi2010mrm.pdf).
+   Magnetic Resonance in Medicine, 64(1):138­148, 2010.
 
 1. N. Y. R. Agar, J. G. Malcolm, V. Mohan, H. W. Yang, M. D. Johnson,
-   A. Tannenbaum, J. N. Agar, and P. M. Black. Imaging of meningioma
-   progression by matrix-assisted laser desorption ionization time-of-flight
-   mass spectrometry. Analytic Chemistry, 82(7):2621­5, Apr 2010.
+   A. Tannenbaum, J. N. Agar, and
+   P. M. Black. [Imaging of meningioma progression by matrix-assisted laser desorption ionization time-of-flight mass spectrometry](/pubs/others/agar2010ac.pdf). Analytic
+   Chemistry, 82(7):2621­5, Apr 2010.
 
-1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and M. E. Shenton. Affine
-   registration of label maps in Label Space. J. of Computing, 2(4):1­11,
-   2010.
+1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and
+   M. E. Shenton. [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). J. of
+   Computing, 2(4):1­11, 2010.
 
-1. P. Vela, A. Betser, J. Malcolm, and A. Tannenbaum. Vision-based range
-   regulation of a leader- follower formation. Trans. on Control Systems
-   Technology, 17(2):442­448, 2009.
+1. P. Vela, A. Betser, J. Malcolm, and
+   A. Tannenbaum. [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Trans. on
+   Control Systems Technology, 17(2):442­448, 2009.
 
 1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and
-   A. Tannenbaum. Distribution metrics and image segmentation. Linear Algebra
-   and its Applications, 2(425):663­672, 2007.
+   A. Tannenbaum. [Distribution metrics and image segmentation. Linear Algebra and its Applications](/pubs/others/georgiou_metrics.pdf),
+   2(425):663­672, 2007.
 
 
 ## International Conference Proceedings
 
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
-   R. W. McCarley, C.-F. Westin, and M. E. Shenton. Biomarkers for identifying
-   first-episode schizophrenia patients using diffusion weighted imaging. In
+   R. W. McCarley, C.-F. Westin, and
+   M. E. Shenton. [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf). In
    Medical Image Computing and Computer Assisted Intervention (MICCAI), volume
    6361, pages 657­665, 2010.
 
-1. P. Savadjiev, Y. Rathi, J. G. Malcolm, M. E. Shenton, and C.-F. Westin. A
-   geometry-based particle filtering approach to white matter tractography.
+1. P. Savadjiev, Y. Rathi, J. G. Malcolm, M. E. Shenton, and
+   C.-F. Westin. [A geometry-based particle filtering approach to white matter tractography](/pubs/others/savadjiev2010miccai.pdf).
    In Medical Image Computing and Computer Assisted Intervention (MICCAI),
    volume 6362, pages 233­240, 2010.
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.  Filtered tractography:
-   Validation on a physical phantom. In Diffusion Modeling and Fiber Cup (in
-   MICCAI), pages 220­223, 2009.
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
+   [Filtered tractography:  Validation on a physical phantom](/pubs/malcolm_fc.pdf). In
+   Diffusion Modeling and Fiber Cup (in MICCAI), pages 220­223, 2009.
 
-1. J. G. Malcolm, M. Kubicki, M. E. Shenton, and Y. Rathi. The effect of local
-   fiber model on population studies. In Diffusion Modeling and Fiber Cup (in
-   MICCAI), pages 33­40, 2009.
+1. J. G. Malcolm, M. Kubicki, M. E. Shenton, and
+   Y. Rathi. [The effect of local fiber model on population studies](/pubs/malcolm_study.pdf). In
+   Diffusion Modeling and Fiber Cup (in MICCAI), pages 33­40, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. Filtered tractography: State
-   estimation in a con- strained subspace. In Diffusion Modeling and Fiber Cup
-   (in MICCAI), pages 122­133, 2009.
+1. J. G. Malcolm, M. E. Shenton, and
+   Y. Rathi. [Filtered tractography: State estimation in a constrained subspace](/pubs/malcolm_cukf_ext.pdf). In
+   Diffusion Modeling and Fiber Cup (in MICCAI), pages 122­133, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. Two-tensor tractography using a
-   constrained filter.  In Medical Image Computing and Computer Assisted
-   Intervention (MICCAI), volume 12, pages 894­902, 2009.
+1. J. G. Malcolm, M. E. Shenton, and
+   Y. Rathi. [Two-tensor tractography using a constrained filter](/pubs/malcolm_cukf.pdf).
+   In Medical Image Computing and Computer Assisted Intervention (MICCAI),
+   volume 12, pages 894­902, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. Neural tractography using an
-   unscented Kalman filter. In Information Processing in Medical Imaging
-   (IPMI), pages 126­138, 2009.
+1. J. G. Malcolm, M. E. Shenton, and
+   Y. Rathi. [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf). In
+   Information Processing in Medical Imaging (IPMI), pages 126­138, 2009.
 
-1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum.  Label Space: A
-   coupled multi-shape representation.  In Medical Image Computing and
-   Computer Assisted Intervention (MICCAI), volume 11, pages 416­424, 2008.
+1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum.
+   [Label Space: A coupled multi-shape representation](/pubs/malcolm_lss.pdf).
+   In Medical Image Computing and Computer Assisted Intervention (MICCAI),
+   volume 11, pages 416­424, 2008. **Runner-Up, MICCAI Young Scientist
+   Award.**
 
-1. P. Karasev, J. Malcolm, and A. Tannenbaum. Kernel-based high-dimensional
-   histogram estimation for visual tracking. In Int. Conf. on Image Processing
-   (ICIP), pages 2728­2731, 2008.
+1. P. Karasev, J. Malcolm, and
+   A. Tannenbaum. [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf). In
+   Int. Conf. on Image Processing (ICIP), pages 2728­2731, 2008.
 
-1. S. Lankton, J. Malcolm, A. Nakhmani, and A. Tannenbaum. Tracking through
-   changes in scale.  In Int. Conf. on Image Processing (ICIP), pages 241­244,
-   2008.
+1. S. Lankton, J. Malcolm, A. Nakhmani, and
+   A. Tannenbaum. [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
+   In Int. Conf. on Image Processing (ICIP), pages 241­244, 2008.
 
 1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and
    A. Tannenbaum. Localized statistics for DW-MRI fiber bundle
@@ -235,11 +235,15 @@ me@jgmalcolm.com -- [jgmalcolm.com](/jgmalcolm.com) -- (770) 856-9045
    management of renal trauma. In American Association for the Surgery of
    Trauma, 2006.
 
+
+
 ## Patent
 
-1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.  System for improving
-   utilization of GPU resources, June 2009. U.S. Patent Application
-   20090141034.
+1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.
+   [System for improving utilization of GPU resources](https://www.google.com/patents/US8339404),
+   June 2009. U.S. Patent Application 20090141034.
+
+
 
 ## Talks and Oral Presentations
 
