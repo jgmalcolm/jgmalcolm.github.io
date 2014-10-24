@@ -38,6 +38,9 @@ h6:hover .header-link {
     max-width: 50%;
     float: right;
 }
+.content img.smaller {
+    max-width: 30%;
+}
 .content img.bookcover {
     margin: 15px;
     float: right;
