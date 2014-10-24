@@ -53,10 +53,10 @@ more.
 # [Firecracker](https://firecracker.me)
 
 * [Spaced repetition][spaced repetition] software
-* Pre-populated with STEP1 material (a combination of First Aid, Goljan, etc.)
+* Prepopulated with STEP1 material (a combination of First Aid, Goljan, etc.)
 * As you cover material (daily/weekly) you add it to the question pool
   (flag it)
-* Use the keyboard shortcuts (when youre doing a quiz, theres a little laptop
+* Use the keyboard shortcuts (when you're doing a quiz, there's a little laptop
   icon on the bottom right)
   * S to show answer
   * T to show topic
@@ -64,12 +64,12 @@ more.
   * N/P for next/previous
   * Enter to save your rating and move on
 * The "practice simulations" are very low quality, skip them
-* For information youve never seen, mark as Forgot (1)
+* For information you've never seen, mark as Forgot (1)
    * Pause and just skim the information because you need to learn this
      stuff anyway.  Try to learn one little piece from that question.  For
      now breeze through it.
    * You will come back to these questions in the months before STEP
-   * If you skip, youll just accumulate cards.
+   * If you skip, you'll just accumulate cards.
 
 
 
@@ -103,7 +103,7 @@ your options:
 ## Ratings  1-5 ratings
 
 * they're a self assessment, and you'll soon get comfortable with what they
-  mean to you.  Heres my thinking:
+  mean to you.  Here's my thinking:
    * never seen, completely forgot, messed it up royal, want to see
      tomorrow 1
       * if you missed an important part of the answer and want to retest
@@ -114,19 +114,19 @@ your options:
    * got most of it, reasoned guess was correct, want to see it in 4-5
      days 3
    * got all but one or two details, see it in a week 4
-   * knew it perfectly, minor detail missed that you dont think is
+   * knew it perfectly, minor detail missed that you don't think is
      important 5
-   * In general: I use 1,2 a lot while Im learning.  3 if something is
-     shakey.  Using 4-5 will quickly push things out too far into the
+   * In general: I use 1,2 a lot while I'm learning.  3 if something is
+     shaky.  Using 4-5 will quickly push things out too far into the
      horizon. I only use 5 if I have something down and I want to push
      it out on the order of weeks.
 
-* If youre coming to the party late (a few months/year into medical
-  school), then youll have a lot of catching up to do.  Youll want to
-  eventually have everything flagged that youve touched on in school.
-  Itll be an overwhelming number of questions and theres no excuse but
+* If you're coming to the party late (a few months/year into medical
+  school), then you'll have a lot of catching up to do.  You'll want to
+  eventually have everything flagged that you've touched on in school.
+  It'll be an overwhelming number of questions and there's no excuse but
   to put in time slogging through so the algorithm calibrates what you
-  know and what you dont know.  Just put in the time.  Theres no
+  know and what you don't know.  Just put in the time.  There's no
   substitute.
    * On the Study Plan dashboard
      (https://med.firecracker.me/study_plan), under Do Questions choose
@@ -173,8 +173,11 @@ your options:
 ### [U World](http://www.usmleworld.com/purchase.aspx).
 
 * $250 for qbank and self-assessment
+* Created by the authors of the STEP1 exam
+  * Just like the First Aid for STEP1 review book, everyone purchases U World.
 * Purchase about 90 days out from your STEP1 date
 * Organize your classmates to get a group discount
+
 
 ### [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
@@ -198,14 +201,15 @@ your options:
 
 ### Comparing Kaplan and USMLE-Rx
 
-* Kaplan has a terrible interface (Flash) and even worse iOS app
-* Rx has an excellent, smooth web interface (HTML)
-* hard to say which is better
-* Kaplan has very thorough (better) explanations, but often too detailed.
-  That said, if you get good at Kaplan, you'll probably know the material
-  nuances better than with Rx.
-* Rx ties directly into FA (the explanations literally show you the relevant
-  FA pages).  Use it as a way to learn FA and then move on to UWorld.
+* It's hard to say which is better
+  * Kaplan has very thorough (better) explanations, but often too detailed.
+    That said, if you get good at Kaplan, you'll probably know the material
+    nuances better than with Rx.
+  * Rx ties directly into FA (the explanations literally show you the relevant
+    FA pages).  Use it as a way to learn FA and then move on to UWorld.
+* User interface: Rx is a clear winner
+  * Rx has an excellent, smooth web interface (HTML), poor iOS app
+  * Kaplan has a terrible interface (Flash) and even worse iOS app
 
 
 ### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
