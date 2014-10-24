@@ -47,9 +47,9 @@ me@jgmalcolm.com -- [jgmalcolm.com](/jgmalcolm.com) -- (770) 856-9045
 - Diagis. (Engineer) Implementation of research-level programming language
   techniques for security analysis of commercial languages. (Spring 2007)
 - Independent Consultant. Development of target tracking systems under the
-  direction of my advisor Allen Tannenbaum. Contracts have been with Boeing,
-  MZA Associates Corp (mza.com), and the Optical Sciences Company
-  (tosc.com). (2005-2007)
+  direction of my advisor Allen Tannenbaum. Contracts have been with
+  [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
+  [The Optical Sciences Company](//tosc.com). (2005-2007)
 
 **Citizenship: US**
 
