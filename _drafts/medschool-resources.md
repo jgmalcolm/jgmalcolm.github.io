@@ -88,6 +88,25 @@ more.
     and you can always take a moment to review the full topic and all its
     sub-topic details.
 
+
+from Firecracker help:
+
+* Here are a few tips to help you manage your daily questions: You can spread
+  out your Review and Catchup questions through the "More Options" link
+  directly above the calendar. One of the features available here is Spread
+  Out Questions, which allows you to spread out currently assigned questions
+  over the next 7, 14, 21, or 30 days. You can only spread questions out that
+  you have completed at least once.
+
+* Normal Mode is a learning mode that includes about half the total number of
+  questions, tailored to the most high-yield material. Switching modes will
+  not impede any of your progress. Your flagged topics, notes, user-created
+  topics and questions, comments, saved answers, and data will remain
+  saved. To switch between learning modes, click the doctor icon in the
+  upper-right, select “Account & Settings,” and then choose "Settings."
+
+
+
 #### Ratings  1-5 ratings
 
 * they're a self assessment, and you'll soon get comfortable with what they
