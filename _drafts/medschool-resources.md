@@ -58,6 +58,11 @@ more.
   (flag it)
 * Use the keyboard shortcuts (when youre doing a quiz, theres a little laptop
   icon on the bottom right)
+  * S to show answer
+  * T to show topic
+  * 1..5 to rate cards
+  * N/P for next/previous
+  * Enter to save your rating and move on
 * The "practice simulations" are very low quality, skip them
 * For information youve never seen, mark as Forgot (1)
    * Pause and just skim the information because you need to learn this
@@ -67,31 +72,35 @@ more.
    * If you skip, youll just accumulate cards.
 
 
+
+
 ## How I use Firecracker
 
-* It can be overwhelming and your pile of flagged topics will only grow, so
-  consider switching from Legendary Mode (default) to Normal Mode to focus on
-  a smaller set of the highest yield material.
+
+Sometimes I fall behind and the question load can be overwhelming.  Here are
+your options:
+
+* **Bang through the questions.** There's no substitute to just putting in the
+  time.  Glancing at the info and rating it a 1 is better than ignoring it
+  forever.  Try to just remember one bit of info and then move on.
+* **Do Fewer questions** and focus on a few topics.  Otherwise, you might feel
+  like you're getting punched from every direction as random topics hit you.
+  * Above the calendar, click "More Options" > "Do Fewer Questions".
+* **Spread out questions** over the coming days/weeks.
+  * You can only spread Review and Catchup questions (not Study).
+  * Above the calendar, click "More Options" > "Spread Out Questions".
+* **Switch to Normal Mode** to focus on a smaller set of the highest yield
+  material.
   * Normal mode contains about half the number of questions.
   * You still get the benefit of reviewing topics according to how strong you
     are, and you can always take a moment to review the full topic and all its
     sub-topic details that you might have been tested on in Legendary Mode.
   * To switch learning modes, click the doctor icon in the top-right >
-    "Account & Settings" > "Settings" > "Normal Mode"
+    "Account & Settings" > "Settings" > "Normal Mode" (default is "Legendary")
   * Your flagged topics, notes, and history will all remain.
 
 
-from Firecracker help:
-
-* Here are a few tips to help you manage your daily questions: You can spread
-  out your Review and Catchup questions through the "More Options" link
-  directly above the calendar. One of the features available here is Spread
-  Out Questions, which allows you to spread out currently assigned questions
-  over the next 7, 14, 21, or 30 days. You can only spread questions out that
-  you have completed at least once.
-
-
-#### Ratings  1-5 ratings
+## Ratings  1-5 ratings
 
 * they're a self assessment, and you'll soon get comfortable with what they
   mean to you.  Heres my thinking:
