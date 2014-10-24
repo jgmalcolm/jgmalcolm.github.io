@@ -47,46 +47,38 @@ more.
 [physiology]:           https://www.khanacademy.org/science/health-and-medicine
 
 
-# Spaced Repetition
 
+  [spaced repetition]: http://www.gwern.net/Spaced%20repetition
 
+# [Firecracker](https://firecracker.me)
 
-[spaced repetition]: http://www.gwern.net/Spaced%20repetition
-
-
-### [Firecracker](https://firecracker.me)
-
-* prepopulated with STEP1 material
-* purchase either:
-   * 18 months at start of school ($375)
-   * 12 months during Prologue 1, extend 1-2 months if you need when the
-     time comes
-* If youre overwhelmed in starting out, consider using Normal mode (in
-  settings) to limit it to key topics.  Youll want to move to Legendary at
-  some point, but this might make it a little less daunting to start.
+* [Spaced repetition][spaced repetition] software
+* Pre-populated with STEP1 material (a combination of First Aid, Goljan, etc.)
+* As you cover material (daily/weekly) you add it to the question pool
+  (flag it)
+* Use the keyboard shortcuts (when youre doing a quiz, theres a little laptop
+  icon on the bottom right)
+* The "practice simulations" are very low quality, skip them
 * For information youve never seen, mark as Forgot (1)
    * Pause and just skim the information because you need to learn this
      stuff anyway.  Try to learn one little piece from that question.  For
      now breeze through it.
    * You will come back to these questions in the months before STEP
    * If you skip, youll just accumulate cards.
-* use the keyboard shortcuts (when youre doing a quiz, theres a little
-  laptop icon on the bottom right)
-* as you cover material (daily/weekly) you add it to the question pool
-  (flag it)
-* this does include NBME-style questions but they are not as high quality
-  as Kaplan, USMLE-Rx, and UWorld
 
 
-
-### How I use Firecracker
+## How I use Firecracker
 
 * It can be overwhelming and your pile of flagged topics will only grow, so
-  consider switching from Legendary mode (default) to Normal mode to just hit
-  the high points.
-  * You get the benefit of reviewing topics according to how strong you are,
-    and you can always take a moment to review the full topic and all its
-    sub-topic details.
+  consider switching from Legendary Mode (default) to Normal Mode to focus on
+  a smaller set of the highest yield material.
+  * Normal mode contains about half the number of questions.
+  * You still get the benefit of reviewing topics according to how strong you
+    are, and you can always take a moment to review the full topic and all its
+    sub-topic details that you might have been tested on in Legendary Mode.
+  * To switch learning modes, click the doctor icon in the top-right >
+    "Account & Settings" > "Settings" > "Normal Mode"
+  * Your flagged topics, notes, and history will all remain.
 
 
 from Firecracker help:
@@ -97,14 +89,6 @@ from Firecracker help:
   Out Questions, which allows you to spread out currently assigned questions
   over the next 7, 14, 21, or 30 days. You can only spread questions out that
   you have completed at least once.
-
-* Normal Mode is a learning mode that includes about half the total number of
-  questions, tailored to the most high-yield material. Switching modes will
-  not impede any of your progress. Your flagged topics, notes, user-created
-  topics and questions, comments, saved answers, and data will remain
-  saved. To switch between learning modes, click the doctor icon in the
-  upper-right, select “Account & Settings,” and then choose "Settings."
-
 
 
 #### Ratings  1-5 ratings
