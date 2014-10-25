@@ -166,6 +166,25 @@ your options:
 
 
 
+### [Anki](http://ankisrs.net)
+
+* Good but you have to spend time populating versus Firecracker which is
+  prepopulated
+* Good for hot spot memorization of tables/charts (eg. drugs, cytokines,
+  vitamins) but not recommended for general use since pre-populated resources
+  exist
+* Some prepopulated [decks](https://ankiweb.net/shared/info/3641619405)
+  [already](https://ankiweb.net/shared/info/1656465381)
+  [exist](https://ankiweb.net/shared/info/2445310057) for the "Rapid Review"
+  tables in First Aid
+* Lacks good methods for sharing/updating decks with classmates
+* Better graphs than Firecracker to chart progress
+* Note bene: Everyone I know who used this eventually abandoned because of
+  time involved in creating and curating decks
+
+
+
+
 # Question Banks
 
 
@@ -227,19 +246,19 @@ your options:
 ### [Pathoma](https://www.pathoma.com)
 
 * $99 for 12 month, video + slim review text
-* highly, highly recommend (you'll also see it highly recommended in FA Step 1
+* Highly, highly recommend (you'll also see it highly recommended in FA Step 1
   resource recommendations appendix)
 * 12 month subscription, so purchase 12 months out from exam (and use to
   review before exam)
-* about 1.5 - 2.5 hours of video per organ system
-
+* About 1.5 - 2.5 hours of video per organ system
+* [record audio]
 
 
 # Misc resource links
 
-[BRS Physiology](http://www.amazon.com/BRS-Physiology-Board-Review-Series/dp/0781798760)
+[BRS Physiology](http://www.amazon.com/dp/0781798760)
 
-[Goljan Rapid Review Pathology](http://www.amazon.com/Rapid-Review-Pathology-STUDENT-CONSULT/dp/0323087876)
+[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
 
 
 ### [Picmonic](http://picmonic.com)
@@ -259,9 +278,8 @@ your options:
 
 * video [memory scenes] of 47 bacteria
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
-  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus
-  * browse
-    [free YouTube samples](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
+  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus, and
+  [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
 * $40/6mo
 * Focused only on bacteria
 * Compared to Picmonic:
@@ -276,42 +294,28 @@ your options:
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
-* Edward Goljan audio (google for it)
-   * A series of lectures recorded at an AMA conference years ago
-   * full of board pearls since he helps edit the USMLE questions
-   * these are suboptimal since we dont have the slides hes referring to
-   * There are errors and it's not well organized, but makes for good
-     background listening while running errands or doing chores.
-   * Pathoma is probably a better use of time
-   * I only used this for pulm and it was a disorganized experience, never
-     again
+### Goljan audio
 
-* [Anki](http://ankisrs.net) - good but you have to spend time populating
-  versus Firecracker is prepopulated
-   * good for hot spot memorization of tables/charts (eg. drugs) but not
-     recommended for general use since pre-populated resources exist
-   * Consider focused decks:
-      * First Aid Rapid Review -- several options:
-        https://ankiweb.net/shared/info/3641619405,
-        https://ankiweb.net/shared/info/1656465381,
-        https://ankiweb.net/shared/info/2445310057
-      * memorizing tables: vitamins and their names, eg. B3 niacin
-   * note bene: everyone I know who used this eventually abandoned because of
-     time involved in creating and curating decks
-   * lacks good methods for sharing/updating decks with classmates
+* A series of lectures as part of a review course he conducted.
+* These lectures were delivered with the first edition of
+  [Rapid Review Pathology] text, but you can still follow along in the latest
+  edition.  The slides and a scan of the original textbook can be found
+  online.
+* Full of board pearls since he helps edit the USMLE questions.  While most of
+  the pathognomonic stuff is outdated, the concepts are still valid.
+* There are minor errors and it's not well organized, but makes for good
+  background listening while running errands or doing chores.
+* Pathoma is probably a better use of time
 
-* KissPharm http://www.kisspharmacology.com/
-   * no personal experience, recommended by an upperclassman
 
-* Memorang App www.memorangapp.com
-   * looks super simple
 
-* Purchase schedule: Emory takes STEP 1 before 1 Feb (typically last half of Jan)
-   * Feb - purchase your 1 year subscriptions:
-      * Pathoma (definite)
-      * Rx/Kaplan (either/both)
-   * Firecracker can be purchased anytime, the sooner the better, so aim for 12 months (Feb) or 18 months (August).
-   * after Summation when in final exam prep (Nov): U World (3 months)
+# Misc Resources Not Evaluated
+
+* [KissPharm](http://www.kisspharmacology.com)
+  * no personal experience, recommended by an upperclassman
+* [Memorang App](www.memorangapp.com)
+  * looks super simple
+
 
 
 
@@ -319,7 +323,8 @@ your options:
 
 * [Netter](http://www.amazon.com/dp/1455704180) is the gold standard and has
   all the classic diagrams you'll see in lectures, eg. cervical plexus.
-  [Atlas of Anatomy 2e](http://www.amazon.com/dp/1604067454) is also great.
+  [Atlas of Anatomy 2e](http://www.amazon.com/dp/1604067454) is also great,
+  but probably best to stick with Netter.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
@@ -336,17 +341,22 @@ your options:
   nerves, muscle, etc. Regular sewing thread is too thin and you'll want
   multiple colors.  Keep it in a ziplock bag.
 
+
+
 # Interesting Articles on STEP1
-* http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1
-* http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html
-* http://whitecoatinvestor.com/new-to-the-blog-start-here
-* http://www.usmlegunner.com/
-* general study methods
-   * http://calnewport.com/blog
-   * http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying/
-   * http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better/
-   * http://jgmalcolm.com/top-students
-   * http://www.danielwillingham.com/articles.html
+
+* [My Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
+* [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
+* [WhiteCoat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
+  * managing student debt, investing, insurance, budgeting
+* [http://www.usmlegunner.com](USMLE Gunner)
+* General study methods
+   * [Cal Newport](http://calnewport.com/blog)
+   * [Scott Young](http://www.scottyoung.com):
+     [How to ace your finals](http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying),
+     [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
+   * me: [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %})
+   * [Daniel Willingham](http://www.danielwillingham.com/articles.html)
 
 
 
