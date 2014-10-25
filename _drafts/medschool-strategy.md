@@ -46,6 +46,7 @@ layout: post
    * Its important to drive through QBanks efficiently.  Toward that end  Print out the questions and mark it up; its easier than futzing with questions on your laptop and lets you push aside your computer to focus.  The second time you see a particular concept you dont know, pause to research it before answering and continuing; its a waste to guess repeatedly.  Repeated concepts are important, so good to stop while its fresh.  But come back quick; dont get distracted.
    * David Young: "More than anything, anki/FC help us avoid the number one error people make when studying: reading something you dont know but believing you really do. The open ended questions in FC will see if you really do remember the 11 criteria for SLE or the findings for beta thalassemia minor, whereas you may review that topic in FA and feel like you know it simply because the words are familiar. People who on exams consistently feel like all the questions are familiar and they know the answer but just cant think of it are probably falling into this category. This alone is probably what separates the all-honors students from the all-pass students. The ability to generate the answers on your own rather than recognize them with deja vu is critical, and FC takes aim at this directly." (from http://sidenotelife.tumblr.com/post/64673419322/ken-explains-studying-in-med-school-top-5-reasons-to)
 
+
 * First Aid: http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428 (referred to as First Aid or FA) and http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744
    * at start of school, purchase Basic Sciences
    * through Healthy Human, use a current FA
@@ -256,3 +257,15 @@ http://www.amazon.com/BRS-Physiology-Board-Review-Series/dp/0781798760
 http://www.amazon.com/Rapid-Review-Pathology-STUDENT-CONSULT/dp/0323087876 - probably too dense but excellent tables, figures, and margin notes
 http://www.usmlestep.com/edward-f-goljan.htm $30 (audio + notes) - not recommended, can use free audio and follow along in his Rapid Review book
 Emory Proxy Bookmarklet - http://proxybookmarklet.com/proxy.php?s=emory - access emory library articles/texts from off campus
+
+
+
+
+## Studying takes energy.
+
+It's often obvious what needs to be done and how best to do it.  Sometimes all
+that's really needed is the energy (and motivation) to carry through.  So part
+of studying is managing your energy.
+
+Switch tactics: if you're getting bored of answering questions, switch over to
+watch a video lecture.

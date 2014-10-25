@@ -98,6 +98,9 @@ your options:
   * To switch learning modes, click the doctor icon in the top-right >
     "Account & Settings" > "Settings" > "Normal Mode" (default is "Legendary")
   * Your flagged topics, notes, and history will all remain.
+  * In the months **leading up to STEP1, I switched to Normal mode** so I
+    could hit the high points but start spending more time with Qbanks and
+    other resources.
 
 
 ## Ratings  1-5 ratings
