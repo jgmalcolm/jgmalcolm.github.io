@@ -63,7 +63,7 @@ more.
   * 1..5 to rate cards
   * N/P for next/previous
   * Enter to save your rating and move on
-* The "practice simulations" are very low quality, skip them
+* The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
 * For information you've never seen, mark as Forgot (1)
    * Pause and just skim the information because you need to learn this
      stuff anyway.  Try to learn one little piece from that question.  For
@@ -128,15 +128,15 @@ your options:
   to put in time slogging through so the algorithm calibrates what you
   know and what you don't know.  Just put in the time.  There's no
   substitute.
-   * On the Study Plan dashboard
-     (https://med.firecracker.me/study_plan), under Do Questions choose
-     More Options (https://med.firecracker.me/quiz/advanced) Do Fewer
-     Questions uncheck everything select a topic like Pulmonology to
-     focus your questions.
-   * While Im in a module, I find the algorithm doesnt feed me enough
-     questions daily (it is focused on long term and not backward
-     planning from your module exam), so Ill go Do More Questions
-     <Module> All Days and get a few hundred questions to pound through.
+   * On the [Study Plan dashboard](https://med.firecracker.me/study_plan),
+     under "Do Questions" choose
+     [More Options](https://med.firecracker.me/quiz/advanced) > "Do Fewer
+     Questions" > "Uncheck everything".  Then select a topic like Cardiology
+     to focus your questions.
+   * While I'm in a module, I find the algorithm doesnt feed me enough
+     questions daily (it is focused on long term and not backward planning
+     from your module exam), so I'll go "Do More Questions" > "<Module>" >
+     "All Days" and get a few hundred questions to pound through.
       * You need to have everything flagged (ie. first pass in studying)
         by about into the module, that way the algorithm spends the last
         of your module focusing in on what you dont know in that whole
@@ -146,17 +146,16 @@ your options:
         be feeding you 10-20 module-related questions per day.
       * Dont slack off still going through review of old questions.
         Otherwise, they pile up!
-   * A few times a month, Ill spend half the day focused on some old
-     topic and slowly chip away.  As you go, make notes on what youre
-     learning.  Switch over to view the topic to get more context
-     (keyboard shortcut: t).  If something is completely unfamiliar,
-     take a few moments to learn one or two things before moving on (and
-     rating as 1).
+   * A few times a month, I'll spend half the day focused on some old topic
+     and slowly chip away.  As you go, make notes on what youre learning.
+     Switch over to view the topic to get more context (keyboard shortcut: t).
+     If something is completely unfamiliar, take a few moments to learn one or
+     two things before moving on (and rating as 1).
    * All of the above actually subverts the normal algorithm, so
      eventually (once youve whittled down the big pile) you should
      settle into doing whatever FC decides you to do for that day.
-* After a week or so, youll start going through questions faster: youre
-  learning!  Youll also get some positive reinforcement from seeing the
+* After a week or so, you'll start going through questions faster: youre
+  learning!  You'll also get some positive reinforcement from seeing the
   graphs on the Insights page (https://med.firecracker.me/dashboard)
 * Theres a lot of upfront work of slogging through questions before you
   start to reach steady state maintenance mode.  As long as youre
@@ -262,7 +261,7 @@ your options:
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
   pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus
   * browse
-    [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
+    [free YouTube samples](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
 * $40/6mo
 * Focused only on bacteria
 * Compared to Picmonic:
@@ -287,8 +286,8 @@ your options:
    * I only used this for pulm and it was a disorganized experience, never
      again
 
-* http://ankisrs.net/ - good but you have to spend time populating versus
-  Firecracker is prepopulated
+* [Anki](http://ankisrs.net) - good but you have to spend time populating
+  versus Firecracker is prepopulated
    * good for hot spot memorization of tables/charts (eg. drugs) but not
      recommended for general use since pre-populated resources exist
    * Consider focused decks:
@@ -318,15 +317,26 @@ your options:
 
 # Anatomy
 
-* Buy the recommended Clemente dissector and Netter atlas, same edition recommended. This way you match the lecture slide references.
+* [Netter](http://www.amazon.com/dp/1455704180) is the gold standard and has
+  all the classic diagrams you'll see in lectures, eg. cervical plexus.
+  [Atlas of Anatomy 2e](http://www.amazon.com/dp/1604067454) is also great.
+* Buy the recommended Clemente dissector and Netter atlas, same edition
+  recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
    * Personally buy Netter for home study (keep it for life).
-   * Consider buying second copy of dissector for personal prep (not a gooey lab copy)
-* Atlas of Anatomy 2e is good, but Netter is the gold standard and using Netter means that you'll be familiar with all the classic diagrams (e.g. cranial nerve plexus)
-* Only buy 2 dissecting kits for your entire table and share. Make sure you have two of everything: scalpel, small & large scissors, small & large hemostats, small & large toothed & non-toothed tweezers (pickups).
-* Consider buying your own fresh lab coat instead of using the stained used ones. Write your name prominently on the collar or front. Personalize as inspired.
-* Buy thick multi-colored friendship bracelet string to tag arteries/veins/nerves/muscle/etc. (regular sewing thread is too thin and youll want multiple colors).  Keep it in a ziplock bag.
-Blogs
+   * Consider getting a second copy of the dissector for personal prep (not a
+     gooey lab copy)
+* Only buy two (2) dissecting kits for your entire table and share. Make sure
+  you have two of everything: scalpel, small & large scissors, small & large
+  hemostats, small & large toothed & non-toothed tweezers (pickups).
+* Consider buying your own fresh lab coat instead of using the stained used
+  ones. Write your name prominently on the collar or front. Personalize as
+  inspired.
+* Buy thick multi-colored friendship bracelet string to tag arteries, veins,
+  nerves, muscle, etc. Regular sewing thread is too thin and you'll want
+  multiple colors.  Keep it in a ziplock bag.
+
+# Interesting Articles on STEP1
 * http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1
 * http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html
 * http://whitecoatinvestor.com/new-to-the-blog-start-here
