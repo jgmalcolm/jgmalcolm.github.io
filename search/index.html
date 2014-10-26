@@ -18,7 +18,7 @@ title: "Search"
 
   <!-- set title -->
   var query = getParam('q');
-  $("#key").html(query);
+  $("#key").html("tag: " + query);
 
   <!-- populate results -->
   $.getJSON("posts.json", function(data) {
