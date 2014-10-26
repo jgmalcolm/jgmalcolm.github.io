@@ -3,18 +3,18 @@ title: Med School Resources
 layout: post
 tags: medschool, studying
 keywords: STEP1
-description: "Ranking study resources for the first two years of med school."
+description: "A survey of the top study resources for the first two years of med school."
 ---
 
-There are a billion resources available to help you study, and new ones pop up
-every year.  I'm not going to even try to catalog them all.  This is a short
-list of the resources I frequented during the didactic portion of med school.
+There are a hundreds resources available to help you study, and new ones pop
+up every year.  I'm not going to even try to catalog them all.  This is a
+short list of the resources I used during the didactic portion of med school.
 I've experimented with various channels for learning: review texts, memory
 palaces, video tutorials, spaced repetition software, physical note cards, and
 more.
 
 
-### [First Aid for STEP1](http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428)
+## [First Aid for STEP1](http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428)
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent review
@@ -24,7 +24,7 @@ more.
   in the months leading up to STEP1.
   * Consolidate resources: annotate
 
-### [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
+## [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
 
 * A companion to First Aid for STEP1, but this is a learning tool.
 * Covers all basic science in First Aid
@@ -32,11 +32,11 @@ more.
   and overly-detailed books that professors recommend.
 
 
-# Videos
+## Videos
 
 * YouTube channels
 * [Handwritten Tutorials](//handwrittentutorials.com)
-  ([YouTube channel](https://www.youtube.com/user/harpinmartin)).
+  ([YouTube](https://www.youtube.com/user/harpinmartin)).
 * Khan Academy: [biology], [cells], [cellular respiration], [immunology], [human biology], [physiology], and more
 
 [cells]:                https://www.khanacademy.org/test-prep/mcat/cells
@@ -48,9 +48,48 @@ more.
 
 
 
+
+## [Pathoma](https://www.pathoma.com)
+
+* Concise videos covering all relevant pathology
+* $99 for 12 month, video + slim review text
+* Highly, highly recommend (you'll also see it highly recommended in FA Step 1
+  resource recommendations appendix)
+* 12 month subscription, so purchase 12 months out from exam (and use to
+  review before exam)
+* About 1.5 - 2.5 hours of video per organ system
+* [Record audio] so you can listen while you commute or exercise
+
+Also for pathology, I used:
+
+* [BRS Pathology]
+  * Concise and well-organized review
+  * Simpler than Pathoma
+  * Each chapter has about 20 solid questions
+* Goljan's [Rapid Review Pathology]
+  * The same topic sequence as Pathoma but much more detail, especially when
+    it comes to microbiology, but not as much as [Robbins & Cotran] (aka "The
+    Bible of Pathology", get this if you're interested in Pathology as a
+    residency).
+  * Further on in the curriculum, I realized I wanted more details on
+    pathology so I started skimming chapters from this.  Pathoma is sufficient
+    for a good foundation.
+
+If you had to rank order the complexity of these resources: BRS < Pathoma <
+Goljan's < Robbins & Cotran.
+
+[Robbins & Cotran]: http://www.amazon.com/dp/1455726133
+[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
+[BRS Pathology]: http://www.amazon.com/dp/1451115873
+[BRS Physiology]: http://www.amazon.com/dp/0781798760
+
+
+
+
+
   [spaced repetition]: http://www.gwern.net/Spaced%20repetition
 
-# [Firecracker](https://firecracker.me)
+## [Firecracker](https://firecracker.me)
 
 * [Spaced repetition][spaced repetition] software
 * Prepopulated with STEP1 material (a combination of First Aid, Goljan, etc.)
@@ -64,17 +103,10 @@ more.
   * N/P for next/previous
   * Enter to save your rating and move on
 * The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
-* For information you've never seen, mark as Forgot (1)
-   * Pause and just skim the information because you need to learn this
-     stuff anyway.  Try to learn one little piece from that question.  For
-     now breeze through it.
-   * You will come back to these questions in the months before STEP
-   * If you skip, you'll just accumulate cards.
 
 
 
-
-## How I use Firecracker
+### How I use Firecracker
 
 
 Sometimes I fall behind and the question load can be overwhelming.  Here are
@@ -105,6 +137,12 @@ your options:
 
 ## Ratings  1-5 ratings
 
+* For information you've never seen, mark as Forgot (1)
+   * Pause and just skim the information because you need to learn this
+     stuff anyway.  Try to learn one little piece from that question.  For
+     now breeze through it.
+   * You will come back to these questions in the months before STEP
+   * If you skip, you'll just accumulate cards.
 * they're a self assessment, and you'll soon get comfortable with what they
   mean to you.  Here's my thinking:
    * never seen, completely forgot, messed it up royal, want to see
@@ -124,13 +162,12 @@ your options:
      horizon. I only use 5 if I have something down and I want to push
      it out on the order of weeks.
 
-* If you're coming to the party late (a few months/year into medical
-  school), then you'll have a lot of catching up to do.  You'll want to
-  eventually have everything flagged that you've touched on in school.
-  It'll be an overwhelming number of questions and there's no excuse but
-  to put in time slogging through so the algorithm calibrates what you
-  know and what you don't know.  Just put in the time.  There's no
-  substitute.
+* If you're coming to the party late (a few months/year into medical school),
+  then you'll have a lot of catching up to do.  You'll want to eventually have
+  most everything flagged that you've touched on in school.  It'll be an
+  overwhelming number of questions and there's no excuse but to put in time
+  slogging through so the algorithm calibrates what you know and what you
+  don't know.  Just put in the time.  There's no substitute.
    * On the [Study Plan dashboard](https://med.firecracker.me/study_plan),
      under "Do Questions" choose
      [More Options](https://med.firecracker.me/quiz/advanced) > "Do Fewer
@@ -169,7 +206,7 @@ your options:
 
 
 
-### [Anki](http://ankisrs.net)
+## [Anki](http://ankisrs.net)
 
 * Good but you have to spend time populating versus Firecracker which is
   prepopulated
@@ -191,7 +228,7 @@ your options:
 # Question Banks
 
 
-### [U World](http://www.usmleworld.com/purchase.aspx).
+## [U World](http://www.usmleworld.com/purchase.aspx).
 
 * $250 for qbank and self-assessment
 * Created by the authors of the STEP1 exam
@@ -200,7 +237,7 @@ your options:
 * Organize your classmates to get a group discount
 
 
-### [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
+## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
 * 2524 total questions
 * 12mo subscription is $149 with $50 discount after free AMSA membership
@@ -214,7 +251,7 @@ your options:
      explanations, drew a sharp contrast).  To do this, mark these valuable
      questions and later create a test of marked questions.
 
-### [Kaplan](http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html)
+## [Kaplan](http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html)
 
 * 2006 total questions
 * $210 with AMA membership ($20) for a total of $230
@@ -233,7 +270,7 @@ your options:
   * Kaplan has a terrible interface (Flash) and even worse iOS app
 
 
-### [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
+## [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
 
 * Consider buying a paper-based question bank because sometimes it's nice to
   study without your computer or outside on a sunny day.
@@ -244,27 +281,7 @@ your options:
 [pretesting]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 
-# Pathology
-
-### [Pathoma](https://www.pathoma.com)
-
-* $99 for 12 month, video + slim review text
-* Highly, highly recommend (you'll also see it highly recommended in FA Step 1
-  resource recommendations appendix)
-* 12 month subscription, so purchase 12 months out from exam (and use to
-  review before exam)
-* About 1.5 - 2.5 hours of video per organ system
-* [record audio]
-
-
-# Misc resource links
-
-[BRS Physiology](http://www.amazon.com/dp/0781798760)
-
-[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
-
-
-### [Picmonic](http://picmonic.com)
+## [Picmonic](http://picmonic.com)
 
 * static [memory scenes] with audio guide
 * $250 for 12 months, or $25/month
@@ -277,7 +294,7 @@ your options:
 * [record the audio][record audio]
 
 
-### [Sketchy Micro](http://sketchymicro.com)
+## [Sketchy Micro](http://sketchymicro.com)
 
 * video [memory scenes] of 47 bacteria
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
@@ -297,7 +314,7 @@ your options:
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
-### Goljan audio
+## Goljan audio
 
 * A series of lectures as part of a review course he conducted.
 * These lectures were delivered with the first edition of
@@ -314,10 +331,9 @@ your options:
 
 # Misc Resources Not Evaluated
 
-* [KissPharm](http://www.kisspharmacology.com)
-  * no personal experience, recommended by an upperclassman
-* [Memorang App](www.memorangapp.com)
-  * looks super simple
+* [KissPharm](http://www.kisspharmacology.com) - no personal experience,
+  recommended by an upperclassman
+* [Memorang App](www.memorangapp.com)- looks super simple
 
 
 
@@ -350,7 +366,7 @@ your options:
 
 * [My Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
-* [WhiteCoat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
+* [White Coat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
   * managing student debt, investing, insurance, budgeting
 * [http://www.usmlegunner.com](USMLE Gunner)
 * General study methods
@@ -369,21 +385,22 @@ your options:
   [record audio]: #recording-audio-from-video
 
 For Pathoma and SketchyMicro, I recorded the audio to mp3 so that I could
-listen to it while working out or on the commute.  While lacking the visual
-learning experience it's a way to eek out a little extra learning, but keep in
-mind that it's not as engaging or valuable as watching the videos to pick up
-the mental imagery.
+listen to it while commuting or exercising.  While lacking the visual learning
+experience it's a way to eek out a little extra learning, but keep in mind
+that it's not as engaging or valuable as watching the videos to pick up the
+mental imagery.
 
 * Install [Audacity](http://audacity.sourceforge.net) to record and export audio
 * Install [Soundflower](https://code.google.com/p/soundflower/downloads/list)
   to channel audio from your browser to Audacity
 
 * Record settings
+  * [Screenshots showing the process][wikihow]
+  * Audacity
+    * Set the microphone to Soundflower (2ch), Mono
   * Enable 'Sound activated recording' so you won't have to start/stop/trim;
     it'll just start when the video starts, and stop when the video stops.
     * Audacity: Preferences > Recording > enable 'Sound activated recording'
-  * Audacity
-    * Set the microphone to Soundflower (2ch), Mono
 * MP3 export settings
   * How I name MP3s from each service (ID3 info): Artist / Album / Track
     * Pathoma / chapter / topic
