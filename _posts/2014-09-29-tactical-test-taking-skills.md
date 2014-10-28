@@ -205,6 +205,8 @@ There are some triggers that should perk your ears to a likely diagnosis.
 * female - ignore x-linked
 * "multiple rounds of antibiotics" - no gut flora causing Vitamin K deficiency
   (bleeding), C diff
+* medication that was recently prescribed - side effects causing chief
+  complaint
 
 
 ## Question stems
@@ -253,4 +255,5 @@ symptom.
 
 
 
-> Thanks to my classmates Juan-Manuel Duran and Jason Boulter for discussions.
+> Thanks to my classmates Juan-Manuel Duran, Jason Boulter, and LeslieAnn Kao
+> for discussions.
