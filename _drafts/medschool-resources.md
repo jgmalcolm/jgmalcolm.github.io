@@ -362,13 +362,12 @@ your options:
 
 
 
-# Interesting Articles on STEP1
+# Studying Techniques
 
 * [My Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
-* [White Coat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
-  * managing student debt, investing, insurance, budgeting
 * [http://www.usmlegunner.com](USMLE Gunner)
+* [How To Study Effectively](http://meded.ucsd.edu/index.cfm//ugme/oess/study_skills_and_exam_strategies//how_to_study_actively/) - comprehensive guide from UC San Diego on an organized and active approach to studying in med school
 * General study methods
    * [Cal Newport](http://calnewport.com/blog)
    * [Scott Young](http://www.scottyoung.com):
@@ -376,6 +375,8 @@ your options:
      [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
    * me: [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %})
    * [Daniel Willingham](http://www.danielwillingham.com/articles.html)
+* [White Coat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
+  * managing student debt, investing, insurance, budgeting
 
 
 
