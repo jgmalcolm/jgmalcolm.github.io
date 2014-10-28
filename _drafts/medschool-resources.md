@@ -34,10 +34,22 @@ more.
 
 ## Videos
 
-* YouTube channels
+* YouTube is a treasure trove of focused topical videos.
+  * Each module, create a playlist and add videos as you come across them.
+  [Here are ones I collected](http://www.youtube.com/channel/UCJJNCT5F3nhtAT0vWvdGVJA/playlists).
+  * Browse and subscribe to various channels and playlists out there:
+    * [DoctorNajeeb](https://www.youtube.com/user/DoctorNajeeb/playlists) covers
+    * [Antibiotics](https://www.youtube.com/playlist?list=PLYojB5NEEakWCoWLnx0F1OxY6PXVaBkVT)
+    * [Human Anatomy Dissections](https://www.youtube.com/playlist?list=PL6F5A027100A37163)
 * [Handwritten Tutorials](//handwrittentutorials.com)
-  ([YouTube](https://www.youtube.com/user/harpinmartin)).
-* Khan Academy: [biology], [cells], [cellular respiration], [immunology], [human biology], [physiology], and more
+  ([YouTube](https://www.youtube.com/user/harpinmartin)) - Excellent, simple
+  videos of key topics in anatomy, biochem, immunology, neuroscience, pharm,
+  and physiology.
+* Khan Academy has been building up a great collection of videos in [biology],
+  [cells], [cellular respiration], [immunology], [human biology],
+  [physiology], and more.
+* [Teddy Has An Operation](https://www.youtube.com/watch?v=AdYaTa_lOf4) for
+  those interested in going into surgical specialties
 
 [cells]:                https://www.khanacademy.org/test-prep/mcat/cells
 [biology]:              https://www.khanacademy.org/science/biology
@@ -329,7 +341,7 @@ your options:
 
 
 
-# Misc Resources Not Evaluated
+# Other Resources Not Evaluated
 
 * [KissPharm](http://www.kisspharmacology.com) - no personal experience,
   recommended by an upperclassman
