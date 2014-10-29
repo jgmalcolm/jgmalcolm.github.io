@@ -6,9 +6,9 @@ tag:
 ---
 
 <img class="bookcover" src="/images/books/washington.jpg"> George Washington
-was the commanding general in the American Colonial Revolution, reluctant
-political figure, and by his actions defined the role of President of the
-United States.
+was a British officer, the commanding general in the American Colonial
+Revolution, reluctant political figure, and by his actions defined the role of
+President of the United States.
 
 Amazon:
 ['Washington: A Life' by Ron Chernow](http://www.amazon.com/Washington-A-Life-Ron-Chernow/dp/0143119966)
