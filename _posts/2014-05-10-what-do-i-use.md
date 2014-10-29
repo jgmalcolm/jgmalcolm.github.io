@@ -10,7 +10,8 @@ always looking for better ways of doing things and new ways of getting
 leverage.  Here are lists of the hardware, software, and services I use daily.
 
 ## Hardware
-* [Macbook Air 11"](http://www.apple.com/macbook-air)
+* [Macbook Air 11"](http://www.apple.com/macbook-air) with
+  [thin padded case](http://www.amazon.com/gp/product/B007AK6QBA/)
 * [iPhone 5][iphone] apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
