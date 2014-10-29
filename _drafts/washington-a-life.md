@@ -13,7 +13,7 @@ United States.
 Amazon:
 ['Washington: A Life' by Ron Chernow](http://www.amazon.com/Washington-A-Life-Ron-Chernow/dp/0143119966)
 
-## Take away points
+## Talking Points
 
 * He was chronically in debt.  Since the war and presidency consumed his
   attention, his farm crops were chronically unsuccessful and often ran at a
@@ -24,9 +24,9 @@ Amazon:
 
 * Even though many colonists used the successful ending of the revolution as
   an excuse to not repay debts owed to British, Washington made a point to pay
-  down his personal debts.  Hyper-inflation of the colonial currency made it
-  more difficult for him to collect on the debts he was owed by land tenants
-  and such.
+  down his personal debts.  Unfortunately, hyper-inflation of the colonial
+  currency made it more difficult for him to collect on the debts he was owed
+  by land tenants and such.
 
 
 
