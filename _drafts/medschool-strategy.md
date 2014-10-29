@@ -210,6 +210,7 @@ Blogs
 * http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html
 * http://whitecoatinvestor.com/new-to-the-blog-start-here
 * http://www.usmlegunner.com/
+* [r/medicalschool](http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently/)
 * general study methods
    * http://calnewport.com/blog
    * http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying/
