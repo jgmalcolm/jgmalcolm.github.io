@@ -56,6 +56,10 @@ me@jgmalcolm.com <br />
 
 **Citizenship: US**
 
+# Certifications
+
+* American Heart Association Basic Life Support (2014)
+
 # Publications
 
 ## International Journals and Book Chapters
