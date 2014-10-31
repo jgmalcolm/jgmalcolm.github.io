@@ -268,6 +268,8 @@ Hamming:
   - industry vs postdoc [r01-rate], [phd-positions]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
+  - entering new fields, branching out
+
 
 {% endcomment %}
 
