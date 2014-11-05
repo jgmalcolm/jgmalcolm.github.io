@@ -255,5 +255,6 @@ symptom.
 
 
 
-> Thanks to my classmates Juan-Manuel Duran, Jason Boulter, and LeslieAnn Kao
-> for discussions.
+> Thanks to my classmates Juan-Manuel Duran, Jason Boulter, LeslieAnn Kao,
+> Ming Lee, [Erik Reinertsen](//erikreinertsen.com), and Evan McClure for
+> discussions.
