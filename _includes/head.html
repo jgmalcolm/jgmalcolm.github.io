@@ -4,15 +4,14 @@
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-<!-- CSS -->
-<link rel="stylesheet" href="/css/all.css">
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic" />
+<link rel="stylesheet" href="/css/highlight-default.css">
+<script src="/js/highlight.min.js"></script>
 <script src="/js/all.js"></script>
 {% for css in page.css %}<link rel="stylesheet" href="{{ css }}">{% endfor %}
 {% for js in page.js %}<script src="{{ js }}"></script>{% endfor %}
 
-<link rel="stylesheet" href="/css/highlight-default.css">
-<script src="/js/highlight.min.js"></script>
+<link rel="stylesheet" href="/css/all.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic" />
 
 {% if page.robots %}
 <meta name="robots" content="{{ page.robots }}" />

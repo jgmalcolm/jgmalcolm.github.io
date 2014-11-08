@@ -69,3 +69,8 @@ h6:hover .header-link {
 li > ul {
     margin-bottom: 0;
 }
+
+pre, code {
+  color: #333;
+  background-color: #ddd !important;
+}
