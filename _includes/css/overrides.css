@@ -78,3 +78,10 @@ li > ul {
   background: #F7FAFB;
   border-radius: 3px;
 }
+
+@media (max-width: 32em) {
+  .hljs, pre, code {
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+}
