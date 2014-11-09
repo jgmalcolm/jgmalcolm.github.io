@@ -113,7 +113,7 @@ strong {
 /* Lists */
 ul, ol, dl {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 dt {
@@ -197,17 +197,17 @@ pre {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  padding: .5rem;
+  margin: 1rem 0;
+  border-left: .25rem solid #ccc;
+  font-style: italic;
 }
 blockquote p:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 30em) {
   blockquote {
-    padding-right: 5rem;
+    padding-right: 1.25rem;
     padding-left: 1.25rem;
   }
 }
