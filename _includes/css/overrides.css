@@ -26,11 +26,12 @@ h6:hover .header-link {
 
 
 .content img {
-    max-width: 100%;
     border: 1px solid #aaa;
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    margin: 20px 0;
+    max-width: none;
+    width: 110%;
+    margin: 20px -5%;
 }
 .content img.thumb {
     margin: 10px;
