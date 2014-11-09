@@ -223,8 +223,8 @@ Specific constructs can help clue you in.
 
 ## Answer choice tip-offs
 
-* If most of the questions (3-4) have the same base phrase but differ in the
-  second half, look to choose among those if you have to guess.
+If most of the questions (3-4) have the same base phrase but differ in the
+second half, look to choose among those if you have to guess.
 
 > Patient is having a reaction to heparin.
 >
@@ -233,9 +233,9 @@ Specific constructs can help clue you in.
 > - Discontinue heparin, do Z.
 > - Do something completely different.    (probably the wrong answer)
 
-* One answer may refer to a combination of others.  Often you can ignore the
-  other choices not involved in that combination.  This shows up more so on
-  lower quality tests.
+One answer may refer to a combination of others.  Often you can ignore the
+other choices not involved in that combination.  This shows up more so on
+lower quality tests.
 
 > Question, blah, blah, blah.
 >
