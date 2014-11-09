@@ -346,7 +346,8 @@ your options:
 * [KissPharm](http://www.kisspharmacology.com) - no personal experience,
   recommended by an upperclassman
 * [Memorang App](www.memorangapp.com)- looks super simple
-
+* [MedComic](http://www.medcomic.com/archive.html) - amusing sketches
+  illustrating various topics.  Like a lite version of Pathoma.
 
 
 
