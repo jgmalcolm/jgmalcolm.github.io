@@ -69,7 +69,7 @@ li > ul {
     margin-bottom: 0;
 }
 
-pre, code {
+.hljs, pre, code {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: #E3EDF3 1px solid;
