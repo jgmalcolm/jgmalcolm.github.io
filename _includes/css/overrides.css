@@ -7,6 +7,9 @@ body {
 a {
     color: #ae1429;
 }
+blockquote {
+    font-weight: 300;
+}
 
 .header-link {
   font-size: 75%;
