@@ -115,7 +115,7 @@
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 20rem;
     margin-right: 4rem;
   }
 }
@@ -134,13 +134,11 @@
   }
   .layout-reverse .content {
     margin-left: 2rem;
-    margin-right: 20rem;
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 22rem;
   }
 }

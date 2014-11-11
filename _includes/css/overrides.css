@@ -30,11 +30,10 @@ h6:hover .header-link {
     border-radius: 3px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
     max-width: none;
-    width: 110%;
     margin: 20px -5%;
 }
 .content img.thumb {
-    margin: 10px;
+    margin: 10px 0 10px 10px;
     max-width: 50%;
     float: right;
 }
@@ -80,9 +79,14 @@ li > ul {
   border-radius: 3px;
 }
 
-@media (max-width: 32em) {
+@media (max-width: 48em) {
   .hljs, pre, code {
     -moz-tab-size: 2;
     -o-tab-size: 2;
     tab-size: 2;
+  }
+  .content img {
+    width: 105%;
+    margin: 20px -2.5%;
+  }
 }
