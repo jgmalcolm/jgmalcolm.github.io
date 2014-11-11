@@ -68,8 +68,8 @@ h6:hover .header-link {
 li > ul {
     margin-bottom: 0;
 }
-li {
-    margin-left: -.75rem;
+ul {
+    padding-left: 1rem;
 }
 
 .hljs, pre, code {
