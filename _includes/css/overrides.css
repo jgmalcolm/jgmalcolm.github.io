@@ -68,6 +68,9 @@ h6:hover .header-link {
 li > ul {
     margin-bottom: 0;
 }
+li {
+    margin-left: -.75rem;
+}
 
 .hljs, pre, code {
   -moz-box-sizing: border-box;
