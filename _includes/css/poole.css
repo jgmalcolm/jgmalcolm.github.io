@@ -139,14 +139,14 @@ abbr[title] {
 }
 
 /* Code */
-code,
-pre {
+code, pre {
   font-family: Menlo, Monaco, Consolas, monospace;
   font-size: 0.8rem;
 }
 code {
   padding: .25em .25em;
   border-radius: 3px;
+  white-space: nowrap;
 }
 pre {
   display: block;
