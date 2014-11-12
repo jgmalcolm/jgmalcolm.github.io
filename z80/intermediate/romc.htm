@@ -32,79 +32,79 @@ with no leading spaces.
 		<TD>Alias
 		<TD>Address
 		<TD>What It Does
-	<TR>	<TD><CODE>_clrLCD
-		<TD><CODE>$4a7e
+	<TR>	<TD><CODE>_clrLCD</CODE>
+		<TD><CODE>$4a7e</CODE>
 		<TD>Clears the screen.
-	<TR>	<TD><CODE>_clrScrn
-		<TD><CODE>$4a82
+	<TR>	<TD><CODE>_clrScrn</CODE>
+		<TD><CODE>$4a82</CODE>
 		<TD>Clears the screen and sets the <CODE>_textShadow</CODE>
 		area all to ' ' (<CODE>LSpace</CODE>).
-	<TR>	<TD><CODE>_Exec_Assembly
-		<TD><CODE>$5730
+	<TR>	<TD><CODE>_Exec_Assembly</CODE>
+		<TD><CODE>$5730</CODE>
 		<TD>Execute the assembly program whose name is in
 		<A HREF="../variables/ti86.htm">OP1</A> in
 		<A HREF="../variables/vari.htm">Variable Name Format</A>.
-	<TR>	<TD><CODE>_FlushAllMenus
-		<TD><CODE>$49dc
+	<TR>	<TD><CODE>_FlushAllMenus</CODE>
+		<TD><CODE>$49dc</CODE>
 		<TD>Clear all current menus. This allows text to be written
 		on the last two rows if menus were running.
-	<TR>	<TD><CODE>_getkey
-		<TD><CODE>$55aa
+	<TR>	<TD><CODE>_getkey</CODE>
+		<TD><CODE>$55aa</CODE>
 		<TD>Returns the value of the last key pressed into <CODE>a</CODE>. You
 		need a <A HREF="getkey.htm">chart</A> to see which key is what.
-	<TR>	<TD><CODE>_homeup
-		<TD><CODE>$4a95
+	<TR>	<TD><CODE>_homeup</CODE>
+		<TD><CODE>$4a95</CODE>
 		<TD>Puts the big cursor's position at the top left of the screen.
-	<TR>	<TD><CODE>_move10b
-		<TD><CODE>$427b
+	<TR>	<TD><CODE>_move10b</CODE>
+		<TD><CODE>$427b</CODE>
 		<TD>Moves 10 bytes from <CODE>hl</CODE> to <CODE>de</CODE>.
-	<TR>	<TD><CODE>_NewLine
-		<TD><CODE>$4a5f
+	<TR>	<TD><CODE>_NewLine</CODE>
+		<TD><CODE>$4a5f</CODE>
 		<TD>Execute a carrage return in
 		<A HREF="text.htm#curs">cursor font</A>.
-	<TR>	<TD><CODE>_PDspGrph
-		<TD><CODE>$4d6f
+	<TR>	<TD><CODE>_PDspGrph</CODE>
+		<TD><CODE>$4d6f</CODE>
 		<TD>Displays the graph screen with the current settings. If you jump
 		to this (so you exit right from your program) it will have the graph
 		menu at the bottom just as if you had hit [GRAPH] at the homescreen.
-	<TR>	<TD><CODE>_putc
-		<TD><CODE>$4a2b
+	<TR>	<TD><CODE>_putc</CODE>
+		<TD><CODE>$4a2b</CODE>
 		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
 		cursor position and advances the cursor position. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><CODE>_putmap
-		<TD><CODE>$4a27
+	<TR>	<TD><CODE>_putmap</CODE>
+		<TD><CODE>$4a27</CODE>
 		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
 		cursor position but does not advance the cursor position. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><CODE>_putps
-		<TD><CODE>$4a3b
+	<TR>	<TD><CODE>_putps</CODE>
+		<TD><CODE>$4a3b</CODE>
 		<TD>Puts the length-indexed string pointed to by <CODE>hl</CODE>
 		at the current cursor position. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><CODE>_puts
-		<TD><CODE>$4a37
+	<TR>	<TD><CODE>_puts</CODE>
+		<TD><CODE>$4a37</CODE>
 		<TD>Puts the zero-terminated string pointed to by <CODE>hl</CODE>
 		at the current cursor position. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><CODE>_vputmap
-		<TD><CODE>$4aa1
+	<TR>	<TD><CODE>_vputmap</CODE>
+		<TD><CODE>$4aa1</CODE>
 		<TD>Puts <CODE>a</CODE>'s ASCII value onto the screen at the current
 		cursor position in menu text and advances the cursor position. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><CODE>_vputs
-		<TD><CODE>$4aa5
+	<TR>	<TD><CODE>_vputs</CODE>
+		<TD><CODE>$4aa5</CODE>
 		<TD>Puts the zero-terminated string pointed to by <CODE>hl</CODE>
 		at the current cursor position in menu text. More on this
 		in the <A HREF="../intermediate/text.htm">Text Display Routines</A> section.
-	<TR>	<TD><A NAME=_runIndicOff></a><CODE>_runIndicOff
-		<TD><CODE>$4ab1
+	<TR>	<TD><A NAME=_runIndicOff></a><CODE>_runIndicOff</CODE>
+		<TD><CODE>$4ab1</CODE>
 		<TD>Turn off that annoying busy indicator.
-	<TR>	<TD><CODE>_runIndicOn
-		<TD><CODE>$4aad
+	<TR>	<TD><CODE>_runIndicOn</CODE>
+		<TD><CODE>$4aad</CODE>
 		<TD>Turn on that annoying busy indicator.
-	<TR>	<TD><CODE>_StoAns
-		<TD><CODE>$4c9f
+	<TR>	<TD><CODE>_StoAns</CODE>
+		<TD><CODE>$4c9f</CODE>
 		<TD>Store <A HREF="../variables/ti86.htm">OP1</A> into
 		the Answer (Ans) variable. If OP1 is a complex number,
 		OP2 will be used as the imaginary part.
