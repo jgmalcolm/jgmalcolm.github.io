@@ -53,11 +53,12 @@ Study their techniques and writing.  Try to distill why they are successful.
 Maybe you can find a way to relate your work to theirs and forge a joint
 project.  Have a list of rockstars both inside and outside your field.
 
-Every year when the Nobel Prize is announced, understand the technique it
+Every year when the [Nobel Prize] is announced, understand the technique it
 highlights enough that you can explain its significance to friends and family.
 Same goes for the [Breakthrough Prize], [Fields Medal], [Turing Award],
 [Lasker Award], etc.
 
+[Nobel Prize]: https://en.wikipedia.org/wiki/Nobel_Prize
 [Breakthrough Prize]: https://en.wikipedia.org/wiki/Breakthrough_Prize_in_Life_Sciences
 [Fields Medal]: https://en.wikipedia.org/wiki/Fields_Medal
 [Turing Award]: http://amturing.acm.org/
