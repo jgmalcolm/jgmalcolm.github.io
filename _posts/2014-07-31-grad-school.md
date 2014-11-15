@@ -54,8 +54,14 @@ Maybe you can find a way to relate your work to theirs and forge a joint
 project.  Have a list of rockstars both inside and outside your field.
 
 Every year when the Nobel Prize is announced, understand the technique it
-highlights enough that you can explain its significance to friends and
-family.  Same goes for the Fields Medal, Turing Award, etc.
+highlights enough that you can explain its significance to friends and family.
+Same goes for the [Breakthrough Prize], [Fields Medal], [Turing Award],
+[Lasker Award], etc.
+
+[Breakthrough Prize]: https://en.wikipedia.org/wiki/Breakthrough_Prize_in_Life_Sciences
+[Fields Medal]: https://en.wikipedia.org/wiki/Fields_Medal
+[Turing Award]: http://amturing.acm.org/
+[Lasker Award]: https://en.wikipedia.org/wiki/Lasker_Award
 
 
 ## Choose your advisor carefully
