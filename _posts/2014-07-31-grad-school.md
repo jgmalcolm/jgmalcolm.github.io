@@ -249,6 +249,7 @@ What do they need to move their own career forward?
 ## Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
   - http://www.shawnlankton.com/2007/09/formula-to-write-a-paper
+  - http://terrytao.wordpress.com/advice-on-writing-papers/
 
 ## Productivity
   - top students
@@ -272,6 +273,8 @@ Hamming:
 ## Defense
 
 ## Career
+  - academic
+    - http://terrytao.wordpress.com/career-advice/
   - industry vs postdoc [r01-rate], [phd-positions]
   - consulting http://www.shawnlankton.com/2009/08/getting-a-consulting-job-0
   - Hamming
