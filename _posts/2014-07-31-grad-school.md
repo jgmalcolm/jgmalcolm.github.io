@@ -256,6 +256,7 @@ What do they need to move their own career forward?
   - focus
   - time
   - balance
+  - http://terrytao.wordpress.com/2008/08/07/on-time-management/
 
 Hamming:
 
