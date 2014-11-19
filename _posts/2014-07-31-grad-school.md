@@ -95,7 +95,7 @@ and seek the advice of others.
 ## Consult your advisor
 
 Read all of their major works.  Ask them where to start and what to read.
-You'll find that a key papers keep coming up, especially as you prepare
+You'll find that a few key papers keep coming up, especially as you prepare
 background citations in your work and go on to meet former students at
 conference.
 
