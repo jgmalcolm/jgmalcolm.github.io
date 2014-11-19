@@ -63,6 +63,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * Emacs/vim/bash/screen/git.  Browse my
   [dot files](https://github.com/jgmalcolm/dotfiles).
 
+[Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
 [GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
 
