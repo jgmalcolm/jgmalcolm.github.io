@@ -9,7 +9,8 @@
       box-shadow: none !important;
   }
   a,a:visited {
-      text-decoration: underline;
+      text-decoration: none;
+      border-bottom: 1px dotted;
   }
   pre, blockquote {
       border: 1px solid #999;
