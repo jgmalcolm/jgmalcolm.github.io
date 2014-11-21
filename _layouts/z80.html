@@ -3,7 +3,9 @@ layout: default
 ---
 <h2>
   <a href="/z80">z80</a> ::
+{% if page.section %}
   <a href="/z80/#{{ page.section | downcase }}">{{ page.section }}</a> ::
+{% endif %}
   <a href="#">{{ page.title }}</a>
 </h2>
 
