@@ -20,6 +20,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Advanced](#advanced) - ports, hidden TI-OS features
 - [Opcodes](#opcodes) - listing of all z80 opcodes (numeric or alphabetic)
 - [Variables](#variables) - manipulate TI-OS variables
+- [Downloads](download/download.htm) - tools, examples, algorithms
 
 
 ## Beginner
