@@ -7,20 +7,20 @@
       text-shadow: none !important;
       color: #000 !important;
       background: transparent !important;
-      box-shadow: none !important
+      box-shadow: none !important;
   }
   a,a:visited {
-      text-decoration: underline
+      text-decoration: underline;
   }
   pre, blockquote {
       border: 1px solid #999;
-      page-break-inside: avoid
+      page-break-inside: avoid;
   }
   thead {
-      display: table-header-group
+      display: table-header-group;
   }
   tr,img {
-      page-break-inside: avoid
+      page-break-inside: avoid;
   }
   p,h2,h3 {
       orphans: 3;
