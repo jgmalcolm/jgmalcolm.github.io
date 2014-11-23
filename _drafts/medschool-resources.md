@@ -15,7 +15,7 @@ more.
 
 ## Resources every med student uses
 
-### [First Aid for STEP1](//amazon.com/dp/0071831428)
+### [First Aid for STEP1](//www.amazon.com/dp/0071840060)
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent review
