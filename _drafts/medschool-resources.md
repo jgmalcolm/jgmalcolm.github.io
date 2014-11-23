@@ -13,8 +13,9 @@ I've experimented with various channels for learning: review texts, memory
 palaces, video tutorials, spaced repetition software, physical note cards, and
 more.
 
+## Resources every med student uses
 
-## [First Aid for STEP1](http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428)
+### [First Aid for STEP1](//amazon.com/dp/0071831428)
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent review
@@ -22,7 +23,29 @@ more.
 * Every med student will purchase a copy of this.  New editions come out
   before Christmas.  This is the book you will likely spend the most time with
   in the months leading up to STEP1.
-  * Consolidate resources: annotate
+* Consolidate resources: annotate other resources (Pathoma, Firecracker, etc)
+  into this so you're not spread among five review books.
+
+### [Pathoma](//www.pathoma.com)
+
+* Concise videos covering all relevant pathology
+* $99 for 12 month, video + slim review text
+* Highly, highly recommend (you'll also see it highly recommended in First Aid
+  resource recommendations appendix)
+* 12 month subscription, so purchase 12 months out from exam (and use to
+  review before exam)
+* About 1.5 - 2.5 hours of video per organ system
+* [Record audio] so you can listen while you commute or exercise
+
+### [U World](//www.usmleworld.com/purchase.aspx).
+
+* The official question bank of USMLE
+* $250 for question bank and self-assessments
+* Purchase about 90 days out from your STEP1 date
+* Organize your classmates to get a group discount
+
+
+
 
 ## [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
 
@@ -30,7 +53,6 @@ more.
 * Covers all basic science in First Aid
 * You could probably get buy purchasing this instead of the random specialized
   and overly-detailed books that professors recommend.
-
 
 ## Videos
 
@@ -60,17 +82,6 @@ more.
 
 
 
-
-## [Pathoma](https://www.pathoma.com)
-
-* Concise videos covering all relevant pathology
-* $99 for 12 month, video + slim review text
-* Highly, highly recommend (you'll also see it highly recommended in FA Step 1
-  resource recommendations appendix)
-* 12 month subscription, so purchase 12 months out from exam (and use to
-  review before exam)
-* About 1.5 - 2.5 hours of video per organ system
-* [Record audio] so you can listen while you commute or exercise
 
 Also for pathology, I used:
 
@@ -238,15 +249,6 @@ your options:
 
 
 # Question Banks
-
-
-## [U World](http://www.usmleworld.com/purchase.aspx).
-
-* $250 for qbank and self-assessment
-* Created by the authors of the STEP1 exam
-  * Just like the First Aid for STEP1 review book, everyone purchases U World.
-* Purchase about 90 days out from your STEP1 date
-* Organize your classmates to get a group discount
 
 
 ## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
