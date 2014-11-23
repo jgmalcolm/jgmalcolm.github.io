@@ -13,9 +13,16 @@ I've experimented with various channels for learning: review texts, memory
 palaces, video tutorials, spaced repetition software, physical note cards, and
 more.
 
-## Resources every med student uses
+## Three resources every med student uses
 
-### [First Aid for STEP1](//www.amazon.com/dp/0071840060)
+There is no resource that will cover 100% of the NBME STEP1 exam, so you'll
+pull from various sources.  Don't fall into the trap of thinking your grades
+will improve if you have more resources; you'll get spread thin.  Better to
+focus on knowing a few good resources thoroughly, and then picking pieces from
+other resources as needed.  That said, here are three resources every medical
+student uses for the boards.
+
+### 1. [First Aid for STEP1](//www.amazon.com/dp/0071840060) review
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent review
@@ -26,7 +33,7 @@ more.
 * Consolidate resources: annotate other resources (Pathoma, Firecracker, etc)
   into this so you're not spread among five review books.
 
-### [Pathoma](//www.pathoma.com)
+### 2. [Pathoma](//www.pathoma.com) for pathology
 
 * Concise videos covering all relevant pathology
 * $99 for 12 month, video + slim review text
@@ -40,7 +47,7 @@ more.
   [Rapid Review Pathology] (red).  <img src="/images/goljan-pathoma-trend.png"
   class="thumb" alt="Pathoma (blue) has now overtaken Goljan (red)">
 
-### [U World](//www.usmleworld.com/purchase.aspx).
+### 3. [U-World](//www.usmleworld.com/purchase.aspx) question bank
 
 * The official question bank of USMLE
 * $250 for question bank and self-assessments
@@ -63,11 +70,14 @@ more.
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.
 * Covers about 140 bacteria, viruses, fungi, protozoa, and helminths.
-* You can underline and annotate key facts
+* You can underline and annotate key facts.  As with annotating any boards
+  review source, be careful not to add too much.  It's okay to add a small
+  table contrasting against other bugs, but be careful to not add low-yield
+  random facts that will clutter the card.
 
 
 
-## Videos
+# Learn From Videos
 
 * YouTube is a treasure trove of focused topical videos.
   * Each module, create a playlist and add videos as you come across them.
