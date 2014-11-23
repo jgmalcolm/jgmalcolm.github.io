@@ -74,7 +74,7 @@ weaknesses, learning style, and augment with targeted resources.
   and overly-detailed books that professors recommend.
 
 
-## [Lippincott's Microcards](http://www.amazon.com/dp/145111219X)
+## [Lippincott's Microcards]
 
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.
@@ -84,7 +84,7 @@ weaknesses, learning style, and augment with targeted resources.
   table contrasting against other bugs, but be careful to not add low-yield
   random facts that will clutter the card.
 
-
+[Lippincott's Microcards]: http://www.amazon.com/dp/145111219X
 
 # Learn From Videos
 
@@ -356,6 +356,8 @@ your options:
    * cheaper ($7/mo versus $25/mo for Picmonic)
    * simple but poor navigation vs Picmonic which is overly complicated and
      buggy in a lot of cases
+   * both lack completeness, but Picmonic seems to have a few more important
+     details ([Lippincott's Microcards] are more comprehensive)
 * [record the audio][record audio]
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
