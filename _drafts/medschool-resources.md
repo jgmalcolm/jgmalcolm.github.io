@@ -36,6 +36,9 @@ more.
   review before exam)
 * About 1.5 - 2.5 hours of video per organ system
 * [Record audio] so you can listen while you commute or exercise
+* Interesting to see how Pathoma (blue) has come to overtake Goljan's
+  [Rapid Review Pathology] (red).  <img src="/images/goljan-pathoma-trend.png"
+  class="thumb" alt="Pathoma (blue) has now overtaken Goljan (red)">
 
 ### [U World](//www.usmleworld.com/purchase.aspx).
 
