@@ -22,34 +22,38 @@ focus on knowing a few good resources thoroughly, and then picking pieces from
 other resources as needed.  That said, here are three resources every medical
 student uses for the boards.
 
-### 1. [First Aid for STEP1](//www.amazon.com/dp/0071840060) review
+### Content review for entire exam: [First Aid for STEP1](//www.amazon.com/dp/0071840060)
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
-  tool, but an excellent review
+  tool, but an excellent outline review.
 * Often referred to simply as First Aid or FA
 * Every med student will purchase a copy of this.  New editions come out
   before Christmas.  This is the book you will likely spend the most time with
   in the months leading up to STEP1.
 * Consolidate resources: annotate other resources (Pathoma, Firecracker, etc)
   into this so you're not spread among five review books.
+* You'll definitely want a hard copy to annotate, but also a PDF version for
+  text search
 
-### 2. [Pathoma](//www.pathoma.com) for pathology
+### Pathology review: [Pathoma](//www.pathoma.com)
 
-* Concise videos covering all relevant pathology
-* $99 for 12 month, video + slim review text
+* Concise video lectures covering all relevant pathology along with a slim
+  review text
+  * About 1.5 - 2.5 hours of video per organ system
 * Highly, highly recommend (you'll also see it highly recommended in First Aid
   resource recommendations appendix)
-* 12 month subscription, so purchase 12 months out from exam (and use to
-  review before exam)
-* About 1.5 - 2.5 hours of video per organ system
+* 12 month subscription, so purchase 12 months out from your STEP1 exam date
+* Interesting to that
+  [Google Trends](//google.com/trends/explore#q=pathoma%2C%20Goljan) shows
+  Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <img
+  src="/images/goljan-pathoma-trend.png" class="thumb" alt="Pathoma (blue) is
+  overtaking Goljan (red)">
 * [Record audio] so you can listen while you commute or exercise
-* Interesting to see how Pathoma (blue) has come to overtake Goljan's
-  [Rapid Review Pathology] (red).  <img src="/images/goljan-pathoma-trend.png"
-  class="thumb" alt="Pathoma (blue) has now overtaken Goljan (red)">
 
-### 3. [U-World](//www.usmleworld.com/purchase.aspx) question bank
+### Practice questions: [U-World](//www.usmleworld.com/purchase.aspx)
 
 * The official question bank of USMLE
+* Explanations are of the highest quality
 * $250 for question bank and self-assessments
 * Purchase about 90 days out from your STEP1 date
 * Organize your classmates to get a group discount
