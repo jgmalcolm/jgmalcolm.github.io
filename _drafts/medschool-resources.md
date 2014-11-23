@@ -54,6 +54,16 @@ more.
 * You could probably get buy purchasing this instead of the random specialized
   and overly-detailed books that professors recommend.
 
+
+## [Lippincott's Microcards](http://www.amazon.com/dp/145111219X)
+
+* Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
+  high yield facts.
+* Covers about 140 bacteria, viruses, fungi, protozoa, and helminths.
+* You can underline and annotate key facts
+
+
+
 ## Videos
 
 * YouTube is a treasure trove of focused topical videos.
