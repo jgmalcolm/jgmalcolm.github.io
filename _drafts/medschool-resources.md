@@ -188,6 +188,9 @@ your options:
   * In the months **leading up to STEP1, I switched to Normal mode** so I
     could hit the high points but start spending more time with Qbanks and
     other resources.
+* **Check STEP1 only** No need to include STEP2 (3rd year) questions.  There's
+  a lot of overlapping coverage and you'll be fine with just STEP1.  This is
+  also under "Account & Settings".
 
 
 ## Ratings  1-5 ratings
