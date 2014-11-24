@@ -59,11 +59,11 @@ student uses for the boards.
 * Organize your classmates to get a group discount
 
 
-##
+## Important Resources
 
-These three likely give you the most comprehensive coverage in the fewest
-number of resources.  Beyond these, you need to critically appraise your
-weaknesses, learning style, and augment with targeted resources.
+The three resources above will provide the most comprehensive coverage in the
+fewest number of resources.  Beyond these, you need to critically appraise
+your weaknesses, learning style, and augment with targeted resources.
 
 
 ## [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
