@@ -393,6 +393,9 @@ your options:
   all the classic diagrams you'll see in lectures, eg. cervical plexus.
   [Atlas of Anatomy 2e](http://www.amazon.com/dp/1604067454) is also great,
   but probably best to stick with Netter.
+* [Netter Flashcards](http://www.amazon.com/dp/0323185959) are the best way to
+  learn.  For each module, put all the relevant cards on the ring and flip
+  through those as you can.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
