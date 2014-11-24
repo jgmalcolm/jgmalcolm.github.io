@@ -38,3 +38,7 @@ http://www.instructables.com/id/DIY-Cold-Brew-Coffee
   a finished product that is notably less bitter and actually puts
   forward a deep caramel and chocolaty flavor. It is perfect for a
   warm day."
+
+
+[The calculus of caffeine consumption]: http://arvindn.livejournal.com/57651.html
+[Productivity Cycle]: https://alexsexton.com/blog/2014/1/the-productivity-cycle/
