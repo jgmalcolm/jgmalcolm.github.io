@@ -124,8 +124,9 @@ most effective.  There are great flashcard systems like [Anki] that implement
 these models and provide cute graphs and numbers so you can
 [gamify learning][gamify].  For standardized classes, chances are someone
 [already created the deck][decks] you want to study,
-e.g. [med school boards][usmle].  Read more about [incremental learning] and
-[spaced repetition][gwern].
+e.g. [med school boards][usmle].  Read more about [incremental learning],
+[spaced repetition][gwern], and [best practices][20 rules] for making
+notecards.
 
 [wiki-sr]: https://en.wikipedia.org/wiki/Spaced_repetition
 [gwern]: http://www.gwern.net/Spaced%20repetition
@@ -133,6 +134,7 @@ e.g. [med school boards][usmle].  Read more about [incremental learning] and
 [decks]: https://ankiweb.net/shared/decks
 [usmle]: https://ankiweb.net/shared/decks/usmle
 [incremental learning]: http://www.super-memory.com/help/il_full.htm
+[20 rules]: http://www.supermemo.com/articles/20rules.htm
 [gamify]: http://lifehacker.com/the-psychology-of-gamification-can-apps-keep-you-motiv-1521754385
 [sivers]: http://sivers.org/srs
 [janki]: http://www.jackkinsella.ie/2011/12/05/janki-method.html
