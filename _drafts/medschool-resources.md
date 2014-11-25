@@ -76,6 +76,11 @@ your weaknesses, learning style, and augment with targeted resources.
 
 ## [Lippincott's Microcards]
 
+<div class="gallery"> <a href="/images/micro-flashcards.jpg"
+  data-gallery="wiki" title="Simple annotations to highlight tested facts.
+  Think critically 'What is testable?' so you only a few things per card.">
+  <img class="thumb" src="/images/micro-flashcards.jpg"></a></div>
+
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.
 * Covers about 140 bacteria, viruses, fungi, protozoa, and helminths.
@@ -474,3 +479,6 @@ mental imagery.
 
 > Thanks to classmates Evan McClure and Giacomo Waller for tips on recording
 > MP3s
+
+
+{% include gallery.html %}
