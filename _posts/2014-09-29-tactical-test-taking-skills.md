@@ -224,7 +224,7 @@ There are some triggers that should perk your ears to a likely diagnosis.
   deficiency (bleeding), C diff
 * medication that was recently prescribed &rarr; side effects causing chief
   complaint
-* multiple sexual partners, IV drug use &rarr; consider HIV/AIDS and
+* multiple sexual partners, IV drug use &rarr; consider STDs or HIV/AIDS and
   opportunistic infections
 
 
