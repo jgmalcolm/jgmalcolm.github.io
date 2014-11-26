@@ -80,8 +80,8 @@ your weaknesses, learning style, and augment with targeted resources.
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
   data-gallery="wiki" title="Simple annotations to highlight tested facts.
-  Think critically 'What is testable?' so you only a few things per card.">
-  <img class="thumb" src="/images/micro-flashcards.jpg"></a></div>
+  Think critically 'What is testable?' so you only emphasize a few things per
+  card."> <img class="thumb" src="/images/micro-flashcards.jpg"></a></div>
 
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.
