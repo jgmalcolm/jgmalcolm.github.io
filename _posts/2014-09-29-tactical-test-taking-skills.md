@@ -102,7 +102,8 @@ Create a spreadsheet recording a learning point for every question you got
 wrong.  Keep this very simple and low-friction.  Don't complicate this because
 you don't need to come back and review.  Just the simple act of recording the
 topic and learning point forces you to synthesize a factoid suitable for
-cerebral storage.
+cerebral storage.  If you got a question right but just barely, consider
+recording the learning point to solidify your thinking.
 
 
 ## Review topics, not isolated details
