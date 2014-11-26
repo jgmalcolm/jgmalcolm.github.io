@@ -211,17 +211,22 @@ If you have to guess, do so intelligently:
 
 There are some triggers that should perk your ears to a likely diagnosis.
 
-* African-American female - autoimmune
-* 20-40yo female - autoimmune, multiple sclerosis
-* "Patient presents to emergency room..." - unlikely a chronic issue, acute often means vascular
-* "Complaining of progressive symptoms for several months" - tumors can develop over months
-* Infant or first few weeks of birth - genetic
-   * no family history - recessive
-* female - ignore x-linked
-* "multiple rounds of antibiotics" - no gut flora causing Vitamin K deficiency
-  (bleeding), C diff
-* medication that was recently prescribed - side effects causing chief
+* African-American female &rarr; autoimmune
+* 20-40yo female &rarr; autoimmune, multiple sclerosis
+* "Patient presents to emergency room..." &rarr; unlikely a chronic issue,
+  acute often means vascular
+* "Complaining of progressive symptoms for several months" &rarr; tumors can
+  develop over months
+* Infant or first few weeks of birth &rarr; genetic
+   * no family history &rarr; recessive
+* female &rarr; ignore x-linked
+* "multiple rounds of antibiotics" &rarr; no gut flora causing Vitamin K
+  deficiency (bleeding), C diff
+* medication that was recently prescribed &rarr; side effects causing chief
   complaint
+* multiple sexual partners, IV drug use &rarr; consider HIV/AIDS and
+  opportunistic infections
+
 
 
 ## Question stems
