@@ -283,7 +283,7 @@ your options:
 ## [First Aid Basic Sciences](http://www.amazon.com/dp/0071785744)
 
 * A companion to First Aid for STEP1, but this is a learning tool.
-* Covers all basic science in First Aid
+* Covers all basic science in First Aid, but is due for an update compared to FA.
 * You could probably get buy purchasing this instead of the random specialized
   and overly-detailed books that professors recommend.
 
