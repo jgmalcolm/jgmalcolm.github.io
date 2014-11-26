@@ -107,6 +107,9 @@ recording the learning point to solidify your thinking.  Just as you take
 notes while you're studying lectures, treat question banks as study time and
 take a few simple notes.
 
+Instead of simply stating the correct answer or tested fact, put it in
+contrast with the wrong answer you picked.
+
 
 ## Review topics, not isolated details
 
