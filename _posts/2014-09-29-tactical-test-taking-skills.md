@@ -98,10 +98,11 @@ you get wrong: no sense noting what material you already know.
 
 ## Record a learning point
 
-Create a spreadsheet recording every question you got wrong and why.  Don't
-complicate this because you don't need to come back and review.  Just the
-simple act of recording the topic and learning point forces you to synthesize
-a factoid suitable for cerebral storage.
+Create a spreadsheet recording a learning point for every question you got
+wrong.  Keep this very simple and low-friction.  Don't complicate this because
+you don't need to come back and review.  Just the simple act of recording the
+topic and learning point forces you to synthesize a factoid suitable for
+cerebral storage.
 
 
 ## Review topics, not isolated details
