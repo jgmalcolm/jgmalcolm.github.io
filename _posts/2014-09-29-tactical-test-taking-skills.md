@@ -57,20 +57,20 @@ At this point, you can skim the answer choices and probably immediately rule
 out one or two.  In some cases, the answer is obvious (but don't jump until
 you've read everything)..
 
-Finally, go back to read the rest of the scenario and attack the answer
+Now go back to read the rest of the scenario and attack the remaining answer
 choices.
 
 You’ll avoid the situation where you’re reading along thinking you know
 exactly the diagnosis, only to come to the end and realize the prompt is
 asking you something different like a side effect of the treatment for that
-obvious disease.  If you had known the prompt, you could have been reading the
-scenario and already thinking of how to make a connection to the prompt.
-Wasted time and energy.
+obvious disease (second-order sequence instead of first-order recall).  If you
+had known the prompt, you could have been reading the scenario and already
+thinking of how to make a connection to the prompt.  Wasted time and energy.
 
 If there’s an image, look at it before reading the full question to see if you
 recognize anything.  Often, after only reading the final prompt and glancing
 at the answer choices, you can already rule out one or more wrong choices in
-seconds.  Classic histology can be a tip off.
+seconds.  Classic histology or gram staining is "classic" for a reason.
 
 
 ## The aftermath
