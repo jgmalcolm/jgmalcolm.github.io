@@ -472,6 +472,12 @@ mental imagery.
     * 22 KHz sampling, (fast) variable 65-105 kbps, mono
     * [advanced details][mp3 settings]
 
+<img class="thumb" src="/images/soundflower.png" alt="Ensure Built-in Output
+  is checked"> Sometimes when I pull my headphones out, this setup gets in a
+  weird state where I have no sound.  When this happens, ensure the
+  Soundflower icon in menu bar is set for 2ch output to be "Built-in Output".
+  Usually this fixes the situation.
+
 
 [wikihow]: http://www.wikihow.com/Record-Application-Audio-With-Soundflower
 [mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
