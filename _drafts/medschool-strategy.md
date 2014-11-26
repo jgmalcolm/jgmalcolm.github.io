@@ -270,3 +270,12 @@ of studying is managing your energy.
 
 Switch tactics: if you're getting bored of answering questions, switch over to
 watch a video lecture.
+
+
+
+## Don't mistake activity for active learning
+
+I often fall into the trap of writing everything down furiously so I can study
+it later.  The truth is, you'll just be busy later.  This is a form of
+autopilot, passive learning.  Always think critically about information
+instead of just passively transcribing.
