@@ -209,7 +209,8 @@ If you have to guess, do so intelligently:
 
 ## Classic clues
 
-There are some triggers that should perk your ears to a likely diagnosis.
+There are some triggers that should either perk your ears to a likely
+diagnosis or rule out specific answer choices:
 
 * African-American female &rarr; autoimmune
 * 20-40yo female &rarr; autoimmune, multiple sclerosis
