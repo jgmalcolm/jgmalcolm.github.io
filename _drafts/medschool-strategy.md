@@ -260,6 +260,35 @@ http://www.usmlestep.com/edward-f-goljan.htm $30 (audio + notes) - not recommend
 Emory Proxy Bookmarklet - http://proxybookmarklet.com/proxy.php?s=emory - access emory library articles/texts from off campus
 
 
+## Organize information the way it gets tested
+
+Tests typically present a clinical vignette with chief complaint and then some
+secondary information to narrow down the diagnosis.
+
+For example, consider a patient presenting with osteomyelitis.  With no clues,
+*S aureus* is most likely overall, but the vignette will likely give some
+history or physical exam findings that point to other causes.  You want to put
+to put together a table like the following.
+
+| Clue | Cause
+|-
+| none | *S aureus*
+| Sexually active | septic arthritis, *Neisseria gonorrhea*
+| Diabetic | *Pseudomonas*, *Serratia*
+| Sickle cell | *Salmonella*
+| Prosthetic joint | *S aureus* > *S epidermidis*
+| Vertebra | *M tuberculosis* (Pott's disease)
+| Cat/Dog bite | *Pasteurella*
+
+
+
+## First-order and second-order questions.
+
+Presented with a clinical vignette, a first-order question would ask about the
+diagnosis while a second-order question would assume you can figure out the
+diagnosis and instead ask about the treatment (eg. drug mechanism of action or
+side effect).
+
 
 
 ## Studying takes energy.
