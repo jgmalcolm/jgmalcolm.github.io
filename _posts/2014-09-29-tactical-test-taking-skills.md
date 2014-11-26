@@ -226,6 +226,8 @@ There are some triggers that should perk your ears to a likely diagnosis.
   complaint
 * multiple sexual partners, IV drug use &rarr; consider STDs or HIV/AIDS and
   opportunistic infections
+* "Family history of <symptoms/disease>" &rarr; this always factors into the
+  diagnosis
 
 
 
