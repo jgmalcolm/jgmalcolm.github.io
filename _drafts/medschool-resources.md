@@ -68,14 +68,6 @@ fewest number of resources.  Beyond these, you need to critically appraise
 your weaknesses, learning style, and augment with targeted resources.
 
 
-## [First Aid Basic Sciences](http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744)
-
-* A companion to First Aid for STEP1, but this is a learning tool.
-* Covers all basic science in First Aid
-* You could probably get buy purchasing this instead of the random specialized
-  and overly-detailed books that professors recommend.
-
-
 ## [Lippincott's Microcards]
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
@@ -287,6 +279,13 @@ your options:
 * Note bene: Everyone I know who used this eventually abandoned because of
   time involved in creating and curating decks
 
+
+## [First Aid Basic Sciences](http://www.amazon.com/dp/0071785744)
+
+* A companion to First Aid for STEP1, but this is a learning tool.
+* Covers all basic science in First Aid
+* You could probably get buy purchasing this instead of the random specialized
+  and overly-detailed books that professors recommend.
 
 
 
