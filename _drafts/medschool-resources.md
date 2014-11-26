@@ -57,6 +57,8 @@ student uses for the boards.
 * $250 for question bank and self-assessments
 * Purchase about 90 days out from your STEP1 date
 * Organize your classmates to get a group discount
+* When you hit dedicated STEP1 study time, you must do every question in this
+  qbank at least once.  Many students go through twice.
 
 
 ## Important Resources
