@@ -152,9 +152,9 @@ context.  Here are a few classic tip-offs.
 * exotic environment
    * an emergency department in the third world - think of old drugs not used anymore in the US
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
-* immigrant who recently became ill
-   * immigrated long ago: unvaccinated
-   * immigrated recently: endemic disease
+* immigrant or foreigner visiting who recently became ill
+   * arrived long ago: unvaccinated
+   * arrived recently: endemic disease
 
 
 ## Avoid outliers
