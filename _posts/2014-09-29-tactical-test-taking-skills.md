@@ -228,8 +228,10 @@ There are some triggers that should perk your ears to a likely diagnosis.
 
 Specific constructs can help clue you in.
 
-* “What is most likely” - forget about rare diseases, just think what is
-  really prevalent.  No [zebras].
+* "What is most likely" - forget about rare diseases, just think what is most
+  prevalent.  No [zebras].  It's likely more than one answer is possible, but
+  you're being tested on epidemiological prevalence to determine the most
+  likely.
 
 [zebras]: https://en.wikipedia.org/wiki/Zebra_(medicine)
 
