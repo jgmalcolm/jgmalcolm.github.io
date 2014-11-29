@@ -11,7 +11,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air) with
-  [thin padded case](http://www.amazon.com/gp/product/B007AK6QBA/)
+  [thin padded case][acme case]
 * [iPhone 5][iphone] apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
@@ -27,16 +27,17 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   traveling in the US and abroad.  Integrates with [Instapaper][instapaper].
 * sound:
   * stationary listening:
-    [Audéo earbuds](http://www.amazon.com/dp/B003V9QDXK) - expensive but
+    [Audéo earbuds] - expensive but
     superb sound and snug fit (sidenote: might be interesting to
     [benchmark them][bench])
-  * listening on the go:
-    [Jarv NMotion Sport Wireless Bluetooth](http://www.amazon.com/gp/product/B00JAAJ1F6) -
-    good sound, excellent price, great for commute and cordless jogging
-    (despite the description saying not good for jogging, they're fine)
+  * listening on the go:  [Jarv NMotion Sport Wireless Bluetooth] - good
+    sound, excellent price, great for commute and cordless jogging (despite
+    the description saying not good for jogging, they're fine)
 
   [bench]: http://www.audiocheck.net/soundtests_headphones.php
-
+  [acme case]: http://www.amazon.com/gp/product/B007AK6QBA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007AK6QBA&linkCode=as2&tag=jgmalcolm-20&linkId=PDK4MX2ZIQ6RCJTY
+  [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
+  [Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
 
 ## Software
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions:
@@ -100,7 +101,7 @@ snippet of JavaScript.  To use one, drag it to your Bookmarks (toolbar).
 [msft]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
 [wikipedia]: {% post_url 2014-04-26-wikipedia-tricks %}
 [Sleep Cycle]: http://www.sleepcycle.com
-[kindle]: http://www.amazon.com/dp/B00BTI6HBS
+[kindle]: http://www.amazon.com/gp/product/B00JG8LDC6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JG8LDC6&linkCode=as2&tag=jgmalcolm-20&linkId=JF4GKGOEQ2GOTYBJ
 [Instapaper]: http://instapaper.com
 [insta-bookmarklet]: https://www.instapaper.com/save
 [insta-kindle]: https://www.instapaper.com/apps
@@ -117,7 +118,7 @@ snippet of JavaScript.  To use one, drag it to your Bookmarks (toolbar).
 [MenuMeters]: http://www.ragingmenace.com/software/menumeters
 [Witch]: http://manytricks.com/witch
 [Airfoil]: https://www.rogueamoeba.com/airfoil
-[bose]: http://www.amazon.com/SoundLink%C2%AE-Air-Digital-Music-System/dp/B0090Z3QD4
+[bose]: http://www.amazon.com/gp/product/B0090Z3QD4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0090Z3QD4&linkCode=as2&tag=jgmalcolm-20&linkId=7RRGBSYFGX4EC4U3
 [Caffeine]: http://lightheadsw.com/caffeine
 [F.lux]: https://justgetflux.com
 [G.lux]: https://chrome.google.com/webstore/detail/glux/hinolicfmhnjadpggledmhnffommefaf
