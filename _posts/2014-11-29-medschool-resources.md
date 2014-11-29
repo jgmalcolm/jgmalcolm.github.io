@@ -1,8 +1,7 @@
 ---
 title: Med School Resources
 layout: post
-tags: medschool, studying
-keywords: STEP1
+tags: medschool, studying, STEP1
 description: "A survey of the top study resources for the first two years of med school."
 ---
 
