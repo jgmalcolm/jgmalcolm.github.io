@@ -171,8 +171,7 @@ pre {
 blockquote {
   padding: .5rem;
   margin: 1rem 0;
-  border-left: .25rem solid #ccc;
-  background-color: #f8f8f8;
+  border-left: 2px solid black;
 }
 blockquote p:last-child {
   margin-bottom: 0;
