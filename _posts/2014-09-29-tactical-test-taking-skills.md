@@ -302,7 +302,6 @@ zipping through.  Make sure you’ve taken into consideration every single
 symptom.
 
 
-
-> Thanks to my classmates Juan-Manuel Duran, Jason Boulter, LeslieAnn Kao,
-> Ming Lee, [Erik Reinertsen](//erikreinertsen.com), and
-> [Evan McClure](//twitter.com/evan_mcclure) for discussions.
+> Thanks to my classmates Ming Lee, [Erik Reinertsen](//erikreinertsen.com),
+> [Evan McClure](//twitter.com/evan_mcclure), Juan-Manuel Duran, Jason
+> Boulter, and LeslieAnn Kao for discussions.
