@@ -42,26 +42,33 @@ student uses for the boards.
   * About 1.5 - 2.5 hours of video per organ system
 * Highly, highly recommend (you'll also see it highly recommended in First Aid
   resource recommendations appendix)
-* 12 month subscription, so purchase 12 months out from your STEP1 exam date
+* Purchase 21 months out from your STEP1 exam date
 * Interesting to that
   [Google Trends](//google.com/trends/explore#q=pathoma%2C%20Goljan) shows
   Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <img
   src="/images/goljan-pathoma-trend.png" class="thumb" alt="Pathoma (blue) is
   overtaking Goljan (red)">
 * [Record audio] so you can listen while you commute or exercise
+* Combine with [Goljan's lectures][goljan] to get multiple views of key
+  topics.  Sometimes one explains it better than the other.
 
 ### [U-World](//www.usmleworld.com/purchase.aspx): practice questions
 
 * The official question bank of USMLE
+* Also known as "USMLE World"
 * Explanations are of the highest quality
 * $250 for question bank and self-assessments
 * Purchase about 90 days out from your STEP1 date
+  * For your modules, you'll want to purchase
+    [USMLE-Rx or Kaplan qbanks][qbanks]
 * Organize your classmates to get a group discount
 * When you hit dedicated STEP1 study time, you must do every question in this
   qbank at least once.  Many students go through twice.
 
 
-## Resources to many students use
+
+
+## Top resources many students use
 
 The three resources above will provide the most comprehensive coverage in the
 fewest number of resources.  That said, nearly all students pull from a few
@@ -73,7 +80,9 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 ### [Firecracker](https://firecracker.me)
 
-* Flashcard software pre-poplated with STEP1 material (a combination of First
+* I probably spent half of my time in medical school learning with
+  Firecracker.
+* Flashcard software prepoplated with STEP1 material (a combination of First
   Aid, Goljan, etc.)
 * [Spaced repetition][spaced repetition] algorithm to optimize when to review
   what information
@@ -109,10 +118,66 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 
 
+### [Picmonic](http://picmonic.com)
+
+* static [memory scenes] with audio guide
+* $250 for 12 months, or $25/month
+* I use this only for spot treatment of various drugs and diseases that often
+  times just require brute memorization (eg. pharm, vasculitides) rather than
+  conceptual material (eg. pathophysiology of systems)
+* Whenever I hit something I have trouble recalling, I skim the picture in
+  Picmonic or queue it up in a review play list.
+* I only use the Learn feature (not the Explore or other)
+* [record the audio][record audio]
+
+
+### [Sketchy Micro](http://sketchymicro.com)
+
+* video [memory scenes] of 47 bacteria
+* create free account to get: S aureus, S epidermidis, S saprophyticus, S
+  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus, and
+  [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
+* $40/6mo
+* Focused only on bacteria (as of Fall 2014)
+* Compared to Picmonic:
+   * Overall higher quality and better explanations
+   * only bacteria (Picmonic: bacteria + viral + diseases + drugs + pathophys + more)
+   * more intuitive scenes (Picmonic can be ridiculous and make no sense)
+   * for me, watching the scene getting drawn is more captivating (Picmonic: static scene)
+   * cheaper ($7/mo versus $25/mo for Picmonic)
+   * simple but poor navigation vs Picmonic which is overly complicated and
+     buggy in a lot of cases
+   * both lack completeness, but Picmonic seems to have a few more important
+     details ([Lippincott's Microcards] are more comprehensive)
+* [record the audio][record audio] to listen while you commute, exercise, or
+  do chores
+
+[memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
 
 
-# Learn From Videos
+### Goljan audio
+
+  [goljan]: #goljan-audio
+
+* A series of lectures as part of a review course he conducted.
+* These lectures were delivered with the first edition of
+  [Rapid Review Pathology] text, but you can still follow along in the latest
+  edition.  The slides and a scan of the original textbook can be found
+  online.
+* Full of board pearls since he helps edit the USMLE questions.  While most of
+  the pathognomonic stuff is outdated and boards questions rarely use such
+  classic tip-offs, the concepts are still valid and tested in similar ways
+* It's not well organized, but makes for good background listening while
+  running errands, doing chores, or exercising.
+* Pathoma is more updated, organized, and focused, so use Pathoma if you had
+  to pick one or the other
+
+
+
+
+
+### Learn From Videos
 
 * YouTube is a treasure trove of focused topical videos.
   * Each module, create a playlist and add videos as you come across them.
@@ -141,31 +206,6 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 
 
-### Also for pathology, I used:
-
-* [BRS Pathology]
-  * Concise and well-organized review
-  * Simpler than Pathoma
-  * Each chapter has about 20 solid questions
-* Goljan's [Rapid Review Pathology]
-  * The same topic sequence as Pathoma but much more detail, especially when
-    it comes to microbiology, but not as much as [Robbins & Cotran] (aka "The
-    Bible of Pathology", get this if you're interested in Pathology as a
-    residency).
-  * Further on in the curriculum, I realized I wanted more details on
-    pathology so I started skimming chapters from this.  Pathoma is sufficient
-    for a good foundation.
-
-If you had to rank order the complexity of these resources: BRS < Pathoma <
-Goljan's < Robbins & Cotran.
-
-[Robbins & Cotran]: http://www.amazon.com/dp/1455726133
-[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
-[BRS Pathology]: http://www.amazon.com/dp/1451115873
-[BRS Physiology]: http://www.amazon.com/dp/0781798760
-
-
-
 
 
 
@@ -179,16 +219,17 @@ Goljan's < Robbins & Cotran.
 Sometimes I fall behind and the question load can be overwhelming.  Here are
 some strategies:
 
-* **Bang through the questions.** There's no substitute to just putting in the
-  time.  Glancing at the info and rating it a 1 is better than ignoring it
-  forever.  Try to just remember one bit of info and then move on.
-* **Do Fewer questions** and focus on a few topics.  Otherwise, you might feel
-  like you're getting punched from every direction as random topics hit you.
+* **Put in the time.** There's no substitute to just putting in the time.
+  Glancing at the info and rating it a 1 is better than ignoring it forever.
+  Try to just remember one bit of info and then move on.
+* **Do Fewer questions.** and focus on a few topics.  Otherwise, you might
+  feel like you're getting punched from every direction as random topics hit
+  you.
   * Above the calendar, click "More Options" > "Do Fewer Questions".
-* **Spread out questions** over the coming days/weeks.
+* **Spread out questions.** over the coming days/weeks.
   * You can only spread Review and Catchup questions (not Study).
   * Above the calendar, click "More Options" > "Spread Out Questions".
-* **Switch to Normal Mode** to focus on a smaller set of the highest yield
+* **Switch to Normal Mode.** to focus on a smaller set of the highest yield
   material.
   * Normal mode contains about half the number of questions.
   * You still get the benefit of reviewing topics according to how strong you
@@ -197,13 +238,13 @@ some strategies:
   * To switch learning modes, click the doctor icon in the top-right >
     "Account & Settings" > "Settings" > "Normal Mode" (default is "Legendary")
   * Your flagged topics, notes, and history will all remain.
-  * In the months **leading up to STEP1, I switched to Normal mode** so I
-    could hit the high points but start spending more time with Qbanks and
-    other resources.
-* **Check STEP1 only** No need to include STEP2 (3rd year) questions.  There's
-  a lot of overlapping coverage and you'll be fine with just STEP1.  This is
-  also under "Account & Settings".
-* **Uncheck topics covered better elsewhere** Pathoma is better at pathology
+  * In the months *leading up to STEP1, I switched to Normal mode* so I could
+    hit the high points but start spending more time with Qbanks and other
+    resources.
+* **Check STEP1 only.** No need to include STEP2 (3rd year) questions.
+  There's a lot of overlapping coverage and you'll be fine with just STEP1.
+  This is also under "Account & Settings".
+* **Uncheck topics covered better elsewhere.** Pathoma is better at pathology
   than Firecracker, so I ended up un-checking many of these topics
   post-module.  Physiology was also another item I unchecked.  Firecracker was
   best at brute memorization of micro and pharm.
@@ -233,43 +274,22 @@ or they pile up.
 
 
 
-## [Anki](http://ankisrs.net)
-
-* Good but you have to spend time populating versus Firecracker which is
-  prepopulated
-* Good for hot spot memorization of tables/charts (eg. drugs, cytokines,
-  vitamins) but not recommended for general use since pre-populated resources
-  exist
-* Some prepopulated [decks](https://ankiweb.net/shared/info/3641619405)
-  [already](https://ankiweb.net/shared/info/1656465381)
-  [exist](https://ankiweb.net/shared/info/2445310057) for the "Rapid Review"
-  tables in First Aid
-* Lacks good methods for sharing/updating decks with classmates
-* Better graphs than Firecracker to chart progress
-* Note bene: Everyone I know who used this eventually abandoned because of
-  time involved in creating and curating decks
-
-
-## [First Aid Basic Sciences](http://www.amazon.com/dp/0071785744)
-
-* A companion to First Aid for STEP1, but this is a learning tool.
-* Covers all basic science in First Aid, but is due for an update compared to FA.
-* You could probably get buy purchasing this instead of the random specialized
-  and overly-detailed books that professors recommend.
-
-
-
 # Question Banks
 
+  [qbanks]: #question-banks
+
+USMLE World is the best choice for STEP1 dedicated study, but throughout the
+year and even at the start of your dedicated study period, you'll want to work
+through either of the following standard question banks.
 
 ## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
 * 2524 total questions
+* Written by the authors of First Aid, follows very closely
 * 12mo subscription is $149 with $50 discount after free AMSA membership
   (regularly $199)
    * http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx
    * https://www.usmle-rx.com/amsa
-* by the authors of First Aid, follows very closely
 * Strategy
    * Dont simply repeat questions you got wrong.  Instead, repeat questions
      that you thought were valuable (taught you something, had excellent
@@ -295,71 +315,79 @@ or they pile up.
   * Kaplan has a terrible interface (Flash) and even worse iOS app
 
 
-## [First Aid USMLE Step Question book](http://www.amazon.com/First-USMLE-Step-Third-Edition/dp/0071744029)
+## [First Aid Q&A for USMLE Step 1](http://www.amazon.com/dp/0071744029)
 
+* 1000 questions organized into basic principles and organ systems, plus a
+  full length exam.
 * Consider buying a paper-based question bank because sometimes it's nice to
   study without your computer or outside on a sunny day.
 * I've found only a couple of questions duplicated in USMLE-Rx Qmax
 * I sometimes use these as throwaway [pretest questions][pretesting] early on
   in a module to "prime" my brain for key concepts to be on the lookout for.
+* Much like USMLE-Rx, but great for when you want to put your computer aside
+  and knock out extra questions.
 
 [pretesting]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 
 
 
+## Other pathology resources
 
-## [Picmonic](http://picmonic.com)
+* [BRS Pathology]
+  * Concise and well-organized review
+  * Simpler than Pathoma
+  * Each chapter has about 20 solid questions
+* Goljan's [Rapid Review Pathology]
+  * The same topic sequence as Pathoma but much more detail, especially when
+    it comes to microbiology, but not as much as [Robbins & Cotran] (aka "The
+    Bible of Pathology", get this if you're interested in Pathology as a
+    residency).
+  * Further on in the curriculum, I realized I wanted more details on
+    pathology so I started skimming chapters from this.  Pathoma is sufficient
+    for a good foundation.
 
-* static [memory scenes] with audio guide
-* $250 for 12 months, or $25/month
-* I use this only for spot treatment of various drugs and diseases that often
-  times just require brute memorization (eg. pharm, vasculitides) rather than
-  conceptual material (eg. pathophysiology of systems)
-* Whenever I hit something I have trouble recalling, I skim the picture in
-  Picmonic or queue it up in a review play list.
-* I only use the Learn feature (not the Explore or other)
-* [record the audio][record audio]
+If you had to rank order the complexity of these resources: BRS < Pathoma <
+Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
-
-## [Sketchy Micro](http://sketchymicro.com)
-
-* video [memory scenes] of 47 bacteria
-* create free account to get: S aureus, S epidermidis, S saprophyticus, S
-  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus, and
-  [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
-* $40/6mo
-* Focused only on bacteria
-* Compared to Picmonic:
-   * Overall higher quality and better explanations
-   * only bacteria (Picmonic: bacteria + viral + diseases + drugs + pathophys + more)
-   * more intuitive scenes (Picmonic can be ridiculous and make no sense)
-   * for me, watching the scene getting drawn is more captivating (Picmonic: static scene)
-   * cheaper ($7/mo versus $25/mo for Picmonic)
-   * simple but poor navigation vs Picmonic which is overly complicated and
-     buggy in a lot of cases
-   * both lack completeness, but Picmonic seems to have a few more important
-     details ([Lippincott's Microcards] are more comprehensive)
-* [record the audio][record audio]
-
-[memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
-
-## Goljan audio
-
-* A series of lectures as part of a review course he conducted.
-* These lectures were delivered with the first edition of
-  [Rapid Review Pathology] text, but you can still follow along in the latest
-  edition.  The slides and a scan of the original textbook can be found
-  online.
-* Full of board pearls since he helps edit the USMLE questions.  While most of
-  the pathognomonic stuff is outdated, the concepts are still valid.
-* There are minor errors and it's not well organized, but makes for good
-  background listening while running errands or doing chores.
-* Pathoma is probably a better use of time
+[Robbins & Cotran]: http://www.amazon.com/dp/1455726133
+[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
+[BRS Pathology]: http://www.amazon.com/dp/1451115873
+[BRS Physiology]: http://www.amazon.com/dp/0781798760
 
 
 
-# Other Resources Not Evaluated
+## [Anki](http://ankisrs.net)
+
+* Good but you have to spend time populating versus Firecracker which is
+  prepopulated
+* Good for hot spot memorization of tables/charts (eg. drugs, cytokines,
+  vitamins) but not recommended for general use since pre-populated resources
+  exist
+* Some prepopulated [decks](https://ankiweb.net/shared/info/3641619405)
+  [already](https://ankiweb.net/shared/info/1656465381)
+  [exist](https://ankiweb.net/shared/info/2445310057) for the "Rapid Review"
+  tables in First Aid
+* Lacks good methods for sharing/updating decks with classmates
+* Better graphs than Firecracker to chart progress
+* Note bene: Everyone I know who used this eventually abandoned because of
+  time involved in creating and curating decks
+
+
+## [First Aid Basic Sciences](http://www.amazon.com/dp/0071785744)
+
+* A companion to First Aid for STEP1, but this is a learning tool.
+* Covers all basic science in First Aid, but is due for an update compared to FA.
+* You could probably get buy purchasing this instead of the random specialized
+  and overly-detailed books that professors recommend.  The exception is
+  Lilly's [Pathophysiology of Heart Disease][Lilly], an absolutely fantastic
+  text for your cardiology module.
+
+[Lilly]: http://www.amazon.com/dp/1605477230/
+
+
+
+## Other Resources Not Evaluated
 
 * [KissPharm](http://www.kisspharmacology.com) - no personal experience,
   recommended by an upperclassman
@@ -400,19 +428,31 @@ or they pile up.
 
 # Studying Techniques
 
-* [My Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
+Here are a few blog posts from others that influenced my thinking about
+studying and productivity in med school:
+
+### Step 1
+
+* [How To Study Effectively](http://meded.ucsd.edu/index.cfm//ugme/oess/study_skills_and_exam_strategies//how_to_study_actively/) -
+  comprehensive guide from UC San Diego on an organized and active approach to
+  studying in med school
+* [A Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
-* [http://www.usmlegunner.com](USMLE Gunner)
-* [How To Study Effectively](http://meded.ucsd.edu/index.cfm//ugme/oess/study_skills_and_exam_strategies//how_to_study_actively/) - comprehensive guide from UC San Diego on an organized and active approach to studying in med school
-* General study methods
-   * [Cal Newport](http://calnewport.com/blog)
-   * [Scott Young](http://www.scottyoung.com):
-     [How to ace your finals](http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying),
-     [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
-   * me: [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %})
-   * [Daniel Willingham](http://www.danielwillingham.com/articles.html)
-* [White Coat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here)
-  * managing student debt, investing, insurance, budgeting
+* [USMLE Gunner](http://www.usmlegunner.com)
+
+### General study methods
+
+* [Cal Newport](http://calnewport.com/blog)
+* [Scott Young](http://www.scottyoung.com):
+  [How to ace your finals](http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying),
+  [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
+* from me: [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %})
+* [Daniel Willingham](http://www.danielwillingham.com/articles.html)
+
+### Beyond Medical school
+
+* [White Coat Investor](http://whitecoatinvestor.com/new-to-the-blog-start-here) -
+  about managing student debt, investing, insurance, budgeting (not about studying)
 
 
 
