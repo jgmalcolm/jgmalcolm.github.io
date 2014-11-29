@@ -61,14 +61,36 @@ student uses for the boards.
   qbank at least once.  Many students go through twice.
 
 
-## Important Resources
+## Resources to many students use
 
 The three resources above will provide the most comprehensive coverage in the
-fewest number of resources.  Beyond these, you need to critically appraise
-your weaknesses, learning style, and augment with targeted resources.
+fewest number of resources.  That said, nearly all students pull from a few
+additional resources.  The following is a survey of resources for the main
+areas of study.  Choices depend on your weaknesses and learning style.
 
 
-## [Lippincott's Microcards]
+  [spaced repetition]: http://www.gwern.net/Spaced%20repetition
+
+### [Firecracker](https://firecracker.me)
+
+* Flashcard software pre-poplated with STEP1 material (a combination of First
+  Aid, Goljan, etc.)
+* [Spaced repetition][spaced repetition] algorithm to optimize when to review
+  what information
+* As you cover material (daily/weekly) you add it to the question pool (flag
+  it)
+* The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
+* Use the keyboard shortcuts (when you're doing a quiz, there's a little
+  laptop icon on the bottom right)
+* Anki a similar and better tool for its design and feedback metrics, but
+  Firecracker is better overall for medical students because it is
+  prepopulated saving you hundreds of hours of reinventing the wheel by making
+  your own cards or hassling with those from others.
+* Read more on [how I use Firecracker][firecracker use].
+
+
+
+### [Lippincott's Microcards]
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
   data-gallery="wiki" title="Simple annotations to highlight tested facts.
@@ -84,6 +106,11 @@ your weaknesses, learning style, and augment with targeted resources.
   random facts that will clutter the card.
 
 [Lippincott's Microcards]: http://www.amazon.com/dp/145111219X
+
+
+
+
+
 
 # Learn From Videos
 
@@ -114,7 +141,7 @@ your weaknesses, learning style, and augment with targeted resources.
 
 
 
-Also for pathology, I used:
+### Also for pathology, I used:
 
 * [BRS Pathology]
   * Concise and well-organized review
@@ -141,30 +168,16 @@ Goljan's < Robbins & Cotran.
 
 
 
-  [spaced repetition]: http://www.gwern.net/Spaced%20repetition
-
-## [Firecracker](https://firecracker.me)
-
-* [Spaced repetition][spaced repetition] software
-* Prepopulated with STEP1 material (a combination of First Aid, Goljan, etc.)
-* As you cover material (daily/weekly) you add it to the question pool
-  (flag it)
-* Use the keyboard shortcuts (when you're doing a quiz, there's a little laptop
-  icon on the bottom right)
-  * S to show answer
-  * T to show topic
-  * 1..5 to rate cards
-  * N/P for next/previous
-  * Enter to save your rating and move on
-* The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
 
 
+## How I use Firecracker
 
-### How I use Firecracker
+  [firecracker use]: #how-i-use-firecracker
 
+### When you fall behind
 
 Sometimes I fall behind and the question load can be overwhelming.  Here are
-your options:
+some strategies:
 
 * **Bang through the questions.** There's no substitute to just putting in the
   time.  Glancing at the info and rating it a 1 is better than ignoring it
@@ -190,76 +203,33 @@ your options:
 * **Check STEP1 only** No need to include STEP2 (3rd year) questions.  There's
   a lot of overlapping coverage and you'll be fine with just STEP1.  This is
   also under "Account & Settings".
+* **Uncheck topics covered better elsewhere** Pathoma is better at pathology
+  than Firecracker, so I ended up un-checking many of these topics
+  post-module.  Physiology was also another item I unchecked.  Firecracker was
+  best at brute memorization of micro and pharm.
 
 
-## Ratings  1-5 ratings
+### Long term value proposition
 
-* For information you've never seen, mark as Forgot (1)
-   * Pause and just skim the information because you need to learn this
-     stuff anyway.  Try to learn one little piece from that question.  For
-     now breeze through it.
-   * You will come back to these questions in the months before STEP
-   * If you skip, you'll just accumulate cards.
-* they're a self assessment, and you'll soon get comfortable with what they
-  mean to you.  Here's my thinking:
-   * never seen, completely forgot, messed it up royal, want to see
-     tomorrow 1
-      * if you missed an important part of the answer and want to retest
-        tomorrow
-   * got most of it, some recall, want to see it in 2-3 days 2
-      * if you missed an important part of the answer and think you can
-        wait a few days to retest
-   * got most of it, reasoned guess was correct, want to see it in 4-5
-     days 3
-   * got all but one or two details, see it in a week 4
-   * knew it perfectly, minor detail missed that you don't think is
-     important 5
-   * In general: I use 1,2 a lot while I'm learning.  3 if something is
-     shaky.  Using 4-5 will quickly push things out too far into the
-     horizon. I only use 5 if I have something down and I want to push
-     it out on the order of weeks.
+The real value of Firecracker comes after months of use.  It surprised me how
+much I retained from past modules because Firecracker forced me to touch on
+things now and then.  I'd say that half its value can be realized for learning
+in your present module, but half its value is longitudinal over all your
+blocks.  Put in the time to review old material.
 
-* If you're coming to the party late (a few months/year into medical school),
-  then you'll have a lot of catching up to do.  You'll want to eventually have
-  most everything flagged that you've touched on in school.  It'll be an
-  overwhelming number of questions and there's no excuse but to put in time
-  slogging through so the algorithm calibrates what you know and what you
-  don't know.  Just put in the time.  There's no substitute.
-   * On the [Study Plan dashboard](https://med.firecracker.me/study_plan),
-     under "Do Questions" choose
-     [More Options](https://med.firecracker.me/quiz/advanced) > "Do Fewer
-     Questions" > "Uncheck everything".  Then select a topic like Cardiology
-     to focus your questions.
-   * While I'm in a module, I find the algorithm doesnt feed me enough
-     questions daily (it is focused on long term and not backward planning
-     from your module exam), so I'll go "Do More Questions" > "<Module>" >
-     "All Days" and get a few hundred questions to pound through.
-      * You need to have everything flagged (ie. first pass in studying)
-        by about into the module, that way the algorithm spends the last
-        of your module focusing in on what you dont know in that whole
-        big pile.
-      * The last week of a module should all be daily maintenance of FC
-        questions and full qbank assault.  During exam week, FC may only
-        be feeding you 10-20 module-related questions per day.
-      * Dont slack off still going through review of old questions.
-        Otherwise, they pile up!
-   * A few times a month, I'll spend half the day focused on some old topic
-     and slowly chip away.  As you go, make notes on what youre learning.
-     Switch over to view the topic to get more context (keyboard shortcut: t).
-     If something is completely unfamiliar, take a few moments to learn one or
-     two things before moving on (and rating as 1).
-   * All of the above actually subverts the normal algorithm, so
-     eventually (once youve whittled down the big pile) you should
-     settle into doing whatever FC decides you to do for that day.
-* After a week or so, you'll start going through questions faster: youre
-  learning!  You'll also get some positive reinforcement from seeing the
-  graphs on the Insights page (https://med.firecracker.me/dashboard)
-* Theres a lot of upfront work of slogging through questions before you
-  start to reach steady state maintenance mode.  As long as youre
-  flagging new topics a few times a week (as youre going through new
-  material), itll be a battle to keep that number down.
-* You need to spend time on weekends and vacations chipping away at
-  questions, or they pile up.
+### There's no short cut
+
+You have to put in the time to actually learn.  Merely owning Firecracker or
+any resource won't make you a better student.  The hard reality is that you
+have to put in the time.
+
+With Firecracker, there's a lot of upfront work of slogging through questions
+before you start to reach steady state maintenance mode.  As long as you're
+flagging new topics a few times a week (as you're going through new material),
+it'll be a battle to keep that number down.
+
+You need to spend time on weekends and vacations chipping away at questions,
+or they pile up.
 
 
 
@@ -336,6 +306,9 @@ your options:
 [pretesting]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
 
+
+
+
 ## [Picmonic](http://picmonic.com)
 
 * static [memory scenes] with audio guide
@@ -393,6 +366,8 @@ your options:
 * [Memorang App](www.memorangapp.com)- looks super simple
 * [MedComic](http://www.medcomic.com/archive.html) - amusing sketches
   illustrating various topics.  Like a lite version of Pathoma.
+
+
 
 
 
