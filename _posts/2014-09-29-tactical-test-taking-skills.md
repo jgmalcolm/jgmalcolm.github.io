@@ -188,6 +188,8 @@ cannot explain it with your answer, then think harder about the other choices.
 
 ## Ruling out answers & guessing intelligently
 
+  [guessing]: #ruling-out-answers--guessing-intelligently
+
 Never jump to an answer without first ruling out 1-2 choices.  This will make
 sure you’re paying attention and not just jumping for a distractor.  Once you
 rule out a choice, you can completely forget about it and focus your attention
@@ -266,6 +268,27 @@ lower quality tests.
 > - Cat
 > - Tiger
 > - Dog & Cat   (probably ignore Tiger and choose some combination of Dog/Cat)
+
+
+## Three types of questions
+
+There are three types of questions: those you know immediately, those you
+don't have the knowledge to answer, and those that you'll end up pondering.
+Every question is worth the same as every other question, so you can be
+strategic about how you spend your time and energy.
+
+For the easy bread-and-butter questions, answer them immediately to lock in
+the majority of your points.  Mark and skip any question that requires more
+than a minute of thought or where you simply don't have the requisite
+knowledge.
+
+For these marked questions, go carefully and spend the time.  These questions
+will make the difference between pass and high pass.
+
+It's a death trap to fritter away your time on questions you'll ultimately
+guess on.  [Narrow it down to 2-3 choices and guess][guessing].  You want to
+avoid the situation where you've got 10 minutes left but 20 questions, and so
+you make sloppy mistakes on easy ones.
 
 
 ## Read the entire question carefully.
