@@ -12,7 +12,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air) with
   [thin padded case][acme case]
-* [iPhone 5][iphone] apps:
+* [iPhone][iphone] with [Gumdrop case][gumdrop case] and apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
     [Kindle integration][insta-kindle].
@@ -107,6 +107,7 @@ snippet of JavaScript.  To use one, drag it to your Bookmarks (toolbar).
 [insta-kindle]: https://www.instapaper.com/apps
 [Echophon Pro]: http://www.echofon.com
 [iphone]: https://www.apple.com/iphone
+[gumdrop case]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-brandtextbin=Gumdrop%20Cases&linkCode=ur2&node=2335752011&tag=jgmalcolm-20&linkId=RLDCZ6NOR7OIXQHU
 [fb]: https://www.facebook.com/share_options.php
 [gmail]: http://gmailblog.blogspot.com/2008/03/2-hidden-ways-to-get-more-from-your.html
 [calender]: https://support.google.com/calendar/answer/36604
