@@ -22,7 +22,7 @@ focus on knowing a few good resources thoroughly, and then picking pieces from
 other resources as needed.  That said, here are three resources every medical
 student uses for the boards.
 
-### 1. Content review for entire exam: [First Aid for STEP1](//www.amazon.com/dp/0071840060)
+### [First Aid for STEP1](//www.amazon.com/dp/0071840060): content review for entire exam
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent outline review.
@@ -35,7 +35,7 @@ student uses for the boards.
 * You'll definitely want a hard copy to annotate, but also a PDF version for
   text search
 
-### 2. Pathology review: [Pathoma](//www.pathoma.com)
+### [Pathoma](//www.pathoma.com): pathology review
 
 * Concise video lectures covering all relevant pathology along with a slim
   review text
@@ -50,7 +50,7 @@ student uses for the boards.
   overtaking Goljan (red)">
 * [Record audio] so you can listen while you commute or exercise
 
-### 3. Practice questions: [U-World](//www.usmleworld.com/purchase.aspx)
+### [U-World](//www.usmleworld.com/purchase.aspx): practice questions
 
 * The official question bank of USMLE
 * Explanations are of the highest quality
