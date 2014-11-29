@@ -22,7 +22,9 @@ focus on knowing a few good resources thoroughly, and then picking pieces from
 other resources as needed.  That said, here are three resources every medical
 student uses for the boards.
 
-### [First Aid for STEP1](//www.amazon.com/dp/0071840060): content review for entire exam
+### [First Aid for STEP1][First Aid]: content review for entire exam
+
+  [First Aid]: http://www.amazon.com/gp/product/0071840060/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071840060&linkCode=as2&tag=jgmalcolm-20&linkId=ESSWGXNUG2CZCK4Z
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent outline review.
@@ -101,6 +103,8 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 ### [Lippincott's Microcards]
 
+  [Lippincott's Microcards]: http://www.amazon.com/gp/product/145111219X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=145111219X&linkCode=as2&tag=jgmalcolm-20&linkId=USYXUQAPZNDL2FN5
+
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
   data-gallery="wiki" title="Simple annotations to highlight tested facts.
   Think critically 'What is testable?' so you only emphasize a few things per
@@ -113,8 +117,6 @@ areas of study.  Choices depend on your weaknesses and learning style.
   review source, be careful not to add too much.  It's okay to add a small
   table contrasting against other bugs, but be careful to not add low-yield
   random facts that will clutter the card.
-
-[Lippincott's Microcards]: http://www.amazon.com/dp/145111219X
 
 
 
@@ -315,7 +317,9 @@ through either of the following standard question banks.
   * Kaplan has a terrible interface (Flash) and even worse iOS app
 
 
-## [First Aid Q&A for USMLE Step 1](http://www.amazon.com/dp/0071744029)
+## [First Aid Q&A for USMLE Step 1]
+
+  [First Aid Q&A for USMLE Step 1]: http://www.amazon.com/gp/product/0071744029/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071744029&linkCode=as2&tag=jgmalcolm-20&linkId=QRNMRPTNGRDQXWFL
 
 * 1000 questions organized into basic principles and organ systems, plus a
   full length exam.
@@ -351,8 +355,8 @@ If you had to rank order the complexity of these resources: BRS < Pathoma <
 Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 [Robbins & Cotran]: http://www.amazon.com/dp/1455726133
-[Rapid Review Pathology]: http://www.amazon.com/dp/0323087876
-[BRS Pathology]: http://www.amazon.com/dp/1451115873
+[Rapid Review Pathology]: http://www.amazon.com/gp/product/0323087876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0323087876&linkCode=as2&tag=jgmalcolm-20&linkId=W27RBR7TKB2ATXIM
+[BRS Pathology]: http://www.amazon.com/gp/product/1451115873/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451115873&linkCode=as2&tag=jgmalcolm-20&linkId=A3ED6I7JXGH55IUM
 [BRS Physiology]: http://www.amazon.com/dp/0781798760
 
 
@@ -374,7 +378,7 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   time involved in creating and curating decks
 
 
-## [First Aid Basic Sciences](http://www.amazon.com/dp/0071785744)
+## [First Aid Basic Sciences]
 
 * A companion to First Aid for STEP1, but this is a learning tool.
 * Covers all basic science in First Aid, but is due for an update compared to FA.
@@ -383,7 +387,8 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   Lilly's [Pathophysiology of Heart Disease][Lilly], an absolutely fantastic
   text for your cardiology module.
 
-[Lilly]: http://www.amazon.com/dp/1605477230/
+[First Aid Basic Sciences]: http://www.amazon.com/gp/product/0071785744/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071785744&linkCode=as2&tag=jgmalcolm-20&linkId=7CLFIS3XQTFUNYJW
+[Lilly]: http://www.amazon.com/gp/product/1605477230/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1605477230&linkCode=as2&tag=jgmalcolm-20&linkId=PMW3LS2CV3N2VRDV
 
 
 
@@ -401,13 +406,11 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 # Anatomy
 
-* [Netter](http://www.amazon.com/dp/1455704180) is the gold standard and has
-  all the classic diagrams you'll see in lectures, eg. cervical plexus.
-  [Atlas of Anatomy 2e](http://www.amazon.com/dp/1604067454) is also great,
-  but probably best to stick with Netter.
-* [Netter Flashcards](http://www.amazon.com/dp/0323185959) are the best way to
-  learn.  For each module, put all the relevant cards on the ring and flip
-  through those as you can.
+* [Netter] is the gold standard and has all the classic diagrams you'll see in
+  lectures, eg. cervical plexus.  [Atlas of Anatomy 2e] is also great, but
+  probably best to stick with Netter.
+* [Netter Flashcards] are the best way to learn.  For each module, put all the
+  relevant cards on the ring and flip through those as you can.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
@@ -424,7 +427,9 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   nerves, muscle, etc. Regular sewing thread is too thin and you'll want
   multiple colors.  Keep it in a ziplock bag.
 
-
+  [Netter]: http://www.amazon.com/gp/product/1455704180/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455704180&linkCode=as2&tag=jgmalcolm-20&linkId=MBQR5BOPKEMNCZH4
+  [Netter Flashcards]: http://www.amazon.com/gp/product/0323185959/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0323185959&linkCode=as2&tag=jgmalcolm-20&linkId=TVGDMDJL366QWFXE
+  [Atlas of Anatomy 2e]: http://www.amazon.com/gp/product/1604067454/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1604067454&linkCode=as2&tag=jgmalcolm-20&linkId=FAG7IGVPT2EBXLIW
 
 # Studying Techniques
 
