@@ -35,9 +35,9 @@ student uses for the boards.
 * You'll definitely want a hard copy to annotate, but also a PDF version for
   text search
 
-### [Pathoma](//www.pathoma.com): pathology review
+### [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
 
-   [Pathoma]: #pathomawwwpathomacom-pathology-review
+   [Pathoma]: #pathoma
 
 * Concise video lectures covering all relevant pathology along with a slim
   review text
@@ -86,7 +86,7 @@ your weaknesses and learning style.
 
   [spaced repetition]: http://www.gwern.net/Spaced%20repetition
 
-### [Firecracker](https://firecracker.me)
+### [Firecracker](https://firecracker.me)  {#firecracker}
 
 * I probably spent half of my pre-boards time in medical school learning with
   Firecracker.
@@ -107,7 +107,7 @@ your weaknesses and learning style.
 
 
 
-### [Lippincott's Microcards]
+### [Lippincott's Microcards]   {#lippincotts-microcards}
 
   [microcards]: #lippincotts-microcards
 
@@ -129,7 +129,7 @@ your weaknesses and learning style.
 
 
 
-### [Picmonic](http://picmonic.com)
+### [Picmonic](http://picmonic.com)  {#picmonic}
 
   [Picmonic]: #picmonic
 
@@ -143,7 +143,7 @@ your weaknesses and learning style.
 * [record the audio][record audio]
 
 
-### [Sketchy Micro](http://sketchymicro.com)
+### [Sketchy Micro](http://sketchymicro.com)  {#sketchy-micro}
 
   [Sketchy Micro]: #sketchy-micro
 
@@ -211,7 +211,7 @@ your weaknesses and learning style.
 
 
 
-## How I use Firecracker
+## How I use Firecracker  {#how-i-use-firecracker}
 
   [firecracker use]: #how-i-use-firecracker
 
@@ -275,7 +275,7 @@ or they pile up.
 
 
 
-# Question Banks
+# Question Banks  {#question-banks}
 
   [qbanks]: #question-banks
 
@@ -355,7 +355,7 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 [BRS Pathology]: http://www.amazon.com/gp/product/1451115873/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451115873&linkCode=as2&tag=jgmalcolm-20&linkId=A3ED6I7JXGH55IUM
 [BRS Physiology]: http://www.amazon.com/dp/0781798760
 
-## Goljan STEP1 audio
+## Goljan STEP1 audio   {#goljan-step1-audio}
 
   [goljan]: #goljan-step1-audio
 
@@ -375,9 +375,9 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 
 
-## [Anki](http://ankisrs.net)
+## [Anki](http://ankisrs.net)  {#anki}
 
-   [anki]: #ankihttpankisrsnet
+   [anki]: #anki
 
 * Good but you have to spend time populating versus Firecracker which is
   prepopulated
@@ -471,9 +471,7 @@ studying and productivity in med school:
 
 
 
-# Recording audio from video
-
-  [record audio]: #recording-audio-from-video
+# Recording audio from video  {#record-audio}
 
 As I watched [Pathoma], [Sketchy Micro], and [Picmonic], I recorded the audio
 to mp3 so that I could listen to it while commuting, exercising, or doing
