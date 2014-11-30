@@ -20,6 +20,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Advanced](#advanced) - ports, hidden TI-OS features
 - [Opcodes](#opcodes) - listing of all z80 opcodes (numeric or alphabetic)
 - [Variables](#variables) - manipulate TI-OS variables
+- [Design](#design) - planning and game design, writing clean code
 - [Downloads](download/download.htm) - tools, examples, algorithms
 
 
@@ -208,6 +209,15 @@ and how the pixels are stored in memory.
   Floating Point math with the Operator Registers. You can even check out TI's
   own routine to input strings or values.
 
+
+## Design
+
+- [The Design Process](design/desi.htm) - Take a walk through designing a
+  game. Go step-by-step as you create a well designed game that will last for
+  ages. Great design is essential for great games.
+- [Clean Code](design/clea.htm) - A must read for all programmers, this
+  section gives details and examples of what to do and what *not* to do. These
+  key points will change the way you program.
 
 
 ## Dedicated to those who taught me
