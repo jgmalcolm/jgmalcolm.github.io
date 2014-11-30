@@ -298,11 +298,6 @@ through either of the following standard question banks.
   after free
   [AMSA membership](http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx)
   (regularly $199)
-* Strategy
-   * Don't simply repeat questions you got wrong.  Instead, repeat questions
-     that you thought were valuable (taught you something, had excellent
-     explanations, drew a sharp contrast).  To do this, mark these valuable
-     questions and later create a test of marked questions.
 
 ## [Kaplan](http://www.kaptest.com/Medical-Licensing/Step1/s1-qbank.html)
 
