@@ -131,9 +131,8 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 * static [memory scenes] with audio guide
 * $250 for 12 months, or $25/month
-* I use this only for spot treatment of various drugs and diseases that often
-  times just require brute memorization (eg. pharm, vasculitides) rather than
-  conceptual material (eg. pathophysiology of systems)
+* I use this only for spot memorization (eg. pharm, vasculitides, micro,
+  viral) rather than conceptual material (eg. pathophysiology)
 * Whenever I hit something I have trouble recalling, I skim the picture in
   Picmonic or queue it up in a review play list.
 * I only use the Learn feature (not the Explore or other)
@@ -150,16 +149,6 @@ areas of study.  Choices depend on your weaknesses and learning style.
   [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
 * $40/6mo
 * Focused only on bacteria (as of Fall 2014)
-* Compared to Picmonic:
-   * Overall higher quality and better explanations
-   * only bacteria (Picmonic: bacteria + viral + diseases + drugs + pathophys + more)
-   * more intuitive scenes (Picmonic can be ridiculous and make no sense)
-   * for me, watching the scene getting drawn is more captivating (Picmonic: static scene)
-   * cheaper ($7/mo versus $25/mo for Picmonic)
-   * simple but poor navigation vs Picmonic which is overly complicated and
-     buggy in a lot of cases
-   * both lack completeness, but Picmonic seems to have a few more important
-     details ([Lippincott's Microcards][microcards] are more comprehensive)
 * [record the audio][record audio] to listen while you commute, exercise, or
   do chores
 
@@ -168,6 +157,21 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 
 
+### Comparing Picmonic and Sketchy Micro
+
+* Sketchy Micro (SM) has higher quality and more intuitive explanations than
+  Picmonic (P), but Picmonic covers more topics.
+* SM only bacteria, P contains everything (bacteria + viral + diseases + drugs + pathophys + more)
+* SM more intuitive scenes; Picmonic can be ridiculous and make no sense
+* for me, watching the SM scene getting drawn is more captivating; P uses static scenes
+* SM has simple but poorly designed navigation vs P which is overly
+  complicated and buggy in a lot of cases
+* both lack completeness, but Picmonic seems to have a few more important
+  details ([Lippincott's Microcards][microcards] are more comprehensive)
+* One thing I dislike about Picmonic is how they try to literally spell out
+  everything, eg. *non-enveloped* viruses are shown with a catholic *nun
+  holding an envelope*.  [Sketchy Micro] does a better job at finding more
+  intuitive hooks.
 
 
 ### Learn From Videos
