@@ -44,7 +44,9 @@ student uses for the boards.
   * About 1.5 - 2.5 hours of video per organ system
 * Highly, highly recommend (you'll also see it highly recommended in First Aid
   resource recommendations appendix)
-* Purchase 21 months out from your STEP1 exam date
+* Purchase the longest possible subscription (eg. 21 months) because you'll
+  keep coming back to these videos during your modules and especially in the
+  run up to STEP1.
 * Interesting to that
   [Google Trends](//google.com/trends/explore#q=pathoma%2C%20Goljan) shows
   Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <img
