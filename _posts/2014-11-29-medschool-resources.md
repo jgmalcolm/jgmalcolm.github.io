@@ -56,6 +56,11 @@ student uses for the boards.
 * There are
   [other pathology resources to pull from](#other-pathology-resources), but
   Pathoma is the best use of your time
+* During each block, I would watch the appropriate videos at 1x to learn, and
+  then 1.3x or 1.7x to review later and then often once more the day before
+  the exam, for a total of three views.  Whenever I get tired of doing
+  questions, popping up a Pathoma video is an easy step down that still keeps
+  me productive.
 
 ### [U-World](//www.usmleworld.com/purchase.aspx): practice questions
 
