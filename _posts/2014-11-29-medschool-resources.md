@@ -294,12 +294,12 @@ through either of the following standard question banks.
 
 * 2524 total questions
 * Written by the authors of First Aid, follows very closely
-* 12mo subscription is $149 with $50 discount after free AMSA membership
+* 12mo subscription is $149 with [$50 discount](https://www.usmle-rx.com/amsa)
+  after free
+  [AMSA membership](http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx)
   (regularly $199)
-   * http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx
-   * https://www.usmle-rx.com/amsa
 * Strategy
-   * Dont simply repeat questions you got wrong.  Instead, repeat questions
+   * Don't simply repeat questions you got wrong.  Instead, repeat questions
      that you thought were valuable (taught you something, had excellent
      explanations, drew a sharp contrast).  To do this, mark these valuable
      questions and later create a test of marked questions.
