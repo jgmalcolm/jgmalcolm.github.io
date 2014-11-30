@@ -255,14 +255,11 @@ into much more detail on this.
 		use this area unless you have to.
 	<TR>	<TD>$8100 to $bfff
 		<TD>~16k
-		<TD>RAM PAGE 1. This page is used for two things by TI-OS:
-		<A HREF="../variables/floa.htm">Floating Point Stack</A>
-		and Operator Stack. They start their storage
-		space at opposite ends of the page and work thier way to
-		the center. Because of these sensitive areas, start
-		storing from atleast $8100 instead of $8000 because the floating
-		point stack usually has one or two items pushed to it, like
-		your program's name. If your program uses the
-		<A HREF="../variables/floa.htm">Floating Point Stack</A> then
-		you may want to start even later.
+		<TD>RAM PAGE 1. This page is used for two things by TI-OS: Floating
+		Point Stack and Operator Stack. They start their storage space at
+		opposite ends of the page and work thier way to the center. Because of
+		these sensitive areas, start storing from atleast $8100 instead of
+		$8000 because the floating point stack usually has one or two items
+		pushed to it, like your program's name. If your program uses the
+		Floating Point Stack then you may want to start even later.
 </TABLE>

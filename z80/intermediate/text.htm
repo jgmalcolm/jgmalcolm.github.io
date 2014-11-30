@@ -12,7 +12,7 @@ layout: z80
 
 Text is an important part in any program, used to communicate with the user. There
 are three types of text you can use on the TI86. Two of them are built into the
-calculator. The third is called <A HREF="..\advanced\font.htm">User Font</A>.
+calculator. The third is called <A HREF="../advanced/font.htm">User Font</A>.
 The two types of built in font are the regular 5x7 pixel
 characters (big size font) and the variable width (menu size font) 6 pixel high
 font. Different routines are used for each size font.
@@ -27,7 +27,7 @@ load the coordinates of where you want the string to be printed at into
 those memory locations, or else the letters will be printed at the
 current values stored there. These memory addresses, along with
 all other ROM call addresses and cursor coordinate memory addresses are
-all defined in <A HREF="..\download\ti86asm.inc">ti86asm.inc</A> which
+all defined in <A HREF="../download/ti86asm.inc">ti86asm.inc</A> which
 should just about always be included in your source files.
 
 <PRE>_curRow		=$c00f
@@ -125,7 +125,7 @@ value has a limit of 255 because it's 8 bits, so the string can only
 be up to 255 letters. The zero-terminated strings can be as long
 as you want them. I prefer to use zero-terminated strings becuase
 I hate counting how many letters are in the string. Check out the
-<A HREF="..\advanced\asse.htm">Assembler Directives</A> section to
+<A HREF="../advanced/asse.htm">Assembler Directives</A> section to
 see the different ways you can use
 <A HREF="../advanced/asse.htm#db"><CODE>.db</CODE></A> and
 <A HREF="../advanced/asse.htm#text"><CODE>.text</CODE></A>. Here are some
@@ -212,7 +212,7 @@ Variable width font, also called menu size font, functions much the
 same as the big font. You load the coordinates and call the routines. Like
 the big font, menu size font has its own routines for displaying. You load
 the coordinates into the following addresses defined in
-<A HREF="..\download\ti86asm.inc">ti86asm.inc</A> which
+<A HREF="../download/ti86asm.inc">ti86asm.inc</A> which
 should just about always be included in your source files. A difference
 between this and the big font is that the coordinates are the other
 way around in memory. Big font has <CODE>_curRow</CODE> and then <CODE>_curCol</CODE>, while
@@ -350,11 +350,11 @@ that table.
 <P>Let's say we wanted to turn on the option that prints white
 text with a black background, called Reverse Video Print or Inverse Video.
 We execute the following command to set that bit
-(<A HREF="..\beginner\numb.htm#bitp">bit 3</A>). The first line is the command
-with the aliases as defined in <A HREF="..\download\ti86asm.inc">ti86asm.inc</A>
+(<A HREF="../beginner/numb.htm#bitp">bit 3</A>). The first line is the command
+with the aliases as defined in <A HREF="../download/ti86asm.inc">ti86asm.inc</A>
 and the second line is with the actual numbers instead of aliases. The are
 both the same, either is perfectly acceptable; however, it is better to use
-the names for writing <A HREF="..\design\clea.htm">better code</A>.
+the names for writing <A HREF="../design/clea.htm">better code</A>.
 
 <PRE>	set textInverse,(iy+textFlags)	;write text on
 					; black background

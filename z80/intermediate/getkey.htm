@@ -51,7 +51,7 @@ can hold the arrow keys down to make it scroll through the choices real fast. Th
 is called Key Repeat. <CODE>_Getkey</CODE> monitors if a key is being held
 down and returns that keycode as soon as the routine is called instead of polling
 for key presses all over again. <CODE>_Getkey</CODE> does this by checking the
-status of the <A HREF="../advanced/allt.htm#p0">Key Press</A> port (Port 0)
+status of the <A HREF="../advanced/allp.htm#p1">Key Press</A> port (Port 1)
 to what it was last time <CODE>_getkey</CODE> was called. If it is the same,
 it will return the same keycode that it got before. This, however, can
 be disrupted when you use other ports, like to change <A HREF="memo.htm#ROM">ROM
