@@ -102,6 +102,8 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 ### [Lippincott's Microcards]
 
+  [microcards]: #lippincotts-microcards
+
   [Lippincott's Microcards]: http://www.amazon.com/gp/product/145111219X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=145111219X&linkCode=as2&tag=jgmalcolm-20&linkId=USYXUQAPZNDL2FN5
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
@@ -116,10 +118,13 @@ areas of study.  Choices depend on your weaknesses and learning style.
   review source, be careful not to add too much.  It's okay to add a small
   table contrasting against other bugs, but be careful to not add low-yield
   random facts that will clutter the card.
+* Combine these with [Sketchy Micro] or [Picmonic]
 
 
 
 ### [Picmonic](http://picmonic.com)
+
+  [Picmonic]: #picmonic
 
 * static [memory scenes] with audio guide
 * $250 for 12 months, or $25/month
@@ -133,6 +138,8 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 
 ### [Sketchy Micro](http://sketchymicro.com)
+
+  [Sketchy Micro]: #sketchy-micro
 
 * video [memory scenes] of 47 bacteria
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
@@ -149,7 +156,7 @@ areas of study.  Choices depend on your weaknesses and learning style.
    * simple but poor navigation vs Picmonic which is overly complicated and
      buggy in a lot of cases
    * both lack completeness, but Picmonic seems to have a few more important
-     details ([Lippincott's Microcards] are more comprehensive)
+     details ([Lippincott's Microcards][microcards] are more comprehensive)
 * [record the audio][record audio] to listen while you commute, exercise, or
   do chores
 
