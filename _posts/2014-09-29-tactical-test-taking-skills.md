@@ -2,7 +2,7 @@
 layout: post
 title: "Tactical Test-Taking Skills"
 description: "Lessons learned from taking thousands of multiple choice questions."
-tags: med-school, studying
+tags: medicine, studying
 ---
 
 Med school is all test after test after test, and so a little over a year into
