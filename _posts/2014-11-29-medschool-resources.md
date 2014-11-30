@@ -170,8 +170,8 @@ areas of study.  Choices depend on your weaknesses and learning style.
   details ([Lippincott's Microcards][microcards] are more comprehensive)
 * One thing I dislike about Picmonic is how they try to literally spell out
   everything, eg. *non-enveloped* viruses are shown with a catholic *nun
-  holding an envelope*.  [Sketchy Micro] does a better job at finding more
-  intuitive hooks.
+  holding an envelope*, *mononucleosis* is a *monkey with nuclear face*.
+  Sketchy Micro does a better job at finding more intuitive hooks.
 
 
 ### Learn From Videos
