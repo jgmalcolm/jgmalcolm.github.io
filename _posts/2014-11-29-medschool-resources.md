@@ -475,32 +475,36 @@ studying and productivity in med school:
 
   [record audio]: #recording-audio-from-video
 
-For [Pathoma] and [Sketchy Micro], I recorded the audio to mp3 so that I could
-listen to it while commuting or exercising.  While lacking the visual learning
-experience it's a way to eek out a little extra learning, but keep in mind
-that it's not as engaging or valuable as watching the videos to pick up the
-mental imagery.
+As I watched [Pathoma], [Sketchy Micro], and [Picmonic], I recorded the audio
+to mp3 so that I could listen to it while commuting, exercising, or doing
+chores.  While lacking the visual experience it's a way to eek out a little
+extra learning as you exercise your visual recall.  The audio will make little
+sense unless you've spent time watching the videos to pick up the mental
+imagery.
 
 * Install [Audacity](http://audacity.sourceforge.net) to record and export audio
 * Install [Soundflower](https://code.google.com/p/soundflower/downloads/list)
   to channel audio from your browser to Audacity
 
-* Record settings
-  * [Screenshots showing the process][wikihow]
-  * Audacity
-    * Set the microphone to Soundflower (2ch), Mono
-  * Enable 'Sound activated recording' so you won't have to start/stop/trim;
-    it'll just start when the video starts, and stop when the video stops.
-    * Audacity: Preferences > Recording > enable 'Sound activated recording'
-* MP3 export settings
-  * How I name MP3s from each service (ID3 info): Artist / Album / Track
-    * Pathoma / chapter / topic
-    * SketchyMicro / bug group / bug
-    * Picmonic / organ system play list / vignette
-  * Encoding settings
-    * Install either LAME or FFmpeg
-    * 22 KHz sampling, (fast) variable 65-105 kbps, mono
-    * [advanced details][mp3 settings]
+### Record settings
+
+* [Screenshots showing the process][wikihow]
+* Audacity
+  * Set the microphone to Soundflower (2ch), Mono
+* Enable 'Sound activated recording' so you won't have to start/stop/trim;
+  it'll just start when the video starts, and stop when the video stops.
+  * Audacity: Preferences > Recording > enable 'Sound activated recording'
+
+### MP3 export settings
+
+* How I name MP3s from each service (ID3 info): Artist / Album / Track
+  * Pathoma / chapter / topic
+  * SketchyMicro / bug group / bug
+  * Picmonic / organ system play list / vignette
+* Encoding settings
+  * Install either LAME or FFmpeg
+  * 22 KHz sampling, (fast) variable 65-105 kbps, mono
+  * [advanced details][mp3 settings]
 
 <img class="thumb" src="/images/soundflower.png" alt="Ensure Built-in Output
   is checked"> Sometimes when I pull my headphones out, this setup gets in a
