@@ -77,16 +77,19 @@ student uses for the boards.
 ## Top resources many students use
 
 The three resources above will provide the most comprehensive coverage in the
-fewest number of resources.  That said, nearly all students pull from a few
-additional resources.  The following is a survey of resources for the main
-areas of study.  Choices depend on your weaknesses and learning style.
+fewest number of resources.  You should be spending the majority of your
+dedicated STEP1 study time focused on those three.
+
+That said, nearly all students pull from a few additional resources throughout
+their coursework.  The following is a survey of resources.  Choices depend on
+your weaknesses and learning style.
 
 
   [spaced repetition]: http://www.gwern.net/Spaced%20repetition
 
 ### [Firecracker](https://firecracker.me)
 
-* I probably spent half of my time in medical school learning with
+* I probably spent half of my pre-boards time in medical school learning with
   Firecracker.
 * Flashcard software prepoplated with STEP1 material (a combination of First
   Aid, Goljan, etc.)
@@ -95,9 +98,9 @@ areas of study.  Choices depend on your weaknesses and learning style.
 * As you cover material (daily/weekly) you add it to the question pool (flag
   it)
 * The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
-* Use the keyboard shortcuts (when you're doing a quiz, there's a little
+* Learn the keyboard shortcuts (when you're doing a quiz, there's a little
   laptop icon on the bottom right)
-* Anki is a similar and better tool for its design and feedback metrics, but
+* [Anki] is a similar and better tool for its design and feedback metrics, but
   Firecracker is better overall for medical students because it is
   prepopulated saving you hundreds of hours of reinventing the wheel by making
   your own cards or hassling with those from others.
@@ -374,6 +377,8 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 
 ## [Anki](http://ankisrs.net)
+
+   [anki]: #ankihttpankisrsnet
 
 * Good but you have to spend time populating versus Firecracker which is
   prepopulated
