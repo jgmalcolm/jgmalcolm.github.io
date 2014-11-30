@@ -92,7 +92,7 @@ areas of study.  Choices depend on your weaknesses and learning style.
 * The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
 * Use the keyboard shortcuts (when you're doing a quiz, there's a little
   laptop icon on the bottom right)
-* Anki a similar and better tool for its design and feedback metrics, but
+* Anki is a similar and better tool for its design and feedback metrics, but
   Firecracker is better overall for medical students because it is
   prepopulated saving you hundreds of hours of reinventing the wheel by making
   your own cards or hassling with those from others.
