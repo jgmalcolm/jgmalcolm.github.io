@@ -424,12 +424,14 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 * Only buy two (2) dissecting kits for your entire table and share. Make sure
   you have two of everything: scalpel, small & large scissors, small & large
   hemostats, small & large toothed & non-toothed tweezers (pickups).
-* Consider buying your own fresh lab coat instead of using the stained used
-  ones. Write your name prominently on the collar or front. Personalize as
-  inspired.
-* Buy thick multi-colored friendship bracelet string to tag arteries, veins,
-  nerves, muscle, etc. Regular sewing thread is too thin and you'll want
-  multiple colors.  Keep it in a ziplock bag.
+* Consider buying your own
+  [fresh lab coat](http://www.amazon.com/gp/product/B0072IHTIO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0072IHTIO&linkCode=as2&tag=jgmalcolm-20&linkId=SYCNZHTAV32IKRGV)
+  instead of using the stained used ones. Write your name prominently on the
+  collar or front. Personalize as inspired.
+* Buy
+  [thick multi-colored friendship bracelet string](http://www.amazon.com/gp/product/B001CE8J9C/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001CE8J9C&linkCode=as2&tag=jgmalcolm-20&linkId=57VJNMQMWTKABLL2)
+  to tag arteries, veins, nerves, muscle, etc. Regular sewing thread is too
+  thin and you'll want multiple colors.  Keep it in a ziplock bag.
 
   [Netter]: http://www.amazon.com/gp/product/1455704180/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455704180&linkCode=as2&tag=jgmalcolm-20&linkId=MBQR5BOPKEMNCZH4
   [Netter Flashcards]: http://www.amazon.com/gp/product/0323185959/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0323185959&linkCode=as2&tag=jgmalcolm-20&linkId=TVGDMDJL366QWFXE
