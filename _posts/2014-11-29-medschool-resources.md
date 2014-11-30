@@ -6,11 +6,10 @@ description: "A survey of the top study resources for the first two years of med
 ---
 
 There are a hundreds resources available to help you study, and new ones pop
-up every year.  I'm not going to even try to catalog them all.  This is a
-short list of the resources I used during the didactic portion of med school.
-I've experimented with various channels for learning: review texts, memory
-palaces, video tutorials, spaced repetition software, physical note cards, and
-more.
+up every year, so it's important to narrow in on the best.  Here is a short
+list of the best resources I used during the didactic portion of med school.
+I cover various approaches to learning: review texts, memory palaces, video
+lectures, spaced repetition software, physical note cards, and more.
 
 ## Three resources every med student uses
 
