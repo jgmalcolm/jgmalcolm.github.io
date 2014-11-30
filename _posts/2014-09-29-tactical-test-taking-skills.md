@@ -42,6 +42,10 @@ habits.  But techniques will only tweak your performance.  There are no true
 shortcuts on these exams and these techniques only work when you already have
 the core knowledge.
 
+The NBME self assessments do not allow you to review individual answers.
+These are still good uses of time because you practice your technique against
+the real benchmark and you do get an idea of your weak subjects.
+
 
 
 ## The first and last sentences
@@ -73,27 +77,19 @@ at the answer choices, you can already rule out one or more wrong choices in
 seconds.  Classic histology or gram staining is "classic" for a reason.
 
 
-## The aftermath
+## Study the answer explanations
 
 Always review explanations.  First for the correct answer, second for your
-wrong answer, but also for all the other answers.  Look for how you could have
-ruled out each wrong answer.  Find the topic in your notes, underline the
-tested fact, emphasize the most important physical or lab findings, etc.  Put
-a tally mark in the margin indicating the topic was tested.  Over time, the
-highly tested topics become apparent.
+wrong answer, but also for all the other answers.  Specifically look for how
+you could have ruled out each incorrect answer.
 
-The NBME self assessments do not allow you to review individual answers.
-These are still good uses of time because you practice your technique against
-the real benchmark and you do get an idea of your weak subjects.
+Find the topic in your notes, underline the tested fact, emphasize the most
+important physical or lab findings, etc.  Put a tally mark in the margin
+indicating the topic was tested.  Over time, the highly tested topics become
+apparent.  Not all information is weighted equally, and you'll soon start to
+see which topics are most important.  Avoid cluttering your notes and only do
+this for things you got wrong.
 
-
-
-## High-Yield Material
-
-Not all information is weighted equally.  Every time a concept is tested, put
-a dot in the margin of your notes.  You'll soon start to see which topics are
-most important.  Taking it one step further, you might want to only note items
-you get wrong: no sense noting what material you already know.
 
 
 ## Record a learning point for tough questions
