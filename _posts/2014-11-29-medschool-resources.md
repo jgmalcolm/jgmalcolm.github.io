@@ -457,7 +457,7 @@ studying and productivity in med school:
 * [Scott Young](http://www.scottyoung.com):
   [How to ace your finals](http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying),
   [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
-* from me: [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %})
+* [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %}) (from me)
 * [Daniel Willingham](http://www.danielwillingham.com/articles.html)
 
 ### Beyond Medical school
