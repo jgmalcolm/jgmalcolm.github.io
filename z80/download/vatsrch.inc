@@ -15,7 +15,7 @@
 ;	d - variable type
 ;	bc - destroyed (how much if any
 ;	 vat left)
-; by jimi malcolmj1@juno.com
+; by James Malcolm (me@jgmalcolm.com)
 ;==============================================================
 _RAM_Page_7		=$47f3	;swap in RAM page 7 (variable alocation
 				; table)
@@ -81,7 +81,7 @@ good_found_one:
 ;	hl - byte after variable name
 ;	b - $00
 ;	a - (de)
-; by jimi malcolmj1@juno.com
+; by James Malcolm (me@jgmalcolm.com)
 ;==============================================================
 copy_to_op1:
 		push de
