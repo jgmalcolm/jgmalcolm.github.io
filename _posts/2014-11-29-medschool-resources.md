@@ -52,6 +52,9 @@ student uses for the boards.
 * [Record audio] so you can listen while you commute or exercise
 * Combine with [Goljan's lectures][goljan] to get multiple views of key
   topics.  Sometimes one explains it better than the other.
+* There are
+  [other pathology resources to pull from](#other-pathology-resources), but
+  Pathoma is the best use of your time
 
 ### [U-World](//www.usmleworld.com/purchase.aspx): practice questions
 
@@ -59,12 +62,12 @@ student uses for the boards.
 * Also known as "USMLE World"
 * Explanations are of the highest quality
 * $250 for question bank and self-assessments
-* Purchase about 90 days out from your STEP1 date
-  * For your modules, you'll want to purchase
-    [USMLE-Rx or Kaplan qbanks][qbanks]
-* Organize your classmates to get a group discount
+  * Purchase about 90 days out from your STEP1 date
+  * Organize your classmates to get a group discount
 * When you hit dedicated STEP1 study time, you must do every question in this
   qbank at least once.  Many students go through twice.
+* For your modules, you'll want to purchase the
+  [USMLE-Rx or Kaplan qbanks][qbanks]
 
 
 
@@ -162,24 +165,6 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
-
-
-### Goljan audio
-
-  [goljan]: #goljan-audio
-
-* A series of lectures as part of a review course he conducted.
-* These lectures were delivered with the first edition of
-  [Rapid Review Pathology] text, but you can still follow along in the latest
-  edition.  The slides and a scan of the original textbook can be found
-  online.
-* Full of board pearls since he helps edit the USMLE questions.  While most of
-  the pathognomonic stuff is outdated and boards questions rarely use such
-  classic tip-offs, the concepts are still valid and tested in similar ways
-* It's not well organized, but makes for good background listening while
-  running errands, doing chores, or exercising.
-* Pathoma is more updated, organized, and focused, so use Pathoma if you had
-  to pick one or the other
 
 
 
@@ -305,7 +290,7 @@ through either of the following standard question banks.
 * $210 with AMA membership ($20) for a total of $230
    * regularly $300 without AMA membership)
 
-### Comparing Kaplan and USMLE-Rx
+## Comparing Kaplan and USMLE-Rx
 
 * It's hard to say which is better
   * Kaplan has very thorough (better) explanations, but often too detailed.
@@ -348,9 +333,11 @@ through either of the following standard question banks.
     it comes to microbiology, but not as much as [Robbins & Cotran] (aka "The
     Bible of Pathology", get this if you're interested in Pathology as a
     residency).
-  * Further on in the curriculum, I realized I wanted more details on
-    pathology so I started skimming chapters from this.  Pathoma is sufficient
-    for a good foundation.
+  * Further on in the curriculum, I realized I wanted more details and a
+    alternative view on pathology so I started skimming chapters from this but
+    Pathoma is sufficient for a good foundation.
+  * The first edition of this text is what his [audio lectures][goljan] are
+    based on
 
 If you had to rank order the complexity of these resources: BRS < Pathoma <
 Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
@@ -359,6 +346,24 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 [Rapid Review Pathology]: http://www.amazon.com/gp/product/0323087876/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0323087876&linkCode=as2&tag=jgmalcolm-20&linkId=W27RBR7TKB2ATXIM
 [BRS Pathology]: http://www.amazon.com/gp/product/1451115873/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451115873&linkCode=as2&tag=jgmalcolm-20&linkId=A3ED6I7JXGH55IUM
 [BRS Physiology]: http://www.amazon.com/dp/0781798760
+
+## Goljan STEP1 audio
+
+  [goljan]: #goljan-step1-audio
+
+* A series of lectures as part of a boards review course he conducted
+* These lectures were delivered with the first edition of
+  [Rapid Review Pathology] text, but you can still follow along in the latest
+  edition.  The slides and a scan of the original textbook can be found
+  online.
+* Full of board pearls since he helps edit the USMLE questions.  While most of
+  the pathognomonic stuff is outdated and boards questions rarely use such
+  classic tip-offs, the concepts are still valid and tested in similar ways
+* It's not well organized, but makes for good background listening while
+  running errands, doing chores, or exercising.
+* Pathoma is more updated, organized, and focused, so use Pathoma if you had
+  to pick one or the other
+
 
 
 
