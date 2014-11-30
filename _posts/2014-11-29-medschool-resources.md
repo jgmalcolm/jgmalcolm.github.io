@@ -23,7 +23,7 @@ student uses for the boards.
 
 ### [First Aid for STEP1][First Aid]: content review for entire exam
 
-  [First Aid]: http://www.amazon.com/gp/product/0071840060/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071840060&linkCode=as2&tag=jgmalcolm-20&linkId=ESSWGXNUG2CZCK4Z
+  [First Aid]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=first%20aid%20for%20step%201&linkCode=ur2&rh=i%3Aaps%2Ck%3Afirst%20aid%20for%20step%201&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=65ZSHFLD65LXYPVO
 
 * Everything you need to know to pass STEP1.  Not a good primary learning
   tool, but an excellent outline review.
@@ -107,7 +107,7 @@ areas of study.  Choices depend on your weaknesses and learning style.
 
   [microcards]: #lippincotts-microcards
 
-  [Lippincott's Microcards]: http://www.amazon.com/gp/product/145111219X/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=145111219X&linkCode=as2&tag=jgmalcolm-20&linkId=USYXUQAPZNDL2FN5
+  [Lippincott's Microcards]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=lippincott%20microcards&linkCode=ur2&rh=i%3Aaps%2Ck%3Alippincott%20microcards&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=TQOYT6JCPI3PE5HR
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
   data-gallery="wiki" title="Simple annotations to highlight tested facts.
