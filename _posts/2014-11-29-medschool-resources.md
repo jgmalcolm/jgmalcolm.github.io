@@ -255,11 +255,11 @@ things now and then.  I'd say that half its value can be realized for learning
 in your present module, but half its value is longitudinal over all your
 blocks.  Put in the time to review old material.
 
-### There's no short cut
+### Put in the time
 
-You have to put in the time to actually learn.  Merely owning Firecracker or
-any resource won't make you a better student.  The hard reality is that you
-have to put in the time.
+There are no short cuts to simply putting in the time to actually learn.
+Merely owning Firecracker or any resource won't make you a better student.
+The hard reality is that you have to put in the time.
 
 With Firecracker, there's a lot of upfront work of slogging through questions
 before you start to reach steady state maintenance mode.  As long as you're
