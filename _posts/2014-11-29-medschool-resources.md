@@ -38,6 +38,8 @@ student uses for the boards.
 
 ### [Pathoma](//www.pathoma.com): pathology review
 
+   [Pathoma]: #pathomawwwpathomacom-pathology-review
+
 * Concise video lectures covering all relevant pathology along with a slim
   review text
   * About 1.5 - 2.5 hours of video per organ system
@@ -465,7 +467,7 @@ studying and productivity in med school:
 
   [record audio]: #recording-audio-from-video
 
-For Pathoma and SketchyMicro, I recorded the audio to mp3 so that I could
+For [Pathoma] and [Sketchy Micro], I recorded the audio to mp3 so that I could
 listen to it while commuting or exercising.  While lacking the visual learning
 experience it's a way to eek out a little extra learning, but keep in mind
 that it's not as engaging or valuable as watching the videos to pick up the
