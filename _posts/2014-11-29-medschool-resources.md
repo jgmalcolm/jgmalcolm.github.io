@@ -398,18 +398,6 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 
 
-## Other Resources Not Evaluated
-
-* [KissPharm](http://www.kisspharmacology.com) - no personal experience,
-  recommended by an upperclassman
-* [Memorang App](www.memorangapp.com)- looks super simple
-* [MedComic](http://www.medcomic.com/archive.html) - amusing sketches
-  illustrating various topics.  Like a lite version of Pathoma.
-
-
-
-
-
 # Anatomy
 
 * [Netter] is the gold standard and has all the classic diagrams you'll see in
