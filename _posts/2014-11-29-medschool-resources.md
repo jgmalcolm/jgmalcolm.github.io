@@ -289,17 +289,20 @@ want to save it until that time.  Throughout the year and even at the start of
 your dedicated study period, you'll want to work through either of the
 following standard question banks.
 
-Until you get close to STEP1, do these questions in *Un-timed Tutor Mode*.
-This allows you to take your time, look up things if you choose, and see the
-answer explanation immediately after each question.  When you get a few weeks
-out from STEP1, then you want to do timed tests to work in endurance and
-pacing.
+Until you get close to STEP1, **do questions in *Un-timed Tutor Mode***.  This
+allows you to take your time, look up things if you choose, and see the answer
+explanation immediately after each question.  When you get a few weeks out
+from STEP1, then you want to do timed tests to work in endurance and pacing.
+Several times I accidentally created blocks that were timed; Rx lets you
+delete them from the web interface, but you have to email Kaplan to delete
+these tests.
 
 
 ## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
 * 2524 total questions
-* Written by the authors of First Aid, follows very closely
+* Written by the authors of First Aid, answer explanations show pages from
+  First Aid so consider this a companion qbank
 * 12mo subscription is $149 with [$50 discount](https://www.usmle-rx.com/amsa)
   after free
   [AMSA membership](http://www.amsa.org/AMSA/Homepage/MemberCenter/JoinAMSA.aspx)
@@ -310,18 +313,26 @@ pacing.
 * 2006 total questions
 * $210 with AMA membership ($20) for a total of $230
    * regularly $300 without AMA membership)
+* answer explanations contain links to video and other media, as well as scans
+  from pages in [medEssentials for USMLE Step 1][medEssentials]
 
 ## Comparing Kaplan and USMLE-Rx
 
 * It's hard to say which is better
-  * Kaplan has very thorough (better) explanations, but often too detailed.
+  * Kaplan has very thorough and more integrative explanations with links
+    [medEssentials for USMLE STEP1][medEssentials], but can be too detailed.
     If you get good at Kaplan, you'll probably know the material nuances
     better than with Rx.
   * Rx ties directly into FA (the explanations literally show you the relevant
-    FA pages).  Use it as a way to learn FA and then move on to UWorld.
+    FA pages).  Use it as a way to learn FA.
+  * Kaplan provides better analysis and review of each test: a table shows how
+    long you spent on each question, if you changed your answer, jump to the
+    explanation.
 * User interface: Rx is a clear winner
   * Rx has an excellent, smooth web interface (HTML), poor iOS app
   * Kaplan has a terrible interface (Flash) and even worse iOS app
+
+[medEssentials]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=medessentials%20for%20usmle%20step%201&linkCode=ur2&tag=jgmalcolm-20&url=search-alias%3Dstripbooks&linkId=FQNEWPBM3VIQJQ2U
 
 
 ## [First Aid Q&A for USMLE Step 1]
