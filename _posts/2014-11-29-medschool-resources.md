@@ -139,8 +139,7 @@ depend on your weaknesses and learning style.
 
 * video [memory scenes] of 47 bacteria, dynamically drawn while narrated with
   teaching points
-* create free account to get: S aureus, S epidermidis, S saprophyticus, S
-  pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus, and
+* create free account to get *Staph*, *Strep*, and *Enterococcus*, and
   [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
 * $40/6mo
 * Focused only on bacteria (as of Fall 2014)
