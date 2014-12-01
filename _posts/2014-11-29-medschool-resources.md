@@ -332,6 +332,9 @@ these tests.
   * Rx has an excellent, smooth web interface (HTML), poor iOS app
   * Kaplan has a terrible interface (Flash) and even worse iOS app
 
+Ultimately, I ended up using both qbanks a lot, and I found it great to see
+information from multiple perspectives.
+
 [medEssentials]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=medessentials%20for%20usmle%20step%201&linkCode=ur2&tag=jgmalcolm-20&url=search-alias%3Dstripbooks&linkId=FQNEWPBM3VIQJQ2U
 
 
