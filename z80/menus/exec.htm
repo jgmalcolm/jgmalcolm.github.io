@@ -1,23 +1,20 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Menus","Executing Menus");</SCRIPT>
+---
+title: Executing Menus
+section: Menus
+layout: z80
+---
 
-<P>One pain of making branched programs is menus for the user to select
-where to go next by clicking a Function key (F1, F2, F3, F4, and F5). You
-have to make a routine to draw the menu, make a routine to display the text
-in the menu slots, and yet another routine to control the input of keys and
-jump to different parts of the program accordingly. This can be over 100
-bytes for this all. Thanks to <A HREF=mailto:assets@eden.rutgers.edu>Dux
-Gregis</A> and other pioneers of the TI86 ROM routines, we have gained
-much knowledge of internal TI86 routines that can do tasks like displaying
-a menu and controlling keypresses for us. There are two routines that
-we are going to study that have to do with setting up a menu structure and
-implementing the menu. The two calls are:
+<P>One pain of making branched programs is menus for the user to select where
+to go next by clicking a Function key (F1, F2, F3, F4, and F5). You have to
+make a routine to draw the menu, make a routine to display the text in the
+menu slots, and yet another routine to control the input of keys and jump to
+different parts of the program accordingly. This can be over 100 bytes for
+this all. Thanks to <A HREF=mailto:assets@eden.rutgers.edu>Dux Gregis</A> and
+other pioneers of the TI86 ROM routines, we have gained much knowledge of
+internal TI86 routines that can do tasks like displaying a menu and
+controlling keypresses for us. There are two routines that we are going to
+study that have to do with setting up a menu structure and implementing the
+menu. The two calls are:
 
 <PRE>_ASAPloadmenu	=$49c8
 _funcDisp	=$49e8</PRE>
@@ -44,4 +41,3 @@ will be accepted.
 your menu will not be able to get keypresses. By jumping to
 <CODE>_funcDisp</CODE>, you display the menu and exit to TI-OS which can
 then use the menu.
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

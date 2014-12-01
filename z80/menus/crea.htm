@@ -1,11 +1,8 @@
-<HTML>
-<HEAD>
-<TITLE>The Guide</TITLE>
-<LINK REL=StyleSheet TYPE="text/css" HREF="../guide.css">
-<SCRIPT LANGUAGE=JavaScript SRC="../guide.js"></SCRIPT>
-</HEAD>
-<BODY>
-<SCRIPT LANGUAGE=JavaScript>top("Menus","Creating Menus");</SCRIPT>
+---
+title: Creating Menus
+section: Menus
+layout: z80
+---
 
 <P>The menus are divided into four basic parts:
 <OL>
@@ -14,7 +11,9 @@
 	<LI>Pointers to menu slots.
 	<LI>Menu slot data and zero-terminated strings.
 </OL>
-<TABLE ALIGN=CENTER class="index"><TR><TD>Menu type</TABLE>
+
+<H1>Menu type</h1>
+
 The first byte of a menu structure is one of the following choices.
 
 <H2>$00</H2>
@@ -26,21 +25,20 @@ go above the graph menu. Type
 
 
 
-<P>You can think of the menu data sets as
-tables. The first byte of the table is the type of menu: $03 means it can be
-moved around (either pushed up when another menu is drawn, or push another
-menu up when it itself is drawn), $08 means that it is a submenu from
-something else, and $09 means it is a new menu and so all other active menus
-need to be cleared before this one is drawn. The second byte is the number
-of menu slots (entries) there are in the menu data. The next few bytes are
-word pointers (2 bytes) that point to where the data for that entry is
-stored. There are as many of these 2 byte long pointers as the second byte
-in the menu data says there are entries. After those word pointers comes the
-actual entry data. The entry data is broken up into parts also: the first
-byte is the type of way it is pasted to the cursor position (see below
-<A HREF="#typechart">***MAKE***chart</A>), the next few bytes are a zero
-terminated string which is the text that appears in the menu slots on the
-screen.
+<P>You can think of the menu data sets as tables. The first byte of the table
+is the type of menu: $03 means it can be moved around (either pushed up when
+another menu is drawn, or push another menu up when it itself is drawn), $08
+means that it is a submenu from something else, and $09 means it is a new menu
+and so all other active menus need to be cleared before this one is drawn. The
+second byte is the number of menu slots (entries) there are in the menu
+data. The next few bytes are word pointers (2 bytes) that point to where the
+data for that entry is stored. There are as many of these 2 byte long pointers
+as the second byte in the menu data says there are entries. After those word
+pointers comes the actual entry data. The entry data is broken up into parts
+also: the first byte is the type of way it is pasted to the cursor position,
+the next few bytes are a zero terminated string which is the text that appears
+in the menu slots on the screen.
+
 <A NAME="curs"></A>
 <TABLE ALIGN=CENTER CLASS=info>
 	<TR CLASS=header>
@@ -409,4 +407,3 @@ $41 and $c1 - Same as $01.</I><BR>
 
 </TABLE>
 <p ALIGN=CENTER><FONT SIZE=1>I used the word "Item" as what was in the menu entry.</FONT>
-<SCRIPT LANGUAGE=JavaScript>bottom();</SCRIPT>

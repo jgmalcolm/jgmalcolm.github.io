@@ -20,6 +20,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Advanced](#advanced) - ports, hidden TI-OS features
 - [Opcodes](#opcodes) - listing of all z80 opcodes (numeric or alphabetic)
 - [Variables](#variables) - manipulate TI-OS variables
+- [Menus](#menus) - creating native TI-OS menus
 - [Design](#design) - planning and game design, writing clean code
 - [Downloads](download/download.htm) - tools, examples, algorithms
 
@@ -208,6 +209,22 @@ and how the pixels are stored in memory.
 - [OP_ Math](variables/op_m.htm) - Get an understanding of how to perform
   Floating Point math with the Operator Registers. You can even check out TI's
   own routine to input strings or values.
+
+## Menus
+
+Create full featured, native TI-OS Menu Trees. Have one on the bottom like the
+Custom Menu or branch that one out into other Menu Trees. Create a menu with
+conversions, constants, program names, and more.
+
+- [Executing Menus](menus/exec.htm) - The place to start, here you'll learn
+  about two routines that tie up the whole process. It's as simple as loading
+  a pointer!
+- [Creating Menus](menus/crea.htm) - Here's where the full customization of
+  the menus comes into play. Create multiple menus with Paste, Branch, or
+  Execute Items!
+- [ROM Menus](menus/romm.htm) - Take advantage of TI's own menu
+  structures. Use them as patches for your own structures!
+
 
 
 ## Design
