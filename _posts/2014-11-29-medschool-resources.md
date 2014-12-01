@@ -485,6 +485,8 @@ studying and productivity in med school:
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
 * [USMLE Gunner](http://www.usmlegunner.com)
 * [Sample study schedule](http://www.hopefuldoc.com/step-1-usmle-study-secrets/)
+* [What do your class top 10% do differently?](http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently/) (r/medicalschool)
+
 
 ### General study methods
 
