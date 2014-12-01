@@ -80,14 +80,14 @@ reading doesn't achieve.  Underlining key words or phrases focuses your
 attention.  [Recent studies][hand-written] show that hand written notes are
 more effective than typed.
 
-In addition to knowing what's important, top students seek to understand.
-Memorizing only provides short-term results.  You've probably heard that
-knowledge is like a tree: you fill in the branches, then the leaves.  Taking
-the time to understand *Why* something is the way it is will last much longer
-than simply *What* something is.
+In addition to knowing what's important,
+[top students seek to understand][r/top10].  Memorizing only provides
+short-term results.  You've probably heard that knowledge is like a tree: you
+fill in the branches, then the leaves.  Taking the time to understand *Why*
+something is the way it is will last much longer than simply *What* something
+is.
 
 [hand-written]: http://www.theatlantic.com/technology/archive/2014/05/to-remember-a-lecture-better-take-notes-by-hand/361478
-
 
 
 ## Testing
@@ -141,7 +141,6 @@ notecards.
 [griffel]: https://medium.com/medium-redef/5481606b087a
 
 
-
 ## Balance
 
 School isn't everything, and you'll be punished if you try to make it so.
@@ -173,3 +172,6 @@ I'm constantly trying new things, borrowing from the best, mixing and matching
 to suit my personality, always trying to become better.
 
 What works for you?
+
+
+[r/top10]: http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently
