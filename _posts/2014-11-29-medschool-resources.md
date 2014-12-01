@@ -5,11 +5,11 @@ tags: medicine, studying, STEP1
 description: "A survey of the top study resources for the first two years of med school."
 ---
 
-There are a hundreds resources available to help you study, and new ones pop
-up every year, so it's important to narrow in on the best.  Here is a short
-list of the best resources I used during the didactic portion of med school.
-I cover various approaches to learning: review texts, memory palaces, video
-lectures, spaced repetition software, physical note cards, and more.
+There are hundreds of resources available to help you study with new one
+popping up every year, so it's important to narrow in on the best.  Here is a
+short list of the best resources I used during the didactic portion of med
+school.  I cover various approaches to learning: review texts, memory palaces,
+video lectures, spaced repetition software, physical note cards, and more.
 
 ## Three resources every med student uses
 
@@ -58,13 +58,12 @@ student uses for the boards.
 * There are
   [other pathology resources to pull from](#other-pathology-resources), but
   Pathoma is the best use of your time
-* During each block, I would watch the appropriate videos at 1x to learn, and
-  then 1.3x or 1.7x to review later and then often once more the day before
-  the exam, for a total of three views.  Whenever I get tired of doing
-  questions, popping up a Pathoma video is an easy step down that still keeps
-  me productive.
+* **During each block, watch each video three times.** Watch at 1x to learn,
+  and then a week later at 1.3x or 1.7x to review, and finally once more
+  before the exam.  Whenever I get tired of doing questions, popping up a
+  Pathoma video is an easy step down that still keeps me productive.
 
-### [U-World](//www.usmleworld.com/purchase.aspx): practice questions
+### [U-World](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
 
 * The official question bank of USMLE
 * Also known as "USMLE World"
@@ -86,23 +85,20 @@ The three resources above will provide the most comprehensive coverage in the
 fewest number of resources.  You should be spending the majority of your
 dedicated STEP1 study time focused on those three.
 
-That said, nearly all students pull from a few additional resources throughout
-their coursework.  The following is a survey of resources.  Choices depend on
-your weaknesses and learning style.
+Beyond those, nearly all students pull from a few additional resources
+throughout their coursework.  The following is a survey of resources.  Choices
+depend on your weaknesses and learning style.
 
 
   [spaced repetition]: http://www.gwern.net/Spaced%20repetition
 
 ### [Firecracker](https://firecracker.me)  {#firecracker}
 
-* I probably spent half of my pre-boards time in medical school learning with
-  Firecracker.
 * Flashcard software prepoplated with STEP1 material (a combination of First
   Aid, Goljan, etc.)
 * [Spaced repetition][spaced repetition] algorithm to optimize when to review
   what information
-* As you cover material (daily/weekly) you add it to the question pool (flag
-  it)
+* As you cover material (daily) you add it to the question pool (flag it).
 * The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
 * Learn the keyboard shortcuts (when you're doing a quiz, there's a little
   laptop icon on the bottom right)
@@ -110,7 +106,8 @@ your weaknesses and learning style.
   Firecracker is better overall for medical students because it is
   prepopulated saving you hundreds of hours of reinventing the wheel by making
   your own cards or hassling with those from others.
-* Read more on [how I use Firecracker][firecracker use].
+* I probably spent half of my pre-boards time in medical school learning with
+  Firecracker. Read more on [how I use Firecracker][firecracker use].
 
 
 
@@ -128,33 +125,20 @@ your weaknesses and learning style.
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.
 * Covers about 140 bacteria, viruses, fungi, protozoa, and helminths.
-* You can underline and annotate key facts.  As with annotating any boards
-  review source, be careful not to add too much.  It's okay to add a small
-  table contrasting against other bugs, but be careful to not add low-yield
-  random facts that will clutter the card.
+  Everything is relevant for STEP1.
+* Underline and annotate to emphasize key facts.  As with adding to any review
+  resource, be careful not to add too much.  It's okay to add a small table
+  contrasting against other bugs, but be careful to not add low-yield random
+  facts that will clutter the card.
 * Combine these with [Sketchy Micro] or [Picmonic]
-
-
-
-### [Picmonic](http://picmonic.com)  {#picmonic}
-
-  [Picmonic]: #picmonic
-
-* static [memory scenes] with audio guide
-* $250 for 12 months, or $25/month
-* I use this only for spot memorization (eg. pharm, vasculitides, micro,
-  viral) rather than conceptual material (eg. pathophysiology)
-* Whenever I hit something I have trouble recalling, I skim the picture in
-  Picmonic or queue it up in a review play list.
-* I only use the Learn feature (not the Explore or other)
-* [record the audio][record audio]
 
 
 ### [Sketchy Micro](http://sketchymicro.com)  {#sketchy-micro}
 
   [Sketchy Micro]: #sketchy-micro
 
-* video [memory scenes] of 47 bacteria
+* video [memory scenes] of 47 bacteria, dynamically drawn while narrated with
+  teaching points
 * create free account to get: S aureus, S epidermidis, S saprophyticus, S
   pyogenes, S agalactiae, S pneumoniae, Strep viridans, Enterococcus, and
   [free samples on YouTube](https://www.youtube.com/channel/UC1BRRTxAdlQCy2Tq8YfHX0w)
@@ -162,6 +146,21 @@ your weaknesses and learning style.
 * Focused only on bacteria (as of Fall 2014)
 * [record the audio][record audio] to listen while you commute, exercise, or
   do chores
+
+
+### [Picmonic](http://picmonic.com)  {#picmonic}
+
+  [Picmonic]: #picmonic
+
+* hundreds of static [memory scenes] with audio guide
+* $250 for 12 months, or $25/month
+* I use this only for spot memorization (eg. pharm, vasculitides, micro,
+  viral) rather than conceptual material (eg. pathophysiology)
+* Whenever I hit something I have trouble recalling, I skim the picture in
+  Picmonic or queue it up in a review play list.
+* I only use the *Learn* feature (not *Explore* or *Quiz*)
+* [record the audio][record audio]
+
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
@@ -177,8 +176,8 @@ your weaknesses and learning style.
 * for me, watching the SM scene getting drawn is more captivating; P uses static scenes
 * SM has simple but poorly designed navigation vs P which is overly
   complicated and buggy in a lot of cases
-* both lack completeness, but Picmonic seems to have a few more important
-  details ([Lippincott's Microcards][microcards] are more comprehensive)
+* both lack completeness but they provide enough to learn the basics;
+  [Lippincott's Microcards][microcards] and First Aid have everything
 * One thing I dislike about Picmonic is how they try to literally spell out
   everything, eg. *non-enveloped* viruses are shown with a catholic *nun
   holding an envelope*, *mononucleosis* is a *monkey with nuclear face*.
@@ -230,25 +229,25 @@ some strategies:
 * **Put in the time.** There's no substitute to just putting in the time.
   Glancing at the info and rating it a 1 is better than ignoring it forever.
   Try to just remember one bit of info and then move on.
-* **Do Fewer questions.** and focus on a few topics.  Otherwise, you might
+* **Do Fewer questions.** Narrow the scope of a quiz.  Otherwise, you might
   feel like you're getting punched from every direction as random topics hit
   you.
   * Above the calendar, click "More Options" > "Do Fewer Questions".
-* **Spread out questions.** over the coming days/weeks.
+* **Spread out questions.** Spread over the coming days/weeks.
   * You can only spread Review and Catchup questions (not Study).
   * Above the calendar, click "More Options" > "Spread Out Questions".
-* **Switch to Normal Mode.** to focus on a smaller set of the highest yield
+* **Switch to Normal Mode.** Focus on a smaller set of the highest yield
   material.
-  * Normal mode contains about half the number of questions.
+  * *Normal* mode contains about half the number of questions.
   * You still get the benefit of reviewing topics according to how strong you
     are, and you can always take a moment to review the full topic and all its
-    sub-topic details that you might have been tested on in Legendary Mode.
+    sub-topic details that you might have been tested on in *Legendary Mode*.
   * To switch learning modes, click the doctor icon in the top-right >
     "Account & Settings" > "Settings" > "Normal Mode" (default is "Legendary")
   * Your flagged topics, notes, and history will all remain.
-  * In the months *leading up to STEP1, I switched to Normal mode* so I could
-    hit the high points but start spending more time with Qbanks and other
-    resources.
+  * In the months **leading up to STEP1, I switched to Normal mode** so I
+    could hit the high points but start spending more time with qbanks and
+    other resources.
 * **Check STEP1 only.** No need to include STEP2 (3rd year) questions.
   There's a lot of overlapping coverage and you'll be fine with just STEP1.
   This is also under "Account & Settings".
@@ -286,9 +285,11 @@ or they pile up.
 
   [qbanks]: #question-banks
 
-USMLE World is the best choice for STEP1 dedicated study, but throughout the
-year and even at the start of your dedicated study period, you'll want to work
-through either of the following standard question banks.
+[USMLE World](#uworld) is the best choice for STEP1 dedicated study, but you
+want to save it until that time.  Throughout the year and even at the start of
+your dedicated study period, you'll want to work through either of the
+following standard question banks.
+
 
 ## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
 
@@ -309,8 +310,8 @@ through either of the following standard question banks.
 
 * It's hard to say which is better
   * Kaplan has very thorough (better) explanations, but often too detailed.
-    That said, if you get good at Kaplan, you'll probably know the material
-    nuances better than with Rx.
+    If you get good at Kaplan, you'll probably know the material nuances
+    better than with Rx.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA and then move on to UWorld.
 * User interface: Rx is a clear winner
@@ -443,6 +444,10 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   [Netter]: http://www.amazon.com/gp/product/1455704180/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1455704180&linkCode=as2&tag=jgmalcolm-20&linkId=MBQR5BOPKEMNCZH4
   [Netter Flashcards]: http://www.amazon.com/gp/product/0323185959/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0323185959&linkCode=as2&tag=jgmalcolm-20&linkId=TVGDMDJL366QWFXE
   [Atlas of Anatomy 2e]: http://www.amazon.com/gp/product/1604067454/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1604067454&linkCode=as2&tag=jgmalcolm-20&linkId=FAG7IGVPT2EBXLIW
+
+
+
+
 
 # Studying Techniques
 
