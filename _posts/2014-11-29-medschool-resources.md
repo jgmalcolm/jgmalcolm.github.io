@@ -471,6 +471,7 @@ studying and productivity in med school:
 * [A Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
 * [USMLE Gunner](http://www.usmlegunner.com)
+* [Sample study schedule](http://www.hopefuldoc.com/step-1-usmle-study-secrets/)
 
 ### General study methods
 
