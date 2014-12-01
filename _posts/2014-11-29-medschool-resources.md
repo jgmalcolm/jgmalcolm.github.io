@@ -108,6 +108,13 @@ depend on your weaknesses and learning style.
   your own cards or hassling with those from others.
 * I probably spent half of my pre-boards time in medical school learning with
   Firecracker. Read more on [how I use Firecracker][firecracker use].
+* The Firecracker blog has a lot of (biased?)
+  [case](http://blog.firecracker.me/2013/06/18/how-to-score-a-266-on-usmle-step-1)
+  [studies](http://blog.firecracker.me/2013/12/10/how-this-firecracker-scored-a-270-on-usmle-step-1)
+  of
+  [students](http://blog.firecracker.me/2014/08/01/firecrackers-averaged-a-245-on-step-1),
+  and
+  [Ken Noguchi writes about his use of Firecracker](http://sidenotelife.tumblr.com/post/88788673049/ken-explains-studying-in-med-school-a-year-long)
 
 
 
