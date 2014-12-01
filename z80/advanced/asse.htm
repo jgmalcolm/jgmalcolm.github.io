@@ -38,7 +38,7 @@ just as if you had typed the file in manually.
 #include "asm86.inc"
 #include asm86.inc
 #include asm86</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="defi"></a><h2>#define</h2>
 <CODE>#define <i>arg1</i>[(<i>arg2</i>, <i>arg3</i>, ...)]
@@ -59,7 +59,7 @@ just as if you had typed the file in manually.
 	;puts the 'ld b,x and following with / meaning a new line
 
 #define coords(x,y) ld bc,(y*256)+x / ld (_curRow),bc	;same as above</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="defc"></a><h2>#defcont</h2>
 <CODE>#defcont <i>arg1</i>[(<i>arg2</i>, <i>arg3</i>, ...)]
@@ -73,7 +73,7 @@ doesn't go way out to the right of the screen.
 #defcont		\ l,y
 #defcont		\ ld (_penCol),hl
 #defcont		pop hl</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="db"></a><h2>.db</h2>
 <CODE>.db <i>arg1</i>[, <i>arg2</i>, <i>arg3</i>, ...]</CODE> - This
@@ -90,7 +90,7 @@ is a byte.
 .db 22,"Length indexed string."
 .byte "Stupid"
 .byte 'A',$f0,0,%01010000</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="dw"></a><h2>.dw</h2>
 <CODE>.dw <i>arg1</i>[, <i>arg2</i>, <i>arg3</i>, ...]</CODE> - This is
@@ -101,7 +101,7 @@ things as words (2 bytes) instead of single bytes. It's useful for addresses.
 .dw 4345
 .word address_one
 .word $ffff</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="pc"></a><h2>$</h2>
 <CODE>$</CODE> - Just like how the Program counter is updated after every command,
@@ -111,13 +111,13 @@ records this in relation to the address you designate as the origin
 Instruction Pointer because it points to (holds) the address
 of the next instruction following.
 <PRE>new_address = $+4	;new_address=current address+4</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="end"></a><h2>.end</h2>
 <CODE>.end</CODE> - Tells the assembler to quit; it's done compiling
 your file and everything after this command is ignored.
 <PRE>.end</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="equa"></a><h2>=</h2>
 <CODE><i>arg1</i> = <i>arg2</i></CODE> - Takes label
@@ -128,7 +128,7 @@ Number_Three = 3
 Binary_for_Three = %00000011
 Binary_for_Three equ %00000011
 Binary_for_Three .equ %00000011</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="org"></a><h2>.org</h2>
 <CODE>.org <i>arg1</i></CODE> - Tells assembler to make all
@@ -139,14 +139,14 @@ this directive are in relation to <i>arg1</i>.
 <PRE>.org 0
 .org _asm_exec_ram
 .org $23a4</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="pad"></a><h2>.pad</h2>
 <CODE>.pad <i>arg1</i></CODE> - This inserts zeroes from the current
 position to the address specified by <i>arg1</i>.
 <PRE>.pad address_later_in_source
 .pad $ + 8	;from current address ('$') to 8 bytes later</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="text"></a><h2>.text</h2>
 <CODE>.text "<i>arg1</i>"</CODE> - This
@@ -154,7 +154,7 @@ is just like <CODE>.db</CODE> when you use it for strings. It puts <i>arg1</i> a
 a string into the source and automatically adds a <CODE>0</CODE> at the end to zero
 terminate it.
 <PRE>.text "Stupid"	;= .db "Stupid",0</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="back"></a><h2>/</h2>
 <CODE><i>arg1</i> / <i>arg2</i></CODE> - This treats the commands of

@@ -27,13 +27,13 @@ out port 0.
 
 send = <u> address - $c000 </u>
 	     $100</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="p1"></a><h2>Port 1 - Key Port</h2>
 Port 1 is used for the keypresses. If you don't remember us
 talking about that, look back at the <A HREF="read.htm">keypress
 section</A>. I went into some pretty good detail about it.
-<p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<p>
 
 <a name="p2"></a><h2>Port 2 - Contrast</h2>
 Port 2 is used to adjust the contrast.  It is another write-only
@@ -58,7 +58,7 @@ increase_contrast:
 	ld (hl),a		;put back changes
 	out (contrast_port),a	;update contrast
 	ret</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="p3"></a><h2>Port 3 - [ON] and Interrupts</h2>
 Port 3 is used with the [ON] button and the LCD power.  This is
@@ -129,7 +129,7 @@ being pressed.
 				;turn off the flag so
 				;ti-os doesn't detect it too
 	ret</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="p4"></a><h2>Port 4 - Power Mode</h2>
 Port 4 is used for the the Power Mode mainly. It's either
@@ -145,19 +145,19 @@ power_mode:
 	jr z,in_low_power_mode	;is in low power mode
 	ret</PRE>
 
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <a name="p5"></a><h2>Port 5 - ROM Pages</h2>
 See <A HREF="../intermediate/memo.htm">Memory
 and R_M Pages</A>.
 
-<p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<p>
 
 <a name="p6"></a><h2>Port 6 - RAM Pages</h2>
 See <A HREF="../intermediate/memo.htm">Memory
 and R_M Pages</A>.
 
-<p><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+<p>
 
 <a name="p7"></a><h2>Port 7 - Link Port</h2>
 Port 7 is used for the link port.  It can be used for

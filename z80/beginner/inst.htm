@@ -75,7 +75,7 @@ boring_label:
 a:
 run_to_me_now:
 this_label_is_too_long_to_be_a_label:</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="comm"></a><H2>comments</H2>
 <CODE>; <I>comments</I></CODE> - The semi-colon tells the
@@ -85,7 +85,7 @@ that later readers understand complex routines.
 
 <PRE>	ld bc,$0303 ;load b with 3, c with 3
 	;this is all ignored</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="ld"></a><H2>ld</H2>
 <CODE>ld <I>arg1</I>, <I>arg2</I></CODE> - Copies <I>arg2</I>
@@ -111,7 +111,7 @@ has to go through your mouth (that was cheesy).
 
 	ld ($8309),%10011100	;CAN'T do this!
 	ld (_textShadow),$a4	;CAN'T do this!</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="call"></a><H2>call</H2>
 <CODE>call <I>addr1</I></CODE> - Processor goes to the
@@ -150,7 +150,7 @@ to $d748 to get $d77c. Then it returns to where it encountered
 When it encounters <CODE>call _clrLCD</CODE>, which it knows to be an
 alias, it just substitutes the alias for <CODE>call $4a7e</CODE>. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="cp"></a><H2>cp</H2>
 <CODE>cp <I>arg1</I></CODE> - Compares whatever is in the <CODE>a</CODE>
@@ -163,7 +163,7 @@ the <A HREF="../beginner/flag.htm">processor flags</A> accordingly.
 	cp 250
 	cp %00000111
 	cp (hl)</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="add"></a><H2>add</H2>
 <CODE>add <I>arg1</I>, <I>arg2</I></CODE> - Adds the value
@@ -179,7 +179,7 @@ change.
 	add hl,de
 	add a,b
 	add a,$23</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="sub"></a><H2>sub</H2>
 <CODE>sub <I>arg1</I></CODE> - Subtracts the value of <I>arg1</I>,
@@ -189,7 +189,7 @@ the result in <CODE>a</CODE>. <I>Arg1</I> does not change.
 <PRE>	sub 32
 	sub (hl)
 	sub c</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="inc"></a><H2>inc</H2>
 <CODE>inc <I>arg1</I></CODE> - Increases the value of, or
@@ -200,7 +200,7 @@ register or a pointer to a register.
 	inc a
 	inc bc
 	inc e</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="dec"></a><H2>dec</H2>
 <CODE>dec <I>arg1</I></CODE> - Decreases the value, or address
@@ -211,7 +211,7 @@ or a pointer to a register.
 	dec a
 	dec b
 	dec de</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="djnz"></a><H2>djnz</H2>
 <CODE>djnz <I>addr1</I></CODE> - Similar to a
@@ -234,7 +234,7 @@ BeginningOfForLoop:
 	djnz BeginningOfForLoop
 	. . .		;code to be executed once
 			; For() loop is done</PRE>
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="jr"></a><H2>jr</H2>
 <CODE>jr <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
@@ -251,7 +251,7 @@ processor is executing code. The jump may tell the processor to
 are now". That is why they are relative to the current
 position of where the processor is executing code. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="jp"></a><H2>jp</H2>
 <CODE>jp <I>addr1</I></CODE> - Jumps to <I>addr1</I> and starts
@@ -266,7 +266,7 @@ calls because they require the exact, absolute, position of the
 label in the memory distance wise from zero, or the beginning of
 the memory at $0000. Can be used with
 <A HREF="flag.htm">flags and conditions</A>.
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <A NAME="ret"></A><H2>ret</H2>
 <CODE>ret</CODE> - Used with <CODE>call <I>addr1</I></CODE>.

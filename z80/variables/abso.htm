@@ -91,7 +91,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD>appropriate RAM page loaded<BR>
 		<CODE>hl</CODE> - address on that page according to <CODE>ahl</CODE>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Conv_ahl"></A><H3>_Conv_ahl=$4633</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -105,7 +105,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>a</CODE> - RAM page to load<BR>
 		<CODE>hl</CODE> - address on that page according to <CODE>ahl</CODE>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Set_ABS_Src_Addr"></A><H3>_Set_ABS_Src_Addr=$4647</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -118,7 +118,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> is stored in _Abs_Src_Addr for use with block
 		copies
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Set_ABS_Dest_Addr"></A><H3>_Set_ABS_Dest_Addr=$5285</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -132,7 +132,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> is stored in <CODE>_Abs_Dest_Addr</CODE> for use
 		with block copies
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Set_MM_Num_Bytes"></A><H3>_Set_MM_Num_Bytes=$464f</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -145,7 +145,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> is stored in <CODE>_MM_Num_Bytes</CODE>
 		for use with block copies
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_MM_Ldir"></A><H3>_MM_Ldir=$52ed</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -165,7 +165,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD><CODE>Abs_Src_Addr</CODE>, <CODE>Abs_Dest_Addr</CODE>,
 		<CODE>mm_num_bytes</CODE> - modified just like
 		<CODE>ldir</CODE> does in 16 bit block copies
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_ABS_Mov10toOP1_NoSet"></A><H3>_ABS_Mov10toOP1_NoSet=$5239</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -179,7 +179,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD>OP1 - a copy of the 10 bytes starting at
 		<CODE>Abs_Src_Addr</CODE>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_ABS_Mov10B"></A><H3>_ABS_Mov10B=$5249</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -193,7 +193,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>Abs_Dest_Addr</CODE> - ABS pointer of where 10
 		bytes copied to
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_ABS_MovFrOP1"></A><H3>_ABS_MovFrOP1=$5245</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -207,7 +207,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD><CODE>a</CODE> and <CODE>hl</CODE>
 	<TR>	<TD CLASS=header>Output
 		<TD>ABS pointer in <CODE>_Abs_Dest_Addr</CODE> where copied to
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_DataSize"></A><H3>_DataSize=$477f</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -223,7 +223,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD><CODE>c</CODE> - <A HREF="vari.htm#type">variable type</A><BR>
 		<CODE>de</CODE> - size of variable's data<BR>
 		carry cleared
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Inc_Ptr_ahl"></A><H3>_Inc_Ptr_ahl=$4637</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -236,7 +236,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>a</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> + 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 <A NAME="_Inc_Ptr_ade"></A><H3>_Inc_Ptr_ade=$45ef</H3>
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header> WIDTH="15%">Description
@@ -248,7 +248,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>a</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ade</CODE>code> = <CODE>ade</CODE> + 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Inc_Ptr_bde"></A><H3>_Inc_Ptr_bde=$463F</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -261,7 +261,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>b</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>bde</CODE> = <CODE>bde</CODE> + 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Dec_Ptr_ahl"></A><H3>_Dec_Ptr_ahl=$463b</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -274,7 +274,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>a</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> = <CODE>ahl</CODE> - 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Dec_Ptr_ade"></A><H3>_Dec_Ptr_ade=$46bf</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -287,7 +287,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>a</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ade</CODE> = <CODE>ade</CODE> - 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Dec_Ptr_bde"></A><H3>_Dec_Ptr_bde=$4643</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -300,7 +300,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>a</CODE>)
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ade</CODE> = <CODE>ade</CODE> - 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_GetB_AHL"></A><H3>_GetB_AHL=$46c3</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -315,7 +315,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<CODE>hl</CODE> - converted <CODE>ahl</CODE> to 16 bit address
 		<CODE>hl</CODE> and correct <A HREF="../intermediate/memo.htm">RAM
 		page swapped</A>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_RAM_Page_1"></A><H3>_RAM_Page_1=$47e3</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -327,7 +327,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD>none
 	<TR>	<TD CLASS=header>Output
 		<TD>RAM Page 1 <A HREF="../intermediate/memo.htm">swapped in</A>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_RAM_Page_7"></A><H3>_RAM_Page_7=$47f3</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -339,7 +339,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD>none
 	<TR>	<TD CLASS=header>Output
 		<TD>RAM Page 7 <A HREF="../intermediate/memo.htm">swapped in</A>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_WriteB_Inc_ahl"></A><H3>_WriteB_Inc_ahl=$5567</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -354,7 +354,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>c</CODE> is stored at <CODE>ahl</CODE><BR>
 		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 1
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Cp_ahl_bde"></A><H3>_Cp_ahl_bde=$46c7</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -368,7 +368,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 		<TD>none
 	<TR>	<TD CLASS=header>Output
 		<TD><A HREF="../beginner/flag.htm">Flags</A> set accordingly
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Ex_ahl_bde"></A><H3>_Ex_ahl_bde=$45f3</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -384,7 +384,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>ahl</CODE> now is <CODE>bde</CODE><BR>
 		<CODE>bde</CODE> is now <CODE>ahl</CODE>
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Get_Word_ahl"></A><H3>_Get_Word_ahl=$521d</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -397,7 +397,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>de</CODE> = (<CODE>ahl</CODE>)<BR>
 		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_Set_Word_ahl"></A><H3>_Set_Word_ahl=$5221</H3>
 <TABLE ALIGN=CENTER class="function">
@@ -410,7 +410,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD>(<CODE>ahl</CODE>) = <CODE>de</CODE><BR>
 		<CODE>ahl</CODE> = <CODE>ahl</CODE> + 2
-</TABLE><BR><P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+</TABLE><BR>
 
 <A NAME="_ahl_Plus_2_Pg3"></A><H3>_ahl_Plus_2_Pg3=$4c3f</H3>
 <TABLE ALIGN=CENTER class=function>

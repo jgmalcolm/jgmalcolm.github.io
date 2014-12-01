@@ -35,7 +35,7 @@ the second disadvantage is usually not a problem either. But sometimes
 you want stuff to go on in the background (a timer for example) and then
 disabling interrupts is not a good way to prevent the down-left bug.
 
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <H2><A NAME=set></A>Setting Flags</H2>
 
@@ -51,7 +51,7 @@ then method 3 is best suited for it (<A HREF=#crea>Your Handler</A>). If you use
 you <I>must</I> reset the flag with <CODE>res 2,(iy+$12)</CODE> before the program terminates
 - else the calc <A HREF="../beginner/ohno.htm">freezes</A>.
 
-<P ALIGN=CENTER><A HREF=#TOP><IMG SRC="../images/top.gif"></A>
+
 
 <H2><A NAME=crea></A>Creating Your Own Interrupt Handler</H2>
 
