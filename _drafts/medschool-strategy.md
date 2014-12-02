@@ -29,18 +29,18 @@ layout: post
       * if you write, judge your productivity the end of the day by how many
         sheets of paper you produced
    * aim for about 1:1 ratio of hour of lecture to hour of study
-   * dont spend all your time (passively) reading texts/slides
+   * don't spend all your time (passively) reading texts/slides
      https://en.wikipedia.org/wiki/Testing_effect
-* at the end of every MCQ test, before you submit, write down 3 things youre
-  going to immediately lookup that afternoon.  Go study those three things.
+* at the end of every MCQ test, before you submit, write down 3 things you're
+  going to immediately look up that afternoon.  Go study those three things.
 * review your test notice what type of mistakes you make (see SOM study
-  booklet), note items that are repeated -- youll see them again
-   * write down 3-5 things youre going to immediately look up
+  booklet), note items that are repeated -- you'll see them again
+   * write down 3-5 things you're going to immediately look up
 
 * If something is covered in lecture that has little or no FA coverage, then
-  dont spend much time on it.  Look for one or two testable nuggets and just
+  don't spend much time on it.  Look for one or two testable nuggets and just
   passively listen to rest of lecture.  Yes, this may be on exam, but if so
-  then itll likely be a very clear question.  Professors will know stuff is
+  then it'll likely be a very clear question.  Professors will know stuff is
   not part of STEP and so tend to make these lectures very simple straight
   recall type questions.
 
@@ -54,17 +54,17 @@ layout: post
      covered), then First Aid (to reinforce whats important for STEP), then
      other 3rd party (to get different/better explanations).  Many students
      get caught up in 3rd party materials and forget to cover Emory-specific
-     material that shows up on this specific module exam, but wasnt covered in
+     material that shows up on this specific module exam, but wasn't covered in
      3rd party simply because its covered in other chapters of 3rd party
      materials (ie. would show up on later modules).
    * Conversely, only using external resources (FA, Pathoma, the
      module-recommended text) will only get you 80-90% of the material for
-     Emorys MCQs and SA.  Every module will have lectures and questions that
-     arent even mentioned in the standard external resources.
+     Emory's MCQs and SA.  Every module will have lectures and questions that
+     aren't even mentioned in the standard external resources.
 
 * do the Qbank questions with First Aid open and annotate
-   * look up whatever you dont know
-   * dont add much extra information to FA, only annotate clarifying
+   * look up whatever you don't know
+   * don't add much extra information to FA, only annotate clarifying
      information
    * In the margin of your FA, put a dot next to material when you hit a
      question related to it.  Over time, you'll see what sections are high
@@ -74,12 +74,12 @@ layout: post
    * Its important to drive through QBanks efficiently.  Toward that end Print
      out the questions and mark it up; its easier than futzing with questions
      on your laptop and lets you push aside your computer to focus.  The
-     second time you see a particular concept you dont know, pause to research
+     second time you see a particular concept you don't know, pause to research
      it before answering and continuing; its a waste to guess repeatedly.
      Repeated concepts are important, so good to stop while its fresh.  But
-     come back quick; dont get distracted.
-   * David Young: "More than anything, anki/FC help us avoid the number one
-     error people make when studying: reading something you dont know but
+     come back quick; don't get distracted.
+   * David Young: "More than anything, Anki/FC help us avoid the number one
+     error people make when studying: reading something you don't know but
      believing you really do. The open ended questions in FC will see if you
      really do remember the 11 criteria for SLE or the findings for beta
      thalassemia minor, whereas you may review that topic in FA and feel like
@@ -109,10 +109,10 @@ layout: post
 
 
 * Overall study routine recommended by Emory
-   * preread to get a framework in mind before the lecture
+   * pre-read to get a framework in mind before the lecture
    * ratio of 1:1 for hour of lecture to hour of review
    * active review  making your own study guide (not just reading passively)
-      * within 48hrs of the lecture, dont fall behind
+      * within 48hrs of the lecture, don't fall behind
    * weekend: review the week, consolidate notes, qbanks
 
 * Purchase schedule: Emory takes STEP 1 before 1 Feb (typically last half of Jan)
@@ -130,7 +130,7 @@ Studying
    * follicular adenoma (encapsulated) vs. follicular carcinoma (capsular
      breech)
    * 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
-   * Liddles Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
+   * Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
    * Emphysema (PaCO2 and PaO2 are normal until later in the disease course)
      vs. chronic bronchitis (PaCO2 and PaO2 are abnormal earlier on)
    * Emphysema (cor pulmonale is low) vs. chronic bronchitis (cor pulmonale
@@ -151,8 +151,8 @@ structure of globin) Test Taking
 * Beware of lab values just outside of normal.  It indicates the question is
   not a slam dunk diagnosis, and that there is some variation or mixed
   situation.  While to you the questions may often seem ambiguous, examiners
-  try to create unambiguous questions so they dont get student complaints and
-  quibbling.  Borderline lab values invite quibbling.  See above: if Cushings
+  try to create unambiguous questions so they don't get student complaints and
+  quibbling.  Borderline lab values invite quibbling.  See above: if Cushing's
   then would likely have higher cortisol.
 * Go with less invasive diagnostic tests unless the question makes the
   diagnosis a slam dunk.
