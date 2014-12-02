@@ -297,12 +297,11 @@ your dedicated study period, you'll want to work through either of the
 following standard question banks.
 
 Until you get close to STEP1, **do questions in *Un-timed Tutor Mode***.  This
-allows you to take your time, look up things if you choose, and see the answer
-explanation immediately after each question.  When you get a few weeks out
-from STEP1, then you want to do timed tests to work in endurance and pacing.
-Several times I accidentally created blocks that were timed; Rx lets you
-delete them from the web interface, but you have to email Kaplan to delete
-these tests.
+allows you to take your time, look up things if you choose, and get immediate
+feedback.  When you get a few weeks out from STEP1, then you want to do timed
+tests to work in endurance and pacing.  Several times I accidentally created
+blocks that were timed; Rx lets you delete them from the web interface, but
+you have to email Kaplan to delete these tests.
 
 
 ## [USMLE-Rx Qmax](https://www.usmle-rx.com/content/step-1-qmax)
