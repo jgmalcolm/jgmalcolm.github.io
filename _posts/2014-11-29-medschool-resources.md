@@ -325,10 +325,12 @@ you have to email Kaplan to delete these tests.
 ## Comparing Kaplan and USMLE-Rx
 
 * It's hard to say which is better
-  * Kaplan has very thorough and more integrative explanations with links
-    [medEssentials for USMLE STEP1][medEssentials], but can be too detailed.
-    If you get good at Kaplan, you'll probably know the material nuances
-    better than with Rx.
+  * Kaplan has thorough explanations with links to
+    [medEssentials for USMLE STEP1][medEssentials], occasional videos, and
+    better explanations of why answers were wrong relative to the correct
+    answer (Rx tends to just state facts).  Kaplan can seem too picky, but if
+    you get good at Kaplan, you'll probably know the material nuances better
+    than with Rx.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA.
   * Kaplan provides better analysis and review of each test: a table shows how
