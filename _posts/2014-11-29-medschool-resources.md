@@ -328,9 +328,11 @@ you have to email Kaplan to delete these tests.
   * Kaplan has thorough explanations with links to
     [medEssentials for USMLE STEP1][medEssentials], occasional videos, and
     better explanations of why answers were wrong relative to the correct
-    answer (Rx tends to just state facts).  Kaplan can seem too picky, but if
-    you get good at Kaplan, you'll probably know the material nuances better
-    than with Rx.
+    answer (Rx tends to just state facts).  Kaplan often seems too pedantic,
+    uses descriptive terms not in First Aid, and uses images of
+    histology/culture that look very different from First Aid; but if you get
+    good at Kaplan, you'll probably know the material nuances better than with
+    Rx.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA.
   * Kaplan provides better analysis and review of each test: a table shows how
