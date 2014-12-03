@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tactical Test-Taking Skills"
+title: "Tactical Test-Taking Strategies"
 description: "Lessons learned from taking thousands of multiple choice questions."
 tags: medicine, studying
 ---
@@ -151,7 +151,7 @@ context.  Here are a few classic tip-offs.
    * 1-2 yo boy - think x-linked
 * obese - DM2
 * occupation, home environment - environmental exposure
-   * farmer - moldy hay - hypersensitivity
+   * farmer, veterinarian - animal exposure, hypersensitivity to moldy hay
    * construction worker, old apartment, painter - lead poisoning
 * exotic environment
    * an emergency department in the third world - think of old drugs not used anymore in the US
