@@ -198,6 +198,7 @@ depend on your weaknesses and learning style.
   * Each module, create a playlist and add videos as you come across them.
   [Here are ones I collected](http://www.youtube.com/channel/UCJJNCT5F3nhtAT0vWvdGVJA/playlists).
   * Browse and subscribe to various channels and playlists out there:
+    * [Armando Hasudungan](https://www.youtube.com/channel/UCesNt4_Z-Pm41RzpAClfVcg)
     * [DoctorNajeeb](https://www.youtube.com/user/DoctorNajeeb/playlists)
     * [Antibiotics](https://www.youtube.com/playlist?list=PLYojB5NEEakWCoWLnx0F1OxY6PXVaBkVT)
     * [Human Anatomy Dissections](https://www.youtube.com/playlist?list=PL6F5A027100A37163)
