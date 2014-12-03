@@ -423,8 +423,9 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   exist
 * Some prepopulated [decks](https://ankiweb.net/shared/info/3641619405)
   [already](https://ankiweb.net/shared/info/1656465381)
-  [exist](https://ankiweb.net/shared/info/2445310057) for the "Rapid Review"
-  tables in First Aid
+  [exist](https://ankiweb.net/shared/info/2445310057) for the
+  ["Rapid Review" tables](https://ankiweb.net/shared/info/1014441642) in First
+  Aid
 * Lacks good methods for sharing/updating decks with classmates
 * Better graphs than Firecracker to chart progress
 * Note bene: Everyone I know who used this eventually abandoned because of
