@@ -236,3 +236,12 @@ I often fall into the trap of writing everything down furiously so I can study
 it later.  The truth is, you'll always be busy and never return to sort out
 the material.  This is a form of autopilot, passive learning.  Always think
 critically about information instead of just passively transcribing.
+
+
+## How badly do you want it?
+
+All the tactics in the world are not going to work if you don't have the
+motivation to push forward.  Strong motivation energizes and fully engages
+your senses.  Step back and think about what you want in a career and what
+you're willing to trade for it.  Do you want that subspecialty residency so
+much that you're willing to prioritize weekend study over social outings?
