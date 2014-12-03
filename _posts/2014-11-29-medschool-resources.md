@@ -152,6 +152,8 @@ depend on your weaknesses and learning style.
 * Focused only on bacteria (as of Fall 2014)
 * [record the audio][record audio] to listen while you commute, exercise, or
   do chores
+* After the "required" First Aid, Pathoma, and UWorld, I would say that
+  **Sketchy Micro was the best money I spent** on learning materials.
 
 
 ### [Picmonic](http://picmonic.com)  {#picmonic}
