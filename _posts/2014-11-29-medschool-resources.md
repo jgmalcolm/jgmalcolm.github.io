@@ -424,6 +424,10 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 * Good for hot spot memorization of tables/charts (eg. drugs, cytokines,
   vitamins) but not recommended for general use since pre-populated resources
   exist
+* Excellent advice on how to make the best cards:
+  [Anki: 10,000 cards later](http://rs.io/2014/04/05/anki-10000-cards-later.html)
+  and
+  [20 Rules of Formulating Knowledge](http://www.supermemo.com/articles/20rules.htm).
 * Some prepopulated [decks](https://ankiweb.net/shared/info/3641619405)
   [already](https://ankiweb.net/shared/info/1656465381)
   [exist](https://ankiweb.net/shared/info/2445310057) for the
