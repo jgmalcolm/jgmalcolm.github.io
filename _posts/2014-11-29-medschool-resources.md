@@ -106,6 +106,10 @@ depend on your weaknesses and learning style.
   Firecracker is better overall for medical students because it is
   prepopulated saving you hundreds of hours of reinventing the wheel by making
   your own cards or hassling with those from others.
+* A big downside to Firecracker is the **lack of figures and images**:
+  everything is text-based.  Any figures they have are picked off random
+  websites.  This makes it especially hard when it comes to biochemical
+  pathways or anything in First Aid with a diagram.
 * I probably spent half of my pre-boards time in medical school learning with
   Firecracker. Read more on [how I use Firecracker][firecracker use].
 * The Firecracker blog has a lot of (biased?)
