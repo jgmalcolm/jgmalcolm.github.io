@@ -509,6 +509,7 @@ studying and productivity in med school:
 
 ### General study methods
 
+* [25 Things Skilled Learners Do Differently](http://www.lexisnexis.com/lextalk/industry-trends/f/5/t/1343.aspx)
 * [Cal Newport](http://calnewport.com/blog)
 * [Scott Young](http://www.scottyoung.com):
   [How to ace your finals](http://www.scotthyoung.com/blog/2007/03/25/how-to-ace-your-finals-without-studying),
