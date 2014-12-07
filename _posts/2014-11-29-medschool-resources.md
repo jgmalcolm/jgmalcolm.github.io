@@ -333,16 +333,18 @@ you have to email Kaplan to delete these tests.
 ## Comparing Kaplan and USMLE-Rx
 
 * It's hard to say which is better
-  * Kaplan has thorough explanations with links to
+  * Kaplan has the best explanations.  They tend to teach broad lessons about
+    the question topic, along with details and links to
     [medEssentials for USMLE STEP1][medEssentials], occasional videos, and
     better explanations of why answers were wrong relative to the correct
-    answer (Rx tends to just state facts).  Kaplan often seems too pedantic,
-    uses descriptive terms not in First Aid, and uses images of
-    histology/culture that look very different from First Aid; but if you get
-    good at Kaplan, you'll probably know the material nuances better than with
-    Rx.
+    answer (Rx tends to just state facts).
+  * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
+    uses images of histology/culture that look very different from First Aid;
+    but if you get good at Kaplan, you'll probably know the material nuances
+    better than with Rx.
   * Rx ties directly into FA (the explanations literally show you the relevant
-    FA pages).  Use it as a way to learn FA.
+    FA pages).  Use it as a way to learn FA, but it's lacking those broad
+    lessons that Kaplan explanations often emphasize.
   * Kaplan provides better analysis and review of each test: a table shows how
     long you spent on each question, if you changed your answer, jump to the
     explanation.
