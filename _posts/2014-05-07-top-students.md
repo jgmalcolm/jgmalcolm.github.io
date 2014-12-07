@@ -150,14 +150,23 @@ relaxed when I get home.  I make work/school a distraction-free environment,
 and home is my personal space.  Having strong barriers defining zones of study
 and relaxation helps me [avoid burnout][burnout].
 
+  [burnout]: http://www.scotthyoung.com/blog/2014/04/01/study-hard-no-burnout
+
+
+## Manage Your Energy
+
+All the tips in the world won't help you if you don't have the energy to
+execute.  I often find that I know what the best way to study is, but because
+I don't want to put in the energy, I go with an inferior study method because
+it's easier.
+
 Get good [sleep].  Figure out personally how much sleep you need to
 consistently feel 100%.  I'm not impressed when I hear people brag about
 running on X hours of sleep.  I've done that plenty myself, and I've found my
-mood and energy sub par for a day or two after.  In other words, a few extra
-hours of cramming can often affect an entire day or two after.
+mood and energy sub par for a day or two after.  A few extra hours of cramming
+often affects an entire day or two after.
 
-[sleep]: http://www.super-memory.com/articles/sleep.htm
-[burnout]: http://www.scotthyoung.com/blog/2014/04/01/study-hard-no-burnout
+  [sleep]: http://www.super-memory.com/articles/sleep.htm
 
 
 
