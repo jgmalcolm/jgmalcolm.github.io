@@ -34,6 +34,11 @@ student uses for the boards.
   into this so you're not spread among five review books.
 * You'll definitely want a hard copy to annotate, but also a PDF version for
   text search
+* Consider cutting off the binding so you can put it into a 3-ring binder for
+  protection and to easily lay flat.  For each module in school, pull out only
+  the relevant section.  I did this at Staples for $3, but be sure to ask them
+  to slice very close to the binding, otherwise you lose some of the inner
+  marginal text.
 
 ### [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
 
