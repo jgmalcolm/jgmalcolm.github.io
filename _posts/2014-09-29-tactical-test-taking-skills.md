@@ -171,6 +171,14 @@ only answer choice that uses "left".
 > * Oxygen curve is shifted to the right because of C.
 > * Oxygen curve is shifted to the right because of D.
 
+Boards questions almost always give you enough information to make a
+diagnosis, and rarely is a patient without risk.  So avoid those answer
+choices:
+
+> * The patient is at risk because of X.
+> * <strike>The patient has no risk because of Y.</strike>
+> * <strike>Not enough information is provided to make a diagnosis.</strike>
+
 ## A single phrase can rule out an answer choice
 
 The question prompt may mention an ancillary test that was performed whose
