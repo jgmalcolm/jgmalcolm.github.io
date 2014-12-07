@@ -53,10 +53,11 @@ student uses for the boards.
   keep coming back to these videos during your modules and especially in the
   run up to STEP1.
 * Interesting to that
-  [Google Trends](//google.com/trends/explore#q=pathoma%2C%20Goljan) shows
-  Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <img
+  [Google Trends](http://google.com/trends/explore#q=pathoma%2C%20Goljan)
+  shows Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <a
+  href="http://google.com/trends/explore#q=pathoma%2C%20Goljan"><img
   src="/images/goljan-pathoma-trend.png" class="thumb" alt="Pathoma (blue) is
-  overtaking Goljan (red)">
+  overtaking Goljan (red)"></a>
 * [Record audio] so you can listen while you commute or exercise
 * Combine with [Goljan's lectures][goljan] to get multiple views of key
   topics.  Sometimes one explains it better than the other.
