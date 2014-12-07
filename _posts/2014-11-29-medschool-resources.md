@@ -342,6 +342,10 @@ you have to email Kaplan to delete these tests.
     uses images of histology/culture that look very different from First Aid;
     but if you get good at Kaplan, you'll probably know the material nuances
     better than with Rx.
+  * Kaplan regularly uses second-order questions, and some are even
+    third-order.  Rarely will you find a straight recall question in Kaplan
+    (first-order).  In contrast, Rx is full of first- and second-order
+    questions, but no third-order.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA, but it's lacking those broad
     lessons that Kaplan explanations often emphasize.
