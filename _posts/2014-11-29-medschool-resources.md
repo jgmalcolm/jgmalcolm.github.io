@@ -68,6 +68,9 @@ student uses for the boards.
   and then a week later at 1.3x or 1.7x to review, and finally once more
   before the exam.  Whenever I get tired of doing questions, popping up a
   Pathoma video is an easy step down that still keeps me productive.
+* In your 1x pass, underline in your book the things Sattar emphasizes in his
+  slides.  If he draws a diagram, draw it in your book's margin.  For
+  subsequent passes at 1.3x and 1.7x, just sit back and absorb the slides.
 
 ### [U-World](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
 
