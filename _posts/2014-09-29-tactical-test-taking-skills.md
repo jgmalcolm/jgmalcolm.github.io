@@ -311,7 +311,7 @@ to the answers looking for what you already have in mind.  Test-writers know
 this too and can create a dead obvious question except for one small detail
 that totally changes.  And they know exactly the trap answer to put for those
 zipping through.  Make sure you’ve taken into consideration every single
-symptom.
+symptom and avoid the knee jerk choice.
 
 
 > Thanks to my classmates Ming Lee, [Erik Reinertsen](//erikreinertsen.com),
