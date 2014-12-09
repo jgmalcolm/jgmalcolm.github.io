@@ -314,8 +314,18 @@ through questions, sometimes a question will seem so easy that you jump right
 to the answers looking for what you already have in mind.  Test-writers know
 this too and can create a dead obvious question except for one small detail
 that totally changes.  And they know exactly the trap answer to put for those
-zipping through.  Make sure you’ve taken into consideration every single
-symptom and avoid the knee jerk choice.
+zipping through.
+
+Make sure you’ve taken into consideration every single symptom and avoid the
+knee jerk choice.  The first sentence here sounds like lupus, but reading the
+entire question guides us to dermatomyositis.
+
+> Patient presents with malar rash and signs of chronic inflammation and a
+> positive ANA ...  Patient also complains of **proximal muscle weakness**.
+> The ANA shows anti-Jo-1 antibody.
+>
+> * <strike>Lupus</strike>
+> * **Dermatomyositis**
 
 
 > Thanks to my classmates Ming Lee, [Erik Reinertsen](//erikreinertsen.com),
