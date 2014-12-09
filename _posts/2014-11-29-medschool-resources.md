@@ -206,7 +206,7 @@ depend on your weaknesses and learning style.
   Sketchy Micro does a better job at finding more intuitive hooks.
 
 
-### Learn From Videos
+### Learn From Videos {#videos}
 
 * YouTube is a treasure trove of focused topical videos.
   * Each module, create a playlist and add videos as you come across them.
@@ -488,6 +488,7 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   probably best to stick with Netter.
 * [Netter Flashcards] are the best way to learn.  For each module, put all the
   relevant cards on the ring and flip through those as you can.
+* [Videos]{#videos} are also great for learning anatomy
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
