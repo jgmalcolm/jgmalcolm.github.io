@@ -54,6 +54,10 @@ The NBME self assessments do not allow you to review individual answers.
 These are still good uses of time because you practice your technique against
 the real benchmark and you do get an idea of your weak subjects.
 
+Doing more questions can also perpetuate bad habits.  If you stop improving or
+regress in performance, it's a sign you've settled into some bad habits.
+Investigate why you're choosing wrong answers to see a pattern emerges.
+
 
 
 ## The first and last sentences
