@@ -486,9 +486,10 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 * [Netter] is the gold standard and has all the classic diagrams you'll see in
   lectures, eg. cervical plexus.  [Atlas of Anatomy 2e] is also great, but
   probably best to stick with Netter.
-* To learn anatomy, skip anatomy lectures and drill with [Netter Flashcards]
-  and [online videos](#videos).  For each exam, put all the relevant cards on
-  the ring and flip through those as you can.
+* To learn anatomy, skip anatomy lectures.  They go too fast to actually
+  learn.  Instead drill with [Netter Flashcards] and [online videos](#videos)
+  so you can pause and memorize as needed.  For each exam, put all the
+  relevant cards on the ring and flip through those as you can.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
