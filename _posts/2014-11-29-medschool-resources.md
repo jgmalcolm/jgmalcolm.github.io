@@ -347,9 +347,9 @@ you have to email Kaplan to delete these tests.
     topic, including details and links to
     [medEssentials for USMLE STEP1][medEssentials], occasional videos, and
     better explanations of why answers were wrong relative to the correct
-    answer.  Kaplan also takes the opportunity to review a larger portion of
-    the relevant physiology.  Rx tends to just state facts relevant to the
-    immediate question.
+    answer.  Best of all, Kaplan often takes the opportunity to review a
+    larger portion of the relevant pathophysiology.  Rx tends to just state
+    facts relevant to the immediate question.
   * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
     uses images of histology/culture that look very different from First Aid;
     but if you get good at Kaplan, you'll probably know the material nuances
