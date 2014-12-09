@@ -341,8 +341,8 @@ you have to email Kaplan to delete these tests.
 
 ## Comparing Kaplan and USMLE-Rx
 
-* **Kaplan has the best explanations while Rx is more straight forward for
-  learning First Aid.**
+* **Kaplan has the best explanations. Rx is more straight forward for learning
+  First Aid.**
   * Kaplan's explanations tend to teach broad lessons about the question
     topic, including details and links to
     [medEssentials for USMLE STEP1][medEssentials], occasional videos, and
@@ -353,7 +353,8 @@ you have to email Kaplan to delete these tests.
   * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
     uses images of histology/culture that look very different from First Aid;
     but if you get good at Kaplan, you'll probably know the material nuances
-    better than with Rx.
+    better than with Rx.  I found my Kaplan scores slightly lower than my Rx
+    scores, but I always felt like I knew the material better after Kaplan.
   * Kaplan regularly uses second-order questions, and some are even
     third-order.  Rarely will you find a straight recall question in Kaplan
     (first-order).  In contrast, Rx is full of first- and second-order
@@ -362,15 +363,16 @@ you have to email Kaplan to delete these tests.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA, but it's lacking those broad
     lessons that Kaplan explanations often emphasize.
-  * Kaplan provides better analysis and review of each test: a table shows how
-    long you spent on each question, if you changed your answer, jump to the
-    explanation.
-* User interface: Rx is a clear winner
-  * Rx has an excellent, smooth web interface (HTML), poor iOS app
-  * Kaplan has a terrible interface (Flash) and even worse iOS app
+  * Both provide about the same level of post-test analysis, but Kaplan shows
+    you a few extra columns indicating time spent and which answer you
+    switched.
+* **Rx has a better user interface.**
+  * Rx is a clear winner here: smooth web interface (HTML), but poor iOS app.
+  * Kaplan has a terrible interface (Flash) and even worse iOS app.
 
 Ultimately, I ended up using both qbanks a lot, and I found it great to see
-information from multiple perspectives.
+information from multiple perspectives.  Whenever pressed for time, I used the
+Kaplan bank to cover more material.
 
 [medEssentials]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=medessentials%20for%20usmle%20step%201&linkCode=ur2&tag=jgmalcolm-20&url=search-alias%3Dstripbooks&linkId=FQNEWPBM3VIQJQ2U
 
