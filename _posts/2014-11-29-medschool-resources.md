@@ -353,10 +353,11 @@ you have to email Kaplan to delete these tests.
     larger portion of the relevant pathophysiology.  Rx tends to just state
     facts relevant to the immediate question.
   * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
-    uses images of histology/culture that look very different from First Aid;
-    but if you get good at Kaplan, you'll probably know the material nuances
-    better than with Rx.  I found my Kaplan scores slightly lower than my Rx
-    scores, but I always felt like I knew the material better after Kaplan.
+    uses images of histology/culture that look very different from First Aid.
+    **Kaplan is simply harder than Rx**, so if you get good at Kaplan, you'll
+    probably know the material nuances better than with Rx.  I found my Kaplan
+    scores slightly lower than my Rx scores, but **I always felt like I knew
+    the material better after Kaplan**.
   * Kaplan regularly uses second-order questions, and some are even
     third-order.  Rarely will you find a straight recall question in Kaplan
     (first-order).  In contrast, Rx is full of first- and second-order
