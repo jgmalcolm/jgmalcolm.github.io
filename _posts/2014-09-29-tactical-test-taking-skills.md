@@ -20,7 +20,9 @@ You should jump into doing questions [before you feel ready][retrieval].  If
 you wait until you feel ready, you’re too late.  Questions sharpen contrasts,
 a key part of learning to differentiate diseases and disorders.  Don’t wait
 until you’ve reviewed to start questions; consider the questions and working
-through the explanations as part of the learning process.
+through the explanations as part of the learning process.  There is only one
+score that matters: what you get on the exam.  Practice problem scores don't
+count for anything.  If you're learning, you're headed in the right direction.
 
 Reviewing and accumulating all the random facts is just part of studying for
 an exam; another big part is learning how to make sense of all those facts and
