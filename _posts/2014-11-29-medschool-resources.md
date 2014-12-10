@@ -388,7 +388,7 @@ Kaplan bank to cover more material.
   full length exam.
 * Consider buying a paper-based question bank because sometimes it's nice to
   study without your computer or outside on a sunny day.
-* I've found only a couple of questions duplicated in USMLE-Rx Qmax
+* I've found maybe 10% of these questions duplicated in USMLE-Rx Qmax
 * I sometimes use these as throwaway [pretest questions][pretesting] early on
   in a module to "prime" my brain for key concepts to be on the lookout for.
 * Much like USMLE-Rx, but great for when you want to put your computer aside
