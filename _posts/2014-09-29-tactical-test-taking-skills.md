@@ -22,7 +22,11 @@ a key part of learning to differentiate diseases and disorders.  Don’t wait
 until you’ve reviewed to start questions; consider the questions and working
 through the explanations as part of the learning process.  There is only one
 score that matters: what you get on the exam.  Practice problem scores don't
-count for anything.  If you're learning, you're headed in the right direction.
+count for anything.  In fact, you probably remember better after the small
+emotional jolt of getting the answer wrong.  I find that if I guess correctly,
+I'm relieved and may not pay as close attention to the explanation versus if I
+had gotten the answer wrong.  If you're learning, you're headed in the right
+direction.
 
 Reviewing and accumulating all the random facts is just part of studying for
 an exam; another big part is learning how to make sense of all those facts and
