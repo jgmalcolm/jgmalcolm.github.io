@@ -120,6 +120,16 @@ depend on your weaknesses and learning style.
   biochemical pathways or anything in First Aid with a diagram.  Think of all
   the figures First Aid has; Firecracker has none of those.  Any figures they
   have are picked off random websites, likely to avoid copyright fees.
+* While comprehensive, another downside of Firecracker is moderate quality,
+  relative to some of the more highly edited resources like First Aid, UWorld,
+  Kaplan, Rx, Goljan, etc.  Firecracker is written by senior students and
+  residents, and as such it uses inconsistent formatting and very often
+  includes extraneous detail.  I was often frustrated by what seemed like its
+  focus on pedantic details.  The *spaced repetition algorithm* is absolutely
+  the best strategy; however, the content of Firecracker needs improvement.
+  That said, Firecracker appears to be evolving and improving faster than any
+  other resources in this list.  They listen to customer feedback and daily
+  make edits and improvements.
 * I probably spent half of my pre-boards time in medical school learning with
   Firecracker. Read more on [how I use Firecracker][firecracker use].
 * The Firecracker blog has a lot of (biased?)
