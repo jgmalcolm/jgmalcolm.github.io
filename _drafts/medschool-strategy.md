@@ -261,3 +261,19 @@ much that you're willing to prioritize weekend study over social outings?
 ## Mind Maps
 
 http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no-one-is-telling-you
+
+
+
+## QBanks
+
+* Consider it part of learning process.
+  * Don't wait to review everything before diving in.
+  * Instead of reviewing, start with a small set of questions to get a
+    sampling of what's important.  Only after that should you consider
+    reviewing relevant topics.
+* Learn as you go through the
+* Your score on practice problems does not matter.  The only score that
+  matters is that of the real exam.  As you're going through practice
+  questions, the only important thing is that you're learning.
+* Consider doing more smaller blocks (vs few larger blocks), so you see your
+  performance on these blocks improve over time.
