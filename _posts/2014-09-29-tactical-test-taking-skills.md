@@ -61,8 +61,10 @@ These are still good uses of time because you practice your technique against
 the real benchmark and you do get an idea of your weak subjects.
 
 Doing more questions can also perpetuate bad habits.  If you stop improving or
-regress in performance, it's a sign you're developing sloppy habits.
-Investigate why you're choosing wrong answers to see a pattern emerges.
+regress in performance, it's a sign you're developing sloppy habits like
+[not reading the entire question](#read) or
+[not paying attention to every lab value mentioned](#lab-values). Investigate
+why you're choosing wrong answers to see a pattern emerges.
 
 
 
@@ -189,6 +191,8 @@ choices:
 > * <strike>The patient has no risk because of Y.</strike>
 > * <strike>Not enough information is provided to make a diagnosis.</strike>
 
+
+
 ## A single phrase can rule out an answer choice
 
 The question prompt may mention an ancillary test that was performed whose
@@ -202,11 +206,15 @@ only purpose is to rule out one specific answer choice.
 > * <strike>Autoimmune hemolysis</strike>
 > * D
 
-## Every abnormal lab value needs to be explained
+
+
+## Every abnormal lab value needs to be explained  {#lab-values}
 
 Your answer needs to account for every abnormal lab value given.  If there’s
 some seemingly completely unrelated lab value that’s wildly abnormal and you
 cannot explain it with your answer, then think harder about the other choices.
+
+
 
 ## Ruling out answers & guessing intelligently
 
@@ -313,7 +321,7 @@ avoid the situation where you've got 10 minutes left but 20 questions, and so
 you make sloppy mistakes on easy ones.
 
 
-## Read the entire question carefully.
+## Read the entire question carefully.  {#read}
 
 Your middle school teacher was right.  As you’ve gotten used to banging
 through questions, sometimes a question will seem so easy that you jump right
