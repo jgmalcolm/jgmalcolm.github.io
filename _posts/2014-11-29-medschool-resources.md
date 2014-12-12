@@ -184,7 +184,7 @@ depend on your weaknesses and learning style.
 
   [Picmonic]: #picmonic
 
-* hundreds of static [memory scenes] with audio guide
+* ~800 static [memory scenes] with audio tutorials
 * $250 for 12 months, or $25/month
 * I use this only for spot memorization (eg. pharm, vasculitides, micro,
   viral) rather than conceptual material (eg. pathophysiology)
@@ -205,7 +205,8 @@ depend on your weaknesses and learning style.
   Picmonic (P), but Picmonic covers more topics.
 * SM only bacteria, P contains everything (bacteria + viral + diseases + drugs + pathophys + more)
 * SM more intuitive scenes; Picmonic can be ridiculous and make no sense
-* for me, watching the SM scene getting drawn is more captivating; P uses static scenes
+* For me personally, watching the SM scene getting drawn is more captivating;
+  P uses static scenes
 * SM has simple but poorly designed navigation vs P which is overly
   complicated and buggy in a lot of cases
 * both lack completeness but they provide enough to learn the basics;
