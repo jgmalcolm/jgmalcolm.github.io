@@ -570,6 +570,8 @@ studying and productivity in med school:
 
 # Recording audio from video  {#record-audio}
 
+  [record audio]: #record-audio
+
 As I watched [Pathoma], [Sketchy Micro], and [Picmonic], I recorded the audio
 to mp3 so that I could listen to it while commuting, exercising, or doing
 chores.  While lacking the visual experience it's a way to eek out a little
