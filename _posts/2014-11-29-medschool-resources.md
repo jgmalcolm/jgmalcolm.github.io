@@ -149,7 +149,7 @@ depend on your weaknesses and learning style.
   [Lippincott's Microcards]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=lippincott%20microcards&linkCode=ur2&rh=i%3Aaps%2Ck%3Alippincott%20microcards&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=TQOYT6JCPI3PE5HR
 
 <div class="gallery"> <a href="/images/micro-flashcards.jpg"
-  data-gallery="wiki" title="Simple annotations to highlight tested facts.
+  data-gallery="microcards" title="Simple annotations to highlight tested facts.
   Think critically 'What is testable?' so you only emphasize a few things per
   card."> <img class="thumb" src="/images/micro-flashcards.jpg"></a></div>
 
