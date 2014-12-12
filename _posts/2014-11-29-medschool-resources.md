@@ -370,7 +370,8 @@ you have to email Kaplan to delete these tests.
     better explanations of why answers were wrong relative to the correct
     answer.  Best of all, Kaplan often takes the opportunity to review a
     larger portion of the relevant pathophysiology.  Rx tends to just state
-    facts relevant to the immediate question.
+    facts relevant to the immediate question.  Don't skip the Kaplan "ReKaps &
+    Refs"; they're golden.
   * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
     uses images of histology/culture that look very different from First Aid.
     **Kaplan is simply harder than Rx**, so if you get good at Kaplan, you'll
