@@ -211,10 +211,16 @@ depend on your weaknesses and learning style.
   complicated and buggy in a lot of cases
 * both lack completeness but they provide enough to learn the basics;
   [Lippincott's Microcards][microcards] and First Aid have everything
+
+  <div class="gallery"> <a href="/images/picmonic-vldl.png"
+  data-gallery="picmonic" title="Picmonic tries to literally spell out
+  everything:  <i>decrease VLDL synthesis</i> is a <i>tied up veiled lady bug devil
+  with liver</i>."> <img class="thumb"
+  src="/images/picmonic-vldl.png"></a></div>
 * One thing I dislike about Picmonic is how they try to literally spell out
-  everything, eg. *non-enveloped* viruses are shown with a catholic *nun
-  holding an envelope*, *mononucleosis* is a *monkey with nuclear face*.
-  Sketchy Micro does a better job at finding more intuitive hooks.
+  everything, eg. *decrease VLDL synthesis* is a *tied up veiled lady bug
+  devil with liver*.  Sketchy Micro does a better job at finding more
+  intuitive hooks.
 
 
 ### Learn From Videos {#videos}
