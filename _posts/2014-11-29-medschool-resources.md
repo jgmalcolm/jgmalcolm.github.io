@@ -220,7 +220,9 @@ depend on your weaknesses and learning style.
 * One thing I dislike about Picmonic is how they try to literally spell out
   everything, eg. *decrease VLDL synthesis* is a *tied up veiled lady bug
   devil with liver*.  Sketchy Micro does a better job at finding more
-  intuitive hooks.
+  intuitive hooks.  On the bright side, both are consistent in their visual
+  hooks, so you'll see the same fact represented using the same symbol across
+  multiple scenes.
 
 
 ### Learn From Videos {#videos}
