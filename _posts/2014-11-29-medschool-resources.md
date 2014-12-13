@@ -593,6 +593,13 @@ imagery.
 * Install [Soundflower](https://code.google.com/p/soundflower/downloads/list)
   to channel audio from your browser to Audacity
 
+For listening on the go, I recommend [Jarv NMotion Sport Wireless Bluetooth]
+headset.  They're inexpensive and it's super convenient to not have cords
+getting tangled while you're on the go.  For listening at your computer, I
+recommend [Audéo earbuds] - expensive, but excellent quality and snug fit.
+
+  [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
+  [Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
 ### Record settings
 
 * [Screenshots showing the process][wikihow]
