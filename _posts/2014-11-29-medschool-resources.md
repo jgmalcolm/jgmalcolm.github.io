@@ -204,7 +204,7 @@ depend on your weaknesses and learning style.
 * Sketchy Micro (SM) has higher quality and more intuitive explanations than
   Picmonic (P), but Picmonic covers more topics.
 * SM only bacteria, P contains everything (bacteria + viral + diseases + drugs + pathophys + more)
-* SM more intuitive scenes; Picmonic can be ridiculous and make no sense
+* SM more intuitive scenes; Picmonic can be ridiculous and make no sense, so consequently the imagery doesn't stick with me
 * For me personally, watching the SM scene getting drawn is more captivating;
   P uses static scenes
 * SM has simple but poorly designed navigation vs P which is overly
