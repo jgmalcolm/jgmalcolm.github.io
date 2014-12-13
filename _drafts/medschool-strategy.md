@@ -275,5 +275,7 @@ http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no
 * Your score on practice problems does not matter.  The only score that
   matters is that of the real exam.  As you're going through practice
   questions, the only important thing is that you're learning.
-* Consider doing more smaller blocks (vs few larger blocks), so you see your
-  performance on these blocks improve over time.
+* If you're getting worn down with full blocks of 46 questions, do smaller
+  blocks so you get more immediate feedback.  Similarly, if your worm down by
+  low performance, smaller blocks might show an actual score improvement for
+  some positive feedback to keep you motivated.
