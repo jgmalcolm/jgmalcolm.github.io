@@ -394,9 +394,11 @@ you have to email Kaplan to delete these tests.
   * Rx is a clear winner here: smooth web interface (HTML), but poor iOS app.
   * Kaplan has a terrible interface (Flash) and even worse iOS app.
 
-Ultimately, I ended up using both qbanks a lot, and I found it great to see
-information from multiple perspectives.  Whenever pressed for time, I used the
-Kaplan bank to cover more material.
+Ultimately, I ended up using both qbanks a lot because I found it great to see
+information from multiple perspectives.  I used Rx mostly during the school
+year to learn FA, and I used Kaplan mostly during the dedicated STEP1 study
+period before switching to UWorld.  Whenever pressed for time, I used the
+Kaplan bank to cover more material per question.
 
 [medEssentials]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=medessentials%20for%20usmle%20step%201&linkCode=ur2&tag=jgmalcolm-20&url=search-alias%3Dstripbooks&linkId=FQNEWPBM3VIQJQ2U
 
