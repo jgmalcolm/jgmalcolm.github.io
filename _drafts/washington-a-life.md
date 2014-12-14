@@ -15,9 +15,9 @@ Amazon:
 
 ## Talking Points
 
-* He was chronically in debt.  Since the war and presidency consumed his
-  attention, his farm crops were chronically unsuccessful and often ran at a
-  loss.  On top of that, he liked nice things: shopping sprees whenever he
+* Washington was chronically in debt.  With the war and presidency consuming
+  his attention, his farm crops were chronically unsuccessful and often ran at
+  a loss.  On top of that, he liked nice things: shopping sprees whenever he
   traveled, ordering the latest fashions from Europe.  After assuming the
   presidency, he ceased to purchase from Europe and instead focused one
   wearing "Made in the USA" clothing to show his support.
@@ -30,7 +30,7 @@ Amazon:
 
 
 
-## Great quotes
+## Great quotes and common themes
 
 
 ### Discipline
@@ -883,17 +883,24 @@ great questions.”"
 
 
 
-### Relationship with his mother
+### Relationship with his mother Mary Washington
 
-"There would always be a cool, quiet antagonism between Washington and his
-mother. The hypercritical mother produced a son who was overly sensitive to
-criticism and suffered from a lifelong need for approval. One suspects that,
-in dealing with this querulous woman, George became an overly controlled
-personality and learned to master his temper and curb his tongue."
+> "There would always be a cool, quiet antagonism between Washington and his
+> mother. The hypercritical mother produced a son who was overly sensitive to
+> criticism and suffered from a lifelong need for approval. One suspects that,
+> in dealing with this querulous woman, George became an overly controlled
+> personality and learned to master his temper and curb his tongue."
 
-"As best we can tell, Mary Ball Washington boycotted the wedding and,
-according to Martha's biographer Patricia Brady, may not have met the bride
-until the year after the wedding."
+In modern psych, Washington's mother had
+[histrionic personality disorder](http://psychcentral.com/disorders/histrionic-personality-disorder-symptoms/).
+Everything was always about her and she was always acting out to get the
+attention and sympathy of others.
+
+> "As best we can tell, Mary Ball Washington boycotted the wedding and,
+> according to Martha's biographer Patricia Brady, may not have met the bride
+> until the year after the wedding."
+
+Not happy that little George had another lady in his life.
 
 
 ### Random
@@ -907,17 +914,22 @@ occupation.  He noted:
 > "The Americans are a curious, original people. They know how to govern
 > themselves, but nobody else can govern them."
 
+
 > "Unable to tell a lie, Washington admitted in his diary that he had “cut
 > down the two cherry trees in the courtyard.”"
 
 That's where that saying comes from.  This was from his own courtyard once the
 Mount Vernon property was his; not when he was a child.
 
+
+
 > "In addition to his better-known title of Father of His Country, Washington
 > is also revered in certain circles as the Father of the American Mule."
 
 Washington always sought to experiment in better agricultural methods and more
 hardy livestock.
+
+
 
 On Thomas Jefferson's often duplicitous actions:
 
