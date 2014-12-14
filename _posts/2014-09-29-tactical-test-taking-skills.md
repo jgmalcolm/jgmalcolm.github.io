@@ -110,6 +110,10 @@ apparent.  Not all information is weighted equally, and you'll soon start to
 see which topics are most important.  Avoid cluttering your notes and only do
 this for things you got wrong.
 
+How do you know when you're read to move on to the next question?  Ask
+yourself: **If I saw this again, would I be able to rule out all the wrong
+answers?**
+
 
 
 ## Record a learning point for tough questions
