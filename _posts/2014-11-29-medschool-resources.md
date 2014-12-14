@@ -602,6 +602,7 @@ recommend [Audéo earbuds] - expensive, but excellent quality and snug fit.
 
   [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
   [Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
+
 ### Record settings
 
 * [Screenshots showing the process][wikihow]
