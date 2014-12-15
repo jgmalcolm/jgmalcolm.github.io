@@ -1,9 +1,16 @@
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1.title {
+  font-family: Volkhov, serif;
+  font-style: italic;
+  letter-spacing: -3px;
 }
 h1,h2,h3,h4 {
-  font-family: 'Covered By Your Grace', sans-serif;
   font-weight: bold;
+}
+code, pre {
+  font-family: 'Source Code Pro', monospace;
 }
 body {
     color: #3A4145;
