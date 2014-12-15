@@ -33,11 +33,17 @@ an exam; another big part is learning how to make sense of all those facts and
 how they relate, an experience that you only get from working through
 questions that put these random facts in context and draw contrasts.
 
-Wrestling with a question and the immediate emotional and intellectual
-feedback of seeing the answer helps solidify the knowledge.  There's some
-evidence that if you take a pretest before you've even been exposed to
-material, [you'll do better][failing] when it comes to the actual test
-afterward.  If your scores are not improving or you simply feel lost, you
+**Emotional reactions have a lasting effect on memory.** Wrestling with a
+question and the immediate emotional and intellectual feedback of seeing the
+answer helps solidify the knowledge.** It's important that you commit to an
+answer so you increase the emotional charge in the event you're wrong.  I
+often find myself wanting to look up a fact in the textbook before clicking
+submit, but that lessens the emotional payoff.  Better to commit to an answer,
+let the chips fall, and use that energy to understand the correct answer.
+
+There's some evidence that if you take a pretest before you've even been
+exposed to material, [you'll do better][failing] when it comes to the actual
+test afterward.  If your scores are not improving or you simply feel lost, you
 might not be ready.  Consider stepping back to review more.
 
  [retrieval]: http://www.sciencemag.org/content/331/6018/772.full
