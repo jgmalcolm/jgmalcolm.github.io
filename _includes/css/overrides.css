@@ -20,7 +20,6 @@ a {
 }
 
 .header-link {
-  font-size: 75%;
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in-out 0.1s;
   -moz-transition: opacity 0.2s ease-in-out 0.1s;

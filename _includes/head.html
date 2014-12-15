@@ -79,7 +79,7 @@ $(document).ready(function(){
     var $el = $(el);
     var id = $el.attr('id');
     if (id)
-      return $el.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("(link)"));
+      return $el.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
   });
 
   /* highlight broken markdown links */
