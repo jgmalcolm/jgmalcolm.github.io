@@ -40,6 +40,8 @@ answer so you increase the emotional charge in the event you're wrong.  I
 often find myself wanting to look up a fact in the textbook before clicking
 submit, but that lessens the emotional payoff.  Better to commit to an answer,
 let the chips fall, and use that energy to understand the correct answer.
+Don't worry about getting a low score from wrong answers: the only scores that
+matters is the real exam.
 
 There's some evidence that if you take a pretest before you've even been
 exposed to material, [you'll do better][failing] when it comes to the actual
