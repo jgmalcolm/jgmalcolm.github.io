@@ -56,10 +56,6 @@ habits.  But techniques will only tweak your performance.  There are no true
 shortcuts on these exams and these techniques only work when you already have
 the core knowledge.
 
-The NBME self assessments do not allow you to review individual answers.
-These are still good uses of time because you practice your technique against
-the real benchmark and you do get an idea of your weak subjects.
-
 Doing more questions can also perpetuate bad habits.  If you stop improving or
 regress in performance, it's a sign you're developing sloppy habits like
 [not reading the entire question](#read) or
