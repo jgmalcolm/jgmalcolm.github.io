@@ -155,7 +155,7 @@ depend on your weaknesses and learning style.
     <a href="/images/micro-flashcards.jpg" data-gallery="microcards" title="Simple annotations to highlight tested facts. Think critically 'What is testable?' so you only emphasize a few things per card.">
       <img src="/images/micro-flashcards.jpg">
     </a>
-    <figcaption>Testing captions</figcaption>
+    <figcaption>Simple annotations</figcaption>
   </figure>
 </div>
 
