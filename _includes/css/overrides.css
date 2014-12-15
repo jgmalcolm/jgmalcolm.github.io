@@ -37,13 +37,13 @@ h6:hover .header-link {
 
 
 .content img {
+  margin: 8px;
   border: #888 1px solid;
   border-radius: 3px;
   box-shadow: 3px 3px 3px #888;
 }
 
 figure {
-  margin: 0 8px;
 }
 .side {
   max-width: 40%;
