@@ -242,7 +242,7 @@ depend on your weaknesses and learning style.
     * [Antibiotics](https://www.youtube.com/playlist?list=PLYojB5NEEakWCoWLnx0F1OxY6PXVaBkVT)
   * These were especially useful for anatomy:
     * [Human Anatomy Dissections](https://www.youtube.com/playlist?list=PL6F5A027100A37163)
-    * [James Preddy @ U Touro Nevada](https://www.youtube.com/playlist?list=PLl7lnEqzBsF1dLkH5gEsKSSeU-McDj6Sj)
+    * [James Preddy @ U Touro Nevada](https://www.youtube.com/playlist?list=PLNdgkaw0fFGRODIAe2ZiGeIE216CgIRk0)
 * [Handwritten Tutorials](//handwrittentutorials.com)
   ([YouTube](https://www.youtube.com/user/harpinmartin)) - Excellent, simple
   videos of key topics in anatomy, biochem, immunology, neuroscience, pharm,
