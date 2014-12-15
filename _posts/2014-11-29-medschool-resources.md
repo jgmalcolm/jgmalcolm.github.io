@@ -44,6 +44,14 @@ student uses for the boards.
 
    [Pathoma]: #pathoma
 
+<figure class="side">
+    <a href="http://google.com/trends/explore#q=pathoma%2C%20Goljan">
+      <img src="/images/goljan-pathoma-trend.png"
+           alt="Pathoma (blue) is overtaking Goljan (red)">
+    </a>
+    <figcaption>Google Trends shows Pathoma (blue) overtaking Goljan's Rapid Review Pathology (red).</figcaption>
+  </figure>
+
 * Concise video lectures covering all relevant pathology along with a slim
   review text
   * About 1.5 - 2.5 hours of video per organ system
@@ -52,12 +60,6 @@ student uses for the boards.
 * Purchase the longest possible subscription (eg. 21 months) because you'll
   keep coming back to these videos during your modules and especially in the
   run up to STEP1.
-* Interesting to that
-  [Google Trends](http://google.com/trends/explore#q=pathoma%2C%20Goljan)
-  shows Pathoma (blue) overtaking Goljan's [Rapid Review Pathology] (red).  <a
-  href="http://google.com/trends/explore#q=pathoma%2C%20Goljan"><img
-  src="/images/goljan-pathoma-trend.png" class="thumb" alt="Pathoma (blue) is
-  overtaking Goljan (red)"></a>
 * [Record audio] so you can listen while you commute or exercise
 * Combine with [Goljan's lectures][goljan] to get multiple views of key
   topics.  Sometimes one explains it better than the other.
@@ -148,10 +150,14 @@ depend on your weaknesses and learning style.
 
   [Lippincott's Microcards]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=lippincott%20microcards&linkCode=ur2&rh=i%3Aaps%2Ck%3Alippincott%20microcards&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=TQOYT6JCPI3PE5HR
 
-<div class="gallery"> <a href="/images/micro-flashcards.jpg"
-  data-gallery="microcards" title="Simple annotations to highlight tested facts.
-  Think critically 'What is testable?' so you only emphasize a few things per
-  card."> <img class="thumb" src="/images/micro-flashcards.jpg"></a></div>
+<div class="gallery">
+  <figure class="side">
+    <a href="/images/micro-flashcards.jpg" data-gallery="microcards" title="Simple annotations to highlight tested facts. Think critically 'What is testable?' so you only emphasize a few things per card.">
+      <img class="thumb" src="/images/micro-flashcards.jpg">
+    </a>
+    <figcaption>Testing captions</figcaption>
+  </figure>
+</div>
 
 * Flashcards that show a vignette, key symptoms, diagnosis, treatment, and
   high yield facts.

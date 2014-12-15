@@ -37,20 +37,25 @@ h6:hover .header-link {
 
 
 .content img {
-    border: 1px solid #aaa;
-    border-radius: 3px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-    max-width: none;
-    margin: 10px -5%;
+  border: #888 1px solid;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px #888;
 }
-.content img.thumb {
-    margin: 5px 0 5px 5px;
-    max-width: 40%;
-    float: right;
+
+figure {
+  margin: 0 8px;
 }
-.content img.smaller {
-    max-width: 30%;
+.side {
+  max-width: 40%;
+  float: right;
 }
+figcaption {
+  font-size: 80%;
+  font-style: italic;
+  color: #444;
+}
+
+
 .content img.bookcover {
     margin: 15px;
     float: right;
