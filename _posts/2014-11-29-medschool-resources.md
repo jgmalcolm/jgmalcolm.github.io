@@ -45,12 +45,12 @@ student uses for the boards.
    [Pathoma]: #pathoma
 
 <figure class="thumb">
-    <a href="http://google.com/trends/explore#q=pathoma%2C%20Goljan">
-      <img src="/images/goljan-pathoma-trend.png"
-           alt="Pathoma (blue) is overtaking Goljan (red)">
-    </a>
-    <figcaption>Google Trends shows Pathoma (blue) overtaking Goljan's Rapid Review Pathology (red).</figcaption>
-  </figure>
+  <a href="http://google.com/trends/explore#q=pathoma%2C%20Goljan">
+    <img src="/images/goljan-pathoma-trend.png"
+         alt="Pathoma (blue) is overtaking Goljan (red)">
+  </a>
+  <figcaption>Google Trends shows Pathoma (blue) overtaking Goljan's Rapid Review Pathology (red).</figcaption>
+</figure>
 
 * Concise video lectures covering all relevant pathology along with a slim
   review text
@@ -153,7 +153,7 @@ depend on your weaknesses and learning style.
 <div class="gallery">
   <figure class="thumb">
     <a href="/images/micro-flashcards.jpg" data-gallery="microcards" title="Simple annotations to highlight tested facts. Think critically 'What is testable?' so you only emphasize a few things per card.">
-      <img class="thumb" src="/images/micro-flashcards.jpg">
+      <img src="/images/micro-flashcards.jpg">
     </a>
     <figcaption>Testing captions</figcaption>
   </figure>

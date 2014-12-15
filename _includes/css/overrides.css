@@ -44,12 +44,15 @@ h6:hover .header-link {
 }
 
 figure {
+  margin: 0;
+  padding: 0;
 }
 .thumb {
   max-width: 40%;
   float: right;
 }
 figcaption {
+  margin-left: 8px;
   font-size: 80%;
   font-style: italic;
   color: #444;
