@@ -278,11 +278,6 @@ tr.header {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
-.page,
-.post {
-  margin-bottom: 2em;
-}
-
 /* Related posts */
 .related {
   padding-top: 2rem;
