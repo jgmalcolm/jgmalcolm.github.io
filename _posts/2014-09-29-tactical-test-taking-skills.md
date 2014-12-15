@@ -151,7 +151,7 @@ thinking this is your actual performance until you’ve cut your teeth on some
 harder questions.
 
 
-## The first sentence contains a big clue.
+## The first sentence contains a big clue
 
 The first sentence contains probably the most important clue and sets the
 context.  Here are a few classic tip-offs.
