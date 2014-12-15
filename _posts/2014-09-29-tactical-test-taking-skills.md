@@ -106,7 +106,9 @@ seconds.  Classic histology or gram staining is "classic" for a reason.
 
 Always review explanations.  First for the correct answer, second for your
 wrong answer, but also for all the other answers.  Specifically look for how
-you could have ruled out each incorrect answer.
+you could have ruled out each incorrect answer.  The point of the question
+isn't just the information limited to the correct choice; the point of the
+question is the integration and contrasts between all answer choices.
 
 Find the topic in your notes, underline the tested fact, emphasize the most
 important physical or lab findings, etc.  Put a tally mark in the margin
