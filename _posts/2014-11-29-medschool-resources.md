@@ -44,7 +44,7 @@ student uses for the boards.
 
    [Pathoma]: #pathoma
 
-<figure class="side">
+<figure class="thumb">
     <a href="http://google.com/trends/explore#q=pathoma%2C%20Goljan">
       <img src="/images/goljan-pathoma-trend.png"
            alt="Pathoma (blue) is overtaking Goljan (red)">
@@ -151,7 +151,7 @@ depend on your weaknesses and learning style.
   [Lippincott's Microcards]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=lippincott%20microcards&linkCode=ur2&rh=i%3Aaps%2Ck%3Alippincott%20microcards&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=TQOYT6JCPI3PE5HR
 
 <div class="gallery">
-  <figure class="side">
+  <figure class="thumb">
     <a href="/images/micro-flashcards.jpg" data-gallery="microcards" title="Simple annotations to highlight tested facts. Think critically 'What is testable?' so you only emphasize a few things per card.">
       <img class="thumb" src="/images/micro-flashcards.jpg">
     </a>
