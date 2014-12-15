@@ -35,13 +35,14 @@ questions that put these random facts in context and draw contrasts.
 
 **Emotional reactions have a lasting effect on memory.** Wrestling with a
 question and the immediate emotional and intellectual feedback of seeing the
-answer helps solidify the knowledge.** It's important that you commit to an
-answer so you increase the emotional charge in the event you're wrong.  I
-often find myself wanting to look up a fact in the textbook before clicking
-submit, but that lessens the emotional payoff.  Better to commit to an answer,
-let the chips fall, and use that energy to understand the correct answer.
-Don't worry about getting a low score from wrong answers: the only scores that
-matters is the real exam.
+answer helps solidify the knowledge. It's important that you commit to an
+answer so you increase the emotional charge in the event you're wrong.  Giving
+up and guessing is less emotional; it's better to convince yourself of one
+answer, commit, and click submit.  I often find myself wanting to look up a
+fact in the textbook before clicking submit, but that lessens the emotional
+payoff.  Better to commit to an answer, let the chips fall, and use that
+energy to understand the correct answer.  Don't worry about getting a low
+score from wrong answers: the only scores that matters is the real exam.
 
 There's some evidence that if you take a pretest before you've even been
 exposed to material, [you'll do better][failing] when it comes to the actual
