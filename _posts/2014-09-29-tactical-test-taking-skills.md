@@ -15,6 +15,9 @@ apply to nearly all multiple choice exams.
 Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
 books and notes.
+[Question banks are the most effective and efficient study method][aamc].
+
+ [aamc]: https://members.aamc.org/eweb/upload/Are%20Questions%20the%20Answer%20PPT%2011-6-12%2010PM.pdf
 
 You should jump into doing questions [before you feel ready][retrieval].  If
 you wait until you feel ready, you’re too late.  Questions sharpen contrasts,
@@ -70,7 +73,6 @@ regress in performance, it's a sign you're developing sloppy habits like
 [not reading the entire question](#read) or
 [not paying attention to every lab value mentioned](#lab-values). Investigate
 why you're choosing wrong answers to see a pattern emerges.
-
 
 
 ## The first and last sentences
