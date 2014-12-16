@@ -82,8 +82,8 @@ student uses for the boards.
   * two self assessment exams (184 questions each for a total of 368 questions)
 * Also known as "USMLE World"
 * Explanations are of the highest quality
-* $250 for question bank and self-assessments
-  * Purchase about 90 days out from your STEP1 date
+* various purchase options
+  * Purchase about 30-90 days out from your STEP1 date
   * Organize your classmates to get a group discount
 * When you hit dedicated STEP1 study time, you must do every question in this
   qbank at least once.  Many students go through twice.
