@@ -74,9 +74,12 @@ student uses for the boards.
   slides.  If he draws a diagram, draw it in your book's margin.  For
   subsequent passes at 1.3x and 1.7x, just sit back and absorb the slides.
 
-### [U-World](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
+### [UWorld](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
 
 * The official question bank of USMLE
+* 2618 questions total
+  * bank of 2250 questions
+  * two self assessment exams (184 questions each for a total of 368 questions)
 * Also known as "USMLE World"
 * Explanations are of the highest quality
 * $250 for question bank and self-assessments
