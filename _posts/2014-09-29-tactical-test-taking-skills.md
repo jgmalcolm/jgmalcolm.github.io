@@ -301,7 +301,7 @@ second half, look to choose among those if you have to guess.
 > - Discontinue heparin, do X.
 > - Discontinue heparin, do Y.
 > - Discontinue heparin, do Z.
-> - Do something completely different.    (probably the wrong answer)
+> - <strike>Do something completely different.</strike>
 
 One answer may refer to a combination of others.  Often you can ignore the
 other choices not involved in that combination.  This shows up more so on
@@ -311,8 +311,8 @@ lower quality tests.
 >
 > - Dog
 > - Cat
-> - Tiger
-> - Dog & Cat   (probably ignore Tiger and choose some combination of Dog/Cat)
+> - <strike>Tiger</strike>
+> - Dog & Cat
 
 
 ## Three types of questions
