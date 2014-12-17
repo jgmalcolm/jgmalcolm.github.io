@@ -250,6 +250,8 @@ If you have to guess, do so intelligently:
   out congenital diseases that would have shown up in early childhood
   (e.g. hemophilia, sickle cell).  Anything that occurs suddenly without any
   history, think acquired instead of congenital.
+* Don't go for something you've never heard of until you've ruled out all
+  other options.
 
 
 ## Classic clues
