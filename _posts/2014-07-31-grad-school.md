@@ -141,11 +141,11 @@ consign yourself to a static lecture every Wednesday afternoon.
 If you're really interested in something, approach the professor personally
 and ask for any lecture notes or a book recommendation, and then block off
 several days to work through the first few chapters and associated problems --
-no research, just working through the book and Wikipedia.  Come back to their
-office for help.  I would wager that a professor watching you do this would be
-ecstatic to see a student with such diligence and true interest.  You'll
-likely learn more out of a few focused days rather than some sprinkled one
-hour lectures and a final.
+no research, just working through the book and [Wikipedia][wikipedia].  Come
+back to their office for help.  I would wager that a professor watching you do
+this would be ecstatic to see a student with such diligence and true interest.
+You'll likely learn more out of a few focused days rather than some sprinkled
+one hour lectures and a final.
 
 Invest in yourself and understanding how you learn, so that you can forever
 after teach yourself anything you want.
