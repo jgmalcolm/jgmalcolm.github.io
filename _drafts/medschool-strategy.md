@@ -216,6 +216,17 @@ to put together a table like the following.
 | medial epicondyle | ulnar | claw hand (radial dominance)
 
 
+## Compare and contrast topics
+
+Some dimensions you can compare and contrast along:
+
+- epidemiology
+  - younger or older patients?
+  - risk factors: sex, drugs, smoking
+- onset
+  - slow, insidious, progressive
+  - acute, emergent
+  - congenital, shortly after birth
 
 ## First-order and second-order questions.
 
