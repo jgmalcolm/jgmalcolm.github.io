@@ -53,8 +53,8 @@ score from wrong answers: the only scores that matters is the real exam.
 
 There's some evidence that if you take a pretest before you've even been
 exposed to material, [you'll do better][failing] when it comes to the actual
-test afterward.  If your scores are not improving or you simply feel lost, you
-might not be ready.  Consider stepping back to review more.
+test afterward.  If your scores are not improving or you are just guessing,
+you might not be ready.  Consider stepping back to review more.
 
  [retrieval]: http://www.sciencemag.org/content/331/6018/772.full
  [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
