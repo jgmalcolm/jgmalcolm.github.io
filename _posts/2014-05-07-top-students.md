@@ -55,12 +55,13 @@ and only check it during lunch.
 
 Another secret weapon of mine is software that simply blocks internet
 connection to certain sites ([SelfControl] for Mac OSX, [ColdTurkey] for
-Windows).  Facebook, Twitter, Gmail, Buzzfeed, Upworthy,
-ICanHasCheezburger ... whatever is your thing...block it.
+Windows, or [StayFocusd] Chrome extension).  Facebook, Twitter, Gmail,
+Buzzfeed, Upworthy, ICanHasCheezburger ... whatever is your thing...block it.
 
 [intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
 [SelfControl]: http://selfcontrolapp.com
 [ColdTurkey]: http://getcoldturkey.com/
+[StayFocusd]: https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji
 
 
 ## Time
