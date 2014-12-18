@@ -182,6 +182,7 @@ context.  Here are a few classic tip-offs.
 * occupation, home environment - environmental exposure
    * farmer, veterinarian - animal exposure, hypersensitivity to moldy hay
    * construction worker, old apartment, painter - lead poisoning
+   * college student - Neisseria, mono
 * exotic environment
    * an emergency department in the third world - think of old drugs not used anymore in the US
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
