@@ -43,7 +43,11 @@ answer so you increase the emotional charge in the event you're wrong.  Giving
 up and guessing is less emotional; it's better to convince yourself of one
 answer, commit, and click submit.  I often find myself wanting to look up a
 fact in the textbook before clicking submit, but that lessens the emotional
-payoff.  Better to commit to an answer, let the chips fall, and use that
+payoff.  **Don't look things up in your textbooks before committing to an
+answer.** It's better to think of what specific information you want to look
+up and how that factors into the answer choices.  That way, when you do get to
+see the explanation, you really drive home the critical details you were
+missing.  It's best to commit to an answer, let the chips fall, and use that
 energy to understand the correct answer.  Don't worry about getting a low
 score from wrong answers: the only scores that matters is the real exam.
 
