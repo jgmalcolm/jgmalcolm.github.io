@@ -41,7 +41,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 
 ## Software
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions:
-  * [µBlock] to knock out advertisements
+  * [µBlock] to knock out advertisements (uses less memory than AdBlock)
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
   * [Google Drive Offline][offline] to enable editing documents and slides without internet
   * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
