@@ -368,6 +368,7 @@ you have to email Kaplan to delete these tests.
    * regularly $300 without AMA membership)
 * answer explanations contain links to video and other media, as well as scans
   from pages in [medEssentials for USMLE Step 1][medEssentials]
+* terrible customer support
 
 ## Comparing Kaplan and USMLE-Rx
 
