@@ -645,8 +645,8 @@ recommend [Audéo earbuds] - expensive, but excellent quality and snug fit.
 [mp3 settings]: http://manual.audacityteam.org/index.php?title=MP3_Export_Options
 
 
-> Thanks to classmates Evan McClure and Giacomo Waller for tips on recording
-> MP3s
+*Thanks to classmates Evan McClure and Giacomo Waller for tips on recording
+ MP3s*
 
 
 {% include gallery.html %}
