@@ -321,6 +321,17 @@ lower quality tests.
 > - Dog & Cat
 
 
+Examine the answer choices together.  If several choices are equivalent, then
+they might be ruled out together as a block.
+
+> Question, blah, blah, blah.
+
+> - <strike>Decreased pH</strike>
+> - <strike>Increased hydrogen ion concentration</strike>
+> - <strike>Decreased bicarbonate</strike>
+> - Something else
+
+
 ## Three types of questions
 
 There are three types of questions: those you know immediately, those you
