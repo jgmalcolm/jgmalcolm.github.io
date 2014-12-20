@@ -218,6 +218,10 @@ to put together a table like the following.
 
 ## Compare and contrast topics
 
+Make your own tables.  Don't simply reply on those in your textbooks or First
+Aid.  Make your own versions that start out simpler and only list and compare
+a few of the most important features.
+
 Some dimensions you can compare and contrast along:
 
 - epidemiology
@@ -242,6 +246,27 @@ side effect).
 It's often obvious what needs to be done and how best to do it.  Sometimes all
 that's really needed is the energy (and motivation) to carry through.  So part
 of studying is managing your energy.
+
+Your mind wandering while you're trying to study a diagram or memorize a
+table?  Recopy it by hand multiple times.  It requires only determination to
+keep copying while you're brain is (mostly) on autopilot.  I'm always amazed
+at how effective this can be.  I usually pull this out when I've repeatedly
+gotten a topic wrong, and I just channel that frustration into recopying a
+diagram or table.  Each iteration, add a new detail to the diagram, simplify a
+part you already know, go faster.
+
+<div class="gallery">
+  <figure class="thumb">
+    <a href="/images/cascade.jpg" data-gallery="cascade"
+    title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
+      <img src="/images/cascade.jpg"></a>
+
+  <figcaption>Just look at that chicken scratch diagram of the coagulation
+  cascade.  Lacking some details and not something I'd put on the
+  refrigerator, but at least I now know the basic cascade.</figcaption>
+
+  </figure>
+</div>
 
 Switch tactics: if you're getting bored of answering questions, switch over to
 watch a video lecture.
@@ -290,3 +315,5 @@ http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no
   blocks so you get more immediate feedback.  Similarly, if your worm down by
   low performance, smaller blocks might show an actual score improvement for
   some positive feedback to keep you motivated.
+
+{% include gallery.html %}
