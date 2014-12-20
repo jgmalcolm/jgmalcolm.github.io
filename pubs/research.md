@@ -44,6 +44,7 @@ href="#downloads-for-matlab">software downloads</a> associated with this work.
   <a href="images/fibers/case01045_3T_tc.png" data-gallery="filtered"
      title="Three-tensor tractography picks up even more of the minor fiber
      pathways and cortical insertions."></a>
+{% comment %}
   <a data-gallery="filtered" type="text/html"
      data-youtube="IPO4yZN3dw8" title="Tracing the entire corpus callosum (from side)"></a>
   <a data-gallery="filtered" type="text/html"
@@ -56,6 +57,7 @@ href="#downloads-for-matlab">software downloads</a> associated with this work.
      data-youtube="BuMacFzzNtM" title="Intersection of corpus callosum and internal capsule"></a>
   <a data-gallery="filtered" type="text/html"
      data-youtube="4oLYRgqj5D8" title="Rotating around the corpus callosum (three-fiber model)"></a>
+{% endcomment %}
 </div>
 
 
