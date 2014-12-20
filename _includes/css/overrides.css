@@ -104,8 +104,8 @@ ul {
     -o-tab-size: 2;
     tab-size: 2;
   }
-  .content img {
-    width: 105%;
-    margin: 20px -2.5%;
+  .thumb {
+    max-width: 100%;
+    clear: both;
   }
 }
