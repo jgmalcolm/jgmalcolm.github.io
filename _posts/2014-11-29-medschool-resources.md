@@ -223,8 +223,8 @@ depend on your weaknesses and learning style.
 
   <div class="gallery"> <a href="/images/picmonic-vldl.png"
   data-gallery="picmonic" title="Picmonic tries to literally spell out
-  everything:  <i>decrease VLDL synthesis</i> is a <i>tied up veiled lady bug devil
-  with liver</i>."> <img class="thumb"
+  everything:  'decrease VLDL synthesis' is a 'tied up veiled lady bug devil
+  with liver'."> <img class="thumb"
   src="/images/picmonic-vldl.png"></a></div>
 * One thing I dislike about Picmonic is how they try to literally spell out
   everything, eg. *decrease VLDL synthesis* is a *tied up veiled lady bug
