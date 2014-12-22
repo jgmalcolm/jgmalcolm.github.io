@@ -27,6 +27,12 @@ mg of caffeine."
 
 some oils will not become soluble at lower temperature in cold-brew, only released in hot-brew
 
+http://pd.zhaw.ch/publikation/upload/203953.pdf
+
+  - examining caffeine and acid for various hot brew methods
+  - no cold brew
+
+Japanese iced-brew http://petergiuliano.tumblr.com/post/22177089634/why-you-should-stop-cold-brewing-and-use-the
 
 http://www.instructables.com/id/DIY-Cold-Brew-Coffee
 
