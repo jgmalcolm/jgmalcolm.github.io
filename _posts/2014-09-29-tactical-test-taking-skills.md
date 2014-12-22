@@ -235,14 +235,17 @@ cannot explain it with your answer, then think harder about the other choices.
 
 
 
-## Ruling out answers & guessing intelligently
+## Ruling out answers & guessing intelligently  {#ruling-out}
 
-  [guessing]: #ruling-out-answers--guessing-intelligently
+  [guessing]: #ruling-out
 
-Never jump to an answer without first ruling out 1-2 choices.  This will make
-sure you’re paying attention and not just jumping for a distractor.  Once you
-rule out a choice, you can completely forget about it and focus your attention
-on comparing the remaining choices.
+Never commit to an answer without ruling out other choices.  This will make
+sure you’re not just jumping for a distractor.  Once you rule out a choice,
+you can completely forget about it and focus your attention on comparing the
+remaining choices.
+
+Multiple choice tests are as much about knowing the right answer as being able
+to rule out all the wrong answers.
 
 If you have to guess, do so intelligently:
 
@@ -309,6 +312,16 @@ second half, look to choose among those if you have to guess.
 > - Discontinue heparin, do Z.
 > - <strike>Do something completely different.</strike>
 
+Examine the answer choices together.  If several choices are equivalent, then
+they might be ruled out together as a block.
+
+> Question, blah, blah, blah.
+
+> - <strike>Decreased pH</strike>
+> - <strike>Increased hydrogen ion concentration</strike>
+> - <strike>Decreased bicarbonate</strike>
+> - Something else
+
 One answer may refer to a combination of others.  Often you can ignore the
 other choices not involved in that combination.  This shows up more so on
 lower quality tests.
@@ -320,16 +333,6 @@ lower quality tests.
 > - <strike>Tiger</strike>
 > - Dog & Cat
 
-
-Examine the answer choices together.  If several choices are equivalent, then
-they might be ruled out together as a block.
-
-> Question, blah, blah, blah.
-
-> - <strike>Decreased pH</strike>
-> - <strike>Increased hydrogen ion concentration</strike>
-> - <strike>Decreased bicarbonate</strike>
-> - Something else
 
 
 ## Three types of questions
