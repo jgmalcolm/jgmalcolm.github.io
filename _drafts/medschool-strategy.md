@@ -272,6 +272,10 @@ Switch tactics: if you're getting bored of answering questions, switch over to
 watch a video lecture.
 
 
+## No figure or table is sacred
+
+I often try to make things pretty.  Go fast and loose, and repeat frequently.
+
 
 ## Don't mistake activity for active learning
 
