@@ -17,10 +17,10 @@ Excel.
 
 ## Mac OSX
 
-1. Download the [free dictionary][dic] ([alternate][MedSpel]) and save the
-   unzipped file `Raj&Co-MedSpelChek.dic` where Office puts all its own
-   dictionaries:  /User/ \<user\>/ Library/ Application Support/ Microsoft/
-   Office/ Preferences/ Office 2011/
+1. Download the [free dictionary][MedSpel] and save the unzipped file
+   `Raj&Co-MedSpelChek.dic` where Office puts all its own dictionaries:
+   /User/ \<user\>/ Library/ Application Support/ Microsoft/ Office/
+   Preferences/ Office 2011/
 
 2. Open up Word and any document (blank or existing).
 
