@@ -105,8 +105,4 @@ ul {
     -o-tab-size: 2;
     tab-size: 2;
   }
-  .thumb {
-    max-width: 100%;
-    clear: both;
-  }
 }
