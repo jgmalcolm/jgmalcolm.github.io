@@ -296,6 +296,17 @@ much that you're willing to prioritize weekend study over social outings?
 
 ## Mnemonics & Memory Scenes
 
+  - mnemonics
+    - http://medicowesome.blogspot.com/
+    - http://imindmaps.blogspot.com/
+    - http://medmnemos.blogspot.com/
+
+  - memory scenes
+    - TED talk
+    - Sketchy Micro, Picmonic
+    - http://immense-immunology-insight.blogspot.in/
+
+
 
 
 ## Mind Maps
