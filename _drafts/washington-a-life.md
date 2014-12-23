@@ -2,7 +2,7 @@
 layout: post
 title: "Washington: A Life"
 tag:
-- review
+- books
 ---
 
 <img class="bookcover" src="/images/books/washington.jpg"> George Washington
