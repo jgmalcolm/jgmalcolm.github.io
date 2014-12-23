@@ -38,7 +38,7 @@ h6:hover .header-link {
 
 
 .content img {
-  margin: 8px;
+  margin: 8px 0;
   border: #888 1px solid;
   border-radius: 3px;
   box-shadow: 3px 3px 3px #888;
@@ -49,6 +49,7 @@ figure {
   padding: 0;
 }
 .thumb {
+  margin: 4px;
   max-width: 40%;
   float: right;
 }
