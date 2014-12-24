@@ -89,6 +89,8 @@ student uses for the boards.
   qbank at least once.  Many students go through twice.
 * For your modules, you'll want to purchase the
   [USMLE-Rx or Kaplan qbanks][qbanks]
+* Under "Utilities -> Preferences", set your defaults to "Tutor", "Unused",
+  and pick a font.
 
 
 
