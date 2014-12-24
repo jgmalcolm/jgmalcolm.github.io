@@ -294,7 +294,7 @@ you're willing to trade for it.  Do you want that subspecialty residency so
 much that you're willing to prioritize weekend study over social outings?
 
 
-## Personal weaknesses
+## Personal traps
 
 **Glossing over big words.** I have a tendency to gloss over big words which
 leaves it all a blur.  For example, I might reading the sentence on PKU from
@@ -305,6 +305,12 @@ glossing over the unfamiliar words, so I end up reading something more like
 I ended up missing a lot of biochemistry this way.  I now to force myself to
 slow down and parse every syllable, and slowly those hard words have become
 more natural.
+
+**Doing what's easiest.** Passively reading and nodding along because it all
+seems familiar and I believe I know the material.  The harder road is to
+actively do questions that test recall.  If material looks familiar but you're
+having trouble recalling details necessary to answer questions, then you can
+probably blame passive review.
 
 
 ## Mnemonics & Memory Scenes
