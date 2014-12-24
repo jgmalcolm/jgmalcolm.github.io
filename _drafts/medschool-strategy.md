@@ -294,6 +294,19 @@ you're willing to trade for it.  Do you want that subspecialty residency so
 much that you're willing to prioritize weekend study over social outings?
 
 
+## Personal weaknesses
+
+**Glossing over big words.** I have a tendency to gloss over big words which
+leaves it all a blur.  For example, I might reading the sentence on PKU from
+biochemistry: "Phenylketonuria is due to a decrease in phenylalanine
+hydroxylase or decreased tetrahydrobiopterin cofactor".  I would wrongly
+glossing over the unfamiliar words, so I end up reading something more like
+"Phenyl--- is due to a decrease in phenyl--- --- or decreased --- cofactor".
+I ended up missing a lot of biochemistry this way.  I now to force myself to
+slow down and parse every syllable, and slowly those hard words have become
+more natural.
+
+
 ## Mnemonics & Memory Scenes
 
   - mnemonics
