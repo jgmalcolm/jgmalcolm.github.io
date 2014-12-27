@@ -555,7 +555,7 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 # Studying Techniques
 
 Here are a few blog posts from others that influenced my thinking about
-studying and productivity in med school:
+studying and productivity in med school.
 
 ### Step 1
 
