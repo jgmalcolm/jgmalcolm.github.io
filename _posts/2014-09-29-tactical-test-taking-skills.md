@@ -285,6 +285,7 @@ diagnosis or rule out specific answer choices:
   opportunistic infections
 * "Family history of <symptoms/disease>" &rarr; this always factors into the
   diagnosis
+* aspiring athlete &rarr; anabolic steroid use
 
 
 
