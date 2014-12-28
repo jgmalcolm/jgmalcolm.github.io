@@ -79,7 +79,7 @@ regress in performance, it's a sign you're developing sloppy habits like
 why you're choosing wrong answers to see a pattern emerges.
 
 
-## The first and last sentences
+## First sentence, last sentence
 
 Read the first sentence and then the last sentence.  Skip everything in
 between for the moment.  Skim the answer choices.  Now you've got your
