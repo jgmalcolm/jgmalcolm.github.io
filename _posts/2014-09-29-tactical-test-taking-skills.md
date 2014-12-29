@@ -132,17 +132,17 @@ again?
 
 ## Record a learning point for tough questions
 
-Create a spreadsheet recording a learning point for every question you got
-wrong.  Keep this very simple and low-friction.  Don't complicate this because
-you don't need to come back and review.  Just the simple act of recording the
-topic and learning point forces you to synthesize a factoid suitable for
-cerebral storage.  If you got a question right but just barely, consider
-recording the learning point to solidify your thinking.  Just as you take
-notes while you're studying lectures, treat question banks as study time and
-take a few simple notes.
+Recording a learning point for every question you learned something.  Keep
+this very simple and low-friction.  Don't complicate this because you probably
+*won't* come back and review.  **Just the simple act of recording the topic
+and learning point forces you to synthesize a factoid suitable for cerebral
+storage.** If you got a question right but just barely, consider recording the
+learning point to solidify your thinking.  Just as you take notes while you're
+studying lectures, treat question banks as study time and take a few *simple*
+notes.
 
 Instead of simply stating the correct answer or tested fact, put it in
-contrast with the wrong answer you picked.
+contrast with the wrong answer you picked, eg. differential diagnosis.
 
 
 ## Review topics, not isolated details
@@ -366,7 +366,7 @@ this too and can create a dead obvious question except for one small detail
 that totally changes.  And they know exactly the trap answer to put for those
 zipping through.
 
-Make sure you’ve taken into consideration every single symptom and avoid the
+Make sure you've taken into consideration every single symptom and avoid the
 knee jerk choice.  The first sentence here sounds like lupus, but reading the
 entire question guides us to dermatomyositis.
 
