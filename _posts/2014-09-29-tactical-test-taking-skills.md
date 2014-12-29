@@ -125,8 +125,7 @@ this for things you got wrong.
 
 How do you know when you're read to move on to the next question?  Ask
 yourself: **If I saw this again, would I be able to rule out all the wrong
-answers?** Can you look back at the answer choices and quickly rule each out
-again?
+answers?** Can you look back at the answer choices and rule each out again?
 
 
 
