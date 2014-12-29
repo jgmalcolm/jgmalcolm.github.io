@@ -313,6 +313,23 @@ having trouble recalling details necessary to answer questions, then you can
 probably blame passive review.
 
 
+## Scratch work
+
+Draw diagrams and simple tables.  Don't transcribe everything; these notes
+should be much simpler than your textbooks and review.  Only record 1-2 key
+distinguishing facts.  Those key facts will jog your memory of additional
+ancillary facts.
+
+Keep this all bound, in order (dated) in a
+notebook so you can flip back ("Oh, I remember that from last week ... let me
+find that ...").
+
+When you revisit a topic, try to redraw the figure from memory.  Resist the
+urge to flip back in your notes right away.  Every time you stretch your
+recall, it strengthens those neurons.  Every time you redraw a diagram, you'll
+get faster.
+
+
 ## Mnemonics & Memory Scenes
 
   - mnemonics
