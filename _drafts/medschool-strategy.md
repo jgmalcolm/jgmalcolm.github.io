@@ -324,10 +324,10 @@ Keep this all bound, in order (dated) in a
 notebook so you can flip back ("Oh, I remember that from last week ... let me
 find that ...").
 
-When you revisit a topic, try to redraw the figure from memory.  Resist the
-urge to flip back in your notes right away.  Every time you stretch your
-recall, it strengthens those neurons.  Every time you redraw a diagram, you'll
-get faster.
+When you revisit a topic, try to reproduce (redraw) as much as you can from
+memory.  Resist the urge to immediately flip back in your notes.  Every time
+you stretch your recall, it strengthens those neurons.  Every time you redraw
+a diagram, you'll get faster.
 
 
 ## Mnemonics & Memory Scenes
