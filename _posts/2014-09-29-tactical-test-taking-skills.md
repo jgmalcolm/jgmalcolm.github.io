@@ -129,16 +129,16 @@ answers?** Can you look back at the answer choices and rule each out again?
 
 
 
-## Record a learning point for tough questions
+## Record learning points
 
-Recording a learning point for every question you learned something.  Keep
-this very simple and low-friction.  Don't complicate this because you probably
-*won't* come back and review.  **Just the simple act of recording the topic
-and learning point forces you to synthesize a factoid suitable for cerebral
-storage.** If you got a question right but just barely, consider recording the
-learning point to solidify your thinking.  Just as you take notes while you're
-studying lectures, treat question banks as study time and take a few *simple*
-notes.
+Whenever you have an "Ah, ha!" moment, write it down.  Keep this very simple
+and low-friction.  You don't want to complicate this because you probably
+*will not* come back and review.  **Just the simple act of recording the
+learning point forces you to synthesize a precise factoid suitable for
+cerebral storage.** If you got a question right but just barely, consider
+recording the learning point to solidify your thinking.  Just as you take
+notes while you're studying lectures, treat question banks as study time and
+take a few *simple* notes.  Don't waste time making this pretty.
 
 Instead of simply stating the correct answer or tested fact, put it in
 contrast with the wrong answer you picked, eg. differential diagnosis.
@@ -164,9 +164,9 @@ thinking this is your actual performance until you’ve cut your teeth on some
 harder questions.
 
 
-## The first sentence contains a big clue
+## Chief complaint
 
-The first sentence contains probably the most important clue and sets the
+The first sentence likely contains the most important clue and sets the
 context.  Here are a few classic tip-offs.
 
 * chief complaint - your diagnosis must absolutely explain this
@@ -226,11 +226,12 @@ only purpose is to rule out one specific answer choice.
 
 
 
-## Every abnormal lab value needs to be explained  {#lab-values}
+## Account for every lab value {#lab-values}
 
-Your answer needs to account for every abnormal lab value given.  If there’s
-some seemingly completely unrelated lab value that’s wildly abnormal and you
-cannot explain it with your answer, then think harder about the other choices.
+Your answer needs to explain every given lab value and physical finding.  If
+there’s some seemingly completely unrelated lab value that’s wildly abnormal
+and you cannot explain it with your answer, then think harder about the other
+choices.  There are no wasted words in a question prompt.
 
 
 
