@@ -143,6 +143,11 @@ take a few *simple* notes.  Don't waste time making this pretty.
 Instead of simply stating the correct answer or tested fact, put it in
 contrast with the wrong answer you picked, eg. differential diagnosis.
 
+This process will seem to slow you down, but it'll quickly pay dividends as
+you speed up.  As your knowledge base grows you'll pick up speed because
+you'll record fewer learning points and you'll answer questions faster.
+
+
 
 ## Review topics, not isolated details
 
