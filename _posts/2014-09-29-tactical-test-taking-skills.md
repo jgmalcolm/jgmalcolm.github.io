@@ -59,13 +59,16 @@ you might not be ready.  Consider stepping back to review more.
  [retrieval]: http://www.sciencemag.org/content/331/6018/772.full
  [failing]: http://www.nytimes.com/2014/09/07/magazine/why-flunking-exams-is-actually-a-good-thing.html
 
-Drilling on questions also helps you understand your own psychology.
+**Drilling on questions also helps you understand your own psychology.**
 Recognize the signs that you’re tiring or getting sloppy, and learn to
-refocus.  Recognize your proclivities to jump toward certain answers, not read
-the question fully.  One odd thing I noticed is that, for questions where two
-answers are very close, I tended to prefer the first of the two.  Once I
+refocus.  Recognize your proclivities to jump toward certain answers and not
+read the question fully.  One odd thing I noticed is that, for questions where
+two answers are very close, I tended to prefer the first of the two.  Once I
 recognized this tendency, I started catching myself and instead focus on those
-choices without bias.
+choices without bias.  If you're consistently choosing the second best answer,
+ask yourself what is it that distracted you or tipped you the wrong way?  Are
+you over-thinking the question, ie. adding unnecessary "logical" steps to
+justify the wrong answer?
 
 Practice these techniques below so they’re second nature and you kill bad
 habits.  But techniques will only tweak your performance.  There are no true
