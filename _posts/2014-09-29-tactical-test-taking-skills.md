@@ -68,7 +68,8 @@ recognized this tendency, I started catching myself and instead focus on those
 choices without bias.  If you're consistently choosing the second best answer,
 ask yourself what is it that distracted you or tipped you the wrong way?  Are
 you over-thinking the question, ie. adding unnecessary "logical" steps to
-justify the wrong answer?
+justify the wrong answer?  Critically investigate what you are missing and
+where you went off track.
 
 Practice these techniques below so they’re second nature and you kill bad
 habits.  But techniques will only tweak your performance.  There are no true
