@@ -272,8 +272,16 @@ now.  Work on another later.
   </figure>
 </div>
 
-Switch tactics: if you're getting bored of answering questions, switch over to
-watch a video lecture.
+**Switch tactics to boost energy.** If you're getting bored of answering
+questions, switch over to watch a video lecture.
+
+**Optimize your procrastination equation.** What's keeping you from doing what
+you know you need to be doing?  Do you not think the pay off is worth it?  The
+payoff is too far away?  The energy required is too much?  Whatever it is,
+figure out a way to optimize that part of the
+[procrastination equation][procrastination].
+
+ [procrastination]: http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/
 
 
 ## No figure or table is sacred
