@@ -127,6 +127,12 @@ apparent.  Not all information is weighted equally, and you'll soon start to
 see which topics are most important.  Avoid cluttering your notes and only do
 this for things you got wrong.
 
+Some topics are not that important or not substantial enough to merit their
+own question, so instead they will be frequently used as distracting (wrong)
+answers.  Becoming familiar with these *secondary distracting topics* is as
+important as familiarity with *primary tested topics*.  Don't skimp on
+studying wrong answers.
+
 How do you know when you're read to move on to the next question?  Ask
 yourself: **If I saw this again, would I be able to rule out all the wrong
 answers?**
