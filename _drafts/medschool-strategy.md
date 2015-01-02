@@ -341,6 +341,10 @@ memory.  Resist the urge to immediately flip back in your notes.  Every time
 you stretch your recall, it strengthens those neurons.  Every time you redraw
 a diagram, you'll get faster.
 
+I was dumb as bricks when it came to metabolic biochemistry.  Repeatedly
+redrawing metabolic pathways was the only way I could get it through my thick
+skull.
+
 
 ## Mnemonics & Memory Scenes
 
