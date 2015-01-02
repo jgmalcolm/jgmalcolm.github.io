@@ -255,6 +255,10 @@ gotten a topic wrong, and I just channel that frustration into recopying a
 diagram or table.  Each iteration, add a new detail to the diagram, simplify a
 part you already know, go faster.
 
+**Break the problem down into easier pieces.** Is the entire combined
+glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
+now.  Work on another later.
+
 <div class="gallery">
   <figure class="thumb">
     <a href="/images/cascade.jpg" data-gallery="cascade"
