@@ -383,4 +383,23 @@ http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no
   low performance, smaller blocks might show an actual score improvement for
   some positive feedback to keep you motivated.
 
+
+# STEP1
+
+STEP1 will punish those who do not put in the time.  As a cumulative exam,
+anything you failed to learn during your modules will show up here and cost
+you points again.  If you didn't learn something the first time, now is your
+last chance.
+
+STEP1 is a test of endurance and discipline.  I'm not talking about test day.
+I'm talking about endurance and discipline in the months leading up to test
+day.  If you fail to work diligently during your dedicated period, you will be
+punished.
+
+STEP1 is also a very straight forward test for anyone willing to dedicate the
+energy to working through question banks.  I would wager that simply
+completing something like 6000 questions easily puts you in the 240s.  The
+difference between the 240s and the 260s is where active studying and critical
+self-assessment make the difference.
+
 {% include gallery.html %}
