@@ -324,6 +324,14 @@ actively do questions that test recall.  If material looks familiar but you're
 having trouble recalling details necessary to answer questions, then you can
 probably blame passive review.
 
+**Punting down field.** Often when I was going through question banks, tired,
+and hit a topic I didn't know, I would mark the question and just tell myself
+I'd come back to study it later.  The truth: I never would come back.  Fix:
+Study the material immediately while the emotion of a wrong answer is still
+present and you've got the question context in mind.  If you're too tired to
+study the explanations, then you're too tired to do questions.  Either pack it
+in, take a break, or switch to something else like watching Pathoma videos.
+
 
 ## Scratch work
 
