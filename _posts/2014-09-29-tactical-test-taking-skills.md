@@ -120,12 +120,12 @@ you could have ruled out each incorrect answer.  The point of the question
 isn't just the information limited to the correct choice; the point of the
 question is the integration and contrasts between all answer choices.
 
-Find the topic in your notes, underline the tested fact, emphasize the most
-important physical or lab findings, etc.  Put a tally mark in the margin
-indicating the topic was tested.  Over time, the highly tested topics become
-apparent.  Not all information is weighted equally, and you'll soon start to
-see which topics are most important.  Avoid cluttering your notes and only do
-this for things you got wrong.
+Find the topic in your notes, underline the most important physical or lab
+findings, etc.  Put a small dot next to the tested fact.  Over time, the
+highly tested material becomes apparent.  Not all information is weighted
+equally, and you'll soon start to see which topics are most important.  Avoid
+cluttering your notes and only do this for things you got wrong.  I used a
+different dedicated color for each question bank.
 
 Some topics are not that important or not substantial enough to merit their
 own question, so instead they will be frequently used as distracting (wrong)
