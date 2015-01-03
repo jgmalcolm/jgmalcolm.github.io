@@ -341,6 +341,27 @@ There are no wasted words in these vignettes.
 
   [abnormal-findings]: {% post_url 2014-09-29-tactical-test-taking-skills %}#abnormal-findings
 
+
+
+## To type or write?
+
+Typing is fast.  Writing is slow, and so it forces you to think critically
+about what's important to record.
+
+Typing lets you copy and paste previous notes.  Writing forces you to be
+economical in what you choose to record.  Typing lets you copy and paste a
+figure into your notes.  Writing forces you to recopy the figure from scratch.
+Writing ultimately forces you to work with the information slowly and
+deliberately, and hence you're more likely to remember.
+
+Typing lulls you into a false security of being able to quickly search and
+look up information.  Writing forces you to scan manually, and so you end up
+reviewing more ancillary information while searching for what you really want.
+
+I started out typing to record the deluge of information, but ultimately I
+ended up writing so I'd exercise my memory every time I had to rewrite a fact.
+
+
 ## Scratch work
 
 Draw diagrams and simple tables.  Don't transcribe everything; these notes
