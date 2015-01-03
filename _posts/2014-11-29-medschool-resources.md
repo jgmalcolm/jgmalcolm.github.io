@@ -38,7 +38,10 @@ student uses for the boards.
   protection and to easily lay flat.  For each module in school, pull out only
   the relevant section.  I did this at Staples for $3, but be sure to ask them
   to slice very close to the binding, otherwise you lose some of the inner
-  marginal text.
+  marginal text.  Since I had a PDF of the original, anything that wasn't
+  actual study material was thrown away: all pages from front cover until
+  Behavioral Science, all pages after Rapid Review.  This cut out over a
+  hundred pages.
 
 ### [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
 
