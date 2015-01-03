@@ -248,6 +248,16 @@ there’s some seemingly completely unrelated lab value that’s wildly abnormal
 and you cannot explain it with your answer, then think harder about the other
 choices.  There are no wasted words in a question prompt.
 
+**Tunnel vision.** This is especially true in disorders involving multiple
+systems.  Individual answer choices may address individual system
+dysfunctions, but you need to make sure that your chosen answer explains all
+abnormalities.  For example, a patient presents with renal dysfunction, joint
+pain, and hematologic abnormalities.  There will probably be an individual
+answer choices might be nephritic syndrome, rheumatoid arthritis, and
+myelodysplastic syndrome.  Each of those answer choices correspond to a chief
+complaint, but none answer the whole picture.  If multiple systems are
+involved, you need to tie them all together.  This patient has lupus.
+
 
 
 ## Ruling out answers & guessing intelligently  {#ruling-out}
