@@ -79,7 +79,7 @@ the core knowledge.
 Doing more questions can also perpetuate bad habits.  If you stop improving or
 regress in performance, it's a sign you're developing sloppy habits like
 [not reading the entire question](#read) or
-[not paying attention to every lab value mentioned](#lab-values). Investigate
+[not paying attention to every lab value mentioned](#abnormal-findings). Investigate
 why you're choosing wrong answers to see a pattern emerges.
 
 
@@ -241,7 +241,7 @@ only purpose is to rule out one specific answer choice.
 
 
 
-## Account for every lab value {#lab-values}
+## Account for every abnormal finding {#abnormal-findings}
 
 Your answer needs to explain every given lab value and physical finding.  If
 there’s some seemingly completely unrelated lab value that’s wildly abnormal
