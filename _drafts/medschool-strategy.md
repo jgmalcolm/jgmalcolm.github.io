@@ -332,6 +332,14 @@ present and you've got the question context in mind.  If you're too tired to
 study the explanations, then you're too tired to do questions.  Either pack it
 in, take a break, or switch to something else like watching Pathoma videos.
 
+**Tunnel vision.** When a patient has presents with systems involving multiple
+systems (renal, muscular, pulmonary), I tended to mistakenly jump at answer
+choices that might explain one or two findings perfectly, but ultimately
+didn't explain all the physical exam or lab findings.  Now I know my answer
+choices needs to [account for every abnormal finding][abnormal-findings].
+There are no wasted words in these vignettes.
+
+  [abnormal-findings]: {% post_url 2014-09-29-tactical-test-taking-skills %}#abnormal-findings
 
 ## Scratch work
 
