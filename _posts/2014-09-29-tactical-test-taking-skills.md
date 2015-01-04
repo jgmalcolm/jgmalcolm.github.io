@@ -289,8 +289,8 @@ you didn't immediately understand.
 I often found myself picking the second best answer, and this was typically
 because I was over thinking the question and second guessing the test writers.
 
-Once you've narrowed down to two answers, ask yourself "What's different
-between these?" and then look back in the scenario for specific clues.
+Once you've narrowed down to two answers, ask yourself **"What's different
+between them?"** and then look back in the scenario for specific clues.
 
 
 ## Guessing intelligently {#guessing}
