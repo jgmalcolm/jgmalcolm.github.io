@@ -10,7 +10,7 @@ it and I'm noticing some patterns.  Here are simple strategies that brought
 order to chaos.  While most of this is from med-school tests, the principles
 apply to nearly all multiple choice exams.
 
-## Practice questions
+## Practice questions {#qbanks}
 
 Only through practice on questions will you improve your technique, accuracy,
 endurance, and learn what's important.  Do not passively read your review
@@ -261,9 +261,9 @@ many together as you can.  This patient has lupus.
 
 
 
-## Ruling out answers & guessing intelligently  {#ruling-out}
+## Ruling out answers          {#ruling-out}
 
-  [guessing]: #ruling-out
+Every answer choice was included for a reason.
 
 Never commit to an answer without ruling out other choices.  This will make
 sure you’re not just jumping for a distractor.  Once you rule out a choice,
@@ -271,11 +271,29 @@ you can completely forget about it and focus your attention on comparing the
 remaining choices.
 
 Multiple choice tests are as much about knowing the right answer as being able
-to rule out all the wrong answers.
+to rule out all the wrong answers.  Sometimes you arrive at the right answer
+only because you ruled out all the other choices.
+
+As I got faster, I had the tendency to sometimes rule out answer choices
+quickly because they seemed unrelated.  This was a bad habit because often
+that seemed immediately unrelated was in fact related in some logical
+sequence.  I had to force myself to consider what each answer choice meant and
+why it was possibly included before crossing it out.
+
+If you're unsure, skip that choice and continue evaluating other choices
+before you come back.  Sometimes the other choices will shed light on the one
+you didn't immediately understand.
+
+I often found myself picking the second best answer, and this was typically
+because I was over thinking the question and second guessing the test writers.
+
+
+## Guessing intelligently {#guessing}
 
 If you have to guess, do so intelligently:
 
-* If you’ve narrowed it down to two possibilities, the most common disease is
+* [Rule out](#ruling-out) as many wrong choices as possible.
+* If you've narrowed it down to two possibilities, the most common disease is
   probably the best answer.  Avoid [zebras].
 * If there are multiple answers that are equivalent and one that is different,
   then it's likely the equivalent group is all wrong together.
@@ -378,9 +396,9 @@ For these marked questions, go carefully and spend the time.  These questions
 will make the difference between pass and high pass.
 
 It's a death trap to fritter away your time on questions you'll ultimately
-guess on.  [Narrow it down to 2-3 choices and guess][guessing].  You want to
-avoid the situation where you've got 10 minutes left but 20 questions, and so
-you make sloppy mistakes on easy ones.
+guess on.  [Narrow it down to 2-3 choices](#ruling-out) and
+[guess](#guessing).  You want to avoid the situation where you've got 10
+minutes left but 20 questions, and so you make sloppy mistakes on easy ones.
 
 
 ## Read the entire question carefully.  {#read}
