@@ -322,7 +322,11 @@ more natural.
 seems familiar and I believe I know the material.  The harder road is to
 actively do questions that test recall.  If material looks familiar but you're
 having trouble recalling details necessary to answer questions, then you can
-probably blame passive review.
+probably blame passive review.  As a corollary, with so many topics to study,
+I often found myself avoiding some daunting topic by distracting myself with
+more interesting (easier) topics.  Thinking about the
+[procrastination equation][procrastination] often helped me find a way out of
+the situation.
 
 **Punting down field.** Often when I was going through question banks, tired,
 and hit a topic I didn't know, I would mark the question and just tell myself
