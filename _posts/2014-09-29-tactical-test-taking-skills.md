@@ -157,6 +157,8 @@ This process will seem to slow you down, but it'll quickly pay dividends as
 you speed up.  As your knowledge base grows you'll pick up speed because
 you'll record fewer learning points and you'll answer questions faster.
 
+> [MedSchoolTutors: Creating a UWorld Journal](http://www.medschooltutors.com/blog/the-uworld-journal-how-i-scored-a-263-on-the-usmle-step-1)
+
 
 
 ## Review topics, not isolated details
@@ -286,6 +288,9 @@ you didn't immediately understand.
 
 I often found myself picking the second best answer, and this was typically
 because I was over thinking the question and second guessing the test writers.
+
+Once you've narrowed down to two answers, ask yourself "What's different
+between these?" and then look back in the scenario for specific clues.
 
 
 ## Guessing intelligently {#guessing}
