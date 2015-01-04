@@ -31,7 +31,10 @@ student uses for the boards.
   before Christmas.  This is the book you will likely spend the most time with
   in the months leading up to STEP1.
 * Consolidate resources: annotate other resources (Pathoma, Firecracker, etc)
-  into this so you're not spread among five review books.
+  into this so you're not spread among five review books.  Don't write every
+  random fact or you'll clutter out the important things.  This book is
+  already distilled down to high concentration; only add a fact if it really
+  helps clarify or was a key to some practice question.
 * You'll definitely want a hard copy to annotate, but also a PDF version for
   text search
 * Consider cutting off the binding so you can put it into a 3-ring binder for
