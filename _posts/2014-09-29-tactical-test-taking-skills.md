@@ -94,7 +94,7 @@ primed to pay close attention to key information as you continue reading.
 
 At this point, you can skim the answer choices and probably immediately rule
 out one or two.  In some cases, the answer is obvious (but don't jump until
-you've read everything)..
+you've read everything).
 
 Now go back to read the rest of the scenario and attack the remaining answer
 choices.
@@ -157,6 +157,7 @@ This process will seem to slow you down, but it'll quickly pay dividends as
 you speed up.  As your knowledge base grows you'll pick up speed because
 you'll record fewer learning points and you'll answer questions faster.
 
+> Read more:
 > [MedSchoolTutors: Creating a UWorld Journal](http://www.medschooltutors.com/blog/the-uworld-journal-how-i-scored-a-263-on-the-usmle-step-1)
 
 
@@ -254,12 +255,12 @@ choices.  There are no wasted words in a question prompt.
 systems.  Individual answer choices may address individual system
 dysfunctions, but you need to make sure that your chosen answer explains all
 abnormalities.  For example, a patient presents with renal dysfunction, joint
-pain, and hematologic abnormalities.  There will probably be an individual
-answer choices might be nephritic syndrome, rheumatoid arthritis, and
-myelodysplastic syndrome.  Each of those answer choices correspond to a chief
-complaint, but none answer the whole picture.  Be careful not to jump at a
-single physical finding.  If multiple systems are involved, you need to tie as
-many together as you can.  This patient has lupus.
+pain, and hematologic abnormalities.  The individual answer choices might be
+nephritic syndrome, rheumatoid arthritis, and myelodysplastic syndrome.  Each
+of those answer choices correspond to a chief complaint, but none answer the
+whole picture.  Be careful not to jump at a single physical finding.  If
+multiple systems are involved, you need to tie as many together as you can.
+This patient has lupus.
 
 
 
@@ -278,19 +279,20 @@ only because you ruled out all the other choices.
 
 As I got faster, I had the tendency to sometimes rule out answer choices
 quickly because they seemed unrelated.  This was a bad habit because often
-that seemed immediately unrelated was in fact related in some logical
-sequence.  I had to force myself to consider what each answer choice meant and
-why it was possibly included before crossing it out.
+what seemed immediately unrelated was in fact related in an indirect way.  I
+now force myself to consider what each answer choice means and why it was
+included before crossing it out.
 
-If you're unsure, skip that choice and continue evaluating other choices
-before you come back.  Sometimes the other choices will shed light on the one
-you didn't immediately understand.
+If you're unsure, skip that choice for a moment and continue evaluating the
+other choices.  Sometimes the other choices will shed light on the one you
+didn't immediately understand.
 
 I often found myself picking the second best answer, and this was typically
 because I was over thinking the question and second guessing the test writers.
 
-Once you've narrowed down to two answers, ask yourself **"What's different
-between them?"** and then look back in the scenario for specific clues.
+Once you've narrowed down to two answers, ask yourself **"What is different
+between these choices?"** and then look back in the scenario for specific
+clues.
 
 
 ## Guessing intelligently {#guessing}
@@ -298,16 +300,15 @@ between them?"** and then look back in the scenario for specific clues.
 If you have to guess, do so intelligently:
 
 * [Rule out](#ruling-out) as many wrong choices as possible.
-* If you've narrowed it down to two possibilities, the most common disease is
-  probably the best answer.  Avoid [zebras].
 * If there are multiple answers that are equivalent and one that is different,
   then it's likely the equivalent group is all wrong together.
 * If two answers are the opposite of each other, then the answer is likely one
   of those.  Ignore the other choices.
-* An adult patient with no mention of chronic or childhood issues, then rule
-  out congenital diseases that would have shown up in early childhood
-  (e.g. hemophilia, sickle cell).  Anything that occurs suddenly without any
-  history, think acquired instead of congenital.
+* Use epidemiology to pick the most likely.  The most common disease (avoid
+  [zebras]).  An adult patient with no mention of chronic or childhood issues,
+  then rule out congenital diseases that would have shown up in early
+  childhood (e.g. hemophilia, sickle cell).  Anything that occurs suddenly
+  without any history, think acquired instead of congenital.
 * Don't go for something you've never heard of until you've ruled out all
   other options.
 
@@ -342,10 +343,12 @@ diagnosis or rule out specific answer choices:
 
 Specific constructs can help clue you in.
 
-* "What is most likely" - forget about rare diseases, just think what is most
+* "What is most likely?" - forget about rare diseases, just think what is most
   prevalent.  No [zebras].  It's likely more than one answer is possible, but
   you're being tested on epidemiological prevalence to determine the most
   likely.
+* "What is the next step in management?" - There might be an overall treatment
+  goal, but this question is likely asking about immediate next steps.
 
 [zebras]: https://en.wikipedia.org/wiki/Zebra_(medicine)
 
