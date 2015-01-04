@@ -387,27 +387,25 @@ you have to email Kaplan to delete these tests.
     larger portion of the relevant pathophysiology.  Rx tends to just state
     facts relevant to the immediate question.  Don't skip the Kaplan "ReKaps &
     Refs"; they're golden.
-  * Kaplan often seems pedantic, uses descriptive terms not in First Aid, and
-    uses images of histology/culture that look very different from First Aid.
-    For example, one question had a patient with Becker's muscular dystrophy
-    (X-linked recessive), but it was a girl with physical features of Turner
-    syndrome (XO), hence explaining the X-linked recessive phenotype.
-    **Kaplan is simply harder than Rx**, so if you get good at Kaplan, you'll
-    probably know the material nuances better than with Rx.  I found my Kaplan
-    scores slightly lower than my Rx scores, but **I always felt like I knew
-    the material better after Kaplan**.  Read another student's
+  * **Kaplan is harder than Rx.** Kaplan often seems pedantic, uses
+    descriptive terms not in First Aid, and uses images of histology/culture
+    that look very different from First Aid, but if you get good at Kaplan,
+    you'll probably know the material nuances better than with Rx.  I found my
+    Kaplan scores slightly lower than my Rx scores, but **I always felt like I
+    knew the material better after Kaplan**.  Avoid favoring Rx over Kaplan
+    simply because your scores are better with Rx.  Read another student's
     [review on Kaplan](http://forums.studentdoctor.net/threads/just-finished-kaplan-qbank-my-brief-thoughts-on-it.943957/).
   * Kaplan regularly uses second-order questions, and some are even
     third-order.  Rarely will you find a straight recall question in Kaplan
     (first-order).  In contrast, Rx is full of first- and second-order
     questions, but no third-order.  In this way, one Kaplan question covers
-    2-3 layers of information while an Rx question only covers 1-2.
+    2-3 layers of information while an Rx question only covers 1-2.  UWorld
+    has zero first-order questions, so its complexity is more like that of
+    Kaplan.
   * Rx ties directly into FA (the explanations literally show you the relevant
     FA pages).  Use it as a way to learn FA, but it's lacking those broad
     lessons that Kaplan explanations often emphasize.
-  * Both provide about the same level of post-test analysis, but Kaplan shows
-    you a few extra columns indicating time spent and which answer you
-    switched.
+  * Both provide about the same level of post-test analysis.
 * **Rx has a better user interface.**
   * Rx is a clear winner here: smooth web interface (HTML), but poor iOS app.
   * Kaplan has a terrible interface (Flash) and even worse iOS app.
