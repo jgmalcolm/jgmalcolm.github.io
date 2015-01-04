@@ -255,9 +255,9 @@ abnormalities.  For example, a patient presents with renal dysfunction, joint
 pain, and hematologic abnormalities.  There will probably be an individual
 answer choices might be nephritic syndrome, rheumatoid arthritis, and
 myelodysplastic syndrome.  Each of those answer choices correspond to a chief
-complaint, but none answer the whole picture.  If multiple systems are
-involved, you need to tie as many together as you can.  This patient has
-lupus.
+complaint, but none answer the whole picture.  Be careful not to jump at a
+single physical finding.  If multiple systems are involved, you need to tie as
+many together as you can.  This patient has lupus.
 
 
 
