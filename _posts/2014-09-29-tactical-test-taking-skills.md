@@ -205,8 +205,7 @@ context.  Here are a few classic tip-offs.
    * an emergency department in the third world - think of old drugs not used anymore in the US
       * Chloramphenicol causing aplastic anemia (no longer used in US but might encounter in third world)
 * immigrant or foreigner visiting who recently became ill
-   * arrived long ago: unvaccinated
-   * arrived recently: endemic disease
+   * unvaccinated, endemic disease (late manifestations), lack of newborn screening
 
 
 ## Avoid outliers
