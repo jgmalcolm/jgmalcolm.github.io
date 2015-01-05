@@ -455,4 +455,16 @@ completing something like 6000 questions easily puts you in the 240s.  The
 difference between the 240s and the 260s is where active studying and critical
 self-assessment make the difference.
 
+
+
+# Not Studying
+
+- Sleep.  Decrease stress and let your brain process the info you've fed it.
+- Exercise.  Decrease stress, release energy.
+- Your breaks should revive you. While studying, make a list of what you are
+  looking forward to doing during your next break.  Plan fun things to look
+  forward to.
+- Your breaks should be short.  Many times my 15min break would easily stretch
+  to 30, 45min.  Set a timer to kick you back in to gear when the time comes.
+
 {% include gallery.html %}
