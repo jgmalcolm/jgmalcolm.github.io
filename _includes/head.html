@@ -78,14 +78,16 @@ $(document).ready(function(){
   $(".content :header").each(function(i, el) {
     var $el = $(el);
     var id = $el.attr('id');
-    if (id)
+    if (id) {
       return $el.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
+    }
   });
 
   /* highlight broken markdown links */
   var broken = $(".content").html().match(/\[.*?\][\[\(].*?[\]\)]/);
-  if (broken)
+  if (broken) {
     $(document.body).append("<span style='position:fixed;width:100%;top:0;color:red;background-color:yellow'>Broken:<br> " + broken + "</span>");
+  }
 });
 
 /* remove click delays on mobile */
