@@ -37,14 +37,16 @@ student uses for the boards.
   helps clarify or was a key to some practice question.
 * You'll definitely want a hard copy to annotate, but also a PDF version for
   text search
-* Consider cutting off the binding so you can put it into a 3-ring binder for
-  protection and to easily lay flat.  For each module in school, pull out only
-  the relevant section.  I did this at Staples for $3, but be sure to ask them
-  to slice very close to the binding, otherwise you lose some of the inner
-  marginal text.  Since I had a PDF of the original, anything that wasn't
-  actual study material was thrown away: all pages from front cover until
-  Behavioral Science, all pages after Rapid Review.  This cut out over a
-  hundred pages.
+* You're going to spend a lot of time with this book and carry it everywhere
+  you go.  Consider cutting off the binding so you can put it into a 3-ring
+  binder for protection and to easily lay flat.  Staples/OfficeMax will punch
+  holes for $3, but be sure to ask them to slice very close to the binding,
+  otherwise you lose some of the inner marginal text.
+  * For each module in school, pull out only the relevant section and use a
+    slim folder.
+  * Since I had a PDF of the original, anything that wasn't actual study
+    material was thrown away:  all pages from front cover until Behavioral
+    Science, all pages after Rapid Review.  This cut out over a hundred pages.
 
 ### [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
 
