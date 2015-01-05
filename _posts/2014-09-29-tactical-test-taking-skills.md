@@ -211,13 +211,12 @@ context.  Here are a few classic tip-offs.
 
 ## Avoid outliers
 
-If you have to guess, don’t choose the first one here.  Notice how it’s the
-only answer choice that uses "left".
+When one answer is totally different than the others, it's likely a distractor.
 
-> * Oxygen curve is shifted to the left because A.
 > * Oxygen curve is shifted to the right because of B.
 > * Oxygen curve is shifted to the right because of C.
 > * Oxygen curve is shifted to the right because of D.
+> * <strike>Oxygen curve is shifted to the left because A.</strike>
 
 Boards questions almost always give you enough information to make a
 diagnosis, and rarely is a patient without risk.  So avoid those answer
@@ -369,7 +368,7 @@ Examine the answer choices together.  If several choices are equivalent, then
 they might be ruled out together as a block.
 
 > Question, blah, blah, blah.
-
+>
 > - <strike>Decreased pH</strike>
 > - <strike>Increased hydrogen ion concentration</strike>
 > - <strike>Decreased bicarbonate</strike>
