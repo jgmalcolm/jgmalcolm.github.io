@@ -47,7 +47,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Instructions](beginner/inst.htm) - Start working up your own
   programs. Learn the basic syntax of assembler instructions. A great place to
   reference all those little mnemonics and what they do.
-- [Flags and Conditions](beginner/flag.htm) - `If` statements.
+- [Flags and Conditions](beginner/flag.htm) - `if` statements.
 - [Math](beginner/math.htm) - Learn the basics of simple math routines like
   multiplying, dividing, adding, and subtracting.
 - [Two's Compliment](beginner/twos.htm) - Negative numbers and how to use
@@ -60,7 +60,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Logical Operators](intermediate/logi.htm) - Introduction to `and`, `or`,
   and `xor`. How to mask out bits and control binary data.
 - [Miscellaneous Instructions](intermediate/misc.htm) - These don't fit in
-  anywhere? `Neg`, `scf`, and others!
+  anywhere? `neg`, `scf`, and others!
 - [All the Flags](intermediate/allt.htm) - Besides the zero and carry flags,
   there are four others! What do they all do? Come find out!
 - [Restart Commands](intermediate/rstc.htm) - Faster `call`s with the help of
@@ -72,7 +72,7 @@ as "The Guide" on [TI-Calc.org](//ticalc.org).
   like high scores and such.
 - [The Stack](intermediate/stac.htm) - Ever heard of \"Last On, First Off\"?
   Save register pairs and recall their values later with `push` and `pop`!
-- [Tables and Arrays](intermediate/tabl.htm) - The famous `For` loop used in
+- [Tables and Arrays](intermediate/tabl.htm) - The famous `for` loop used in
   recursion. Take advantage of the `ix` and `iy` register pairs for lists with
   an intro into matrices!
 - [Simulated 16-bit Addition](intermediate/simu.htm) - A faster method of
