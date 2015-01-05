@@ -247,6 +247,13 @@ It's often obvious what needs to be done and how best to do it.  Sometimes all
 that's really needed is the energy (and motivation) to carry through.  So part
 of studying is managing your energy.
 
+It takes a long time to truly build up the discipline and tolerance to sustain
+consistent long hours for days on end.  As you stretch yourself, you will do a
+lot of studying when you really don't want to.  It's critical you figure out
+ways to manage your energy and stretch your [willpower][willpower].
+
+ [willpower]: http://www.amazon.com/gp/product/0143122231/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143122231&linkCode=as2&tag=jgmalcolm-20&linkId=RUYFTLGPIX7E62OL
+
 Your mind wandering while you're trying to study a diagram or memorize a
 table?  Recopy it by hand multiple times.  It requires only determination to
 keep copying while you're brain is (mostly) on autopilot.  I'm always amazed
