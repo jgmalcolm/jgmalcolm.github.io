@@ -352,7 +352,7 @@ There are no wasted words in these vignettes.
 
 **Going too fast.** The more [practice questions][qbanks] I did, the quicker I
 would get, but I also got sloppy.  When I noticed myself not improving and
-making stupid mistakes, I had to slow myself down.
+making stupid mistakes, I had to slow myself down.  Read.  Slower.
 
   [qbanks]: {% post_url 2014-09-29-tactical-test-taking-skills %}#qbanks
   [abnormal-findings]: {% post_url 2014-09-29-tactical-test-taking-skills %}#abnormal-findings
