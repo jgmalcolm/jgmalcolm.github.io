@@ -12,3 +12,15 @@ layout: default
 
 
 {{ content }}
+
+<script>
+$(document).ready(function(){
+
+  /* highlight all code */
+  $("pre").each(function(idx,elem) {
+    $(elem).addClass("z80asm");
+    hljs.highlightBlock(elem);
+  });
+
+});
+</script>

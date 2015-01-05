@@ -68,11 +68,6 @@
 
 <script>
 $(document).ready(function(){
-  /* highlight all code */
-  $("pre").each(function(idx,elem) {
-    $(elem).addClass("z80asm");
-    hljs.highlightBlock(elem);
-  });
 
   /* hover anchor tags on all headers */
   $(".content :header").each(function(i, el) {
@@ -88,6 +83,7 @@ $(document).ready(function(){
   if (broken) {
     $(document.body).append("<span style='position:fixed;width:100%;top:0;color:red;background-color:yellow'>Broken:<br> " + broken + "</span>");
   }
+
 });
 
 /* remove click delays on mobile */
