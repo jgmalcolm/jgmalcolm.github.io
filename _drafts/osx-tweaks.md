@@ -3,9 +3,8 @@ title: "Mac OS X Tweaks"
 tags: tools
 ---
 
-Some tweaks to get rid of Mac OSX animations and make the UI feel a little
-snappier.  Copy and paste these into your terminal (`#` lines are ignored
-comments).
+Some tweaks to get rid of a few Mac OSX window animations for a snappier feel.
+Copy and paste these into your terminal (`#` lines are ignored comments).
 
     defaults write -g NSAutomaticWindowAnimationsEnabled -bool NO; killall Dock
     defaults write -g NSToolbarFullScreenAnimationDuration -float 0
