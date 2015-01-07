@@ -41,15 +41,20 @@ question and the immediate emotional and intellectual feedback of seeing the
 answer helps solidify the knowledge. It's important that you commit to an
 answer so you increase the emotional charge in the event you're wrong.  Giving
 up and guessing is less emotional; it's better to convince yourself of one
-answer, commit, and click submit.  I often find myself wanting to look up a
-fact in the textbook before clicking submit, but that lessens the emotional
-payoff.  **Don't look things up in your textbooks before committing to an
-answer.** It's better to think of what specific information you want to look
-up and how that factors into the answer choices.  That way, when you do get to
-see the explanation, you really drive home the critical details you were
-missing.  It's best to commit to an answer, let the chips fall, and use that
-energy to understand the correct answer.  Don't worry about getting a low
-score from wrong answers: the only scores that matters is the real exam.
+answer, commit, and click submit. One trap I stumbled into is that even when I
+got a question right but just barely, I found I got sloppy in reading through
+the explanation.  In many cases it would have been better had I got the answer
+wrong to grab my attention and drive me to achieve understanding.
+
+**Commit to an answer before looking anything up.** I often find myself
+wanting to look up a fact in the textbook before clicking submit, but that
+lessens the emotional payoff.  It's better to think of what specific
+information you want to look up and how that factors into the answer choices.
+That way, when you do get to see the explanation, you really drive home the
+critical details you were missing.  It's best to commit to an answer, let the
+chips fall, and use that energy to understand the correct answer.  Don't worry
+about getting a low score from wrong answers: *the only score that matters is
+the real exam*.
 
 There's some evidence that if you take a pretest before you've even been
 exposed to material, [you'll do better][failing] when it comes to the actual
@@ -71,16 +76,18 @@ you over-thinking the question, ie. adding unnecessary "logical" steps to
 justify the wrong answer?  Critically investigate what you are missing and
 where you went off track.
 
-Practice these techniques below so they’re second nature and you kill bad
-habits.  But techniques will only tweak your performance.  There are no true
-shortcuts on these exams and these techniques only work when you already have
-the core knowledge.
-
-Doing more questions can also perpetuate bad habits.  If you stop improving or
-regress in performance, it's a sign you're developing sloppy habits like
+**Doing more questions can also perpetuate bad habits.** If you stop improving
+or regress in performance, it's a sign you're developing sloppy habits like
 [not reading the entire question](#read) or
 [not paying attention to every lab value mentioned](#abnormal-findings). Investigate
 why you're choosing wrong answers to see a pattern emerges.
+
+Practice until these techniques are second nature and you've killed bad
+habits.  Techniques will only incrementally improve your performance.  There
+are no true shortcuts on these exams and these techniques only work when you
+already have the core knowledge.
+
+
 
 
 ## First sentence, last sentence
