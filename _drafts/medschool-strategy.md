@@ -457,14 +457,39 @@ self-assessment make the difference.
 
 
 
-# Not Studying
+# When studying
 
-- Sleep.  Decrease stress and let your brain process the info you've fed it.
-- Exercise.  Decrease stress, release energy.
-- Your breaks should revive you. While studying, make a list of what you are
-  looking forward to doing during your next break.  Plan fun things to look
-  forward to.
-- Your breaks should be short.  Many times my 15min break would easily stretch
-  to 30, 45min.  Set a timer to kick you back in to gear when the time comes.
+- **Control your environment, or it will control you.** If there's something
+  distracting, get rid of it.  If you are at a coffee shop distracted by
+  someone nearby, move your table or move to a different area.  If you're
+  attention keeps drifting to something outside the window, draw the shades or
+  move locations.  If you keep getting the impulse to check the news,
+  [block the website][focus].  Move to a high traffic location where fellow
+  students can see over your shoulder that you're goofing off.  Erect whatever
+  barriers are necessary to make studying the easy road.
+- **Unload distractions.** If you realize you need to do laundry, don't.
+  Instead, write that on a piece of paper for something to do during your
+  upcoming break.  Anything that is on your mind that's not about studying,
+  simply write it on this list to think about later.  The simple act of
+  writing something down and pushing that aside helps me de-clutter my mind.
+  When a distracting urge rises up, learn to say "No" to yourself.
+- **Be disciplined about short breaks.** Many times my 15min break would
+  easily stretch to 30, 45min.  Set a timer to kick you back in to gear when
+  the time comes.
+- **Use your breaks to re-energize.** While studying, make a list of what you
+  are looking forward to doing during your next break.  Plan fun things to
+  look forward to.
+
+
+  [focus]: {% post_url 2014-05-07-top-students %}#focus
+
+
+# When Not Studying
+
+- **Sleep.**  Decrease stress and let your brain process the info you've fed it.
+- **Exercise.** Decrease stress, release energy.
+
+
+
 
 {% include gallery.html %}
