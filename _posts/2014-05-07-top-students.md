@@ -120,15 +120,19 @@ what are the high yield topics.
 Making a study guide is a good start, but you need to circle back to study
 that study guide.  Not only that, when you circle back matters.  Knowledge
 tends to drop off on a curve: 1hr spent reviewing 24hrs after lecture is more
-effective than 1hr spent 5 days later.  [Spaced Repetition][wiki-sr] is a
-technique that attempts to model this timing to queue up review items when
-most effective.  There are great flashcard systems like [Anki] that implement
-these models and provide cute graphs and numbers so you can
-[gamify learning][gamify].  For standardized classes, chances are someone
-[already created the deck][decks] you want to study,
-e.g. [med school boards][usmle].  Read more about [incremental learning],
-[spaced repetition][gwern], and [best practices][20 rules] for making
-notecards.
+effective than 1hr spent 5 days later.
+
+[Spaced Repetition][wiki-sr] is a technique that attempts to model this timing
+to queue up review items when most effective.  Simply reviewing your books and
+notes from the first page onward is terribly inefficient; spaced repetition
+algorithms optimize your review schedule.
+
+There are great flashcard systems like [Anki] that implement these models and
+provide cute graphs and numbers so you can [gamify learning][gamify].  For
+standardized classes, chances are someone [already created the deck][decks]
+you want to study, e.g. [med school boards][usmle].  Read more about
+[incremental learning], [spaced repetition][gwern], and
+[best practices][20 rules] for making notecards.
 
 [wiki-sr]: https://en.wikipedia.org/wiki/Spaced_repetition
 [gwern]: http://www.gwern.net/Spaced%20repetition

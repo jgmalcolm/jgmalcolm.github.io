@@ -121,7 +121,9 @@ depend on your weaknesses and learning style.
 * Flashcard software prepoplated with STEP1 material (a combination of First
   Aid, Goljan, etc.)
 * [Spaced repetition][spaced repetition] algorithm to optimize when to review
-  what information
+  what information.  Simply reviewing your books and notes from the first page
+  onward is terribly inefficient; spaced repetition algorithms optimize your
+  review schedule.
 * As you cover material (daily) you add it to the question pool (flag it).
 * The "practice simulations" are very low quality; stick to Rx/Kaplan/UWorld
 * Learn the keyboard shortcuts (when you're doing a quiz, there's a little
