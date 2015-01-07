@@ -302,8 +302,8 @@ My advisors provided excellent guidance and support in both life and academia:
 most superb scientists I have ever worked with:  [Tony Yezzi][],
 [Patricio Vela][], and [Sylvain Bouix][].  I worked and shared an office with
 some amazing friends: [Gallagher Pryor][], [John Melonakos][],
-[Shawn Lankton][], Rome Sandhu, and more.  Afterward I had the opportunity to
-focus on diffusion MRI as a research fellow at
+[Shawn Lankton][], Rome Sandhu, [Matt Might][], and more.  Afterward I had the
+opportunity to focus on diffusion MRI as a research fellow at
 [Brigham and Women's Hospital][pnl].  You can see more about the
 [techniques][projects] and [papers][] we developed.
 
@@ -315,6 +315,7 @@ computing.
 After all that, I'm now pursuing a lifelong dream as a medical student in
 Atlanta.
 
+[Matt Might]: http://matt.might.net
 [Yogesh Rathi]: http://pnl.bwh.harvard.edu/people/profiles/rathi.html
 [Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
 [Tony Yezzi]: http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=116
