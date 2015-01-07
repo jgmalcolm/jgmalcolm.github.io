@@ -148,7 +148,8 @@ learning point forces you to synthesize a precise factoid suitable for
 cerebral storage.** If you got a question right but just barely, consider
 recording the learning point to solidify your thinking.  Just as you take
 notes while you're studying lectures, treat question banks as study time and
-take a few *simple* notes.  Don't waste time making this pretty.
+take a few *simple* notes.  Don't waste time making these notes pretty.  Every
+day you start with a new page and blank slate.
 
 Instead of simply stating the correct answer or tested fact, put it in
 contrast with the wrong answer you picked, eg. differential diagnosis.
@@ -156,6 +157,10 @@ contrast with the wrong answer you picked, eg. differential diagnosis.
 This process will seem to slow you down, but it'll quickly pay dividends as
 you speed up.  As your knowledge base grows you'll pick up speed because
 you'll record fewer learning points and you'll answer questions faster.
+
+To avoid clutter and save time, avoid writing things you already solidly know.
+Instead, just let your mind stew on the concept for a moment to reinforce
+those neurons before moving along.
 
 > Read more:
 > [MedSchoolTutors: Creating a UWorld Journal](http://www.medschooltutors.com/blog/the-uworld-journal-how-i-scored-a-263-on-the-usmle-step-1)

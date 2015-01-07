@@ -41,7 +41,7 @@ excuses and instead turn them into inspiration.  So what if they are better?
 That's got nothing to do with your success but relying on excuses is one way
 to guarantee failure.
 
-## Focus
+## Focus  {#focus}
 
 Top students don't endlessly peruse their Facebook feed several times an hour.
 Your job is to learn.  Your job is not to check email.  You're not going to
