@@ -516,7 +516,7 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
 * A companion to First Aid for STEP1, but this is a learning tool.
 * Covers all basic science in First Aid, but is due for an update compared to FA.
-* You could probably get buy purchasing this instead of the random specialized
+* You could probably get by purchasing this instead of the random specialized
   and overly-detailed books that professors recommend.  The exception is
   Lilly's [Pathophysiology of Heart Disease][Lilly], an absolutely fantastic
   text for your cardiology module.
