@@ -223,9 +223,9 @@ tr.header {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: #eef;
+  background-color: #eee;
   border: #888 1px solid;
-  border-radius: 7px;
+  border-radius: 4px;
 }
 
 
