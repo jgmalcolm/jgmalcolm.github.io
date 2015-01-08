@@ -115,7 +115,7 @@ what are the high yield topics.
  [r/medicalschool]: http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently/
 
 
-## Spaced repetition
+## Spaced repetition  {#spaced-repetition}
 
 Making a study guide is a good start, but you need to circle back to study
 that study guide.  Not only that, when you circle back matters.  Knowledge

@@ -385,18 +385,23 @@ should be much simpler than your textbooks and review.  Only record 1-2 key
 distinguishing facts.  Those key facts will jog your memory of additional
 ancillary facts.
 
-Keep this all bound, in order (dated) in a
-notebook so you can flip back ("Oh, I remember that from last week ... let me
-find that ...").
-
 When you revisit a topic, try to reproduce (redraw) as much as you can from
 memory.  Resist the urge to immediately flip back in your notes.  Every time
 you stretch your recall, it strengthens those neurons.  Every time you redraw
-a diagram, you'll get faster.
+a diagram, you'll get faster.  I was dumb as bricks when it came to metabolic
+biochemistry.  Repeatedly redrawing metabolic pathways was the only way I
+could get it through my thick skull.
 
-I was dumb as bricks when it came to metabolic biochemistry.  Repeatedly
-redrawing metabolic pathways was the only way I could get it through my thick
-skull.
+
+Keep this all bound, in order (dated) in a notebook so you can flip back ("Oh,
+I remember that from last week ... let me find that ...").  At the start of
+each day's study session, skim your pages from yesterday or the day before.
+Since these notes are all the things you got wrong or want to remember, this
+is like a poor man's version of [spaced repetition][].
+
+ [spaced repetition]: {% post_url 2014-05-07-top-students }#spaced-repetition
+
+
 
 
 ## Mnemonics & Memory Scenes
