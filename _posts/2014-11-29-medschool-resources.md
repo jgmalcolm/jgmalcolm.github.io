@@ -494,8 +494,8 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
 
    [anki]: #anki
 
-* Good but you have to spend time populating versus Firecracker which is
-  prepopulated
+* Excellent software and performance feedback graphs, but you have to spend
+  time populating.  Firecracker is prepopulated.
 * Good for hot spot memorization of tables/charts (eg. drugs, cytokines,
   vitamins) but not recommended for general use since pre-populated resources
   exist
@@ -507,11 +507,13 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   [already](https://ankiweb.net/shared/info/1656465381)
   [exist](https://ankiweb.net/shared/info/2445310057) for the
   ["Rapid Review" tables](https://ankiweb.net/shared/info/1014441642) in First
-  Aid
-* Lacks good methods for sharing/updating decks with classmates
+  Aid.
+  [Pharmacology](http://www.yousmle.com/how-to-master-pharmacology-for-the-usmle-step-1-over-a-glass-of-wine/)
+  is one great use for this.
 * Better graphs than Firecracker to chart progress
-* Note bene: Everyone I know who used this eventually abandoned because of
-  time involved in creating and curating decks
+* Downside: Lacks good methods for sharing/updating decks with classmates
+* Everyone I know who used this eventually abandoned because of time involved
+  in creating and curating decks
 
 
 ## [First Aid Basic Sciences]
@@ -584,7 +586,6 @@ studying and productivity in med school.
 * [Sample study schedule](http://www.hopefuldoc.com/step-1-usmle-study-secrets/)
 * [What do your class top 10% do differently?](http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently/) (r/medicalschool)
 * [Score correlation](http://usmle-score-correlation.blogspot.com/)
-* [Pharm with Anki](http://www.yousmle.com/how-to-master-pharmacology-for-the-usmle-step-1-over-a-glass-of-wine/)
 
 
 ### General study methods
