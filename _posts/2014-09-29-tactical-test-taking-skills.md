@@ -83,6 +83,14 @@ or regress in performance, it's a sign you're developing sloppy habits like
 [not paying attention to every lab value mentioned](#abnormal-findings). Investigate
 why you're choosing wrong answers to see a pattern emerges.
 
+**Mark questions valuable to see again.** Doing an entire question bank again
+from scratch is probably not the best use of your time, but some questions
+teach valuable lessons and are worth returning to down the road.  Flag/mark
+such questions for later studies.  But be sure to get everything you can out
+of the explanation in the moment.  Don't mark a question telling yourself
+you'll come back to study it later.  There never is a "later" as the pace of
+life only picks up.
+
 Practice until these techniques are second nature and you've killed bad
 habits.  Techniques will only incrementally improve your performance.  There
 are no true shortcuts on these exams and these techniques only work when you
