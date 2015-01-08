@@ -401,7 +401,7 @@ each day's study session, skim your pages from yesterday or the day before.
 Since these notes are all the things you got wrong or want to remember, this
 is like a poor man's version of [spaced repetition][].
 
- [spaced repetition]: {% post_url 2014-05-07-top-students }#spaced-repetition
+ [spaced repetition]: {% post_url 2014-05-07-top-students %}#spaced-repetition
 
 
 
