@@ -207,7 +207,7 @@ context.  Here are a few classic tip-offs.
    * Greek, Italian - classic Mediterranean patients - B-thalassemia
 * sex - female autoimmune
 * age - diseases sometimes target a rough age range: childhood, middle age, elderly
-   * 1-2 yo boy - think x-linked
+   * 1-2 yo boy - x-linked
 * obese - DM2
 * occupation, home environment - environmental exposure
    * farmer, veterinarian - animal exposure, hypersensitivity to moldy hay
