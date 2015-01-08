@@ -1,6 +1,8 @@
 ---
 title: Med School Strategy
 layout: post
+tags: medicine, studying, STEP1
+keywords: STEP1, USMLE, NBME
 ---
 
 ## Class or No-Class
