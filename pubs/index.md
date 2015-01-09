@@ -36,6 +36,37 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 }
 </pre></div>
 
+<a href="malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
+Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1675, 2010. [<a
+ href="javascript:toggle('malcolm2010tmi')">bib</a>]
+
+<div style="display:none" id="malcolm2010tmi"><pre>
+@article{malcolm2010tmi,
+  author = "J. G. Malcolm and M. E. Shenton and Y. Rathi",
+  title = "Filtered multi-tensor tractography",
+  journal = "IEEE Trans. on Medical Imaging",
+  volume = 29,
+  issue = 9,
+  pages = {1664-1675},
+  year = 2010,
+  doi = {10.1109/TMI.2010.2048121}
+}
+</pre></div>
+
+<a href="malcolm2010diss.pdf">&#8220;Filtered tractography&#8221;</a>, Malcolm, (PhD dissertation), October 2010. [<a href="malcolm2010diss_slides.pdf">slides</a>, <a
+ href="javascript:toggle('malcolm2010diss')">bib</a>]
+
+<div style="display:none" id="malcolm2010diss">
+<pre>@phdthesis{malcolm2010diss,
+  author = "J. G. Malcolm",
+  title = "Filtered tractography",
+  school = "Georgia Institute of Technology",
+  address = "Atlanta, GA",
+  month = October,
+  year = 2010,
+}
+</pre></div>
+
 <a href="http://hal.inria.fr/inria-00559191/PDF/nifibercup_final.pdf">&#8220;Quantitative
  Evaluation of 10 Tractography Algorithms on a Realistic Diffusion MR
  Phantom&#8221;</a>, Fillard, Descoteaux, Goh, Gouttard, Jeurissen, Malcolm,
@@ -71,37 +102,6 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 }
 </pre></div>
 
-
-<a href="malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
-Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1675, 2010. [<a
- href="javascript:toggle('malcolm2010tmi')">bib</a>]
-
-<div style="display:none" id="malcolm2010tmi"><pre>
-@article{malcolm2010tmi,
-  author = "J. G. Malcolm and M. E. Shenton and Y. Rathi",
-  title = "Filtered multi-tensor tractography",
-  journal = "IEEE Trans. on Medical Imaging",
-  volume = 29,
-  issue = 9,
-  pages = {1664-1675},
-  year = 2010,
-  doi = {10.1109/TMI.2010.2048121}
-}
-</pre></div>
-
-<a href="malcolm2010diss.pdf">&#8220;Filtered tractography&#8221;</a>, Malcolm, (PhD dissertation), October 2010. [<a href="malcolm2010diss_slides.pdf">slides</a>, <a
- href="javascript:toggle('malcolm2010diss')">bib</a>]
-
-<div style="display:none" id="malcolm2010diss">
-<pre>@phdthesis{malcolm2010diss,
-  author = "J. G. Malcolm",
-  title = "Filtered tractography",
-  school = "Georgia Institute of Technology",
-  address = "Atlanta, GA",
-  month = October,
-  year = 2010,
-}
-</pre></div>
 
 <a href="others/rathi2010miccai.pdf">&#8220;Biomarkers for
  identifying first-episode schizophrenia patients using diffusion weighted
