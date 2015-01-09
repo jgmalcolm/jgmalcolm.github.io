@@ -1,14 +1,14 @@
 ---
-title: Developing for the TI86 z80
+title: z80 game development
 layout: default
 ---
 
-# Developing z80 assembler
+# z80 game development
 
-This is a collection of tutorials on developing z80 assembler for the TI
-calculators.  While focused on the TI86, much of this applies to any z80-based
-TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was formerly hosted
-as "The Guide" on [TI-Calc.org](//ticalc.org).
+This is a collection of tutorials on developing games in z80 assembler for the
+TI calculators.  While focused on the TI86, much of this applies to any
+z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was
+formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 
 ![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
 
