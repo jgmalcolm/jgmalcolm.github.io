@@ -54,6 +54,9 @@ are those where you simply don't know the facts needed, so you
 [guess intelligently](#guessing).  Second, and likely the majority of
 questions I miss, the ones where I misread the question.  I either skimmed
 quickly past a phrase or I didn't understand the significance of some fact.
+These are the ones where you're reading the explanation and smack your
+forehead.  This goes along with "Read slowly": parse every piece of data for
+its significance.  There are no wasted words in high quality question banks.
 
 **Emotional reactions have a lasting effect on memory.** Wrestling with a
 question and the immediate emotional and intellectual feedback of seeing the
