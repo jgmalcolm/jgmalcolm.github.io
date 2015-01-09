@@ -49,6 +49,12 @@ reading fast to cram more in to your study time, consider simply budgeting
 more study time.  Take a shorter lunch break.  **First gain accuracy, then
 gain speed.**
 
+**Pay attention.** There are two types of questions you miss.  First, there
+are those where you simply don't know the facts needed, so you
+[guess intelligently](#guessing).  Second, and likely the majority of
+questions I miss, the ones where I misread the question.  I either skimmed
+quickly past a phrase or I didn't understand the significance of some fact.
+
 **Emotional reactions have a lasting effect on memory.** Wrestling with a
 question and the immediate emotional and intellectual feedback of seeing the
 answer helps solidify the knowledge. It's important that you commit to an
