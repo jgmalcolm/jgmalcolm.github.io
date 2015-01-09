@@ -46,8 +46,8 @@ reinforcing neural pathways and ultimately to speed up your future reading
 comprehension.  Seek to understand on the first pass.  If you go fast, you'll
 cheat yourself and likely end up re-reading the material anyway.  If you're
 reading fast to cram more in to your study time, consider simply budgeting
-more study time.  Take a shorter lunch break.  First gain accuracy, then gain
-speed.
+more study time.  Take a shorter lunch break.  **First gain accuracy, then
+gain speed.**
 
 **Emotional reactions have a lasting effect on memory.** Wrestling with a
 question and the immediate emotional and intellectual feedback of seeing the
