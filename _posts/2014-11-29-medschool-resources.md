@@ -539,6 +539,10 @@ Goljan's < Robbins & Cotran.  Pathoma is more than enough for STEP1.
   learn.  Instead drill with [Netter Flashcards] and [online videos](#videos)
   so you can pause and memorize as needed.  For each exam, put all the
   relevant cards on the ring and flip through those as you can.
+  * I found that using my own body to learn made the experience more vivid.
+    For example, I would trace the pathway of nerves/arteries/veins on my own
+    body, or watch as I tried to flex specific muscles.  All the while I would
+    be imagining what's going on under the hood.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
