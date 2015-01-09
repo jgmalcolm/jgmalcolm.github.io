@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Grad school: What I wish I did"
+title: "Grad School: What I Wish I Did"
 description: "You're only stupid enough to get a PhD once.  Here are some lessons learned the hard way."
 tags: studying
 ---
