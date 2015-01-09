@@ -43,9 +43,11 @@ mechanism of action.  Even take the time to parse out each syllable in long
 words.  In medicine and science, a lot of meaning is packed into each syllable
 of words like *choledocolithiasis*.  This may all feel slow, but it's
 reinforcing neural pathways and ultimately to speed up your future reading
-comprehension.  If you go fast, you'll cheat yourself and likely end up
-re-reading the material anyway.  Seek to understand on the first pass.  First
-gain accuracy, then gain speed.
+comprehension.  Seek to understand on the first pass.  If you go fast, you'll
+cheat yourself and likely end up re-reading the material anyway.  If you're
+reading fast to cram more in to your study time, consider simply budgeting
+more study time.  Take a shorter lunch break.  First gain accuracy, then gain
+speed.
 
 **Emotional reactions have a lasting effect on memory.** Wrestling with a
 question and the immediate emotional and intellectual feedback of seeing the
