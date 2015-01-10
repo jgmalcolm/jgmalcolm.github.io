@@ -24,18 +24,18 @@ student uses for the boards.
 
   [First Aid]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=first%20aid%20for%20step%201&linkCode=ur2&rh=i%3Aaps%2Ck%3Afirst%20aid%20for%20step%201&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=65ZSHFLD65LXYPVO
 
-* Everything you need to know to pass STEP1.  Not a good primary learning
-  tool, but an excellent outline review.
+* Everyone taking STEP1 purchases a copy of this.
+* Everything you need to know to pass.  Not a good primary learning tool, but
+  an excellent outline review.
 * Often referred to simply as First Aid or FA
-* Every med student will purchase a copy of this.  New editions come out
-  before Christmas.  This is the book you will likely spend the most time with
-  in the months leading up to STEP1.
+* New editions come out every January.  This is the book you will likely spend
+  the most time with in the months leading up to STEP1.
 * Consolidate resources: annotate other resources (Pathoma, Firecracker, etc)
-  into this so you're not spread among five review books.  Don't write every
-  random fact or you'll clutter out the important things.  This book is
-  already distilled down to high concentration; only add a fact if it really
-  helps clarify or was a key to some practice question.
-* You'll definitely want a hard copy to annotate, but also a PDF version for
+  into this so you're not spread among five review books.
+  * Don't write every random fact or you'll clutter out the important things.
+    This book is already distilled down to high concentration; only add a fact
+    if it really helps clarify or was a key to some practice question.
+* You'll definitely want a hard copy to annotate, but also a digital copy for
   text search
 * You're going to spend a lot of time with this book and carry it everywhere
   you go.  Consider cutting off the binding so you can put it into a 3-ring
