@@ -183,10 +183,11 @@ project to make it easier to interact and share scientific ideas.
 
 Any time you're dealing with code -- your own or from a colleague -- you want
 to get that done in source control.  Suppose an older grad student hands you a
-code base, if it wasn't through github or such, them immediately (before you
-make any edits) put the files into a fresh repo.  Unzip and make that the
-initial commit.  Only after that initial commit should you make any changes to
-get the code to run, e.g. changing hard coded values/parameters.
+bunch of code.  If it wasn't through github or such, you should start by
+putting the files into a fresh repo, before you make any edits.  Unzip and
+make that the initial commit.  Only after that initial commit should you make
+any changes to get the code to run, e.g. changing hard coded
+values/parameters.
 
 
 ## Every project needs its own page
