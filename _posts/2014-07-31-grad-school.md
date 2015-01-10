@@ -204,9 +204,8 @@ cited and for others to build upon your results.  When you package up code,
 set it up so it runs right out of the box on some sample image/data.
 
 Make it accessible to the non-technical readers too.  Your research was likely
-funded by taxpayers, so make some effort to dumb it down some.  Make it easy
-for anyone to quickly grasp the importance of your result and the basic
-technique.
+funded by taxpayers, so make some effort to cut out jargon.  Make it easy for
+anyone to quickly grasp the importance of your result and the basic technique.
 
   [spread]: https://hacks.mozilla.org/2013/05/how-to-spread-the-word-about-your-code
   [preston-werner]: http://tom.preston-werner.com/2011/11/22/open-source-everything.html
