@@ -70,7 +70,9 @@ student uses for the boards.
   run up to STEP1.
 * [Record audio] so you can listen while you commute or exercise
 * Combine with [Goljan's lectures][goljan] to get multiple views of key
-  topics.  Sometimes one explains it better than the other.
+  topics.  Sometimes one explains it better than the other.  Goljan gives
+  great cross-cutting explanations, particularly with respect to nutrition and
+  biochemistry, topics Pathoma does not cover.
 * There are
   [other pathology resources to pull from](#other-pathology-resources), but
   Pathoma is the best use of your time
