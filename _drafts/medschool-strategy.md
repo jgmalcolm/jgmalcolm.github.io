@@ -348,7 +348,9 @@ I'd come back to study it later.  The truth: I never would come back.  Fix:
 Study the material immediately while the emotion of a wrong answer is still
 present and you've got the question context in mind.  If you're too tired to
 study the explanations, then you're too tired to do questions.  Either pack it
-in, take a break, or switch to something else like watching Pathoma videos.
+in, take a break, or switch to something else like watching Pathoma videos,
+but don't get in the habit of telling yourself you'll do it tomorrow.
+Tomorrow is always a day away.
 
 **Tunnel vision.** When a patient has presents with systems involving multiple
 systems (renal, muscular, pulmonary), I tended to mistakenly jump at answer
