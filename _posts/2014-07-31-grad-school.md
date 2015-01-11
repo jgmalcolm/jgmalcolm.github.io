@@ -15,7 +15,7 @@ might fall flat.  Grad school is a time to find your own path.
 
 Whatever you do, make sure it's worth it.  You want your time and energy to
 make a difference.  It's so easy to work on projects that are technically
-feasible but have no consequence on the world.  This will be some of the most
+feasible but have no consequence on the world.  These will be some of the most
 focused and productive years of your life, so make them count.
 
 At the start, you're likely to get swept up in some "awesome" project your
@@ -124,7 +124,7 @@ competitors, but I wager you can still put valuable information in the public.
 You'll have some minimal requirements.  Get those out of the way as fast as
 possible.  You will be way more productive once you can spend 100% of your
 brainpower on research, instead of breaking to go to some random class.  At
-this point, with all that's available online, a top student can teach
+this point, with all that's available online, top students can teach
 themselves anything necessary.  Your advisor can point out most of your
 deficiencies; ask her what you should take classes in, and what to avoid.
 
