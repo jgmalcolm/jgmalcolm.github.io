@@ -5,6 +5,26 @@ tags: medicine, studying, STEP1
 keywords: STEP1, USMLE, NBME
 ---
 
+What to study.  How to study it.  How to test.
+
+
+# Determining what is important to study
+
+
+
+# Memorizing
+
+## Spaced repetition
+
+Spaced repetition provides the most efficient schedule for reviewing material,
+but this schedule is separate from *how* you absorb the material.
+
+
+
+# Practice questions
+
+
+
 ## Class or No-Class
 
 * hard to learn from review books
