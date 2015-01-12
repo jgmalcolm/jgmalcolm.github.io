@@ -306,8 +306,6 @@ This patient has lupus.
 
 ## Ruling out answers          {#ruling-out}
 
-Every answer choice was included for a reason.
-
 Never commit to an answer without ruling out other choices.  This will make
 sure you’re not just jumping for a distractor.  Once you rule out a choice,
 you can completely forget about it and focus your attention on comparing the
@@ -317,11 +315,16 @@ Multiple choice tests are as much about knowing the right answer as being able
 to rule out all the wrong answers.  Sometimes you arrive at the right answer
 only because you ruled out all the other choices.
 
-As I got faster, I had the tendency to sometimes rule out answer choices
-quickly because they seemed unrelated.  This was a bad habit because often
-what seemed immediately unrelated was in fact related in an indirect way.  I
-now force myself to consider what each answer choice means and why it was
-included before crossing it out.
+Every answer choice was included for a reason.  Don't just rule something out
+because it simply seems odd.  As I got faster, I had the tendency to sometimes
+rule out answer choices quickly because they seemed unrelated.  This was a bad
+habit because often what seemed immediately unrelated was in fact related in
+an indirect way.  I now force myself to consider what each answer choice means
+and why it was included before crossing it out.  I can catch myself going down
+this path now: when I've ruled out several choices but the remaining choices
+all seem a muddle.  That alerts me to the possibility that I've ruled out the
+correct answer, and so I backtrack a little to reevaluate anything I didn't
+carefully consider before crossing it out.
 
 If you're unsure, skip that choice for a moment and continue evaluating the
 other choices.  Sometimes the other choices will shed light on the one you
