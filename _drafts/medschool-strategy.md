@@ -443,6 +443,7 @@ is like a poor man's version of [spaced repetition][].
   - memory scenes
     - TED talk
     - Sketchy Micro, Picmonic
+    - http://www.wikihow.com/Build-a-Memory-Palace
     - http://immense-immunology-insight.blogspot.in/
 
 
