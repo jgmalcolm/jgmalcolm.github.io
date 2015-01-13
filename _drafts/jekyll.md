@@ -10,3 +10,9 @@ tags: jekyll, markdown
 - undated posts
 - highlighting broken markdown links
 - FastClick
+
+
+
+# Blogging
+
+Steve Yegge ["You Should Write Blogs"](https://sites.google.com/site/steveyegge2/you-should-write-blogs)
