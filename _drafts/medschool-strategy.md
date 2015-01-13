@@ -431,6 +431,14 @@ is like a poor man's version of [spaced repetition][].
  [spaced repetition]: {% post_url 2014-05-07-top-students %}#spaced-repetition
 
 
+<figure class="gallery thumb">
+  <a href="/images/scratch.jpg" data-gallery="scratch"
+     title="Quick, simple scratch notes on key facts.  No time for pretty.">
+    <img src="/images/scratch.jpg">
+  </a>
+  <figcaption>Quick, simple scratch notes on key facts.  No time for pretty.</figcaption>
+</figure>
+
 
 
 ## Mnemonics & Memory Scenes
