@@ -294,9 +294,9 @@ now.  Work on another later.
     title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
       <img src="/images/cascade.jpg"></a>
 
-  <figcaption>Just look at that chicken scratch diagram of the coagulation
-  cascade.  Lacking some details and not something I'd put on the
-  refrigerator, but at least I now know the basic cascade.</figcaption>
+  <figcaption>A chicken scratch diagram of the coagulation cascade.  Lacking
+  some details and not something I'd put on the refrigerator, but at least I
+  now know the basic cascade.</figcaption>
 
   </figure>
 </div>
@@ -421,7 +421,6 @@ a diagram, you'll get faster.  I was dumb as bricks when it came to metabolic
 biochemistry.  Repeatedly redrawing metabolic pathways was the only way I
 could get it through my thick skull.
 
-
 Keep this all bound, in order (dated) in a notebook so you can flip back ("Oh,
 I remember that from last week ... let me find that ...").  At the start of
 each day's study session, skim your pages from yesterday or the day before.
@@ -429,16 +428,6 @@ Since these notes are all the things you got wrong or want to remember, this
 is like a poor man's version of [spaced repetition][].
 
  [spaced repetition]: {% post_url 2014-05-07-top-students %}#spaced-repetition
-
-
-<figure class="gallery thumb">
-  <a href="/images/scratch.jpg" data-gallery="scratch"
-     title="Quick, simple scratch notes on key facts.  No time for pretty.">
-    <img src="/images/scratch.jpg">
-  </a>
-  <figcaption>Quick, simple scratch notes on key facts.  No time for pretty.</figcaption>
-</figure>
-
 
 
 ## Mnemonics & Memory Scenes
