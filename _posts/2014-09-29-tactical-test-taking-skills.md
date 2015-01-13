@@ -332,7 +332,9 @@ and why it was included before crossing it out.  I can catch myself going down
 this path now: when I've ruled out several choices but the remaining choices
 all seem a muddle.  That alerts me to the possibility that I've ruled out the
 correct answer, and so I backtrack a little to reevaluate anything I didn't
-carefully consider before crossing it out.
+carefully consider before crossing it out.  If you're finding that you're
+often ruling out the correct answer, you need to slow down and be more sure
+before ruling things out.
 
 If you're unsure, skip that choice for a moment and continue evaluating the
 other choices.  Sometimes the other choices will shed light on the one you
