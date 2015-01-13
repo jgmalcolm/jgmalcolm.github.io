@@ -188,6 +188,14 @@ notes while you're studying lectures, treat question banks as study time and
 take a few *simple* notes.  Don't waste time making these notes pretty.  Every
 day you start with a new page and blank slate.
 
+<figure class="gallery thumb">
+  <a href="/images/scratch.jpg" data-gallery="scratch"
+     title="Quick, simple scratch notes on key facts.  No time for pretty.">
+    <img src="/images/scratch.jpg">
+  </a>
+  <figcaption>Quick, simple scratch notes on key facts.  No time for pretty.</figcaption>
+</figure>
+
 Instead of simply stating the correct answer or tested fact, put it in
 contrast with the wrong answer you picked, eg. differential diagnosis.
 
@@ -482,3 +490,6 @@ choice in turn will help you squeeze out these sloppy errors.
 *Thanks to my classmates Ming Lee, [Erik Reinertsen](//erikreinertsen.com),
  [Evan McClure](//twitter.com/evan_mcclure), Juan-Manuel Duran, Jason Boulter,
  and LeslieAnn Kao for discussions.*
+
+
+{% include gallery.html %}
