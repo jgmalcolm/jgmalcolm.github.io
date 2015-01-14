@@ -258,6 +258,32 @@ context.  Here are a few classic tip-offs.
    * unvaccinated, endemic disease (late manifestations), lack of newborn screening
 
 
+## Beyond Buzzwords
+
+Initially you'll get really good at recognizing pathognomonic phrases for
+symptoms.  These buzzwords are concise ways of communicating often complicated
+pathophysiology.  But learning buzzwords will only get you so far, and soon
+you'll plateau when you hit questions without these classic phrases.
+
+**Alternative descriptions.** Instead of telling you "patient complains of
+dyspnea", the question indirectly describe that the "patient is winded during
+regular daily activities."  As you do more and more questions, you'll learn
+all these alternative descriptions for common findings.
+
+**Understand what they're telling you.** To go to the next level, you need to
+recognize what the question is trying to tell you.  You need to categorize
+multiple physical findings into their underlying pathophysiology so you see
+through the buzzwords.
+
+> Patient presents with history of dyspnea, orthopnea, and ankle swelling.
+
+What that means:
+
+> Patient presents with signs of both left-sided heart failure (dyspnea,
+> orthopnea) and right-sided heart failure (ankle swelling).
+
+
+
 ## Avoid outliers
 
 When one answer is totally different than the others, it's likely a distractor.
