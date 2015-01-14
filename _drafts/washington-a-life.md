@@ -28,6 +28,13 @@ by Ron Chernow
   currency made it more difficult for him to collect on the debts he was owed
   by land tenants and such.
 
+* During the revolution, each state went into debt, both domestic and foreign.
+  Alexander Hamilton, the first Treasury Secretary, proposed the federal
+  government assume all state debt.  Having just thrown off one tyrannical
+  government, many states feared now being indebted to a new master, but
+  ultimately the plan prevailed.  The most important effect of pooling debt in
+  this new government was to bind the states into a union under one bank.
+
 
 
 ## Discipline
@@ -95,8 +102,8 @@ that so changed NYC.
 > the newspaper or from sermons on Sunday evenings or join in a game of cards
 > or backgammon.
 
-Not too long ago, Man's activities were in sync with the Sun's rise and fall.
-Of course, electricity and the light bulb changed all that.
+Not too long ago, our activities were in sync with the rise and fall of the
+Sun.  Of course, electricity and the light bulb changed all that.
 
 Washington was the original
 [quantified self](https://en.wikipedia.org/wiki/Quantified_Self):
@@ -115,19 +122,6 @@ Washington was the original
 > he leads,” wrote John Hancock's nephew after a visit to Mount
 > Vernon. “Everything he does is by method of system . . . He keeps a journal
 > where he records everything . . . he is a model of the highest perfection.”
-
-> As in other walks of life, Washington exhibited to a clockwork order in his
-> daily routine and employed his time economically. There is poetic justice in
-> the fact that when the capital shifted to Philadelphia, he often stopped at
-> his watchmaker on his daily constitutionals. One British diplomat observed
-> of Washington that “his time is regularly divided into certain portions and
-> the business allotted to any one portion strictly adhered to.” When he
-> settled upon weekly levees, Tobias Lear noted that they would allow “a
-> sufficient time for dispatching the business of the office” and give
-> “dignity to the president by not obliging him to expose himself every day to
-> impertinent and curious intruders.”
-
-
 
 
 
