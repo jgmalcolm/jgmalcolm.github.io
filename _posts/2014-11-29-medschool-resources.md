@@ -150,7 +150,9 @@ depend on your weaknesses and learning style.
   other resources in this list.  They listen to customer feedback and daily
   make edits and improvements.
 * I probably spent half of my pre-boards time in medical school learning with
-  Firecracker. Read more on [how I use Firecracker][firecracker use].
+  Firecracker, although for various reasons, I would not spend that much time
+  if I had to do it again.  Read more on
+  [how I use Firecracker][firecracker use].
 * Ken Noguchi writes about [his use of Firecracker](http://sidenotelife.tumblr.com/post/88788673049/ken-explains-studying-in-med-school-a-year-long).
   The Firecracker blog has a lot of (biased?)
   [case](http://blog.firecracker.me/2013/06/18/how-to-score-a-266-on-usmle-step-1)
