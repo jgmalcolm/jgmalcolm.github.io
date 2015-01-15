@@ -4,14 +4,14 @@ title: "Washington: A Life"
 tag: books
 ---
 
-<img class="bookcover" src="/images/books/washington.jpg"> George Washington
-was a British officer, the commanding general in the American Colonial
-Revolution, reluctant political figure, and by his actions defined the role of
-President of the United States.
+<figure class="thumb">
+  <img src="/images/books/washington.jpg">
+  <figcaption>'Washington: A Life' by Ron Chernow</figcaption>
+</figure>
 
-Amazon:
-['Washington: A Life'](http://www.amazon.com/Washington-A-Life-Ron-Chernow/dp/0143119966)
-by Ron Chernow
+George Washington was a British officer, the commanding general in the
+American Colonial Revolution, reluctant political figure, and by his actions
+defined the role of President of the United States.
 
 ## Talking Points
 

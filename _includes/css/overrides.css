@@ -58,13 +58,6 @@ figcaption {
   color: #444;
 }
 
-.content img.bookcover {
-    margin: 15px;
-    float: right;
-    max-width: 30%;
-}
-
-
 .blueimp-gallery > .close,
 .blueimp-gallery > .title {
   background: black;
