@@ -1,15 +1,14 @@
 ---
-title: "Memory Scenes & Palaces: Memorize Anything"
+title: "Memorize Anything"
 layout: post
-description: "Simple rules for creating effective memory scenes and palaces to memorize anything."
+description: "Simple steps for creating effective memory scenes and palaces to memorize anything."
 tags: studying
 ---
 
 # Simple rules
 
 * Similar sounding.
-  * Pick among the first few things that immediately pop into your head.  Run
-    with it.
+  * Pick among the first few things that immediately pop into your head.
   * Examples
     * Penicillamine - pencil
 
@@ -25,6 +24,9 @@ tags: studying
     * bad: Picmonic VHDL
 
 * Sequences require a palace to provide order.
+
+* Develop a basic number set
+
 
 
 # Let's try it
