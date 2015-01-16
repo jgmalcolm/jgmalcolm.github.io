@@ -3,6 +3,7 @@ title: "Memorize Anything"
 layout: post
 description: "Simple steps for creating effective memory scenes and palaces to memorize anything."
 tags: studying
+keywords: memory palace, memory scene, method of loci
 ---
 
 # Simple rules
