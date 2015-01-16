@@ -419,7 +419,9 @@ you have to email Kaplan to delete these tests.
   * Both provide about the same level of post-test analysis.
 * **Rx has a better user interface.**
   * Rx is a clear winner here: smooth web interface (HTML), but poor iOS app.
-  * Kaplan has a terrible interface (Flash) and even worse iOS app.
+  * Kaplan has a terrible interface (Flash) and even worse iOS app.  If I had
+    a nickle for every time Kaplan froze or logged me out, I'd have bought a
+    lot of coffees.
 
 Ultimately, I ended up using both qbanks a lot because I found it great to see
 information from multiple perspectives.  I used Rx mostly during the school
