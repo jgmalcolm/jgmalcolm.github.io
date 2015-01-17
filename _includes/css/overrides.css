@@ -1,15 +1,15 @@
 html {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'PT Serif', serif;
 }
 h1.title {
   font-size: 2rem;
-  letter-spacing: -3px;
 }
 h1,h2,h3,h4 {
+  font-family: 'PT Sans Narrow', sans-serif;
   font-weight: bold;
 }
 code, pre {
-  font-family: 'Source Code Pro', monospace;
+  font-family: Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 }
 body {
     color: #222;
