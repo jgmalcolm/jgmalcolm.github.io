@@ -373,6 +373,19 @@ Once you've narrowed down to two answers, ask yourself **"What is different
 between these choices?"** and then look back in the scenario for specific
 clues.
 
+**When faced with an unfamiliar answer choice.** Forget about it for the
+moment, and focus only on the answer choices you do know, the ones that you
+are capable of ruling out with your knowledge base.  Only pick that unfamiliar
+choice if you can be reasonably confident in ruling out the other choices you
+know about.  Suppose you've ruled out all but the unfamiliar and one that is
+familiar, but you're uncomfortable with that familiar one.  Resist the urge to
+simply guess the unfamiliar one as a way out; that's a baseless guess.  Think
+critically about the one you do know and use that as the basis of your
+decision to rule that known answer in or out.  Be careful that you don't *read
+meaning* into the unknown answer, i.e. project onto it what you think it might
+mean when you truly have no basis.
+
+
 
 ## Guessing intelligently {#guessing}
 
