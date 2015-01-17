@@ -12,6 +12,8 @@ tags: jekyll, markdown
 - FastClick
 
 
+https://mademistakes.com/articles/going-static/
+
 
 # Blogging
 
