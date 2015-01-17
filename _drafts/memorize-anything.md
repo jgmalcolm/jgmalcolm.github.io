@@ -24,13 +24,18 @@ keywords: memory palace, memory scene, method of loci
   * Example
     * bad: Picmonic VHDL
 
+# Sequences require a Memory Palace
+
 * Sequences require a palace to provide order.
+* Location you're very familiar with (home)
+  * Separate rooms and physical space to avoid crowding
+
 
 * Develop a basic number set
 
 
 
-# Let's try it
+# Some examples
 
 * Drug associations
 * Metabolic pathways
