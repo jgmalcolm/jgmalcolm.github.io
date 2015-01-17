@@ -386,6 +386,13 @@ meaning* into the unknown answer, i.e. project onto it what you think it might
 mean when you truly have no basis.
 
 
+**Practice good habits.** Practicing good habits will see your score continue
+to rise as you accumulate the information and learn better how to apply it.
+If your score has plateaued, then you need to take a close look at what habits
+you're practicing.  Don't rush: start slow to gain accuracy and build
+execution speed later.
+
+
 
 ## Guessing intelligently {#guessing}
 
