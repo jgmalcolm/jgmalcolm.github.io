@@ -588,8 +588,7 @@ studying and productivity in med school.
   studying in med school
 * [Erik Reinertsen](http://erikreinertsen.com/step1-usmle/) describes his approach in the weeks leading up
 * [Ken Noguchi on STEP1](http://sidenotelife.tumblr.com/post/88788673049/ken-explains-studying-in-med-school-a-year-long) -
-  covering his use of Firecracker, Pathoma, and UWorld over the course of a
-  year
+  covering his experience with Firecracker, Pathoma, and UWorld
 * [A Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
 * [How To Study in Medical School](http://www.dysgraphicmusings.com/2013/11/how-to-study-in-medical-school.html)
 * [USMLE Gunner](http://www.usmlegunner.com)
