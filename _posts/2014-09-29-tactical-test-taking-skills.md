@@ -283,6 +283,20 @@ What that means:
 > orthopnea) and right-sided heart failure (ankle swelling).
 
 
+## Histology
+
+Most histology looks like a mess at first, but you should always start at the
+center and try to identify what you're seeing.  The "area of interest" will
+not be on the periphery; it will be near the center.
+
+Look for characteristic features:
+
+* Eosinophils (bilobed)
+* Neutrophils (3-5 lobes)
+* Macrophages (large, multiple nuclei)
+* Auer rods (acute myelogenous leukemia)
+* Granulomatas (pink)
+
 
 ## Avoid outliers
 
