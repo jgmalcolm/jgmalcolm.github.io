@@ -287,7 +287,11 @@ What that means:
 
 Most histology looks like a mess at first, but you should always start at the
 center and try to identify what you're seeing.  The "area of interest" will
-not be on the periphery; it will be near the center.
+not be on the periphery; it will be near the center.  Literally put your
+finger in the exact center and scan that square centimeter for what is of
+interest.  If you see something funny in the periphery that's not also found
+in the center, then ignore it.  Ask yourself what you expect to see, eg. the
+esophagus is nonkeratinized (stratified) squamous epithelium.
 
 Look for characteristic features:
 
