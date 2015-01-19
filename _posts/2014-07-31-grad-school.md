@@ -270,6 +270,7 @@ Hamming:
 
 ## Thesis
   - repurpose the intro into book chapters (advisor connections)
+  - get it bound
 
 ## Defense
 
