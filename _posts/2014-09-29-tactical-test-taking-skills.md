@@ -556,9 +556,10 @@ before you click submit.  Forcing yourself to address each (incorrect) answer
 choice in turn will help you squeeze out these sloppy errors.
 
 
-*Thanks to my classmates Ming Lee, [Erik Reinertsen](//erikreinertsen.com),
- [Evan McClure](//twitter.com/evan_mcclure), Juan-Manuel Duran, Jason Boulter,
- and LeslieAnn Kao for discussions.*
+*Many thanks to my classmates Ming Lee,
+[Erik Reinertsen](//erikreinertsen.com),
+[Evan McClure](//twitter.com/evan_mcclure), Juan-Manuel Duran, Jason Boulter,
+and LeslieAnn Kao for discussions.*
 
 
 {% include gallery.html %}
