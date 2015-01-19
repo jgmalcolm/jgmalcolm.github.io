@@ -38,16 +38,16 @@ how they relate, an experience that you only get from working through
 questions that put these random facts in context and draw contrasts.
 
 **Read slowly.** Don't just read and nod along but parse the meaning of each
-sentence.  Make sure you understand each step of the pathophysiology or
-mechanism of action.  Even take the time to parse out each syllable in long
-words.  In medicine and science, a lot of meaning is packed into each syllable
-of words like *choledocolithiasis*.  This may all feel slow, but it's
-reinforcing neural pathways and ultimately to speed up your future reading
-comprehension.  Seek to understand on the first pass.  If you go fast, you'll
-cheat yourself and likely end up re-reading the material anyway.  If you're
-reading fast to cram more in to your study time, consider simply budgeting
-more study time.  Take a shorter lunch break.  **First gain accuracy, then
-gain speed.**
+and every single sentence.  Make sure you understand each step of the
+pathophysiology or mechanism of action.  Even take the time to parse out each
+syllable in long words.  In medicine and science, a lot of meaning is packed
+into each syllable of words like *choledocolithiasis*.  This may all feel
+slow, but it's reinforcing neural pathways and ultimately to speed up your
+future reading comprehension.  Seek to understand on the first pass.  If you
+go fast, you'll cheat yourself and likely end up re-reading the material
+anyway.  If you're reading fast to cram more in to your study time, consider
+simply budgeting more study time.  Take a shorter lunch break.  **First gain
+accuracy, then gain speed.**
 
 **Pay attention.** There are two types of questions you miss.  First, there
 are those where you simply don't know the facts needed, so you
