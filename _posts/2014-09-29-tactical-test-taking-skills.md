@@ -512,18 +512,21 @@ don't have the knowledge to answer, and those that you'll end up pondering.
 Every question is worth the same as every other question, so you can be
 strategic about how you spend your time and energy.
 
+First calculate your benchmark time per question: test is X minutes with Y
+questions, so you need to average (X/Y) per question.
+
 For the easy bread-and-butter questions, answer them immediately to lock in
-the majority of your points.  Mark and skip any question that requires more
-than a minute of thought or where you simply don't have the requisite
-knowledge.
+the majority of your points.
+
+Some questions you simply won't have a clue about because you're lacking the
+requisite knowledge.  It's a death trap to fritter away your time on these.
+[Narrow it down to 2-3 choices](#ruling-out) and [guess](#guessing).  You want
+to avoid the situation where you've got 10 minutes left but 20 questions, and
+so you make sloppy mistakes on easy ones.
 
 For these marked questions, go carefully and spend the time.  These questions
 will make the difference between pass and high pass.
 
-It's a death trap to fritter away your time on questions you'll ultimately
-guess on.  [Narrow it down to 2-3 choices](#ruling-out) and
-[guess](#guessing).  You want to avoid the situation where you've got 10
-minutes left but 20 questions, and so you make sloppy mistakes on easy ones.
 
 
 ## Read the entire question carefully.  {#read}
