@@ -44,7 +44,7 @@
 {% if keywords.size > 0 %}
 <meta name="keywords" content="{{ keywords }}" />
 {% endif %}
-{% if page.photo %}<meta property="og:image" content="{{ page.photo }}" />{% endif %}
+{% if page.photo %}<meta property="og:image" content="{{site.url}}{{page.photo}}" />{% endif %}
 <meta property="og:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:type" content="article" />
@@ -57,7 +57,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@jgmalcolm" />
 <meta name="twitter:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
-{% if page.photo %}<meta property="twitter:image" content="{{ page.photo }}" />{% endif %}
+{% if page.photo %}<meta name="twitter:image" content="{{site.url}}{{page.photo}}" />{% endif %}
 <meta name="twitter:title" content="{{ title }}" />
 <meta name="twitter:description" content="{{ description }}" />
 <meta name="twitter:url" content="{{ url }}" />
