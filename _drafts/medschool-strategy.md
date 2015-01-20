@@ -3,6 +3,7 @@ title: Med School Strategy
 layout: post
 tags: medicine, studying, STEP1
 keywords: STEP1, USMLE, NBME
+photo: /images/cascade.jpg
 ---
 
 What to study.  How to study it.  How to test.

@@ -2,6 +2,7 @@
 layout: post
 title: "Washington: A Life"
 tag: books
+photo: /images/books/washington.jpg
 ---
 
 <figure class="thumb">

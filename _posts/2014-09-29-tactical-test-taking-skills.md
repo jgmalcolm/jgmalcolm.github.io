@@ -4,6 +4,7 @@ title: "Tactical Test-Taking Strategies"
 description: "Lessons learned from taking thousands of multiple choice questions."
 tags: medicine, studying, STEP1
 keywords: STEP1, USMLE, NBME
+photo: /images/scratch.jpg
 ---
 
 Med school is all test after test after test, and so a little over a year into
