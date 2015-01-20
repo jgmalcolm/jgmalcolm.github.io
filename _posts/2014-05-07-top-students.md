@@ -1,7 +1,7 @@
 ---
 title: "Top Students: What do they do differently?"
 layout: post
-description: "What separates you from someone that's doing better than you?  What do they do differently with their time?  Do they know something you don't know?"
+description: "What separates you from someone that's doing better?  What do they do differently?  Do they know something you don't know?"
 tags: studying, better
 ---
 
