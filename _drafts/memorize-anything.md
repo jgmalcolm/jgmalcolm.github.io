@@ -16,6 +16,8 @@ keywords: memory palace, memory scene, method of loci
 * Vivid pictures.
   * Evoke a visceral or emotional reaction.
     * Dynamic scenes
+    * Making the scene real to you: walk around it, push something around,
+      focus on details.
   * Examples
 
 * Simple
