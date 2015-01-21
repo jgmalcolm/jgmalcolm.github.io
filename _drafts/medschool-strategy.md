@@ -511,7 +511,9 @@ self-assessment make the difference.
   the time comes.
 - **Use your breaks to re-energize.** While studying, make a list of what you
   are looking forward to doing during your next break.  Plan fun things to
-  look forward to.
+  look forward to.  When I get really worn down and start dragging in my
+  studies, one remedy I use it to plan something super fun for the next break
+  or that evening.
 
 
   [focus]: {% post_url 2014-05-07-top-students %}#focus
