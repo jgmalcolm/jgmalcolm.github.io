@@ -10,12 +10,7 @@ layout: default
 
 <h1 class="title">{{ page.title }}</h1>
 
-
 {{ content }}
-
-{% unless page.nocomments %}
-  {% include comments.html %}
-{% endunless %}
 
 <link rel="stylesheet" href="/css/highlight-default.css">
 <script src="/js/highlight.min.js"></script>
