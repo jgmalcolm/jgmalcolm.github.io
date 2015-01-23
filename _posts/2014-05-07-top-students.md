@@ -2,7 +2,9 @@
 title: "Top Students: What do they do differently?"
 layout: post
 description: "What separates you from someone that's doing better?  What do they do differently?  Do they know something you don't know?"
-tags: studying, better
+tags:
+- studying
+- better
 ---
 
 True story: Two students go to the library Saturday morning right when it

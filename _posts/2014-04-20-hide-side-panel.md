@@ -1,7 +1,9 @@
 ---
 title: Hide the side panel in Google Slides
 layout: post
-tags: Google-Drive, tools
+tags:
+- Google-Drive
+- tools
 ---
 
 Ever want to close that slide panel in Google Slides so you can get more screen space?  This

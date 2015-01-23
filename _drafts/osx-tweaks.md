@@ -1,6 +1,7 @@
 ---
 title: "Mac OS X Tweaks"
-tags: tools
+tags:
+- tools
 ---
 
 Some tweaks to get rid of a few Mac OSX window animations for a snappier feel.

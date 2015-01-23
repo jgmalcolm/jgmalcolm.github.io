@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Washington: A Life"
-tag: books
+tag:
+- books
 photo: /images/books/washington.jpg
 ---
 

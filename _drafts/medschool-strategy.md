@@ -1,8 +1,13 @@
 ---
 title: Med School Strategy
 layout: post
-tags: medicine, studying, STEP1
-keywords: STEP1, USMLE, NBME
+tags:
+- medicine
+- studying
+- STEP1
+keywords:
+- USMLE
+- NBME
 photo: /images/cascade.jpg
 ---
 

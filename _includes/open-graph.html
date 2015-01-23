@@ -17,13 +17,7 @@
 <meta property="og:url" content="{{ url }}" />
 <meta property="article:author" content="https://www.facebook.com/jamesgmalcolm" />
 
-{% assign keywords = page.keywords %}
-{% if page.tags %}
-  {% capture keywords %}{{ keywords }}{% if keywords %},{% endif %}{{ page.tags }}{% endcapture %}
-{% endif %}
-{% if keywords.size > 0 %}
-<meta name="keywords" content="{{ keywords }}" />
-{% endif %}
+<meta name="keywords" content="{{ keywords }},{{ tags }}" />
 {% if page.photo %}<meta property="og:image" content="{{site.url}}{{page.photo}}" />{% endif %}
 <meta property="og:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
 <meta property="og:site_name" content="{{ site.name }}" />

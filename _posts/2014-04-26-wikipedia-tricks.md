@@ -2,8 +2,9 @@
 title: Wikipedia Tricks
 layout: post
 keywords: "Wikipedia, JavaScript, themes"
-tags: Wikipedia, tools
-published: true
+tags:
+- Wikipedia
+- tools
 ---
 
 <img class="thumb" src="/images/wikipedia.png"> [Wikipedia](//wikipedia.org)
