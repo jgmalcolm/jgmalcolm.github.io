@@ -12,11 +12,14 @@ h1,h2,h3,h4 {
   font-weight: bold;
 }
 body {
-    color: #5a5a5a;
+  color: #444;
+}
+blockquote {
+  border-left: 4px solid #3a7fb4;
 }
 
 a, a:link, a:active, a:visited {
-  color: #ae1429;
+  color: #3a7fb4;
   text-decoration: none;
 }
 
