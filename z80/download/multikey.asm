@@ -3,7 +3,7 @@
 key_port	=1
 	di			;disable interupts
 				; so we don't get
-				; that [down][left]
+				; that [down] [left]
 				; but that slows
 				; the program
 	call _clrScrn		;clear screen

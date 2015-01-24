@@ -21,7 +21,7 @@ _JForceCmdNoChar	=$409c	;exit to ti-os even
 	jp _clrScrn		;clear screen and ret
 
 routine_being_tested:
-	call get_keypress_input	;get key input [up][right]...
+	call get_keypress_input	;get key input [up] [right]...
 	call move_player	;move player sprite
 	BREAK			;pause for key press
 				; and exit no matter what
