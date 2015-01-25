@@ -51,8 +51,7 @@ h6:hover .header-link {
 .content img {
   margin: 8px 0;
   border: #888 1px solid;
-  border-radius: 3px;
-  box-shadow: 3px 3px 3px #888;
+  border-radius: 4px;
 }
 
 figure {
