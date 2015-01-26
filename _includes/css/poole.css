@@ -159,7 +159,7 @@ pre {
 
 /* Quotes */
 blockquote {
-  padding: .5rem 0;
+  padding: 0 0.5rem;
   margin: 1rem 0;
 }
 blockquote p:last-child {
