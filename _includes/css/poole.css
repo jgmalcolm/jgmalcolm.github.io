@@ -103,11 +103,6 @@ p {
   margin-bottom: 1rem;
 }
 
-strong {
-  color: #303030;
-}
-
-
 dt {
   font-weight: bold;
 }
@@ -120,17 +115,6 @@ hr {
   position: relative;
   margin: 1rem 0;
   border: 1 solid #000;;
-}
-
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555;
-  text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
 }
 
 /* Code */
