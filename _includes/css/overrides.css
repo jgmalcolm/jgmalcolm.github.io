@@ -15,11 +15,11 @@ body {
   color: #222;
 }
 blockquote {
-  border-left: 4px solid #3a7fb4;
+  border-left: 4px solid #b00;
 }
 
 a, a:link, a:active, a:visited {
-  color: #3a7fb4;
+  color: #b00;
   text-decoration: none;
 }
 
