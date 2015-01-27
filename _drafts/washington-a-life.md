@@ -17,6 +17,14 @@ defined the role of President of the United States.
 
 ## Talking Points
 
+* Washington was disciplined and routine.  He rose at dawn to survey his land
+  or troops.
+
+* Several times early in the war he jumped into battle to turn the course of
+  events.  This risk to self both worried his generals and inspired his
+  troops.  With time, he came to realize the risk to army if he were to be
+  lost and he relied more on his generals.
+
 * Washington was chronically in debt.  With the war and presidency consuming
   his attention, his farm crops were chronically unsuccessful and often ran at
   a loss.  On top of that, he liked nice things: shopping sprees whenever he
