@@ -2,6 +2,7 @@
 title: "Mac OS X Tweaks"
 tags:
 - tools
+description: "Mac OSX tweaks for a snappier feel."
 ---
 
 Some tweaks to get rid of a few Mac OSX window animations for a snappier feel.
