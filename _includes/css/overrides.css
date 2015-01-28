@@ -15,11 +15,11 @@ body {
   color: #222;
 }
 blockquote {
-  border-left: 4px solid #b00;
+  border-left: 4px solid #4a89dc;
 }
 
 a, a:link, a:active, a:visited {
-  color: #b00;
+  color: #4a89dc;
   text-decoration: none;
 }
 
@@ -27,6 +27,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.sidebar {
+  color: rgba(255,255,255,.5);
+  background-color: #4a89dc;
+}
 .sidebar a {
   color: #fff;
 }
