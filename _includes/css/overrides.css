@@ -15,11 +15,11 @@ body {
   color: #222;
 }
 blockquote {
-  border-left: 4px solid #4a89dc;
+  border-left: 4px solid #b00;
 }
 
 a, a:link, a:active, a:visited {
-  color: #4a89dc;
+  color: #b00;
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ a:hover {
 
 .sidebar {
   color: rgba(255,255,255,.5);
-  background-color: #4a89dc;
+  background-color: #202020;
 }
 .sidebar a {
   color: #fff;
