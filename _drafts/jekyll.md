@@ -5,6 +5,7 @@ layout: post
 
 - git + github pages + custome domain
   - open source
+  - https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
 - drafts
 - undated posts
 - highlighting broken markdown links
