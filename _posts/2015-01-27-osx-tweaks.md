@@ -27,3 +27,6 @@ defaults write com.apple.dock expose-animation-duration -float 0
 defaults write com.apple.dock autohide-time-modifer -float 0
 defaults write com.apple.dock autohide-delay -float 0
 </pre>
+
+These and more can be found on
+[StackExchange](http://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x/).
