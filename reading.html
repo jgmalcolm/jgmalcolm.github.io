@@ -20,12 +20,12 @@ var rss = 'https://www.instapaper.com/starred/rss/415201/SJqVIVj8vayeQvWxMhDNG70
         }
     });
 })(rss, function(feed){
-    var entries = feed.entries, feedList = '';
+    var entries = feed.entries, feed = '';
     for (var i = 0; i < entries.length; i++) {
-        feedList += '<p><b><a href="' + entries[i].link + '">"' + entries[i].title + '"</a></b><br>'
-                    + entries[i].content + '</p>';
+        feed += '<p><b><a href="' + entries[i].link + '">"' + entries[i].title + '"</a></b><br>'
+                + entries[i].content + '</p>';
     }
-    $('#feed').append(feedList);
+    $('#feed').append(feed);
 });
 
 
