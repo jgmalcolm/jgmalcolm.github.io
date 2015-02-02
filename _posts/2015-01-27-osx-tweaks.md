@@ -10,7 +10,7 @@ Some tweaks to get rid of a few Mac OSX window animations for a snappier feel.
 Copy and paste these into your terminal (`#` lines are ignored comments).
 
 <pre>
-# disable new window animation ([details](http://osxdaily.com/2011/07/25/disable-the-new-window-animation-in-mac-os-x-lion/))
+# disable new window animation
 defaults write -g NSAutomaticWindowAnimationsEnabled -bool NO; killall Dock
 
 # disable toolbar in fullscreen
