@@ -14,7 +14,11 @@ photo: /images/cascade.jpg
 What to study.  How to study it.  How to test.
 
 
-# Determining what is important to study
+# Content: What to study?
+
+# Resources: How to study it?
+
+# Question banks: How to apply the facts?
 
 
 
@@ -396,8 +400,8 @@ making stupid mistakes, I had to slow myself down.  Read.  Slower.
 
 ## To type or write?
 
-Typing is fast.  Writing is slow, and so it forces you to think critically
-about what's important to record.
+Typing is fast.  Writing is slow, but it forces you to think critically about
+what's important to record.
 
 Typing lets you copy and paste previous notes.  Writing forces you to be
 economical in what you choose to record.  Typing lets you copy and paste a
