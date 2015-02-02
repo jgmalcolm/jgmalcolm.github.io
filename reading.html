@@ -22,7 +22,7 @@ var rss = 'https://www.instapaper.com/starred/rss/415201/SJqVIVj8vayeQvWxMhDNG70
 })(rss, function(feed){
     var entries = feed.entries, feedList = '';
     for (var i = 0; i < entries.length; i++) {
-        feedList += '<p><a href="' + entries[i].link + '">"' + entries[i].title + '"</a><br>'
+        feedList += '<p><b><a href="' + entries[i].link + '">"' + entries[i].title + '"</a></b><br>'
                     + entries[i].content + '</p>';
     }
     $('.feed').append(feedList);
