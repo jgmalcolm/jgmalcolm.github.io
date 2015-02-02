@@ -1,0 +1,36 @@
+---
+title: Recent Reading
+layout: default
+permalink: /reading/
+---
+
+<script>
+$(document).ready(function(){
+
+var rss = 'https://www.instapaper.com/starred/rss/415201/SJqVIVj8vayeQvWxMhDNG706BI';
+
+(function(url, callback) {
+    $.ajax({
+        url: document.location.protocol
+             + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q='
+             + encodeURIComponent(url),
+        dataType: 'json',
+        success: function(data) {
+            callback(data.responseData.feed);
+        }
+    });
+})(rss, function(feed){
+    var entries = feed.entries, feedList = '';
+    for (var i = 0; i < entries.length; i++) {
+        feedList += '<p><a href="' + entries[i].link + '">"' + entries[i].title + '"</a><br>'
+                    + entries[i].content + '</p>';
+    }
+    $('.feed').append(feedList);
+});
+
+
+}); /* ready */
+</script>
+
+<div class="feed">
+</div>
