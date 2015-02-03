@@ -36,7 +36,7 @@ $(document).ready(function(){
     }
   });
   if (toc) {
-    $("#toc").html("<tr href='#'><td>&uarr; top</td></tr>" + toc);
+    $("#toc").html(toc);
     $("#toc tr").click(function() {
       window.document.location = $(this).attr("href");
     });
