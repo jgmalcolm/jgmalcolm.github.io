@@ -23,24 +23,24 @@
 <script>
 $(document).ready(function(){
 
-  /* headers get hover anchor tags and added to TOC */
-  var toc = $("#toc"), toc_count = 0;
+  /* construct TOC and header anchors */
+  var toc = "", toc_count = 0;
   $(".content :header").each(function(i,e) {
     var $e = $(e), id = $e.attr('id'), text = $e.text();
     if (id) {
       $e.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
       if (toc_count < 7 && e.tagName.match("H1|H2")) {
-        var nav = $("<tr/>").attr("href", "#" + id).html("<td>" + text + "</td");
-        toc.append(nav);
+        toc += "<tr href='#" + id + "'><td>" + text + "</td></tr>";
         toc_count++;
       }
     }
   });
-
-  /* clickable TOC */
-  $("#toc tr").click(function() {
-    window.document.location = $(this).attr("href");
-  });
+  if (toc) {
+    $("#toc").html("<tr href='#'><td>&uarr; top</td></tr>" + toc);
+    $("#toc tr").click(function() {
+      window.document.location = $(this).attr("href");
+    });
+  }
 
   /* highlight broken markdown links */
   var broken = $(".content").html().match(/\[.*?\][\[\(].*?[\]\)]/);
