@@ -97,15 +97,17 @@ ul {
     padding-left: 1.25rem;
 }
 
-.hljs, pre, code {
+.hljs, code, pre {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: #F7F7F7;
-  width: 100%;
-  font-size: 0.7em;
+  font-size: 0.8em;
   overflow: scroll;
   border: #bbb 1px solid;
   border-radius: 3px;
+}
+pre > code {
+  border: none; /* avoid double-borders */
 }
 
 @media (max-width: 48em) {
