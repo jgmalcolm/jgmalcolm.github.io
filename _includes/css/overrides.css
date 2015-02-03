@@ -126,6 +126,6 @@ pre > code {
 #toc td {
   border: none;
 }
-#toc tr:hover {
+#toc tr:hover, #toc tr.active {
   background: #444;
 }

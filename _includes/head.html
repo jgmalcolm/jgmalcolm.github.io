@@ -35,12 +35,29 @@ $(document).ready(function(){
       }
     }
   });
+
   if (toc) {
     $("#toc").html(toc);
-    $("#toc tr").click(function() {
+    var toc_rows = $("#toc tr");
+    toc_rows.click(function() {
       window.document.location = $(this).attr("href");
     });
-  }
+    $.event.add(window, "scroll", function() {
+      var pos_win = $(window).scrollTop();
+
+      $.each(toc_rows, function(i,row) {
+        row = $(row);
+        var href = row.attr("href");
+        var pos_hdr = $(href).offset().top;
+        if (pos_hdr - 100 < pos_win) {
+          if (!row.hasClass("active")) {
+            toc_rows.removeClass("active");
+            row.addClass("active");
+          }
+        }
+      });
+    }); /* event.add("scroll") */
+  } /* if toc */
 
   /* highlight broken markdown links */
   var broken = $(".content").html().match(/\[.*?\][\[\(].*?[\]\)]/);
