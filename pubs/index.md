@@ -6,8 +6,6 @@ keywords: computer vision, image processing, segmentation, graph cut, graphcut, 
 published: true
 ---
 
-# Publications
-
 For a full description of the work associated with these publications, see the
 <a href="research.html">Research Projects</a> page.  You can also find my
 papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VYfBjawaNhBRUklvdY39vWQo">PubMed</a>,

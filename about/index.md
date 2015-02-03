@@ -1,8 +1,7 @@
 ---
 layout: default
+title: "Hi there!"
 ---
-
-# Hi there!
 
 <img class="thumb" src="malcolm.jpg">
 

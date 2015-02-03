@@ -3,8 +3,6 @@ title: z80 game development
 layout: default
 ---
 
-# z80 game development
-
 This is a collection of tutorials on developing games in z80 assembler for the
 TI calculators.  While focused on the TI86, much of this applies to any
 z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was

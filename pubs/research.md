@@ -6,8 +6,6 @@ keywords: computer vision, image processing, segmentation, graph cut, graphcut, 
 published: true
 ---
 
-# Research Projects
-
 Below are descriptions of various projects I pursued.  There is also a <a
 href="index.html">list of publications</a> and <a
 href="#downloads-for-matlab">software downloads</a> associated with this work.
