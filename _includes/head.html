@@ -23,13 +23,22 @@
 <script>
 $(document).ready(function(){
 
-  /* hover anchor tags on all headers */
-  $(".content :header").each(function(i, el) {
-    var $el = $(el);
-    var id = $el.attr('id');
+  /* headers get hover anchor tags and added to TOC */
+  var toc = $("#toc");
+  $(".content :header").each(function(i,e) {
+    var $e = $(e), id = $e.attr('id'), text = $e.text();
     if (id) {
-      return $el.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
+      $e.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
+      if (e.tagName.match("H1|H2")) {
+        var nav = $("<tr/>").attr("href", "#" + id).html("<td>" + text + "</td");
+        toc.append(nav);
+      }
     }
+  });
+
+  /* clickable TOC */
+  $("#toc tr").click(function() {
+    window.document.location = $(this).attr("href");
   });
 
   /* highlight broken markdown links */

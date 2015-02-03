@@ -114,3 +114,20 @@ pre > code {
     tab-size: 2;
   }
 }
+
+#toc {
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-align: left;
+}
+#toc table {
+  padding: 0;
+  margin: 0;
+}
+#toc td {
+  border: none;
+}
+#toc tr:hover {
+  background: #444;
+}
