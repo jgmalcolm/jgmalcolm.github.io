@@ -24,14 +24,15 @@
 $(document).ready(function(){
 
   /* headers get hover anchor tags and added to TOC */
-  var toc = $("#toc");
+  var toc = $("#toc"), toc_count = 0;
   $(".content :header").each(function(i,e) {
     var $e = $(e), id = $e.attr('id'), text = $e.text();
     if (id) {
       $e.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
-      if (e.tagName.match("H1|H2")) {
+      if (toc_count < 7 && e.tagName.match("H1|H2")) {
         var nav = $("<tr/>").attr("href", "#" + id).html("<td>" + text + "</td");
         toc.append(nav);
+        toc_count++;
       }
     }
   });
