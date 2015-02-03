@@ -21,5 +21,12 @@ $(document).ready(function(){
     hljs.highlightBlock(elem);
   });
 
+  $(".content h2, .content h3").each(function(i,e) {
+    var $e = $(e), id = $e.attr("id");
+    if (!id) {
+      $e.attr("id", e.innerText.replace(/^[^a-z]+|[^\w:.-]+/gi, ""));
+    }
+  });
+
 });
 </script>
