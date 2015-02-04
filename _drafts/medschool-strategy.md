@@ -9,9 +9,8 @@ keywords:
 - USMLE
 - NBME
 photo: /images/cascade.jpg
+description: "What to study, how to study it, and how to test yourself on it."
 ---
-
-What to study.  How to study it.  How to test.
 
 
 # Content: What to study?
@@ -79,22 +78,6 @@ but this schedule is separate from *how* you absorb the material.
      Emory's MCQs and SA.  Every module will have lectures and questions that
      aren't even mentioned in the standard external resources.
 
-* do the Qbank questions with First Aid open and annotate
-   * look up whatever you don't know
-   * don't add much extra information to FA, only annotate clarifying
-     information
-   * In the margin of your FA, put a dot next to material when you hit a
-     question related to it.  Over time, you'll see what sections are high
-     yield and which are not
-   * after each question, look at the answer and explanation -- do this as you
-     go so you get immediate feedback
-   * Its important to drive through QBanks efficiently.  Toward that end Print
-     out the questions and mark it up; its easier than futzing with questions
-     on your laptop and lets you push aside your computer to focus.  The
-     second time you see a particular concept you don't know, pause to research
-     it before answering and continuing; its a waste to guess repeatedly.
-     Repeated concepts are important, so good to stop while its fresh.  But
-     come back quick; don't get distracted.
    * David Young: "More than anything, Anki/FC help us avoid the number one
      error people make when studying: reading something you don't know but
      believing you really do. The open ended questions in FC will see if you
