@@ -42,29 +42,14 @@ but this schedule is separate from *how* you absorb the material.
   into their own research projects.  Interesting to be aware of but don't
   spend energy memorizing.
 
-* Do not subscribe to the class transcript service. If anything, only do the
-  LOs. For Human Disease, consider dropping entirely. During Human Disease,
-  use vetted third party standard study guides.
    * Simply reading the slides yourself is enough. You should be spending most
      of your time with the vetted, edited authority texts; not Emory material.
    * Add up all the money you will save not subscribing to each module. Use
      that to buy Kaplan, Firecracker, Pathoma, etc
-* read the study guide booklet produced by SOM, unless you were a bio major
-  you will entirely change the manner in which you studied in college
-   * review each lecture within 48hrs
-      * lecture is a poor primary learning experience, you should already have
-        learned the material ahead of lecture and while in lecture you should
-        be seeing how things fit together and soaking in the lecturers
-        commentary
-   * active studying: create a study guide (written > typed) (not passive
-     reading)
-      * if you write, judge your productivity the end of the day by how many
-        sheets of paper you produced
-   * aim for about 1:1 ratio of hour of lecture to hour of study
-   * don't spend all your time (passively) reading texts/slides
-     https://en.wikipedia.org/wiki/Testing_effect
+
 * at the end of every MCQ test, before you submit, write down 3 things you're
   going to immediately look up that afternoon.  Go study those three things.
+
 * review your test notice what type of mistakes you make (see SOM study
   booklet), note items that are repeated -- you'll see them again
    * write down 3-5 things you're going to immediately look up
@@ -125,37 +110,6 @@ but this schedule is separate from *how* you absorb the material.
      http://sidenotelife.tumblr.com/post/64673419322/ken-explains-studying-in-med-school-top-5-reasons-to)
 
 
-* First Aid: http://www.amazon.com/First-USMLE-Step-2014-Series/dp/0071831428
-  (referred to as First Aid or FA) and
-  http://www.amazon.com/First-Basic-Sciences-VALUE-USMLE/dp/0071785744
-   * at start of school, purchase Basic Sciences
-   * through Healthy Human, use a current FA
-   * purchase new FA when it comes out (December), use that until Step 1
-      * give your old copy to an underclassman
-   * Consolidate resources: don't buy every book out there, experiment some to
-     find what works for you, but ultimately settle on a few resources and
-     know them thoroughly.  It's easy to be fooled into thinking buying a
-     resource will improve your score; only time spent learning will improve
-     your score.  (thank Jason Boulter)
-
-
-
-* Overall study routine recommended by Emory
-   * pre-read to get a framework in mind before the lecture
-   * ratio of 1:1 for hour of lecture to hour of review
-   * active review  making your own study guide (not just reading passively)
-      * within 48hrs of the lecture, don't fall behind
-   * weekend: review the week, consolidate notes, qbanks
-
-* Purchase schedule: Emory takes STEP 1 before 1 Feb (typically last half of Jan)
-   * Feb - purchase your 1 year subscriptions:
-      * Pathoma (definite)
-      * Rx/Kaplan (either/both)
-   * Firecracker can be purchased anytime, the sooner the better, so aim for 12 months (Feb) or 18 months (August).
-   * after Summation when in final exam prep (Nov): U World (3 months)
-
-
-
 
 ## Studying
 
@@ -200,27 +154,6 @@ but this schedule is separate from *how* you absorb the material.
      destruction) versus malabsorption of B12.
 
 
-http://sidenotelife.tumblr.com/post/91577640564/step-1-diaries-wk-25-the-post-step-existential-crisis
-
-http://sidenotelife.tumblr.com/post/88788673049/ken-explains-studying-in-med-school-a-year-long
-First pass UW: 68%
-Second pass UW: 85%
-USMLE-Rx (27% completed): 84%
-NBME 7 (T minus 21 days): 251
-NBME 15 (T minus 14 days): 259
-NBME 16 (T minus 10 days): 251
-UWSA 1 (T minus 7 days): 265
-UWSA 2 (T minus 7 days): 265
-STEP 1: 258
-
-
-Performance during the first two years of medical school are still the most
-important predictor of success on Step 1. However, the effect of questions is
-still the only other resource that improves Step 1 score. There is a 1 point
-increase for every 200 questions
-answered. https://drive.google.com/file/d/0B60xzfF7HDAvcnhsZFk5a3E1Y1U
-
-
 ## Organize information the way it gets tested
 
 Tests typically present a clinical vignette with chief complaint and then some
@@ -252,8 +185,8 @@ to put together a table like the following.
 ## Compare and contrast topics
 
 Make your own tables.  Don't simply reply on those in your textbooks or First
-Aid.  Make your own versions that start out simpler and only list and compare
-a few of the most important features.
+Aid.  Work out your own versions that start out simpler and only list and
+compare one or two of the most important features.
 
 Some dimensions you can compare and contrast along:
 
@@ -264,14 +197,6 @@ Some dimensions you can compare and contrast along:
   - slow, insidious, progressive
   - acute, emergent
   - congenital, shortly after birth
-
-## First-order and second-order questions.
-
-Presented with a clinical vignette, a first-order question would ask about the
-diagnosis while a second-order question would assume you can figure out the
-diagnosis and instead ask about the treatment (eg. drug mechanism of action or
-side effect).
-
 
 
 ## Studying takes energy.
@@ -454,33 +379,20 @@ is like a poor man's version of [spaced repetition][].
     - http://www.wikihow.com/Build-a-Memory-Palace
     - http://immense-immunology-insight.blogspot.in/
 
-
-
-
-## Mind Maps
-
-http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no-one-is-telling-you
+  - Mind Maps
+    - http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no-one-is-telling-you
 
 
 
 ## QBanks
 
-* Consider it part of learning process.
-  * Don't wait to review everything before diving in.
-  * Instead of reviewing, start with a small set of questions to get a
-    sampling of what's important.  Only after that should you consider
-    reviewing relevant topics.
-* Learn as you go through the
-* Your score on practice problems does not matter.  The only score that
-  matters is that of the real exam.  As you're going through practice
-  questions, the only important thing is that you're learning.
 * If you're getting worn down with full blocks of 46 questions, do smaller
   blocks so you get more immediate feedback.  Similarly, if your worm down by
   low performance, smaller blocks might show an actual score improvement for
   some positive feedback to keep you motivated.
 
 
-# STEP1
+## STEP1
 
 STEP1 will punish those who do not put in the time.  As a cumulative exam,
 anything you failed to learn during your modules will show up here and cost
@@ -500,7 +412,7 @@ self-assessment make the difference.
 
 
 
-# When studying
+## When studying
 
 - **Control your environment, or it will control you.** If there's something
   distracting, get rid of it.  If you are at a coffee shop distracted by
@@ -529,11 +441,10 @@ self-assessment make the difference.
   [focus]: {% post_url 2014-05-07-top-students %}#focus
 
 
-# When Not Studying
+## When Not Studying
 
 - **Sleep.**  Decrease stress and let your brain process the info you've fed it.
 - **Exercise.** Decrease stress, release energy.
-
 
 
 
