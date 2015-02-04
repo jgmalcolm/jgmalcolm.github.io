@@ -182,7 +182,7 @@ Some dimensions you can compare and contrast along:
   - congenital, shortly after birth
 
 
-## Studying takes energy.
+## Studying takes energy
 
 It's often obvious what needs to be done and how best to do it.  Sometimes all
 that's really needed is the energy (and motivation) to carry through.  So part
