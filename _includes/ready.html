@@ -7,7 +7,7 @@ $(document).ready(function(){
     var $e = $(e), id = $e.attr('id'), text = $e.text();
     if (id) {
       $e.append($("<a/>").addClass("header-link").attr("href", "#" + id).html("#"));
-      if (toc_count < 7 && e.tagName.match("H1|H2")) {
+      if (toc_count < 7 && e.tagName.match("H2")) {
         toc += "<tr href='#" + id + "'><td>" + text + "</td></tr>";
         toc_count++;
       }
