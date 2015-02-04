@@ -510,11 +510,19 @@ studying and productivity in med school.
   online.
 * Full of board pearls since he helps edit the USMLE questions.  While most of
   the pathognomonic stuff is outdated and boards questions rarely use such
-  classic tip-offs, the concepts are still valid and tested in similar ways
-* It's not well organized, but makes for good background listening while
-  running errands, doing chores, or exercising.
-* Pathoma is more updated, organized, and focused, so use Pathoma if you had
-  to pick one or the other
+  classic tip-offs, the concepts are still valid and tested in similar ways.
+* It's thorough but not well organized, but makes for good background
+  listening while running errands, doing chores, or exercising.
+* Comparing against Pathoma:
+  * Pathoma is more updated, organized, and focused.
+  * Goljan covers biochemistry, fluids, nutrition, and other important STEP1
+    concepts not included in Pathoma.
+  * Goljan often makes cross cutting connections between topics which provides
+    more context than Pathoma.
+  * While studying for STEP1, I regularly would get a question only because I
+    had heard it in a Goljan lecture while working out earlier that same day.
+  * I highly recommend watching Pathoma at your desk at high speed and
+    listening to Goljan while you're working out.
 
 
 
