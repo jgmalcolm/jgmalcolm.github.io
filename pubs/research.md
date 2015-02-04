@@ -301,7 +301,7 @@ Multi-object tracking [<a class="thickbox" href="#TB_inline?width=400&height=326
 -->
 
 
-## Graph cut segmentation with shape priors
+## Graph cuts with shape priors
 
 <div class="gallery">
   <a href="images/icip07/shark_5_initial.png" data-gallery="icip07"
@@ -332,7 +332,7 @@ Processing
 
 
 
-## Graph cut segmentation in tensor space
+## Graph cuts in tensor space
 
 <div class="gallery">
   <a href="images/tensor_cuts/FISH_color_initial.png" data-gallery="tensors"
