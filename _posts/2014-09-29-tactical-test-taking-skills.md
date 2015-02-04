@@ -117,11 +117,15 @@ of the explanation in the moment.  Don't mark a question telling yourself
 you'll come back to study it later.  There never is a "later" as the pace of
 life only picks up.
 
+**Start easy.** Consider doing a test with all easy questions so you can start
+easing into concepts and get some positive vibes going.  However, don’t be
+fooled into thinking this is your actual performance until you’ve cut your
+teeth on some harder questions.
+
 Practice until these techniques are second nature and you've killed bad
 habits.  Techniques will only incrementally improve your performance.  There
 are no true shortcuts on these exams and these techniques only work when you
 already have the core knowledge.
-
 
 
 
@@ -227,14 +231,6 @@ particular bone cancer, review the specifics of that cancer, but also do a
 quick recap of the other ones.  If the answer was a particular enzyme in the
 purine salvage pathway, review the entire pathway.  Take every opportunity to
 learn in context.
-
-
-## Attacking a question bank
-
-Consider doing a test with all easy questions so you can start easing into
-concepts and get some positive vibes going.  However, don’t be fooled into
-thinking this is your actual performance until you’ve cut your teeth on some
-harder questions.
 
 
 ## Chief complaint
