@@ -183,6 +183,16 @@ How do you know when you're read to move on to the next question?  Ask
 yourself: **If I saw this again, would I be able to rule out all the wrong
 answers?**
 
+**Review topics, not isolated details.** If you get a question wrong, don't
+just memorize the specific fact you missed.  Go and skim over the entire
+disease or pathway in context.  If the answer stems were all a cluster of
+related diseases, skim those and understand how to compare and contrast.  If
+it was a bone tumor question and the answer was a particular bone cancer,
+review the specifics of that cancer, but also do a quick recap of the other
+ones.  If the answer was a particular enzyme in the purine salvage pathway,
+review the entire pathway.  Take every opportunity to learn in context.
+
+
 
 
 ## Record learning points
@@ -219,18 +229,6 @@ those neurons before moving along.
 > Read more:
 > [MedSchoolTutors: Creating a UWorld Journal](http://www.medschooltutors.com/blog/the-uworld-journal-how-i-scored-a-263-on-the-usmle-step-1)
 
-
-
-## Review topics, not isolated details
-
-If you get a question wrong, don't just memorize the specific fact you missed.
-Go and skim over the entire disease or pathway in context.  If the answer
-stems were all a cluster of related diseases, skim those and understand how to
-compare and contrast.  If it was a bone tumor question and the answer was a
-particular bone cancer, review the specifics of that cancer, but also do a
-quick recap of the other ones.  If the answer was a particular enzyme in the
-purine salvage pathway, review the entire pathway.  Take every opportunity to
-learn in context.
 
 
 ## Chief complaint
@@ -284,79 +282,6 @@ What that means:
 > orthopnea) and right-sided heart failure (ankle swelling).
 
 
-## Histology
-
-Most histology looks like a mess at first, but you should always start at the
-center and try to identify what you're seeing.  The "area of interest" will
-not be on the periphery; it will be near the center.  Literally put your
-finger in the exact center and scan that square centimeter for what is of
-interest.  If you see something funny in the periphery that's not also found
-in the center, then ignore it.  Ask yourself what you expect to see, eg. the
-esophagus is nonkeratinized (stratified) squamous epithelium.
-
-Look for characteristic features:
-
-* Eosinophils (bilobed)
-* Neutrophils (3-5 lobes)
-* Macrophages (large, multiple nuclei)
-* Auer rods (acute myelogenous leukemia)
-* Granulomatas (pink)
-
-
-## Avoid outliers
-
-When one answer is totally different than the others, it's likely a distractor.
-
-> * Oxygen curve is shifted to the right because of B.
-> * Oxygen curve is shifted to the right because of C.
-> * Oxygen curve is shifted to the right because of D.
-> * <strike>Oxygen curve is shifted to the left because A.</strike>
-
-Boards questions almost always give you enough information to make a
-diagnosis, and rarely is a patient without risk.  So avoid those answer
-choices:
-
-> * The patient is at risk because of X.
-> * <strike>The patient has no risk because of Y.</strike>
-> * <strike>Not enough information is provided to make a diagnosis.</strike>
-
-
-
-## A single phrase can rule out an answer choice
-
-The question prompt may mention an ancillary test that was performed whose
-only purpose is to rule out one specific answer choice.
-
-> Patient presents with X, Y, Z that appear to be some form of anemia.  In the
-> course of workup, <u>direct Coombs test was negative</u>.
->
-> * A
-> * B
-> * <strike>Autoimmune hemolysis</strike>
-> * D
-
-
-
-## Account for every abnormal finding {#abnormal-findings}
-
-Your answer needs to explain every given lab value and physical finding.  If
-there’s some seemingly completely unrelated lab value that’s wildly abnormal
-and you cannot explain it with your answer, then think harder about the other
-choices.  There are no wasted words in a question prompt.
-
-**Tunnel vision.** This is especially true in disorders involving multiple
-systems.  Individual answer choices may address individual system
-dysfunctions, but you need to make sure that your chosen answer explains all
-abnormalities.  For example, a patient presents with renal dysfunction, joint
-pain, and hematologic abnormalities.  The individual answer choices might be
-nephritic syndrome, rheumatoid arthritis, and myelodysplastic syndrome.  Each
-of those answer choices correspond to a chief complaint, but none answer the
-whole picture.  Be careful not to jump at a single physical finding.  If
-multiple systems are involved, you need to tie as many together as you can.
-This patient has lupus.
-
-
-
 ## Ruling out answers          {#ruling-out}
 
 Never commit to an answer without ruling out other choices.  This will make
@@ -367,6 +292,18 @@ remaining choices.
 Multiple choice tests are as much about knowing the right answer as being able
 to rule out all the wrong answers.  Sometimes you arrive at the right answer
 only because you ruled out all the other choices.
+
+A single phrase can rule out an answer choice.  The question prompt may
+mention an ancillary test that was performed whose only purpose is to rule out
+one specific answer choice.
+
+> Patient presents with X, Y, Z that appear to be some form of anemia.  In the
+> course of workup, <u>direct Coombs test was negative</u>.
+>
+> * A
+> * B
+> * <strike>Autoimmune hemolysis</strike>
+> * D
 
 Every answer choice was included for a reason.  Don't just rule something out
 because it simply seems odd.  As I got faster, I had the tendency to sometimes
@@ -431,6 +368,66 @@ If you have to guess, do so intelligently:
   other options.
 
 
+
+## Histology
+
+Most histology looks like a mess at first, but you should always start at the
+center and try to identify what you're seeing.  The "area of interest" will
+not be on the periphery; it will be near the center.  Literally put your
+finger in the exact center and scan that square centimeter for what is of
+interest.  If you see something funny in the periphery that's not also found
+in the center, then ignore it.  Ask yourself what you expect to see, eg. the
+esophagus is nonkeratinized (stratified) squamous epithelium.
+
+Look for characteristic features:
+
+* Eosinophils (bilobed)
+* Neutrophils (3-5 lobes)
+* Macrophages (large, multiple nuclei)
+* Auer rods (acute myelogenous leukemia)
+* Granulomatas (pink)
+
+
+## Avoid outliers
+
+When one answer is totally different than the others, it's likely a distractor.
+
+> * Oxygen curve is shifted to the right because of B.
+> * Oxygen curve is shifted to the right because of C.
+> * Oxygen curve is shifted to the right because of D.
+> * <strike>Oxygen curve is shifted to the left because A.</strike>
+
+Boards questions almost always give you enough information to make a
+diagnosis, and rarely is a patient without risk.  So avoid those answer
+choices:
+
+> * The patient is at risk because of X.
+> * <strike>The patient has no risk because of Y.</strike>
+> * <strike>Not enough information is provided to make a diagnosis.</strike>
+
+
+
+## Account for every abnormal finding {#abnormal-findings}
+
+Your answer needs to explain every given lab value and physical finding.  If
+there’s some seemingly completely unrelated lab value that’s wildly abnormal
+and you cannot explain it with your answer, then think harder about the other
+choices.  There are no wasted words in a question prompt.
+
+**Tunnel vision.** This is especially true in disorders involving multiple
+systems.  Individual answer choices may address individual system
+dysfunctions, but you need to make sure that your chosen answer explains all
+abnormalities.  For example, a patient presents with renal dysfunction, joint
+pain, and hematologic abnormalities.  The individual answer choices might be
+nephritic syndrome, rheumatoid arthritis, and myelodysplastic syndrome.  Each
+of those answer choices correspond to a chief complaint, but none answer the
+whole picture.  Be careful not to jump at a single physical finding.  If
+multiple systems are involved, you need to tie as many together as you can.
+This patient has lupus.
+
+
+
+
 ## Classic clues
 
 There are some triggers that should either perk your ears to a likely
@@ -457,9 +454,9 @@ diagnosis or rule out specific answer choices:
 
 
 
-## Question stems
+## Tip offs
 
-Specific constructs can help clue you in.
+Specific constructs can help clue you in to what they're trying to get at.
 
 * "What is most likely?" - forget about rare diseases, just think what is most
   prevalent.  No [zebras].  It's likely more than one answer is possible, but
@@ -470,8 +467,6 @@ Specific constructs can help clue you in.
 
 [zebras]: https://en.wikipedia.org/wiki/Zebra_(medicine)
 
-
-## Answer choice tip-offs
 
 If most of the questions (3-4) have the same base phrase but differ in the
 second half, look to choose among those if you have to guess.
@@ -521,9 +516,9 @@ the majority of your points.
 
 Some questions you simply won't have a clue about because you're lacking the
 requisite knowledge.  It's a death trap to fritter away your time on these.
-[Narrow it down to 2-3 choices](#ruling-out) and [guess](#guessing).  You want
-to avoid the situation where you've got 10 minutes left but 20 questions, and
-so you make sloppy mistakes on easy ones.
+Narrow it down to 2-3 choices and guess.  You want to avoid the situation
+where you've got 10 minutes left but 20 questions, and so you make sloppy
+mistakes on easy ones.
 
 For these marked questions, go carefully and spend the time.  These questions
 will make the difference between pass and high pass.
