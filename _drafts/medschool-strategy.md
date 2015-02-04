@@ -157,7 +157,8 @@ but this schedule is separate from *how* you absorb the material.
 
 
 
-Studying
+## Studying
+
 * Tables that contrast key features of disease
    * follicular adenoma (encapsulated) vs. follicular carcinoma (capsular
      breech)
@@ -168,7 +169,7 @@ Studying
    * Emphysema (cor pulmonale is low) vs. chronic bronchitis (cor pulmonale
      high)
    * Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
-structure of globin) Test Taking
+     structure of globin) Test Taking
 * rule out/in with buzz words: If a question prompt gives the
   classic/pathognomonic sign of some disease, then assume that is definitely
   present and work around that anchor point.
