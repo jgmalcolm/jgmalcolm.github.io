@@ -471,28 +471,6 @@ studying and productivity in med school.
 
 
 
-
-
-## Goljan STEP1 audio   {#goljan-step1-audio}
-
-  [goljan]: #goljan-step1-audio
-
-* A series of lectures as part of a boards review course he conducted
-* These lectures were delivered with the first edition of
-  [Rapid Review Pathology] text, but you can still follow along in the latest
-  edition.  The slides and a scan of the original textbook can be found
-  online.
-* Full of board pearls since he helps edit the USMLE questions.  While most of
-  the pathognomonic stuff is outdated and boards questions rarely use such
-  classic tip-offs, the concepts are still valid and tested in similar ways
-* It's not well organized, but makes for good background listening while
-  running errands, doing chores, or exercising.
-* Pathoma is more updated, organized, and focused, so use Pathoma if you had
-  to pick one or the other
-
-
-
-
 ## [Anki](http://ankisrs.net)  {#anki}
 
    [anki]: #anki
@@ -517,6 +495,28 @@ studying and productivity in med school.
 * Downside: Lacks good methods for sharing/updating decks with classmates
 * Everyone I know who used this eventually abandoned because of time involved
   in creating and curating decks
+
+
+
+
+## Goljan STEP1 audio   {#goljan-step1-audio}
+
+  [goljan]: #goljan-step1-audio
+
+* A series of lectures as part of a boards review course he conducted
+* These lectures were delivered with the first edition of
+  [Rapid Review Pathology] text, but you can still follow along in the latest
+  edition.  The slides and a scan of the original textbook can be found
+  online.
+* Full of board pearls since he helps edit the USMLE questions.  While most of
+  the pathognomonic stuff is outdated and boards questions rarely use such
+  classic tip-offs, the concepts are still valid and tested in similar ways
+* It's not well organized, but makes for good background listening while
+  running errands, doing chores, or exercising.
+* Pathoma is more updated, organized, and focused, so use Pathoma if you had
+  to pick one or the other
+
+
 
 
 
