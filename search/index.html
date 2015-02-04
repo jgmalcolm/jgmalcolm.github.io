@@ -6,9 +6,10 @@ title: "Search"
 <div id="results"></div>
 
 <script>
+<!--
 (function(){
 
-  <!-- get parameters from URL -->
+  /* get parameters from URL */
   function getParam(name) {
       name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
       var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
@@ -16,11 +17,11 @@ title: "Search"
       return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
   }
 
-  <!-- set title -->
+  /* set title */
   var query = getParam('q');
   $("h1").html(query);
 
-  <!-- populate results -->
+  /* populate results */
   $.getJSON("posts.json", function(data) {
     var items = [];
     $.each(data, function (idx, entry) {
@@ -32,4 +33,5 @@ title: "Search"
   });
 
 })();
+//-->
 </script>
