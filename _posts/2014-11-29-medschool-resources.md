@@ -406,6 +406,8 @@ Kaplan bank to cover more material per question.
     For example, I would trace the pathway of nerves/arteries/veins on my own
     body, or watch as I tried to flex specific muscles.  All the while I would
     be imagining what's going on under the hood.
+* [U Michigan](http://www.med.umich.edu/lrc/coursepages/m1/anatomy2010/html/INDEX.html)
+  has detailed explanations of various dissections along with relevant quizzes.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
   recommended. This way you match the lecture slide references.
    * As a table, buy two dissectors and two atlases to leave in the lab.
