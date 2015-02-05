@@ -59,6 +59,7 @@ Some dimensions you can compare and contrast along:
 
 
 **Look for contrasts to distinguish diseases.**
+
 * pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
 * follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
 * 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
