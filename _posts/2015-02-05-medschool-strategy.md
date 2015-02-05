@@ -133,8 +133,8 @@ figure out a way to optimize that part of the
 Here are personal mistakes I've struggled against.
 
 **Glossing over big words.** I have a tendency to gloss over big words which
-leaves it all a blur.  For example, I might reading the sentence on PKU from
-biochemistry: "Phenylketonuria is due to a decrease in phenylalanine
+leaves it all a blur.  For example, I might come across this sentence from
+biochemistry:  "Phenylketonuria is due to a decrease in phenylalanine
 hydroxylase or decreased tetrahydrobiopterin cofactor".  I would wrongly gloss
 over the unfamiliar words, so I end up reading something more like "Phenyl---
 is due to a decrease in phenyl--- --- or decreased --- cofactor".  It's no
