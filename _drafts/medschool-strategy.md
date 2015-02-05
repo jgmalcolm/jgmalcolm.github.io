@@ -9,138 +9,14 @@ keywords:
 - USMLE
 - NBME
 photo: /images/cascade.jpg
-description: "What to study, how to study it, and how to test yourself on it."
+description: "What to study and how to study it"
 ---
-
-
-# Content: What to study?
-
-# Resources: How to study it?
-
-# Question banks: How to apply the facts?
-
-
-
-# Memorizing
-
-## Spaced repetition
-
-Spaced repetition provides the most efficient schedule for reviewing material,
-but this schedule is separate from *how* you absorb the material.
-
-
-
-# Practice questions
-
-
-
-## Class or No-Class
-
-* hard to learn from review books
-* lectures can give unnecessary details, especially when lecturers venture
-  into their own research projects.  Interesting to be aware of but don't
-  spend energy memorizing.
-
-   * Simply reading the slides yourself is enough. You should be spending most
-     of your time with the vetted, edited authority texts; not Emory material.
-   * Add up all the money you will save not subscribing to each module. Use
-     that to buy Kaplan, Firecracker, Pathoma, etc
-
-* at the end of every MCQ test, before you submit, write down 3 things you're
-  going to immediately look up that afternoon.  Go study those three things.
-
-* review your test notice what type of mistakes you make (see SOM study
-  booklet), note items that are repeated -- you'll see them again
-   * write down 3-5 things you're going to immediately look up
-
-* If something is covered in lecture that has little or no FA coverage, then
-  don't spend much time on it.  Look for one or two testable nuggets and just
-  passively listen to rest of lecture.  Yes, this may be on exam, but if so
-  then it'll likely be a very clear question.  Professors will know stuff is
-  not part of STEP and so tend to make these lectures very simple straight
-  recall type questions.
-
-* Slides are enough to study from to pass, but not enough to be at the top
-   * only refer to TR/audio (or LO) if you need explanation
-   * TR/audio tells you important/key
-   * classmate LOs can be too detailed or wordy but are good reviews
-   * if something on a slide is in different font/color then very important,
-     >50% chance it will be on exam
-   * You should study first from EUSOM material (so you know what topics are
-     covered), then First Aid (to reinforce whats important for STEP), then
-     other 3rd party (to get different/better explanations).  Many students
-     get caught up in 3rd party materials and forget to cover Emory-specific
-     material that shows up on this specific module exam, but wasn't covered in
-     3rd party simply because its covered in other chapters of 3rd party
-     materials (ie. would show up on later modules).
-   * Conversely, only using external resources (FA, Pathoma, the
-     module-recommended text) will only get you 80-90% of the material for
-     Emory's MCQs and SA.  Every module will have lectures and questions that
-     aren't even mentioned in the standard external resources.
-
-   * David Young: "More than anything, Anki/FC help us avoid the number one
-     error people make when studying: reading something you don't know but
-     believing you really do. The open ended questions in FC will see if you
-     really do remember the 11 criteria for SLE or the findings for beta
-     thalassemia minor, whereas you may review that topic in FA and feel like
-     you know it simply because the words are familiar. People who on exams
-     consistently feel like all the questions are familiar and they know the
-     answer but just cant think of it are probably falling into this
-     category. This alone is probably what separates the all-honors students
-     from the all-pass students. The ability to generate the answers on your
-     own rather than recognize them with deja vu is critical, and FC takes aim
-     at this directly." (from
-     http://sidenotelife.tumblr.com/post/64673419322/ken-explains-studying-in-med-school-top-5-reasons-to)
-
-
-
-## Studying
-
-* Tables that contrast key features of disease
-   * follicular adenoma (encapsulated) vs. follicular carcinoma (capsular
-     breech)
-   * 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
-   * Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
-   * Emphysema (PaCO2 and PaO2 are normal until later in the disease course)
-     vs. chronic bronchitis (PaCO2 and PaO2 are abnormal earlier on)
-   * Emphysema (cor pulmonale is low) vs. chronic bronchitis (cor pulmonale
-     high)
-   * Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
-     structure of globin) Test Taking
-* rule out/in with buzz words: If a question prompt gives the
-  classic/pathognomonic sign of some disease, then assume that is definitely
-  present and work around that anchor point.
-   * A 35-year-old woman presents with a recent weight gain of 20 lbs and
-     new-onset depression. On physical examination she has a blood pressure of
-     135/82 mmHg, pulse of 76 beats per minute, and generalized obesity. She
-     does not have facial plethora (i.e. she does not exactly have classic
-     Cushing think of things that are related, ie. pseudo-Cushing), and her
-     proximal muscle strength is good. Laboratory data show 24-hour urine free
-     cortisol excretion, 120 mcg (normal, 20 to 90 mcg). (from Endocrine
-     Pathophysiology, p227)
-* Beware of lab values just outside of normal.  It indicates the question is
-  not a slam dunk diagnosis, and that there is some variation or mixed
-  situation.  While to you the questions may often seem ambiguous, examiners
-  try to create unambiguous questions so they don't get student complaints and
-  quibbling.  Borderline lab values invite quibbling.  See above: if Cushing's
-  then would likely have higher cortisol.
-* Go with less invasive diagnostic tests unless the question makes the
-  diagnosis a slam dunk.
-* If there is mention of a relative who has/died of a similar disorder, then
-  think genetic disease, eg. autosomal dominant, instead of acquired.
-* When a question asks What is the best or What is the most likely.., there
-  will probably be more than one answer that is close, but then one will be
-  the best in some measure.
-* Look for contrasts to distinguish diseases.
-   * Both pernicious anemia and B12 insufficiency have the same symptoms of
-     lack of B12, but PA is caused by lack of intrinsic factor (autoimmune
-     destruction) versus malabsorption of B12.
 
 
 ## Organize information the way it gets tested
 
-Tests typically present a clinical vignette with chief complaint and then some
-secondary information to narrow down the diagnosis.
+Questions typically present a clinical vignette with chief complaint and then
+some secondary information to narrow down the diagnosis.
 
 For example, consider a patient presenting with osteomyelitis.  With no clues,
 *S aureus* is most likely overall, but the vignette will likely give some
@@ -165,11 +41,10 @@ to put together a table like the following.
 | medial epicondyle | ulnar | claw hand (radial dominance)
 
 
-## Compare and contrast topics
 
-Make your own tables.  Don't simply reply on those in your textbooks or First
-Aid.  Work out your own versions that start out simpler and only list and
-compare one or two of the most important features.
+**Make your own tables.** Don't simply reply on those in your textbooks or
+First Aid.  Work out your own versions that start out simpler and only list
+and compare one or two of the most important features.
 
 Some dimensions you can compare and contrast along:
 
@@ -180,6 +55,19 @@ Some dimensions you can compare and contrast along:
   - slow, insidious, progressive
   - acute, emergent
   - congenital, shortly after birth
+
+
+**Look for contrasts to distinguish diseases.**
+* pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
+* follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
+* 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
+* Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
+* Emphysema (PaCO2 and PaO2 are normal until later in the disease course)
+  vs. chronic bronchitis (PaCO2 and PaO2 are abnormal earlier on)
+* Emphysema (cor pulmonale is low) vs. chronic bronchitis (cor pulmonale high)
+* Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
+  structure of globin)
+
 
 
 ## Studying takes energy
@@ -205,7 +93,10 @@ part you already know, go faster.
 
 **Break the problem down into easier pieces.** Is the entire combined
 glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
-now.  Work on another later.
+now.  Work on another later.  Similarly, if you're getting worn down with full
+blocks of 46 questions, do smaller blocks so you get more immediate feedback.
+If your worm down by low performance, smaller blocks might show an actual
+score improvement for some positive feedback to keep you motivated.
 
 <div class="gallery">
   <figure class="thumb">
@@ -232,31 +123,7 @@ figure out a way to optimize that part of the
  [procrastination]: http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/
 
 
-## No figure or table is sacred
 
-I often try to make things pretty.  Go fast and loose, and repeat frequently.
-
-
-## Don't mistake activity for active learning
-
-I often fall into the trap of writing everything down furiously so I can study
-it later.  The truth is, you'll always be busy and never return to sort out
-the material.  This is a form of autopilot, passive learning.  Always think
-critically about information instead of just passively transcribing.
-
-
-## How badly do you want it?
-
-All the tactics in the world are not going to work if you don't have the
-motivation to push forward.  Strong motivation energizes and fully engages
-your senses.  Step back and think about what you want in a career and what
-you're willing to trade for it.  Do you want that subspecialty residency so
-much that you're willing to prioritize weekend study over social outings?
-
-It's not just about a test score and getting into a top residency.  It's about
-becoming the best physician possible.  It's about being able to answer patient
-questions, explain to them what's happening to their bodies.  It's about being
-able to notice a disease pattern that others might have missed.
 
 
 ## Personal traps
@@ -306,6 +173,16 @@ making stupid mistakes, I had to slow myself down.  Read.  Slower.
   [abnormal-findings]: {% post_url 2014-09-29-tactical-test-taking-skills %}#abnormal-findings
 
 
+**Mistaking 'activity' for 'active learning'.** I often caught myself writing
+everything down furiously so I can study it later.  The truth is, you'll
+always be busy and never return to sort out the material.  This is a form of
+autopilot, passive learning.  Always think critically about information
+instead of just passively transcribing.
+
+
+
+
+
 
 ## To type or write?
 
@@ -348,50 +225,10 @@ is like a poor man's version of [spaced repetition][].
 
  [spaced repetition]: {% post_url 2014-05-07-top-students %}#spaced-repetition
 
+No figure or table is sacred.  I often fall into the trap of trying to make
+things pretty, or shying away from even starting a table or figure because I
+think it'll be a mess.  Go fast and loose, and repeat frequently.
 
-## Mnemonics & Memory Scenes
-
-  - mnemonics
-    - http://medicowesome.blogspot.com/
-    - http://imindmaps.blogspot.com/
-    - http://medmnemos.blogspot.com/
-
-  - memory scenes
-    - TED talk
-    - Sketchy Micro, Picmonic
-    - http://www.wikihow.com/Build-a-Memory-Palace
-    - http://immense-immunology-insight.blogspot.in/
-
-  - Mind Maps
-    - http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no-one-is-telling-you
-
-
-
-## QBanks
-
-* If you're getting worn down with full blocks of 46 questions, do smaller
-  blocks so you get more immediate feedback.  Similarly, if your worm down by
-  low performance, smaller blocks might show an actual score improvement for
-  some positive feedback to keep you motivated.
-
-
-## STEP1
-
-STEP1 will punish those who do not put in the time.  As a cumulative exam,
-anything you failed to learn during your modules will show up here and cost
-you points again.  If you didn't learn something the first time, now is your
-last chance.
-
-STEP1 is a test of endurance and discipline.  I'm not talking about test day.
-I'm talking about endurance and discipline in the months leading up to test
-day.  If you fail to work diligently during your dedicated period, you will be
-punished.
-
-STEP1 is also a very straight forward test for anyone willing to dedicate the
-energy to working through question banks.  I would wager that simply
-completing something like 6000 questions easily puts you in the 240s.  The
-difference between the 240s and the 260s is where active studying and critical
-self-assessment make the difference.
 
 
 
@@ -420,15 +257,120 @@ self-assessment make the difference.
   studies, one remedy I use it to plan something super fun for the next break
   or that evening.
 
-
-  [focus]: {% post_url 2014-05-07-top-students %}#focus
-
-
-## When Not Studying
+**When Not Studying.**
 
 - **Sleep.**  Decrease stress and let your brain process the info you've fed it.
 - **Exercise.** Decrease stress, release energy.
 
+
+  [focus]: {% post_url 2014-05-07-top-students %}#focus
+
+
+## STEP1
+
+It will punish those who do not put in the time.  As a cumulative exam,
+anything you failed to learn during your modules will show up here and cost
+you points again.  If you didn't learn something the first time, now is your
+last chance.
+
+It is a test of endurance and discipline.  I'm not talking about test day.
+I'm talking about endurance and discipline in the weeks leading up to test
+day.  If you fail to work diligently during your dedicated period, you will be
+punished.
+
+It is also a very straight forward test for anyone willing to dedicate the
+energy to working through question banks.  I would wager that simply
+completing something like 5000 questions easily puts you in the 240s.  You've
+simply seen just about every way key topics can be tested.  The difference
+between the 240s and the 260s is where active studying and critical
+self-assessment make the difference.
+
+
+
+**How badly do you want it?** All the tactics in the world are not going to
+work if you don't have the motivation to push forward.  Strong motivation
+energizes and fully engages your senses.  Step back and think about what you
+want in a career and what you're willing to trade for it.  Do you want that
+subspecialty residency so much that you're willing to prioritize weekend study
+over social outings?
+
+It's not just about a test score and getting into a top residency.  It's about
+becoming the best physician possible.  It's about being able to answer patient
+questions, explain to them what's happening to their bodies.  It's about being
+able to notice a disease pattern that others might have missed.
+
+
+
+{% comment %}
+
+
+## Mnemonics & Memory Scenes
+
+  - mnemonics
+    - http://medicowesome.blogspot.com/
+    - http://imindmaps.blogspot.com/
+    - http://medmnemos.blogspot.com/
+
+  - memory scenes
+    - TED talk
+    - Sketchy Micro, Picmonic
+    - http://www.wikihow.com/Build-a-Memory-Palace
+    - http://immense-immunology-insight.blogspot.in/
+
+  - Mind Maps
+    - http://www.medschooltutors.com/blog/the-secret-study-skill-for-the-usmle-that-no-one-is-telling-you
+
+
+## Class or No-Class
+
+* at the end of every MCQ test, before you submit, write down 3 things you're
+  going to immediately look up that afternoon.  Go study those three things.
+
+* review your test notice what type of mistakes you make (see SOM study
+  booklet), note items that are repeated -- you'll see them again
+   * write down 3-5 things you're going to immediately look up
+
+* If something is covered in lecture that has little or no FA coverage, then
+  don't spend much time on it.  Look for one or two testable nuggets and just
+  passively listen to rest of lecture.  Yes, this may be on exam, but if so
+  then it'll likely be a very clear question.  Professors will know stuff is
+  not part of STEP and so tend to make these lectures very simple straight
+  recall type questions.
+
+   * David Young: "More than anything, Anki/FC help us avoid the number one
+     error people make when studying: reading something you don't know but
+     believing you really do. The open ended questions in FC will see if you
+     really do remember the 11 criteria for SLE or the findings for beta
+     thalassemia minor, whereas you may review that topic in FA and feel like
+     you know it simply because the words are familiar. People who on exams
+     consistently feel like all the questions are familiar and they know the
+     answer but just cant think of it are probably falling into this
+     category. This alone is probably what separates the all-honors students
+     from the all-pass students. The ability to generate the answers on your
+     own rather than recognize them with deja vu is critical, and FC takes aim
+     at this directly." (from
+     http://sidenotelife.tumblr.com/post/64673419322/ken-explains-studying-in-med-school-top-5-reasons-to)
+
+
+
+
+
+# Content: What to study?
+
+# Resources: How to study it?
+
+# Question banks: How to apply the facts?
+
+
+
+# Memorizing
+
+## Spaced repetition
+
+Spaced repetition provides the most efficient schedule for reviewing material,
+but this schedule is separate from *how* you absorb the material.
+
+{% endcomment %}
 
 
 {% include gallery.html %}
