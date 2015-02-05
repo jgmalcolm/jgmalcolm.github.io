@@ -129,15 +129,17 @@ figure out a way to optimize that part of the
 
 ## Personal traps
 
+Here are personal mistakes I've struggled against.
+
 **Glossing over big words.** I have a tendency to gloss over big words which
 leaves it all a blur.  For example, I might reading the sentence on PKU from
 biochemistry: "Phenylketonuria is due to a decrease in phenylalanine
-hydroxylase or decreased tetrahydrobiopterin cofactor".  I would wrongly
-glossing over the unfamiliar words, so I end up reading something more like
-"Phenyl--- is due to a decrease in phenyl--- --- or decreased --- cofactor".
-It's no wonder that a lot of biochemistry was just a blur to me.  I now to
-force myself to slow down and parse every syllable, and slowly those hard
-words have become more natural.
+hydroxylase or decreased tetrahydrobiopterin cofactor".  I would wrongly gloss
+over the unfamiliar words, so I end up reading something more like "Phenyl---
+is due to a decrease in phenyl--- --- or decreased --- cofactor".  It's no
+wonder that a lot of biochemistry was just a blur to me.  I now to force
+myself to slow down and parse every syllable, and slowly those hard words have
+become more natural.
 
 **Doing what's easiest.** Passively reading and nodding along because it all
 seems familiar and I believe I know the material.  The harder road is to
