@@ -2,10 +2,13 @@
 <ul>
   {% for related in site.related_posts limit: 3 %}
     <li>
+
       <a href="{{ related.url }}">{{ related.title }}</a>
+
       {% if related.description %}
       <br>{{ related.description }}
       {% endif %}
+
     </li>
   {% endfor %}
 </ul>
