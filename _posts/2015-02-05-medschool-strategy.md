@@ -97,7 +97,7 @@ already know, go faster.
 glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
 now.  Work on another later.  Similarly, if you're getting worn down with full
 blocks of 46 questions, do smaller blocks so you get more immediate feedback.
-If your worm down by low performance, smaller blocks might show an actual
+If your worn down by low performance, smaller blocks might show an actual
 score improvement for some positive feedback to keep you motivated.
 
 <div class="gallery">
