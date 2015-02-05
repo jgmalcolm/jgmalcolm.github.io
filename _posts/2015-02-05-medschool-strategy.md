@@ -85,13 +85,13 @@ ways to manage your energy and stretch your [willpower][willpower].
 
  [willpower]: http://www.amazon.com/gp/product/0143122231/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143122231&linkCode=as2&tag=jgmalcolm-20&linkId=RUYFTLGPIX7E62OL
 
-Your mind wandering while you're trying to study a diagram or memorize a
-table?  Recopy it by hand multiple times.  It requires only determination to
-keep copying while you're brain is (mostly) on autopilot.  I'm always amazed
-at how effective this can be.  I usually pull this out when I've repeatedly
-gotten a topic wrong, and I just channel that frustration into recopying a
-diagram or table.  Each iteration, add a new detail to the diagram, simplify a
-part you already know, go faster.
+Does your mind wandering while studying a diagram or memorizing a table?
+Recopy it by hand multiple times.  It requires only determination to keep
+copying while you're brain is (mostly) on autopilot.  I'm always amazed at how
+effective this can be.  I usually pull this out when I've repeatedly gotten a
+topic wrong, and I just channel that frustration into recopying a diagram or
+table.  Each iteration, add a new detail to the diagram, simplify a part you
+already know, go faster.
 
 **Break the problem down into easier pieces.** Is the entire combined
 glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
