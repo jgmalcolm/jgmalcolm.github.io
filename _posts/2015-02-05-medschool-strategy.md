@@ -33,13 +33,14 @@ to put together a table like the following.
 | Vertebral | *M tuberculosis* (Pott's disease)
 | Cat/Dog bite | *Pasteurella*
 
+{% comment %}
 | Fracture of humerus | Nerve | Function | Sensation
 |-
 | Surgical neck | axillary | abduction | lateral arm
 | mid-shaft | radial (musculospiral groove) | wrist drop | dorsal
 | lateral epicondyle | radial | wrist drop | dorsal
 | medial epicondyle | ulnar | claw hand (radial dominance)
-
+{% endcomment %}
 
 
 **Make your own tables.** Don't simply reply on those in your textbooks or
