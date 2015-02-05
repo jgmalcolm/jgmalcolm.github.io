@@ -402,10 +402,11 @@ Kaplan bank to cover more material per question.
   learn.  Instead drill with [Netter Flashcards] and [online videos](#videos)
   so you can pause and memorize as needed.  For each exam, put all the
   relevant cards on the ring and flip through those as you can.
-  * I found that using my own body to learn made the experience more vivid.
-    For example, I would trace the pathway of nerves/arteries/veins on my own
-    body, or watch as I tried to flex specific muscles.  All the while I would
-    be imagining what's going on under the hood.
+  * **The educational value of stabbing yourself.** I found that using my own
+    body to learn made the experience more vivid.  If I stabbed myself in the
+    back below the floating rib, what would I hit?  Trace the pathway of
+    nerves/arteries/veins on your own body.  Watch as you flex specific
+    muscles.  All the while imagine what's going on under the hood.
 * [U Michigan](http://www.med.umich.edu/lrc/coursepages/m1/anatomy2010/html/INDEX.html)
   has detailed explanations of various dissections along with relevant quizzes.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
