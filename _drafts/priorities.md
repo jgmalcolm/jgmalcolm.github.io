@@ -52,6 +52,5 @@ http://qr.ae/DIePK
     - avoid junk ideas
   - take care of your relationships
     - remember birthdays and anniversaries
-    -
--
+
 {% endcomment %}
