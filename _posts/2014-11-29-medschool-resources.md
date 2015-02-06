@@ -440,6 +440,9 @@ Kaplan bank to cover more material per question.
 Here are a few blog posts from others that influenced my thinking about
 studying and productivity in med school.
 
+> Find more tips and tricks in ["Med School Strategy"]({% post_url 2015-02-05-medschool-strategy %})
+
+
 ### Step 1
 
 * [Effect of Popular Study Resources on USMLE Step 1 Performance](https://members.aamc.org/eweb/upload/Are%20Questions%20the%20Answer%20PPT%2011-6-12%2010PM.pdf) - conclusion: question banks are the most effective and efficient study method
