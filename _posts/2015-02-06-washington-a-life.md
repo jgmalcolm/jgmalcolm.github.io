@@ -3,6 +3,7 @@ layout: post
 title: "Washington: A Life"
 tag:
 - books
+description: "Book review: British officer, American general, first president."
 photo: /images/books/washington.jpg
 ---
 
