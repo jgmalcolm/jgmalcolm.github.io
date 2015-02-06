@@ -166,7 +166,7 @@ Tomorrow is always a day away.
 systems (renal, muscular, pulmonary), I tended to mistakenly jump at answer
 choices that might explain one or two findings perfectly, but ultimately
 didn't explain all the physical exam or lab findings.  Now I know my answer
-choices needs to [account for every abnormal finding][abnormal-findings].
+choices need to [account for every abnormal finding][abnormal-findings].
 There are no wasted words in these vignettes.
 
 **Going too fast.** The more [practice questions][qbanks] I did, the quicker I
