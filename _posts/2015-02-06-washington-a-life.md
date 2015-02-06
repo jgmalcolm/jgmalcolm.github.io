@@ -113,8 +113,8 @@ that changed NYC.
 > the newspaper or from sermons on Sunday evenings or join in a game of cards
 > or backgammon.
 
-Washington was the original
-[quantified self](https://en.wikipedia.org/wiki/Quantified_Self):
+Washington would have joined the
+[quantified self](https://en.wikipedia.org/wiki/Quantified_Self) movement:
 
 > To maintain a detailed grasp of his vast operations, Washington kept
 > comprehensive records long before such bookkeeping was commonplace. Being a
