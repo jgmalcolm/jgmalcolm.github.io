@@ -445,7 +445,7 @@ studying and productivity in med school.
 
 ### Step 1
 
-* [Effect of Popular Study Resources on USMLE Step 1 Performance](https://members.aamc.org/eweb/upload/Are%20Questions%20the%20Answer%20PPT%2011-6-12%2010PM.pdf) - conclusion: question banks are the most effective and efficient study method
+* [Effect of Popular Study Resources on USMLE Step 1 Performance](https://members.aamc.org/eweb/upload/Are%20Questions%20the%20Answer%20PPT%2011-6-12%2010PM.pdf) - tl;dr: question banks are the most effective and efficient study method
 * [How To Study Effectively](http://meded.ucsd.edu/index.cfm//ugme/oess/study_skills_and_exam_strategies//how_to_study_actively/) -
   comprehensive guide from UC San Diego on an organized and active approach to
   studying in med school
