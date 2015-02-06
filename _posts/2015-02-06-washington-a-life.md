@@ -146,8 +146,8 @@ have never have reached critical mass, and America might still be a colony.
 > vast estates, lords of every acre they saw, George Washington and other
 > planters didn't care to truckle to a distant, unseen power.
 
-It's easy to think that all the Founding Fathers were roughly the same age.
-They were all in different stages of life.  Franklin was the elderly
+I had always pictured the Founding Fathers all being roughly the same age, but
+of course they were all in different stages of life.  Franklin was the elderly
 grandfatherly figure.  Washington was not much younger.  Jefferson was just a
 student.
 
