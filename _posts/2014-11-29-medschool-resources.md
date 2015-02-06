@@ -24,7 +24,7 @@ focus on knowing a few good resources thoroughly, and then picking pieces from
 other resources as needed.  That said, here are three resources every medical
 student uses for the boards.
 
-### 1. [First Aid for STEP1][First Aid]: content review for entire exam
+### [First Aid for STEP1][First Aid]: content review for entire exam
 
   [First Aid]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=first%20aid%20for%20step%201&linkCode=ur2&rh=i%3Aaps%2Ck%3Afirst%20aid%20for%20step%201&tag=jgmalcolm-20&url=search-alias%3Daps&linkId=65ZSHFLD65LXYPVO
 
@@ -52,7 +52,7 @@ student uses for the boards.
     material was thrown away:  all pages from front cover until Behavioral
     Science, all pages after Rapid Review.  This cut out over a hundred pages.
 
-### 2. [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
+### [Pathoma](//www.pathoma.com): pathology review   {#pathoma}
 
    [Pathoma]: #pathoma
 
@@ -86,7 +86,7 @@ student uses for the boards.
   subsequent passes at 1.3x and 1.7x, just sit back and absorb the slides.
 * Read more on [other pathology resources](#other-pathology-resources).
 
-### 3. [UWorld](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
+### [UWorld](//www.usmleworld.com/purchase.aspx): practice questions  {#uworld}
 
 * The official question bank of USMLE
 * 2618 questions total
