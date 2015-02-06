@@ -123,6 +123,11 @@ pre > code {
     tab-size: 2;
   }
 }
+@media (min-width: 48em) {
+  h1,h2,h3 {
+    margin-left: -1rem;
+  }
+}
 
 #toc {
   color: #fff;
