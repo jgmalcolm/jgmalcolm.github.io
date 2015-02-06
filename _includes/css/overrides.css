@@ -155,8 +155,7 @@ pre > code {
   background-color: #fbfbfb;
 }
 @media (max-width: 48em) {
-  .series {
+  .series, .tags {
     float: none;
-    align: center;
   }
 }
