@@ -1,6 +1,7 @@
 ---
 title: Med School Resources
 layout: post
+series: STEP1
 tags:
 - medicine
 - studying
@@ -8,6 +9,8 @@ tags:
 description: "A survey of the top study resources for the first two years of med school."
 photo: /images/micro-flashcards.jpg
 ---
+
+{% include series.html %}
 
 There are hundreds of resources available to help you study with new one
 popping up every year, so it's important to narrow in on the best.  Here is a

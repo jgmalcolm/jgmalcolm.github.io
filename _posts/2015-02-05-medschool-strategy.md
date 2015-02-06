@@ -1,6 +1,7 @@
 ---
 title: Med School Strategy
 layout: post
+series: STEP1
 tags:
 - medicine
 - studying
@@ -12,6 +13,7 @@ photo: /images/cascade.jpg
 description: "What to study and how to study it"
 ---
 
+{% include series.html %}
 
 ## Organize information the way it gets tested
 

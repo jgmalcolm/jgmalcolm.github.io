@@ -137,10 +137,20 @@ pre > code {
   padding: 0;
   margin: 0;
   border: #bbb 1px solid;
+  border-radius: 3px;
 }
 #toc td {
   border: none;
 }
 #toc tr:hover, #toc tr.active {
   background: #444;
+}
+
+.series {
+  font-size: 90%;
+  float: right;
+  border: #bbb 1px solid;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #fbfbfb;
 }

@@ -1,0 +1,9 @@
+<div class="series">
+  <center><b>{{ page.series }} series</b></center>
+  {% for post in site.posts reversed %}
+    {% if post.series == page.series %}
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

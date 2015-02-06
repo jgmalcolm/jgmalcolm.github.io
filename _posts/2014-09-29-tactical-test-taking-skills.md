@@ -2,6 +2,7 @@
 layout: post
 title: "Tactical Test-Taking Strategies"
 description: "Lessons learned from taking thousands of multiple choice questions."
+series: STEP1
 tags:
 - medicine
 - studying
@@ -10,6 +11,8 @@ keywords:
 - NBME
 photo: /images/scratch.jpg
 ---
+
+{% include series.html %}
 
 Med school is all test after test after test, and so a little over a year into
 it and I'm noticing some patterns.  Here are simple strategies that brought
