@@ -154,3 +154,9 @@ pre > code {
   padding: 10px;
   background-color: #fbfbfb;
 }
+@media (max-width: 48em) {
+  .series {
+    float: none;
+    align: center;
+  }
+}
