@@ -19,7 +19,7 @@ title: "Search"
 
   /* set title */
   var query = getParam('q');
-  $("h1").html(query);
+  $(".content h1").html(query);
 
   /* populate results */
   $.getJSON("posts.json", function(data) {
