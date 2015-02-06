@@ -435,7 +435,7 @@ Kaplan bank to cover more material per question.
 
 
 
-## Studying Techniques
+## Studying Advice
 
 Here are a few blog posts from others that influenced my thinking about
 studying and productivity in med school.
