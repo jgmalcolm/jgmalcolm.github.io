@@ -81,9 +81,17 @@ figcaption {
 
 
 .tags {
-    padding: 4px;
-    color: #666;
-    font-weight: bold;
+  float: right;
+}
+.tags a {
+  background-color: #b00;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+.tags a:hover {
+  background-color: #e00;
+  text-decoration: none;
 }
 
 
