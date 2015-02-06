@@ -15,14 +15,14 @@ George Washington was a British officer, the commanding general in the
 American Colonial Revolution, reluctant political figure, and by his actions
 defined the role of President of the United States.
 
-## Talking Points
+## Takeaways
 
 * Washington was disciplined and routine.  He rose at dawn to survey his land
   or troops.
 
 * Several times early in the war he jumped into battle to turn the course of
   events.  This risk to self both worried his generals and inspired his
-  troops.  With time, he came to realize the risk to army if he were to be
+  troops.  With time, he came to realize the risk to his army if he were to be
   lost and he relied more on his generals.
 
 * Washington was chronically in debt.  With the war and presidency consuming
@@ -94,9 +94,9 @@ it, but waste an hour and it's gone forever.
 > notice, and he often spouted the Scottish adage “Many mickles make a
 > muckle”—that is, tiny things add up.
 
-That reminds me of the
+Reminds me of the
 [Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
-that so changed NYC.
+that changed NYC.
 
 > Washington made sure that he returned for dinner precisely at 2:45 P.M. when
 > the first bell sounded for the large midday meal. According to legend, the
@@ -111,9 +111,6 @@ that so changed NYC.
 > going to bed at nine o'clock, he would often read aloud to the family from
 > the newspaper or from sermons on Sunday evenings or join in a game of cards
 > or backgammon.
-
-Not too long ago, our activities were in sync with the rise and fall of the
-Sun.  Of course, electricity and the light bulb changed all that.
 
 Washington was the original
 [quantified self](https://en.wikipedia.org/wiki/Quantified_Self):
@@ -242,37 +239,6 @@ and his crumbling personal property.
 > face—a scar that curves under the pouch of his left eye; a mole below his
 > right earlobe; smallpox scars on both his nose and cheeks—ordinarily edited
 > out of highly sanitized portraits.
-
-
-## Was Washington a Christian?
-
-If he was, then he didn't make that clear in the least.  He seems more like a
-deist.
-
-> A stalwart member of two congregations, Washington attended church
-> throughout his life and devoted substantial time to church activities. His
-> major rites of passage—baptism, marriage, burial—all took place within the
-> fold of the church. What has mystified posterity and puzzled some of his
-> contemporaries was that Washington's church attendance was irregular; that
-> he recited prayers standing instead of kneeling; that, unlike Martha, he
-> never took communion; and that he almost never referred to Jesus Christ,
-> preferring such vague locutions as “Providence,” “Destiny,” the “Author of
-> our Being,” or simply “Heaven.” Outwardly at least, his Christianity seemed
-> rational, shorn of mysteries and miracles, and nowhere did he directly
-> affirm the divinity of Jesus Christ.
-
-> Numerous historians, viewing Washington as imbued with the spirit of the
-> Enlightenment, have portrayed him as a deist. Eighteenth-century deists
-> thought of God as a “prime mover” who had created the universe, then left it
-> to its own devices, much as a watchmaker wound up a clock and walked
-> away. God had established immutable laws of nature that could be fathomed by
-> human reason instead of revelation. Washington never conformed to such
-> deism, however, for he resided in a universe saturated with religious
-> meaning. Even if his God was impersonal, with scant interest in individual
-> salvation, He seemed to evince a keen interest in North American
-> politics. Indeed, in Washington's view, He hovered over many battlefields in
-> the French and Indian War and the Revolutionary War.
-
 
 
 
@@ -459,6 +425,11 @@ gently.
 > merely the servant of the people.
 
 
+The political climate of the day was acrimonious and this was a constant
+scourge on Washington.  As time went on, his early confidants Jefferson and
+Madison turned on him.  Political parties sprang up and discourse was often
+vitriolic:
+
 > Washington never achieved the national unity he desired and, by the end,
 > presided over a deeply riven country. John Adams made a telling point when
 > he later noted that Washington, an apostle of unity, “had unanimous votes as
@@ -606,8 +577,29 @@ every Presidency since then has.
 > not abide was when people published criticisms of him without first giving
 > him a chance to respond privately.
 
+
+Henry Knox was one of his most trusted generals, until Knox chose his family
+over the war efforts.  Washington may have begrudged him, because he himself
+was constantly submitting his personal affairs to those of the nation:
+
+> While Washington was at Carlisle, Henry Knox belatedly returned to
+> Philadelphia. It must have dawned on him just how annoyed Washington was by
+> his protracted absence, for he sent him a letter awash with “inexpressible
+> regret that an extraordinary course of contrary winds” had delayed his
+> return. Knox volunteered to join Washington at Carlisle and must have been
+> shocked by his curt reply: “It would have given me pleasure to have had you
+> with me on my present tour and advantages might have resulted from it, if
+> your return in time would have allowed it. It is now too late.” This was a
+> remarkable message: the president was banishing the secretary of war from
+> the largest military operation to unfold since the Revolutionary War. In
+> addition to giving Knox a stinging rap on the knuckles, Washington must also
+> have seen that Hamilton had assumed a commanding posture and would have
+> yielded to Knox only with reluctance.
+
 > [H]e summed up his executive style: “Much was to be done by prudence, much
 > by conciliation, much by firmness.”
+
+Hamilton nicely sums up Washington's approach to major decisions:
 
 > Hamilton concurred that the president “consulted much, pondered much;
 > resolved slowly, resolved surely.”
@@ -662,24 +654,6 @@ every Presidency since then has.
 > envy, and intrigue that detracted from the achievements of other
 > founders. He had indeed been the indispensable man of the American
 > Revolution.
-
-
-
-## Notable Events
-
-> While Washington was at Carlisle, Henry Knox belatedly returned to
-> Philadelphia. It must have dawned on him just how annoyed Washington was by
-> his protracted absence, for he sent him a letter awash with “inexpressible
-> regret that an extraordinary course of contrary winds” had delayed his
-> return. Knox volunteered to join Washington at Carlisle and must have been
-> shocked by his curt reply: “It would have given me pleasure to have had you
-> with me on my present tour and advantages might have resulted from it, if
-> your return in time would have allowed it. It is now too late.” This was a
-> remarkable message: the president was banishing the secretary of war from
-> the largest military operation to unfold since the Revolutionary War. In
-> addition to giving Knox a stinging rap on the knuckles, Washington must also
-> have seen that Hamilton had assumed a commanding posture and would have
-> yielded to Knox only with reluctance.
 
 
 
@@ -783,6 +757,8 @@ On political parties:
 
 
 
+{% comment %}
+
 ## Dental decay
 
 Ever wonder why no one smiled for the camera back then?
@@ -790,7 +766,7 @@ Ever wonder why no one smiled for the camera back then?
 > We can deduce that Washington's dental transplant miscarried, since by the
 > time of his presidential inauguration in 1789, he had only a single working
 > tooth remaining.
-
+{% endcomment %}
 
 
 ## Foreign Policy
@@ -962,6 +938,39 @@ attention and sympathy of others.
 > until the year after the wedding.
 
 Not happy that little George had another lady in his life.
+
+
+
+## Was Washington a Christian?
+
+If he was, then he didn't make that clear in the least.  He seems more like a
+deist.
+
+> A stalwart member of two congregations, Washington attended church
+> throughout his life and devoted substantial time to church activities. His
+> major rites of passage—baptism, marriage, burial—all took place within the
+> fold of the church. What has mystified posterity and puzzled some of his
+> contemporaries was that Washington's church attendance was irregular; that
+> he recited prayers standing instead of kneeling; that, unlike Martha, he
+> never took communion; and that he almost never referred to Jesus Christ,
+> preferring such vague locutions as “Providence,” “Destiny,” the “Author of
+> our Being,” or simply “Heaven.” Outwardly at least, his Christianity seemed
+> rational, shorn of mysteries and miracles, and nowhere did he directly
+> affirm the divinity of Jesus Christ.
+
+> Numerous historians, viewing Washington as imbued with the spirit of the
+> Enlightenment, have portrayed him as a deist. Eighteenth-century deists
+> thought of God as a “prime mover” who had created the universe, then left it
+> to its own devices, much as a watchmaker wound up a clock and walked
+> away. God had established immutable laws of nature that could be fathomed by
+> human reason instead of revelation. Washington never conformed to such
+> deism, however, for he resided in a universe saturated with religious
+> meaning. Even if his God was impersonal, with scant interest in individual
+> salvation, He seemed to evince a keen interest in North American
+> politics. Indeed, in Washington's view, He hovered over many battlefields in
+> the French and Indian War and the Revolutionary War.
+
+
 
 
 ## Random
