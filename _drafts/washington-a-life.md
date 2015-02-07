@@ -16,8 +16,6 @@ George Washington was a British officer, the commanding general in the
 American Colonial Revolution, reluctant political figure, and by his actions
 defined the role of President of the United States.
 
-## Takeaways
-
 * Washington was disciplined and routine.  He rose at dawn to survey his land
   or troops.
 
