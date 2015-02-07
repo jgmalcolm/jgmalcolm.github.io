@@ -12,7 +12,7 @@ photo: /images/micro-flashcards.jpg
 
 {% include series.html %}
 
-There are hundreds of resources available to help you study with new one
+There are hundreds of resources available to help you study with new ones
 popping up every year, so it's important to narrow in on the best.  Here is a
 short list of the best resources I used during the didactic portion of med
 school.  I cover various approaches to learning: review texts, memory palaces,
