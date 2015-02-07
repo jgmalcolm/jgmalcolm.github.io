@@ -10,13 +10,13 @@ description: "A survey of the top study resources for the first two years of med
 photo: /images/micro-flashcards.jpg
 ---
 
-{% include series.html %}
-
 There are hundreds of resources available to help you study with new ones
 popping up every year, so it's important to narrow in on the best.  Here is a
 short list of the best resources I used during the didactic portion of med
 school.  I cover various approaches to learning: review texts, memory palaces,
 video lectures, spaced repetition software, physical note cards, and more.
+
+{% include series.html %}
 
 ## Every student uses
 
@@ -713,4 +713,5 @@ Music app is not designed to listen to tedious hour long lectures.
  MP3s*
 
 
+{% include series.html %}
 {% include gallery.html %}

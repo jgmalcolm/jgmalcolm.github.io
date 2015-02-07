@@ -309,7 +309,7 @@ becoming the best physician possible.  It's about being able to answer patient
 questions, explain to them what's happening to their bodies.  It's about being
 able to notice a disease pattern that others might have missed.
 
-
+{% include series.html %}
 
 {% comment %}
 
