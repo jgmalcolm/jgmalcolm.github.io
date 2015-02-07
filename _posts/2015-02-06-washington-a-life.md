@@ -224,11 +224,17 @@ and his crumbling personal property.
 > possibly end in capital losses, if not absolute ruin, before I am at liberty
 > to look after them.”
 
+<div class="gallery">
 <figure class="thumb">
-  <img src="/images/washington.jpg">
+  <a href="/images/washington.jpg">
+    <img title="Washington during his second term started to show the physical
+      signs of fatigue from the presidency."
+     src="/images/washington.jpg">
+  </a>
   <figcaption>Washington during his second term started to show the physical
   signs of fatigue from the presidency.</figcaption>
 </figure>
+</div>
 
 > The pastel portrait that Williams executed on September 18, 1794, shows a
 > particularly dour, cranky Washington, with a tightly turned-down
@@ -1035,3 +1041,5 @@ but the multiple rounds of blood letting sure
 
 <!--- Sometime similar to :
 http://www.mdswanson.com/writeup/2011/04/17/moonwalking-with-einstein.html -->
+
+{% include gallery.html %}
