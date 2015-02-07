@@ -105,7 +105,7 @@ student uses for the boards.
 * For your modules, you'll want to purchase the
   [USMLE-Rx or Kaplan qbanks][qbanks]
 * Tips:
-  * Under "Utilities -> Preferences", set your defaults to "Tutor", "Unused",
+  * Under "Utilities &rarr; Preferences", set your defaults to "Tutor", "Unused",
     and pick a font.
   * It's a buggy Java app, so be sure to close and restart every day.  If you
     leave it open for days in a row it'll start bogging down.
