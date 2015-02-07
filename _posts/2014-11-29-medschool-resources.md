@@ -258,7 +258,7 @@ depend on your weaknesses and learning style.
   multiple scenes.
 
 
-## Learn From Videos {#videos}
+## Videos {#videos}
 
 * YouTube is a treasure trove of focused topical videos.
   * Each module, create a playlist and add videos as you come across them.
@@ -438,7 +438,7 @@ Kaplan bank to cover more material per question.
 
 
 
-## Studying Advice
+## Studying
 
 Here are a few blog posts from others that influenced my thinking about
 studying and productivity in med school.
