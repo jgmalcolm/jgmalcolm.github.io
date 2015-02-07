@@ -37,6 +37,7 @@ keywords:
 * Location you're very familiar with (home)
   * Separate rooms and physical space to avoid crowding
 
+http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-quick-primer-on-mental-mapping/
 
 * Develop a basic number set
 
