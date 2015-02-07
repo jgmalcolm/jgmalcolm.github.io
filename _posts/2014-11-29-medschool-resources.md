@@ -90,13 +90,12 @@ student uses for the boards.
   subsequent passes at 1.3x and 1.7x, just sit back and absorb the slides.
 * Read more on [other pathology resources](#other-pathology-resources).
 
-### [UWorld](//www.usmleworld.com/purchase.aspx)  {#uworld}
+### [USMLE World](//www.usmleworld.com/purchase.aspx)  {#uworld}
 
 * The official practice question bank of USMLE
 * 2618 questions total
   * bank of 2250 questions
   * two self assessment exams (184 questions each for a total of 368 questions)
-* Also known as "USMLE World"
 * Explanations are of the highest quality
 * various purchase options
   * Purchase about 30-90 days out from your STEP1 date
