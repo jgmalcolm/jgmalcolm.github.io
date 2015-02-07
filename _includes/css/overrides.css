@@ -83,6 +83,7 @@ figcaption {
 
 .tags {
   float: right;
+  padding: 10px 0;
 }
 .tags a {
   background-color: #b00;
@@ -157,5 +158,6 @@ pre > code {
 @media (max-width: 48em) {
   .series, .tags {
     float: none;
+    clear: both;
   }
 }
