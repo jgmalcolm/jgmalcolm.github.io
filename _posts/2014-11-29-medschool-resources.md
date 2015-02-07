@@ -116,8 +116,10 @@ student uses for the boards.
 ## Most students use
 
 The three resources above will provide the most comprehensive coverage in the
-fewest number of resources.  You should be spending the majority of your
-dedicated STEP1 study time focused on those three.
+fewest number of resources.  You should be spending the vast majority of your
+dedicated STEP1 study time focused on those three.  Everything else here is to
+learn throughout your regular curriculum or hit your hot spots during your
+dedicated period.
 
 Beyond those, nearly all students pull from a few additional resources
 throughout their coursework.  The following is a survey of resources.  Choices
