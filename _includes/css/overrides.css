@@ -107,7 +107,6 @@ ul {
   overflow: scroll;
   border: #bbb 1px solid;
   border-radius: 3px;
-  display: inline;
 }
 pre > code {
   border: none; /* avoid double-borders */
