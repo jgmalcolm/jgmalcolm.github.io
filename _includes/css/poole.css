@@ -109,14 +109,12 @@ hr {
 
 /* Code */
 code {
-  padding: .2em;
   display: inline;
+  white-space: nowrap;
 }
 pre {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  padding: 1rem;
+  margin: 1rem 0 1rem 0;
   line-height: 1.3;
 }
 
