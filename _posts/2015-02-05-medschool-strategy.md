@@ -30,9 +30,9 @@ to put together a table like the following.
 | none | *S aureus*
 | Sexually active | septic arthritis, *Neisseria gonorrhea*
 | Sickle cell | *Salmonella*
-| Diabetic | *Pseudomonas*, *Serratia*
+| Diabetic | *Pseudomonas*
 | Prosthetic joint | *S aureus* > *S epidermidis*
-| Vertebral | *M tuberculosis* (Pott's disease)
+| Vertebra | *M tuberculosis*
 | Cat/Dog bite | *Pasteurella*
 
 {% comment %}
@@ -62,13 +62,10 @@ Some dimensions you can compare and contrast along:
 
 **Look for contrasts to distinguish diseases.**
 
-* pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
-* follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
+* Pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
+* Follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
 * 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
 * Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
-* Emphysema (PaCO2 and PaO2 are normal until later in the disease course)
-  vs. chronic bronchitis (PaCO2 and PaO2 are abnormal earlier on)
-* Emphysema (cor pulmonale is low) vs. chronic bronchitis (cor pulmonale high)
 * Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
   structure of globin)
 
