@@ -1,8 +1,8 @@
-<h2>Recent</h2>
-<ul>
-  {% for related in site.related_posts limit: 7 %}
-    <li>
-      <a href="{{ related.url }}">{{ related.title }}</a>
-    </li>
+<h2>Related posts</h2>
+{% for p in site.posts %}
+  {% for t in p.tags %}
+    {% if page.tags contains t %}
+      <a href="{{ p.url }}">{{ p.title }}</a> |
+    {% endif %}
   {% endfor %}
-</ul>
+{% endfor %}
