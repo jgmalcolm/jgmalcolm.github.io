@@ -78,21 +78,8 @@ figcaption {
 
 
 .tags {
-  float: right;
-  padding: 10px 0 10px 10px;
+  font-weight: bold;
 }
-.tags a {
-  text-decoration: none;
-  background: #b00a0f;
-  color: white;
-  padding: 4px 12px;
-  border-radius: 3px;
-}
-.tags a:hover {
-  background: #d00a0f;
-}
-
-
 li > ul {
     margin-bottom: 0;
 }

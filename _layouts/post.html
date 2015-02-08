@@ -2,13 +2,7 @@
 layout: default
 ---
 
-{% if page.tags.size > 0 %}
-<div class="tags">
-  {% for tag in page.tags %}
-    <a href="/search/?q={{ tag }}">{{ tag }}</a>
-  {% endfor %}
-</div>
-{% endif %}
+{% include tags.html %}
 
 {% if page.description %}
 <blockquote>{{ page.description }}</blockquote>
@@ -16,13 +10,7 @@ layout: default
 
 {{ content }}
 
-{% if page.tags.size > 0 %}
-<div class="tags">
-  {% for tag in page.tags %}
-    <a href="/search/?q={{ tag }}">{{ tag }}</a>
-  {% endfor %}
-</div>
-{% endif %}
+{% include tags.html %}
 
 <div class="no-print">
   <hr>
