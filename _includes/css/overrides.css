@@ -47,7 +47,6 @@ h6:hover .header-link {
   opacity: 1;
 }
 
-
 .content img {
   margin: 8px 0;
   border: #888 1px solid;
@@ -80,17 +79,17 @@ figcaption {
 
 .tags {
   float: right;
-  padding: 10px 0;
+  padding: 10px 0 10px 10px;
 }
 .tags a {
   text-decoration: none;
-  background-color: #b00a0f;
+  background: #b00a0f;
   color: white;
+  padding: 4px 12px;
   border-radius: 3px;
-  padding: 4px 8px;
 }
 .tags a:hover {
-  background-color: #d00a0f;
+  background: #d00a0f;
 }
 
 
@@ -145,8 +144,6 @@ pre > code {
 }
 
 .series {
-  font-size: 90%;
-  float: right;
   border: #bbb 1px solid;
   border-radius: 3px;
   padding: 10px;
