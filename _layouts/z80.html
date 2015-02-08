@@ -5,9 +5,9 @@ css:
 ---
 <p><b>
   <a href="/z80">z80</a>
-{% if page.section %}
-  &raquo; <a href="/z80/#{{ page.section | downcase }}">{{ page.section }}</a>
-{% endif %}
+  {% if page.section %}
+    &raquo; <a href="/z80/#{{ page.section | downcase }}">{{ page.section }}</a>
+  {% endif %}
 </b></p>
 
 {{ content }}
