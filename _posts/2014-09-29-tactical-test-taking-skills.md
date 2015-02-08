@@ -561,6 +561,4 @@ choice in turn will help you squeeze out these sloppy errors.
 [Evan McClure](//twitter.com/evan_mcclure), Juan-Manuel Duran, Jason Boulter,
 and LeslieAnn Kao for discussions.*
 
-
-{% include series.html %}
 {% include gallery.html %}

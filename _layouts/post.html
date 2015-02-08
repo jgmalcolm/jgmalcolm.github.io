@@ -2,15 +2,19 @@
 layout: default
 ---
 
-{% include tags.html %}
-
 {% if page.description %}
 <blockquote>{{ page.description }}</blockquote>
 {% endif %}
 
+{% include tags.html %}
+
 {{ content }}
 
 {% include tags.html %}
+
+{% if page.series %}
+  {% include series.html %}
+{% endif %}
 
 <div class="no-print">
   <hr>

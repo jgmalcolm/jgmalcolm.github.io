@@ -713,5 +713,4 @@ Usually this fixes the situation.
  MP3s*
 
 
-{% include series.html %}
 {% include gallery.html %}
