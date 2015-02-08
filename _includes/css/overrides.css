@@ -14,13 +14,13 @@ body {
 }
 blockquote {
   color: #777;
-  border-left: 4px solid #b00;
+  border-left: 4px solid #b00a0f;
 }
 
 a {
   text-decoration: none;
-  color: #b00;
-  border-bottom: 1px #b00 dotted;
+  color: #b00a0f;
+  border-bottom: 1px #b00a0f dotted;
   transition: all 0.1s ease-in-out;
 }
 
@@ -87,13 +87,13 @@ figcaption {
 }
 .tags a {
   text-decoration: none;
-  background-color: #b00;
+  background-color: #b00a0f;
   color: white;
   border-radius: 3px;
   padding: 4px 8px;
 }
 .tags a:hover {
-  background-color: #d00;
+  background-color: #d00a0f;
 }
 
 
