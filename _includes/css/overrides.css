@@ -118,6 +118,9 @@ code.hljs {
 .hljs-keyword {
   color: blue;
 }
+.hljs-label {
+  color: red;
+}
 
 @media (max-width: 48em) {
   .hljs, pre, code {
