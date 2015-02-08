@@ -8,9 +8,6 @@ TI calculators.  While focused on the TI86, much of this applies to any
 z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was
 formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 
-![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
-
-
 - [Beginner](#beginner) - getting started with assembler code, registers, arithmetic, flags, and memory
 - [Intermediate](#intermediate) - more details on the beginner topics
 - [Graphics](#graphics) - manipulating pixels and grayscale
@@ -20,6 +17,8 @@ formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Menus](#menus) - creating native TI-OS menus
 - [Design](#design) - planning and game design, writing clean code
 - [Downloads](download/download.htm) - tools, examples, algorithms
+
+![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
 
 
 ## Beginner
