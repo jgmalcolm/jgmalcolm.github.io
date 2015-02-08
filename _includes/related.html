@@ -1,8 +1,13 @@
 <h2>Related posts</h2>
 {% for p in site.posts %}
+  {% assign related = false %}
   {% for t in p.tags %}
     {% if page.tags contains t %}
-      <a href="{{ p.url }}">{{ p.title }}</a> |
+      {% assign related = true %}
     {% endif %}
   {% endfor %}
+
+  {% if related %}
+    <a href="{{ p.url }}">{{ p.title }}</a> |
+  {% endif %}
 {% endfor %}
