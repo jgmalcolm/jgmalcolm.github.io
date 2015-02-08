@@ -2,9 +2,10 @@
   <center><b>{{ page.series }} series</b></center>
   {% for post in site.posts reversed %}
     {% if post.series == page.series %}
-      {% if post.url == page.url %}<b>{% endif %}
-      <a href="{{ post.url }}">{{ post.title }}</a><br>
-      {% if post.url == page.url %}</b>{% endif %}
+      {% if post.url != page.url %}<a href="{{ post.url }}">{% endif %}
+      {{ post.title }}
+      {% if post.url != page.url %}</a>{% endif %}
+      <br/>
     {% endif %}
   {% endfor %}
   </ul>
