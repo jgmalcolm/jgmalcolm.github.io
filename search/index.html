@@ -18,15 +18,15 @@ title: "Search"
   }
 
   /* set title */
-  var query = getParam('q');
-  $(".content h1").html(query);
+  var query = getParam("q");
+  $(".content h1").html("posts about " + query);
 
   /* populate results */
   $.getJSON("posts.json", function(data) {
     var items = [];
     $.each(data, function (idx, entry) {
       if (entry.tags.indexOf(query) >= 0) {
-        items.push("<p><h2 class='post-title'><a href='" + entry.url + "'>" + entry.title + "</a></h2>" + entry.desc + "</p>");
+        items.push("<p><b class='post-title'><a href='" + entry.url + "'>" + entry.title + "</a></b><br>" + entry.desc + "</p>");
       }
     });
     $("#results").html((items.length > 0) ? items.join("") : "<i>No results found for '" + query + "'</i>");
