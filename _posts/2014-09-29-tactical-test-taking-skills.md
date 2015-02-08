@@ -3,12 +3,8 @@ layout: post
 title: "Tactical Test-Taking Strategies"
 description: "Lessons learned from taking thousands of multiple choice questions."
 series: STEP1
-tags:
-- medicine
-- studying
-- STEP1
-keywords:
-- NBME
+tags: [medicine, studying STEP1]
+keywords: [NBME]
 photo: /images/scratch.jpg
 ---
 
