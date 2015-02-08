@@ -12,12 +12,22 @@ css:
 
 {{ content }}
 
-<p><b>
+<p><b>More from:
   <a href="/z80">z80</a>
-{% if page.section %}
-  &raquo; <a href="/z80/#{{ page.section | downcase }}">{{ page.section }}</a>
-{% endif %}
-</b></p>
+  {% if page.section %}
+    &raquo; <a href="/z80/#{{ page.section | downcase }}">{{ page.section }}</a>
+  {% endif %}
+  </b><br>
+
+  {% for p in site.pages %}
+    {% if p.layout == "z80" and p.section == page.section %}
+      {% if p.title != page.title %}<a href="{{ p.url }}">{% endif %}
+      {{ p.title }}
+      {% if p.title != page.title %}</a>{% endif %}
+      |
+    {% endif %}
+  {% endfor %}
+</p>
 
 <script src="/js/highlight.min.js"></script>
 <script>
