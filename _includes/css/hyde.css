@@ -67,7 +67,6 @@
 }
 
 .sidebar a {
-  text-decoration: none;
   border-radius: 3px;
   border: 1px solid #eee;
   padding: 4px 8px;
@@ -79,6 +78,7 @@
 .sidebar a:hover {
   color: #222 !important;
   background: #eee;
+  text-decoration: none;
 }
 
 .sidebar-about {
