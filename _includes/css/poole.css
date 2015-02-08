@@ -109,7 +109,8 @@ hr {
 
 /* Code */
 code {
-  padding: .25em .25em;
+  padding: .2em;
+  display: inline;
 }
 pre {
   display: block;

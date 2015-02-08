@@ -16,7 +16,7 @@ layout: default
 $(document).ready(function(){
 
   /* highlight all code */
-  $("pre").each(function(idx,elem) {
+  $("pre,code").each(function(idx,elem) {
     $(elem).addClass("z80asm");
     hljs.highlightBlock(elem);
   });
