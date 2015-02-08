@@ -116,10 +116,10 @@ code.hljs {
   padding: 0.2em;
 }
 .hljs-keyword {
-  color: blue;
+  color: #b11;
 }
 .hljs-label {
-  color: red;
+  color: #11b;
 }
 
 @media (max-width: 48em) {
