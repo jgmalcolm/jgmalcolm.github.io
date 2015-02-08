@@ -17,21 +17,20 @@ blockquote {
   border-left: 4px solid #b00;
 }
 
-a, a:link, a:active, a:visited {
-  color: #b00;
+a {
   text-decoration: none;
+  color: #b00;
+  border-bottom: 1px #b00 dotted;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #222;
+  border-bottom: 1px #222 dotted;
 }
 
 .sidebar {
   color: rgba(255,255,255,.5);
   background-color: #202020;
-}
-.sidebar a {
-  color: #fff;
 }
 
 .header-link {
@@ -86,6 +85,7 @@ figcaption {
   padding: 10px 0;
 }
 .tags a {
+  text-decoration: none;
   background-color: #b00;
   color: white;
   border-radius: 3px;
@@ -93,7 +93,6 @@ figcaption {
 }
 .tags a:hover {
   background-color: #555;
-  text-decoration: none;
 }
 
 
