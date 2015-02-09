@@ -16,3 +16,8 @@ https://docs.google.com/a/jgmalcolm.com/document/d/1J4LsAtl5NHjskCv0lbXxUMY16lBl
 
 
 http://www.uwmedicine.org/education/Documents/md-program/AOA%20Pearls_2013-14_4_MS-4%20Advice.pdf
+
+
+## Surgery
+
+http://www.reddit.com/r/medicalschool/comments/2vanpe/faq_for_matching_in_general_surgery/
