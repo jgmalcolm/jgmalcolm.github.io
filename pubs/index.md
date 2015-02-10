@@ -459,10 +459,8 @@ compilers
 <a href="http://www.shawnlankton.com/publications">Shawn Lankton</a> - active contour
 image segmentation, stereo vision
 
-<a href="http://www.notonlyluck.com">John Melonakos</a> - image processing,
-co-founded <a href="http://www.arrayfire.com">ArrayFire</a> with me
-
-<a href="http://thecrontab.net">Gallagher Pryor</a> - image processing,
+<a href="http://www.notonlyluck.com">John Melonakos</a> and <a
+href="http://thecrontab.net">Gallagher Pryor</a> - image processing,
 co-founded <a href="http://www.arrayfire.com">ArrayFire</a> with me
 
 
