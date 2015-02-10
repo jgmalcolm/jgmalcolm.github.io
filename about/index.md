@@ -11,7 +11,7 @@ and [scientist](/pubs/research.html).
 
 <a href="https://twitter.com/jgmalcolm" title="Twitter">twitter</a> &middot;
 <a href="https://github.com/jgmalcolm" title="GitHub">github</a> &middot;
-<a href="http://scholar.google.com/citations?user=k8pxfGQAAAAJ" title="Google Scholar">scholar</a> &middot;
+<a href="https://scholar.google.com/citations?user=Tp8uTioAAAAJ" title="Google Scholar">scholar</a> &middot;
 <a href="mailto:me@jgmalcolm.com?subject=Hi" title="E-Mail">email</a> &middot;
 <a href="https://www.linkedin.com/in/jgmalcolm">linkedin</a> &middot;
 <a href="/atom.xml" title="Subscribe (Atom)">rss</a>
