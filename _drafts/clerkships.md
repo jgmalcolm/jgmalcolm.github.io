@@ -21,3 +21,4 @@ http://www.uwmedicine.org/education/Documents/md-program/AOA%20Pearls_2013-14_4_
 ## Surgery
 
 http://www.reddit.com/r/medicalschool/comments/2vanpe/faq_for_matching_in_general_surgery/
+http://www.reddit.com/r/medicalschool/comments/2vcroj/tips_and_tricksresources_for_the_surgery_clerkship/
