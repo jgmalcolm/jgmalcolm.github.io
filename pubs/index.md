@@ -442,15 +442,6 @@ Tannenbaum, <i>Conf. on Guidance, Navigation, and Control</i>, 2005.
 
 
 
-## Patent
-
-[&#8220;System for Improving Utilization of GPU Resources&#8221;](https://www.google.com/patents/US8339404),
-Pryor, Malcolm, Melonakos, Rehman. U.S.  App No. 12/323,572, filed 29 Nov
-2007, granted 25 Dec 2012.
-
-
-
-
 ## Friends and colleagues
 
 <a href="http://matt.might.net">Matt Might</a> - systems, languages,
@@ -462,6 +453,16 @@ image segmentation, stereo vision
 <a href="http://www.notonlyluck.com">John Melonakos</a> and <a
 href="http://thecrontab.net">Gallagher Pryor</a> - image processing,
 co-founded <a href="http://www.arrayfire.com">ArrayFire</a> with me
+
+
+## Patent
+
+[&#8220;System for Improving Utilization of GPU Resources&#8221;](https://www.google.com/patents/US8339404),
+Pryor, Malcolm, Melonakos, Rehman. U.S.  App No. 12/323,572, filed 29 Nov
+2007, granted 25 Dec 2012.
+
+
+
 
 
 <script type="text/javascript">
