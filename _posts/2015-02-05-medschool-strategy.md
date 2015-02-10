@@ -79,6 +79,19 @@ ways to manage your energy and stretch your [willpower][willpower].
 
  [willpower]: http://www.amazon.com/gp/product/0143122231/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143122231&linkCode=as2&tag=jgmalcolm-20&linkId=RUYFTLGPIX7E62OL
 
+<div class="gallery">
+  <figure class="thumb">
+    <a href="/images/cascade.jpg" data-gallery="cascade"
+    title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
+      <img src="/images/cascade.jpg"></a>
+
+  <figcaption>A chicken scratch diagram of the coagulation cascade.  Lacking
+  some details and not something I'd put on the refrigerator, but at least I
+  now know the basic cascade.</figcaption>
+
+  </figure>
+</div>
+
 Does your mind wandering while studying a diagram or memorizing a table?
 Recopy it by hand multiple times.  It requires only determination to keep
 copying while you're brain is (mostly) on autopilot.  I'm always amazed at how
@@ -93,19 +106,6 @@ now.  Work on another later.  Similarly, if you're getting worn down with full
 blocks of 46 questions, do smaller blocks so you get more immediate feedback.
 If your worn down by low performance, smaller blocks might show an actual
 score improvement for some positive feedback to keep you motivated.
-
-<div class="gallery">
-  <figure class="thumb">
-    <a href="/images/cascade.jpg" data-gallery="cascade"
-    title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
-      <img src="/images/cascade.jpg"></a>
-
-  <figcaption>A chicken scratch diagram of the coagulation cascade.  Lacking
-  some details and not something I'd put on the refrigerator, but at least I
-  now know the basic cascade.</figcaption>
-
-  </figure>
-</div>
 
 **Switch tactics to boost energy.** If you're getting bored of answering
 questions, switch over to watch a video lecture.
