@@ -1,7 +1,7 @@
 ---
 title: "Co-Founding"
 layout: post
-description: "Thoughts on starting a joint venture."
+description: "Thoughts on starting a new venture with partners."
 tags: [business]
 ---
 
