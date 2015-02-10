@@ -81,7 +81,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Load_RAM_ahl"></A><H3>_Load_RAM_ahl=$462f</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Converts ABS pointer <CODE>ahl</CODE> into RAM page and <CODE>hl</CODE> as
 		pointer (loads RAM page)
 	<TR>	<TD CLASS=header>Input
@@ -95,7 +95,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Conv_ahl"></A><H3>_Conv_ahl=$4633</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Converts ABS pointer <CODE>ahl</CODE> into RAM page and <CODE>hl</CODE> as
 		pointer (does <I>not</I> load RAM page)
 	<TR>	<TD CLASS=header>Input
@@ -109,7 +109,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Set_ABS_Src_Addr"></A><H3>_Set_ABS_Src_Addr=$4647</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Copies <CODE>ahl</CODE> into _Abs_Src_Addr for use with block copies
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> is ABS pointer
@@ -122,7 +122,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Set_ABS_Dest_Addr"></A><H3>_Set_ABS_Dest_Addr=$5285</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Copies <CODE>ahl</CODE> into <CODE>_Abs_Dest_Addr</CODE> for use
 		with block copies
 	<TR>	<TD CLASS=header>Input
@@ -136,7 +136,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Set_MM_Num_Bytes"></A><H3>_Set_MM_Num_Bytes=$464f</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Sets number of bytes to be copied in ABS block copies
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> is ABS pointer
@@ -149,7 +149,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_MM_Ldir"></A><H3>_MM_Ldir=$52ed</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Performs ABS pointer block copy like <CODE>ldir</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ABS_Src_Addr</CODE> - source to copy from<BR>
@@ -169,7 +169,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_ABS_Mov10toOP1_NoSet"></A><H3>_ABS_Mov10toOP1_NoSet=$5239</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Copy 10 bytes from ABS pointer in <CODE>_ABS_Src_Addr</CODE>
 		to <CODE>OP1</CODE>
 	<TR>	<TD CLASS=header>Input
@@ -183,7 +183,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_ABS_Mov10B"></A><H3>_ABS_Mov10B=$5249</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Move 10 bytes from ABS pointer in <CODE>_Abs_Src_Addr</CODE>
 		to ABS pointer in <CODE>_Abs_Dest_Addr</CODE>
 	<TR>	<TD CLASS=header>Input
@@ -197,7 +197,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_ABS_MovFrOP1"></A><H3>_ABS_MovFrOP1=$5245</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Move 10 bytes from <CODE>OP1</CODE> to the ABS pointer
 		in <CODE>_Abs_Dest_Addr</CODE>
 	<TR>	<TD CLASS=header>Input
@@ -211,7 +211,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_DataSize"></A><H3>_DataSize=$477f</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>After performing <A HREF="findsym.htm">_FindSym</A>, use
 		it to find the variable's size.
 	<TR>	<TD CLASS=header>Input
@@ -227,7 +227,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Inc_Ptr_ahl"></A><H3>_Inc_Ptr_ahl=$4637</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Increase the ABS pointer <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - the ABS pointer to increase
@@ -239,7 +239,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 </TABLE><BR>
 <A NAME="_Inc_Ptr_ade"></A><H3>_Inc_Ptr_ade=$45ef</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Increase the ABS pointer <CODE>ade</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ade</CODE> - the ABS pointer to increase
@@ -252,7 +252,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Inc_Ptr_bde"></A><H3>_Inc_Ptr_bde=$463F</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Increase the ABS pointer <CODE>bde</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>bde</CODE> - the ABS pointer to increase
@@ -265,7 +265,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Dec_Ptr_ahl"></A><H3>_Dec_Ptr_ahl=$463b</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Decrease the ABS pointer <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - the ABS pointer to decrease
@@ -278,7 +278,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Dec_Ptr_ade"></A><H3>_Dec_Ptr_ade=$46bf</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Decrease the ABS pointer <CODE>ade</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ade</CODE> - the ABS pointer to decrease
@@ -291,7 +291,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Dec_Ptr_bde"></A><H3>_Dec_Ptr_bde=$4643</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Decrease the ABS pointer <CODE>ade</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ade</CODE> - the ABS pointer to decrease
@@ -304,7 +304,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_GetB_AHL"></A><H3>_GetB_AHL=$46c3</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Gets the byte at ABS <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - where to get byte from
@@ -319,7 +319,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_RAM_Page_1"></A><H3>_RAM_Page_1=$47e3</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Loads RAM page 1 (Floating Point Stack)
 	<TR>	<TD CLASS=header>Input
 		<TD>none
@@ -331,7 +331,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_RAM_Page_7"></A><H3>_RAM_Page_7=$47f3</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Loads RAM page 7 (Variable Allocation Table)
 	<TR>	<TD CLASS=header>Input
 		<TD>none
@@ -343,7 +343,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_WriteB_Inc_ahl"></A><H3>_WriteB_Inc_ahl=$5567</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Store a byte at ABS <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>c</CODE> - the byte to store<BR><CODE>ahl</CODE> - the ABS pointer
@@ -358,7 +358,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Cp_ahl_bde"></A><H3>_Cp_ahl_bde=$46c7</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Compare the bytes at <CODE>ahl</CODE> and <CODE>bde</CODE> much
 		like <A HREF="../beginner/inst.htm#cp"><CODE>cp</CODE></A>.
 	<TR>	<TD CLASS=header>Input
@@ -372,7 +372,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Ex_ahl_bde"></A><H3>_Ex_ahl_bde=$45f3</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Exchange the ABS pointers <CODE>ahl</CODE> and <CODE>bde</CODE> much
 		like <CODE>ex de,hl</CODE>
 	<TR>	<TD CLASS=header>Input
@@ -388,7 +388,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Get_Word_ahl"></A><H3>_Get_Word_ahl=$521d</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Get the word at ABS <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - where to get the two bytes from
@@ -401,7 +401,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_Set_Word_ahl"></A><H3>_Set_Word_ahl=$5221</H3>
 <TABLE ALIGN=CENTER class="function">
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Load <CODE>de</CODE> into memory at <CODE>ahl</CODE>
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - where to set the two bytes
@@ -414,7 +414,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 
 <A NAME="_ahl_Plus_2_Pg3"></A><H3>_ahl_Plus_2_Pg3=$4c3f</H3>
 <TABLE ALIGN=CENTER class=function>
-	<TR>	<TD CLASS=header> WIDTH="15%">Description
+	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Increments <CODE>ahl</CODE> twice
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> - address to increment
