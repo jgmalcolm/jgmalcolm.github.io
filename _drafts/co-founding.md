@@ -9,6 +9,10 @@ tags: [business]
 
 * Is this someone you like working with?  Can you see yourself working
   together at 3am under a deadline?
+* Is this someone you trust?
+* Is this person responsible?
+* Do you share the same sense of values and judgment?
+
 
 ## Equity
 
