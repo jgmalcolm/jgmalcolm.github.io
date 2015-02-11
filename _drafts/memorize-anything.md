@@ -32,7 +32,7 @@ any meaningful retention.
   * Evoke a visceral or emotional reaction.
     * Dynamic scenes
     * Making the scene real to you: walk around it, push something around,
-      focus on details.
+      focus on details, smell, taste, touch
   * Examples
 
 * Simple
@@ -45,7 +45,7 @@ any meaningful retention.
   * Example
     * bad: Picmonic VHDL
 
-# Sequences require a Memory Palace
+## Sequences require a Memory Palace
 
 * Sequences require a palace to provide order.
 * Location you're very familiar with (home)
@@ -57,8 +57,7 @@ http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-qui
 * Develop a basic number set
 
 
-
-# Some examples
+## Examples
 
 * Drug associations
 * Metabolic pathways
