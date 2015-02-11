@@ -21,6 +21,9 @@ friends, existing business partners, or a significant other.
 
 ## Equity
 
+> A beginning is the time for taking the most delicate care that the balances
+> are correct.  *"Dune", book 1*
+
 * Equal split is best, unless you have a strong reason otherwise.
   * Anything other than equal will create a subtle imbalance.  The minor
     partners will feel less responsibility and show less initiative.
