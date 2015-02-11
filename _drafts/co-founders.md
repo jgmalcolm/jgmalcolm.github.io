@@ -60,3 +60,7 @@ friends, existing business partners, or a significant other.
   a divorce, and you're splitting the company assets.
 * Don't just gloss over holes in the contract and assume you both understand
   what it means.  Make things explicit where you can.
+
+
+
+[aaronkharris]: http://www.aaronkharris.com/cofounder-management
