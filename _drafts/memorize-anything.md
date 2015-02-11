@@ -6,7 +6,22 @@ tags: [studying, STEP1]
 keywords: [memory palace, memory scene, method of loci]
 ---
 
-# Simple rules
+Many fields require students to memorize some basic set of facts at the start.
+With those planted in memory, you progress to learning how to reason.  This
+article outlines simple rules for committing seemingly random facts to memory
+using your powerful visual and emotional senses.
+
+There's an up-front cost of time spent generating a scene.
+
+Spaced repetition is an efficient algorithm for scheduling when to revisit a
+weak topic, but it does nothing to help you when you're actually trying to
+absorb the specific topic material.  Sometimes I felt like I was getting hit
+in head with a hammer repeatedly every time I encountered the same topic day
+after day, each time unable to actually absorb and assimilate the details for
+any meaningful retention.
+
+
+## Simple rules
 
 * Similar sounding.
   * Pick among the first few things that immediately pop into your head.
