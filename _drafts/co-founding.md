@@ -5,6 +5,11 @@ description: "Thoughts on starting a new venture with partners."
 tags: [business]
 ---
 
+Setting out to build a new business is exciting, but there are important
+things to consider as you're forming the founding team, whether it's with
+friends, existing business partners, or a significant other.
+
+
 ## Personal
 
 * Is this someone you like working with?  Can you see yourself working
