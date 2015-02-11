@@ -1,5 +1,5 @@
 ---
-title: "Co-Founding"
+title: "Co-founders"
 layout: post
 description: "Thoughts on starting a new venture with partners."
 tags: [business]
