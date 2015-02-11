@@ -29,6 +29,9 @@ keywords:
   * Trigger off most characteristic syllable
     * Don't sound out every syllable of a fact, unless every syllable is
       actually important.
+  * Use everyday objects where possible.  If the object is too complicated or
+    unusually decorated, it might get blurred in visual memory.  Use dynamic
+    action to make things memorable.
   * Example
     * bad: Picmonic VHDL
 
