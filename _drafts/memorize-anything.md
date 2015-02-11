@@ -26,8 +26,9 @@ keywords:
   * Examples
 
 * Simple
-  * Don't sound out every syllable of a fact, unless every syllable is
-    actually important.
+  * Trigger off most characteristic syllable
+    * Don't sound out every syllable of a fact, unless every syllable is
+      actually important.
   * Example
     * bad: Picmonic VHDL
 
