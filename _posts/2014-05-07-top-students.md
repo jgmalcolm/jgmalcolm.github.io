@@ -90,8 +90,8 @@ Top students have a knack for understanding what is important, and what is
 just context.  Their study time is active learning.  Creating your own study
 guide will force you to wrestle with the material in a way that passively
 reading doesn't achieve.  Underlining key words or phrases focuses your
-attention.  [Recent studies][hand-written] show that hand written notes are
-more effective than typed.
+attention.  Studies show that
+[hand written notes are more effective than typed][hand-written].
 
 In addition to knowing what's important,
 [top students seek to understand][r/top10].  Memorizing only provides
