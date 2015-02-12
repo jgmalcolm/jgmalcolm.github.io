@@ -185,7 +185,10 @@ often affects an entire day or two after.
 
   [sleep]: http://www.super-memory.com/articles/sleep.htm
 
+> Read more on [Med School Strategy][strategy] about managing your energy and
+> study time.
 
+[strategy]: {% post_url 2015-02-05-medschool-strategy %}
 
 ## Parting thoughts
 
