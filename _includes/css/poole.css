@@ -112,6 +112,10 @@ code {
   display: inline;
   white-space: nowrap;
 }
+pre > code {
+  display: block;
+  white-space: pre;
+}
 pre {
   display: block;
   margin: 1rem 0 1rem 0;
