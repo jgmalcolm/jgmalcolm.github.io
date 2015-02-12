@@ -47,7 +47,11 @@ any meaningful retention.
   * Come up with a scene to wrap all your objects.  A consistent theme can
     increase the connections binding all your symbols together.  Paint a
     background.
-    * For example,
+    * For example, if you recall that the entire scene was set in a farm field
+      but you're forgetting one area, you have a better chance of narrowing it
+      down as you try to recall common farm objects likely present.  If the
+      scene had been too ridiculous and involved completely unrelated objects,
+      then good luck.  You're screwed.
 
 ## Numbers
   * In [Mnemonic Major System][wiki] each digit maps to a unique consonant.
