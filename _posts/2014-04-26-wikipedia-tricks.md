@@ -2,9 +2,8 @@
 title: Wikipedia Tricks
 layout: post
 keywords: "Wikipedia, JavaScript, themes"
-tags:
-- Wikipedia
-- tools
+tags: [Wikipedia, tools]
+description: "Three tricks to read more, navigate faster, and quickly view images."
 ---
 
 <img class="thumb" src="/images/wikipedia.png"> [Wikipedia](//wikipedia.org)

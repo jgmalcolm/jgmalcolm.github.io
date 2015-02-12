@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Free medical dictionary for Microsoft Office
-tags:
-- tools
-- medicine
+tags: [tools, medicine]
+description: "Download and install a free dictionary for common medical words."
 ---
 
 Getting tired of seeing red squiggly marks under your diverticula and
@@ -19,10 +18,9 @@ Excel.
 
 ## Mac OSX
 
-1. Download the [free dictionary][MedSpel] and save the unzipped file
-   `Raj&Co-MedSpelChek.dic` where Office puts all its own dictionaries:
-   /User/ \<user\>/ Library/ Application Support/ Microsoft/ Office/
-   Preferences/ Office 2011/
+1. Download the [free dictionary][MedSpel] and save the unzipped file `*.dic`
+   where Office puts all its own dictionaries:  /User/ \<user\>/ Library/
+   Application Support/ Microsoft/ Office/ Preferences/ Office 2011/
 
 2. Open up Word and any document (blank or existing).
 
