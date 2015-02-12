@@ -200,7 +200,5 @@ Lots more could be written on the topic, and I'm sure I'll come back to it.
 I'm constantly trying new things, borrowing from the best, mixing and matching
 to suit my personality, always trying to become better.
 
-What works for you?
-
 
 [r/top10]: http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently
