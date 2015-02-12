@@ -45,16 +45,31 @@ any meaningful retention.
   * Example
     * bad: Picmonic VHDL
 
-## Sequences require a Memory Palace
+* Context
+  * Come up with a scene to wrap all your objects.  A consistent theme can
+    increase the connections binding all your symbols together.  Paint a
+    background.
+    * For example,
 
-* Sequences require a palace to provide order.
-* Location you're very familiar with (home)
+## Numbers
+  * In [Mnemonic Major System][wiki] each digit maps to a unique consonant.
+    To remember a sequence of digits, start with the consonants mapped from
+    each digit and form a memorable word by adding vowels as needed.
+
+[wiki]: https://en.wikipedia.org/wiki/Mnemonic_major_system
+
+
+## Sequences
+
+* Sequences require a "memory palace" to provide order.
+* A very familiar location (home, school)
   * Separate rooms and physical space to avoid crowding
+  * Aim for about five objects per a space.
+* Spend time walking through this space and examining the "stopping spots"
+  where you will later place objects.
 
 https://litemind.com/memory-palace/
 http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-quick-primer-on-mental-mapping/
-
-* Develop a basic number set
 
 
 ## Examples
