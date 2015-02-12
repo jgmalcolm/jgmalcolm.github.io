@@ -4,7 +4,8 @@ layout: post
 description: "Coffee can be smooth, rich, and simple."
 ---
 
-
+Here's how I brew my daily coffee to have far less bitter acidity, moderate
+caffeine levels, and the smoothest rich coffee flavor.
 
 http://www.marksdailyapple.com/yerba-mate-benefits
 http://www.americastestkitchenfeed.com/do-it-yourself/2011/08/how-to-make-cold-brew-coffee/
