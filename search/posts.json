@@ -3,11 +3,10 @@
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title }}",
-      "tags"     : ["{{ post.tags | join: '", "' | }}"],
-      "url"      : "{{ post.url }}",
-      {% assign excerpt = post.excerpt | newline_to_br | replace: '<br />', ' ' | strip_newlines | strip_html %}
-      "desc"     : "{% if post.description %}{{ post.description }}{% else %}{{ excerpt }}{% endif %}"
+      "title"       : "{{ post.title }}",
+      "tags"        : ["{{ post.tags | join: '", "' | }}"],
+      "url"         : "{{ post.url }}",
+      "description" : "{{ post.description }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

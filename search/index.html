@@ -26,7 +26,8 @@ title: "Search"
     var items = [];
     $.each(data, function (idx, entry) {
       if (entry.tags.indexOf(query) >= 0) {
-        items.push("<p><b class='post-title'><a href='" + entry.url + "'>" + entry.title + "</a></b><br>" + entry.desc + "</p>");
+        items.push("<p><b class='post-title'><a href='" + entry.url + "'>" + entry.title + "</a></b><br>"
+                   + entry.description + "</p>");
       }
     });
     $("#results").html((items.length > 0) ? items.join("") : "<i>No results found for '" + query + "'</i>");
