@@ -120,7 +120,7 @@ In some fields, there's of course the need to not give away your ideas to
 competitors, but I wager you can still put valuable information in the public.
 
 
-## Don't take classes
+## Avoid classes
 
 You'll have some minimal requirements.  Get those out of the way as fast as
 possible.  You will be way more productive once you can spend 100% of your
