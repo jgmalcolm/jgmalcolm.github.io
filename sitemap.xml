@@ -39,19 +39,19 @@
     <priority>0.7</priority>
   </url>
 
-  {% for post in site.posts %}
+{% for post in site.posts %}
   <url>
     <loc>http://jgmalcolm.com{{ post.url }}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
+{% endfor %}
 
-  {% for tag in site.tags %}
+{% for tag in site.tags %}
   <url>
     <loc>http://jgmalcolm.com/search/?q={{ tag | first }}</loc>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
+{% endfor %}
 
 </urlset>
