@@ -60,6 +60,11 @@ connection to certain sites ([SelfControl] for Mac OSX, [ColdTurkey] for
 Windows, or [StayFocusd] Chrome extension).  Facebook, Twitter, Gmail,
 Buzzfeed, Upworthy, ICanHasCheezburger ... whatever is your thing...block it.
 
+I often whine that these are ways I relax and it's all justified distraction.
+It's mostly an excuse.  If that were all true, is this really how I want to
+spend my free time?  After a month of regular Facebook, Twitter, news, etc.,
+add that all up into one big lump and what do I have to show for it?
+
 [intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
 [SelfControl]: http://selfcontrolapp.com
 [ColdTurkey]: http://getcoldturkey.com/
