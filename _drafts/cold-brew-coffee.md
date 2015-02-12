@@ -7,6 +7,9 @@ description: "Coffee can be smooth, rich, and simple."
 Here's how I brew my daily coffee to have far less bitter acidity, moderate
 caffeine levels, and the smoothest rich coffee flavor.
 
+It all starts yesterday morning.  That's right: yesterday morning was when I
+started today's coffee.
+
 http://www.marksdailyapple.com/yerba-mate-benefits
 http://www.americastestkitchenfeed.com/do-it-yourself/2011/08/how-to-make-cold-brew-coffee/
 http://www.examiner.com/article/cold-brewing-for-less-acid-and-caffeine
