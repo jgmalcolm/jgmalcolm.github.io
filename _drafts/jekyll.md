@@ -1,6 +1,8 @@
 ---
 title: "Blogging with Jekyll"
 layout: post
+description: "How key parts of this blog were implemented."
+tags: [tools]
 ---
 
 - git + github pages + custome domain
