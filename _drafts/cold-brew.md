@@ -1,9 +1,10 @@
 ---
 title: Cold brew coffee
 layout: post
+description: "Coffee can be smooth, rich, and simple."
 ---
 
-Coffee can be smooth, rich, and simple.
+
 
 http://www.marksdailyapple.com/yerba-mate-benefits
 http://www.americastestkitchenfeed.com/do-it-yourself/2011/08/how-to-make-cold-brew-coffee/
