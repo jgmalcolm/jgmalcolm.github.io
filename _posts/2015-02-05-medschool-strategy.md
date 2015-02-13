@@ -10,6 +10,60 @@ description: "What to study and how to study it"
 
 {% include series.html %}
 
+## Studying takes energy
+
+It's often obvious what needs to be done and how best to do it.  Sometimes all
+that's really needed is the energy (and motivation) to carry through.  So part
+of studying is managing your energy.
+
+It takes a long time to truly build up the discipline and tolerance to sustain
+consistent long hours for days on end.  As you stretch yourself, you will do a
+lot of studying when you really don't want to.  It's critical you figure out
+ways to manage your energy and stretch your [willpower][willpower].
+
+ [willpower]: http://www.amazon.com/gp/product/0143122231/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143122231&linkCode=as2&tag=jgmalcolm-20&linkId=RUYFTLGPIX7E62OL
+
+<div class="gallery">
+  <figure class="thumb">
+    <a href="/images/cascade.jpg" data-gallery="cascade"
+    title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
+      <img src="/images/cascade.jpg"></a>
+
+  <figcaption>A chicken scratch diagram of the coagulation cascade.  Lacking
+  some details and not something I'd put on the refrigerator, but at least I
+  now know the basic cascade.</figcaption>
+
+  </figure>
+</div>
+
+Does your mind wandering while studying a diagram or memorizing a table?
+Recopy it by hand multiple times.  It requires only determination to keep
+copying while you're brain is (mostly) on autopilot.  I'm always amazed at how
+effective this can be.  I usually pull this out when I've repeatedly gotten a
+topic wrong, and I just channel that frustration into recopying a diagram or
+table.  Each iteration, add a new detail to the diagram, simplify a part you
+already know, go faster.
+
+**Break the problem down into easier pieces.** Is the entire combined
+glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
+now.  Work on another later.  Similarly, if you're getting worn down with full
+blocks of 46 questions, do smaller blocks so you get more immediate feedback.
+If your worn down by low performance, smaller blocks might show an actual
+score improvement for some positive feedback to keep you motivated.
+
+**Switch tactics to boost energy.** If you're getting bored of answering
+questions, switch over to watch a video lecture.
+
+**Optimize your procrastination equation.** What's keeping you from doing what
+you know you need to be doing?  Do you not think the pay off is worth it?  The
+payoff is too far away?  The energy required is too much?  Whatever it is,
+figure out a way to optimize that part of the
+[procrastination equation][procrastination].
+
+ [procrastination]: http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/
+
+
+
 ## Organize information the way it gets tested
 
 Questions typically present a clinical vignette with chief complaint and then
@@ -63,61 +117,6 @@ Some dimensions you can compare and contrast along:
 * Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
 * Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
   structure of globin)
-
-
-
-## Studying takes energy
-
-It's often obvious what needs to be done and how best to do it.  Sometimes all
-that's really needed is the energy (and motivation) to carry through.  So part
-of studying is managing your energy.
-
-It takes a long time to truly build up the discipline and tolerance to sustain
-consistent long hours for days on end.  As you stretch yourself, you will do a
-lot of studying when you really don't want to.  It's critical you figure out
-ways to manage your energy and stretch your [willpower][willpower].
-
- [willpower]: http://www.amazon.com/gp/product/0143122231/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0143122231&linkCode=as2&tag=jgmalcolm-20&linkId=RUYFTLGPIX7E62OL
-
-<div class="gallery">
-  <figure class="thumb">
-    <a href="/images/cascade.jpg" data-gallery="cascade"
-    title="Repeatedly redrawing a table or chart is a way to memorize on autopilot.">
-      <img src="/images/cascade.jpg"></a>
-
-  <figcaption>A chicken scratch diagram of the coagulation cascade.  Lacking
-  some details and not something I'd put on the refrigerator, but at least I
-  now know the basic cascade.</figcaption>
-
-  </figure>
-</div>
-
-Does your mind wandering while studying a diagram or memorizing a table?
-Recopy it by hand multiple times.  It requires only determination to keep
-copying while you're brain is (mostly) on autopilot.  I'm always amazed at how
-effective this can be.  I usually pull this out when I've repeatedly gotten a
-topic wrong, and I just channel that frustration into recopying a diagram or
-table.  Each iteration, add a new detail to the diagram, simplify a part you
-already know, go faster.
-
-**Break the problem down into easier pieces.** Is the entire combined
-glycolytic, TCA, Urea pathway too daunting?  Then just pick one to redraw for
-now.  Work on another later.  Similarly, if you're getting worn down with full
-blocks of 46 questions, do smaller blocks so you get more immediate feedback.
-If your worn down by low performance, smaller blocks might show an actual
-score improvement for some positive feedback to keep you motivated.
-
-**Switch tactics to boost energy.** If you're getting bored of answering
-questions, switch over to watch a video lecture.
-
-**Optimize your procrastination equation.** What's keeping you from doing what
-you know you need to be doing?  Do you not think the pay off is worth it?  The
-payoff is too far away?  The energy required is too much?  Whatever it is,
-figure out a way to optimize that part of the
-[procrastination equation][procrastination].
-
- [procrastination]: http://lesswrong.com/lw/9wr/my_algorithm_for_beating_procrastination/
-
 
 
 
