@@ -17,7 +17,11 @@ using your powerful visual and emotional senses.
 ## Simple
 
 **Use what immediately pops into your head.** Run with that natural
-association, eg.  penicillin = pencil.
+association.  When it works, it works 100% of the time.
+
+{% comment %}
+penicillin = pencil
+{% endcomment %}
 
 **Stew on it.** If nothing immediately comes to mind, don't be afraid to mull
 around for a while until you find something that really fits.  Play with the
