@@ -1,7 +1,7 @@
 ---
 title: "Memorize Anything"
 layout: post
-description: "Simple steps for creating effective memory scenes and palaces to memorize anything."
+description: "Simple principles for creating effective memory scenes and palaces to memorize anything."
 tags: [studying, STEP1]
 keywords: [memory palace, memory scene, method of loci]
 ---
@@ -21,7 +21,7 @@ after day, each time unable to actually absorb and assimilate the details for
 any meaningful retention.
 
 
-## Simple rules
+## Principles
 
 * Simple
   * Pick among the first few things that immediately pop into your head.
