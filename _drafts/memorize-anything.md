@@ -76,7 +76,7 @@ out.  Split it up into multiple scenes, and reuse some symbols to link the
 scenes.
 
 
-
+{% comment %}
 
 ## Numbers
   * In [Mnemonic Major System][wiki] each digit maps to a unique consonant.
@@ -98,6 +98,8 @@ scenes.
 https://litemind.com/memory-palace/
 http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-quick-primer-on-mental-mapping/
 
+
+{% endcomment %}
 
 ## Getting faster
 
