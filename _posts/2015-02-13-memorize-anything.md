@@ -2,7 +2,8 @@
 title: "Memorize Anything"
 layout: post
 description: "Simple principles for creating effective memory scenes and palaces to memorize anything."
-tags: [studying]
+series: STEP1
+tags: [studying, STEP1]
 keywords: [memory palace, memory scene, method of loci]
 ---
 
@@ -11,7 +12,7 @@ With those planted in memory, you progress to learning how to reason.  This
 article outlines simple steps for committing seemingly random facts to memory
 using your powerful visual and emotional senses.
 
-
+{% include series.html %}
 
 ## Simple
 
