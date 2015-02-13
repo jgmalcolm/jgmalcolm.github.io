@@ -26,6 +26,12 @@ any meaningful retention.
 * Simple
   * Pick among the first few things that immediately pop into your head.
     * Penicillamine - pencil
+  * If nothing immediately comes to mind, don't be afraid to stew on it for a
+    while until you find something that really fits.  Play with the word some.
+    Roll it around in your mouth.  Pronounce it in various ways.  Look for a
+    synonym.  Instead of representing the word directly, represent a key fact
+    about the concept.  Look up other words that begin with the same first few
+    letters.
   * Trigger off most characteristic syllable.  Unless every syllable is
     important, just use the one with most emphasis..
   * Use everyday objects where possible.  If the object is too complicated or
