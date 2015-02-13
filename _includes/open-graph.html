@@ -19,7 +19,9 @@
 {% if page.keywords or page.tags %}
 <meta name="keywords" content="{{ page.keywords | join: ',' }},{{ page.tags | join: ',' }}" />
 {% endif %}
-{% if page.photo %}<meta property="og:image" content="{{site.url}}{{page.photo}}" />{% endif %}
+{% for photo in page.photos %}
+<meta property="og:image" content="{{site.url}}{{photo}}" />
+{% endfor %}
 <meta property="og:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:type" content="article" />

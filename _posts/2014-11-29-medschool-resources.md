@@ -4,7 +4,7 @@ layout: post
 series: STEP1
 tags: [medicine, studying, STEP1]
 description: "A survey of the top study resources for the first two years of med school."
-photo: /images/micro-flashcards.jpg
+photos: [/images/micro-flashcards.jpg]
 ---
 
 There are hundreds of resources available to help you study with new ones
