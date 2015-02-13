@@ -18,7 +18,7 @@ formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
 - [Design](#design) - planning and game design, writing clean code
 - [Downloads](download/download.htm) - tools, examples, algorithms
 
-![xkcd: 1996](http://imgs.xkcd.com/comics/1996.png "xkcd #768 '1996'")
+![xkcd: 1996](1996.png "xkcd #768: '1996'")
 
 
 ## Beginner
