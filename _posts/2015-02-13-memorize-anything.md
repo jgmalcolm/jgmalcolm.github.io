@@ -16,8 +16,9 @@ using your powerful visual and emotional senses.
 
 ## Simple
 
-**What immediately pops into your head?** Run with that natural association.
-When it works, it works 100% of the time.
+**What immediately pops into your head?** When you say the word or fact to
+yourself, what is the first thing that comes to mind?  Run with that natural
+association.  When it works, it works 100% of the time.
 
 {% comment %}
 penicillin = pencil
