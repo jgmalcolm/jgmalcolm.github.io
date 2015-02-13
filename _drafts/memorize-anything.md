@@ -2,7 +2,7 @@
 title: "Memorize Anything"
 layout: post
 description: "Simple principles for creating effective memory scenes and palaces to memorize anything."
-tags: [studying, STEP1]
+tags: [studying]
 keywords: [memory palace, memory scene, method of loci]
 ---
 
@@ -41,11 +41,18 @@ scene formation.
 
 ## Vivid pictures
 
-  * Evoke a visceral or emotional reaction.
-    * Dynamic scenes
-    * Making the scene real to you: walk around it, push something around,
-      focus on details, smell, taste, touch
-  * Examples
+**Visceral and emotional.** In order to get as many brain cells firing as
+possible, you need to evoke visceral or emotional reactions.  Gross blood,
+smelly fish, painful wounds, a deflated ego, a guilty conscience, an
+attractive person.
+
+**Dynamic scenes.** Use action to get your attention.  A bunch of independent,
+static objects can become a fragmented blur.  A bunch of interactive objects
+and moving actors will stick.
+
+**Make it real to you.** Walk around it to see it from all sides.  Push
+something around.  Focus on details.  Smell, taste, and touch.
+
 
 
 ## Context
