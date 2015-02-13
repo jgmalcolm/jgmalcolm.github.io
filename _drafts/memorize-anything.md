@@ -47,7 +47,9 @@ scene formation.
       focus on details, smell, taste, touch
   * Examples
 
-* Context
+
+## Context
+
   * Come up with a scene to wrap all your objects.  A consistent theme can
     increase the connections binding all your symbols together.  Paint a
     background.
