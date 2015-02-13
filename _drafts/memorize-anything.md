@@ -30,13 +30,13 @@ any meaningful retention.
     while until you find something that really fits.  Play with the word some.
     Roll it around in your mouth.  Pronounce it in various ways.  Look for a
     synonym.  Instead of representing the word directly, represent a key fact
-    about the concept.  Look up other words that begin with the same first few
-    letters.
+    about the concept.  Use a dictionary to find other words that begin with
+    the same first few letters.
   * Trigger off most characteristic syllable.  Unless every syllable is
-    important, just use the one with most emphasis..
-  * Use everyday objects where possible.  If the object is too complicated or
-    unusually decorated, it might get blurred in visual memory.  Use dynamic
-    action to make things memorable.
+    important, just use the one with most emphasis.
+  * Use easily recognizable objects.  If the object is too complicated or
+    unusually decorated, it might get blurred in your visual memory.  Use
+    dynamic action to make things memorable.
   * Only include salient features.  Ignore details in the initial stages.  As
     you become an expert in a topic, the details just naturally associate with
     the topic in your mind.  There is less need to fit them in at the
