@@ -5,7 +5,7 @@ description: "Lessons learned from taking thousands of multiple choice questions
 series: STEP1
 tags: [medicine, studying, STEP1]
 keywords: [NBME]
-photos: [/images/scratch.jpg]
+images: [/images/scratch.jpg]
 ---
 
 Med school is all test after test after test, and so a little over a year into

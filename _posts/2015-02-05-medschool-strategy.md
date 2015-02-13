@@ -4,7 +4,7 @@ layout: post
 series: STEP1
 tags: [medicine, studying, STEP1]
 keywords: [USMLE, NBME]
-photos: [/images/cascade.jpg]
+images: [/images/cascade.jpg]
 description: "What to study and how to study it"
 ---
 

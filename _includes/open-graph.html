@@ -19,8 +19,8 @@
 {% if page.keywords or page.tags %}
 <meta name="keywords" content="{{ page.keywords | join: ',' }},{{ page.tags | join: ',' }}" />
 {% endif %}
-{% for photo in page.photos %}
-<meta property="og:image" content="{{site.url}}{{photo}}" />
+{% for image in page.images %}
+<meta property="og:image" content="{{ site.url }}{{ image }}" />
 {% endfor %}
 <meta property="og:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
 <meta property="og:site_name" content="{{ site.name }}" />
@@ -31,7 +31,9 @@
 <meta name="twitter:site" content="@jgmalcolm" />
 <meta name="twitter:creator" content="@jgmalcolm" />
 <meta name="twitter:image" content="http://jgmalcolm.com/about/malcolm.jpg" />
-{% if page.photo %}<meta name="twitter:image" content="{{site.url}}{{page.photo}}" />{% endif %}
+{% for image in page.images %}
+<meta name="twitter:image" content="{{ site.url }}{{ image }}" />
+{% endfor %}
 <meta name="twitter:title" content="{{ title }}" />
 <meta name="twitter:description" content="{{ description }}" />
 <meta name="twitter:url" content="{{ url }}" />
