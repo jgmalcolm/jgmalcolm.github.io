@@ -83,3 +83,18 @@ http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-qui
 
 * Drug associations
 * Metabolic pathways
+
+
+## Getting faster
+
+There is an up-front cost of time spent generating a scene, but I've found
+that I don't have to restudy material which saves me time overall.  Even more,
+as I've practiced constructing scenes, the process has become faster.  I'm
+faster now at coming up with symbols, associations, and an integrated scene.
+
+Spaced repetition is an efficient algorithm for scheduling when to revisit a
+weak topic, but it does nothing to help you when you're actually trying to
+absorb the specific topic material.  Sometimes I felt like I was getting hit
+in head with a hammer repeatedly every time I encountered the same topic day
+after day, each time unable to actually absorb and assimilate the details for
+any meaningful retention.
