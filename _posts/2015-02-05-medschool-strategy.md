@@ -64,62 +64,6 @@ figure out a way to optimize that part of the
 
 
 
-## Organize information the way it gets tested
-
-Questions typically present a clinical vignette with chief complaint and then
-some secondary information to narrow down the diagnosis.
-
-For example, consider a patient presenting with osteomyelitis.  With no clues,
-*S aureus* is most likely overall, but the vignette will likely give some
-history or physical exam findings that point to other causes.  You want to put
-to put together a table like the following.
-
-| Clue | Cause
-|-
-| none | *S aureus*
-| Sexually active | septic arthritis, *Neisseria gonorrhea*
-| Sickle cell | *Salmonella*
-| Diabetic | *Pseudomonas*
-| Prosthetic joint | *S aureus* > *S epidermidis*
-| Vertebra | *M tuberculosis*
-| Cat/Dog bite | *Pasteurella*
-
-{% comment %}
-| Fracture of humerus | Nerve | Function | Sensation
-|-
-| Surgical neck | axillary | abduction | lateral arm
-| mid-shaft | radial (musculospiral groove) | wrist drop | dorsal
-| lateral epicondyle | radial | wrist drop | dorsal
-| medial epicondyle | ulnar | claw hand (radial dominance)
-{% endcomment %}
-
-
-**Make your own tables.** Don't simply reply on those in your textbooks or
-First Aid.  Work out your own versions that start out simpler and only list
-and compare one or two of the most important features.
-
-Some dimensions you can compare and contrast along:
-
-- epidemiology
-  - younger or older patients?
-  - risk factors: sex, drugs, smoking
-- onset
-  - slow, insidious, progressive
-  - acute, emergent
-  - congenital, shortly after birth
-
-
-**Look for contrasts to distinguish diseases.**
-
-* Pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
-* Follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
-* 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
-* Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
-* Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
-  structure of globin)
-
-
-
 
 ## Personal traps
 
@@ -178,6 +122,61 @@ instead of just passively transcribing.
 
 
 
+
+
+## Organize information the way it gets tested
+
+Questions typically present a clinical vignette with chief complaint and then
+some secondary information to narrow down the diagnosis.
+
+For example, consider a patient presenting with osteomyelitis.  With no clues,
+*S aureus* is most likely overall, but the vignette will likely give some
+history or physical exam findings that point to other causes.  You want to put
+to put together a table like the following.
+
+| Clue | Cause
+|-
+| none | *S aureus*
+| Sexually active | septic arthritis, *Neisseria gonorrhea*
+| Sickle cell | *Salmonella*
+| Diabetic | *Pseudomonas*
+| Prosthetic joint | *S aureus* > *S epidermidis*
+| Vertebra | *M tuberculosis*
+| Cat/Dog bite | *Pasteurella*
+
+{% comment %}
+| Fracture of humerus | Nerve | Function | Sensation
+|-
+| Surgical neck | axillary | abduction | lateral arm
+| mid-shaft | radial (musculospiral groove) | wrist drop | dorsal
+| lateral epicondyle | radial | wrist drop | dorsal
+| medial epicondyle | ulnar | claw hand (radial dominance)
+{% endcomment %}
+
+
+**Make your own tables.** Don't simply reply on those in your textbooks or
+First Aid.  Work out your own versions that start out simpler and only list
+and compare one or two of the most important features.
+
+Some dimensions you can compare and contrast along:
+
+- epidemiology
+  - younger or older patients?
+  - risk factors: sex, drugs, smoking
+- onset
+  - slow, insidious, progressive
+  - acute, emergent
+  - congenital, shortly after birth
+
+
+**Look for contrasts to distinguish diseases.**
+
+* Pernicious anemia (autoimmune destruction) vs. B12 insufficiency (diet)
+* Follicular adenoma (encapsulated) vs. follicular carcinoma (capsular breech)
+* 21-beta-hydroxylase (hypotensive) vs. 11-beta-hydroxylase (hypertensive)
+* Liddle's Syndrome (hypokalemia) vs. Georges Syndrome (hyperkalemia)
+* Thalassemia (defective synthesis of globin) vs. Sickle Cell (defective
+  structure of globin)
 
 
 
