@@ -81,12 +81,6 @@ https://litemind.com/memory-palace/
 http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-quick-primer-on-mental-mapping/
 
 
-## Examples
-
-* Drug associations
-* Metabolic pathways
-
-
 ## Getting faster
 
 There is an up-front cost of time spent generating a scene, but I've found
