@@ -101,3 +101,7 @@ absorb the specific topic material.  Sometimes I felt like I was getting hit
 in head with a hammer repeatedly every time I encountered the same topic day
 after day, each time unable to actually absorb and assimilate the details for
 any meaningful retention.
+
+Spend time reviewing and interacting with your mental scenes.  Close your eyes
+and walk through them.  As you review, reach out to touch every object to make
+it real, as if you're there in the scene.
