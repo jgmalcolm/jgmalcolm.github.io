@@ -11,7 +11,7 @@ With those planted in memory, you progress to learning how to reason.  This
 article outlines simple steps for committing seemingly random facts to memory
 using your powerful visual and emotional senses.
 
-Here are a few key guiding principles to keep in mind as you start out.
+
 
 ## Simple
 
