@@ -16,7 +16,7 @@ Here are a few key guiding principles to keep in mind as you start out.
 ## Simple
 
 **Use what immediately pops into your head.** Run with that natural
-association, eg.  penicillamine = pencil.
+association, eg.  penicillin = pencil.
 
 **Don't be afraid to stew.** If nothing immediately comes to mind, don't be
 afraid to mull around for a while until you find something that really fits.
