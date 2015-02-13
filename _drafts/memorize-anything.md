@@ -37,6 +37,14 @@ you become an expert in a topic, the details just naturally associate with the
 topic in your mind.  There is less need to fit them in at the beginning of
 scene formation.
 
+**Avoid clutter.** Too many symbols and they'll mush together.  Spread them
+out.  Split it up into multiple scenes, and reuse some symbols to link the
+scenes.
+
+**Consistency.** Aim for all your facts to be roughly the same size.  If some
+of your objects are huge and some are tiny, your mind's eye may be overwhelmed
+by the huge objects and forget all the tiny details.
+
 
 
 ## Vivid pictures
