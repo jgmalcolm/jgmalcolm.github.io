@@ -84,14 +84,6 @@ scenes.
 
 {% comment %}
 
-## Numbers
-  * In [Mnemonic Major System][wiki] each digit maps to a unique consonant.
-    To remember a sequence of digits, start with the consonants mapped from
-    each digit and form a memorable word by adding vowels as needed.
-
-[wiki]: https://en.wikipedia.org/wiki/Mnemonic_major_system
-
-
 ## Sequences
 
 * Sequences require a "memory palace" to provide order.
@@ -103,6 +95,15 @@ scenes.
 
 https://litemind.com/memory-palace/
 http://www.artofmanliness.com/2011/09/30/how-to-memorize-anything-you-want-a-quick-primer-on-mental-mapping/
+
+
+
+## Numbers
+  * In [Mnemonic Major System][wiki] each digit maps to a unique consonant.
+    To remember a sequence of digits, start with the consonants mapped from
+    each digit and form a memorable word by adding vowels as needed.
+
+[wiki]: https://en.wikipedia.org/wiki/Mnemonic_major_system
 
 
 {% endcomment %}
