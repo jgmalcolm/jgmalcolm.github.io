@@ -57,14 +57,15 @@ something around.  Focus on details.  Smell, taste, and touch.
 
 ## Context
 
-  * Come up with a scene to wrap all your objects.  A consistent theme can
-    increase the connections binding all your symbols together.  Paint a
-    background.
-    * For example, if you recall that the entire scene was set in a farm field
-      but you're forgetting one area, you have a better chance of narrowing it
-      down as you try to recall common farm objects likely present.  If the
-      scene had been too ridiculous and involved completely unrelated objects,
-      then good luck.  You're screwed.
+**Pick a theme for your scene.** Come up with a consistent theme for all your
+objects.  This common theme will reinforce the connections binding all your
+symbols together.  What's in the background of the scene?
+
+For example, if you recall that the entire scene was set in a farm field but
+you're forgetting one area, you have a better chance of narrowing it down as
+you try to recall common farm objects likely present.  If the scene had been
+too ridiculous and involved completely unrelated objects, then good luck.
+You're screwed.
 
 
 ## Numbers
