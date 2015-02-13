@@ -69,6 +69,11 @@ consumes 100% of your attention when you are giving it to them.  Block them
 and reclaim this time for other non-studying activities that will bring you
 lasting happiness.
 
+Personally, I've found that blocking social media and batching up all my
+consumption has made me realize how much time it really consumes.  A few
+minutes here and there throughout the day feels like nothing, but if you put
+all those together in one block, you notice an hour fly by.
+
 [intensity]: http://calnewport.com/blog/2014/04/08/work-accomplished-time-spent-x-intensity
 [SelfControl]: http://selfcontrolapp.com
 [ColdTurkey]: http://getcoldturkey.com/
