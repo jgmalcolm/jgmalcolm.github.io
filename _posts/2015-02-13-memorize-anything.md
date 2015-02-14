@@ -8,9 +8,9 @@ keywords: [memory palace, memory scene, method of loci]
 ---
 
 Many fields require students to memorize some basic set of facts at the start.
-With those planted in memory, you progress to learning how to reason.  This
-article outlines simple steps for committing seemingly random facts to memory
-using your powerful visual and emotional senses.
+With those planted in memory, you progress to learning how to reason among
+those facts.  This article outlines simple steps for committing seemingly
+random facts to memory using your powerful visual and emotional senses.
 
 {% include series.html %}
 
