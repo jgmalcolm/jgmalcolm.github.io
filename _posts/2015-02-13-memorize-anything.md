@@ -38,6 +38,11 @@ important, just use the one with most emphasis.
 unusually decorated, it might get blurred in your visual memory.  Use dynamic
 action to make things memorable.
 
+**Stark contrasts.** Avoid weak or qualitative differences between contrasting
+objects.  Symbols should be either huge or tiny, incredibly strong or
+laughably scrawny.  Contrasting objects should be near enough that the
+differences are obvious.
+
 **Only include salient features.** Ignore details in the initial stages.  As
 you become an expert in a topic, the details just naturally associate with the
 topic in your mind.  There is less need to fit them in at the beginning of
