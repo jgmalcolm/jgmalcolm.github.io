@@ -5,8 +5,7 @@ layout: default
 
 This is a collection of tutorials on developing games in z80 assembler for the
 TI calculators.  While focused on the TI86, much of this applies to any
-z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.  This content was
-formerly hosted as "The Guide" on [TI-Calc.org](//ticalc.org).
+z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.
 
 - [Beginner](#beginner) - getting started with assembler code, registers, arithmetic, flags, and memory
 - [Intermediate](#intermediate) - more details on the beginner topics
@@ -243,3 +242,6 @@ conversions, constants, program names, and more.
 <A HREF="mailto:david@acz.org">David Phillips</A>,
 <A HREF="mailto:bailela@charlie.cns.iit.edu">Alan Bailey</A>,
 <A HREF="mailto:kazmet@sonic.net">Adrian Mettler</A>
+
+This content was formerly hosted as "The Guide" on
+[TI-Calc.org](//ticalc.org).
