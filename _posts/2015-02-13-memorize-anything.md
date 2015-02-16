@@ -79,7 +79,8 @@ You're screwed.
 
 **Avoid clutter.** Too many symbols and they'll mush together.  Spread them
 out.  Split it up into multiple scenes, and reuse some symbols to link the
-scenes.
+scenes.  Also avoid putting in unnecessary detail: don't put anything in the
+scene that doesn't actually represent a fact.
 
 
 {% comment %}
