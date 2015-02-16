@@ -32,22 +32,26 @@ after you've formed a joint bank account.
 ## Equity
 
 > A beginning is the time for taking the most delicate care that the balances
-> are correct.  *"Dune", book 1*
+> are correct.  *(Dune, book 1)*
 
-* Equal split is best, unless you have a strong reason otherwise.
-  * Anything other than equal will create a subtle imbalance.  The minor
-    partners will feel less responsibility and show less initiative.
-    * Some days you'll be the slug, and on those days you want to know that
-      your partners are picking up the slack.
-  * Even if one partner clearly brings more to the venture, think long and
-    hard about tipping this balance.  You never know what the future holds,
-    and likely you'll all end up growing in your rolls.
-  * Instead of creating an imbalance from the start, look at the core
-    competences and areas of the business and come up with a rough split that
-    allows the would-be minor members to grow.
-* Reasons for unequal:
-  * Significant experience and maturity differences relevant to the venture.
-  * Financial resources and capitalization
+**Equal split is best, unless you have a strong reason otherwise.** Anything
+other than equal will create a subtle imbalance.  The minor partners will feel
+less responsibility and show less initiative. Some days you'll be the slug,
+and on those days you want to know that your partners are picking up the
+slack.
+
+Even if one partner clearly brings more to the venture, think long and hard
+about tipping this balance.  You never know what the future holds, and likely
+you'll all end up growing in your rolls.
+
+Instead of creating an imbalance from the start, look at the core competences
+and areas of the business and come up with a rough split that allows the
+would-be minor members to grow.
+
+**When to consider unequal splits.** There are good reasons to consider an
+unequal split.  One partner might bring significant industry and operational
+experience, financial resources and capitalization, or simply putting more
+time into the project.
 
 
 ## Competencies
