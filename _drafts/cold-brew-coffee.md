@@ -2,6 +2,7 @@
 title: Cold brew coffee
 layout: post
 description: "Coffee can be smooth, rich, and simple."
+tags: [life]
 ---
 
 Here's how I brew my daily coffee to have far less bitter acidity, moderate
