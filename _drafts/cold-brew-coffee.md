@@ -5,8 +5,8 @@ description: "Coffee can be smooth, rich, and simple."
 tags: [life]
 ---
 
-Here's how I brew my daily coffee to have far less bitter acidity, moderate
-caffeine levels, and the smoothest rich coffee flavor.
+Here's how I brew my daily coffee to have the smoothest, richest coffee
+flavor, moderate caffeine levels, and far less bitter acidity.
 
 **It all starts yesterday morning.** That's right: yesterday morning was when
 I started today's coffee.  When I am pouring my hot coffee for today, I'm also
