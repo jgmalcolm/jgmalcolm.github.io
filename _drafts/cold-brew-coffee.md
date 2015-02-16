@@ -9,13 +9,15 @@ Here's how I brew my daily coffee to have the smoothest, richest coffee
 flavor, moderate caffeine levels, and far less bitter acidity.
 
 **It all starts yesterday morning.** That's right: yesterday morning was when
-I started today's coffee.  When I am pouring my hot coffee for today, I'm also
-making my coffee for tomorrow.  It's a 24-hour cycle.
+I started today's coffee.  What's more, when I am pouring my hot coffee for
+today, I'm also making my coffee for tomorrow.  It's a 24-hour cycle:
 
 * Today: Pour fresh grinds and filtered water into French press. Place that in
   refrigerator for tomorrow.
 * Tomorrow: Press the French press and microwave in large Pyrex measuring cup.
   Meanwhile, rinse and refill French press for next day.
+
+Sound complicated?  It isn't, and the whole process takes about 5 minutes.
 
 http://www.marksdailyapple.com/yerba-mate-benefits
 http://www.americastestkitchenfeed.com/do-it-yourself/2011/08/how-to-make-cold-brew-coffee/
