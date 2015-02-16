@@ -115,6 +115,7 @@ There is an up-front cost of time spent generating a scene, but I've found
 that I don't have to restudy material which saves me time overall.  Even more,
 as I've practiced constructing scenes, the process has become faster.  I'm
 faster now at coming up with symbols, associations, and an integrated scene.
+Reusing symbols from previous scenes reinforces those same associations.
 
 Spaced repetition is an efficient algorithm for scheduling when to revisit a
 weak topic, but it does nothing to help you when you're actually trying to
