@@ -12,11 +12,21 @@ friends, existing business partners, or a significant other.
 
 ## Personal
 
-* Is this someone you like working with?  Can you see yourself working
-  together at 3am under a deadline?
-* Is this someone you trust?
-* Is this person responsible?
-* Do you share the same sense of values and judgment?
+**Is this someone you like working with?** Can you see yourself working
+together at 3am under a deadline?  Do they annoy you?  These are probably some
+of the most important questions that will determine your happiness.  While
+having an annoying partner is not a deal breaker, the baseline aggravation can
+trigger bigger issues later.
+
+**Is this person responsible?** Is this someone you trust to work hard and get
+the job done?  The nature of forming a partnership is because you need to
+spread work out, and so you need to be able to trust that your partner will
+execute on their fair share.
+
+**Do you share the same sense of values?** Do you question their judgment?
+Have you witnessed or heard about them do anything ethically questionable?  If
+so, be blunt and ask them about it.  Better to air the matter now rather than
+after you've formed a joint bank account.
 
 
 ## Equity
