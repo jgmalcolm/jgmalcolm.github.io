@@ -29,6 +29,10 @@ too ridiculous and involved completely unrelated objects, then good luck.
 You're screwed.  It's very easy to forget a symbol that's unattached to
 anything else.
 
+If you're having trouble coming up with a theme, go work on a few key objects
+to get a feel for the elements, and then return to the overall theme and
+figure out how these objects will come together.
+
 **What immediately pops into your head?** When you repeat the word or fact to
 yourself, what is the first thing that comes to mind?  Run with that natural
 association.
