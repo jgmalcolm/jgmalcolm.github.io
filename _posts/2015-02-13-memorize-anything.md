@@ -40,9 +40,10 @@ penicillin = pencil
 **Stew on it.** If nothing immediately comes to mind, don't be afraid to mull
 around for a while until you find something that really fits.  Play with the
 word some.  Roll it around in your mouth.  Pronounce it in various ways.  Look
-for a synonym.  Instead of representing the word directly, represent a key
-fact about the concept.  Use a dictionary to find other words that begin with
-the same first few letters.
+for a synonym.  Use a dictionary to find other words that begin with the same
+first few letters.  Instead of representing the word directly, represent a key
+fact about the concept.  For example, to represent Calcium, you could use Milk
+or a Cow.
 
 **Trigger off most characteristic syllable.** Unless every syllable is
 important, just use the one with most emphasis.
