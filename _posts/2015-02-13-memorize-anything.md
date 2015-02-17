@@ -26,7 +26,8 @@ For example, if you recall that the entire scene was set in a farm field but
 you're forgetting one area, you have a better chance of narrowing it down as
 you try to recall common farm objects likely present.  If the scene had been
 too ridiculous and involved completely unrelated objects, then good luck.
-You're screwed.
+You're screwed.  It's very easy to forget a symbol that's unattached to
+anything else.
 
 **What immediately pops into your head?** When you repeat the word or fact to
 yourself, what is the first thing that comes to mind?  Run with that natural
