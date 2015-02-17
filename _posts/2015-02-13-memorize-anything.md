@@ -16,8 +16,8 @@ leverage your visual, spatial, and emotional memory.
 
 ## Simple
 
-**Start with a unifying theme for your scene.** Come up with a consistent
-theme for all your objects that relates to your overall topic.  For example, a
+**Start with a unifying theme.** Come up with a consistent theme for all your
+objects in the scene that relates to your overall topic.  For example, a
 period in time (Renaissance) or a location (local diner).  This common theme
 will reinforce the connections binding all your symbols together.  Setting a
 scene also makes it easier to come up with individual symbols.
