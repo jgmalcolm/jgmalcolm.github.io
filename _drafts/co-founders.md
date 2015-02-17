@@ -57,6 +57,26 @@ unequal split.  One partner might bring significant industry and operational
 experience, financial resources and capitalization, or simply putting more
 time into the project.
 
+**Earn out.** Avoid granting all equity up front.  Instead, equity should be
+granted over years (four years is common because it typically takes about that
+long to prove out a venture).  I've seen companies trapped in an equity
+arrangement with a partner who abandons the project while keeping the original
+equity locked; these typically end in a dissolution of assets and
+re-incorporation.  What a waste of time and energy.  Bake in an agreement that
+rewards partners for sticking around, leaves open the option for fairly
+compensating partners that decide to walk away, and protects the corporation
+through all of this.
+
+**Equity alternatives.** Maybe you want to avoid equity altogether.  One
+option is for the minor partner to be paid hourly while the major partner
+retains equity.  If things are pre-revenue, maybe the minor partner could be
+guaranteed hourly pay from the first profits that roll in.  Maybe the minor
+partner could "earn" equity over time.
+
+**Maximize value for all partners.** Whatever you do, the goal is to ensure
+that all partners can contribute as much as possible to the venture while
+feeling fairly compensated for those efforts.
+
 
 ## Competencies
 
