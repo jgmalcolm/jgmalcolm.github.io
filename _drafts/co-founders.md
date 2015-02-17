@@ -28,6 +28,10 @@ Have you witnessed or heard about them do anything ethically questionable?  If
 so, be blunt and ask them about it.  Better to air the matter now rather than
 after you've formed a joint bank account.
 
+It's been said that business partnerships are like a marriage without the
+benefits.  You will be very close to your partners, as close as family.
+Choose your associates wisely.
+
 
 ## Equity
 
