@@ -19,7 +19,8 @@ random facts to memory using your powerful visual and emotional senses.
 **Start with a unifying theme for your scene.** Come up with a consistent
 theme for all your objects that relates to your overall topic.  For example, a
 period in time (Renaissance) or a location (local diner).  This common theme
-will reinforce the connections binding all your symbols together.
+will reinforce the connections binding all your symbols together.  Setting a
+scene also makes it easier to come up with individual symbols.
 
 For example, if you recall that the entire scene was set in a farm field but
 you're forgetting one area, you have a better chance of narrowing it down as
