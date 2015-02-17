@@ -61,6 +61,10 @@ you become an expert in a topic, the details just naturally associate with the
 topic in your mind.  There is less need to fit them in at the beginning of
 scene formation.
 
+**Avoid multiple associations per object.** Aim for a 1-to-1 mapping between
+symbols and facts.  You may think you're clever with one object representing
+three facts, but it's easy to forget when there's a list.
+
 **Consistency.** Aim for all your facts to be roughly the same size.  If some
 of your objects are huge and some are tiny, your mind's eye may be overwhelmed
 by the huge objects and forget all the tiny details.
