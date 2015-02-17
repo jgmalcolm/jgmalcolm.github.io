@@ -1,16 +1,16 @@
 ---
 title: "Memorize Anything"
 layout: post
-description: "Simple principles for creating effective memory scenes and palaces to memorize anything."
+description: "Simple steps to memorize anything using your visual, spatial, and emotional memory."
 series: STEP1
 tags: [studying, STEP1]
 keywords: [memory palace, memory scene, method of loci]
 ---
 
-Many fields require students to memorize some basic set of facts at the start.
-With those planted in memory, you progress to learning how to reason among
-those facts.  This article outlines simple steps for committing seemingly
-random facts to memory using your powerful visual and emotional senses.
+Did you ever need to memorize a table of facts for some test?  Tired of
+reading and rereading through the table hoping the information will somehow
+stick?  This article outlines simple steps for building "memory scenes" that
+leverage your powerful visual, spatial, and emotional memory.
 
 {% include series.html %}
 
