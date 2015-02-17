@@ -21,10 +21,12 @@ css:
   {% endif %}
   </b><br>
 
+  {% assign is_first = true %}
   {% for p in site.pages %}
     {% if p.layout == "z80" and p.section == page.section %}
+      {% if is_first == false %} // {% endif %}
       {% if p.title != page.title %}<a href="{{ p.url }}">{% endif %}{{ p.title }}{% if p.title != page.title %}</a>{% endif %}
-      ///
+      {% assign is_first = false %}
     {% endif %}
   {% endfor %}
 </p>

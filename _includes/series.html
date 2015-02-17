@@ -1,11 +1,13 @@
 <div class="series">
   <center><b>{{ page.series }} series</b></center>
+  {% assign is_first = true %}
   {% for post in site.posts reversed %}
     {% if post.series == page.series %}
+      {% if is_first == false %} // {% endif %}
       {% if post.url != page.url %}<a href="{{ post.url }}">{% endif %}
       {{ post.title }}
       {% if post.url != page.url %}</a>{% endif %}
-      <br/>
+      {% assign is_first = false %}
     {% endif %}
   {% endfor %}
   </ul>
