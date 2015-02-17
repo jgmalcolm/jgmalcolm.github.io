@@ -27,9 +27,9 @@ you try to recall common farm objects likely present.  If the scene had been
 too ridiculous and involved completely unrelated objects, then good luck.
 You're screwed.
 
-**What immediately pops into your head?** When you say the word or fact to
+**What immediately pops into your head?** When you repeat the word or fact to
 yourself, what is the first thing that comes to mind?  Run with that natural
-association.  When it works, it works 100% of the time.
+association.
 
 {% comment %}
 penicillin = pencil
