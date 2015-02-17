@@ -10,7 +10,7 @@ keywords: [memory palace, memory scene, method of loci]
 Did you ever need to memorize a table of facts for some test?  Tired of
 reading and rereading through the table hoping the information will somehow
 stick?  This article outlines simple steps for building "memory scenes" that
-leverage your powerful visual, spatial, and emotional memory.
+leverage your visual, spatial, and emotional memory.
 
 {% include series.html %}
 
