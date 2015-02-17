@@ -16,6 +16,17 @@ random facts to memory using your powerful visual and emotional senses.
 
 ## Simple
 
+**Start with a unifying theme for your scene.** Come up with a consistent
+theme for all your objects that relates to your overall topic.  For example, a
+period in time (Renaissance) or a location (local diner).  This common theme
+will reinforce the connections binding all your symbols together.
+
+For example, if you recall that the entire scene was set in a farm field but
+you're forgetting one area, you have a better chance of narrowing it down as
+you try to recall common farm objects likely present.  If the scene had been
+too ridiculous and involved completely unrelated objects, then good luck.
+You're screwed.
+
 **What immediately pops into your head?** When you say the word or fact to
 yourself, what is the first thing that comes to mind?  Run with that natural
 association.  When it works, it works 100% of the time.
@@ -52,6 +63,11 @@ scene formation.
 of your objects are huge and some are tiny, your mind's eye may be overwhelmed
 by the huge objects and forget all the tiny details.
 
+**Avoid clutter.** Too many symbols and they'll mush together.  Spread them
+out.  Split it up into multiple scenes, and reuse some symbols to link the
+scenes.  Also avoid putting in unnecessary detail: don't put anything in the
+scene that doesn't actually represent a fact.
+
 
 
 ## Vivid pictures
@@ -67,30 +83,6 @@ and moving actors will stick.
 
 **Make it real to you.** Walk around it to see it from all sides.  Push
 something around.  Focus on details.  Smell, taste, and touch.
-
-
-
-## Context
-
-**Pick a unifying theme for your scene.** Come up with a consistent theme for
-all your objects.  This common theme will reinforce the connections binding
-all your symbols together.  What's in the background of the scene?  The theme
-should relate to the overall topic.
-
-For example, if you recall that the entire scene was set in a farm field but
-you're forgetting one area, you have a better chance of narrowing it down as
-you try to recall common farm objects likely present.  If the scene had been
-too ridiculous and involved completely unrelated objects, then good luck.
-You're screwed.
-
-I often start scene creation with brainstorm a few key symbols that generate
-solid associations, then I step back to figure out a unifying theme.  Finally,
-I return to reassess individual symbols making alternations to fit the theme.
-
-**Avoid clutter.** Too many symbols and they'll mush together.  Spread them
-out.  Split it up into multiple scenes, and reuse some symbols to link the
-scenes.  Also avoid putting in unnecessary detail: don't put anything in the
-scene that doesn't actually represent a fact.
 
 
 {% comment %}
