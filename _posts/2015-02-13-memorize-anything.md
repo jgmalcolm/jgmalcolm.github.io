@@ -72,15 +72,20 @@ something around.  Focus on details.  Smell, taste, and touch.
 
 ## Context
 
-**Pick a theme for your scene.** Come up with a consistent theme for all your
-objects.  This common theme will reinforce the connections binding all your
-symbols together.  What's in the background of the scene?
+**Pick a unifying theme for your scene.** Come up with a consistent theme for
+all your objects.  This common theme will reinforce the connections binding
+all your symbols together.  What's in the background of the scene?  The theme
+should relate to the overall topic.
 
 For example, if you recall that the entire scene was set in a farm field but
 you're forgetting one area, you have a better chance of narrowing it down as
 you try to recall common farm objects likely present.  If the scene had been
 too ridiculous and involved completely unrelated objects, then good luck.
 You're screwed.
+
+I often start scene creation with brainstorm a few key symbols that generate
+solid associations, then I step back to figure out a unifying theme.  Finally,
+I return to reassess individual symbols making alternations to fit the theme.
 
 **Avoid clutter.** Too many symbols and they'll mush together.  Spread them
 out.  Split it up into multiple scenes, and reuse some symbols to link the
