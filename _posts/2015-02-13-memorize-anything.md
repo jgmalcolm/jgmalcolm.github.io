@@ -94,6 +94,10 @@ attractive person.
 static objects can become a fragmented blur.  A bunch of interactive objects
 and moving actors will stick.
 
+**Positioning.** An object high up on a shelf might indicate a high value;
+conversely, an object on the ground might indicate a low value.  An object
+falling down off a table might indicate a falling value.
+
 **Make it real to you.** Walk around it to see it from all sides.  Push
 something around.  Focus on details.  Smell, taste, and touch.
 
