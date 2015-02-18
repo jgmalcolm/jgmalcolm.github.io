@@ -50,7 +50,9 @@ fact about the concept.  For example, to represent Calcium, you could use Milk
 or a Cow.
 
 **Trigger off most characteristic syllable.** Unless every syllable is
-important, just use the one with most emphasis.
+important, just use the one with most emphasis.  For example, for the
+medication alendronate (a-len-DRONE-ate), the most characteristic syllable
+sounds like "drone", and you could represent it with a robot drone.
 
 **Use easily recognizable objects.** If the object is too complicated or
 unusually decorated, it might get blurred in your visual memory.  Use dynamic
