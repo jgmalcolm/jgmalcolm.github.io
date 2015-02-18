@@ -1,5 +1,5 @@
 <div class="series">
-  <center><b>{{ page.series }} series</b></center>
+  <b>{{ page.series }} series:</b>
   {% assign is_first = true %}
   {% for post in site.posts reversed %}
     {% if post.series == page.series %}
