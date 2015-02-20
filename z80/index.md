@@ -160,6 +160,10 @@ and how the pixels are stored in memory.
   everything.
 - [Interrupt](advanced/inte.htm) - Create your own routine to be run about 200
   times a second in the background of regular code.
+- [Interrupt Mode 1](advanced/im1i.htm) - Run a routine 200 times a second
+  to perform background tasks.
+- [Interrupt Mode 2](advanced/im2i.htm) - Run a routine randomly chosen from a
+  jump table 200 times a second.
 
 
 
