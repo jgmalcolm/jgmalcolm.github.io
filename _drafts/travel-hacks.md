@@ -5,18 +5,26 @@ description: "Tips & tricks I've learned over years as a vagabond, consultant, e
 tags: [life]
 ---
 
+## Gear
+
 * multi-port charger
-* drier sheets
-* rolling a bundle of clothes to avoid wrinkles
 * extra plastic bags
-* dirty laundry bag
 * kindle (no books), headset
 * day pack
+* two pens (unlikely to leak), notecards
+* Cliff bars, almonds
+
+## Clothes
+
+* drier sheets
+* rolling a bundle of clothes to avoid wrinkles
+* dirty laundry bag
 * dress shoes in large socks
   * stuff underwear/socks to prevent squished shoes
 * complete extra set of toiletries, stock extras
-* two pens (unlikely to leak), notecards
-* Cliff bars, almonds
+
+
+## International
 * use an ATM in destination airport
   * notify credit/debit card companies a week in advance
   * split up cards/cash: most in internal/safe pocket (accessed in hotel),
