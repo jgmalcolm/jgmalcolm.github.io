@@ -8,19 +8,18 @@ permalink: /resume/
 
 <img class="smaller thumb" src="/about/malcolm.jpg">
 
-# James G Malcolm
 me@jgmalcolm.com <br />
 [jgmalcolm.com](/jgmalcolm.com) <br />
 (770) 856-9045
 
 
-# Education
+## Education
 
-## Emory School of Medicine, Atlanta, GA
+### Emory School of Medicine, Atlanta, GA
 
 - MD, expected May 2017
 
-## Georgia Institute of Technology, Atlanta, GA
+### Georgia Institute of Technology, Atlanta, GA
 
 - PhD Electrical and Computer Engineering, October 2010
   - Thesis: [Filtered Tractography](/pubs/research.html)
@@ -39,7 +38,7 @@ me@jgmalcolm.com <br />
   - Highest honors
 
 
-# Work Experience
+## Work Experience
 
 - [AccelerEyes](//www.arrayfire.com). (VP Engineering, co-founder) Development
   of software enabling easy parallel programming. (Fall 2007-Fall 2013)
@@ -56,12 +55,6 @@ me@jgmalcolm.com <br />
   [The Optical Sciences Company](//tosc.com). (2005-2007)
 
 **Citizenship: US**
-
-# Certifications
-
-* American Heart Association Basic Life Support (2014)
-
-# Publications
 
 ## International Journals and Book Chapters
 
@@ -282,5 +275,9 @@ me@jgmalcolm.com <br />
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.  Closed loop visual
    tracking using observer-based dynamic active contours. In Conf. on
    Guidance, Navigation, and Control, 2005.
+
+## Certifications
+
+* American Heart Association Basic Life Support (2014)
 
 *Updated {{ page.updated | date: '%-d %B %Y' }}*
