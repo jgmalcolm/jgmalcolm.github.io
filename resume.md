@@ -3,6 +3,7 @@ layout: default
 title: "James G Malcolm"
 updated: 23-Oct-2014
 keywords: resume, cv
+permalink: /resume/
 ---
 
 <img class="smaller thumb" src="/about/malcolm.jpg">
