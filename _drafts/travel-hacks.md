@@ -5,7 +5,7 @@ description: "Tips & tricks I've learned over years as a vagabond, consultant, e
 tags: [life]
 ---
 
-## Gear
+## Basics for any trip
 
 * multi-port charger
 * extra plastic bags
