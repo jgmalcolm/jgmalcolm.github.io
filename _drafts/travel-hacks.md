@@ -8,11 +8,13 @@ tags: [life]
 ## Basics for any trip
 
 * multi-port charger
-* extra plastic bags
-* kindle (no books), headset
+* plastic bags for smelly / wet clothes
+* kindle (books get beat up)
+* head phones / headset
 * day pack
-* two pens (unlikely to leak), notecards
+* two pens (leak proof), scratch paper (folded computer paper or notecards)
 * Cliff bars, almonds
+* earplugs
 
 ## Clothes
 
@@ -29,7 +31,7 @@ tags: [life]
   * notify credit/debit card companies a week in advance
   * split up cards/cash: most in internal/safe pocket (accessed in hotel),
     little in pocket accessed throughout the day
-
+* eye patch, inflatable pillow
 
 * link to Shawn and Matt posts
 
