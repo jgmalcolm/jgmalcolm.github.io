@@ -278,12 +278,14 @@ I'm talking about endurance and discipline in the weeks leading up to test
 day.  If you fail to work diligently during your dedicated period, you will be
 punished.
 
+{% comment %}
 It is also a very straight forward test for anyone willing to dedicate the
 energy to working through question banks.  I would wager that simply
 completing something like 5000 questions easily puts you in the 240s.  You've
 simply seen just about every way key topics can be tested.  The difference
 between the 240s and the 260s is where active studying and critical
 self-assessment make the difference.
+{% endcomment %}
 
 
 
