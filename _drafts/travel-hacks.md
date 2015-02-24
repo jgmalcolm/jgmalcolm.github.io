@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Travel Hacks"
-description: "Tips & tricks I've learned over years as a vagabond, consultant, entrepreneur, and student."
+description: "Tips & tricks from years as student, entrepreneur, consultant, and vagabond."
 tags: [life]
 ---
 
