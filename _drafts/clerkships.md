@@ -9,6 +9,14 @@ tags:
 
 ## Neurology
 
+**Pregame.** Grab copies of [Neurology Clinical Cases][] and
+[Neurology Pre-Test][].  Specific equipment for the physical exam: reflex
+hammer, safety pins, pen light.  Optional equipment: ophthalmoscope, tuning
+fork. Practice your complete neuro exam multiple times.
+
+
+
+
 http://www.reddit.com/r/medicalschool/comments/2a04dl/part_2_m3_year_resources_to_use_to_excel_on_your/
 http://www.reddit.com/r/medicalschool/comments/1wt931/m3_year_resources_to_use_to_excel_on_your_nbmes/
 http://www.reddit.com/r/medicalschool/comments/1u6pko/dr_usmle_or_how_i_learned_to_stop_worrying_and/
