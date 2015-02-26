@@ -6,6 +6,13 @@ tags:
 - medicine
 ---
 
+## Every rotation
+
+Equipment: multiple pens (be prepared to give them away), pen light, note
+cards, stethoscope, [scutsheets](http://www.medfools.com/downloads.php).
+
+Surgery likely doesn't need your stethoscope.  Psych probably doesn't need
+anything beyond pens; leave your tie and white coat at home.
 
 ## Neurology
 
