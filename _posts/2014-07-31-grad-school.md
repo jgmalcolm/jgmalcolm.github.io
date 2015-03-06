@@ -247,6 +247,10 @@ What do they need to move their own career forward?
 
 {% comment %}
 
+## Peer Review
+
+[peer-review]: http://violentmetaphors.com/2013/12/13/how-to-become-good-at-peer-review-a-guide-for-young-scientists/
+
 ## Writing
   - http://www.shawnlankton.com/2008/02/use-that-sweet-spot
   - http://www.shawnlankton.com/2007/09/formula-to-write-a-paper
