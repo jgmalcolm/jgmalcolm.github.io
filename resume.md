@@ -12,6 +12,7 @@ me@jgmalcolm.com <br />
 [jgmalcolm.com](/jgmalcolm.com) <br />
 (770) 856-9045
 
+*Updated {{ page.updated | date: '%-d %B %Y' }}*
 
 ## Education
 
@@ -279,5 +280,3 @@ me@jgmalcolm.com <br />
 ## Certifications
 
 * American Heart Association Basic Life Support (2014)
-
-*Updated {{ page.updated | date: '%-d %B %Y' }}*
