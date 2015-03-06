@@ -46,6 +46,8 @@ me@jgmalcolm.com <br />
   2013)
   - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
     computing platform enabling GPU acceleration of MATLAB-based codes.
+  - [ArrayFire](//www.arrayfire.com) is an open-source library for GPU
+    acceleration of C, Fortran, and Java.
 - [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), Harvard
   Medical School. (Research Fellow) Techniques to estimate neural tissue
   micro-structure. (Fall 2008 - Spring 2010)
