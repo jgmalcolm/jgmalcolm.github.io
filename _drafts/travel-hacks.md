@@ -10,11 +10,10 @@ tags: [life]
 * multi-port charger
 * plastic bags for dirty / wet clothes
 * kindle (books get beat up)
-* head phones / headset
+* ear plugs, head phones
 * day pack
 * two pens (leak proof), scratch paper (folded computer paper or notecards)
 * Cliff bars, almonds
-* earplugs
 
 ## Clothes
 
