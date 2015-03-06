@@ -60,7 +60,7 @@ me@jgmalcolm.com <br />
 
 **Citizenship: US**
 
-## International Journals and Book Chapters
+## Journals and Book Chapters
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and
    Y. Rathi. [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
@@ -110,7 +110,7 @@ me@jgmalcolm.com <br />
    2(425):663­672, 2007.
 
 
-## International Conference Proceedings
+## Conference
 
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
    R. W. McCarley, C.-F. Westin, and
@@ -250,7 +250,7 @@ me@jgmalcolm.com <br />
 
 
 
-## Talks and Oral Presentations
+## Talks
 
 1. Jacket: Visual Computing, April 2011. CS264 Guest Lecture Series (Harvard,
    Boston, MA).
