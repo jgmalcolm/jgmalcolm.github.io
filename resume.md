@@ -41,8 +41,11 @@ me@jgmalcolm.com <br />
 
 ## Work Experience
 
-- [AccelerEyes](//www.arrayfire.com). (VP Engineering, co-founder) Development
-  of software enabling easy parallel programming. (Fall 2007-Fall 2013)
+- [AccelerEyes & ArrayFire](//www.arrayfire.com). (VP Engineering, co-founder)
+  Development of software enabling easy parallel programming. (Fall 2007-Fall
+  2013)
+  - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
+    computing platform enabling GPU acceleration of MATLAB-based codes.
 - [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), Harvard
   Medical School. (Research Fellow) Techniques to estimate neural tissue
   micro-structure. (Fall 2008 - Spring 2010)
