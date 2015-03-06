@@ -8,7 +8,7 @@ tags: [life]
 ## Basics for any trip
 
 * multi-port charger
-* plastic bags for smelly / wet clothes
+* plastic bags for dirty / wet clothes
 * kindle (books get beat up)
 * head phones / headset
 * day pack
