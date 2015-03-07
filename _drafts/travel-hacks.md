@@ -7,13 +7,13 @@ tags: [life]
 
 ## Basics for any trip
 
-* multi-port charger
 * plastic bags for dirty / wet clothes
 * kindle (books get beat up)
 * ear plugs, head phones
 * day pack
 * two pens (leak proof), scratch paper (folded computer paper or notecards)
 * Cliff bars, almonds
+* multi-port charger
 
 ## Clothes
 
@@ -27,7 +27,8 @@ tags: [life]
 
 ## International
 * use an ATM in destination airport
-  * notify credit/debit card companies a week in advance
+  * notify credit/debit card companies in advance
+    * ask for an increase in your daily withdrawal limit
   * split up cards/cash: most in internal/safe pocket (accessed in hotel),
     little in pocket accessed throughout the day
 * eye patch, inflatable pillow
