@@ -46,6 +46,15 @@ $(document).ready(function(){
 
   /* remove click delays on mobile */
   FastClick.attach(document.body);
+
+
+  /* track outbound clicks */
+  $('a').each(function(i,e) { $(e).on('click', function() {
+    var url = $(e).attr('href');
+    ga('send', 'event', 'outbound', 'click', url,
+      {'hitCallback': function() { document.location = url; } });
+  }) });
+
 });
 //-->
 </script>
