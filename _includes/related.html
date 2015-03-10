@@ -2,11 +2,13 @@
 {% assign is_first = true %}
 {% for p in site.posts %}
   {% assign is_related = false %}
-  {% for t in p.tags %}
-    {% if page.tags contains t %}
-      {% assign is_related = true %}
-    {% endif %}
-  {% endfor %}
+  {% if p.url != page.url %}
+    {% for t in p.tags %}
+      {% if page.tags contains t %}
+        {% assign is_related = true %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
 
   {% if is_related %}
     {% if is_first == false %} // {% endif %}
