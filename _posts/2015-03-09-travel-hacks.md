@@ -16,7 +16,9 @@ picked up along the way.
 
 **Plastic bags** for dirty or wet clothes.
 
-**[Kindle]** because books just get beat up.
+**[Kindle]** because books just get beat up, plus you'll always have more
+books than you can possibly read.  I also setup
+[Instapaper article delivery](https://www.instapaper.com/apps).
 
 **Ear plugs and head phones** because you never know when you'll be seated
 next to a crying two-year-old.
@@ -28,8 +30,8 @@ just the essentials while you're out and about.
 computer paper or notecards are enough.
 
 **Granola bars, almonds, and other TSA-friendly snacks** for when you're
-caught between meals, want to avoid airplane food, or expensive options in the
-terminal.
+caught between meals, tired of airplane food, or not interested in a $12
+sandwich in the terminal.
 
 **[Portable power]** for when you're stuck without an outlet and need a few
 joules. <a href="http://www.amazon.com/gp/product/B005X1Y7I2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005X1Y7I2&linkCode=as2&tag=jgmalcolm-20&linkId=CDGMIMDFFRTWSOJE"><img class="thumb" src="https://images-na.ssl-images-amazon.com/images/I/419Ldr5R77L._SL160_.jpg" ></a>
