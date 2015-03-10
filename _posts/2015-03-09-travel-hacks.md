@@ -14,7 +14,7 @@ picked up along the way.
 
 ## Basics
 
-**Plastic bags** for dirty or wet clothes.
+**Plastic bags** for dirty clothes or a wet bathing suit.
 
 **[Kindle]** because books just get beat up, plus you'll always have more
 books than you can possibly read.  I also setup
@@ -101,9 +101,10 @@ searched for additional money and valuables.  For the small amount of easily
 accessible money, consider that sticking your hand in and out of your pocket
 all day might cause the money to fall out.  Partition your assets.
 
-**Eye patch and inflatable pillow.** Catch some rest whenever you can.
+**Eye patch and inflatable pillow.** Catch some rest whenever and wherever.
 
-**Photocopy your passport.**  Put copies in all your luggage and carry-on.
+**Photocopy your passport.** Put copies in all your luggage and carry-on.
+Write your contact information on these copies.
 
 **Plan on doing laundry.** Only pack clothes for 5-7 days.  Even when
 traveling on some remote islands, I've always been able to find local services
