@@ -76,7 +76,8 @@ and fill them with the shampoo and soap you're hair and body are used to.
 When you find a brand you link, always stock up on extras; running out of
 something you knowingly use daily is just a sign of poor planning.  Consider
 putting these all in a heavy duty zip-lock in case something leaks or is still
-wet when you have to rush to the airport.
+wet when you have to rush to the airport.  For razors, put a large black
+binder clip around the blade portion to keep it from getting dulled.
 
 [gotoob]: http://www.amazon.com/gp/product/B002VS8H3G/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002VS8H3G&linkCode=as2&tag=jgmalcolm-20&linkId=74DZ3RHLRTSDNKQM
 
