@@ -111,8 +111,8 @@ Write your contact information on these copies.
 traveling on some remote islands, I've always been able to find local services
 to do my laundry.
 
-**Band aids, neosporin, needle, & thread.** For any trip with the potential
-for adventure.
+**Band aids, neosporin, sunscreen, needle, & thread.** For any trip with the
+potential for adventure.
 
 
 > For more tips on everything from packing lists, planning adventure, and
