@@ -246,6 +246,12 @@ simply write it on this list to think about later.  The simple act of
 writing something down and pushing that aside helps me de-clutter my mind.
 When a distracting urge rises up, learn to say "No" to yourself.
 
+**Set timers.** This will force you to be conscious of time and not simply let
+study time fill all your time.  During the first half of medical school you
+have plenty of time so you can study for hours, but during the clinical years
+you have very little time and you need to get faster at covering material.
+Use the clock to up your game.
+
 **Be disciplined about short breaks.** Many times my 15min break would
 easily stretch to 30, 45min.  Set a timer to kick you back in to gear when
 the time comes.
@@ -278,13 +284,15 @@ I'm talking about endurance and discipline in the weeks leading up to test
 day.  If you fail to work diligently during your dedicated period, you will be
 punished.
 
-{% comment %}
 It is also a very straight forward test for anyone willing to dedicate the
-energy to working through question banks.  I would wager that simply
-completing something like 5000 questions easily puts you in the 240s.  You've
-simply seen just about every way key topics can be tested.  The difference
-between the 240s and the 260s is where active studying and critical
-self-assessment make the difference.
+energy to working through question banks.
+
+
+{% comment %}
+I would wager that simply completing something like 5000
+questions easily puts you in the 240s.  You've simply seen just about every
+way key topics can be tested.  The difference between the 240s and the 260s is
+where active studying and critical self-assessment make the difference.
 {% endcomment %}
 
 
