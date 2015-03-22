@@ -21,7 +21,9 @@ books than you can possibly read.  I also setup
 [Instapaper article delivery](https://www.instapaper.com/apps).
 
 **Ear plugs and head phones** because you never know when you'll be seated
-next to a crying two-year-old.
+next to a crying two-year-old.  I really like the
+[Jarv NMotion Sport Wireless Bluetooth] headphones to avoid cords getting
+caught.
 
 **[Day pack]** that stuffs down.  Ditch your big travel backpack and carry
 just the essentials while you're out and about.
@@ -131,3 +133,6 @@ potential for adventure.
 [kindle]: http://www.amazon.com/gp/product/B00JG8LDC6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JG8LDC6&linkCode=as2&tag=jgmalcolm-20&linkId=JF4GKGOEQ2GOTYBJ
 [day pack]: http://www.amazon.com/gp/product/B0092ECRLA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0092ECRLA&linkCode=as2&tag=jgmalcolm-20&linkId=N65XMV7K3UGT5KGU
 [power strip]: http://www.amazon.com/Outlets-Go-Power-Strip-USB/dp/B0018MEBNG/
+
+
+[Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
