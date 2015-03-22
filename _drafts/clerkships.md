@@ -8,18 +8,26 @@ tags:
 
 ## Every rotation
 
-Equipment: multiple pens (be prepared to give them away), pen light, note
+Equipment: several pens (be prepared to give them away), pen light, note
 cards, stethoscope, [scutsheets](http://www.medfools.com/downloads.php).
 
 Surgery likely doesn't need your stethoscope.  Psych probably doesn't need
-anything beyond pens; leave your tie and white coat at home.
+anything beyond pens; leave your tie and white coat at home so a patient
+doesn't strangle you or get intimidated.  An ophthalmoscope is handy on
+consult services where you're unlikely to have tools handy.
+
 
 ## Neurology
 
-**Pregame.** Grab copies of [Neurology Clinical Cases][] and
-[Neurology Pre-Test][].  Specific equipment for the physical exam: reflex
-hammer, safety pins, pen light.  Optional equipment: ophthalmoscope, tuning
-fork. Practice your complete neuro exam multiple times.
+**Pregame.** Specific equipment for the physical exam:  reflex hammer, tuning
+fork, safety pins, ophthalmoscope. Practice your complete neuro exam multiple
+times.  Review anti-epileptic drugs for seizure control and pain management,
+calcium channel blockers for treating vasospasm, beta blockers for lowing
+blood pressure, and anesthetics.
+
+**Shelf.** About 200 questions in UWorld and 500 in
+[Neurology Pre-Test][]. I've heard [Neurology Clinical Cases][] is good but I
+had my hands full with UWorld and Pre-Test.
 
 
 
