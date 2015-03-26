@@ -16,6 +16,10 @@ anything beyond pens; leave your tie and white coat at home so a patient
 doesn't strangle you or get intimidated.  An ophthalmoscope is handy on
 consult services where you're unlikely to have tools handy.
 
+Ditch Wikipedia for [UpToDate.com](//uptodate.com).  This is the most
+well-organized resource I've found for efficient, practical, and comprehensive
+research on topics encountered in clinical medicine.
+
 
 ## Neurology
 
