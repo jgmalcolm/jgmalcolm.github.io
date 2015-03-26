@@ -6,7 +6,24 @@ layout: post
 Priorities are everything.
 
 You can work very hard, be the hardest worker on your team, but if you're
-working on the wrong things, you'll fail 100% of the time.
+working on the wrong things, you'll fail every single time.
+
+Doing a high leverage, high priority task leaves you with an incredible
+feeling.  Even if you have ten other lower priority things still on your list,
+having done that one high priority task will leave you satisfied.  In
+contrast, if you procrastinate and piddle away time on lower priority tasks,
+you'll never be satisfied as long as that high priority task is staring you
+down.
+
+* Recognize when you're over-committed.
+  * It's a terrible cloud to live under.  We all know that feeling; it just
+    gnaws at your stomach.
+  * People will start off assuming you're competent, but fail to deliver once
+    and it'll take twice as much effort to get back to that baseline level of
+    trust.
+  * Be honest with people who are expecting things from you.  Give them a
+    heads up so they can do their own contingency planning.
+  * Steps to unwind commitments gracefully
 
 You can use Time Boxing to force yourself to
 
