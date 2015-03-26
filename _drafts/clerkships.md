@@ -24,10 +24,10 @@ research on topics encountered in clinical medicine.
 ## Neurology
 
 **Pregame.** Specific equipment for the physical exam:  reflex hammer, tuning
-fork, safety pins, ophthalmoscope. Practice your complete neuro exam multiple
-times.  Review anti-epileptic drugs for seizure control and pain management,
-calcium channel blockers for treating vasospasm, beta blockers for lowing
-blood pressure, and anesthetics.
+fork, safety pins, ophthalmoscope. Practice your complete neuro exam.  Review
+anti-epileptic drugs for seizure control and pain management, calcium channel
+blockers for treating vasospasm, beta blockers for lowing blood pressure, and
+anesthetics.
 
 **Shelf.** About 200 questions in UWorld and 500 in
 [Neurology Pre-Test][]. I've heard [Neurology Clinical Cases][] is good but I
