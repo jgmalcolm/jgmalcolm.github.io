@@ -31,10 +31,13 @@ anesthetics.
 
 **Shelf.** About 200 questions in UWorld and 500 in
 [Neurology Pre-Test][]. I've heard [Neurology Clinical Cases][] is good but I
-had my hands full with UWorld and Pre-Test.
+had my hands full with UWorld and Pre-Test.  From UWorld, consider also
+including ophthalmology.
 
 
 
+
+## Pediatrics
 
 http://www.reddit.com/r/medicalschool/comments/2a04dl/part_2_m3_year_resources_to_use_to_excel_on_your/
 http://www.reddit.com/r/medicalschool/comments/1wt931/m3_year_resources_to_use_to_excel_on_your_nbmes/
