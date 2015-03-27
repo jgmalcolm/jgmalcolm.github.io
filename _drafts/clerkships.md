@@ -31,7 +31,10 @@ patient to get basic vitals and then come back later for a thorough exam.
 
 **Put together the story.** Use only 50% of the data, but be prepared if asked
 about the other 50%.  Giving 100% of the details in an unorganized fashion
-forces the attending to work at making sense of the situation.
+forces the attending to work at making sense of the situation.  Don't fall
+into the trap of being proud of yourself that you were able to spew out all
+kinds of detailed data rapid fire.  Better to tell a logical story at normal
+rate.
 
 
 ## Neurology
