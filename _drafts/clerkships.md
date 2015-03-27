@@ -21,6 +21,19 @@ well-organized resource I've found for efficient, practical, and comprehensive
 research on topics encountered in clinical medicine.
 
 
+## Presenting on rounds
+
+**Gather the information.** Before diving into the digital records, ask the
+night staff if there were any updates.  I tend to check the medical records
+before examining the patient; this might provide overnight clues that will
+guide my physical exam.  Sometimes you might want to briefly glance at the
+patient to get basic vitals and then come back later for a thorough exam.
+
+**Put together the story.** Use only 50% of the data, but be prepared if asked
+about the other 50%.  Giving 100% of the details in an unorganized fashion
+forces the attending to work at making sense of the situation.
+
+
 ## Neurology
 
 **Pregame.** Specific equipment for the physical exam:  reflex hammer, tuning
