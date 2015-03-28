@@ -1,6 +1,6 @@
 ---
 title: "Clerkships"
-description: "Make the most of your time on the wards."
+description: "What to pack, what to study, and how to do your best on rotations."
 layout: post
 tags:
 - medicine
@@ -48,10 +48,14 @@ anesthetics.
 **Shelf.** About 200 questions in UWorld and 500 in
 [Neurology Pre-Test][]. I've heard [Neurology Clinical Cases][] is good but I
 had my hands full with UWorld and Pre-Test.  From UWorld, consider also
-including ophthalmology.
+including ophthalmology.  The [NBME] subject tests were a closer approximation
+to the actual shelf exam, but since the NBME tests don't have explanations,
+the UWorld and Pre-Test explanations were still necessary.
 
+[Neurology Pre-Test]: http://www.amazon.com/gp/product/0071761144/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071761144&linkCode=as2&tag=jgmalcolm-20&linkId=ZYVMQGEVHO36UUO3
+[Neurology Clinical Cases]: http://www.amazon.com/gp/product/0071761705/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071761705&linkCode=as2&tag=jgmalcolm-20&linkId=HHAGQO35U4AM2TYM
 
-
+{% comment %}
 
 ## Pediatrics
 
@@ -68,3 +72,5 @@ http://www.uwmedicine.org/education/Documents/md-program/AOA%20Pearls_2013-14_4_
 
 http://www.reddit.com/r/medicalschool/comments/2vanpe/faq_for_matching_in_general_surgery/
 http://www.reddit.com/r/medicalschool/comments/2vcroj/tips_and_tricksresources_for_the_surgery_clerkship/
+
+{% endcomment %}
