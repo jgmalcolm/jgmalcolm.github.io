@@ -22,10 +22,13 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
     insists on Safari as the default browser
     ([reminiscent of Internet Explorer bundling][msft]).
-* [Kindle Paperwhite][kindle] for carrying around a small library of
-  interesting books and articles.  The backlit screen is fantastic in low
-  light.  I got the 3G model which has come in handy fetching new books while
-  traveling in the US and abroad.  Integrates with [Instapaper][instapaper].
+* [Kindle Paperwhite][kindle] <a
+  href="http://www.amazon.com/gp/product/B00IOY8XWQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00IOY8XWQ&linkCode=as2&tag=jgmalcolm-20&linkId=DKOWV2R7PBCJ6EFV"><img
+  class="thumb" src="/images/kindle.jpg"></a> for carrying around a small
+  library of interesting books and articles.  The backlit screen is fantastic
+  in low light.  I got the 3G model which has come in handy fetching new books
+  while traveling in the US and abroad.  Integrates with
+  [Instapaper][instapaper].
 * sound:
   * stationary listening:
     [Audéo earbuds] - expensive but
@@ -103,7 +106,7 @@ To use one, drag it to your Bookmarks (toolbar).
 [msft]: https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.
 [wikipedia]: {% post_url 2014-04-26-wikipedia-tricks %}
 [Sleep Cycle]: http://www.sleepcycle.com
-[kindle]: http://www.amazon.com/gp/product/B00JG8LDC6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JG8LDC6&linkCode=as2&tag=jgmalcolm-20&linkId=JF4GKGOEQ2GOTYBJ
+[kindle]: http://www.amazon.com/gp/product/B00IOY8XWQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00IOY8XWQ&linkCode=as2&tag=jgmalcolm-20&linkId=DKOWV2R7PBCJ6EFV
 [Instapaper]: http://instapaper.com
 [insta-bookmarklet]: https://www.instapaper.com/save
 [insta-kindle]: https://www.instapaper.com/apps

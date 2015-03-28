@@ -16,7 +16,9 @@ picked up along the way.
 
 **Plastic bags** for dirty clothes or a wet bathing suit.
 
-**[Kindle]** because books just get beat up, plus you'll always have more
+**[Kindle]** <a
+  href="http://www.amazon.com/gp/product/B00IOY8XWQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00IOY8XWQ&linkCode=as2&tag=jgmalcolm-20&linkId=DKOWV2R7PBCJ6EFV"><img
+  class="thumb" src="/images/kindle.jpg"></a> because books just get beat up, plus you'll always have more
 books than you can possibly read.  I also setup
 [Instapaper article delivery](https://www.instapaper.com/apps).
 
@@ -35,8 +37,8 @@ computer paper or notecards are enough.
 caught between meals, tired of airplane food, or not interested in a $12
 sandwich in the terminal.
 
-**[Portable power]** for when you're stuck without an outlet and need a few
-joules. <a href="http://www.amazon.com/gp/product/B005X1Y7I2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005X1Y7I2&linkCode=as2&tag=jgmalcolm-20&linkId=CDGMIMDFFRTWSOJE"><img class="thumb" src="https://images-na.ssl-images-amazon.com/images/I/419Ldr5R77L._SL160_.jpg" ></a>
+**[Portable power]** <a href="http://www.amazon.com/gp/product/B005X1Y7I2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005X1Y7I2&linkCode=as2&tag=jgmalcolm-20&linkId=CDGMIMDFFRTWSOJE"><img class="thumb" src="https://images-na.ssl-images-amazon.com/images/I/419Ldr5R77L._SL160_.jpg" ></a> for when you're stuck without an outlet and need a few
+watts.
 
 **[Power strip]** with multiple ports, USB, and ground.  Never again feel
 sheepish asking if you can bump someone off the only outlet available because
@@ -130,7 +132,7 @@ potential for adventure.
 [best-power-strip]: http://www.shawnlankton.com/2012/07/best-travel-power-strip/
 [matt]: http://matt.might.net/articles/travel-hacks/
 
-[kindle]: http://www.amazon.com/gp/product/B00JG8LDC6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JG8LDC6&linkCode=as2&tag=jgmalcolm-20&linkId=JF4GKGOEQ2GOTYBJ
+[kindle]: http://www.amazon.com/gp/product/B00IOY8XWQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00IOY8XWQ&linkCode=as2&tag=jgmalcolm-20&linkId=DKOWV2R7PBCJ6EFV
 [day pack]: http://www.amazon.com/gp/product/B0092ECRLA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0092ECRLA&linkCode=as2&tag=jgmalcolm-20&linkId=N65XMV7K3UGT5KGU
 [power strip]: http://www.amazon.com/Outlets-Go-Power-Strip-USB/dp/B0018MEBNG/
 
