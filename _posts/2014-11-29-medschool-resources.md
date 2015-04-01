@@ -193,8 +193,9 @@ depend on your weaknesses and learning style.
   resource, be careful not to add too much.  It's okay to add a small table
   contrasting against other bugs, but be careful to not add low-yield random
   facts that will clutter the card.
-* Combine these with [Sketchy Micro] or [Picmonic]
+* Combine these with [Picmonic]
 
+{% comment %}
 
 ### [Sketchy Micro](http://sketchymicro.com)  {#sketchy-micro}
 
@@ -211,6 +212,7 @@ depend on your weaknesses and learning style.
 * After the "required" First Aid, Pathoma, and UWorld, I would say that
   **Sketchy Micro was the best money I spent** on learning materials.
 
+{% endcomment %}
 
 ### [Picmonic](http://picmonic.com)  {#picmonic}
 
@@ -230,7 +232,7 @@ depend on your weaknesses and learning style.
 
 
 
-
+{% comment %}
 ### Comparing Picmonic and Sketchy Micro
 
 * Sketchy Micro (SM) has higher quality and more intuitive explanations than
@@ -255,7 +257,7 @@ depend on your weaknesses and learning style.
   intuitive hooks.  On the bright side, both are consistent in their visual
   hooks, so you'll see the same fact represented using the same symbol across
   multiple scenes.
-
+{% endcomment %}
 
 ## Videos {#videos}
 
@@ -651,7 +653,7 @@ or they pile up.
 
   [record audio]: #record-audio
 
-As I watched [Pathoma], [Sketchy Micro], and [Picmonic], I recorded the audio
+As I watched [Pathoma] and [Picmonic], I recorded the audio
 to mp3 so that I could listen to it while commuting, exercising, or doing
 chores.  While lacking the visual experience it's a way to eek out a little
 extra learning as you exercise your visual recall.  The audio will make little
@@ -688,7 +690,6 @@ Music app is not designed to listen to tedious hour long lectures.
 
 * How I name MP3s from each service (ID3 info): Artist / Album / Track
   * Pathoma / chapter / topic
-  * SketchyMicro / bug group / bug
   * Picmonic / organ system play list / vignette
 * Encoding settings
   * Install either LAME or FFmpeg
