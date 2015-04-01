@@ -18,7 +18,8 @@ consult services where you're unlikely to have tools handy.
 
 Ditch Wikipedia for [UpToDate.com](//uptodate.com).  This is the most
 well-organized resource I've found for efficient, practical, and comprehensive
-research on topics encountered in clinical medicine.
+research on topics encountered in clinical medicine.  Hopefully your school
+provides you with a subscription.
 
 
 ## Presenting on rounds
