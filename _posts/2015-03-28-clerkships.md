@@ -37,6 +37,13 @@ into the trap of being proud of yourself that you were able to spew out all
 kinds of detailed data rapid fire.  Better to tell a logical story at normal
 rate.
 
+**H&P versus SOAP.** On inpatient services, you present new patients
+differently than ones that have been on your service a night or two.  New
+patients need a full H&P that includes the history of how they got to your
+service so everyone's on the same page (eg. emergency department course).
+From the second day onward, you report using a SOAP note only highlighting
+overnight events, new lab values, and plan changes.
+
 
 ## Neurology
 
