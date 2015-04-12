@@ -29,6 +29,8 @@ night staff if there were any updates.  I tend to check the medical records
 before examining the patient; this might provide overnight clues that will
 guide my physical exam.  Sometimes you might want to briefly glance at the
 patient to get basic vitals and then come back later for a thorough exam.
+When examining a patient in the wee hours of the morning, be nice: use your
+penlight as much as possible instead of flipping on the overhead lights.
 
 **Put together the story.** Use only 50% of the data, but be prepared if asked
 about the other 50%.  Giving 100% of the details in an unorganized fashion
