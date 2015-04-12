@@ -81,10 +81,10 @@ life, you should ask about birth history, feeding, development.  Carry a
 reference sheet with developmental milestones and, for their age, ask about
 the four areas.
 
-**CLIPP Cases.** These cover about 30 basic scenarios you'll encounter daily.
-Do a quick pass in the first week of your rotations so you're familiar with
-the content.  Then do a subsequent slower pass to truly study the material
-before the shelf.
+**CLIPP Cases.** Available from [MedU](//www.med-u.org/clipp).  These cover
+about 30 basic scenarios you'll encounter daily.  Do a quick pass in the first
+week of your rotations so you're familiar with the content.  Then do a
+subsequent slower pass to truly study the material before the shelf.
 
 
   [peds-pe]: http://youtube.com
