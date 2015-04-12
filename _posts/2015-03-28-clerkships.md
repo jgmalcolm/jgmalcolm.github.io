@@ -66,9 +66,32 @@ the UWorld and Pre-Test explanations were still necessary.
 [Neurology Clinical Cases]: http://www.amazon.com/gp/product/0071761705/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071761705&linkCode=as2&tag=jgmalcolm-20&linkId=HHAGQO35U4AM2TYM
 [NBME]: https://nsas.nbme.org/home
 
-{% comment %}
 
 ## Pediatrics
+
+**Pre-game.** Kids are not like adults, so print out some reference material
+for developmental milestones, a template review of systems so you hit on
+pediatric-specific questions during your H&Ps.  Watch some videos of the
+pediatric physical exam.
+
+**Pediatric H&Ps are not adult H&Ps.** If a child is in the first decade of
+life, you should ask about birth history, feeding, development.  Carry a
+reference sheet with developmental milestones and, for their age, ask about
+the four areas.
+
+**CLIPP Cases.** These cover about 30 basic scenarios you'll encounter daily.
+Do a quick pass in the first week of your rotations so you're familiar with
+the content.  Then do a subsequent slower pass to truly study the material
+before the shelf.
+
+
+  [peds-pe]: http://youtube.com
+
+{% comment %}
+
+**Nursery.**
+
+
 
 http://www.reddit.com/r/medicalschool/comments/2a04dl/part_2_m3_year_resources_to_use_to_excel_on_your/
 http://www.reddit.com/r/medicalschool/comments/1wt931/m3_year_resources_to_use_to_excel_on_your_nbmes/
