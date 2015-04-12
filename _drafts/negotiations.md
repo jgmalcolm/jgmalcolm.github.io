@@ -12,6 +12,8 @@ tags: [better]
       responses ready.
       * You'll know what's important to you, and what you can giveaway for
         leverage.
+      * Similarly, figure out what's important to the other party and where
+        you two might run into conflict.
     * During the negotiation, the more time you spend thinking, the less time
       you're reading the other party.
     * Time spent here differentiates the top negotiators from the good ones.
