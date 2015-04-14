@@ -90,9 +90,19 @@ the UWorld and Pre-Test explanations were still necessary.
 ## Pediatrics
 
 **Pre-game.** Kids are not like adults, so print out some reference material
-for developmental milestones, a template review of systems so you hit on
-pediatric-specific questions during your H&Ps.  Watch some videos of the
-pediatric physical exam.
+for developmental milestones, a [template review of systems][peds-ros] so you
+hit on pediatric-specific questions during your H&Ps, and watch some videos of
+the [pediatric physical exam][peds-pe], carry around a template
+[checklist][peds-pe-checklist] and try to hit more of it with each new exam.
+Newborns labs have their own range of normal; get familiar with heart rate,
+respiratory rate, >37C is febrile in a neonate.  Get a basic outline of how to
+workup common problems: respiratory distress, [neonatal jaundice][jaundice],
+fever of unknown origin, etc.
+
+  [jaundice]: http://www.meddean.luc.edu/lumen/MedEd/peds/newborn_pe_exercise.pdf
+  [peds-ros]: http://www.utmb.edu/pedi_ed/CORE/Neonatology/page_02.htm
+  [peds-pe]: http://www.utmb.edu/pedi_ed/CORE/Neonatology/page_11.htm
+  [peds-pe-checklist]: http://www.meddean.luc.edu/lumen/MedEd/peds/newborn_pe_exercise.pdf
 
 **Pediatric H&Ps are not adult H&Ps.** If a child is in the first decade of
 life, you should ask about birth history, feeding, development.  Carry a
