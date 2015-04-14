@@ -115,8 +115,6 @@ week of your rotations so you're familiar with the content.  Then do a
 subsequent slower pass to truly study the material before the shelf.
 
 
-  [peds-pe]: http://youtube.com
-
 {% comment %}
 
 **Nursery.**
