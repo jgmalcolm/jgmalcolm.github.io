@@ -21,6 +21,21 @@ well-organized resource I've found for efficient, practical, and comprehensive
 research on topics encountered in clinical medicine.  Hopefully your school
 provides you with a subscription.
 
+**Set some goals.** Before you hit the floors on day #1, come up with a list
+of 2-3 things you want to get better at on this rotation.  For example, if
+you're interested in cardiology, you can always say you want to get better at
+listening to hearts whether it's a pediatrics or adult medicine.  Having a
+ready answer shows you're a self starter, and it primes you to get more out of
+the opportunities that come up.
+
+**Have the calendar in your head.** Someone is invariably going to ask you how
+long you're rotating with them, or what you're doing next.  Replying "I don't
+know" makes you look aimless.  Know your dates.  What's more, I like to
+solicit feedback at the halfway point so I have room to improve on anything
+attendings note.  The day before the halfway point, I'll mention to the
+attending that I'd appreciate if there was an opportunity for some feedback
+the next day.
+
 
 ## Get comfortable with chaos
 
