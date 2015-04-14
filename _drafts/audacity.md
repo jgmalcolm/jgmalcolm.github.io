@@ -15,16 +15,20 @@ After you start recording, allow a few seconds of silence to capture the backgro
 
 ## Normalize
 
+-1db
+
 ## Compress
 
+-18
+
 ## Equalize
-Base, Treble
+Base Boost
 
 ## Normalize
 
 ## Hard Limit
 
--10
+-4
 
 ## Normalize
 
