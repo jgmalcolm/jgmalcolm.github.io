@@ -8,8 +8,9 @@ tags:
 
 ## Every rotation
 
-Equipment: several pens (be prepared to give them away), pen light, note
-cards, stethoscope, [scutsheets](http://www.medfools.com/downloads.php).
+Equipment: two pens (be prepared to give one away), strong pen light, note
+cards, stethoscope, blank paper or
+[scutsheets](http://www.medfools.com/downloads.php).
 
 Surgery likely doesn't need your stethoscope.  Psych probably doesn't need
 anything beyond pens; leave your tie and white coat at home so a patient
