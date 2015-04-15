@@ -129,15 +129,15 @@ about 30 basic scenarios you'll encounter daily.  Do a quick pass in the first
 week of your rotations so you're familiar with the content.  Then do a
 subsequent slower pass to truly study the material before the shelf.
 
-**Handle with care.** Obviously you shouldn't drop a child, but you'll be
-relieved to find they're pretty resilient.  I doubt you'll drop a child, but
-you may have a diaper accident.  During your physical exam, always position
-the diaper over a little boy's private parts.  The time when you have them
-fully exposed should be on the order of seconds.  When checking femoral
-pulses, shields up.  Further, before picking a child up to coddle, check the
-diaper.  Your clothes will quickly soak up a wet diaper.  This is experience
-talking.  For Peds, OB/Gyn, and Surgery you'll want to have a full change of
-scrubs in your locker or car.
+**Handle with care.** You'll find they're pretty resilient.  I doubt you'll
+drop a child, but another important aspect of handling with care involves
+diaper mishaps.  During your physical exam, always position the diaper over a
+little boy's private parts.  The time when you have them fully exposed should
+be on the order of seconds.  When checking femoral pulses, shields up.
+Further, before picking a child up to coddle, check the diaper.  Your clothes
+will quickly soak up a wet diaper.  This is experience talking.  For Peds,
+OB/Gyn, and Surgery you'll want to have a full change of scrubs in your locker
+or car.
 
 {% comment %}
 
