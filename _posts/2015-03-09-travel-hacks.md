@@ -37,7 +37,7 @@ computer paper or notecards are enough.
 caught between meals, tired of airplane food, or not interested in a $12
 sandwich in the terminal.
 
-**[Portable power]** <a href="http://www.amazon.com/gp/product/B005X1Y7I2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005X1Y7I2&linkCode=as2&tag=jgmalcolm-20&linkId=CDGMIMDFFRTWSOJE"><img class="thumb" src="https://images-na.ssl-images-amazon.com/images/I/419Ldr5R77L._SL160_.jpg" ></a> for when you're stuck without an outlet and need a few
+**[Portable battery]** <a href="http://www.amazon.com/gp/product/B00ITILPZ4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ITILPZ4&linkCode=as2&tag=jgmalcolm-20&linkId=3WTM7NSD7S7XTNCF"><img class="thumb" src="http://ecx.images-amazon.com/images/I/412NAqrHJ%2BL._SL110_.jpg" ></a> for when you're stuck without an outlet and need a few
 watts.
 
 **[Power strip]** with multiple ports, USB, and ground.  Never again feel
@@ -46,7 +46,7 @@ your phone is about to die but you're so close to a new high score on Candy
 Crush.  Nevermind, you should feel sheepish.
 
 
-[portable power]: http://www.amazon.com/gp/product/B005X1Y7I2/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B005X1Y7I2&linkCode=as2&tag=jgmalcolm-20&linkId=2FCLYHBCMQGNGJ2I
+[portable battery]: http://www.amazon.com/gp/product/B00ITILPZ4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00ITILPZ4&linkCode=as2&tag=jgmalcolm-20&linkId=3WTM7NSD7S7XTNCF
 
 
 
