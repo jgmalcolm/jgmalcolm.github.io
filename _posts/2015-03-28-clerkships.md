@@ -8,9 +8,20 @@ tags:
 
 ## Every rotation
 
-Equipment: two pens (be prepared to give one away), strong pen light, note
-cards, stethoscope, blank paper or
-[scutsheets](http://www.medfools.com/downloads.php).
+Equipment:
+
+* **Two pens.** Be prepared to give one away.
+* **Pen light.** Strong focused beam.  Useful not just for pupil exams but
+  also examining a patient in a dim room.
+* **Stethoscope.** Nearly ever specialty will use this except psych.
+* **Notecards.** A small stack of blanks in your top pocket that you can whip
+  out to write down anything at a moment's notice.  Often you're asked on the
+  spot to call a number for a consult; you don't want to be fumbling for your
+  phone to take down the number.  I often have one card per patient to write
+  down details like meds or important H&P details. For ICU rotations and more
+  complicated patients, you may need larger blank paper or
+  [scutsheets](http://www.medfools.com/downloads.php), but still keep some
+  notecards handy for little things.
 
 Surgery likely doesn't need your stethoscope.  Psych probably doesn't need
 anything beyond pens; leave your tie and white coat at home so a patient
