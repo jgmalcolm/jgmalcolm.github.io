@@ -162,6 +162,17 @@ will quickly soak up a wet diaper.  This is experience talking.  For Peds,
 OB/Gyn, and Surgery you'll want to have a full change of scrubs in your locker
 or car.
 
+
+## Medicine
+
+**Pre-game.** Review EKG readings.
+
+**Shelf.** UWorld is all you need to do well.  Absolutely do all 1300
+questions.  [MKSAP] is great but extra.
+
+
+  [MKSAP]: http://www.amazon.com/gp/product/1934465542/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934465542&linkCode=as2&tag=jgmalcolm-20&linkId=5LTX75SLT7D62FSF
+
 {% comment %}
 
 **Nursery.**
