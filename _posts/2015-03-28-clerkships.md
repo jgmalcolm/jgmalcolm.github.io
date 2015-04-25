@@ -162,6 +162,13 @@ will quickly soak up a wet diaper.  This is experience talking.  For Peds,
 OB/Gyn, and Surgery you'll want to have a full change of scrubs in your locker
 or car.
 
+**Nursery.** The newborn physical exam looks for specific physical findings
+from the birth process: birth trauma and deformities from in utero
+positioning, skin findings such as umbilical site, jaundice, rashes, etc.
+Your history will need to assess this pregnancy and delivery as well as
+previous pregnancies.  Know jaundice and respiratory distress cold.  Normal
+vitals are unique in the first few days.
+
 
 ## Medicine
 
@@ -175,7 +182,6 @@ questions.  [MKSAP] is great but extra.
 
 {% comment %}
 
-**Nursery.**
 
 
 
