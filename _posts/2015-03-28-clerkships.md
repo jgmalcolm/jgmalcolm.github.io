@@ -66,6 +66,17 @@ You no longer have infinite time to study at your own pace.  You must now more
 than ever prioritize what to cover and how deeply to cover it.
 
 
+## Examining patients
+
+**Always introduce yourself.** For inpatients, introduce yourself again each
+day until it's clear they know you.  Always knock before entering.  Recognize
+that patients have lost control or privacy, so knocking and requesting to
+enter is one way to give some of that back.
+
+**Minimal exposure.** While you need to examine head to toe, you don't have to
+expose them all at once.  Keep as much covered as possible as you're going
+along.
+
 
 ## Presenting on rounds
 
