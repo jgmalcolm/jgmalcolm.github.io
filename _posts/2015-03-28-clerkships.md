@@ -113,12 +113,11 @@ anesthetics.  Get familiar with one of the [NIH Stroke Scale apps][stroke].
 
   [stroke]: https://itunes.apple.com/us/app/10-second-stroke-scale/id478624302?mt=8
 
-**Shelf.** About 200 questions in UWorld and 500 in
-[Neurology Pre-Test][]. I've heard [Neurology Clinical Cases][] is good but I
-had my hands full with UWorld and Pre-Test.  From UWorld, consider also
-including ophthalmology.  The [NBME] subject tests were a closer approximation
-to the actual shelf exam, but since the NBME tests don't have explanations,
-the UWorld and Pre-Test explanations were still necessary.
+**Shelf.** About 220 questions in UWorld covering Neurology and Ophthalmology,
+plus the two [NBME] subject tests which were quite similar to the real deal.
+[Neurology Pre-Test][] is okay if you want more practice, but only if you've
+finished UW and NBME.  I've heard [Neurology Clinical Cases][] is good but I
+had my hands full already.
 
 [Neurology Pre-Test]: http://www.amazon.com/gp/product/0071761144/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071761144&linkCode=as2&tag=jgmalcolm-20&linkId=ZYVMQGEVHO36UUO3
 [Neurology Clinical Cases]: http://www.amazon.com/gp/product/0071761705/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0071761705&linkCode=as2&tag=jgmalcolm-20&linkId=HHAGQO35U4AM2TYM
