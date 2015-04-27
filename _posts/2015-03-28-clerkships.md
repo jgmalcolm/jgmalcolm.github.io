@@ -69,9 +69,10 @@ than ever prioritize what to cover and how deeply to cover it.
 ## Examining patients
 
 **Always introduce yourself.** For inpatients, introduce yourself again each
-day until it's clear they know you.  Always knock before entering.  Recognize
-that patients have lost control or privacy, so knocking and requesting to
-enter is one way to give some of that back.
+day until it's clear they know you.  Address them as Mr X or Mrs Y, and only
+use first names if they insist.  Always knock before entering.  Recognize that
+patients have lost control or privacy, so knocking and requesting to enter is
+one way to give some of that back.
 
 **Minimal exposure.** While you need to examine head to toe, you don't have to
 expose them all at once.  Keep as much covered as possible as you're going
