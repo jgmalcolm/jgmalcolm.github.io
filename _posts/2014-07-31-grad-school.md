@@ -245,6 +245,9 @@ Know what a "Win" looks like to your advisor.  Where do they want to publish?
 What do they need to move their own career forward?
 
 
+> ["30 Tips on writing"](http://blogs.lse.ac.uk/impactofsocialsciences/2012/11/28/lupton-30-tips-writing/)
+
+
 {% comment %}
 
 ## Peer Review
