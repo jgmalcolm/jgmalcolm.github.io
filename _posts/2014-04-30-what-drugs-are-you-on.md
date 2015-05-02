@@ -2,9 +2,7 @@
 title: "What drugs are you on?"
 layout: post
 description: "Medications are a key part of taking a patient history."
-tags:
-- medicine
-- doctoring
+tags: [medicine, doctoring]
 ---
 
 While I never say it the way the title has it, here's some tips and tricks
