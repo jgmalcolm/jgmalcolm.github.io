@@ -93,7 +93,7 @@ vitals are unique in the first few days.
 has been invaluable.  Whenever I'm about to examine a patient for a chief
 complaint I'm not as familiar with, I hit that page and this gives me
 questions for my history, physical exam findings to look for, differential
-diagnosis to consider, and labs to order.  Look like a rock star because you
+diagnosis to consider, and tests to order.  Look like a rock star because you
 covered all the bases.  Consider getting a digital copy for your phone/tablet
 instead of lugging around the little notebook.
 
