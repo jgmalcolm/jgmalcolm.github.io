@@ -1,9 +1,12 @@
 ---
 title: "How to be a good sub-intern"
 description: "Be prepared, helpful, and confident in your clinical rotations."
-tag: [doctoring,medicine]
+tag: [doctoring,medicine, clinical]
 layout: post
+series: clinical
 ---
+
+{% include series.html %}
 
 ## Every rotation
 

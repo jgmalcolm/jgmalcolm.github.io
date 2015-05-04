@@ -2,9 +2,12 @@
 title: "Clerkships"
 description: "What to pack, what to study, and how to do your best on rotations."
 layout: post
-tags: [medicine]
+tags: [clinical, medicine]
+series: clinical
+images: [/images/pocket-medicine.jpg]
 ---
 
+{% include series.html %}
 
 ## Neurology
 
