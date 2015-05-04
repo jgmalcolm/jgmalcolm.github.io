@@ -1,5 +1,6 @@
 ---
-title: "Being a good sub-intern"
+title: "How to be a good sub-intern"
+description: "Be prepared, helpful, and confident in your clinical rotations."
 tag: [doctoring,medicine]
 layout: post
 ---
