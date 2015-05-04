@@ -2,8 +2,7 @@
 title: "Clerkships"
 description: "What to pack, what to study, and how to do your best on rotations."
 layout: post
-tags:
-- medicine
+tags: [medicine]
 ---
 
 
