@@ -7,7 +7,7 @@ layout: post
 
 ## Every rotation
 
-Equipment:
+**Equipment**
 
 * **Two pens.** Be prepared to give one away.
 * **Pen light.** Strong focused beam.  Useful not just for pupil exams but
@@ -27,10 +27,10 @@ anything beyond pens; leave your tie and white coat at home so a patient
 doesn't strangle you or get intimidated.  An ophthalmoscope is handy on
 consult services where you're unlikely to have tools handy.
 
-Graduate from Wikipedia to [UpToDate.com](//uptodate.com).  This is the most
-well-organized resource I've found for efficient, practical, and comprehensive
-research on topics encountered in clinical medicine.  Hopefully your school
-provides you with a subscription.
+**UpToDate.** Graduate from Wikipedia to [UpToDate.com](//uptodate.com).  This
+is the most well-organized resource I've found for efficient, practical, and
+comprehensive research on topics encountered in clinical medicine.  Hopefully
+your school provides you with a subscription.
 
 **Set some goals.** Before you hit the floors on day #1, come up with a list
 of 2-3 things you want to get better at on this rotation.  For example, if
@@ -65,17 +65,30 @@ You no longer have infinite time to study at your own pace.  You must now more
 than ever prioritize what to cover and how deeply to cover it.
 
 
+## Morning rounds
+
+**The List.** Every morning, print a fresh copy of your team's patient list.
+As your team goes around, you'll build a todo list of things that need to be
+done for each patient: consults to call, records to request, lab values to
+hunt down, etc.  It's a given you do everything you can for your patient, but
+for other patients without a medical student helping, step in and offer to
+help.  To do this, you need to make note of todo items on patients that aren't
+even yours.
+
+
 ## Examining patients
 
 **Always introduce yourself.** For inpatients, introduce yourself again each
 day until it's clear they know you.  Address them as Mr X or Mrs Y, and only
 use first names if they insist.  Always knock before entering.  Recognize that
 patients have lost control or privacy, so knocking and requesting to enter is
-one way to give some of that back.
+one way to give some of that back.  When leaving the room, repeat your name
+again so you're not just some random "doctor" coming to examine them.
 
 **Minimal exposure.** While you need to examine head to toe, you don't have to
 expose them all at once.  Keep as much covered as possible as you're going
 along.
+
 
 
 ## Presenting on rounds
@@ -93,7 +106,8 @@ about the other 50%.  Giving 100% of the details in an unorganized fashion
 forces the attending to work at making sense of the situation.  Don't fall
 into the trap of being proud of yourself that you were able to spew out all
 kinds of detailed data rapid fire.  Better to tell a logical story at normal
-rate.
+rate.  Figure out what you think is most likely and tailor the story to that.
+List other possibilities and what you're doing to rule them out.
 
 **H&P versus SOAP.** On inpatient services, you present new patients
 differently than ones that have been on your service a night or two.  New
