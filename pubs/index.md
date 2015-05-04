@@ -10,7 +10,7 @@ For a full description of the work associated with these publications, see the
 <a href="research.html">Research Projects</a> page.  You can also find my
 papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VYfBjawaNhBRUklvdY39vWQo">PubMed</a>,
 <a href="http://scholar.google.com/citations?user=k8pxfGQAAAAJ">Google Scholar</a>,
-<a href="http://smartech.gatech.edu/browse?type=author&value=Malcolm,%20James%20G.">SMARTech</a>,
+<a href="https://smartech.gatech.edu/browse?value=Malcolm,%20James%20G.&type=author">SMARTech</a>,
 <a href="http://www.spl.harvard.edu/publications/pages/display/?authorfirst=James&authorlast=Malcolm">SPL</a>,
 <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Malcolm:James_G=.html">DBLP</a>.
 
