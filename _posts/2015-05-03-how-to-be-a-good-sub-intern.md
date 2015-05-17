@@ -24,6 +24,14 @@ series: clinical
   complicated patients, you may need larger blank paper or
   [scutsheets](http://www.medfools.com/downloads.php), but still keep some
   notecards handy for little things.
+* **Insoles.** You're on your feet for hours on end, and those hospital floors
+  are hard.  You can join the cool kids and get some [Dansko's][dansko], but a
+  far cheaper option is a simple gel insole in your existing shoes.  I far
+  prefer the insole because the Dansko's look ridiculous with anything other
+  than scrubs, and even then they look a bit odd...
+
+
+  [dansko]: http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&field-keywords=dansko&index=blended&linkCode=ur2&tag=jgmalcolm-20&linkId=ZEZ3BOYLBLXFR6K3
 
 Surgery likely doesn't need your stethoscope.  Psych probably doesn't need
 anything beyond pens; leave your tie and white coat at home so a patient
