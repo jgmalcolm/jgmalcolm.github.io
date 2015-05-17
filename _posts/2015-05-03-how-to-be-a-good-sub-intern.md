@@ -75,6 +75,10 @@ the same mistakes day after day, expect low ratings.
 You no longer have infinite time to study at your own pace.  You must now more
 than ever prioritize what to cover and how deeply to cover it.
 
+*Know your nurses.* For each patient, introduce yourself to his or her nurse.
+If they carry a ward cellphone, write down that number.  A quick phone call
+can save you lots of walking.
+
 
 ## Morning rounds
 
