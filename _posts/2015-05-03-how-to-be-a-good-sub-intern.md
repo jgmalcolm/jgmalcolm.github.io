@@ -29,6 +29,8 @@ series: clinical
   far cheaper option is a simple gel insole in your existing shoes.  I far
   prefer the insole because the Dansko's look ridiculous with anything other
   than scrubs, and even then they look a bit odd...
+* **Rubber gloves.** Always carry 1-2 pairs in your pocket.  I often find
+  myself in a situation requiring gloves but none are nearby.
 
 
   [dansko]: http://www.amazon.com/s/ref=as_li_ss_tl?_encoding=UTF8&camp=1789&creative=390957&field-keywords=dansko&index=blended&linkCode=ur2&tag=jgmalcolm-20&linkId=ZEZ3BOYLBLXFR6K3
