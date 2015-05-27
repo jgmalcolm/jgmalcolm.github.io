@@ -78,26 +78,49 @@ that all partners can contribute as much as possible to the venture while
 feeling fairly compensated for those efforts.
 
 
+
+
 ## Competencies
 
-* What are core competencies needed for your venture?
-  * Who brings what?
-  * What do you need to get better at?
-  * What will you outsource?
+**What core competencies are needed for the venture?** Make a list.  Who
+brings what?  Who's responsible for what?  Think through the entire pipeline
+of your business, from sales and marketing to back end production and
+operations.  Also consider ancillary tasks such as taxes and pay roll.
 
-## Scenarios
+**What do you need to get better at?** Some things you stink at, can't (yet)
+outsource, or will need to learn yourself.  Make a plan for how that will
+happen.
 
-* What happens if one partner walks in a year, two, four?
-* What level of involvement is required to remain a partner?
-  * How and when will you evaluate?
-  * What's the process for pushing a partner out?
 
-## Worst enemy
 
-* Thought exercise: Assume this person is your worst enemy, you're involved in
-  a divorce, and you're splitting the company assets.
-* Don't just gloss over holes in the contract and assume you both understand
-  what it means.  Make things explicit where you can.
+## Run through scenarios
+
+**What happens if one partner walks?** Who gets what?  What if it's after one
+year, two, or four?  Consider specific scenarios if you can: if you're both in
+school, what happens after graduation?  What if you stay and the other partner
+leaves for a big fancy job?  What about continuing work remote?
+
+**What level of involvement is required to remain a partner?** How and when
+will you evaluate?  What's the process for pushing a partner out?
+
+**What happens when we don't agree?** Do you have a respected mentor or
+arbiter?  [Disagreements and fights are inevitable][aaronkharris], so start a
+conversation early about how you'd like to handle when the inevitable happens.
+A few gentle, proactive discussions can keep you from the painful process of
+going off the rails.
+
+
+
+## Your worst enemy
+
+Try this little thought experiment: what if this partner was your worst enemy?
+Specifically consider things like, how would you split up assets if you needed
+to divorce?  What about assets you brought to capitalize the business?  How
+would profits be disbursed?  If you left early, how can you get your money
+back?  If you caught them cheating, how would you deal with it?
+
+Don't just gloss over holes in the contract and assume you both understand
+what it means.  Make things explicit where you can.
 
 
 
