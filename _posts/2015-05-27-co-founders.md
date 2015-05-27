@@ -98,7 +98,8 @@ happen.
 **What happens if one partner walks?** Who gets what?  What if it's after one
 year, two, or four?  Consider specific scenarios if you can: if you're both in
 school, what happens after graduation?  What if you stay and the other partner
-leaves for a big fancy job?  What about continuing work remote?
+leaves for a big fancy job?  What about continuing work remote?  What if
+you're both balancing school or a job?
 
 **What level of involvement is required to remain a partner?** How and when
 will you evaluate?  What's the process for pushing a partner out?
@@ -108,6 +109,15 @@ arbiter?  [Disagreements and fights are inevitable][aaronkharris], so start a
 conversation early about how you'd like to handle when the inevitable happens.
 A few gentle, proactive discussions can keep you from the painful process of
 going off the rails.
+
+> John Melonakos, my co-founder at ArrayFire/AccelerEyes writes about our some
+> of early experiences in ["Respecting our student commitments"][students],
+> ["Founder Vesting"][vesting], and
+> ["Cofounder Relationship Struggles Are The Most Volatile"][volatile].
+
+  [volatile]: http://notonlyluck.com/2014/05/30/cofounder-relationship-struggles-are-the-most-volatile/
+  [students]: http://notonlyluck.com/2014/05/21/respecting-our-student-commitments/
+  [vesting]: http://notonlyluck.com/2014/05/21/founder-vesting/
 
 
 
