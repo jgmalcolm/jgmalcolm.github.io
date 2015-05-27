@@ -38,9 +38,9 @@ hit on pediatric-specific questions during your H&Ps, and watch some videos of
 the [pediatric physical exam][peds-pe], carry around a template
 [checklist][peds-pe-checklist] and try to hit more of it with each new exam.
 Newborns labs have their own range of normal; get familiar with heart rate,
-respiratory rate, >37C is febrile in a neonate.  Get a basic outline of how to
-workup common problems: respiratory distress, [neonatal jaundice][jaundice],
-fever of unknown origin, etc.
+respiratory rate, febrile thresholds in neonates, infants, and toddlers.  Get
+a basic outline of how to workup common problems: respiratory distress,
+[neonatal jaundice][jaundice], fever of unknown origin, etc.
 
   [jaundice]: http://www.meddean.luc.edu/lumen/MedEd/peds/newborn_pe_exercise.pdf
   [peds-ros]: http://www.utmb.edu/pedi_ed/CORE/Neonatology/page_02.htm
