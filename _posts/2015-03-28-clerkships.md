@@ -9,6 +9,37 @@ images: [/images/pocket-medicine.jpg]
 
 {% include series.html %}
 
+## Medicine
+
+<figure class="thumb">
+  <a href="http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=2TWYCX253ZPFELPK">
+    <img src="/images/pocket-medicine.jpg">
+  </a>
+
+  <figcaption>Pocket Medicine has been invaluable in getting a thorough
+  history and physical for common chief complaints.</figcaption>
+</figure>
+
+**Pre-game.** Understand how to read an EKG; plenty of great online videos:
+[basics](http://zapt.io/tqyjd4ju), [rate & rhythm](http://zapt.io/tfxkvx9d),
+[intervals](http://zapt.io/t4cubvtk).
+[Pocket Medicine]
+has been invaluable.  Whenever I'm about to examine a patient for a chief
+complaint I'm not as familiar with, I hit that page and this gives me
+questions for my history, physical exam findings to look for, differential
+diagnosis to consider, and tests to order.  Look like a rock star because you
+covered all the bases.  Consider getting a digital copy for your phone/tablet
+instead of lugging around the little notebook.
+
+**Shelf.** UWorld is all you need to do well.  Absolutely do all 1300
+questions.  [MKSAP] is great but extra.
+
+
+  [Pocket Medicine]: http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=N46OZ2ZPME53U4LK
+  [MKSAP]: http://www.amazon.com/gp/product/1934465542/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934465542&linkCode=as2&tag=jgmalcolm-20&linkId=5LTX75SLT7D62FSF
+
+
+
 ## Neurology
 
 **Pregame.** Specific equipment for the physical exam:  reflex hammer, tuning
@@ -74,35 +105,6 @@ Your history will need to assess this pregnancy and delivery as well as
 previous pregnancies.  Know jaundice and respiratory distress cold.  Normal
 vitals are unique in the first few days.
 
-
-## Medicine
-
-<figure class="thumb">
-  <a href="http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=2TWYCX253ZPFELPK">
-    <img src="/images/pocket-medicine.jpg">
-  </a>
-
-  <figcaption>Pocket Medicine has been invaluable in getting a thorough
-  history and physical for common chief complaints.</figcaption>
-</figure>
-
-**Pre-game.** Understand how to read an EKG; plenty of great online videos:
-[basics](http://zapt.io/tqyjd4ju), [rate & rhythm](http://zapt.io/tfxkvx9d),
-[intervals](http://zapt.io/t4cubvtk).
-[Pocket Medicine]
-has been invaluable.  Whenever I'm about to examine a patient for a chief
-complaint I'm not as familiar with, I hit that page and this gives me
-questions for my history, physical exam findings to look for, differential
-diagnosis to consider, and tests to order.  Look like a rock star because you
-covered all the bases.  Consider getting a digital copy for your phone/tablet
-instead of lugging around the little notebook.
-
-**Shelf.** UWorld is all you need to do well.  Absolutely do all 1300
-questions.  [MKSAP] is great but extra.
-
-
-  [Pocket Medicine]: http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=N46OZ2ZPME53U4LK
-  [MKSAP]: http://www.amazon.com/gp/product/1934465542/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934465542&linkCode=as2&tag=jgmalcolm-20&linkId=5LTX75SLT7D62FSF
 
 {% comment %}
 
