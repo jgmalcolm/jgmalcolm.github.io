@@ -5,10 +5,23 @@ tags: [medicine,research]
 ---
 
 
+## Get Organized
+
+Google Docs for collaboration.
+
+
+## Scope
+
 If you're finding a lot of papers reporting on the question, then you're
 likely on a valuable topic.
 
-Don't read into the papers too much.  Not every paper will report on every
+Lumpers and splitters.
+
+
+
+## Avoid getting bogged down
+
+**Don't read into things too much.** Not every paper will report on every
 variable you're interested in.  If the paper doesn't record an outcome measure
 that you're looking for, then move on.  You don't have time to wade through
 their raw data and make your own interpretations.  Only record what they
