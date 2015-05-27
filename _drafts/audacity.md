@@ -35,5 +35,6 @@ Base Boost
 
 
 {% comment %}
-https://www.youtube.com/watch?v=SHn2BQ0Zq7k
+original tips - https://www.youtube.com/watch?v=SHn2BQ0Zq7k
+equalization - https://www.youtube.com/watch?v=GLrk3TZkOAU
 {% endcomment %}
