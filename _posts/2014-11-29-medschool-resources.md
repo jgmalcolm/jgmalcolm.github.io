@@ -13,6 +13,8 @@ short list of the best resources I used during the didactic portion of med
 school.  I cover various approaches to learning: review texts, memory palaces,
 video lectures, spaced repetition software, physical note cards, and more.
 
+{% include pharm450 %}
+
 {% include series.html %}
 
 ## Every student uses
