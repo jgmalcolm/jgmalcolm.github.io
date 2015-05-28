@@ -12,7 +12,7 @@ reading and rereading through the table hoping the information will somehow
 stick?  This article outlines simple steps for using your imagination to build
 "memory scenes" that leverage your visual, spatial, and emotional memory.
 
-{% include pharm450 %}
+{% include pharm450.html %}
 
 {% include series.html %}
 
