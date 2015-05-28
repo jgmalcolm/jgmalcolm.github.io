@@ -5,31 +5,36 @@ description: "Thoughts on starting a new venture with partners."
 tags: [business]
 ---
 
-Setting out to build a new business is exciting, but there are important
-things to consider as you're forming the founding team, whether it's with
-friends, existing business partners, or a significant other.
+Building a new business is exciting, but there are important things to consider as you form the founding team, whether with friends, existing business partners, or a significant other. Here I share some tips based on experience leading a startup that beat Google and Apple at everything.
 
+## Summary
+
+1. <a href="#personal">Personal</a>: work with a responsible person you like and share values with.
+2. <a href="#equity">Equity</a>: split equally, earn it out, and maximize value for all.
+3. <a href="#competencies">Competencies</a>: think what is needed and what you can get better at.
+4. <a href="#run-through-scenarios">Scenarios</a>: plan for inevitable contingencies and fights.
+5. <a href="#your-worst-enemy">Your worst enemy</a>: pre-emptively and explicitly plan for the worst.
 
 ## Personal
 
 **Is this someone you like working with?** Can you see yourself working
-together at 3am under a deadline?  Do they annoy you?  These are probably some
+together at 3 am under a deadline?  Do they annoy you?  These are probably some
 of the most important questions that will determine your happiness.  While
 having an annoying partner is not a deal breaker, the baseline aggravation can
 trigger bigger issues later.
 
 **Is this person responsible?** Is this someone you trust to work hard and get
 the job done?  The nature of forming a partnership is because you need to
-spread work out, and so you need to be able to trust that your partner will
+spread work out, so you need to be able to trust that your partner will
 execute on their fair share.
 
 **Do you share the same sense of values?** Do you question their judgment?
-Have you witnessed or heard about them do anything ethically questionable?  If
+Have you witnessed or heard about them doing anything ethically questionable?  If
 so, be blunt and ask them about it.  Better to air the matter now rather than
 after you've formed a joint bank account.
 
 It's been said that business partnerships are like a marriage without the
-benefits.  You will be very close to your partners, as close as family.
+benefits.  You will be very close to your partners - as close as family.
 Choose your associates wisely.
 
 
@@ -98,8 +103,8 @@ happen.
 **What happens if one partner walks?** Who gets what?  What if it's after one
 year, two, or four?  Consider specific scenarios if you can: if you're both in
 school, what happens after graduation?  What if you stay and the other partner
-leaves for a big fancy job?  What about continuing work remote?  What if
-you're both balancing school or a job?
+leaves for a big fancy job?  What about continuing work remotely?  What if
+you are both balancing school or a job?
 
 **What level of involvement is required to remain a partner?** How and when
 will you evaluate?  What's the process for pushing a partner out?
@@ -107,8 +112,7 @@ will you evaluate?  What's the process for pushing a partner out?
 **What happens when we don't agree?** Do you have a respected mentor or
 arbiter?  [Disagreements and fights are inevitable][aaronkharris], so start a
 conversation early about how you'd like to handle when the inevitable happens.
-A few gentle, proactive discussions can keep you from the painful process of
-going off the rails.
+A few gentle, proactive discussions can significantly reduce the pain if things go off the rails.
 
 > John Melonakos, my co-founder at ArrayFire/AccelerEyes writes about our some
 > of early experiences in ["Respecting our student commitments"][students],
@@ -123,11 +127,14 @@ going off the rails.
 
 ## Your worst enemy
 
-Try this little thought experiment: what if this partner was your worst enemy?
-Specifically consider things like, how would you split up assets if you needed
-to divorce?  What about assets you brought to capitalize the business?  How
-would profits be disbursed?  If you left early, how can you get your money
-back?  If you caught them cheating, how would you deal with it?
+Ask yourself these questions:
+
++ what if this partner was your worst enemy?
++ how would you split up assets if you needed to divorce?
++ what about assets you brought to capitalize the business?
++ how would profits be disbursed?
++ if you left early, how can you get your money back?
++ if you caught them cheating, how would you deal with it?
 
 Don't just gloss over holes in the contract and assume you both understand
 what it means.  Make things explicit where you can.
