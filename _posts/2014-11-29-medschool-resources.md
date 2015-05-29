@@ -227,6 +227,7 @@ depend on your weaknesses and learning style.
 * I only use the *Learn* feature (not *Explore* or *Quiz*)
 * [record the audio][record audio]
 
+{% include pharm450.html %}
 
 [memory scenes]: http://www.ted.com/talks/joshua_foer_feats_of_memory_anyone_can_do
 
