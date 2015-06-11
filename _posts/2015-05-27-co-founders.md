@@ -5,23 +5,31 @@ description: "Thoughts on starting a new venture with partners."
 tags: [business]
 ---
 
-Building a new business is exciting, but there are important things to consider as you form the founding team, whether with friends, existing business partners, or a significant other. Here I share some tips based on experience leading a startup that beat Google and Apple at everything.
+Building a new business is exciting, but there are important things to
+consider as you form the founding team, whether with friends, existing
+business partners, or a significant other. Here I share some tips based on
+experience creating [AccelerEyes](//arrayfire.com).
 
 ## Summary
 
-1. <a href="#personal">Personal</a>: work with a responsible person you like and share values with.
-2. <a href="#equity">Equity</a>: split equally, earn it out, and maximize value for all.
-3. <a href="#competencies">Competencies</a>: think what is needed and what you can get better at.
-4. <a href="#run-through-scenarios">Scenarios</a>: plan for inevitable contingencies and fights.
-5. <a href="#your-worst-enemy">Your worst enemy</a>: pre-emptively and explicitly plan for the worst.
+1. <a href="#personal">Personal</a>: work with a responsible person you like
+   and share values with.
+2. <a href="#equity">Equity</a>: split equally, earn it out, and maximize
+   value for all.
+3. <a href="#competencies">Competencies</a>: think what is needed and what you
+   can get better at.
+4. <a href="#run-through-scenarios">Scenarios</a>: plan for inevitable
+   contingencies and fights.
+5. <a href="#your-worst-enemy">Your worst enemy</a>: pre-emptively and
+   explicitly plan for the worst.
 
 ## Personal
 
 **Is this someone you like working with?** Can you see yourself working
-together at 3 am under a deadline?  Do they annoy you?  These are probably some
-of the most important questions that will determine your happiness.  While
-having an annoying partner is not a deal breaker, the baseline aggravation can
-trigger bigger issues later.
+together at 3 am under a deadline?  Do they annoy you?  These are probably
+some of the most important questions that will determine your happiness.
+While having an annoying partner is not a deal breaker, the baseline
+aggravation can trigger bigger issues later.
 
 **Is this person responsible?** Is this someone you trust to work hard and get
 the job done?  The nature of forming a partnership is because you need to
@@ -29,9 +37,9 @@ spread work out, so you need to be able to trust that your partner will
 execute on their fair share.
 
 **Do you share the same sense of values?** Do you question their judgment?
-Have you witnessed or heard about them doing anything ethically questionable?  If
-so, be blunt and ask them about it.  Better to air the matter now rather than
-after you've formed a joint bank account.
+Have you witnessed or heard about them doing anything ethically questionable?
+If so, be blunt and ask them about it.  Better to air the matter now rather
+than after you've formed a joint bank account.
 
 It's been said that business partnerships are like a marriage without the
 benefits.  You will be very close to your partners - as close as family.
