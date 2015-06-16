@@ -37,9 +37,8 @@ function hostname(url) {
 })(rss, function(feed){
     var entries = feed.entries, feed = '';
     for (var i = 0; i < entries.length; i++) {
-        feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b> '
-                + '<i>' + hostname(entries[i].link) + '</i><br>'
-                + '"' + entries[i].content + '"</p>';
+        feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b><br>'
+                + '<i>' + hostname(entries[i].link) + '</i></p>';
     }
     $('#feed').append(feed);
 });
