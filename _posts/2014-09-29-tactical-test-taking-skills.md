@@ -551,6 +551,10 @@ guessing, you better have a reason for ruling out all other answer choices
 before you click submit.  Forcing yourself to address each (incorrect) answer
 choice in turn will help you squeeze out these sloppy errors.
 
+NBME has released their [guidelines for writing questions][nbme] which go into
+great detail on how they choose and format their standard exam questions.
+
+[nbme]: http://www.nbme.org/PDF/ItemWriting_2003/2003IWGwhole.pdf
 
 *Many thanks to my classmates Ming Lee,
 [Erik Reinertsen](//erikreinertsen.com),
