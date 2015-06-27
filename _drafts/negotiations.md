@@ -16,11 +16,11 @@ tags: [better]
         you two might run into conflict.
     * During the negotiation, the more time you spend thinking, the less time
       you're reading the other party.
-    * Time spent here differentiates the top negotiators from the good ones.
     * Have this all written down and organized so you don't misspeak and
       you're consistent in ongoing negotiations
-      * If you throw out a price range, it's hard to readjust expectations at
-        a different range.
+      * If you state a price range, it's hard to readjust expectations at a
+        different range.
+    * Time spent here differentiates the top negotiators from the good ones.
 
   * Determine what's reasonable and what's your max and min range around that.
     * Is there any way you can estimate what's reasonable?
@@ -44,9 +44,23 @@ tags: [better]
       * Dates: loosen the time table to add flexibility and decrease stress
       * Quality: lower quality expectations to gain ground on pricing,
         conversely require higher quality if price is unable to come down.
+    * Make three lists: Must Have, Nice To Have, and Give Away.
+      * You need to get all the Must Haves on the table in your initial
+        discussions.  This gives the other party the full scope of what you
+        want out of the deal.  If you fail to mention one and bring it up
+        later, it forces the other party to have to rework their decision
+        calculus which puts unnecessary friction in the process.
+      * Nice To Have are often best left until after there is general
+        agreement on the Must Have items.  These can also be left for the
+        "Needling" phase.
+      * Give Away items can be tossed in when discussion stalls and you need
+        to get some momentum or leverage.
+      * Spend time comparing them so you have a feel for relative value.
 
-When to name a price and when to let the other party name a price.
+## Name your price, or not.
 
+When should you be the first to signal a price, and when should you let the
+other party anchor?
 
 * Goal is to arrive at maximum utility for all parties.
   * Emphasize this throughout the discussion to assure the other parties that
@@ -55,3 +69,6 @@ When to name a price and when to let the other party name a price.
 * Every time I walk away from a negotiation, I feel I could have driven a
   harder deal.  But I rest in the fact that I won't want to be a jerk.  Very
   often I'm trying to broker a long-term working relationship.
+
+
+[npr]: http://www.npr.org/sections/money/2012/12/28/168197017/what-a-former-fbi-hostage-negotiator-can-teach-us-about-the-fiscal-cliff
