@@ -9,6 +9,15 @@ images: [/images/pocket-medicine.jpg]
 
 {% include series.html %}
 
+## Surgery
+
+<figure class="thumb">
+  <a href="http://amzn.to/1SsYvrZ"><img height="250" src="/images/pestana.jpg"></a>
+  <figcaption>Pestana is simple, comprehensive, portable, and has accompanying
+  audio that walks you through hundreds of vignettes.</figcaption>
+</figure>
+
+
 ## Medicine
 
 <figure class="thumb">
@@ -119,10 +128,5 @@ https://docs.google.com/a/jgmalcolm.com/document/d/1J4LsAtl5NHjskCv0lbXxUMY16lBl
 
 http://www.uwmedicine.org/education/Documents/md-program/AOA%20Pearls_2013-14_4_MS-4%20Advice.pdf
 
-
-## Surgery
-
-http://www.reddit.com/r/medicalschool/comments/2vanpe/faq_for_matching_in_general_surgery/
-http://www.reddit.com/r/medicalschool/comments/2vcroj/tips_and_tricksresources_for_the_surgery_clerkship/
 
 {% endcomment %}
