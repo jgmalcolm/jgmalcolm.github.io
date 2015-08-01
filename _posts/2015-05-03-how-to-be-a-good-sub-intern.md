@@ -12,10 +12,19 @@ series: clinical
 
 **Equipment**
 
+<figure class="thumb">
+  <a href="http://amzn.to/1KH0btu"><img src="/images/penlight.jpg"></a>
+  <figcaption>You need a penlight that's small, light, and has a focused beam.</figcaption>
+</figure>
+
 * **Two pens.** Be prepared to give one away.
-* **Pen light.** Strong focused beam.  Useful not just for pupil exams but
-  also examining a patient in a dim room.
-* **Stethoscope.** Nearly ever specialty will use this except psych.
+* **Pen light.** Small, lightweight, and with a strong focused beam.  Useful
+  not just for pupil exams but also examining a patient in a dim room.  Don't
+  fumble around with the flashlight app on your phone.
+* **Stethoscope.** Nearly ever specialty will use this except psych.  Instead
+  of draping around your neck or tangling in your pocket, get a </a
+  href="http://amzn.to/1M3H9xZ">belt clip</a> to keep it secure and out of the
+  way.
 * **Notecards.** A small stack of blanks in your top pocket that you can whip
   out to write down anything at a moment's notice.  Often you're asked on the
   spot to call a number for a consult; you don't want to be fumbling for your
