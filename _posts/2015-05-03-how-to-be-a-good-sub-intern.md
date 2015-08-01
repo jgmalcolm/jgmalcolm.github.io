@@ -35,9 +35,11 @@ series: clinical
   notecards handy for little things.
 * **Insoles.** You're on your feet for hours on end, and those hospital floors
   are hard.  You can join the cool kids and get some [Dansko's][dansko], but a
-  far cheaper option is a simple gel insole in your existing shoes.  I far
-  prefer the insole because the Dansko's look ridiculous with anything other
-  than scrubs, and even then they look a bit odd...
+  far cheaper option is a <a href="http://amzn.to/1DhoXxY">simple gel
+  insole</a> in your existing shoes.  While Dansko's are great for standing,
+  people tell me they stink for regular walking.  I far prefer the insole
+  because the Dansko's look ridiculous with anything other than scrubs, and
+  even then they look a bit odd...
 * **Rubber gloves.** Always carry 1-2 pairs in your pocket.  I often find
   myself in a situation requiring gloves but none are nearby.
 
