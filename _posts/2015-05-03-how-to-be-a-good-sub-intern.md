@@ -22,7 +22,7 @@ series: clinical
   not just for pupil exams but also examining a patient in a dim room.  Don't
   fumble around with the flashlight app on your phone.
 * **Stethoscope.** Nearly ever specialty will use this except psych.  Instead
-  of draping around your neck or tangling in your pocket, get a </a
+  of draping around your neck or tangling in your pocket, get a <a
   href="http://amzn.to/1M3H9xZ">belt clip</a> to keep it secure and out of the
   way.
 * **Notecards.** A small stack of blanks in your top pocket that you can whip
