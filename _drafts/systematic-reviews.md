@@ -27,3 +27,11 @@ that you're looking for, then move on.  You don't have time to wade through
 their raw data and make your own interpretations.  Only record what they
 record so you stay unbiased.  There's always a balance, but as much as
 possible, you need to "delegate" and rely on their clinical assessment.
+
+**Focus on one thing at a time.** After you skim a few related papers on your
+topic, you should have an idea on what are the main risk factors,
+complications, or whatever else all the papers make a fuss about.  Take a pass
+through all papers and just focus on this one variable so you develop
+judgment.  You'll flounder if you try to go through every paper and record
+every single detail into twenty different columns.  You'll quickly get lost in
+the minutia.
