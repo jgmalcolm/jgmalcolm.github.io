@@ -358,11 +358,11 @@ If you have to guess, do so intelligently:
   then it's likely the equivalent group is all wrong together.
 * If two answers are the opposite of each other, then the answer is likely one
   of those.  Ignore the other choices.
-* Use epidemiology to pick the most likely.  The most common disease (avoid
-  [zebras]).  An adult patient with no mention of chronic or childhood issues,
-  then rule out congenital diseases that would have shown up in early
-  childhood (e.g. hemophilia, sickle cell).  Anything that occurs suddenly
-  without any history, think acquired instead of congenital.
+* Use epidemiology to pick the most likely.  The most common disease
+  ([avoid zebras][zebras]).  An adult patient with no mention of chronic or
+  childhood issues, then rule out congenital diseases that would have shown up
+  in early childhood (e.g. hemophilia, sickle cell).  Anything that occurs
+  suddenly without any history, think acquired instead of congenital.
 * Avoid costly or invasive diagnostic tests.
 * Don't go for something you've never heard of until you've ruled out all
   other options.
@@ -459,9 +459,9 @@ diagnosis or rule out specific answer choices:
 Specific constructs can help clue you in to what they're trying to get at.
 
 * "What is most likely?" - forget about rare diseases, just think what is most
-  prevalent.  No [zebras].  It's likely more than one answer is possible, but
-  you're being tested on epidemiological prevalence to determine the most
-  likely.
+  prevalent.  [Avoid zebras][zebras].  It's likely more than one answer is
+  possible, but you're being tested on epidemiological prevalence to determine
+  the most likely.
 * "What is the next step in management?" - There might be an overall treatment
   goal, but this question is likely asking about immediate next steps.
 
