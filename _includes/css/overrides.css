@@ -17,6 +17,7 @@ blockquote {
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   color: #b00a0f;
 }
