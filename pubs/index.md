@@ -65,7 +65,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 }
 </pre></div>
 
-<a href="http://hal.inria.fr/inria-00559191/PDF/nifibercup_final.pdf">&#8220;Quantitative
+<a href="others/fillard2011fc.pdf">&#8220;Quantitative
  Evaluation of 10 Tractography Algorithms on a Realistic Diffusion MR
  Phantom&#8221;</a>, Fillard, Descoteaux, Goh, Gouttard, Jeurissen, Malcolm,
  Ramirez, Reisert, Sakaie, Tensaouti, Yo, Mangin,Poupon, <i>NeuroImage</i>,
