@@ -21,7 +21,7 @@ series: clinical
 * **Pen light.** Small, lightweight, and with a strong focused beam.  Useful
   not just for pupil exams but also examining a patient in a dim room.  Don't
   fumble around with the flashlight app on your phone.
-* **Stethoscope.** Nearly ever specialty will use this except psych.  Instead
+* **Stethoscope.** Nearly every specialty will use this except psych.  Instead
   of draping around your neck or tangling in your pocket, get a <a
   href="http://amzn.to/1M3H9xZ">belt clip</a> to keep it secure and out of the
   way.
