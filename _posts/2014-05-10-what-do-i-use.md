@@ -48,11 +48,12 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * [AdBlock] to knock out advertisements
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
   * [Google Drive Offline][offline] to enable editing documents and slides without internet
-  * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
-  * [Facebook bookmarklet][fb] to share pages with friends and family.
-  * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
   * [Vimium] to quickly navigate and search pages without moving to the mouse
-  * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
+  * [Facebook bookmarklet][fb] to share pages with friends and family.
+  * Useful ones that I don't use as much anymore:
+    * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
+    * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
+    * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
