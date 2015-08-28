@@ -34,6 +34,27 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 }
 </pre></div>
 
+
+<a href="others/larsen.pdf">&#8220;Jacket: GPU Powered MATLAB
+Acceleration&#8221;</a>, Larsen, Pryor, Malcolm, <i>GPU Gems</i>, Hwu
+(Editor), Chapter 28, pages
+387-398, 2011. [<a href="javascript:toggle('larsen')">bib</a>]
+
+<div style="display:none" id="larsen"><pre>
+@incollection{larsen,
+  author = "Larsen, Pryor, Malcolm",
+  title = "Jacket: GPU Powered MATLAB Acceleration",
+  booktitle = "GPU Gems - Jade Edition",
+  editor = "Hwu",
+  publisher = "Morgan Kaufmann",
+  chapter = 28,
+  pages = "387--298",
+  year = 2011,
+  isbn = "9780123859631"
+}
+</pre></div>
+
+
 <a href="malcolm2010tmi.pdf">&#8220;Filtered multi-tensor tractography&#8221;</a>, Malcolm,
 Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1675, 2010. [<a
  href="javascript:toggle('malcolm2010tmi')">bib</a>]
