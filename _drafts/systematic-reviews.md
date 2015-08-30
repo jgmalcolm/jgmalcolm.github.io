@@ -35,3 +35,9 @@ through all papers and just focus on this one variable so you develop
 judgment.  You'll flounder if you try to go through every paper and record
 every single detail into twenty different columns.  You'll quickly get lost in
 the minutia.
+
+
+
+# Data Analysis
+
+[RevMan]: http://tech.cochrane.org/revman
