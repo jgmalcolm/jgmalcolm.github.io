@@ -57,6 +57,11 @@ tags: [better]
         to get some momentum or leverage.
       * Spend time comparing them so you have a feel for relative value.
 
+* Incentives and Penalties
+  * What are the things I'm likely to mess up, and how can I minimize those
+    penalties?
+  * What are the most important things to me, and how can I protect those?
+
 ## Name your price, or not.
 
 When should you be the first to signal a price, and when should you let the
