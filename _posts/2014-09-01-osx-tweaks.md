@@ -30,3 +30,9 @@ defaults write com.apple.dock autohide-delay -float 0
 
 These and more can be found on
 [StackExchange](http://apple.stackexchange.com/questions/14001/how-to-turn-off-all-animations-on-os-x/).
+
+The [OS X Yosemite Security & Privacy Guide][yosemite] has an extensive list
+of tweaks to disable some unnecessary background services that can save some
+CPU.
+
+  [yosemite]: https://github.com/drduh/OS-X-Yosemite-Security-and-Privacy-Guide
