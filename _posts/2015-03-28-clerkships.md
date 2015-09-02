@@ -12,10 +12,46 @@ images: [/images/pocket-medicine.jpg]
 ## Surgery
 
 <figure class="thumb">
-  <a href="http://amzn.to/1SsYvrZ"><img height="250" src="/images/pestana.jpg"></a>
-  <figcaption>Pestana is simple, comprehensive, portable, and has accompanying
-  audio that walks you through hundreds of vignettes.</figcaption>
+  <a href="http://amzn.to/1SsYvrZ"><img src="/images/pestana.jpg"></a>
+
+  <figcaption><b>Pestana</b> is simple, comprehensive, portable, and has
+  accompanying audio that walks you through hundreds of vignettes.  Great for
+  the shelf exam.</figcaption>
 </figure>
+
+**Pre-game.** This is nothing like your other rotations.  Read the first
+section of [Surgical Recall] to orient yourself to what's expected, what to
+touch, names of instruments, and answers for all the classic pimping questions
+you'll get on rounds or in the OR.  Doing a gallbladder?  Know Calot's
+triangle.
+
+**Shelf.** Similar to the medicine shelf, but focused on management more so
+than pathophysiology.  For the bread and butter, you'll need to know when to
+manage conservatively and when to head to the OR.  Do all the UWorld questions
+for Surgery, GI, Renal, and Electrolytes, and do them twice.  Consider taking
+one or both of the NBME Self Assessments.  [Pestana] is an excellent, concise
+book covering the bread and butter general surgery, but also all the
+specialties included on the shelf: ortho, neuro, urology, pediatrics, burns,
+etc.  Find the audio that accompanied an earlier version.  It walks through
+several hundred very simple vignettes, each with a slight variation from the
+previous to emphasize teaching points on differences in management.  This is
+about 13 hours, so listen to it while exercising or on the commute.
+
+<figure class="thumb">
+  <a href="http://amzn.to/1LLV9tD"><img src="/images/surgical-recall.jpg"></a>
+
+  <figcaption><b>Surgical Recall</b> is comprehensive, concise, and has
+  answers for all the classic pimping questions.  Great for day to day
+  procedures.</figcaption>
+</figure>
+
+More great advice on Reddit:
+[Tips & Tricks for the Surgery Clerkship](https://redd.it/2vcroj) and
+[FAQ for Matching into General Surgery](https://redd.it/2vanpe).
+
+[Pestana]: http://amzn.to/1SsYvrZ
+[Surgical Recall]: http://amzn.to/1LLV9tD
+
 
 
 ## Medicine
