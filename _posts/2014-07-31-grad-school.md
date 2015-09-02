@@ -311,7 +311,7 @@ My advisors provided excellent guidance and support in both life and academia:
 most superb scientists I have ever worked with:  [Tony Yezzi][],
 [Patricio Vela][], and [Sylvain Bouix][].  I worked and shared an office with
 some amazing friends: [Gallagher Pryor][], [John Melonakos][],
-[Shawn Lankton][], Rome Sandhu, [Matt Might][], and more.  Afterward I had the
+[Shawn Lankton][], [Rome Sandhu], [Matt Might][], and more.  Afterward I had the
 opportunity to focus on diffusion MRI as a research fellow at
 [Brigham and Women's Hospital][pnl].  You can see more about the
 [techniques][projects] and [papers][] we developed.
@@ -339,6 +339,7 @@ Atlanta.
 [ArrayFire]: http://www.arrayfire.com
 [Jacket]: https://en.wikipedia.org/wiki/Jacket_(software)
 [Shawn Lankton]: http://shawnlankton.com
+[Rome Sandhu]: http://romeilsandhu.com
 
 [lankton-rss]: http://www.shawnlankton.com/2009/07/rss-feeds-for-scientific-journals "RSS Feeds for Scientific Journals"
 [Richard Hamming]: https://en.wikipedia.org/wiki/Richard_Hamming
