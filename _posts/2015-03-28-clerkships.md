@@ -56,15 +56,6 @@ More great advice on Reddit:
 
 ## Medicine
 
-<figure class="thumb">
-  <a href="http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=2TWYCX253ZPFELPK">
-    <img src="/images/pocket-medicine.jpg">
-  </a>
-
-  <figcaption>Pocket Medicine has been invaluable in getting a thorough
-  history and physical for common chief complaints.</figcaption>
-</figure>
-
 **Pre-game.** Understand how to read an EKG; plenty of great online videos:
 [basics](http://zapt.io/tqyjd4ju), [rate & rhythm](http://zapt.io/tfxkvx9d),
 [intervals](http://zapt.io/t4cubvtk).
@@ -76,11 +67,21 @@ diagnosis to consider, and tests to order.  Look like a rock star because you
 covered all the bases.  Consider getting a digital copy for your phone/tablet
 instead of lugging around the little notebook.
 
+<figure class="thumb">
+  <a href="http://amzn.to/1OahqBv">
+    <img src="/images/pocket-medicine.jpg">
+  </a>
+
+  <figcaption><b>Pocket Medicine</b> has been invaluable in getting a thorough
+  history and physical for common chief complaints.</figcaption>
+
+</figure>
+
 **Shelf.** UWorld is all you need to do well.  Absolutely do all 1300
 questions.  [MKSAP] is great but extra.
 
 
-  [Pocket Medicine]: http://www.amazon.com/gp/product/1451193785/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1451193785&linkCode=as2&tag=jgmalcolm-20&linkId=N46OZ2ZPME53U4LK
+  [Pocket Medicine]: http://amzn.to/1OahqBv
   [MKSAP]: http://www.amazon.com/gp/product/1934465542/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934465542&linkCode=as2&tag=jgmalcolm-20&linkId=5LTX75SLT7D62FSF
 
 
