@@ -58,14 +58,14 @@ More great advice on Reddit:
 
 **Pre-game.** Understand how to read an EKG; plenty of great online videos:
 [basics](http://zapt.io/tqyjd4ju), [rate & rhythm](http://zapt.io/tfxkvx9d),
-[intervals](http://zapt.io/t4cubvtk).
-[Pocket Medicine]
-has been invaluable.  Whenever I'm about to examine a patient for a chief
-complaint I'm not as familiar with, I hit that page and this gives me
-questions for my history, physical exam findings to look for, differential
-diagnosis to consider, and tests to order.  Look like a rock star because you
-covered all the bases.  Consider getting a digital copy for your phone/tablet
-instead of lugging around the little notebook.
+[intervals](http://zapt.io/t4cubvtk).  Brush up on
+[heart sounds](http://www.blaufuss.org/).  [Pocket Medicine] has been
+invaluable.  Whenever I'm about to examine a patient for a chief complaint I'm
+not as familiar with, I hit that page and this gives me questions for my
+history, physical exam findings to look for, differential diagnosis to
+consider, and tests to order.  Look like a rock star because you covered all
+the bases.  Consider getting a digital copy for your phone/tablet instead of
+lugging around the little notebook.
 
 <figure class="thumb">
   <a href="http://amzn.to/1OahqBv">
