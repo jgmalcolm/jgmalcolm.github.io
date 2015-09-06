@@ -16,33 +16,40 @@ George Washington was a British officer, the commanding general in the
 American Colonial Revolution, reluctant political figure, and by his actions
 defined the role of President of the United States.
 
-* Washington was disciplined and routine.  He rose at dawn to survey his land
-  or troops.
+**British Officer.** Before the revolution, Washington rose to the rank of
+Major in the colonial branch of the British army.  Since he was not part of
+the core British regiments, he was always treated as a second class soldier
+and hit a glass ceiling for promotion.  His frustration over this likely
+helped tip him toward revolution.
 
-* Several times early in the war he jumped into battle to turn the course of
-  events.  This risk to self both worried his generals and inspired his
-  troops.  With time, he came to realize the risk to his army if he were to be
-  lost and he relied more on his generals.
+**Discipline and routine.** He rose at dawn to survey his land during his days
+as a farmer or troops as a general.
 
-* Washington was chronically in debt.  With the war and presidency consuming
-  his attention, his farm crops were chronically unsuccessful and often ran at
-  a loss.  On top of that, he liked nice things: shopping sprees whenever he
-  traveled, ordering the latest fashions from Europe.  After assuming the
-  presidency, he ceased to purchase from Europe and instead focused one
-  wearing "Made in the USA" clothing to show his support.
+Several times early in the war he jumped into battle to turn the course of
+events.  This risk to self both worried his generals and inspired his troops.
+With time, he came to realize the risk to his army if he were to be lost and
+he relied more on his generals.
 
-* Even though many colonists used the successful ending of the revolution as
-  an excuse to not repay debts owed to British, Washington made a point to pay
-  down his personal debts.  Unfortunately, hyper-inflation of the colonial
-  currency made it more difficult for him to collect on the debts he was owed
-  by land tenants and such.
+**Chronic debt.** With the war and presidency consuming his attention, his
+farm crops were chronically unsuccessful and often ran at a loss.  On top of
+that, he liked nice things: shopping sprees whenever he traveled, ordering the
+latest fashions from Europe.  After assuming the presidency, he ceased to
+purchase from Europe and instead focused one wearing "Made in the USA"
+clothing to show his support.
 
-* During the revolution, each state went into debt, both domestic and foreign.
-  Alexander Hamilton, the first Treasury Secretary, proposed the federal
-  government assume all state debt.  Having just thrown off one tyrannical
-  government, many states feared now being indebted to a new master, but
-  ultimately the plan prevailed.  The most important effect of pooling debt in
-  this new government was to bind the states into a union under one bank.
+**Honored his personal debt.** Even though many colonists used the successful
+ending of the revolution as an excuse to not repay debts owed to British,
+Washington made a point to pay down his personal debts.  Unfortunately,
+hyper-inflation of the colonial currency made it more difficult for him to
+collect on the debts he was owed by land tenants and such.
+
+**Assumed state debt to bind the union.** During the revolution, each state
+went into debt, both domestic and foreign.  Alexander Hamilton, the first
+Treasury Secretary, proposed the federal government assume all state debt.
+Having just thrown off one tyrannical government, many states feared now being
+indebted to a new master, but ultimately the plan prevailed.  The most
+important effect of pooling debt in this new government was to bind the states
+into a union under one bank.
 
 
 
@@ -61,12 +68,6 @@ it, but waste an hour and it's gone forever.
 > everyone to be on time. In his business dealings, he boasted that “no man
 > discharges the demand of wages or fulfills agreements with more punctuality
 > than I do.”
-
-> As the eldest child, Martha Dandridge was occupied with domestic skills that
-> she later taught to indentured servants and slaves at Mount Vernon. Her
-> industrious nature must have pleased George Washington. Both of them were
-> early risers, used every moment profitably, and stuck to the same daily
-> routines.
 
 > His love of ritual, habit, and order enabled him to sustain the long,
 > involved tasks that distinguished his life. “System in all things is the
@@ -92,44 +93,6 @@ it, but waste an hour and it's gone forever.
 > injuries from rain, sun, etc.”  No detail was too trivial to escape his
 > notice, and he often spouted the Scottish adage “Many mickles make a
 > muckle”—that is, tiny things add up.
-
-Reminds me of the
-[Broken Windows Theory](https://en.wikipedia.org/wiki/Broken_windows_theory)
-that changed NYC.
-
-> Washington made sure that he returned for dinner precisely at 2:45 P.M. when
-> the first bell sounded for the large midday meal. According to legend, the
-> clatter of his approaching hooves often coincided with the bell's loud
-> clang. Washington then washed, dressed, powdered his hair, and appeared in
-> the dining room by the stroke of three. He preferred a dinner of fish from
-> the Potomac and typically ate with a hearty appetite. In this heavy-drinking
-> era, he could polish off three or four glasses of an amber-colored wine
-> known as Madeira without being thought a heavy drinker. The cloth was then
-> removed, and Washington would lift his glass with his habitual toast to “All
-> our friends.”  He then retired to his library before a light supper. Before
-> going to bed at nine o'clock, he would often read aloud to the family from
-> the newspaper or from sermons on Sunday evenings or join in a game of cards
-> or backgammon.
-
-Washington would have joined the
-[quantified self](https://en.wikipedia.org/wiki/Quantified_Self) movement:
-
-> To maintain a detailed grasp of his vast operations, Washington kept
-> comprehensive records long before such bookkeeping was commonplace. Being a
-> farmer, he scratched out a daily log of the weather, but his record keeping
-> went far beyond such basics. “He also makes copious notes in writing
-> relative to his own experiments, the state of the seasons, nature of soils,
-> effect of different kinds of manure, and everything that can throw light on
-> the farming business,” wrote his later aide David Humphreys. Everything was
-> perfectly sorted, classified, and slotted in his compartmentalized mind and
-> books. Washington's contemporaries recognized that this compulsive note
-> taking, this itch to record his every action, went to the very essence of
-> this well-regulated man. “You would be surprised to find what a uniform life
-> he leads,” wrote John Hancock's nephew after a visit to Mount
-> Vernon. “Everything he does is by method of system . . . He keeps a journal
-> where he records everything . . . he is a model of the highest perfection.”
-
-
 
 ## Revolution
 
