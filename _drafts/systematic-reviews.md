@@ -43,3 +43,12 @@ list for later.
 # Data Analysis
 
 [RevMan]: http://tech.cochrane.org/revman
+
+
+{% comment %}
+
+- OR vs RR
+  - when to use
+  - examples for practice
+
+{% endcomment %}
