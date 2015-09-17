@@ -34,7 +34,9 @@ complications, or whatever else all the papers make a fuss about.  Take a pass
 through all papers and just focus on this one variable so you develop
 judgment.  You'll flounder if you try to go through every paper and record
 every single detail into twenty different columns.  You'll quickly get lost in
-the minutia.
+the minutia.  As you're reading papers, it's easy to go down rabbit trails
+with new references you've not yet seen; you should put those in a separate
+list for later.
 
 
 
