@@ -64,13 +64,13 @@ only works with the Vector theme (the default).
 
 This trick will have you pasting a few lines of code into your preference
 files.  Then you can brag to friends you coded
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript) and
+[JavaScript](http://www.guru99.com/interactive-javascript-tutorials.html) and
 [CSS](https://en.wikipedia.org/wiki/Css).
 
 Wikipedia also lets you directly modify source files for both the global site
 (regardless of theme selected) and source files for the particular theme
 selected.  These files are either
-[JavaScript](https://en.wikipedia.org/wiki/JavaScript) for code or
+[JavaScript](http://www.guru99.com/interactive-javascript-tutorials.html) for code or
 [CSS](https://en.wikipedia.org/wiki/Css) for color/font settings.
 
 * global [common.js] and [common.css]
