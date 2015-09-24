@@ -77,3 +77,4 @@ other party anchor?
 
 
 [npr]: http://www.npr.org/sections/money/2012/12/28/168197017/what-a-former-fbi-hostage-negotiator-can-teach-us-about-the-fiscal-cliff
+[Harvard]: https://en.m.wikipedia.org/wiki/Method_of_Harvard_Principled_Negotiation
