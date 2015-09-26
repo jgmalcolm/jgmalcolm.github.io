@@ -145,3 +145,16 @@ patients need a full H&P that includes the history of how they got to your
 service so everyone's on the same page (eg. emergency department course).
 From the second day onward, you report using a SOAP note only highlighting
 overnight events, new lab values, and plan changes.
+
+
+
+{% comment %}
+know anatomy
+be cool, but not too cool
+seen but not heard
+do you show up on time
+do you stay late
+do you not complain
+ask questions
+be engaged, or at least seem like it
+{% endcomment %}
