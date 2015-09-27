@@ -150,8 +150,8 @@ overnight events, new lab values, and plan changes.
 
 {% comment %}
 know anatomy
+better seen than heard
 be cool, but not too cool
-seen but not heard
 do you show up on time
 do you stay late
 do you not complain
