@@ -106,7 +106,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 </pre></div>
 
 
-<a href="others/lienhard2011bitensor.pdf">&#8220;A Full Bi-tensor Neural Tractography Algorithm Using the Unscented Kalman Filter&#8221;</a>, Lienhard, Malcolm, Westin, Rathi, <i>J. of Advanced in Signal Processing</i>,
+<a href="others/lienhard2011bitensor.pdf">&#8220;A Full Bi-tensor Neural Tractography Algorithm Using the Unscented Kalman Filter&#8221;</a>, Lienhard, Malcolm, Westin, Rathi, <i>J. of Advances in Signal Processing</i>,
  77,
  2011. [<a href="javascript:toggle('lienhard2011bitensor')">bib</a>]
 
@@ -114,7 +114,7 @@ Shenton, Rathi, <i>IEEE Trans. in Medical Imaging (TMI)</i>, 29(9), pages 1664-1
 <pre>@article{lienhard2011bitensor,
   title = "A Full Bi-tensor Neural Tractography Algorithm Using the Unscented {Kalman} Filter",
   author = "S. Lienhard and J. Malcolm and C.-F. Westin and Y. Rathi",
-  journal = ASP,
+  journal = "J of Advances in Signal Processing",
   year = 2011,
   volume = 77,
   doi = {10.1186/1687-6180-2011-77}
@@ -226,7 +226,7 @@ Tannenbaum, Shenton, <i>J. of Computing</i>, 2(4), pages 1-11, 2010. [<a
 @article{Rathi2010affine,
   title = {Affine registration of label maps in {Label Space}},
   author = {Y. Rathi and J. Malcolm and S. Bouix and A. Tannenbaum and M. E. Shenton},
-  journal = {J. of Computing},
+  journal = "J. of Computing",
   volume = 2,
   number = 4,
   pages = "1--11",
