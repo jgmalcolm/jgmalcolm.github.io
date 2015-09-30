@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Washington: A Life"
-tag:
-- books
+tag: [books]
 description: "Book review: British officer, American general, first president."
 images: [/images/books/washington.jpg]
 ---
