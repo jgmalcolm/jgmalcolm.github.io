@@ -41,3 +41,5 @@ tag: [medicine,research]
 - what do you think of their latest work?
 - how can you align your topic interests with theirs?
 - use that to approach them to mentor you
+- Which junior and senior residents do you want to work with?
+  - start making connections and think of ways to include them as co-authors
