@@ -119,6 +119,11 @@ again so you're not just some random "doctor" coming to examine them.
 expose them all at once.  Keep as much covered as possible as you're going
 along.
 
+**Think about why they're here.** What organ systems are the most important to
+report on?  What are complications to keep an eye on?  What other medical
+conditions do they have that you need to watch out for?  If someone has
+myasthenia gravis and just had anesthesia, are they feeling weak?
+
 
 
 ## Presenting on rounds
