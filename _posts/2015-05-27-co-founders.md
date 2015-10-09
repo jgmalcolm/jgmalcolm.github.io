@@ -108,6 +108,15 @@ happen.
 
 ## Run through scenarios
 
+<figure class="thumb">
+  <a href="http://amzn.to/1WS3Ck2"><img src="/images/founder-dilemmas.jpg"></a>
+
+  <figcaption>"Founder Dilemmas" is a collection of stories and lessons about
+  when things go wrong, should you go it alone, or when to bring in
+  cofounders, hires, and investors to help build a business.</figcaption>
+
+</figure>
+
 **What happens if one partner walks?** Who gets what?  What if it's after one
 year, two, or four?  Consider specific scenarios if you can: if you're both in
 school, what happens after graduation?  What if you stay and the other partner
