@@ -284,4 +284,4 @@ me@jgmalcolm.com <br />
 
 ## Certifications
 
-* American Heart Association Basic Life Support (2014)
+* American Heart Association Basic Life Support
