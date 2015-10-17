@@ -1,14 +1,16 @@
 <h2>Related posts</h2>
 {% assign is_first = true %}
 {% for p in site.posts %}
-  {% assign is_related = false %}
-  {% if p.url != page.url %}
-    {% for t in p.tags %}
-      {% if page.tags contains t %}
-        {% assign is_related = true %}
-      {% endif %}
-    {% endfor %}
+  {% if p.url == page.url %}
+    {% continue %}
   {% endif %}
+
+  {% assign is_related = false %}
+  {% for t in p.tags %}
+    {% if page.tags contains t %}
+      {% assign is_related = true %}
+    {% endif %}
+  {% endfor %}
 
   {% if is_related %}
     {% if is_first == false %} // {% endif %}
