@@ -22,12 +22,12 @@ href="#downloads-for-matlab">software downloads</a> associated with this work.
   <a href="images/fibers/case01045_2T_half_fa.png" data-gallery="filtered"
      title="Cut-away showing fibers within left hemisphere.  Fibers are
      colored by fractional anisotropy.  Two-tensor tractography.">
-    <img src="images/fibers/case01045_2T_half_fa.png">
-    <img src="images/fibers/case01045_3T_half_fa.png">
-    <img src="images/fibers/case01045_1T_tc.png">
-    <img src="images/fibers/case01045_SH_tc.png">
-    <img src="images/fibers/case01045_2T_tc.png">
-    <img src="images/fibers/case01045_3T_tc.png">
+    <img data-src="images/fibers/case01045_2T_half_fa.png">
+    <img data-src="images/fibers/case01045_3T_half_fa.png">
+    <img data-src="images/fibers/case01045_1T_tc.png">
+    <img data-src="images/fibers/case01045_SH_tc.png">
+    <img data-src="images/fibers/case01045_2T_tc.png">
+    <img data-src="images/fibers/case01045_3T_tc.png">
   </a>
   <a href="images/fibers/case01045_3T_half_fa.png" data-gallery="filtered"
      title="Same view using three-tensor fiber model for tractography."></a>
@@ -170,7 +170,7 @@ Resonance in Medicine (ISMRM)</i>, 2009.
 
 ## Label Space
 
-<img class="thumb" src="images/ls/label_space.png">
+<img class="thumb" data-src="images/ls/label_space.png">
 
 Many techniques for multi-shape representation may often develop inaccuracies
 stemming from either approximations or inherent variation.  Label space is an
@@ -218,7 +218,7 @@ Symposium on Medical Imaging</i>, 2008.
 <div class="gallery">
   <a href="images/lsdm/white_matter_front.png" data-gallery="level-set-methods"
      title="Segmentation of white matter in the brain from an MR volume.">
-    <img class="thumb" src="images/lsdm/white_matter_front.png"></a>
+    <img class="thumb" data-src="images/lsdm/white_matter_front.png"></a>
 </div>
 
 
@@ -311,7 +311,7 @@ Multi-object tracking [<a class="thickbox" href="#TB_inline?width=400&height=326
 <div class="gallery">
   <a href="images/icip07/shark_5_initial.png" data-gallery="icip07"
      title="Initialization of object region">
-    <img class="thumb" src="images/icip07/shark_5_final.png"></a>
+    <img class="thumb" data-src="images/icip07/shark_5_final.png"></a>
   <a href="images/icip07/shark_5_noshape.png" data-gallery="icip07"
      title="Segmentation without shape information"></a>
   <a href="images/icip07/shark_5_final.png" data-gallery="icip07"
@@ -342,7 +342,7 @@ Processing
 <div class="gallery">
   <a href="images/tensor_cuts/FISH_color_initial.png" data-gallery="tensors"
      title="Initialization of foreground and background regions">
-    <img class="thumb" src="images/tensor_cuts/FISH_color_final.png"></a>
+    <img class="thumb" data-src="images/tensor_cuts/FISH_color_final.png"></a>
   <a href="images/tensor_cuts/FISH_euclidean.png" data-gallery="tensors"
      title="Segmentation assuming a Euclidean space"></a>
   <a href="images/tensor_cuts/FISH_color_final.png" data-gallery="tensors"
