@@ -3,13 +3,18 @@ layout: default
 title: Research Projects
 description: "Publications in Computer Vision, Image Processing, and Filtered Tractography"
 keywords: computer vision, image processing, segmentation, graph cut, graphcut, level set method, active contour, tracking, matlab, shape, tractography, unscented Kalman filter, UKF, Kalman filtering
-published: true
+js: [/js/jquery.unveil.js]
 ---
 
 Below are descriptions of various projects I pursued.  There is also a <a
 href="index.html">list of publications</a> and <a
 href="#downloads-for-matlab">software downloads</a> associated with this work.
 
+<script>
+  $(function() {
+    $("img").unveil();
+  });
+</script>
 
 ## Filtered Neural Tractography
 
