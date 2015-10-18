@@ -30,6 +30,9 @@ tags: [better]
     * What's the minimum you think is reasonable to offer without offending?
 
 
+* Don't be afraid to ask for their reasoning.  "Why do you think that's a
+  reasonable price?" "How did you come up with that timeline?"
+
 * Determine what's important and what's giveaway
   * Make a list of the things that are non-negotiable from your perspective.
     * Rank order them.
