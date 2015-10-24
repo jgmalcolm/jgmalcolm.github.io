@@ -12,7 +12,7 @@ href="#downloads-for-matlab">software downloads</a> associated with this work.
 
 <script>
   $(function() {
-    $("img").unveil();
+    $("img").unveil(100);
   });
 </script>
 
