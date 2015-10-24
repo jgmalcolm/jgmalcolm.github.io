@@ -203,6 +203,10 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+1. J. Malcolm, A. Webster, and R. Langah. "Cirrhosis: A red flag when treating
+   cellulitis." American College of Physicians, Georgia Chapter
+   Conference. October 2015.
+
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
    K. Patel, and J. Melonakos.  ArrayFire: a GPU acceleration platform. In
    SPIE Modeling and Simulation for Defense Systems and Applications VII,
