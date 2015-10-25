@@ -1,9 +1,12 @@
 ---
-title: "Now"
+title: "What I'm working on now"
 layout: default
+permalink: /now/
 ---
 
-What I'm working on now.
+I'm constantly needing to refocus and reprioritize.  My daily/weekly todo list
+is tactical, but here is where I try to plan out the high level areas of
+focus.
 
 * Medical school [clerkship] rotations
 * Research: cranioplasty timing and complications

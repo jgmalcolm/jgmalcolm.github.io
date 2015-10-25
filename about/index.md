@@ -8,7 +8,8 @@ title: "Hi there!"
 I'm James, and I'm interested in tools, technology, and ideas.  I'm currently
 a medical student in Atlanta, creator of [Pharm450](//pharm450.com),
 co-creator of [ArrayFire](http://arrayfire.com),
-[scientist](/pubs/research.html), and husband.
+[scientist](/pubs/research.html), and husband.  Check out what I'm
+[working on now][now].
 
 I'd really like to hear from you, so shoot me an email!  Have some thoughts on
 what you read here?  Want to chat about ideas?  Email me!  In the Atlanta area
@@ -32,3 +33,5 @@ email += "colm.com";
 $("#email").attr("href", "mailto:" + email).html(email);
 //-->
 </script>
+
+[now]: /now
