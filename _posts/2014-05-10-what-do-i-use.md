@@ -64,11 +64,13 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [F.lux] to alter my laptop's screen colors to the time of day (blue light is
   bad at night).  If you're on a Chromebook then use [G.lux].
+* [CopyClip] to keep track of the last few items copied to clipboard for those times when I overwrite what I just copied
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [TotalTerminal] for quick full-screen access to the command line.
 * Emacs/vim/bash/screen/git.  Browse my
   [dot files](https://github.com/jgmalcolm/dotfiles).
 
+[CopyClip]: https://itunes.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12
 [Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
 [GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
