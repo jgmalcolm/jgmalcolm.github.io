@@ -154,12 +154,27 @@ overnight events, new lab values, and plan changes.
 
 
 {% comment %}
-know anatomy
-better seen than heard
-be cool, but not too cool
-do you show up on time
-do you stay late
-do you not complain
-ask questions
-be engaged, or at least seem like it
+
+- better seen than heard
+- be cool, but not too cool
+- arrive early and stay late
+- do not complain
+  - about anything
+  - avoid negative opinions about anything.  You never know when you're going
+    to step on toes, and you may just come off as overly opinionated.
+- be engaged (or at least seem like it)
+  - don't check your phone
+- anticipate
+  - it shows you're both paying attention and actively thinking about the procedure
+- ask questions
+  - you lose major points if you ask a question you should have known with basic pre-reading
+
+
+# Surgery
+
+- know anatomy
+- spend 1 minute to learn the indication for surgery in this patient and relevant anatomy
+- don't just stop at preparing for the first surgery, spend 1 minute for every planned procedure
+- Surgical Recall for classic pimping
+
 {% endcomment %}
