@@ -16,10 +16,10 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 
 
 <a href="malcolm_cirrhosis-abstract.pdf">"Cirrhosis: A red flag when treating
-   cellulitis."</a> J. Malcolm, A. Webster, and R. Langah.  American College
-   of Physicians, Georgia Chapter
-   Conference. October 2015. [<a href="malcolm_cirrhosis-abstract.pdf">abstract</a>,
-   <a href="malcolm_cirrhosis-poster.pdf">poster</a>]
+   cellulitis."</a> Malcolm, Webster, and Langah.  American College of
+   Physicians, Georgia Chapter
+   Conference. October 2015.
+   [<a href="malcolm_cirrhosis-abstract.pdf">abstract</a>, <a href="malcolm_cirrhosis-poster.pdf">poster</a>]
 
 <a href="malcolm2011pv.pdf">&#8220;Processing and
  Visualization of Diffusion MRI&#8221;</a>, Malcolm, Rathi, Westin, <i>Recent
