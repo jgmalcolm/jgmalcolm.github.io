@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "James G Malcolm"
-updated: 23-Oct-2014
+updated: 1-Nov-2015
 keywords: resume, cv
 permalink: /resume/
 ---
