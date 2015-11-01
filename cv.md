@@ -266,7 +266,8 @@ me@jgmalcolm.com <br />
 1. Rindler, Malcolm, Chu, Ahmad. "Does timing of cranioplasty affect
    complications and neurologic outcomes?  A systematic review and
    meta-analysis."  Emory Neurosurgical Department Tindall Research Symposium,
-   Oct 29, 2015. *Winner of Tindall Award for Best Resident Project.*
+   Oct 29, 2015. *Winner of George T. Tindall, Emory University Resident
+   Research Award.*
 
 1. Jacket: Visual Computing, April 2011. CS264 Guest Lecture Series (Harvard,
    Boston, MA).
