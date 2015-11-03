@@ -297,6 +297,7 @@ me@jgmalcolm.com <br />
    tracking using observer-based dynamic active contours. In Conf. on
    Guidance, Navigation, and Control, 2005.
 
-## Certifications
+## Certifications / Organizations
 
 * American Heart Association Basic Life Support
+* Congress of Neurological Surgeons
