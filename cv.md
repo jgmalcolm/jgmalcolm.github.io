@@ -203,6 +203,11 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+1.  SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
+    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
+    Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
+    GA. December 4-6, 2015. Platform Presentation
+
 1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, J Malcolm, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative
    Outcome in Cervical Degenerative Pathologies." CNS Spine
