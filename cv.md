@@ -203,10 +203,19 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
-1.  SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
-    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
-    Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
-    GA. December 4-6, 2015. Platform Presentation
+1. F Chokshi, R Rindler, J Malcolm, ... "Role of Spinal Diffusion Tensor
+   Imaging in Predicting Post-Operative Outcome in Cervical Spondylotic
+   Myelopathy: A Systematic Review of the Literature".  ASNR 2016.
+
+1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
+   Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
+   Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
+   GA. December 4-6, 2015. Platform Presentation
+
+1. JG Malcolm, RS Rindler, FU Ahmad. "Aseptic Bone Resorption Following
+   Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors"
+   Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
+   GA. December 4-6, 2015. Platform Presentation
 
 1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, J Malcolm, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative
