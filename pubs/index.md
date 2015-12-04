@@ -15,6 +15,12 @@ papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/col
 <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Malcolm:James_G=.html">DBLP</a>.
 
 
+<a href="malcolm2015resorption.pdf">"Aseptic Bone Resorption Following
+   Cranioplasty: A Systematic Review of Overall Incidence And Risk
+   Factors."</a> Malcolm, Rindler, Ahmad. Georgia Neurological Surgeons Annual
+   Fall Meeting. December 2015.
+   [<a href="malcolm2015resorption_slides.pdf">slides</a>]
+
 <a href="malcolm_cirrhosis-abstract.pdf">"Cirrhosis: A red flag when treating
    cellulitis."</a> Malcolm, Webster, and Langah.  American College of
    Physicians, Georgia Chapter
