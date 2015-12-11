@@ -261,8 +261,8 @@ me@jgmalcolm.com <br />
 1. G. Pryor, J. Melonakos, T. Rehman, and J. Malcolm. Jacket: The GPU engine
    for MATLAB. In SuperComputing, 2008.
 
-1. A Wyrzykowski, K Tchorz, K Inaba, J Cushman, J Malcolm, M Dunham, T Murphy,
-   W Ingram, G Rozycki, and D
+1. AD Wyrzykowski, KM Tchorz, K Inaba, JG Cushman, R Adams J Malcolm, MB
+   Dunham, CJ Dente, JM Nicholas, JP Salomone, WL Ingram, GS Rozycki, DV
    Feliciano. ["Changing trends in the management of renal trauma"](/pubs/others/wyrzykowski2006.pdf). In
    American Association for the Surgery of Trauma, 2006.
 
