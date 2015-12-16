@@ -18,3 +18,12 @@ https://www.youtube.com/channel/UCXAfmcfOeS0rxDz6sp0cYYg
 
 CNS (Neurosurgery) Video Collection:
 http://journals.lww.com/neurosurgery/Pages/videogallery.aspx
+
+Preparing for Sub-I
+https://www.reddit.com/r/medicalschool/comments/27e977/prepping_for_a_subi_neurosurg/ci09nwv
+
+FREIDA
+https://freida.ama-assn.org/Freida/user/search/programSearch.do
+
+
+https://jomi.com/article/6/Cervical-Laminaplasty/
