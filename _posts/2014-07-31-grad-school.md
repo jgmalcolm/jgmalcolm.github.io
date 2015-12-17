@@ -324,7 +324,7 @@ After all that, I'm now pursuing a lifelong dream as a medical student in
 Atlanta.
 
 [Matt Might]: http://matt.might.net
-[Yogesh Rathi]: http://pnl.bwh.harvard.edu/people/profiles/rathi.html
+[Yogesh Rathi]: http://pnl.bwh.harvard.edu/yogesh-rathi-ph-d/
 [Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
 [Tony Yezzi]: http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=116
 [Patricio Vela]: http://www.ece.gatech.edu/faculty-staff/fac_profiles/bio.php?id=139
