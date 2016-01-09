@@ -1,6 +1,9 @@
+---
+layout: wedding
+title: "Welcome!"
+---
+
 Dear Friend,
-
-
 
 Thank you for visiting our wedding website!
 
@@ -18,7 +21,5 @@ Please feel free to peruse these links to the left for information about our
 upcoming wedding.
 
 With all our love,
-
-
 
 Kristin & James
