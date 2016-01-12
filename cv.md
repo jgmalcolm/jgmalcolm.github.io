@@ -317,6 +317,7 @@ me@jgmalcolm.com <br />
 ## Certifications
 
 * American Heart Association Basic Life Support
+* Advanced Trauma and Life Support, Court Coordinator (ID 597883)
 
 
 ## Organizations
