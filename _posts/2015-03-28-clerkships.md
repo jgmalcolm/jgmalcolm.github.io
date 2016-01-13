@@ -104,13 +104,13 @@ who might be delivering.  No patient wants to meet and greet during active
 labor.
 
 **Surgery.** Review pelvic anatomy: ovarian artery comes off the aorta,
-branches of the internal iliac, genitofemoral and iliohypogastric nerve paths
-and cutaneous distributions, ligaments holding up the uterus and ovaries, etc.
-Get used to looking at the pelvis from a laparoscopic viewpoint.  More than on
-outpatient, when appropriate before the surgery starts, perform a bimanual
-exam so you get an appreciation for uterus size/position, ovaries, fibroids,
-etc.  If you're assigned "down below" during the procedure, don't contaminate
-"up above".
+branches of the internal iliac, genitofemoral/iliohypogastric/ilioinguinal
+nerve paths and cutaneous distributions (watch your retraction), ligaments
+holding up the uterus and ovaries, etc.  Get used to looking at the pelvis
+from a laparoscopic viewpoint.  More than on outpatient, when appropriate
+before the surgery starts, perform a bimanual exam so you get an appreciation
+for uterus size/position, ovaries, fibroids, etc.  If you're assigned "down
+below" during the procedure, don't contaminate "up above".
 
 **Shelf.** [Blueprints][blueprints-obgyn] covers everything in perfectly
 simple detail.  Skim this early in your rotation, and then reread topics in
