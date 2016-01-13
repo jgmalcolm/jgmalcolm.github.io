@@ -113,7 +113,8 @@ day until it's clear they know you.  Address them as Mr X or Mrs Y, and only
 use first names if they insist.  Always knock before entering.  Recognize that
 patients have lost control or privacy, so knocking and requesting to enter is
 one way to give some of that back.  When leaving the room, repeat your name
-again so you're not just some random "doctor" coming to examine them.
+again so you're not just some random "doctor" coming to examine them; I've
+found that this in particular makes you memorable.
 
 **Minimal exposure.** While you need to examine head to toe, you don't have to
 expose them all at once.  Keep as much covered as possible as you're going
