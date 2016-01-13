@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "James G Malcolm"
-updated: 1-Nov-2015
+updated: 12-Jan-2016
 keywords: resume, cv
 permalink: /cv/
 ---
@@ -203,10 +203,30 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+1. Rindler, .. Malcolm ... Ahmad. "Diagnostic Ability of Spinal Diffusion
+   Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of
+   the Literature." American Association of Neurologic Surgeons
+   (AANS) 2016. Accepted for poster.
+
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Are Complications
+   Following Cranioplasty Related To Its Timing After The Decompressive
+   Surgery? A Systematic Review and Meta-Analysis."  American Association of
+   Neurologic Surgeons (AANS) 2016.  Accepted for poster.
+
+1. Malcolm, Rindler, Chu, Chokshi, Pradilla, Ahmad. "Is Earlier Cranioplasty
+   Associated With Greater Neurologic Improvement?  A Systematic Review and
+   Meta-Analysis."  American Association of Neurologic Surgeons (AANS) 2016.
+   Accepted for poster.
+
+1. Malcolm, Rindler, Chu, Allen, Pradilla, Ahmad, "The Role of Implant
+   Material in Complications After Cranioplasty:  A Systematic Review and
+   Meta-Analysis."  American Association of Neurologic Surgeons (AANS) 2016.
+   Accepted for poster.
+
 1. F Chokshi, R Rindler, J Malcolm, S Eshraghi, M Mossa-Basha, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting
    Post-Operative Outcome in Cervical Spondylotic Myelopathy: A Systematic
-   Review."  ASNR 2016.  *Submitted*
+   Review."  American Society of Neuroradiology (ASNR) 2016.  *Submitted*
 
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
