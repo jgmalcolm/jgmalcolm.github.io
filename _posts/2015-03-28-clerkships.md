@@ -86,6 +86,42 @@ questions.  [MKSAP] is great but extra.
 
 
 
+## Ob-Gyn
+
+**Pregame.** Download one an app for calculating gestational age based on LMP,
+US, EDD, etc.  There are free ones but [Perfect OB Wheel] was a cheap one I
+found to have a great interface.
+
+**Outpatient.** Drill on your gyn/ob history template questions and speculum
+exam.  I ultimately preferred to perform the bimanual exam before placing the
+speculum because then I knew what I was aiming for.  Position and get
+everything ready before you put on your gloves to begin touching the patient's
+anatomy.
+
+**Labor and Delivery.** Wear shoe covers. Always.  At the start of every
+shift, get a copy of the roster and go around briefly meeting every patient
+who might be delivering.  No patient wants to meet and greet during active
+labor.
+
+**Surgery.** Review pelvic anatomy: ovarian comes off the aorta, branches of
+the internal, gonadal and iliohypogastric nerve paths and cutaneous
+distributions, ligaments holding up the uterus and ovaries, etc.  More than on
+outpatient, when appropriate before the surgery starts, perform a bimanual
+exam so you get an appreciation for uterus size/position, ovaries, fibroids,
+etc.  If you're "down below" during the procedure, don't contaminate "up
+above".
+
+**Shelf.** [Blueprints][blueprints-obgyn] covers everything in perfectly
+simple detail.  Skim this early in your rotation, and then reread topics in
+detail as you go through the rotation.  [UWise] is an excellent free question
+banks (542 questions) organized into topics plus additional comprehensive
+self-assessments.  Do appropriate topics before rotating on LND, surgery,
+outpatient, etc.  UWorld has about 250 questions you need to hit.
+
+  [UWise]: https://www.apgo.org/student.html
+  [Perfect OB Wheel]: https://itunes.apple.com/us/app/perfect-ob-wheel/id293656711?mt=8
+  [blueprints-obgyn]: http://amzn.to/1RNqT5i
+
 ## Neurology
 
 **Pregame.** Specific equipment for the physical exam:  reflex hammer, tuning
