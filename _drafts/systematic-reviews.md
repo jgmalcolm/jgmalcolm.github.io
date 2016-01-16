@@ -45,6 +45,27 @@ list for later.
 [RevMan]: http://tech.cochrane.org/revman
 
 
+# Writing
+
+**Methods.** Write this section first.  It should be the most straight
+forward: you're just documenting what you did.  Look at other papers to see
+what is important to document and in what order.  Follow the
+[PRISMA](http://dx.plos.org/10.1371/journal.pmed.1000100) formula, but don't
+get too bogged down with all the details; do as much as you can and move on.
+No study hits all points but you should aim for something like 60-70% of the
+items.
+
+**Introduction.** Make this brief, like two paragraphs.  First paragraph is
+broad strokes introducing the topic and a few notable works.  Second paragraph
+motivates your work: what question are you seeking to answer?  You must have a
+good motivation, not simply "Previous studies suck. I could do better."
+
+**Discussion.** Break it into sections for each of the topics.  For each
+topic, highlight papers that found significant findings, even if you
+ultimately found no significance.  Don't spend time on things that were not
+significant.  This is an opportunity to highlight the signal among all the
+noise.
+
 {% comment %}
 
 - OR vs RR
