@@ -74,7 +74,8 @@ a good motivation, not simply "Previous studies suck. I could do better."
 topic, highlight papers that found significant findings, even if you
 ultimately found no significance.  Don't spend time on things that were not
 significant.  This is an opportunity to highlight the signal among all the
-noise.
+noise.  You don't need to wring every nugget from each paper; just highlight
+one takeaway for each.
 
 **Citations.** Don't get caught up in citations; it can distract from your
 communication.  Focus first on saying what you want to say in the order you
