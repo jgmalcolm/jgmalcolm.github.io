@@ -5,26 +5,34 @@ layout: post
 tag: [medicine,research]
 ---
 
-# Target Your Leading Journal
+Competitive programs require research experience.  It shows you're engaged.
+
+# Target A Journal
 
 - Pick the journal for your field
 - review the latest issue
 - find one paper you like the most
-  - needs to be a review paper or meta-analysis or else you have to get patient data from home institution
   - if you don't find one, go back one issue
-  - rinse and repeat until you have an article that you're interested in
+  - rinse and repeat until you have an article and topic that has your interest
+
 - study it hard
   - print it out, mark it up
-  - typically do digital, but here you want to study this big time
-- avoid rabbit trails of hunting down citations 1,2,3,4,... just yet
+  - I typically do digital but as I'm dipping my toe in here I go analog for more focus and attention
+- avoid rabbit trails of immediately hunting down citations 1,2,3,4,...
   - mark citations in the back as you think they're important, but don't hunt any down just yet
   - at the end, pick 3 most important and hunt & study them less intensely
+
 - start a new document with the (blank) outline from the article you're studying
   - abstract, intro, methods, results, figure 1, table 1, figure 2, etc. discussion
   - for every table / figure, start a spreadsheet with that data
 
+- you can do all of the above without yet having a mentor
+  - approach a mentor after all the above and ask "Have you encountered this?
+    Do you have data on this?  Is this important?"
 
-# Target Your Main Conferences
+
+
+# Target A Conference
 
 - start a document with all the upcoming conferences and their dates for the coming 12 months
 - for each conference, you're going to bullet point the tentative abstract/project you intend to submit
