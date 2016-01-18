@@ -7,7 +7,11 @@ tags: [medicine,research]
 
 ## Get Organized
 
-Google Docs for collaboration.
+Use [Google Docs](drive.google.com) for real-time collaboration on
+spreadsheets and comments to keep in sync.  Use [Mendeley](mendeley.com) for
+citations and integrating with Microsoft Word.  Turn off the feature that
+pushes your PDFs to the cloud; it's unnecessary, seems to cause duplication,
+and you'll always stay within the free pricing tier.
 
 
 ## Scope
@@ -42,7 +46,12 @@ list for later.
 
 # Data Analysis
 
-[RevMan]: http://tech.cochrane.org/revman
+The Cochrane Collaboration has released
+[RevMan](http://tech.cochrane.org/revman) for you to produce
+[Forest plots](https://en.wikipedia.org/wiki/Forest_plot) that show the
+synthesis of your data.
+
+TODO link to PDFs and example spreadsheets on MH, fixed/random,
 
 
 # Writing
@@ -65,6 +74,10 @@ topic, highlight papers that found significant findings, even if you
 ultimately found no significance.  Don't spend time on things that were not
 significant.  This is an opportunity to highlight the signal among all the
 noise.
+
+**Citations.** Don't get caught up in citations; it can distract from your
+communication.  Focus first on saying what you want to say in the order you
+want to say it; then later integrate citations.
 
 {% comment %}
 
