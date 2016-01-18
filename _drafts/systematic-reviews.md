@@ -65,9 +65,10 @@ No study hits all points but you should aim for something like 60-70% of the
 items.
 
 **Introduction.** Make this brief, like two paragraphs.  First paragraph is
-broad strokes introducing the topic and a few notable works.  Second paragraph
-motivates your work: what question are you seeking to answer?  You must have a
-good motivation, not simply "Previous studies suck. I could do better."
+broad strokes introducing the topic and a few notable works.  This is not a
+discussion; it is merely an introduction of topics.  Second paragraph
+motivates your work:  what question are you seeking to answer?  You must have
+a good motivation, not simply "Previous studies suck. I could do better."
 
 **Discussion.** Break it into sections for each of the topics.  For each
 topic, highlight papers that found significant findings, even if you
