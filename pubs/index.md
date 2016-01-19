@@ -6,14 +6,16 @@ keywords: computer vision, image processing, segmentation, graph cut, graphcut, 
 published: true
 ---
 
-For a full description of the work associated with these publications, see the
-<a href="research.html">Research Projects</a> page.  You can also find my
-papers in these databases: <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VYfBjawaNhBRUklvdY39vWQo">PubMed</a>,
-<a href="https://scholar.google.com/citations?user=Tp8uTioAAAAJ">Google Scholar</a>,
-<a href="https://smartech.gatech.edu/browse?value=Malcolm,%20James%20G.&type=author">SMARTech</a>,
-<a href="http://www.spl.harvard.edu/publications/pages/display/?authorfirst=James&authorlast=Malcolm">SPL</a>,
-<a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Malcolm:James_G=.html">DBLP</a>.
+For a full description of the work associated with these publications, see my
+<a href="research.html">projects</a> or [curriculum vita](/cv).  You can also
+find my papers in these databases: [PubMed], [Google Scholar], [SMARTech],
+[SPL], [DBLP].
 
+[Google Scholar]: https://scholar.google.com/citations?user=Tp8uTioAAAAJ
+[PubMed]: http://www.ncbi.nlm.nih.gov/sites/myncbi/collections/public/1VYfBjawaNhBRUklvdY39vWQo
+[SMARTech]: https://smartech.gatech.edu/browse?value=Malcolm,%20James%20G.&type=author
+[SPL]: http://www.spl.harvard.edu/publications/pages/display/?authorfirst=James&authorlast=Malcolm
+[DBLP]: http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/m/Malcolm:James_G=.html
 
 <a href="malcolm2015resorption.pdf">"Aseptic Bone Resorption Following
    Cranioplasty: A Systematic Review of Overall Incidence And Risk
