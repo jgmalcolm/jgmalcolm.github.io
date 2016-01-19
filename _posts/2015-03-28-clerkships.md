@@ -23,7 +23,10 @@ images: [/images/pocket-medicine.jpg]
 section of [Surgical Recall] to orient yourself to what's expected, what to
 touch, names of instruments, and answers for all the classic pimping questions
 you'll get on rounds or in the OR.  Doing a gallbladder?  Know Calot's
-triangle.
+triangle.  Review abdominal anatomy: arteries, muscles, abdominal fascial
+layers; nerves and veins are less important.  Create a notecard with the list
+of things to check on morning rounds (overnight events, IVs, tubes/drains,
+I/Os, wound healing, etc.).
 
 **Shelf.** Similar to the medicine shelf, but focused on management more so
 than pathophysiology.  For the bread and butter, you'll need to know when to
