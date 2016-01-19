@@ -169,6 +169,10 @@ overnight events, new lab values, and plan changes.
   - it shows you're both paying attention and actively thinking about the procedure
 - ask questions
   - you lose major points if you ask a question you should have known with basic pre-reading
+- Be a good soldier.  When told to do something, do it without question.  If
+  you think there is a slightly better approach, mention it later but be
+  careful about always nitpicking.  Residents are tired and they don't want to
+  spend the extra energy to justify and explain every decision to you.
 
 
 # Surgery
