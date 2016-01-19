@@ -99,7 +99,8 @@ found to have a great interface.
 exam.  I ultimately preferred to perform the bimanual exam before placing the
 speculum because then I knew what I was aiming for.  Position and get
 everything ready before you put on your gloves to begin touching the patient's
-anatomy.
+anatomy.  Practice your bimanual and speculum exam so it's no longer awkward
+and you start to focus on fine tuning comfort for the patient.
 
 **Labor and Delivery.** Wear shoe covers. Always.  At the start of every
 shift, get a copy of the roster and go around briefly meeting every patient
@@ -110,10 +111,10 @@ labor.
 branches of the internal iliac, genitofemoral/iliohypogastric/ilioinguinal
 nerve paths and cutaneous distributions (watch your retraction), ligaments
 holding up the uterus and ovaries, etc.  Get used to looking at the pelvis
-from a laparoscopic viewpoint.  More than on outpatient, when appropriate
-before the surgery starts, perform a bimanual exam so you get an appreciation
-for uterus size/position, ovaries, fibroids, etc.  If you're assigned "down
-below" during the procedure, don't contaminate "up above".
+from a laparoscopic viewpoint.  Perform a bimanual exam before prepping so you
+get an appreciation for uterus size/position, ovaries, fibroids, etc.  If
+you're assigned "down below" during the procedure, don't contaminate "up
+above".
 
 **Shelf.** [Blueprints][blueprints-obgyn] covers everything in perfectly
 simple detail.  Skim this early in your rotation, and then reread topics in
