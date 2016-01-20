@@ -50,10 +50,14 @@ Simple descriptive statistics (mean, std) can be done in a spreadsheet.
 
 The Cochrane Collaboration provides [RevMan](http://tech.cochrane.org/revman)
 for you to produce [Forest plots](https://en.wikipedia.org/wiki/Forest_plot)
-that visually depict the pooled analysis.
+that visually depict the pooled analysis.  For the highest quality images,
+export to EPS and then [convert to TIFF][zamzar] if the journal requires that
+format.
 
 TODO link to PDFs and example spreadsheets on MH, fixed/random,
 
+
+  [zamzar]: http://www.zamzar.com/convert/eps-to-tiff
 
 # Writing
 
