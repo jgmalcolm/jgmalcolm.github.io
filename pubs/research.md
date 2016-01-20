@@ -7,8 +7,8 @@ js: [/js/jquery.unveil.js]
 ---
 
 Below are descriptions of various projects I pursued.  There are also a
-[list of publications](/pubs/)</a>, [curriculum vitae](/cv), and <a
-href="#downloads-for-matlab">software downloads</a> associated with this work.
+[list of publications](/pubs/), [curriculum vitae](/cv), and <a
+href="#software-downloads">software downloads</a> associated with this work.
 
 <script>
   $(function() {
@@ -386,7 +386,7 @@ href="http://www.math.gatech.edu/~jeanbel/4782">Math4782</a>.
 
 
 
-## Downloads for MATLAB
+## Software Downloads
 
 * <a href="https://github.com/jgmalcolm/graphchop">graphchop</a> - Multi-label graph cut image segmentation
 * <a href="https://github.com/jgmalcolm/levelsets">levelsets</a> - Level set (active contour) image segmentation
