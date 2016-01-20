@@ -46,10 +46,11 @@ list for later.
 
 # Data Analysis
 
-The Cochrane Collaboration has released
-[RevMan](http://tech.cochrane.org/revman) for you to produce
-[Forest plots](https://en.wikipedia.org/wiki/Forest_plot) that show the
-synthesis of your data.
+Simple descriptive statistics (mean, std) can be done in a spreadsheet.
+
+The Cochrane Collaboration provides [RevMan](http://tech.cochrane.org/revman)
+for you to produce [Forest plots](https://en.wikipedia.org/wiki/Forest_plot)
+that visually depict the pooled analysis.
 
 TODO link to PDFs and example spreadsheets on MH, fixed/random,
 
@@ -81,7 +82,9 @@ interested, they can follow the citation to read the full paper.
 
 **Citations.** Don't get caught up in citations; it can distract from your
 communication.  Focus first on saying what you want to say in the order you
-want to say it; then later integrate citations.
+want to say it; then later integrate citations.  In my first pass, I might
+manually put a citation in parenthesis (Smith), and later worry about fussing
+with the plugin.
 
 {% comment %}
 
