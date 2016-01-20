@@ -70,12 +70,14 @@ discussion; it is merely an introduction of topics.  Second paragraph
 motivates your work:  what question are you seeking to answer?  You must have
 a good motivation, not simply "Previous studies suck. I could do better."
 
-**Discussion.** Break it into sections for each of the topics.  For each
-topic, highlight papers that found significant findings, even if you
-ultimately found no significance.  Don't spend time on things that were not
-significant.  This is an opportunity to highlight the signal among all the
+**Discussion.** Break it into sections for each of the topics.  Don't spend
+time on things that were not significant.  For each topic, highlight papers
+that found significant findings, even if your pooled analysis found no
+significance.  This is an opportunity to amplify the signal buried in the
 noise.  You don't need to wring every nugget from each paper; just highlight
-one takeaway for each.
+one takeaway for each.  When citing another paper's significant finding, don't
+include their p-value; that lacks sufficient context.  If the reader is
+interested, they can follow the citation to read the full paper.
 
 **Citations.** Don't get caught up in citations; it can distract from your
 communication.  Focus first on saying what you want to say in the order you
