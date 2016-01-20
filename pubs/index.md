@@ -7,7 +7,7 @@ published: true
 ---
 
 For a full description of the work associated with these publications, see my
-<a href="research.html">projects</a> or [curriculum vita](/cv).  You can also
+<a href="research.html">projects</a> or [curriculum vitae](/cv).  You can also
 find my papers in these databases: [PubMed], [Google Scholar], [SMARTech],
 [SPL], [DBLP].
 

@@ -20,7 +20,7 @@ found on my website, then we've got something in common.
 
 The best way to reach me is via email: <a id="email"></a>.
 
-[curriculum vita](/cv) &middot;
+[curriculum vitae](/cv) &middot;
 <a href="https://twitter.com/jgmalcolm">twitter</a> &middot;
 <a href="https://github.com/jgmalcolm">github</a> &middot;
 <a href="https://scholar.google.com/citations?user=Tp8uTioAAAAJ">scholar</a> &middot;

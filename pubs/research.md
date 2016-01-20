@@ -6,8 +6,8 @@ keywords: computer vision, image processing, segmentation, graph cut, graphcut, 
 js: [/js/jquery.unveil.js]
 ---
 
-Below are descriptions of various projects I pursued.  There is also a <a
-href="index.html">list of publications</a> and <a
+Below are descriptions of various projects I pursued.  There are also a
+[list of publications](/pubs/)</a>, [curriculum vitae](/cv), and <a
 href="#downloads-for-matlab">software downloads</a> associated with this work.
 
 <script>
