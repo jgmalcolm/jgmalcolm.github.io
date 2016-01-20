@@ -16,7 +16,7 @@ and you'll always stay within the free pricing tier.
 
 ## Scope
 
-If you're finding a lot of papers reporting on the question, then you're
+If you're finding a lot of papers attempting to answer a question, then you're
 likely on a valuable topic.
 
 Lumpers and splitters.
