@@ -98,12 +98,13 @@ setting up some toy problems in a spreadsheet so you know each step of
 calculating your effect measure (odds ratio, risk ratio) or difference measure
 (mean difference, standard mean difference), confidence intervals, weights,
 and pooled results along with p-values, Chi^2, heterogeneity (I^2).  (See
-Higgins 2002 and Higgins 2003).  This is important because many times your
-data is not in a form that RevMan accepts.  For example, to pool correlation
-coefficients (Pearson, Spearman) you have to first z-transform them to a
-normal distribution so you can get a standard error, run through the MH
-calculations, and then reverse z-transform to get back to a correlation
-coefficient.
+Higgins [2002](http://www.ncbi.nlm.nih.gov/pubmed/12111919) and
+[2003](http://www.ncbi.nlm.nih.gov/pubmed/12958120).  This is important
+because many times your data is not in a form that RevMan accepts.  For
+example, to pool correlation coefficients (Pearson, Spearman) you have to
+first z-transform them to a normal distribution so you can get a standard
+error, run through the MH calculations, and then reverse z-transform to get
+back to a correlation coefficient.
 
 **Random-effects vs fixed-effects models.** Try to get a sense of these two
 and when to use which one.  Here's my best shot at explaining... Fixed-effects
