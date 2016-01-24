@@ -2,6 +2,7 @@
 title: "How to prepare a systematic review and meta-analysis"
 description: "How to get organized, define your scope, and not get bogged down."
 tags: [medicine,research]
+layout: post
 ---
 
 Reviews are a great way to learn about a topic as a new student but also
