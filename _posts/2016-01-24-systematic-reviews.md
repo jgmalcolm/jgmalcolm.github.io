@@ -19,17 +19,20 @@ pushes your PDFs to the cloud; it's unnecessary, seems to cause duplication,
 and this way you'll always stay within the free pricing tier.
 
 Familiarize yourself with the [PRISMA] guidelines.  Journals now tend to
-expect that level of rigor and documentation.
+expect that level of rigor and documentation.  No study hits all points but
+you should aim for something like 60-70% of the items.
 
 Create a document for your research notebook.  Record every query, date
 performed, and result counts.  Once you're happy with a query, export the
-results to a spreadsheet.  For each row in this spreadsheet of results, you'll
-want to have columns annotating how the article was handled at each stage in
-the PRISMA screening process.  There are really three stages you need to
-document, so you can probably setup three columns: is it a duplicate paper (if
-combining results from multiple databases), result of reading title/abstract,
-result of reading full text.  Plus a column for free-text notes: variables
-assessed, outcomes assessed, or why you rejected.
+results to a spreadsheet (PubMed and Scopus let you export CSV which imports
+into Google Spreadsheets).  For each row in this spreadsheet of results,
+you'll want to have columns annotating how the article was handled at each
+stage in the PRISMA screening process.  There are really three stages you need
+to document, so you can probably setup three columns: is it a duplicate paper
+(if combining results from multiple databases), result of reading
+title/abstract, result of reading full text.  Plus a column for free-text
+notes: variables assessed, outcomes assessed, or why you rejected.  Setup
+formulas that keep counts of each column.
 
   [PRISMA]: http://dx.plos.org/10.1371/journal.pmed.1000100
 
@@ -124,12 +127,31 @@ TODO link to PDFs and example spreadsheets on MH, fixed/random,
 
 # Writing
 
+**Don't get bogged down.** Staring at a blank document can be overwhelming.
+Where do you start?  Start by reading the instructions to authors for your
+target journal.  Lay out the headings it requires.
+
+**XXX.** As you write, if there's something you're unsure how to word or what
+to cite, put "XXX" and keep going.  Come back later.  Write whatever you can
+and move on to the next thing you can write.  Over time, the paper will evolve
+as you hammer out a paragraph here, a
+paragraph there.
+
+**Copy and modify.** Look to existing papers for how you can word things or
+what to mention where.  Sometimes when I have writer's block, I'll literally
+type out a paragraph from a paper that says what I want to say; then I will
+tear that to pieces as I go through and rewrite in my own words using my own
+findings.  I'm not advocating plagiarism here; I'm suggesting you copy
+sentence and paragraph structure.  Whenever you get stuck in your paper, jump
+over to read a few other papers to see how they handled this particular spot.
+But don't go down the rabbit trail of reading for an hour; you can always
+write "XXX" and come back.
+
 **Methods.** Write this section first.  It should be the most straight
 forward: you're just documenting what you did.  Look at other papers to see
 what is important to document and in what order.  Follow the [PRISMA] formula,
 but don't get too bogged down with all the details; do as much as you can and
-move on.  No study hits all points but you should aim for something like
-60-70% of the items.
+move on.
 
 **Introduction.** Make this brief, like two paragraphs.  First paragraph is
 broad strokes introducing the topic and a few notable works.  This is not a
