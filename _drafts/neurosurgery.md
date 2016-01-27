@@ -31,3 +31,11 @@ https://jomi.com/article/6/Cervical-Laminaplasty/
 
 http://www.journals.elsevier.com/world-neurosurgery/most-cited-articles/
 https://www.doximity.com/landmarks/specialty-neurosurgery
+
+
+Publications
+- need to be submitted during third year to be published in time for September
+  applications
+  - can take anywhere between 3-9mo to get something published
+  - for your target journal, look at published articles to see example
+    "Received" and "Accepted" times
