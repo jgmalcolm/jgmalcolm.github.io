@@ -1,5 +1,5 @@
 ---
-title: "HOWTO: Systematic review and meta-analysis"
+title: "HOWTO: Write a systematic review and meta-analysis"
 description: "How to get organized, define your scope, and not get bogged down."
 tags: [medicine,research]
 layout: post
