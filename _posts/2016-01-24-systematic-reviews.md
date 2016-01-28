@@ -82,7 +82,7 @@ list for later.
 
 
 
-# Data analysis
+## Data analysis
 
 Simple descriptive statistics (mean, std) can be done in a spreadsheet.
 
@@ -127,7 +127,7 @@ TODO link to PDFs and example spreadsheets on MH, fixed/random,
 
   [zamzar]: http://www.zamzar.com/convert/eps-to-tiff
 
-# Writing
+## Writing
 
 **Don't get bogged down.** Staring at a blank document can be overwhelming.
 Where do you start?  Start by reading the instructions to authors for your
