@@ -33,6 +33,8 @@ http://www.journals.elsevier.com/world-neurosurgery/most-cited-articles/
 https://www.doximity.com/landmarks/specialty-neurosurgery
 http://www.neurosurgic.com/index.php?option=com_content&view=category&layout=blog&id=101&Itemid=465
 
+subi: http://nsgapplicants.boards.net/thread/520/read-away-rotation-advice
+
 
 Publications
 - need to be submitted during third year to be published in time for September
