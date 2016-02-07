@@ -6,7 +6,7 @@ keywords: resume, cv
 permalink: /cv/
 ---
 
-<img class="smaller thumb" src="/about/malcolm.jpg">
+<img class="smaller thumb no-print" src="/about/malcolm.jpg">
 
 me@jgmalcolm.com <br />
 [jgmalcolm.com](/jgmalcolm.com) <br />
@@ -203,10 +203,12 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+{% comment %}
 1. Rindler, .. Malcolm ... Ahmad. "Diagnostic Ability of Spinal Diffusion
    Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of
    the Literature." American Association of Neurologic Surgeons
    (AANS) 2016. Accepted for poster.
+{% endcomment %}
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Are Complications
    Following Cranioplasty Related To Its Timing After The Decompressive

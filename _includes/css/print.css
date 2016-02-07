@@ -7,10 +7,11 @@
       text-shadow: none !important;
       background: transparent !important;
       box-shadow: none !important;
+      line-height: 1.2;
   }
   a,a:visited {
-      text-decoration: none;
-      border-bottom: 1px dotted;
+      font-weight: 100;
+      text-decoration: underline;
   }
   pre, blockquote {
       border: 1px solid #999;
