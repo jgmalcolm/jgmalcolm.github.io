@@ -231,6 +231,14 @@ me@jgmalcolm.com <br />
    Review." American Society of Neuroradiology (ASNR) 2016.  Accepted for
    poster.
 
+{% comment %}
+1. F Ahmad. "Role of spinal diffusion tensor imaging in predicting
+   post-operative outcome in cervical degenerative pathologies."  Global Spine
+   Congress / World Forum for Spine Research (GSC/WFSR).  April
+   13-16, 2016. Dubai.  Accepted for oral presentation.
+
+{% endcomment %}
+
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
    Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
