@@ -193,6 +193,22 @@ previous pregnancies.  Know jaundice and respiratory distress cold.  Normal
 vitals are unique in the first few days.
 
 
+## Psychiatry
+
+**Interviewing.** Be nosy.  This isn't regular society where you tip-toe
+around issues.  Patients don't always volunteer, so always be digging.  Screen
+for everything kind of thought or behavior: mania, depression, auditory/visual
+hallucinations, etc.  Several times I was embarrassed when after a relative
+normal interview I would read a chart and realize I had been talking to a
+patient with some crazy back story I didn't elicit.
+
+**Shelf.** UWorld (all 150q) + [Lange] (most of 750q).  Know where general
+medicine and surgery meet psychiatry: delirium, liver/renal/cardiac
+co-morbidities to psychiatric drugs.
+
+  [Lange]: http://amzn.to/21y1eRT
+
+
 {% comment %}
 
 
