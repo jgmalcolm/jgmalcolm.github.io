@@ -42,3 +42,14 @@ Publications
   - can take anywhere between 3-9mo to get something published
   - for your target journal, look at published articles to see example
     "Received" and "Accepted" times
+
+
+## Sub-intern advice
+
+* Never complain about being tired or stressed in front of residents or
+  attendings.  Their lives are way harder than yours.
+* Listen for any mention of something needing to get done, and jump on it.
+* Study the surgical cases you'll see tomorrow.  Even just 10 minutes will pay
+  off.  Learn one important step you'll watch for the next day.
+* Prepare answers for the obvious questions: Why neurosurgery? What's your
+  research about?
