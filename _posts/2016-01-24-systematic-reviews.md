@@ -59,7 +59,14 @@ the topic.  Aim for the most important question and set aside secondary
 questions for a separate study.  Take notes so you can discuss with your
 colleagues and come back later.
 
+**Quality over quantity.** Do not try to include every single article that
+even tangentially relates to your question because you'll end up with a lot of
+poor quality studies that will degrade your findings.  Use something like the
+[Newcastle-Ottawa Scale] to assess for quality.  Consider tightening your
+inclusion criteria in ways that weed out low quality studies, eg. well defined
+cases/controls, adequate followup, etc.
 
+ [Newcastle-Ottawa Scale]: http://www.ohri.ca/programs/clinical_epidemiology/oxford.asp
 
 ## Avoid getting bogged down
 
