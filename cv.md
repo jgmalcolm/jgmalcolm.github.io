@@ -225,7 +225,7 @@ me@jgmalcolm.com <br />
    Meta-Analysis."  American Association of Neurologic Surgeons (AANS) 2016.
    Accepted for poster.
 
-1. F Chokshi, R Rindler, J Malcolm, S Eshraghi, M Mossa-Basha, J Chu, F
+1. F Chokshi, R Rindler, **J Malcolm**, S Eshraghi, M Mossa-Basha, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting
    Post-Operative Outcome in Cervical Spondylotic Myelopathy: A Systematic
    Review." American Society of Neuroradiology (ASNR) 2016.  Accepted for
@@ -239,17 +239,17 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
-   Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
-   Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
-   GA. December 4-6, 2015. Platform Presentation.
+1. SH Halani, J Chu, **J Malcolm**, RS Rindler, G Pradilla, FU Ahmad. "Effects
+   of Cranioplasty on Cerebral Bloodflow: A Systematic Review of the
+   Literature" Georgia Neurological Surgeons Annual Fall Meeting; Reynolds
+   Plantation, GA. December 4-6, 2015. Platform Presentation.
 
 1. JG Malcolm, RS Rindler, FU Ahmad.
    ["Aseptic Bone Resorption Following Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors."](/pubs/malcolm2015resorption.pdf)
    Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
    GA. December 4-6, 2015. Platform Presentation.
 
-1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, J Malcolm, J Chu, F
+1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, **J Malcolm**, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative
    Outcome in Cervical Degenerative Pathologies." CNS Spine
    Summit. March 2016. Selected for Oral presentation.
