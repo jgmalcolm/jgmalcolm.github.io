@@ -64,6 +64,16 @@ me@jgmalcolm.com <br />
 
 ## Journals and Book Chapters
 
+{% comment %}
+
+1. Rima S. Rindler, Falgun H. Chokshi, James G. Malcolm, Sheila R. Eshraghi,
+   Mahmud Mossa-Basha, Jason Chu, Shekar N. Kurpad, Faiz Ahmad. "Spinal
+   diffusion tensor imaging in the evaluation of pre- and post-operative
+   severity in cervical spondylotic myelopathy: A systematic review of the
+   literature" Submitted to *Radiology*.
+
+{% endcomment %}
+
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and
    Y. Rathi. [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
    Advances in Signal Processing, 77, 2011.
