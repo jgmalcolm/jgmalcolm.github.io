@@ -26,6 +26,9 @@ defaults write -g NSScrollViewRubberbanding -int 0
 defaults write com.apple.dock expose-animation-duration -float 0
 defaults write com.apple.dock autohide-time-modifer -float 0
 defaults write com.apple.dock autohide-delay -float 0
+
+# hide sidebar when opening PDFs
+defaults write com.apple.Preview PVPDFSuppressSidebarOnOpening true
 {% endhighlight %}
 
 These and more can be found on
