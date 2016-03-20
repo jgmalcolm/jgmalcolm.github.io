@@ -1,7 +1,7 @@
 {% if page.tags.size > 0 %}
 <div class="tags">
   tagged: {% for tag in page.tags %}
-    <a href="/search/?q={{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    <a href="/tags/?q={{ tag }}">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
   {% endfor %}
 </div>
 {% endif %}
