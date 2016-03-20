@@ -365,3 +365,12 @@ me@jgmalcolm.com <br />
 
 * Congress of Neurological Surgeons
 * American Association of Neurological Surgeons
+
+
+<script>
+<!--
+// highlight all references to self
+var html = $('main').html();
+$('main').html(html.replace(/[JG .]*Malcolm/g, '<strong>$&</strong>'));
+//-->
+</script>
