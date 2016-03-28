@@ -20,8 +20,8 @@ pushes your PDFs to the cloud; it's unnecessary, seems to cause duplication,
 and this way you'll always stay within the free pricing tier.
 
 Familiarize yourself with the [PRISMA] guidelines.  Journals now tend to
-expect that level of rigor and documentation.  No study hits all points but
-you should aim for something like 60-70% of the items.
+expect that level of rigor and documentation.  Hit everything on the
+checklist.
 
 Create a document for your research notebook.  Record every query, date
 performed, and result counts.  Once you're happy with a query, export the
