@@ -13,8 +13,8 @@ writing the paper.
 
 ## Get organized
 
-Use [Google Docs](drive.google.com) for real-time collaboration on
-spreadsheets and comments to keep in sync.  Use [Mendeley](mendeley.com) for
+Use [Google Docs](//drive.google.com) for real-time collaboration on
+spreadsheets and comments to keep in sync.  Use [Mendeley](//mendeley.com) for
 citations and integrating with Microsoft Word.  Turn off the feature that
 pushes your PDFs to the cloud; it's unnecessary, seems to cause duplication,
 and this way you'll always stay within the free pricing tier.
@@ -35,7 +35,7 @@ title/abstract, result of reading full text.  Plus a column for free-text
 notes: variables assessed, outcomes assessed, or why you rejected.  Setup
 formulas that keep counts of each column.
 
-  [PRISMA]: http://dx.plos.org/10.1371/journal.pmed.1000100
+  [PRISMA]: https://en.wikipedia.org/wiki/Preferred_Reporting_Items_for_Systematic_Reviews_and_Meta-Analyses
 
 
 ## Narrow the scope
