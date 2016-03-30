@@ -1,3 +1,3 @@
 #!/bin/sh -e
 
-wget -nv --spider -e robots=off -r -p -nd http://0.0.0.0:4000 2>&1
+wget -nv --spider -e robots=off -r -p -nd -H http://0.0.0.0:4000 2>&1
