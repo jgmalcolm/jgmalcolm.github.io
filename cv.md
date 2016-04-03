@@ -198,8 +198,9 @@ me@jgmalcolm.com <br />
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum. [Label Space: A multi-object shape
    representation](/pubs/malcolm2008_labelspace.pdf). In Combinatorial Image Analysis, pages 185­196, 2008.
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. Fast approximate surface
-   evolution in arbitrary dimension. In SPIE Medical Imaging, 2008.
+1. J. Malcolm, Y. Rathi, A. Yezzi, and
+   A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf). In
+   SPIE Medical Imaging, 2008.
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. Fast approximate curve
     evolution. In SPIE Electronic Imaging, 2008.
