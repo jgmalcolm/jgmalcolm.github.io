@@ -269,8 +269,9 @@ me@jgmalcolm.com <br />
    Conference. October 2015.
 
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
-   K. Patel, and J. Melonakos.  ArrayFire: a GPU acceleration platform. In
-   SPIE Modeling and Simulation for Defense Systems and Applications VII,
+   K. Patel, and J. Melonakos.
+   ["ArrayFire: a GPU acceleration platform."](/pubs/malcolm2011arrayfire.pdf)
+   In SPIE Modeling and Simulation for Defense Systems and Applications VII,
    volume 8403, 2011.
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
