@@ -280,8 +280,8 @@ me@jgmalcolm.com <br />
 
 1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
    V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and
-   J. Malcolm. High-level GPU computing with Jacket for MATLAB and C/C++.  In
-   SPIE Modeling and Simulation for Defense Systems and Applications VI,
+   J. Malcolm. ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
+   In SPIE Modeling and Simulation for Defense Systems and Applications VI,
    volume 8060, 2011.
 
 1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and
