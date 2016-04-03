@@ -124,6 +124,23 @@ me@jgmalcolm.com <br />
 
 ## Conference
 
+1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
+   Mohammed, Spafford, Venugopalakrishnan,
+   Malcolm. ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
+   Proceedings of the SPIE, Volume 8752, 2013.
+
+1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
+   K. Patel, and J. Melonakos.
+   ["ArrayFire: a GPU acceleration platform."](/pubs/malcolm2011arrayfire.pdf)
+   In SPIE Modeling and Simulation for Defense Systems and Applications VII,
+   volume 8403, 2011.
+
+1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
+   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and
+   J. Malcolm. ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
+   In SPIE Modeling and Simulation for Defense Systems and Applications VI,
+   volume 8060, 2011.
+
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
    R. W. McCarley, C.-F. Westin, and
    M. E. Shenton. [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf). In
@@ -268,26 +285,9 @@ me@jgmalcolm.com <br />
    cellulitis." American College of Physicians, Georgia Chapter
    Conference. October 2015.
 
-1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
-   Mohammed, Spafford, Venugopalakrishnan,
-   Malcolm. ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
-   Proceedings of the SPIE, Volume 8752, 2013.
-
-1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
-   K. Patel, and J. Melonakos.
-   ["ArrayFire: a GPU acceleration platform."](/pubs/malcolm2011arrayfire.pdf)
-   In SPIE Modeling and Simulation for Defense Systems and Applications VII,
-   volume 8403, 2011.
-
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
    neural tractography algorithm using the unscented Kalman filter. In
    Int. Symp. on Magnetic Resonance in Medicine (ISMRM), page 3960, 2011.
-
-1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
-   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and
-   J. Malcolm. ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
-   In SPIE Modeling and Simulation for Defense Systems and Applications VI,
-   volume 8060, 2011.
 
 1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and
    M. E. Shenton. Mixture model for estimating fiber ODF and multi-directional
