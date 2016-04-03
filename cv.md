@@ -206,8 +206,10 @@ me@jgmalcolm.com <br />
     evolution](/pubs/malcolm_lsdt.pdf). In SPIE Electronic Imaging, 2008. doi:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
-   and A. Tannenbaum.  Segmenting images analytically in shape space. In SPIE
-   Medical Imaging, volume 6914, 2008.
+   and A. Tannenbaum.
+   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf). In
+   *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
+   6914, 2008. doi:10.1117/12.769511
 
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum. A graph cut approach to image
    segmentation in tensor space. In Component Analysis Methods (in CVPR),
