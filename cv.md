@@ -200,10 +200,10 @@ me@jgmalcolm.com <br />
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and
    A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf). In
-   SPIE Medical Imaging, 2008.
+   SPIE Medical Imaging, 2008. doi:10.1117/12.771080
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. Fast approximate curve
-    evolution. In SPIE Electronic Imaging, 2008.
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. [Fast approximate curve
+    evolution](/pubs/malcolm_lsdt.pdf). In SPIE Electronic Imaging, 2008. doi:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
    and A. Tannenbaum.  Segmenting images analytically in shape space. In SPIE
