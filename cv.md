@@ -79,7 +79,7 @@ me@jgmalcolm.com <br />
    Advances in Signal Processing, 77, 2011.
 
 1. T. Larsen, G. Pryor, and
-   J. Malcolm. [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen-jacket-ch28-2011.pdf). In
+   J. Malcolm. [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf). In
    GPU Gems, chapter 28, pages 387­398. 2011.
 
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
