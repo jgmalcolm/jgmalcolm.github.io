@@ -192,9 +192,8 @@ me@jgmalcolm.com <br />
    In Int. Conf. on Image Processing (ICIP), pages 241­244, 2008.
 
 1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and
-   A. Tannenbaum. Localized statistics for DW-MRI fiber bundle
-   segmentation. In Mathematical Methods in Biomedical Image Analysis (MMBIA),
-   pages 1­8, 2008.
+   A. Tannenbaum. [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf). In
+   Mathematical Methods in Biomedical Image Analysis (MMBIA), pages 1­8, 2008.
 
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum. Label Space: A multi-object shape
    representation. In Combinatorial Image Analysis, pages 185­196, 2008.
