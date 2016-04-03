@@ -195,8 +195,8 @@ me@jgmalcolm.com <br />
    A. Tannenbaum. [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf). In
    Mathematical Methods in Biomedical Image Analysis (MMBIA), pages 1­8, 2008.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. Label Space: A multi-object shape
-   representation. In Combinatorial Image Analysis, pages 185­196, 2008.
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum. [Label Space: A multi-object shape
+   representation](/pubs/malcolm2008_labelspace.pdf). In Combinatorial Image Analysis, pages 185­196, 2008.
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. Fast approximate surface
    evolution in arbitrary dimension. In SPIE Medical Imaging, 2008.
