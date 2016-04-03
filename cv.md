@@ -268,6 +268,11 @@ me@jgmalcolm.com <br />
    cellulitis." American College of Physicians, Georgia Chapter
    Conference. October 2015.
 
+1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
+   Mohammed, Spafford, Venugopalakrishnan,
+   Malcolm. ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
+   Proceedings of the SPIE, Volume 8752, 2013.
+
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
    K. Patel, and J. Melonakos.
    ["ArrayFire: a GPU acceleration platform."](/pubs/malcolm2011arrayfire.pdf)
