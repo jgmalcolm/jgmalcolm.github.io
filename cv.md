@@ -9,7 +9,7 @@ permalink: /cv/
 <img class="smaller thumb no-print" src="/about/malcolm.jpg">
 
 me@jgmalcolm.com <br />
-[jgmalcolm.com](/jgmalcolm.com) <br />
+[http://jgmalcolm.com] <br />
 (770) 856-9045
 
 *Updated {{ page.updated | date: '%-d %B %Y' }}*
