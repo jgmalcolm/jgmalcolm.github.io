@@ -252,7 +252,7 @@ me@jgmalcolm.com <br />
    Meta-Analysis."  American Association of Neurologic Surgeons (AANS) 2016.
    Accepted for poster.
 
-1. F Chokshi, R Rindler, **J Malcolm**, S Eshraghi, M Mossa-Basha, J Chu, F
+1. F Chokshi, R Rindler, J Malcolm, S Eshraghi, M Mossa-Basha, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting
    Post-Operative Outcome in Cervical Spondylotic Myelopathy: A Systematic
    Review." American Society of Neuroradiology (ASNR) 2016.  Accepted for
@@ -266,7 +266,7 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. SH Halani, J Chu, **J Malcolm**, RS Rindler, G Pradilla, FU Ahmad. "Effects
+1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects
    of Cranioplasty on Cerebral Bloodflow: A Systematic Review of the
    Literature" Georgia Neurological Surgeons Annual Fall Meeting; Reynolds
    Plantation, GA. December 4-6, 2015. Platform Presentation.
