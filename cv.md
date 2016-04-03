@@ -211,28 +211,29 @@ me@jgmalcolm.com <br />
    *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
    6914, 2008. doi:10.1117/12.769511
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. A graph cut approach to image
-   segmentation in tensor space. In Component Analysis Methods (in CVPR),
-   pages 1­8, 2007.
+1. J. Malcolm, Y. Rathi, and
+   A. Tannenbaum. [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
+   In Component Analysis Methods (in CVPR), pages 1­8, 2007.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. Multi-object tracking through
-   clutter using graph cuts.  In Non-rigid Registration and Tracking Through
-   Learning (in ICCV), 2007.
+1. J. Malcolm, Y. Rathi, and
+   A. Tannenbaum. [Multi-object tracking through clutter using graph cuts](/pubs/malcolm_mdp.pdf).
+   In Non-rigid Registration and Tracking Through Learning (in ICCV), 2007.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. Tracking through clutter using
-   graph cuts. In British Machine Vision Conf. (BMVC), 2007.
+1. J. Malcolm, Y. Rathi, and
+   A. Tannenbaum. [Tracking through clutter using graph cuts](/pubs/malcolm_dp.pdf). In
+   British Machine Vision Conf. (BMVC), 2007.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. Graph cut segmentation with
-   nonlinear shape priors.  In Int. Conf. on Image Processing (ICIP), pages
-   365­368, 2007.
+1. J. Malcolm, Y. Rathi, and
+   A. Tannenbaum. [Graph cut segmentation with nonlinear shape priors](/pubs/malcolm_shape.pdf).
+   In Int. Conf. on Image Processing (ICIP), pages 365-368, 2007.
 
-1. Y. Rathi, O. Michailovich, J. Malcolm, and A. Tannenbaum. Seeing the
-   unseen: Segmenting with distributions. In Conf. on Signal and Image
-   Processing, volume 534, 2006.
+1. Y. Rathi, O. Michailovich, J. Malcolm, and
+   A. Tannenbaum. [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf). In
+   Conf. on Signal and Image Processing, volume 534, 2006.
 
-1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.  Closed loop visual
-   tracking using observer-based dynamic active contours. In Conf. on
-   Guidance, Navigation, and Control, 2005.
+1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
+   [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf). In
+   Conf. on Guidance, Navigation, and Control, 2005.
 
 ## Abstract and Poster
 
