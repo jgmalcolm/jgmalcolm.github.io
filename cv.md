@@ -64,6 +64,10 @@ me@jgmalcolm.com <br />
 
 ## Journals and Book Chapters
 
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Are the complications
+   after cranioplasty related to its timing? A systematic review and
+   meta-analysis." Journal of Clinical Neuroscience. *Accepted*
+
 {% comment %}
 
 1. Rima S. Rindler, Falgun H. Chokshi, James G. Malcolm, Sheila R. Eshraghi,
