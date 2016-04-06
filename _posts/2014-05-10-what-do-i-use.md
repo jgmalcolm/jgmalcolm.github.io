@@ -69,7 +69,11 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [TotalTerminal] for quick full-screen access to the command line.
 * Emacs/vim/bash/screen/git.  Browse my
   [dot files](https://github.com/jgmalcolm/dotfiles).
+* [Monolingual] to remove unused language files and object code
+  (architectures), eg. you only use English and use a 64-bit Mac so get rid of
+  Russian language files and PowerPC libraries
 
+[Monolingual]: https://ingmarstein.github.io/Monolingual/
 [CopyClip]: https://itunes.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12
 [Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
