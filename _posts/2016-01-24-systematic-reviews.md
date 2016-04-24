@@ -99,6 +99,15 @@ that visually depict the pooled analysis.  For the highest quality images,
 export to EPS and then [convert to TIFF][zamzar] if the journal requires that
 format.
 
+**Blinded by significance.** As you're sorting through studies, avoid the urge
+to only hunt for significant findings.  Your job is to report the facts.  It
+may seem sexy to report that some procedure has significant complications, but
+if your data turns out to show no significance then it's okay to report that
+there was no significant difference.  It's okay for your systematic review to
+simply report that you found no significant results.  That's still a
+contribution.  As you're gathering data, it's important you don't
+unintentionally start to filter results.
+
 **Meta-analysis.** While you can rely on RevMan to handle your pooling, you
 should read about the Mantel-Haenszel method it uses.  I highly recommend
 setting up some toy problems in a spreadsheet so you know each step of
