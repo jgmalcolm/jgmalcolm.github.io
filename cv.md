@@ -281,7 +281,7 @@ me@jgmalcolm.com <br />
 1. JG Malcolm, RS Rindler, FU Ahmad.
    ["Aseptic Bone Resorption Following Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors."](/pubs/malcolm2015resorption.pdf)
    Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
-   GA. December 4-6, 2015. Platform Presentation.
+   GA. December 4-6, 2015. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 
 1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, **J Malcolm**, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative
