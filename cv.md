@@ -238,10 +238,10 @@ me@jgmalcolm.com <br />
 ## Abstract and Poster
 
 {% comment %}
-1. Rindler, .. Malcolm ... Ahmad. "Diagnostic Ability of Spinal Diffusion
-   Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of
-   the Literature." American Association of Neurologic Surgeons
-   (AANS) 2016. Accepted for poster.
+1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla,
+   Ahmad. ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
+   American Association of Neurologic Surgeons (AANS) 2016. Accepted for
+   [poster](/pubs/others/rindler-AANS2016.pdf).
 {% endcomment %}
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Are Complications
