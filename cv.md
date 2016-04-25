@@ -240,12 +240,10 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
-{% comment %}
 1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla,
    Ahmad. ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
    American Association of Neurologic Surgeons (AANS) 2016. Accepted for
    [poster](/pubs/others/rindler-AANS2016.pdf).
-{% endcomment %}
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
    Ahmad. ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](pubs/malcolm-AANS2016-complications.docx)
