@@ -235,6 +235,9 @@ me@jgmalcolm.com <br />
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf). In
    Conf. on Guidance, Navigation, and Control, 2005.
 
+
+
+
 ## Abstract and Poster
 
 {% comment %}
