@@ -246,17 +246,17 @@ me@jgmalcolm.com <br />
    [poster](/pubs/others/rindler-AANS2016.pdf).
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
-   Ahmad. ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](pubs/malcolm-AANS2016-complications.docx)
+   Ahmad. ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-complications.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
    [poster](https://docs.google.com/presentation/d/1AZprarjLpPdDYihUKy9R5mZ1K4_8sj6Bgjn7HlX5Wkg/pub?start=false&loop=false&delayms=3000).
 
 1. Malcolm, Rindler, Chu, Chokshi, Pradilla,
-   Ahmad. ["Is Earlier Cranioplasty Associated With Greater Neurologic Improvement?  A Systematic Review and Meta-Analysis."](pubs/malcolm-AANS2016-neurologic.docx)
+   Ahmad. ["Is Earlier Cranioplasty Associated With Greater Neurologic Improvement?  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-neurologic.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
    [poster](https://docs.google.com/presentation/d/1O3pRUKAsUpjQouJ_b3-O6WNz-WbzxCmQeIHWJcajxJE/pub?start=false&loop=false&delayms=3000).
 
 1. Malcolm, Rindler, Chu, Allen, Pradilla, Ahmad,
-   ["The Role of Implant Material in Complications After Cranioplasty:  A Systematic Review and Meta-Analysis."](pubs/malcolm-AANS2016-materials.docx)
+   ["The Role of Implant Material in Complications After Cranioplasty:  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-materials.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
    [poster](https://docs.google.com/presentation/d/1TQ1mc74R5eYWaU17cuwjQ1GyY-JSzj82x4kA06Ze2d8/pub?start=false&loop=false&delayms=3000).
 
