@@ -91,6 +91,13 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   It's also setup to [cross post][ifttt-fb2tw] facebook article shares over to
   twitter, so I don't have to post to both accounts.  I use the
   [Facebook bookmarklet][fb] to quickly post.
+* [Google Apps Scripting] lets you write powerful scripts to manage Gmail, Drive, Calendar, etc.
+  * [Gmail Snooze] lets you push an email out of your inbox for a few days
+  * [Gmail Schedule Send] lets you draft an email and specify a time for it to be sent
+
+[Google Apps Scripting]: https://developers.google.com/apps-script/
+[Gmail Snooze]: http://lifehacker.com/5825634/how-to-add-a-snooze-button-to-gmail-no-extensions-required
+[Gmail Schedule Send]: https://code.google.com/archive/p/gmail-delay-send/
 
 
 ## Bookmarklets
