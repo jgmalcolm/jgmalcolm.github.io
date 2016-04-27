@@ -15,9 +15,11 @@ writing the paper.
 
 Use [Google Docs](//drive.google.com) for real-time collaboration on
 spreadsheets and comments to keep in sync.  Use [Mendeley](//mendeley.com) for
-citations and integrating with Microsoft Word.  Turn off the feature that
-pushes your PDFs to the cloud; it's unnecessary, seems to cause duplication,
-and this way you'll always stay within the free pricing tier.
+citations and integrating with Microsoft Word.
+[Zotero](//www.zotero.org/styles) has thousand of journal style templates to
+download for Mendeley.  Turn off the feature that pushes your PDFs to the
+cloud; it's unnecessary, seems to cause duplication, and this way you'll
+always stay within the free pricing tier.
 
 Familiarize yourself with the [PRISMA] guidelines.  Journals now tend to
 expect that level of rigor and documentation.  Hit everything on the
