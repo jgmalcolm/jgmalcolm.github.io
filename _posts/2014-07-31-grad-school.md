@@ -243,6 +243,10 @@ accepted.
 Know what a "Win" looks like to your advisor.  Where do they want to publish?
 What do they need to move their own career forward?
 
+Good scholarship is the difference between
+[tinkering on a project](http://togelius.blogspot.com/2016/04/the-differences-between-tinkering-and.html)
+and pushing the boundaries of knowledge.
+
 
 > ["30 Tips on writing"](http://blogs.lse.ac.uk/impactofsocialsciences/2012/11/28/lupton-30-tips-writing/)
 
