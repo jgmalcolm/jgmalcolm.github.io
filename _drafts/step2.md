@@ -45,3 +45,8 @@ questions on your weakest areas.  Keep going until you've completed the qbank.
 **Second pass: random.** Now that you've completed all questions once during
 clerkships and the start of this dedicated period, you should now begin random
 blocks.
+
+**Timing.** Learning should be done in Tutor mode up until the last week or
+so.  The NBME and UWorld self-assessments are timed, and those alone may
+provide enough timing practice. I did all of UWorld in Tutor mode and relied
+on those self-assessments for timing practice.
