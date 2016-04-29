@@ -1,29 +1,43 @@
 ---
 layout: post
-title: "Step 2"
+title: "USMLE Step 2"
 description: "What to study and how to study it."
-tags: [medicine, studying]
+tags: [medicine, studying, Step2]
 ---
 
+I've written elsewhere about [studying] and [Step 1] strategy.  Here are some
+lessons I learned while preparing for Step 2.
 
-Don't assume or read too much into questions.  They will give you all the
-relevant positives and negatives.  If a finding is not present and you know
-it's critical, then that's probably a clue.
+[studying]: /tags/q=studying
+[Step 1]: /tags/q=Step1
 
-Syndromes.  Given all the positive symptoms, does it resemble a syndrome?
+## Questions
 
-Look for excesses.  If the person is a 2 pack per day smoker for 40 years,
+**Don't read too much into things.** They will give you all the relevant
+positives and negatives.  If a finding is not present and you know it's
+critical, then that's probably a clue.  Don't assume anything that's not
+written.  There is no wasted sentence.
+
+**Syndromes.** Given all the positive symptoms, does it resemble a syndrome?
+When you feel overwhelmed because a question listed a bunch of findings, take
+a step back and just look at the dominant positive symptoms.  Do those add up
+to anything found among the answer choices?
+
+**Look for excesses.** If the person is a 2 pack per day smoker for 40 years,
 then you better be thinking lung cancer.  If the person is just a half pack
 for the last ten years, then while still a possibility, it's less dramatic.
 
-Question stems.
-- "Most common cause..." - there may be multiple possible but less likely distractors.
-- "Next step..." or "Initial management" -- Patient has a lump in their
-  thyroid.  Yes it might be cancer and might have metastasized, but before you
-  order that full body PET scan, do a needle aspiration to first diagnose it.
+**Question stems.** These are important clues that frame how you should triage
+the answers.  *"Most common cause..."* there may be multiple possible but less
+likely distractors.  *"Next step..."* or *"Initial management"* Patient has a
+lump in their thyroid.  Yes it might be cancer and might have metastasized,
+but before you order that full body PET scan, do a needle aspiration to first
+diagnose it.
 
 **Dominant symptoms.** What's the chief complaint?  Never forget that and
 don't get distracted by minor symptoms four sentences in.
+
+
 
 ## Test Bank Strategy
 
