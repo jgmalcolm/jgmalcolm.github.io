@@ -1,8 +1,7 @@
 ---
 title: "Mac OS X Tweaks"
 layout: post
-tags:
-- tools
+tags: [tools]
 description: "Simple changes for a snappier feel."
 ---
 
