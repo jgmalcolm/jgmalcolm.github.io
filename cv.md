@@ -74,7 +74,7 @@ me@jgmalcolm.com <br />
    Mahmud Mossa-Basha, Jason Chu, Shekar N. Kurpad, Faiz Ahmad. "Spinal
    diffusion tensor imaging in the evaluation of pre- and post-operative
    severity in cervical spondylotic myelopathy: A systematic review of the
-   literature" Submitted to *Radiology*.
+   literature" Submitted.
 
 {% endcomment %}
 
