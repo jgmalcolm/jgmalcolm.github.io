@@ -83,8 +83,8 @@ me@jgmalcolm.com <br />
    Advances in Signal Processing, 77, 2011.
 
 1. T. Larsen, G. Pryor, and
-   J. Malcolm. [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf). In
-   GPU Gems, chapter 28, pages 387-398. 2011.
+   J. Malcolm. [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
+   *GPU Gems*, chapter 28, pages 387-398. 2011.
 
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
    A. Ramirez, M. Reisert, K Sakaie, F. Tensaouti, T. Yo, J.-F. Mangin, and
@@ -93,12 +93,12 @@ me@jgmalcolm.com <br />
 
 1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
    [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
-   In T. Deserno, editor, Recent Advances in Biomedical Image Processing and
-   Analysis, chapter 16, pages 403-424. Springer, 2011.
+   "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
+   pages 403-424. Springer, 2011.
 
 1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Trans. on
-   Med. Imag., 29:1664-1675, 2010.
+   Y. Rathi. [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Transactions
+   on Medical Imaging, 29:1664-1675, 2010.
 
 1. J. G. Malcolm, O. Michailovich, S. Bouix, C.-F. Westin, M. E. Shenton, and
    Y. Rathi. [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf). Medical
@@ -114,16 +114,16 @@ me@jgmalcolm.com <br />
    Chemistry, 82(7):2621-5, Apr 2010.
 
 1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and
-   M. E. Shenton. [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). J. of
-   Computing, 2(4):1-11, 2010.
+   M. E. Shenton. [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). Journal
+   of Computing, 2(4):1-11, 2010.
 
 1. P. Vela, A. Betser, J. Malcolm, and
-   A. Tannenbaum. [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Trans. on
-   Control Systems Technology, 17(2):442-448, 2009.
+   A. Tannenbaum. [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Transactions
+   on Control Systems Technology, 17(2):442-448, 2009.
 
 1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and
-   A. Tannenbaum. [Distribution metrics and image segmentation. Linear Algebra and its Applications](/pubs/others/georgiou_metrics.pdf),
-   2(425):663-672, 2007.
+   A. Tannenbaum. ["Distribution metrics and image segmentation."](/pubs/others/georgiou_metrics.pdf),
+   Linear Algebra and its Applications 2(425):663-672, 2007.
 
 
 ## Conference
@@ -131,109 +131,113 @@ me@jgmalcolm.com <br />
 1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
    Mohammed, Spafford, Venugopalakrishnan,
    Malcolm. ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
-   Proceedings of the SPIE, Volume 8752, 2013.
+   *Proceedings of the SPIE*, Volume 8752, 2013.
 
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
    K. Patel, and J. Melonakos.
    ["ArrayFire: a GPU acceleration platform."](/pubs/malcolm2011arrayfire.pdf)
-   In SPIE Modeling and Simulation for Defense Systems and Applications VII,
+   *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
    volume 8403, 2011.
 
 1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
    V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and
    J. Malcolm. ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
-   In SPIE Modeling and Simulation for Defense Systems and Applications VI,
+   *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
    volume 8060, 2011.
 
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
    R. W. McCarley, C.-F. Westin, and
-   M. E. Shenton. [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf). In
-   Medical Image Computing and Computer Assisted Intervention (MICCAI), volume
-   6361, pages 657-665, 2010.
+   M. E. Shenton. [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf).
+   *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
+   volume 6361, pages 657-665, 2010.
 
 1. P. Savadjiev, Y. Rathi, J. G. Malcolm, M. E. Shenton, and
    C.-F. Westin. [A geometry-based particle filtering approach to white matter tractography](/pubs/others/savadjiev2010miccai.pdf).
-   In Medical Image Computing and Computer Assisted Intervention (MICCAI),
+   *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 6362, pages 233-240, 2010.
 
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
-   [Filtered tractography:  Validation on a physical phantom](/pubs/malcolm_fc.pdf). In
-   Diffusion Modeling and Fiber Cup (in MICCAI), pages 220-223, 2009.
+   [Filtered tractography:  Validation on a physical phantom](/pubs/malcolm_fc.pdf).
+   *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 220-223, 2009.
 
 1. J. G. Malcolm, M. Kubicki, M. E. Shenton, and
-   Y. Rathi. [The effect of local fiber model on population studies](/pubs/malcolm_study.pdf). In
-   Diffusion Modeling and Fiber Cup (in MICCAI), pages 33-40, 2009.
+   Y. Rathi. [The effect of local fiber model on population studies](/pubs/malcolm_study.pdf).
+   *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 33-40, 2009.
 
 1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Filtered tractography: State estimation in a constrained subspace](/pubs/malcolm_cukf_ext.pdf). In
-   Diffusion Modeling and Fiber Cup (in MICCAI), pages 122-133, 2009.
+   Y. Rathi. [Filtered tractography: State estimation in a constrained subspace](/pubs/malcolm_cukf_ext.pdf).
+   *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 122-133, 2009.
 
 1. J. G. Malcolm, M. E. Shenton, and
    Y. Rathi. [Two-tensor tractography using a constrained filter](/pubs/malcolm_cukf.pdf).
-   In Medical Image Computing and Computer Assisted Intervention (MICCAI),
+   *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 12, pages 894-902, 2009.
 
 1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf). In
-   Information Processing in Medical Imaging (IPMI), pages 126-138, 2009.
+   Y. Rathi. [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf).
+   *Information Processing in Medical Imaging (IPMI)*, pages 126-138, 2009.
 
 1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum.
    [Label Space: A coupled multi-shape representation](/pubs/malcolm_lss.pdf).
-   In Medical Image Computing and Computer Assisted Intervention (MICCAI),
+   *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 11, pages 416-424, 2008. **Runner-Up, MICCAI Young Scientist
    Award.**
 
 1. P. Karasev, J. Malcolm, and
-   A. Tannenbaum. [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf). In
-   Int. Conf. on Image Processing (ICIP), pages 2728-2731, 2008.
+   A. Tannenbaum. [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf).
+   *International Conference on Image Processing (ICIP)*, pages 2728-2731,
+   2008.
 
 1. S. Lankton, J. Malcolm, A. Nakhmani, and
    A. Tannenbaum. [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
-   In Int. Conf. on Image Processing (ICIP), pages 241-244, 2008.
+   *International Conference on Image Processing (ICIP)*, pages 241-244, 2008.
 
 1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and
-   A. Tannenbaum. [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf). In
-   Mathematical Methods in Biomedical Image Analysis (MMBIA), pages 1-8, 2008.
+   A. Tannenbaum. [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf).
+   *Mathematical Methods in Biomedical Image Analysis (MMBIA)*, pages 1-8,
+   2008.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. [Label Space: A multi-object shape
-   representation](/pubs/malcolm2008_labelspace.pdf). In Combinatorial Image Analysis, pages 185-196, 2008.
+1. J. Malcolm, Y. Rathi, and
+   A. Tannenbaum. [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf). *Combinatorial
+   Image Analysis*, pages 185-196, 2008.
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and
-   A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf). In
-   SPIE Medical Imaging, 2008. doi:10.1117/12.771080
+   A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
+   *SPIE Medical Imaging*, 2008. doi:10.1117/12.771080
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. [Fast approximate curve
-    evolution](/pubs/malcolm_lsdt.pdf). In SPIE Electronic Imaging, 2008. doi:10.1117/12.768546
+1. J. Malcolm, Y. Rathi, A. Yezzi, and
+    A. Tannenbaum. [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf). *SPIE
+    Electronic Imaging*, 2008. doi:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
    and A. Tannenbaum.
-   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf). In
+   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
    *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
    6914, 2008. doi:10.1117/12.769511
 
 1. J. Malcolm, Y. Rathi, and
    A. Tannenbaum. [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
-   In Component Analysis Methods (in CVPR), pages 1-8, 2007.
+   *Component Analysis Methods (in CVPR)*, pages 1-8, 2007.
 
 1. J. Malcolm, Y. Rathi, and
    A. Tannenbaum. [Multi-object tracking through clutter using graph cuts](/pubs/malcolm_mdp.pdf).
-   In Non-rigid Registration and Tracking Through Learning (in ICCV), 2007.
+   *Non-rigid Registration and Tracking Through Learning (in ICCV)*, 2007.
 
 1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [Tracking through clutter using graph cuts](/pubs/malcolm_dp.pdf). In
-   British Machine Vision Conf. (BMVC), 2007.
+   A. Tannenbaum. [Tracking through clutter using graph cuts](/pubs/malcolm_dp.pdf).
+   *British Machine Vision Conference (BMVC)*, 2007.
 
 1. J. Malcolm, Y. Rathi, and
    A. Tannenbaum. [Graph cut segmentation with nonlinear shape priors](/pubs/malcolm_shape.pdf).
-   In Int. Conf. on Image Processing (ICIP), pages 365-368, 2007.
+   *International Conference on Image Processing (ICIP)*, pages 365-368, 2007.
 
 1. Y. Rathi, O. Michailovich, J. Malcolm, and
-   A. Tannenbaum. [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf). In
-   Conf. on Signal and Image Processing, volume 534, 2006.
+   A. Tannenbaum. [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf).
+   *Conference on Signal and Image Processing*, volume 534, 2006.
 
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
-   [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf). In
-   Conf. on Guidance, Navigation, and Control, 2005.
+   [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
+   *Conference on Guidance, Navigation, and Control*, 2005.
 
 
 
@@ -290,27 +294,28 @@ me@jgmalcolm.com <br />
    Conference. October 2015.
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
-   neural tractography algorithm using the unscented Kalman filter. In
-   Int. Symp. on Magnetic Resonance in Medicine (ISMRM), page 3960, 2011.
+   neural tractography algorithm using the unscented Kalman
+   filter. International Symposium on Magnetic Resonance in Medicine
+   (ISMRM), page 3960, 2011.
 
 1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and
-   M. E. Shenton. Mixture model for estimating fiber ODF and multi-directional
-   tractography. In Int. Symp. on Magnetic Resonance in Medicine (ISMRM), page
-   3548, 2009.
+   ME. Shenton. "Mixture model for estimating fiber ODF and multi-directional
+   tractography." International Symposium on Magnetic Resonance in Medicine
+   (ISMRM), page 3548, 2009.
 
-1. H. P. Ng, M. Kubicki, J. Malcolm, Y. Rathi, P. Pelavin, R. W. McCarley, and
-   M. E. Shenton. Diffusion two-tensor tractography study on inter-hemispheric
-   connection between bilateral heschl's gyrus in schizophrenia. In
-   Int. Symp. on Magnetic Resonance in Medicine (ISMRM), 2010.
+1. HP. Ng, M. Kubicki, J. Malcolm, Y. Rathi, P. Pelavin, R. W. McCarley, and
+   ME. Shenton. "Diffusion two-tensor tractography study on inter-hemispheric
+   connection between bilateral heschl's gyrus in schizophrenia."
+   International Symposium on Magnetic Resonance in Medicine (ISMRM), 2010.
 
-1. H. P. Ng, M. Kubicki, Y. Rathi, J. Malcolm, P. Pelavin, R. Kikinis, and
-   M. E. Shenton. Decreased fractional anisotropy in inter-hemispheric
+1. HP. Ng, M. Kubicki, Y. Rathi, J. Malcolm, P. Pelavin, R. Kikinis, and
+   ME. Shenton. "Decreased fractional anisotropy in inter-hemispheric
    connection between bilateral superior temporal gyrus gray matter in chronic
-   Schizophrenia. In Schizophrenia Research, volume 117, pages 342-343, April
+   Schizophrenia." Schizophrenia Research, volume 117, pages 342-343, April
    2010.
 
-1. G. Pryor, J. Melonakos, T. Rehman, and J. Malcolm. Jacket: The GPU engine
-   for MATLAB. In SuperComputing, 2008.
+1. G. Pryor, J. Melonakos, T. Rehman, J. Malcolm. "Jacket: The GPU engine
+   for MATLAB." SuperComputing, 2008.
 
 1. AD Wyrzykowski, KM Tchorz, K Inaba, JG Cushman, R Adams, J Malcolm, MB
    Dunham, CJ Dente, JM Nicholas, JP Salomone, WL Ingram, GS Rozycki, DV
@@ -335,33 +340,33 @@ me@jgmalcolm.com <br />
    Oct 29, 2015. *Winner of George T. Tindall, Emory University Resident
    Research Award.*
 
-1. Jacket: Visual Computing, April 2011. CS264 Guest Lecture Series (Harvard,
-   Boston, MA).
+1. "Jacket: Visual Computing", April 2011. CS264 Guest Lecture Series
+   (Harvard, Boston, MA).
 
-1. Seven tricks we learned to get top performance, Sep 2010. GPU Tech
+1. "Seven tricks we learned to get top performance", Sep 2010. GPU Tech
    Conference (San Jose, CA).
 
-1. Median filtering: A cast study in CUDA optimization, Oct 2009. GPU Tech
+1. "Median filtering: A cast study in CUDA optimization", Oct 2009. GPU Tech
    Conference (San Jose, CA).
 
-1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. Neural tractography using an
-   unscented Kalman filter.  In Information Processing in Medical Imaging
-   (IPMI), pages 126-138, 2009.
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi. "Neural tractography using an
+   unscented Kalman filter".  *Information Processing in Medical Imaging
+   (IPMI)*, pages 126-138, 2009.
 
-1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum. Label Space: A coupled
-   multi-shape representation. In Medical Image Computing and Computer
-   Assisted Intervention (MICCAI), volume 11, pages 416-424, 2008.
+1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum. "Label Space: A coupled
+   multi-shape representation." *Medical Image Computing and Computer
+   Assisted Intervention (MICCAI)*, volume 11, pages 416-424, 2008.
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. Fast approximate curve
-   evolution. In SPIE Electronic Imaging, 2008.
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum. "Fast approximate curve
+   evolution." *SPIE Electronic Imaging*, 2008.
 
-1. J. Malcolm, Y. Rathi, and A. Tannenbaum. A graph cut approach to image
-   segmentation in tensor space. In Component Analysis Methods (in CVPR),
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum. "A graph cut approach to image
+   segmentation in tensor space." *Component Analysis Methods (in CVPR)*,
    pages 1-8, 2007.
 
-1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.  Closed loop visual
-   tracking using observer-based dynamic active contours. In Conf. on
-   Guidance, Navigation, and Control, 2005.
+1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.  "Closed loop visual
+   tracking using observer-based dynamic active contours." *Conference on
+   Guidance, Navigation, and Control*, 2005.
 
 
 
