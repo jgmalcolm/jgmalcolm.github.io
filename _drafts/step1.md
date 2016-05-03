@@ -1,7 +1,7 @@
 ---
 title: "USMLE Step 1"
 layout: post
-tags: [step1, studying, medicine]
+tags: [Step1, studying, medicine]
 description: "Your first two years of med school...judged by one test"
 ---
 
