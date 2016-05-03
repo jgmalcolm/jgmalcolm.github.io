@@ -249,7 +249,7 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
-1. Malcolm, Rindler, Chu, Pradilla,
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
    Ahmad. ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
    Congress of Neurological Surgeons (CNS) 2016. Accepted for poster.
 
