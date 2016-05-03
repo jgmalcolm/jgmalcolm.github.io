@@ -74,7 +74,12 @@ me@jgmalcolm.com <br />
    Mahmud Mossa-Basha, Jason Chu, Shekar N. Kurpad, Faiz Ahmad. "Spinal
    diffusion tensor imaging in the evaluation of pre- and post-operative
    severity in cervical spondylotic myelopathy: A systematic review of the
-   literature" Submitted.
+   literature." *Submitted*.
+
+1. SH Halani, J Chu, JG Malcolm, RS Rindler, J Grossberg, G Pradilla,
+   FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow Following
+   Decompressive Craniectomy: A Systematic Review of the Literature."
+   *Submitted*.
 
 {% endcomment %}
 
