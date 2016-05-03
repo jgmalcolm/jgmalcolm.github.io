@@ -20,6 +20,7 @@ title: "Tag search"
   /* set title */
   var query = getParam("q");
   $(".content h1").html("posts about " + query);
+  query = query.toLowerCase(); // case insensitive from here on
 
   /* populate results */
   $.getJSON("posts.json", function(data) {

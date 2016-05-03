@@ -4,7 +4,7 @@
   {% for post in site.posts %}
     {
       "title"       : "{{ post.title }}",
-      "tags"        : ["{{ post.tags | join: '", "' | }}"],
+      "tags"        : ["{{ post.tags | join: '", "' | downcase | }}"],
       "url"         : "{{ post.url }}",
       "description" : "{{ post.description }}"
     }{% unless forloop.last %},{% endunless %}
