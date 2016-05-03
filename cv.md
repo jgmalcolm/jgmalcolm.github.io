@@ -251,7 +251,7 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Rindler, Chu, Pradilla,
    Ahmad. ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
-   Congress of Neurological Surgeons (CNS) 2016. Accepted for digital poster.
+   Congress of Neurological Surgeons (CNS) 2016. Accepted for poster.
 
 1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla,
    Ahmad. ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
