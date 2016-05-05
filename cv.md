@@ -66,7 +66,11 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Are the complications
    after cranioplasty related to its timing? A systematic review and
-   meta-analysis." Journal of Clinical Neuroscience. *Accepted*
+   meta-analysis." Journal of Clinical Neuroscience. *Accepted.*
+
+1. E Celano, A Salehani, J Malcolm, E Reinertsen, CG Hadjipanayis. "Spinal
+   Cord Ependymoma: A Review of the Literature and Case Series of Ten
+   Patients." Journal of Neuro-Oncology. *Accepted.*
 
 {% comment %}
 
