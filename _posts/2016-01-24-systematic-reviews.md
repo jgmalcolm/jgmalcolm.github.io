@@ -93,6 +93,11 @@ list for later.
 
 ## Data analysis
 
+<figure class="thumb">
+  <img src="http://imgs.xkcd.com/comics/p_values.png">
+  <figcaption>xkcd.com/1478</figcaption>
+</figure>
+
 Simple descriptive statistics (mean, std) can be done in a spreadsheet.
 
 The Cochrane Collaboration provides [RevMan](http://tech.cochrane.org/revman)
