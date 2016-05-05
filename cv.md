@@ -74,11 +74,10 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Rima S. Rindler, Falgun H. Chokshi, James G. Malcolm, Sheila R. Eshraghi,
-   Mahmud Mossa-Basha, Jason Chu, Shekar N. Kurpad, Faiz Ahmad. "Spinal
-   diffusion tensor imaging in the evaluation of pre- and post-operative
-   severity in cervical spondylotic myelopathy: A systematic review of the
-   literature." *Submitted*.
+1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
+   Kurpad, FU Ahmad. "Spinal diffusion tensor imaging in the evaluation of
+   pre- and post-operative severity in cervical spondylotic myelopathy: A
+   systematic review of the literature." *Submitted*.
 
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, J Grossberg, G Pradilla,
    FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow Following
