@@ -120,11 +120,11 @@ should read about the Mantel-Haenszel method it uses.  I highly recommend
 setting up some toy problems in a spreadsheet so you know each step of
 calculating your effect measure (odds ratio, risk ratio) or difference measure
 (mean difference, standard mean difference), confidence intervals, weights,
-and pooled results along with p-values, Chi^2, heterogeneity (I^2).  (See
-Higgins [2002](http://www.ncbi.nlm.nih.gov/pubmed/12111919) and
-[2003](http://www.ncbi.nlm.nih.gov/pubmed/12958120).  This is important
-because many times your data is not in a form that RevMan accepts.  For
-example, to pool correlation coefficients (Pearson, Spearman) you have to
+and pooled results along with p-values, Chi<sup>2</sup>, heterogeneity
+(I<sup>2</sup>) (see
+[Higgins 2003](http://www.ncbi.nlm.nih.gov/pubmed/12958120)).  This is
+important because many times your data is not in a form that RevMan accepts.
+For example, to pool correlation coefficients (Pearson, Spearman) you have to
 first z-transform them to a normal distribution so you can get a standard
 error, run through the MH calculations, and then reverse z-transform to get
 back to a correlation coefficient.
@@ -136,12 +136,12 @@ is something like a blend of these.  Random-effects is for when you have a
 more heterogeneous set of studies and you think these represent a sampling of
 all possible studies.  Fixed-effects tends to have a tighter confidence
 interval while random is wider because you're less sure.  In practice, look at
-your heterogeneity measure (I^2) and whether it is significant (Chi^2); if
-significant (p < 0.05) then use random-effects, otherwise use fixed-effects.
-I'm sure the statisticians in the audience are cringing but this should be
-enough to get you started.  Most universities have some library or department
-staff available to help you navigate this, or get someone on board who's done
-these before.
+your heterogeneity measure (I<sup>2</sup>) and whether it is significant
+(Chi<sup>2</sup>); if significant (p < 0.05) then use random-effects,
+otherwise use fixed-effects.  I'm sure the statisticians in the audience are
+cringing but this should be enough to get you started.  Most universities have
+some library or department staff available to help you navigate this, or get
+someone on board who's done these before.
 
 {% comment %}
 TODO link to PDFs and example spreadsheets on MH, fixed/random,
