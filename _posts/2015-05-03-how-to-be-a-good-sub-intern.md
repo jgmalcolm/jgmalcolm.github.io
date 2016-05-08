@@ -92,7 +92,7 @@ than ever prioritize what to cover and how deeply to cover it.
 If they carry a ward cellphone, write down that number.  A quick phone call
 can save you lots of walking.  Go one step further and write down the number
 to the patient's bedside for quick questions and updates.  Obviously not all
-patients will be able to pick up the phone, but for some it be efficient.
+patients will be able to pick up the phone, but for some it is efficient.
 
 
 ## Morning rounds
