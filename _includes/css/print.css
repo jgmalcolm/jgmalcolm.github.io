@@ -8,6 +8,7 @@
       background: transparent !important;
       box-shadow: none !important;
       line-height: 1.2;
+      font-size: 12px;
   }
   a,a:visited {
       font-weight: 100;
