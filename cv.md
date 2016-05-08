@@ -68,9 +68,9 @@ me@jgmalcolm.com <br />
    after cranioplasty related to its timing? A systematic review and
    meta-analysis." Journal of Clinical Neuroscience. *Accepted.*
 
-1. E Celano, A Salehani, J Malcolm, E Reinertsen, CG Hadjipanayis. "Spinal
-   Cord Ependymoma: A Review of the Literature and Case Series of Ten
-   Patients." Journal of Neuro-Oncology. *Accepted.*
+1. E Celano, A Salehani, J Malcolm, E Reinertsen, CG
+   Hadjipanayis. ["Spinal Cord Ependymoma: A Review of the Literature and Case Series of Ten Patients."](/pubs/others/celano2016.pdf)
+   Journal of Neuro-Oncology. doi:10.1007/s11060-016-2135-8
 
 {% comment %}
 
