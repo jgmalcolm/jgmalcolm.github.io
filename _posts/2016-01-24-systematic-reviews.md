@@ -106,6 +106,10 @@ that visually depict the pooled analysis.  For the highest quality images,
 export to EPS and then [convert to TIFF][zamzar] if the journal requires that
 format.
 
+Before you really get too far into things, read the chapter on meta analyses
+from the [Biostat Handbook](http://www.biostathandbook.com/metaanalysis.html)
+online.  It has a nice illustrative example of garbage-in-garbage-out.
+
 **Blinded by significance.** As you're sorting through studies, avoid the urge
 to only hunt for significant findings.  Your job is to report the facts.  It
 may seem sexy to report that some procedure has significant complications, but
