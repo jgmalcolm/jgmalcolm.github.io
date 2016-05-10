@@ -306,11 +306,6 @@ me@jgmalcolm.com <br />
    filter. International Symposium on Magnetic Resonance in Medicine
    (ISMRM), page 3960, 2011.
 
-1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and
-   ME. Shenton. "Mixture model for estimating fiber ODF and multi-directional
-   tractography." International Symposium on Magnetic Resonance in Medicine
-   (ISMRM), page 3548, 2009.
-
 1. HP. Ng, M. Kubicki, J. Malcolm, Y. Rathi, P. Pelavin, R. W. McCarley, and
    ME. Shenton. "Diffusion two-tensor tractography study on inter-hemispheric
    connection between bilateral heschl's gyrus in schizophrenia."
@@ -323,10 +318,19 @@ me@jgmalcolm.com <br />
    2010.
 
 1. HP Ng, M Kubicki, P Pelavin, Y Rathi, J Malcolm, D Lucia, M Niznikiewicz, R
-   Kikinis, RW McCarley, ME Shenton. "Inter-Hemispheric Fiber Tracts Between
-   Bilateral Superior Temporal Gyrus Gray Matter and Its Asymmetry in Chronic
-   Schizophrenia" Harvard Mysell Research
-   Day, 2010. [Poster](/pubs/others/mysell_nghp.pdf)
+   Kikinis, RW McCarley, ME
+   Shenton. ["Inter-Hemispheric Fiber Tracts Between Bilateral Superior Temporal Gyrus Gray Matter and Its Asymmetry in Chronic Schizophrenia"](/pubs/others/mysell_nghp.pdf)
+   Harvard Mysell Research Day, 2010.
+
+1. Y Rathi, J Malcolm, S Bouix, CF Westin, ME
+   Shenton. ["False positive detection using filtered tractography."](/pubs/others/rathi-ismrm-false-positives.pdf)
+   International Symposium on Magnetic Resonance in Medicine (ISMRM), vol 18,
+   page 4019, 2010.
+
+1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and
+   ME. Shenton. "Mixture model for estimating fiber ODF and multi-directional
+   tractography." International Symposium on Magnetic Resonance in Medicine
+   (ISMRM), page 3548, 2009.
 
 1. G. Pryor, J. Melonakos, T. Rehman, J. Malcolm. "Jacket: The GPU engine
    for MATLAB." SuperComputing, 2008.
