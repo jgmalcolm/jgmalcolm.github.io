@@ -322,6 +322,12 @@ me@jgmalcolm.com <br />
    Schizophrenia." Schizophrenia Research, volume 117, pages 342-343, April
    2010.
 
+1. HP Ng, M Kubicki, P Pelavin, Y Rathi, J Malcolm, D Lucia, M Niznikiewicz, R
+   Kikinis, RW McCarley, ME Shenton. "Inter-Hemispheric Fiber Tracts Between
+   Bilateral Superior Temporal Gyrus Gray Matter and Its Asymmetry in Chronic
+   Schizophrenia" Harvard Mysell Research
+   Day, 2010. [Poster](/pubs/others/mysell_nghp.pdf)
+
 1. G. Pryor, J. Melonakos, T. Rehman, J. Malcolm. "Jacket: The GPU engine
    for MATLAB." SuperComputing, 2008.
 
