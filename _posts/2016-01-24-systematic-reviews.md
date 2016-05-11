@@ -108,7 +108,8 @@ format.
 
 Before you really get too far into things, read the chapter on meta analyses
 from the [Biostat Handbook](http://www.biostathandbook.com/metaanalysis.html)
-online.  It has a nice illustrative example of garbage-in-garbage-out.
+online.  It has a nice illustrative example of garbage-in-garbage-out.  In
+fact, read all of the articles on that site.
 
 **Blinded by significance.** As you're sorting through studies, avoid the urge
 to only hunt for significant findings.  Your job is to report the facts.  It
