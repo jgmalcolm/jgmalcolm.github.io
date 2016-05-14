@@ -154,3 +154,10 @@ code.hljs {
     clear: both;
   }
 }
+
+#search-box {
+    font-weight: bold;
+}
+#search-box td {
+    border: none;
+}
