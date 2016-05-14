@@ -30,8 +30,8 @@ caught.
 **[Day pack]** that stuffs down.  Ditch your big travel backpack and carry
 just the essentials while you're out and about.
 
-**Two pens and scratch paper.** You'll want pens that won't leak.  Folded
-computer paper or notecards are enough.
+**Two pens and scratch paper.** Use pens that won't leak.  Folded computer
+paper is good, but notecards might be more durable.
 
 **Granola bars, almonds, and other TSA-friendly snacks** for when you're
 caught between meals, tired of airplane food, or not interested in a $12
