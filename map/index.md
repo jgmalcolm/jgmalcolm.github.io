@@ -11,7 +11,7 @@ Atlanta, GA 30308</b>
 The building is called "Spire" at the corner of Peachtree & 7th.  You can
 enter the building from inside the parking deck (entrance at the top of the
 ramp between first and second levels), or by the Peachtree St main entrance.
-Ask the concierge to send you up to the 21st floor.
+Ask the concierge to send you up to the 21st floor and head to unit 2103.
 
 <iframe
 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.32288148116!2d-84.38455699999994!3d33.7781593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5046860d2b3d9%3A0xac6f097ed3fce256!2s860+Peachtree+St+NE+%232103%2C+Atlanta%2C+GA+30308!5e0!3m2!1sen!2sus!4v1390599823424"
@@ -43,12 +43,11 @@ be on your left as you turn), and park in the visitor deck on your left.
 
 ## Parking
 
-The map below shows a green star for our building which has pay parking on the
-bottom two floors.  Free parking is available on Juniper St on a first-come,
-first-served basis.  There are meters on 7th st, and there are two pay lots at
-the corners of Peachtree/7th and Peachtree/6th (yellow star).  On Sundays, the
-meters on 7th st are free.
+Our building has pay parking on the ground floor.  Free parking is available
+along Juniper St (blue).  There are two pay lots at the corners of
+Peachtree/7th and Peachtree/6th (green).  There are a few meters on 7th St
+(red).  On Sundays, the meters in Midtown are free.
 
-<a style="a:hover { border-bottom: none }" href="860_peachtree_st.png">
-  <img width="100%" src="860_peachtree_st.png" alt="Annotated map">
+<a style="a:hover { border-bottom: none }" href="parking.png">
+  <img width="100%" src="parking.png" alt="Annotated map">
 </a>
