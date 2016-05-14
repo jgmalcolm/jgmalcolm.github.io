@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Tag search"
+title: "Search"
 ---
 
 <div id="results"></div>
@@ -19,6 +19,9 @@ title: "Tag search"
 
   /* set title */
   var query = getParam("q");
+  if (query == "")
+    return;
+
   $(".content h1").html("posts about " + query);
   query = query.toLowerCase(); // case insensitive from here on
 
