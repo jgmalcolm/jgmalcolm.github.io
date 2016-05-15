@@ -1,19 +1,48 @@
 ---
 title: "How to write a scientific paper"
+description: "Organize the process, focus your goals, and order your writing"
 layout: post
-tags: [research]
+tags: [research,writing]
 ---
 
-write in the following order: abstract first and last
+Writing your first scientific paper for publication can be daunting.  In this
+post, I go through my general process for what to consider in each section,
+pitfalls to avoid, and how to handle the review process.
+
+This all assumes you've got the bulk of the results done.  It's normal that as
+you're writing, you come up with new experiments to prove out a point.  The
+manuscript evolves.
+
+
+## Write in order
+
+**Start by drafting the abstract.** This will define the general trajectory:
+research question, basic methods, highlighted result, conclusion.  The actual
+paper of course has many details, and may include experiments and results not
+mentioned in the abstract.
+
+**Finish by polishing the abstract.** You'll return to this abstract time and
+again, each time making sure it is in line with the rest of the paper.
+
+**Follow the reader's eyes.** Always keep your reader in mind.  The first
+thing they read is the title and abstract, so those need to be the most
+polished pieces.  Between drafting the abstract and its final touches, write
+in the order that they will read: right after reading the abstract, most
+people skim the figures and tables.  From there, the methods, results, and
+discussion.  For people familiar with a field, the conclusion and introduction
+are of lesser importance.  Conclusions are often redundant and low quality
+summaries, introductions are often filled with history you already know, and
+both are of less importance than the abstract, methods, and results.
 
 1. abstract (draft)
 1. figures and tables
 1. methods, results, discussion
 1. conclusions and introduction
-1. abstract and title
+1. abstract (polish) and title
 
 
-# Title
+
+## Title
 
 - will immediately give reviewer a gut feeling for accept/reject
 - state main finding
@@ -22,14 +51,14 @@ write in the following order: abstract first and last
 - good and bad examples
 
 
-# Abstract
+## Abstract
 
 - should stand alone
 - will solidify or dissolve the reviewer's level of interest
   - by the end, reviewers probably decide whether reject or resubmit
 
 
-# Introduction
+## Introduction
 
 - why should we care
 - give perspective
@@ -43,14 +72,14 @@ write in the following order: abstract first and last
   - oversell - 'novel', 'unique', 'first ever'
 
 
-# Methods
+## Methods
 
 - knowledgeable reader must be able to reproduce experiments
   - details, lots of details
   - consider supplementary materials
 
 
-# Results
+## Results
 
 - only essential results
 - consider supplementary materials
@@ -59,14 +88,14 @@ write in the following order: abstract first and last
 - order should mirror abstract & methods
 
 
-# Figures
+## Figures
 
 - use color sparingly
   - consider different line styles so looks okay in b&w
 - include necessary color/intensity scales
 
 
-# Discussion
+## Discussion
 
 - talk to the audience
 - do not introduce any new results here not already in results section
@@ -76,7 +105,7 @@ write in the following order: abstract first and last
     wonders 'what else is missing?'
 
 
-# Conclusions
+## Conclusions
 
 - how does your work advance the field
 - do not repeat abstract or list experimental results
@@ -84,13 +113,13 @@ write in the following order: abstract first and last
   working on
 
 
-# Acknowledgments
+## Acknowledgments
 
 - advisors, proof-readers, anyone who helped conduct experiments but may not
   have been justified a co-author spot
 
 
-# References
+## References
 
 - Mendeley, EndNote
 - while writing, don't get bogged down (Smith2002, Johnson2010)
@@ -100,7 +129,7 @@ write in the following order: abstract first and last
 
 
 
-# Responding to reviewers
+## Responding to reviewers
 
 - create a document with the reviews verbatim, reformat to be bold/italics,
   and answer inline with normal font
