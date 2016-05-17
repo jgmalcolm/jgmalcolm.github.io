@@ -42,12 +42,14 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
   [Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
 
+
 ## Software
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions:
   * [AdBlock] to knock out advertisements
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
   * [Google Drive Offline][offline] to enable editing documents and slides without internet
   * [Vimium] to quickly navigate and search pages without moving to the mouse
+  * [The Great Suspender] to suspend and save inactive tabs, saves CPU cycles and memory and battery
   * [Facebook bookmarklet][fb] to share pages with friends and family.
   * Useful ones that I don't use as much anymore:
     * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
@@ -77,6 +79,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 [Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
 [GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
+[The Great Suspender]: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg
 
 ## Services
 * [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
