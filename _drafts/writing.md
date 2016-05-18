@@ -143,3 +143,7 @@ both are of less importance than the abstract, methods, and results.
 - try to answer everything, but okay for minor points to acknowledge and
   justify not addressing.  Better to say you considered something and, while
   you didn't do exactly what is suggested, you did something similar.
+
+
+
+[nature]: http://blogs.nature.com/naturejobs/2014/11/03/how-to-get-published-in-high-impact-journals-big-research-and-better-writing/
