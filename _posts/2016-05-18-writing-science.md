@@ -1,5 +1,5 @@
 ---
-title: "How to write a scientific paper"
+title: "How to write and publish a scientific paper"
 description: "Organize the process, focus your goals, and order your writing"
 layout: post
 tags: [research,writing]
