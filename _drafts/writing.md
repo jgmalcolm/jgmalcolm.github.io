@@ -40,7 +40,7 @@ both are of less importance than the abstract, methods, and results.
 1. conclusions and introduction
 1. abstract (polish) and title
 
-
+{% comment %}
 
 ## Title
 
@@ -144,6 +144,6 @@ both are of less importance than the abstract, methods, and results.
   justify not addressing.  Better to say you considered something and, while
   you didn't do exactly what is suggested, you did something similar.
 
-
+{% endcomment %}
 
 [nature]: http://blogs.nature.com/naturejobs/2014/11/03/how-to-get-published-in-high-impact-journals-big-research-and-better-writing/
