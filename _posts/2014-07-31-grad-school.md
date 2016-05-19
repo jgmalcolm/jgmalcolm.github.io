@@ -189,6 +189,8 @@ make that the initial commit.  Only after that initial commit should you make
 any changes to get the code to run, e.g. changing hard coded
 values/parameters.
 
+  More: [Stealing Google's Coding Practices for Academia](https://da-data.blogspot.com/2016/04/stealing-googles-coding-practices-for.html)
+
 
 ## Every project needs its own page
 
