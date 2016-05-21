@@ -43,10 +43,11 @@ be on your left as you turn), and park in the visitor deck on your left.
 
 ## Parking
 
-Our building has pay parking on the ground floor.  Free parking is available
-along Juniper St (blue).  There are two pay lots at the corners of
-Peachtree/7th and Peachtree/6th (green).  There are a few meters on 7th St
-(red).  On Sundays, the meters in Midtown are free.
+In the map below, our building is marked by the little "home" icon.  There is
+pay parking on the ground floor ($5/3hr).  Free parking is available along
+Juniper St (blue).  There are two pay lots at the corners of Peachtree/7th and
+Peachtree/6th (green).  There are a few meters on 7th St (red).  On Sundays,
+the meters in Midtown are free.
 
 <a style="a:hover { border-bottom: none }" href="parking.png">
   <img width="100%" src="parking.png" alt="Annotated map">
