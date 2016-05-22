@@ -24,3 +24,6 @@ https://mademistakes.com/articles/going-static/
 * Matt Might
   ["How to blog as an academic"](http://matt.might.net/articles/how-to-blog-as-an-academic/)
 * http://john.do/today/
+
+
+[github-seo]: https://help.github.com/articles/search-engine-optimization-for-github-pages/
