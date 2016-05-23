@@ -1,7 +1,7 @@
 ---
 title: "How to write a systematic review and meta-analysis"
-description: "How to get organized, define your scope, and not get bogged down."
-tags: [medicine,research]
+description: "Get organized, define your scope, and don't get bogged down."
+tags: [medicine,research,writing]
 layout: post
 ---
 
