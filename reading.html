@@ -38,8 +38,11 @@ function hostname(url) {
     for (var i = 0; i < entries.length; i++) {
         if (/^Sponsored:/.test(entries[i].title))
             continue;
-        feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b><br>'
-                + '<i>' + hostname(entries[i].link) + '</i></p>';
+        quote = '';
+        if (entries[i].content && !/\u2026$/.test(entries[i].content))
+            quote = '<br>"' + entries[i].content + '"';
+        feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b> '
+                + '<i>' + hostname(entries[i].link) + '</i>' + quote + '</p>';
     }
     $('#feed').append(feed);
 });
