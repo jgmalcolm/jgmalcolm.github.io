@@ -16,11 +16,11 @@ me@jgmalcolm.com <br />
 
 ## Education
 
-### Emory School of Medicine, Atlanta, GA
+**Emory School of Medicine, Atlanta, GA**
 
 - MD, expected May 2017
 
-### Georgia Institute of Technology, Atlanta, GA
+**Georgia Institute of Technology, Atlanta, GA**
 
 - PhD Electrical and Computer Engineering, October 2010
   - Thesis: [Filtered Tractography](/pubs/research.html)
