@@ -10,7 +10,7 @@
       line-height: 1.2;
       font-size: 12px;
   }
-  h1 { font-size: 18px !important; }
+  h1 { font-size: 18px; text-align: center; }
   h1 b { font-size: 18px; }
   h2 { font-size: 15px; }
   a,a:visited {
