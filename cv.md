@@ -404,7 +404,7 @@ me@jgmalcolm.com <br />
 <!--
 // highlight all references to self
 var html = $('main').html();
-$('main').html(html.replace(/[JG .]*Malcolm/g, '<strong>$&</strong>')
+$('main').html(html.replace(/[JG .]*Malcolm/g, '<b>$&</b>')
                    .replace(/doi:(10.(\d)+\/([^\s<])+)/g, "<a href='http://doi.org/$1'>doi:$1</a>"));
 //-->
 </script>
