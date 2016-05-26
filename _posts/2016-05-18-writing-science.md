@@ -40,16 +40,35 @@ both are of less importance than the abstract, methods, and results.
 1. conclusions and introduction
 1. abstract (polish) and title
 
-{% comment %}
+
+
 
 ## Title
 
-- will immediately give reviewer a gut feeling for accept/reject
-- state main finding
-- avoid technical jargon
-  - wide reader catchment
-- good and bad examples
+**Put your main conclusion in the title..** This is truly the first thing
+anyone sees, so make it count.  If they remember nothing from your paper, they
+at least know the main finding.
 
+* Bad: "The effect of Tylenol on headache symptoms"
+* Good: "Tylenol decreases headache symptoms"
+
+**Title: Subtitle.** Take the liberty of breaking your title up to squeeze in
+more information.  Many choose the subtitle to describe the type of study.
+
+* Good: "Tylenol decreases headache symptoms"
+* Better: "Tylenol decreases headache symptoms: A randomized controlled trial"
+
+**Avoid technical jargon.** Try to avoid acronyms where possible, unless it's
+truly understood through the vast majority of your readership.  You want a
+wide reader catchment.
+
+**Gut check.** After reading just your title, reviewers will already have a
+gut feeling of whether they are interested in a paper, and maybe even a bias
+to accept/reject.
+
+
+
+{% comment %}
 
 ## Abstract
 
