@@ -287,15 +287,16 @@ me@jgmalcolm.com <br />
    Review." American Society of Neuroradiology (ASNR) 2016.  Accepted for
    poster.
 
-1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects
-   of Cranioplasty on Cerebral Bloodflow: A Systematic Review of the
-   Literature" Georgia Neurological Surgeons Annual Fall Meeting; Reynolds
+1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
+   Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
+   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December 4-6, 2015. Platform Presentation.
 
 1. JG Malcolm, RS Rindler, FU Ahmad.
    ["Aseptic Bone Resorption Following Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors."](/pubs/malcolm2015resorption.pdf)
-   Georgia Neurological Surgeons Annual Fall Meeting; Reynolds Plantation,
-   GA. December 4-6, 2015. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
+   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
+   Plantation, GA. December
+   4-6, 2015. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 
 1. R Rindler, F Chokshi, S Eshraghi, M Mossa-Basha, **J Malcolm**, J Chu, F
    Ahmad. ["Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative Outcome in Cervical Degenerative Pathologies: A systematic review of the literature."](/pubs/others/rindler-CNS2016-SS.docx)
@@ -303,7 +304,7 @@ me@jgmalcolm.com <br />
    [Oral presentation](/pubs/others/rindler-CNS2016-22.pdf).
 
 1. J. Malcolm, A. Webster, and R. Langah. "Cirrhosis: A red flag when treating
-   cellulitis." American College of Physicians, Georgia Chapter
+   cellulitis." American College of Physicians (ACP), Georgia Chapter
    Conference. October 2015.
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
