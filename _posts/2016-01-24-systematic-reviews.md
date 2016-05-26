@@ -190,14 +190,16 @@ discussion; it is merely an introduction of topics.  Second paragraph
 motivates your work:  what question are you seeking to answer?  You must have
 a good motivation, not simply "Previous studies suck. I could do better."
 
-**Discussion.** Break it into sections for each of the topics.  Don't spend
-time on things that were not significant.  For each topic, highlight papers
-that found significant findings, even if your pooled analysis found no
-significance.  This is an opportunity to amplify the signal buried in the
-noise.  You don't need to wring every nugget from each paper; just highlight
-one takeaway for each.  When citing another paper's significant finding, don't
-include their p-value; that lacks sufficient context.  If the reader is
-interested, they can follow the citation to read the full paper.
+**Discussion.** Break it into sections for each of the topics.  From most
+studies, you'll generally only be including information that's mentioned in
+the abstract; anything else buried inside a paper is not likely important.
+For each topic, highlight the papers where that topic was a primary outcome.
+You don't need to wring every nugget from each paper; just highlight one
+takeaway for each.  When citing another paper's finding, don't include their
+p-value; that [lacks sufficient context][538].  If the reader is interested,
+they can follow the citation to read the full paper.
+
+  [538]: http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/
 
 **Citations.** Don't get caught up in citations; it can distract from your
 communication.  Focus first on saying what you want to say in the order you
