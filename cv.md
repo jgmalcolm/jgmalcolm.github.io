@@ -255,7 +255,7 @@ me@jgmalcolm.com <br />
 1.  Malcolm, Rindler, Chu, Pradilla, Ahmad.
     ["Complications and neurologic improvement associated with timing of cranioplasty: A systematic review and meta-analysis."](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
     Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
-    SC. June 2016. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
+    SC. May 2016. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
    Ahmad. ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
