@@ -45,7 +45,7 @@ both are of less importance than the abstract, methods, and results.
 
 ## Title
 
-**Put your main conclusion in the title..** This is truly the first thing
+**Put your main conclusion in the title.** This is truly the first thing
 anyone sees, so make it count.  If they remember nothing from your paper, they
 at least know the main finding.
 
