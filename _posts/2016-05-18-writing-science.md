@@ -53,7 +53,7 @@ at least know the main finding.
 * Good: "Tylenol decreases headache symptoms"
 
 **Title: Subtitle.** Take the liberty of breaking your title up to squeeze in
-more information.  Many choose the subtitle to describe the type of study.
+more information.  You could use the subtitle to describe the type of study.
 
 * Good: "Tylenol decreases headache symptoms"
 * Better: "Tylenol decreases headache symptoms: A randomized controlled trial"
