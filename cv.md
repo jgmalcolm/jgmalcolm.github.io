@@ -413,6 +413,12 @@ me@jgmalcolm.com <br />
 * American Association of Neurological Surgeons
 
 
+## Hobbies
+
+* Computer & web programming ([Pharm450.com](//pharm450.com))
+* Running and cycling (10 marathons, 1 ultra-marathon, 2 Ironman 70.3, 2 century rides, etc.)
+* Electronics tinkering
+
 <script>
 <!--
 // highlight all references to self
