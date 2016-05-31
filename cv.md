@@ -91,6 +91,10 @@ me@jgmalcolm.com <br />
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad. "Early urgent cranioplasty for
    symptomatic pseudomeningocele: report of two cases." *Submitted*
 
+1. Malcolm, Tan, Johnson. "Image-guided oblique lateral mass screw insertion
+   for primary internal fixation of a unilateral C1 lateral mass oblique
+   sagittal split fracture: technical case report." *In preparation*
+
 {% endcomment %}
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and
