@@ -36,8 +36,6 @@ function hostname(url) {
 })(rss, function(feed){
     var entries = feed.entries, feed = '';
     for (var i = 0; i < entries.length; i++) {
-        if (/^Sponsored:/.test(entries[i].title))
-            continue;
         quote = '';
         if (entries[i].content && !/\u2026$/.test(entries[i].content))
             quote = '<br>"' + entries[i].content + '"';
