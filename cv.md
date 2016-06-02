@@ -87,13 +87,13 @@ me@jgmalcolm.com <br />
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad. "Early urgent cranioplasty for
    symptomatic pseudomeningocele: report of two cases." *Submitted*
 
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Early cranioplasty is
+   associated with greater neurologic improvement: A systematic review and
+   meta-analysis." *Submitted*
+
 1. Malcolm, Tan, Johnson. "Image-guided oblique lateral mass screw insertion
    for primary internal fixation of a unilateral C1 lateral mass oblique
    sagittal split fracture: technical case report." *In preparation*
-
-1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad. "Earlier cranioplasty is
-   associated with greater neurologic improvement: A systematic review and
-   meta-analysis." *In preparation*
 
 {% endcomment %}
 
