@@ -97,17 +97,18 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. S. Lienhard, J. Malcolm, C.-F. Westin, and
-   Y. Rathi. [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
+1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi.
+   [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
    Advances in Signal Processing, 77, 2011.
 
-1. T. Larsen, G. Pryor, and
-   J. Malcolm. [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
+1. T. Larsen, G. Pryor, and J. Malcolm.
+   [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
    *GPU Gems*, chapter 28, pages 387-398. 2011.
 
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
    A. Ramirez, M. Reisert, K Sakaie, F. Tensaouti, T. Yo, J.-F. Mangin, and
-   C. Poupon. [Quantitative evaluation of 10 tractography algorithms on a realistic diffusion MR phantom](/pubs/others/fillard2011fc.pdf). NeuroImage,
+   C. Poupon.
+   [Quantitative evaluation of 10 tractography algorithms on a realistic diffusion MR phantom](/pubs/others/fillard2011fc.pdf). NeuroImage,
    56(1):220-234, 2011.
 
 1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
@@ -115,41 +116,43 @@ me@jgmalcolm.com <br />
    "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
    pages 403-424. Springer, 2011.
 
-1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Transactions
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
+   [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Transactions
    on Medical Imaging, 29:1664-1675, 2010.
 
 1. J. G. Malcolm, O. Michailovich, S. Bouix, C.-F. Westin, M. E. Shenton, and
-   Y. Rathi. [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf). Medical
+   Y. Rathi.
+   [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf). Medical
    Image Analysis, 14:58-69, 2010.
 
 1. Y. Rathi, J. G. Malcolm, O. Michailovich, C.-F. Westin, M. E. Shenton, and
-   S. Bouix. [Tensor-kernels for simultaneous fiber model estimation and tractography](/pubs/others/rathi2010mrm.pdf).
+   S. Bouix.
+   [Tensor-kernels for simultaneous fiber model estimation and tractography](/pubs/others/rathi2010mrm.pdf).
    Magnetic Resonance in Medicine, 64(1):138-148, 2010.
 
 1. N. Y. R. Agar, J. G. Malcolm, V. Mohan, H. W. Yang, M. D. Johnson,
-   A. Tannenbaum, J. N. Agar, and
-   P. M. Black. [Imaging of meningioma progression by matrix-assisted laser desorption ionization time-of-flight mass spectrometry](/pubs/others/agar2010ac.pdf). Analytic
+   A. Tannenbaum, J. N. Agar, and P. M. Black.
+   [Imaging of meningioma progression by matrix-assisted laser desorption ionization time-of-flight mass spectrometry](/pubs/others/agar2010ac.pdf). Analytic
    Chemistry, 82(7):2621-5, Apr 2010.
 
-1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and
-   M. E. Shenton. [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). Journal
+1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and M. E. Shenton.
+   [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). Journal
    of Computing, 2(4):1-11, 2010.
 
-1. P. Vela, A. Betser, J. Malcolm, and
-   A. Tannenbaum. [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Transactions
+1. P. Vela, A. Betser, J. Malcolm, and A. Tannenbaum.
+   [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Transactions
    on Control Systems Technology, 17(2):442-448, 2009.
 
-1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and
-   A. Tannenbaum. ["Distribution metrics and image segmentation."](/pubs/others/georgiou_metrics.pdf),
+1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and A. Tannenbaum.
+   ["Distribution metrics and image segmentation."](/pubs/others/georgiou_metrics.pdf),
    Linear Algebra and its Applications 2(425):663-672, 2007.
 
 
 ## Conference
 
 1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
-   Mohammed, Spafford, Venugopalakrishnan,
-   Malcolm. ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
+   Mohammed, Spafford, Venugopalakrishnan, Malcolm.
+   ["Productive high-performance software for OpenCL devices."](/pubs/others/melonakos2013.pdf)
    *Proceedings of the SPIE*, Volume 8752, 2013.
 
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
@@ -159,19 +162,19 @@ me@jgmalcolm.com <br />
    volume 8403, 2011.
 
 1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
-   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and
-   J. Malcolm. ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
+   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
+   ["High-level GPU computing with Jacket for MATLAB and C/C++."](/pubs/others/pryor2011.pdf)
    *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
    volume 8060, 2011.
 
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
-   R. W. McCarley, C.-F. Westin, and
-   M. E. Shenton. [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf).
+   R. W. McCarley, C.-F. Westin, and M. E. Shenton.
+   [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf).
    *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 6361, pages 657-665, 2010.
 
-1. P. Savadjiev, Y. Rathi, J. G. Malcolm, M. E. Shenton, and
-   C.-F. Westin. [A geometry-based particle filtering approach to white matter tractography](/pubs/others/savadjiev2010miccai.pdf).
+1. P. Savadjiev, Y. Rathi, J. G. Malcolm, M. E. Shenton, and C.-F. Westin.
+   [A geometry-based particle filtering approach to white matter tractography](/pubs/others/savadjiev2010miccai.pdf).
    *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 6362, pages 233-240, 2010.
 
@@ -179,21 +182,21 @@ me@jgmalcolm.com <br />
    [Filtered tractography:  Validation on a physical phantom](/pubs/malcolm_fc.pdf).
    *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 220-223, 2009.
 
-1. J. G. Malcolm, M. Kubicki, M. E. Shenton, and
-   Y. Rathi. [The effect of local fiber model on population studies](/pubs/malcolm_study.pdf).
+1. J. G. Malcolm, M. Kubicki, M. E. Shenton, and Y. Rathi.
+   [The effect of local fiber model on population studies](/pubs/malcolm_study.pdf).
    *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 33-40, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Filtered tractography: State estimation in a constrained subspace](/pubs/malcolm_cukf_ext.pdf).
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
+   [Filtered tractography: State estimation in a constrained subspace](/pubs/malcolm_cukf_ext.pdf).
    *Diffusion Modeling and Fiber Cup (in MICCAI)*, pages 122-133, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Two-tensor tractography using a constrained filter](/pubs/malcolm_cukf.pdf).
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
+   [Two-tensor tractography using a constrained filter](/pubs/malcolm_cukf.pdf).
    *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
    volume 12, pages 894-902, 2009.
 
-1. J. G. Malcolm, M. E. Shenton, and
-   Y. Rathi. [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf).
+1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
+   [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf).
    *Information Processing in Medical Imaging (IPMI)*, pages 126-138, 2009.
 
 1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum.
@@ -202,30 +205,30 @@ me@jgmalcolm.com <br />
    volume 11, pages 416-424, 2008. **Runner-Up, MICCAI Young Scientist
    Award.**
 
-1. P. Karasev, J. Malcolm, and
-   A. Tannenbaum. [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf).
+1. P. Karasev, J. Malcolm, and A. Tannenbaum.
+   [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf).
    *International Conference on Image Processing (ICIP)*, pages 2728-2731,
    2008.
 
-1. S. Lankton, J. Malcolm, A. Nakhmani, and
-   A. Tannenbaum. [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
+1. S. Lankton, J. Malcolm, A. Nakhmani, and A. Tannenbaum.
+   [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
    *International Conference on Image Processing (ICIP)*, pages 241-244, 2008.
 
-1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and
-   A. Tannenbaum. [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf).
+1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and A. Tannenbaum.
+   [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf).
    *Mathematical Methods in Biomedical Image Analysis (MMBIA)*, pages 1-8,
    2008.
 
-1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf). *Combinatorial
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
+   [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf). *Combinatorial
    Image Analysis*, pages 185-196, 2008.
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and
-   A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+   [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
    *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
 
-1. J. Malcolm, Y. Rathi, A. Yezzi, and
-    A. Tannenbaum. [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf). *SPIE
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf). *SPIE
     Electronic Imaging*, 2008. DOI:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
@@ -234,24 +237,24 @@ me@jgmalcolm.com <br />
    *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
    6914, 2008. DOI:10.1117/12.769511
 
-1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
+   [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
    *Component Analysis Methods (in CVPR)*, pages 1-8, 2007.
 
-1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [Multi-object tracking through clutter using graph cuts](/pubs/malcolm_mdp.pdf).
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
+   [Multi-object tracking through clutter using graph cuts](/pubs/malcolm_mdp.pdf).
    *Non-rigid Registration and Tracking Through Learning (in ICCV)*, 2007.
 
-1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [Tracking through clutter using graph cuts](/pubs/malcolm_dp.pdf).
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
+   [Tracking through clutter using graph cuts](/pubs/malcolm_dp.pdf).
    *British Machine Vision Conference (BMVC)*, 2007.
 
-1. J. Malcolm, Y. Rathi, and
-   A. Tannenbaum. [Graph cut segmentation with nonlinear shape priors](/pubs/malcolm_shape.pdf).
+1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
+   [Graph cut segmentation with nonlinear shape priors](/pubs/malcolm_shape.pdf).
    *International Conference on Image Processing (ICIP)*, pages 365-368, 2007.
 
-1. Y. Rathi, O. Michailovich, J. Malcolm, and
-   A. Tannenbaum. [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf).
+1. Y. Rathi, O. Michailovich, J. Malcolm, and A. Tannenbaum.
+   [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf).
    *Conference on Signal and Image Processing*, volume 534, 2006.
 
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
@@ -266,24 +269,25 @@ me@jgmalcolm.com <br />
 1.  Malcolm, Rindler, Chu, Pradilla, Ahmad.
     ["Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis."](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
     Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
-    SC. May 2016. [Platform Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
+    SC. May 2016.
+    [Platform Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
 
-1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
-   Ahmad. ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
+   ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
    Congress of Neurological Surgeons (CNS) 2016. Accepted for poster.
 
-1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla,
-   Ahmad. ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
+1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla, Ahmad.
+   ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
    American Association of Neurologic Surgeons (AANS) 2016. Accepted for
    [poster](/pubs/others/rindler-AANS2016.pdf).
 
-1. Malcolm, Rindler, Chu, Grossberg, Pradilla,
-   Ahmad. ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-complications.docx)
+1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
+   ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-complications.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
    [poster](https://docs.google.com/presentation/d/1AZprarjLpPdDYihUKy9R5mZ1K4_8sj6Bgjn7HlX5Wkg/pub?start=false&loop=false&delayms=3000).
 
-1. Malcolm, Rindler, Chu, Chokshi, Pradilla,
-   Ahmad. ["Is Earlier Cranioplasty Associated With Greater Neurologic Improvement?  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-neurologic.docx)
+1. Malcolm, Rindler, Chu, Chokshi, Pradilla, Ahmad.
+   ["Is Earlier Cranioplasty Associated With Greater Neurologic Improvement?  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-neurologic.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
    [poster](https://docs.google.com/presentation/d/1O3pRUKAsUpjQouJ_b3-O6WNz-WbzxCmQeIHWJcajxJE/pub?start=false&loop=false&delayms=3000).
 
