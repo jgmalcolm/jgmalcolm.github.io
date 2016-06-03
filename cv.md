@@ -70,7 +70,7 @@ me@jgmalcolm.com <br />
 
 1. E Celano, A Salehani, J Malcolm, E Reinertsen, CG Hadjipanayis.
    ["Spinal Cord Ependymoma: A Review of the Literature and Case Series of Ten Patients."](/pubs/others/celano2016.pdf)
-   Journal of Neuro-Oncology. doi:10.1007/s11060-016-2135-8
+   Journal of Neuro-Oncology. DOI:10.1007/s11060-016-2135-8 PMID:27154165
 
 {% comment %}
 
@@ -222,17 +222,17 @@ me@jgmalcolm.com <br />
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and
    A. Tannenbaum. [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
-   *SPIE Medical Imaging*, 2008. doi:10.1117/12.771080
+   *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and
     A. Tannenbaum. [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf). *SPIE
-    Electronic Imaging*, 2008. doi:10.1117/12.768546
+    Electronic Imaging*, 2008. DOI:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
    and A. Tannenbaum.
    [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
    *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
-   6914, 2008. doi:10.1117/12.769511
+   6914, 2008. DOI:10.1117/12.769511
 
 1. J. Malcolm, Y. Rathi, and
    A. Tannenbaum. [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
@@ -428,6 +428,7 @@ me@jgmalcolm.com <br />
 // highlight all references to self
 var html = $('main').html();
 $('main').html(html.replace(/[JG .]*Malcolm/g, '<b>$&</b>')
-                   .replace(/doi:(10.(\d)+\/([^\s<])+)/g, "<a href='http://doi.org/$1'>doi:$1</a>"));
+                   .replace(/DOI:(10.(\d)+\/([^\s<,])+)/gi, "<a href='http://doi.org/$1'>DOI:$1</a>")
+                   .replace(/PMID:([^\s<,]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pubmed/$1'>PMID:$1</a>"));
 //-->
 </script>
