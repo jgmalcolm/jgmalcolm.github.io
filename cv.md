@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "James G Malcolm"
-updated: 2-May-2016
 keywords: resume, cv
 permalink: /cv/
 ---
@@ -11,8 +10,6 @@ permalink: /cv/
 me@jgmalcolm.com <br />
 <a href="http://jgmalcolm.com">http://jgmalcolm.com</a> <br />
 (770) 856-9045
-
-*Updated {{ page.updated | date: '%-d %B %Y' }}*
 
 ## Education
 
