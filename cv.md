@@ -256,7 +256,7 @@ me@jgmalcolm.com <br />
 
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
-   *Conference on Guidance, Navigation, and Control*, 2005.
+   *Conference on Guidance, Navigation, and Control*, 2005. doi:10.2514/6.2005-6001
 
 
 
