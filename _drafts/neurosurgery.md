@@ -53,3 +53,9 @@ Publications
   off.  Learn one important step you'll watch for the next day.
 * Prepare answers for the obvious questions: Why neurosurgery? What's your
   research about?
+
+
+- Delman's three qualities
+  - integrity
+  - compassion
+  - passion
