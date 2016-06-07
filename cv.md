@@ -313,7 +313,7 @@ me@jgmalcolm.com <br />
 1. Rindler, Chokshi, Malcolm, Eshraghi, Mossa-Basha, Chu, Ahmad.
    ["Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative Outcome in Cervical Degenerative Pathologies: A systematic review of the literature."](/pubs/others/rindler-CNS2016-SS.docx)
    CNS Spine Summit. March 2016. Selected for
-   [Oral presentation](/pubs/others/rindler-CNS2016-22.pdf).
+   [Oral presentation](/pubs/others/rindler-CNS2016-SS.pdf).
 
 1. J. Malcolm, A. Webster, and R. Langah. "Cirrhosis: A red flag when treating
    cellulitis." American College of Physicians (ACP), Georgia Chapter
