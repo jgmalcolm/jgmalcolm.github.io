@@ -412,6 +412,13 @@ me@jgmalcolm.com <br />
 * Advanced Trauma and Life Support, Course Coordinator (ID 597883)
 
 
+## Awards
+
+* Outstanding Undergraduate Teaching Assistant, Georgia Tech, Dept. of Computer Science (2003)
+* Eagle Scout, Boy Scouts (1999)
+
+
+
 ## Organizations
 
 * Congress of Neurological Surgeons
