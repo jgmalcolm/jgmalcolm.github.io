@@ -40,7 +40,7 @@ function hostname(url) {
         if (entries[i].content && !/\u2026$/.test(entries[i].content))
             quote = '<br>"' + entries[i].content + '"';
         feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b>'
-                + '<i>@' + hostname(entries[i].link) + '</i>' + quote + '</p>';
+                + ' <i>@' + hostname(entries[i].link) + '</i>' + quote + '</p>';
     }
     $('#feed').append(feed);
 });
