@@ -232,7 +232,7 @@ me@jgmalcolm.com <br />
    and A. Tannenbaum.
    [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
    *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
-   6914, 2008. DOI:10.1117/12.769511
+   6914, 2008.  DOI:10.1117/12.769511
 
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
    [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
@@ -249,6 +249,7 @@ me@jgmalcolm.com <br />
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
    [Graph cut segmentation with nonlinear shape priors](/pubs/malcolm_shape.pdf).
    *International Conference on Image Processing (ICIP)*, pages 365-368, 2007.
+   DOI:10.1109/ICIP.2007.4380030
 
 1. Y. Rathi, O. Michailovich, J. Malcolm, and A. Tannenbaum.
    [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf).
