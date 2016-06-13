@@ -107,11 +107,14 @@ to accept/reject.
 - order should mirror abstract & methods
 
 
-## Figures
+## Figures & Tables
 
 - use color sparingly
   - consider different line styles so looks okay in b&w
 - include necessary color/intensity scales
+- first sentence of caption tells you what you're looking at, second sentence
+  tells you what to take away
+- tables report data, figures show trends
 
 
 ## Discussion
