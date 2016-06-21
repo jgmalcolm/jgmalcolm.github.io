@@ -82,7 +82,7 @@ me@jgmalcolm.com <br />
    *Submitted*
 
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad. "Early urgent cranioplasty for
-   symptomatic pseudomeningocele: report of two cases." *Submitted*
+   symptomatic hygroma: report of two cases." *Submitted*
 
 1. Malcolm, Rindler, Chu, Chokshi, Grossberg, Pradilla, Ahmad. "Early
    cranioplasty is associated with greater neurologic improvement: A
