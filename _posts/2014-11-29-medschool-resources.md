@@ -195,12 +195,13 @@ depend on your weaknesses and learning style.
   facts that will clutter the card.
 * Combine these with [Picmonic]
 
-{% comment %}
+<div style="display:none">
 
 ### [Sketchy Micro](http://sketchymicro.com)  {#sketchy-micro}
 
   [Sketchy Micro]: #sketchy-micro
 
+* Re-branded to [Sketchy Medical](http://sketchymedical.com)
 * video [memory scenes] of 47 bacteria, dynamically drawn while narrated with
   teaching points
 * create free account to get *Staph*, *Strep*, and *Enterococcus*, and
@@ -212,7 +213,7 @@ depend on your weaknesses and learning style.
 * After the "required" First Aid, Pathoma, and UWorld, I would say that
   **Sketchy Micro was the best money I spent** on learning materials.
 
-{% endcomment %}
+</div>
 
 ### [Picmonic](http://picmonic.com)  {#picmonic}
 
