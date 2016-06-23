@@ -89,6 +89,10 @@ me@jgmalcolm.com <br />
    systematic review and meta-analysis." *Submitted*
 
 
+1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
+   symptomatic cavernous malformations: imaging and clinical outcomes at one
+   year." *In preparation*
+
 1. Malcolm, Tan, Johnson. "Image-guided oblique lateral mass screw insertion
    for primary internal fixation of a unilateral C1 lateral mass oblique
    sagittal split fracture: technical case report." *In preparation*
