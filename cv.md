@@ -88,9 +88,22 @@ me@jgmalcolm.com <br />
    cranioplasty is associated with greater neurologic improvement: A
    systematic review and meta-analysis." *Submitted*
 
+
 1. Malcolm, Tan, Johnson. "Image-guided oblique lateral mass screw insertion
    for primary internal fixation of a unilateral C1 lateral mass oblique
    sagittal split fracture: technical case report." *In preparation*
+
+1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
+   anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
+
+1. VPS meta-analysis *In preparation*
+
+1. Materials meta-analysis *In preparation*
+
+1. Spinal DTI review
+
+1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
+   Therapy in Spinal Cord Injury: A Review." *In preparation*
 
 {% endcomment %}
 
