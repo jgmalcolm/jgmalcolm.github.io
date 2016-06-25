@@ -111,6 +111,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
+   Degenerated/Collapsed Disc." *eXtreme Lateral Interbody Fusion (XLIF)*,
+   editors JA Goodrich and IJ Volcan, chapter 23, pages 301-317, 2013.
+
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi.
    [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
    Advances in Signal Processing, 77, 2011.
