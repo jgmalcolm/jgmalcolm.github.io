@@ -105,7 +105,7 @@ me@jgmalcolm.com <br />
 
 1. Materials meta-analysis *In preparation*
 
-1. Spinal DTI review
+1. Spinal DTI review. *In preparation*
 
 1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
    Therapy in Spinal Cord Injury: A Review." *In preparation*
