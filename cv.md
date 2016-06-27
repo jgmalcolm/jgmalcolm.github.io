@@ -133,7 +133,7 @@ me@jgmalcolm.com <br />
 1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
    [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
    "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
-   pages 403-424. Springer, 2011.
+   pages 403-424. Springer, 2011. doi:10.1007/978-3-642-15816-2_16
 
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Transactions
