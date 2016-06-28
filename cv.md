@@ -347,9 +347,10 @@ me@jgmalcolm.com <br />
    CNS Spine Summit. March 2016. Selected for
    [Oral presentation](/pubs/others/rindler-CNS2016-SS.pdf).
 
-1. J. Malcolm, A. Webster, and R. Langah. "Cirrhosis: A red flag when treating
-   cellulitis." American College of Physicians (ACP), Georgia Chapter
-   Conference. October 2015.
+1. J. Malcolm, A. Webster, and R. Langah.
+   ["Cirrhosis: A red flag when treating cellulitis."](/pubs/malcolm_cirrhosis-abstract.pdf)
+   American College of Physicians (ACP), Georgia Chapter Conference. October
+   2015.  [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
    neural tractography algorithm using the unscented Kalman
