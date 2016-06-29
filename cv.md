@@ -101,11 +101,17 @@ me@jgmalcolm.com <br />
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
 
-1. VPS meta-analysis *In preparation*
+1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
+   infection and resorption are associated with presence of a
+   ventriculoperitoneal shunt: A systematic review and meta-analysis."  *In
+   preparation*
 
-1. Materials meta-analysis *In preparation*
+1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla,
+   Ahmad. "Autologous cranioplasty is associated with increased reoperation: A
+   systematic review and meta-analysis." *In preparation*
 
-1. Spinal DTI review. *In preparation*
+1. Li, Malcolm, Rindler, ... Ahmad.  "The Role of Diffusion Tensor Imaging In
+   Spinal Pathology: A Review".  *In preparation*
 
 1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
    Therapy in Spinal Cord Injury: A Review." *In preparation*
