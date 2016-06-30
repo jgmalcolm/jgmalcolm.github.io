@@ -106,9 +106,9 @@ me@jgmalcolm.com <br />
    ventriculoperitoneal shunt: A systematic review and meta-analysis."  *In
    preparation*
 
-1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla,
-   Ahmad. "Autologous cranioplasty is associated with increased reoperation: A
-   systematic review and meta-analysis." *In preparation*
+1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
+   "Choice of cranioplasty material not associated with infection or
+   reoperation: A systematic review and meta-analysis." *In preparation*
 
 1. Li, Malcolm, Rindler, ... Ahmad.  "The Role of Diffusion Tensor Imaging In
    Spinal Pathology: A Review".  *In preparation*
