@@ -119,7 +119,7 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
-   Degenerated/Collapsed Disc." *eXtreme Lateral Interbody Fusion (XLIF)*,
+   Degenerated/Collapsed Disc." In *eXtreme Lateral Interbody Fusion (XLIF)*,
    editors JA Goodrich and IJ Volcan, chapter 23, pages 301-317, 2013.
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi.
@@ -133,8 +133,8 @@ me@jgmalcolm.com <br />
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
    A. Ramirez, M. Reisert, K Sakaie, F. Tensaouti, T. Yo, J.-F. Mangin, and
    C. Poupon.
-   [Quantitative evaluation of 10 tractography algorithms on a realistic diffusion MR phantom](/pubs/others/fillard2011fc.pdf). NeuroImage,
-   56(1):220-234, 2011.
+   [Quantitative evaluation of 10 tractography algorithms on a realistic diffusion MR phantom](/pubs/others/fillard2011fc.pdf).
+   NeuroImage, 56(1):220-234, 2011.
 
 1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
    [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
@@ -142,13 +142,13 @@ me@jgmalcolm.com <br />
    pages 403-424. Springer, 2011. doi:10.1007/978-3-642-15816-2_16
 
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
-   [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf). Transactions
-   on Medical Imaging, 29:1664-1675, 2010.
+   [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf).
+   Transactions on Medical Imaging, 29:1664-1675, 2010.
 
 1. J. G. Malcolm, O. Michailovich, S. Bouix, C.-F. Westin, M. E. Shenton, and
    Y. Rathi.
-   [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf). Medical
-   Image Analysis, 14:58-69, 2010.
+   [A filtered approach to neural tractography using the Watson directional function](/pubs/malcolm_watson.pdf).
+   Medical Image Analysis, 14:58-69, 2010.
 
 1. Y. Rathi, J. G. Malcolm, O. Michailovich, C.-F. Westin, M. E. Shenton, and
    S. Bouix.
@@ -157,20 +157,20 @@ me@jgmalcolm.com <br />
 
 1. N. Y. R. Agar, J. G. Malcolm, V. Mohan, H. W. Yang, M. D. Johnson,
    A. Tannenbaum, J. N. Agar, and P. M. Black.
-   [Imaging of meningioma progression by matrix-assisted laser desorption ionization time-of-flight mass spectrometry](/pubs/others/agar2010ac.pdf). Analytic
-   Chemistry, 82(7):2621-5, Apr 2010.
+   [Imaging of meningioma progression by matrix-assisted laser desorption ionization time-of-flight mass spectrometry](/pubs/others/agar2010ac.pdf).
+   Analytic Chemistry, 82(7):2621-5, Apr 2010.
 
 1. Y. Rathi, J. Malcolm, S. Bouix, A. Tannenbaum, and M. E. Shenton.
-   [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf). Journal
-   of Computing, 2(4):1-11, 2010.
+   [Affine registration of label maps in Label Space](/pubs/others/rathi_affine.pdf).
+   Journal of Computing, 2(4):1-11, 2010.
 
 1. P. Vela, A. Betser, J. Malcolm, and A. Tannenbaum.
-   [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf). Transactions
-   on Control Systems Technology, 17(2):442-448, 2009.
+   [Vision-based range regulation of a leader-follower formation](/pubs/others/vela_range.pdf).
+   Transactions on Control Systems Technology, 17(2):442-448, 2009.
 
 1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and A. Tannenbaum.
    ["Distribution metrics and image segmentation."](/pubs/others/georgiou_metrics.pdf),
-   Linear Algebra and its Applications 2(425):663-672, 2007.
+   Linear Algebra and its Applications, 2(425):663-672, 2007.
 
 
 ## Conference
@@ -245,15 +245,15 @@ me@jgmalcolm.com <br />
    2008.
 
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
-   [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf). *Combinatorial
-   Image Analysis*, pages 185-196, 2008.
+   [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf).
+   *Combinatorial Image Analysis*, pages 185-196, 2008.
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
    [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
    *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
 
 1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
-    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf). *SPIE
+    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf).  *SPIE
     Electronic Imaging*, 2008. DOI:10.1117/12.768546
 
 1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
