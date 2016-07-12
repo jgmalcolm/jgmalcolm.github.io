@@ -67,7 +67,9 @@ even tangentially relates to your question because you'll end up with a lot of
 poor quality studies that will degrade your findings.  Use something like the
 [Newcastle-Ottawa Scale] to assess for quality.  Consider tightening your
 inclusion criteria in ways that weed out low quality studies, eg. well defined
-cases/controls, adequate followup, etc.
+cases/controls, adequate followup, etc.  More studies does not mean stronger
+conclusions; more studies often means more variation, bigger confidence
+interval, lower p-value.
 
  [Newcastle-Ottawa Scale]: http://www.ohri.ca/programs/clinical_epidemiology/oxford.asp
 
