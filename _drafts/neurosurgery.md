@@ -62,12 +62,16 @@ Publications
 
 
 Be useful
+
 Learn to anticipate
 - they grab suture, you grab scissors.  But know the difference between
   sutures they're tying for retraction and those they want cut, and when they
   want them cut. Line up the fascial sutures and cut in one go.
 - they grab drill, you grab irrigation
 - suction unmanned because they have their hands full, pick it up
+- learn glove sizes for residents and attendings so you can pull gloves. Write
+  this on a 3x5 card for your pocket.
+
 
 falling asleep in a lecture or conference, start writing... write any and all
 thoughts because it somehow keeps you awake.
