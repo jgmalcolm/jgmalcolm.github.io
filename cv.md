@@ -452,7 +452,7 @@ me@jgmalcolm.com <br />
 ## Certifications
 
 * American Heart Association Basic Life Support
-* Advanced Trauma and Life Support, Course Coordinator (ID 597883)
+* Advanced Trauma and Life Support, Course Coordinator (ID 597883, 6/2015), Provider (ID 653554, 7/2016)
 
 
 ## Awards
