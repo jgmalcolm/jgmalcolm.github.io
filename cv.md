@@ -59,7 +59,7 @@ me@jgmalcolm.com <br />
 
 **Citizenship: US**
 
-## Journals and Book Chapters
+## Journals
 
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    Are the complications after cranioplasty related to its timing? A systematic review and meta-analysis.
@@ -118,29 +118,15 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
-   Degenerated/Collapsed Disc." In *eXtreme Lateral Interbody Fusion (XLIF)*
-   2e, ed. JA Goodrich and IJ Volcan, chapter 23, pages
-   301-317, 2013. ISBN 978-1-57626-363-1
-
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi.
    [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
    Advances in Signal Processing, 77, 2011.
-
-1. T. Larsen, G. Pryor, and J. Malcolm.
-   [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
-   *GPU Gems*, chapter 28, pages 387-398. 2011.
 
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
    A. Ramirez, M. Reisert, K Sakaie, F. Tensaouti, T. Yo, J.-F. Mangin, and
    C. Poupon.
    [Quantitative evaluation of 10 tractography algorithms on a realistic diffusion MR phantom](/pubs/others/fillard2011fc.pdf).
    NeuroImage, 56(1):220-234, 2011.
-
-1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
-   [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
-   "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
-   pages 403-424. Springer, 2011. doi:10.1007/978-3-642-15816-2_16
 
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf).
@@ -172,6 +158,23 @@ me@jgmalcolm.com <br />
 1. T. Georgiou, O. Michailovich, Y. Rathi, J. Malcolm, and A. Tannenbaum.
    ["Distribution metrics and image segmentation."](/pubs/others/georgiou_metrics.pdf),
    Linear Algebra and its Applications, 2(425):663-672, 2007.
+
+
+## Book Chapters
+
+1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
+   Degenerated/Collapsed Disc." In *eXtreme Lateral Interbody Fusion (XLIF)*
+   2e, ed. JA Goodrich and IJ Volcan, chapter 23, pages
+   301-317, 2013. ISBN 978-1-57626-363-1
+
+1. T. Larsen, G. Pryor, and J. Malcolm.
+   [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
+   *GPU Gems*, chapter 28, pages 387-398. 2011.
+
+1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
+   [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
+   "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
+   pages 403-424. Springer, 2011. doi:10.1007/978-3-642-15816-2_16
 
 
 ## Conference
