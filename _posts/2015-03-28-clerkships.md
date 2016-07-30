@@ -91,9 +91,9 @@ questions.  [MKSAP] is great but extra.
 
 ## Ob-Gyn
 
-**Pregame.** Download one an app for calculating gestational age based on LMP,
-US, EDD, etc.  There are free ones but [Perfect OB Wheel] was a cheap one I
-found to have a great interface.
+**Pregame.** Download an app for calculating gestational age based on LMP, US,
+EDD, etc.  There are free ones but [Perfect OB Wheel] was a cheap one I found
+to have a great interface.
 
 **Outpatient.** Drill on your gyn/ob history template questions and speculum
 exam.  I ultimately preferred to perform the bimanual exam before placing the
