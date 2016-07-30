@@ -359,8 +359,8 @@ me@jgmalcolm.com <br />
 
 1. J. Malcolm, A. Webster, and R. Langah.
    ["Cirrhosis: A red flag when treating cellulitis."](/pubs/malcolm_cirrhosis-abstract.pdf)
-   American College of Physicians (ACP), Georgia Chapter Conference. October
-   2015.  [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
+   American College of Physicians (ACP), Georgia Chapter Conference. 10-2015.
+   [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
    neural tractography algorithm using the unscented Kalman
@@ -398,8 +398,9 @@ me@jgmalcolm.com <br />
 
 1. AD Wyrzykowski, KM Tchorz, K Inaba, JG Cushman, R Adams, J Malcolm, MB
    Dunham, CJ Dente, JM Nicholas, JP Salomone, WL Ingram, GS Rozycki, DV
-   Feliciano. ["Changing trends in the management of renal trauma"](/pubs/others/wyrzykowski2006.pdf). In
-   American Association for the Surgery of Trauma, 2006.
+   Feliciano.
+   ["Changing trends in the management of renal trauma"](/pubs/others/wyrzykowski2006.pdf).
+   In American Association for the Surgery of Trauma, 2006.
 
 
 
@@ -407,7 +408,7 @@ me@jgmalcolm.com <br />
 
 1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.
    [System for improving utilization of GPU resources](https://www.google.com/patents/US8339404),
-   June 2009. U.S. Patent Application 20090141034.
+   June 2009. US Patent US8339404.
 
 
 
