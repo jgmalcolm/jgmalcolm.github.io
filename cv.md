@@ -119,8 +119,8 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi.
-   [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf). J. on
-   Advances in Signal Processing, 77, 2011.
+   [A full bi-tensor neural tractography algorithm using the unscented Kalman filter](/pubs/others/lienhard2011bitensor.pdf).
+   Journal on Advances in Signal Processing, 77, 2011.
 
 1. P. Fillard, M. Descoteaux, A. Goh, S. Gouttard, B. Jeurissen, J. Malcolm,
    A. Ramirez, M. Reisert, K Sakaie, F. Tensaouti, T. Yo, J.-F. Mangin, and
