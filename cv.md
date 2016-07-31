@@ -3,6 +3,7 @@ layout: default
 title: "James G Malcolm"
 keywords: resume, cv
 permalink: /cv/
+search: false
 ---
 
 <img class="smaller thumb no-print" src="/about/malcolm.jpg">

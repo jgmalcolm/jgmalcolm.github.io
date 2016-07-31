@@ -16,7 +16,9 @@
 
       {{ content }}
 
-      {% include search.html %}
+      {% unless page.search == false %}
+        {% include search.html %}
+      {% endunless %}
     </main>
 
     {% include analytics.html %}
