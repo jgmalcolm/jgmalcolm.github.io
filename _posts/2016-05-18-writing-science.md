@@ -104,6 +104,7 @@ requesting re-submission with further details.
 - knowledgeable reader must be able to reproduce experiments
   - details, lots of details
   - consider supplementary materials
+- give values for any constants you assumed, eg. kernel bandwidth, thresholds
 
 
 ## Results
