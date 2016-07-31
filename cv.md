@@ -57,7 +57,7 @@ me@jgmalcolm.com <br />
   [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
   [The Optical Sciences Company](//tosc.com). (2005-2007)
 
-**Citizenship: US**
+
 
 ## Journals
 
