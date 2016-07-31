@@ -472,7 +472,7 @@ me@jgmalcolm.com <br />
 ## Hobbies
 
 * Computer & web programming ([Pharm450.com](//pharm450.com))
-* Running and cycling (10 marathons, 1 ultra-marathon, 2 Ironman 70.3, 2 century rides, etc.)
+* Running and cycling (10 marathons, 1 ultra-marathon, 2 Ironman 70.3, 2 100mi bike rides, etc.)
 * Electronics tinkering
 
 <script>
