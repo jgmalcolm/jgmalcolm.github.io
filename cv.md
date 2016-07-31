@@ -39,19 +39,18 @@ me@jgmalcolm.com <br />
 ## Work Experience
 
 - [AccelerEyes & ArrayFire](//www.arrayfire.com). (VP Engineering, co-founder)
-  Development of software enabling easy parallel programming. (Fall 2007-Fall
-  2013)
+  Development of software enabling easy parallel programming. (2007-2013)
   - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
     computing platform enabling GPU acceleration of MATLAB-based codes.
   - [ArrayFire](//www.arrayfire.com) is an open-source library for GPU
     acceleration of C, Fortran, and Java.
 - [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), Harvard
   Medical School. (Research Fellow) Techniques to estimate neural tissue
-  micro-structure. (Fall 2008 - Spring 2010)
+  micro-structure. (2008-2010)
 - CellularEyes. (co-founder) Development of software enabling easy storage and
-  analysis of microscopy data. (Fall 2007-present)
+  analysis of microscopy data. (2007-2013)
 - Diagis. (Engineer) Implementation of research-level programming language
-  techniques for security analysis of commercial languages. (Spring 2007)
+  techniques for security analysis of commercial languages. (2007)
 - Independent Consultant. Development of target tracking systems under the
   direction of my advisor Allen Tannenbaum. Contracts have been with
   [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
