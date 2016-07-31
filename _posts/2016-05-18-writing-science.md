@@ -68,13 +68,21 @@ to accept/reject.
 
 
 
-{% comment %}
-
 ## Abstract
 
-- should stand alone
-- will solidify or dissolve the reviewer's level of interest
-  - by the end, reviewers probably decide whether reject or resubmit
+**It should stand alone.** Give some context, state the objective, summarize
+the basic methods, relate the most important results, and draw conclusions.
+Don't speculate.  Don't be vacuous and hint at what the article contains.
+This abstract should contain the most juicy pieces without requiring the
+casual reader to have to fetch the full document.
+
+**Interested?** The abstract can either solidify or dissolve the reviewer's
+interest.  By the end, a reviewer might already lean toward rejecting or
+requesting re-submission with further details.
+
+
+
+{% comment %}
 
 
 ## Introduction
