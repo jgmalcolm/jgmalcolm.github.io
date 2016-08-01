@@ -205,3 +205,7 @@ to suit my personality, always trying to become better.
 
 
 [r/top10]: http://www.reddit.com/r/medicalschool/comments/2hbssw/what_do_your_class_top_10_do_differently
+
+
+> Read more:
+> [Ace Your Exams: Study Tactics of the Successful Gentleman Scholar](http://www.artofmanliness.com/2012/01/03/ace-your-exams-study-tactics-of-the-successful-gentleman-scholar/)
