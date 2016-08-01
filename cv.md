@@ -52,8 +52,8 @@ me@jgmalcolm.com <br />
   analysis of microscopy data. (2007-2013)
 - Diagis. (Engineer) Implementation of research-level programming language
   techniques for security analysis of commercial languages. (2007)
-- Independent Consultant. Development of target tracking systems under the
-  direction of my advisor Allen Tannenbaum. Contracts have been with
+- Consultant software developer. Development of target tracking systems under
+  the direction of my advisor Allen Tannenbaum. Contracts have been with
   [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
   [The Optical Sciences Company](//tosc.com). (2005-2007)
 
