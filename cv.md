@@ -417,9 +417,8 @@ me@jgmalcolm.com <br />
 // highlight all references to self
 var html = $('main').html();
 $('main').html(html.replace(/[JG .]*Malcolm/g, '<b>$&</b>')
-                   .replace(/DOI:(10.(\d)+)\/([^\s<,]+)/gi,
-                            "<a href='http://scholar.google.com/scholar?cites=http%3A%2F%2Fdx.doi.org/$1%2F$3'>(cites)</a>, " +
-                            "<a href='http://doi.org/$1/$3'>doi:$1/$3</a>")
-                   .replace(/PMID:([^\s<,]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pubmed/$1'>pmid:$1</a>"));
+                   .replace(/DOI:(10.(\d)+)\/([^\s<,]+)/gi, "<a href='http://doi.org/$1/$3'>doi:$1/$3</a>")
+                   .replace(/(PMC[\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pmc/articles/$1'>$1</a>")
+                   .replace(/PMID:([\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pubmed/$1'>pmid:$1</a>"));
 //-->
 </script>
