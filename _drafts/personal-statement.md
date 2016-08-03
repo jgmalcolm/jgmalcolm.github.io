@@ -13,3 +13,7 @@ Engineering. Obsessive about building and creating to improve my environment and
 Physically driven: marathons, tris, ... Quietly working hard in the background.
 
 Process improvement. Operations at AccelerEyes.
+
+
+https://www.med.unc.edu/ome/studentaffairs/residency-and-the-match/residency-application-process/cv-personal-statements
+https://www.petersons.com/graduate-schools/residency-personal-statement.aspx
