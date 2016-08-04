@@ -21,7 +21,8 @@ me@jgmalcolm.com <br />
 **Brigham & Women's Hospital, Boston, MA**
 
 - Research Fellow, [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), 2008-2010
-- Concentration: Techniques to estimate neural tissue micro-structure.
+  - Advisors: [Yogesh Rathi], [Martha Shenton]
+  - Concentration: Techniques to estimate neural tissue micro-structure
 
 
 **Georgia Institute of Technology, Atlanta, GA**
@@ -29,7 +30,7 @@ me@jgmalcolm.com <br />
 - PhD Electrical and Computer Engineering, October 2010
   - Thesis: [Filtered Tractography](/pubs/research.html)
   - Concentration: Computer Vision
-  - Advisors: Yogesh Rathi and Allen Tannenbaum
+  - Advisors: [Yogesh Rathi], [Allen Tannenbaum]
 - MS Electrical and Computer Engineering, August 2008
   -  Concentration: Systems and Control
 - MS Computer Science, May 2006
@@ -39,8 +40,12 @@ me@jgmalcolm.com <br />
   - Advisor: Yingjie Liu
   - Highest honors
 - BS Computer Science, December 2004
-  -  Concentration: Programming Languages, Operating Systems
+  - Concentration: Programming Languages, Operating Systems
   - Highest honors
+
+  [Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
+  [Martha Shenton]: http://pnl.bwh.harvard.edu/martha-shenton-ph-d/
+  [Yogesh Rathi]: http://pnl.bwh.harvard.edu/yogesh-rathi-ph-d/
 
 
 ## Work Experience
