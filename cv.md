@@ -18,6 +18,12 @@ me@jgmalcolm.com <br />
 
 - MD, expected May 2017
 
+**Brigham & Women's Hospital, Boston, MA**
+
+- Research Fellow, [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), 2008-2010
+- Concentration: Techniques to estimate neural tissue micro-structure.
+
+
 **Georgia Institute of Technology, Atlanta, GA**
 
 - PhD Electrical and Computer Engineering, October 2010
@@ -45,9 +51,6 @@ me@jgmalcolm.com <br />
     computing platform enabling GPU acceleration of MATLAB-based codes.
   - [ArrayFire](//www.arrayfire.com) is an open-source library for GPU
     acceleration of C, Fortran, and Java.
-- [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), Harvard
-  Medical School. (Research Fellow) Techniques to estimate neural tissue
-  micro-structure. (2008-2010)
 - CellularEyes. (co-founder) Development of software enabling easy storage and
   analysis of microscopy data. (2007-2013)
 - Diagis. (Engineer) Implementation of research-level programming language
