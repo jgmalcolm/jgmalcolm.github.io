@@ -290,7 +290,7 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1.  Malcolm, Rindler, Chu, Pradilla, Ahmad.
-    ["Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis."](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
+    [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
     Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
     SC. May 2016.
     [Platform Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
