@@ -61,7 +61,9 @@ Publications
   - passion
 
 
-Be useful
+Be useful but not too helpful
+- jumping in to answer a before thinking, often realized the correct answer a second later
+- reach too quickly to grab an OR instrument, you scare people when you move too fast
 
 Learn to anticipate
 - they grab suture, you grab scissors.  But know the difference between
