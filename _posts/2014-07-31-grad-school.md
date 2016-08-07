@@ -249,8 +249,11 @@ Good scholarship is the difference between
 [tinkering on a project](http://togelius.blogspot.com/2016/04/the-differences-between-tinkering-and.html)
 and pushing the boundaries of knowledge.
 
-
-> ["30 Tips on writing"](http://blogs.lse.ac.uk/impactofsocialsciences/2012/11/28/lupton-30-tips-writing/)
+> Read more:
+> ["How to write and publish a scientific paper"]({% post_url 2016-05-18-writing-science %}),
+> ["How to write a systematic review and meta-analysis"]({% post_url 2016-01-24-systematic-reviews %}),
+> ["30 Tips on writing"](http://blogs.lse.ac.uk/impactofsocialsciences/2012/11/28/lupton-30-tips-writing/),
+> and [more posts on writing](/tags/?q=writing).
 
 
 {% comment %}
