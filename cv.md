@@ -114,7 +114,7 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad.
    [Early urgent cranioplasty for symptomatic hygroma: report of two cases.](/pubs/malcolm2016hygroma.pdf)
-   Journal of Clinical Neuroscience. *Accepted.* doi:10.1016/j.jocn.2016.08.003
+   Journal of Clinical Neuroscience. *In Press.* doi:10.1016/j.jocn.2016.08.003
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Complications following cranioplasty and relationship to timing: A systematic review and meta-analysis.](/pubs/malcolm2016-timing-complications.pdf)
    Journal of Clinical Neuroscience. *In Press.* doi:10.1016/j.jocn.2016.04.017
