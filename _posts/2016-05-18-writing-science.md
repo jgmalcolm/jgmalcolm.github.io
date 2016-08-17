@@ -159,6 +159,18 @@ requesting re-submission with further details.
 - look at representative papers to judge appropriate count
 
 
+## When stuck
+
+- XXX
+
+**Copy/paste.** When I'm a little unsure about how to present something, my
+typical trick is to look at 3-5 examples and pick the one or two I like the
+most.  Often I will literally copy/paste from another article, and then go
+sentence by sentence using the same structure but rewriting completely using
+my own data.  In the end there is zero plagiarism but you borrowed a structure
+to get started.  As I continue revisiting and revising, eventually the text
+becomes all my own and turns out completely unique from the initial
+copy/paste.
 
 ## Responding to reviewers
 
