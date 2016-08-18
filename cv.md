@@ -375,6 +375,8 @@ me@jgmalcolm.com <br />
 
 ## Talks
 
+1. [Stereotactic Laser Ablation For Cavernous Malformations](https://docs.google.com/presentation/d/1RVPF5-SR5v6ID6QNnLZQ6W1agAPMDzC1lC4acBcskPA/pub?start=false),
+   Emory Neurosurgical Grand Rounds, 8/18/2016.
 1. Rindler, Malcolm, Chu, Ahmad. "Does timing of cranioplasty affect
    complications and neurologic outcomes?  A systematic review and
    meta-analysis."  Emory Neurosurgical Department Tindall Research Symposium,
