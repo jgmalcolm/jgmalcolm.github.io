@@ -194,7 +194,7 @@ me@jgmalcolm.com <br />
    V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
    [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
    *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
-   volume 8060, 2011.
+   volume 8060, 2011. doi:10.1117/12.884899
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
    R. W. McCarley, C.-F. Westin, and M. E. Shenton.
    [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf).
