@@ -184,12 +184,12 @@ me@jgmalcolm.com <br />
 1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
    Mohammed, Spafford, Venugopalakrishnan, Malcolm.
    [Productive high-performance software for OpenCL devices.](/pubs/others/melonakos2013.pdf)
-   *Proceedings of the SPIE*, Volume 8752, 2013.
+   *Proceedings of the SPIE*, Volume 8752, 2013. doi:10.1117/12.2016216
 1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
    K. Patel, and J. Melonakos.
    [ArrayFire: a GPU acceleration platform.](/pubs/malcolm2011arrayfire.pdf)
    *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
-   volume 8403, 2011.
+   volume 8403, 2012. doi:10.1117/12.921122
 1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
    V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
    [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
