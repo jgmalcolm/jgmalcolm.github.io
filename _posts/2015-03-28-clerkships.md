@@ -48,9 +48,10 @@ about 13 hours, so listen to it while exercising or on the commute.
   procedures.</figcaption>
 </figure>
 
-More great advice on Reddit:
-[Tips & Tricks for the Surgery Clerkship](https://redd.it/2vcroj) and
-[FAQ for Matching into General Surgery](https://redd.it/2vanpe).
+More great advice:
+[Tips & Tricks for the Surgery Clerkship](https://redd.it/2vcroj),
+[FAQ for Matching into General Surgery](https://redd.it/2vanpe),
+[UNC Clerkship Guide](https://www.med.unc.edu/surclerk/overview/guide)
 
 [Pestana]: http://amzn.to/1SsYvrZ
 [Surgical Recall]: http://amzn.to/1LLV9tD
