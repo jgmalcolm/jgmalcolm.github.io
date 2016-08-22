@@ -105,7 +105,7 @@ me@jgmalcolm.com <br />
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *In preparation*
 
-1. Li, Malcolm, Rindler, ... Ahmad.  "The Role of Diffusion Tensor Imaging In
+1. Li, Malcolm, Rindler, Baum, Kurpad, Ahmad.  "The Role of Diffusion Tensor Imaging In
    Spinal Pathology: A Review".  *In preparation*
 
 1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
