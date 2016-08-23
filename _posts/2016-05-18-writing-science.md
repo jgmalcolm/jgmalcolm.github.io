@@ -19,7 +19,13 @@ manuscript evolves.
 **Start by drafting the abstract.** This will define the general trajectory:
 research question, basic methods, highlighted result, conclusion.  The actual
 paper of course has many details, and may include experiments and results not
-mentioned in the abstract.
+mentioned in the abstract. As you start out, much of the abstract is unknown
+and vague but still you should try to articulate in broad strokes what the
+paper will set out to accomplish, how you intend to do it, and even speculate
+about what you expect to find.  This abstract will evolve as the rest of the
+manuscript does.  At this point, it should be enough that anyone coming to the
+manuscript later -- coauthor or yourself -- can quickly come up to speed on
+the project.
 
 **Finish by polishing the abstract.** You'll return to this abstract time and
 again, each time making sure it is in line with the rest of the paper.
