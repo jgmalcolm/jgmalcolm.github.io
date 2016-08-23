@@ -6,7 +6,7 @@ layout: post
 ---
 
 Reviews are a great way to learn about a topic as a new student but also
-contribute by bring clarity when multiple studies cloud the topic.  This
+contribute by bringing clarity when multiple studies cloud the topic.  This
 article talks about getting organized, narrowing your scope, and tips for
 writing the paper.
 
