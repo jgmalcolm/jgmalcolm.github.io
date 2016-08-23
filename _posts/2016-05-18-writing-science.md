@@ -88,22 +88,52 @@ requesting re-submission with further details.
 
 
 
-{% comment %}
-
 
 ## Introduction
 
-- why should we care
-- give perspective
-- introduce main issues
-- two paragraphs
-  - first: give perspective
-  - second: clearly state 1-2 clinical questions that form goal of study
-- bad examples
-  - including discussion, conclusion, results
-  - history lessons better left to a review
-  - oversell - 'novel', 'unique', 'first ever'
+**Remember your readers.** Your readers are not students like yourself.  They
+have been practicing science and performing surgery since you were in diapers.
+Don't start at square one. Imagine as a graduate science major reading a paper
+where the intro sentence talks about how "addition and subtraction are common
+processes in mathematics" -- you'd roll your eyes and skim right past it.  A
+wasted sentence.  Don't start your neurosurgery article telling the readers
+that cranioplasty is putting back together the skull.  Don't start your
+internal medicine paper telling the reader how diabetes involves the
+pancreatic islet cells. Jump right into the meat with your first two
+sentences.
 
+**Don't discuss.** This is the introduction, not the discussion.  Don't be
+exhaustive and cite everything. Just cite a few (2-3) major studies that
+you're going to springboard off.  The discussion later can be a more
+exhaustive literature.  Similarly, leave the conclusion and results for the
+conclusion and results sections.
+
+**Too many citations.** The intro should be very basic and merely introduce
+the topic.  You should even get away with making basic statements that don't
+need citation. You don't want to overwhelm the reader with references they
+need to screen.
+
+**Why should we care?** You need to quickly justify the importance of your
+project. How many people are affected? How bad is the disease on quality of
+life? Has there been some recent change in methods or studies you are
+exploiting?
+
+**Give perspective.** How has this area evolved? What were some major changes
+in the past decade?  Don't go back more than a decade though -- that's for a
+history review, not a clinical article.
+
+**Two paragraphs.** That's all you need.  The first paragraph introduces the
+problem and some perspective on the past decade.  The second paragraph is even
+shorter, maybe two sentences, where you clearly state the clinical questions
+that form the goal of this present study.
+
+**Don't oversell.** Avoid cliche terms like "novel", "unique", or "first
+ever". It's all been done before in some form or fashion. You don't want some
+tenured professor who's seen it all to pull a muscle after rolling her eyes.
+
+
+
+{% comment %}
 
 ## Methods
 
