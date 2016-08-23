@@ -210,6 +210,7 @@ copy/paste.
 
 ## Responding to reviewers
 
+- respond quickly, reviewer fatigue / context switching
 - create a document with the reviews verbatim, reformat to be bold/italics,
   and answer inline with normal font
 - make a separate checklist for you and co-authors, ordered by importance
