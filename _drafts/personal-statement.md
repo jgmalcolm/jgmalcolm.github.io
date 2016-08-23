@@ -17,3 +17,7 @@ Process improvement. Operations at AccelerEyes.
 
 https://www.med.unc.edu/ome/studentaffairs/residency-and-the-match/residency-application-process/cv-personal-statements
 https://www.petersons.com/graduate-schools/residency-personal-statement.aspx
+
+
+Interview
+https://www.aamc.org/cim/residency/application/interviewing/338086/interviewquestions.html
