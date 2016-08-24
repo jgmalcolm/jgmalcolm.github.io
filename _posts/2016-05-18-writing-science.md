@@ -124,8 +124,10 @@ history review, not a clinical article.
 
 **Two paragraphs.** That's all you need.  The first paragraph introduces the
 problem and some perspective on the past decade.  The second paragraph is even
-shorter, maybe two sentences, where you clearly state the clinical questions
-that form the goal of this present study.
+shorter, maybe two-three sentences, where you clearly state the clinical
+questions that form the goal of this present study.  Sometimes you can insert
+a paragraph between these giving a review 2-3 studies you're comparing against
+or building from.
 
 **Don't oversell.** Avoid cliche terms like "novel", "unique", or "first
 ever". It's all been done before in some form or fashion. You don't want some
