@@ -413,7 +413,7 @@ me@jgmalcolm.com <br />
 
 ## Awards
 
-* AccelerEyes, winner of Georgia Research Alliance / Technology Association of Georgia award, $100k cash, $200 services (2009) ([www](http://www.bizjournals.com/atlanta/blog/atlantech/2009/06/accelereyes_bags_gratag_biz_launch_competition.html),[www](https://www.ece.gatech.edu/news/57038/accelereyes-named-gratag-award-finalist))
+* AccelerEyes, winner of Georgia Research Alliance / Technology Association of Georgia award, $100k cash, $200k services (2009) ([www](http://www.bizjournals.com/atlanta/blog/atlantech/2009/06/accelereyes_bags_gratag_biz_launch_competition.html),[www](https://www.ece.gatech.edu/news/57038/accelereyes-named-gratag-award-finalist))
 * AccelerEyes, winner of Georgia Tech Business Plan Competition, $10k cash prize (2008) ([www](https://www.scheller.gatech.edu/news-events/latest-news/2011/articles/SpherIngenics.html))
 * Outstanding Undergraduate Teaching Assistant, Georgia Tech, Dept. of Computer Science (2003)
 * Eagle Scout, Boy Scouts (1999)
