@@ -80,19 +80,21 @@ somewhere.  For much of this year you'll spend your time wondering if you're
 where you're supposed to be.  The second half of medical school is much less
 organized than the first half.
 
-Get used to messing up on your first swing.  You'll daily feel fumbling and
+**Get used to messing up on your first swing.** You'll daily feel fumbling and
 incompetent.  The important thing is that you learn quickly.  Attendings and
 residents expect that you'll fumble the first day or so, but if you're making
 the same mistakes day after day, expect low ratings.
 
-You no longer have infinite time to study at your own pace.  You must now more
-than ever prioritize what to cover and how deeply to cover it.
+**Prioritize your time.** You no longer have infinite time to study at your
+own pace.  You must now more than ever prioritize what to cover and how deeply
+to cover it.
 
-*Know your nurses.* For each patient, introduce yourself to his or her nurse.
-If they carry a ward cellphone, write down that number.  A quick phone call
-can save you lots of walking.  Go one step further and write down the number
-to the patient's bedside for quick questions and updates.  Obviously not all
-patients will be able to pick up the phone, but for some it is efficient.
+**Know your nurses.** For each patient, introduce yourself to his or her
+nurse.  If they carry a ward cellphone, write down that number.  A quick phone
+call can save you lots of walking.  Go one step further and write down the
+number to the patient's bedside for quick questions and updates.  Obviously
+not all patients will be able to pick up the phone, but for some it is
+efficient.
 
 
 ## Morning rounds
