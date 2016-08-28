@@ -71,3 +71,7 @@ http://qr.ae/DIePK
     - remember birthdays and anniversaries
 
 {% endcomment %}
+
+
+
+http://theincidentaleconomist.com/wordpress/how-do-you-do-it-all/
