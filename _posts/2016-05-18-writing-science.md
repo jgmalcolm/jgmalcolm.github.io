@@ -105,8 +105,8 @@ sentences.
 **Don't discuss.** This is the introduction, not the discussion.  Don't be
 exhaustive and cite everything. Just cite a few (2-3) major studies that
 you're going to springboard off.  The discussion later can be a more
-exhaustive literature.  Similarly, leave the conclusion and results for the
-conclusion and results sections.
+exhaustive literature review.  Similarly, leave the conclusion and results for
+the conclusion and results sections.
 
 **Too many citations.** The intro should be very basic and merely introduce
 the topic.  You should even get away with making basic statements that don't
