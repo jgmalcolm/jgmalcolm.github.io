@@ -77,3 +77,24 @@ Learn to anticipate
 
 falling asleep in a lecture or conference, start writing... write any and all
 thoughts because it somehow keeps you awake.
+
+
+# Away rotations
+
+- Where you rotate will open/close geographic regions.  If you do your aways
+  all on east coast, then don't bank on any west coast interviews.
+- Away rotations boost your chances of matching at the program, so pick
+  schools that you believe you like and you think are a reach.  Don't rotate
+  anywhere beneath your home program.  I've heard Medicine students say
+  rotating can only hurt you; the reverse is true in neurosurgery.  Programs
+  are much more comfortable taking a resident they've worked with for a month
+  than one they've only met for interview.
+- It might be easier to get a rotation spot than it is to get an interview.
+
+
+# Second looks
+
+- Try to pick different programs than where you did away rotations.
+  Presumably you've already done the best you can to solidify your reputation
+  while on your away + interview.  Use second look to increase your changes at
+  other programs.
