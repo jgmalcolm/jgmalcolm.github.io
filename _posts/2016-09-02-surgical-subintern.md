@@ -53,7 +53,7 @@ series: clinical
 - **Know the indication for surgery.** Know why this patient is on the
   table. If it's a biopsy, what is the differential diagnosis?  Know 2-3 items
   and some interesting fact about each.  Example: from imaging alone
-  meningiomas look like hemangiopericytomas.
+  meningiomas also look like hemangiopericytomas.
 - **Prepare for pimping.** [Surgical Recall] has classic responses for pimping
 
 [Surgical Recall]: http://amzn.to/1LLV9tD
