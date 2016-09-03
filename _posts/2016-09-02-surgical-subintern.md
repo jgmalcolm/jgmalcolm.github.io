@@ -12,6 +12,7 @@ series: clinical
 
 - **Arrive 5-10 minutes early.** Whatever time they tell you to be there,
   arrive at least five minutes before that.  Ten is comfortable.
+
 - **Leave when dismissed.** When the resident directly tells you that you may
   go home, thank them and leave.  If there is clearly something going on that
   you want to watch or that you might be able to help with, offer that you
@@ -21,6 +22,7 @@ series: clinical
   welcome.  They are dismissing you for a reason: either you're so incompetent
   that you're only holding them up, or they genuinely believe you're better
   off going home.
+
 - **Never ever ask "Can I go home?"** You can ask the alternate equivalent "Is
   there anything I can help with?" That might prompt the resident to suggest
   you go home.
@@ -32,6 +34,7 @@ series: clinical
 - **Never sit while a resident stands.** You are the last person to relax in a
   chair. If they haven't taken the chair after several minutes, then you might
   have it.
+
 - **Study when there's a lull.** There is likely a decent neurosurgery atlas
   or textbook laying around that you can thumb through during down moments.
   Instead of randomly flipping it to a new chapter each time you pick it up
@@ -71,12 +74,14 @@ series: clinical
   in the computer).  Knowing people and saying hello in the morning pays
   dividends: everyone feels more comfortable, everyone remembers who you are,
   what you're capable of, and it simply adds to a more friendly environment.
+
 - **Watch what the circulator does.** They do a hundred small tasks that you
   can help with.  Bair-hugger, foley, bovie ground pad, SCDs, etc.  Watch and
   learn so you can start taking these on one by one.  The circulator will love
   you and sing your praises, but more importantly he will look out for you and
   do anything he can to help you in the OR.  Life is easier for everyone if
   everyone helps.
+
 - **Put in the Foley.** This is a time consuming task -- only minutes but
   longer than most simple equipment tasks that the circulating nurse handles.
   You can place the foley while she completes other tasks in parallel.  If
@@ -84,6 +89,7 @@ series: clinical
   her to supervise.  It's her neck if there's a UTI.  Better yet, watch her do
   it and mimic her steps.  Nothing will make her more comfortable than you
   doing exactly what she does, quirks and all.
+
 - **Placing the foley.** Adequately unwrap the sterile package so your field
   is wide and doesn't fall back on itself.  Take time to unwrap/uncap every
   item before touching the patient: hook up the sterile flush syringe very
@@ -94,11 +100,13 @@ series: clinical
   Be sure your clean hand does not contact anything dirty as you advance the
   catheter: your dirty hand stays on the genitalia, your clean hand stays on
   the sterile catheter, and never shall these two cross.
+
 - **Keep the Foley bag clean.** After inserting the Foley catheter, use your
   sterile hand to hold the Foley canister off the field while your dirty hand
   (the one holding the genitalia) gathers up all the trash and drapes. Do
   everyone a favor who comes behind you and handles it: don't touch the
   canister with your dirty hand.
+
 - **Get gloves, for you and the resident.** Always get your own gloves and
   gown.  The scrub tech likely has enough gowns for you, but never hurts to
   walk over to the table with gloves and gown.  After handing those off in a
@@ -106,10 +114,12 @@ series: clinical
   been busily organizing the back table while scrubbed in and there's one or
   two items on his mind to pull from the stock room; you can fetch things.
   Memorize your resident's gloves and offer to pull those.
+
 - **Setup the bair hugger warmer.** Drag it into position, plug it into power,
   plug it into the blanket (do not turn it on yet).  Same with the sequential
   compression devices: put them on (if not already on from pre-op), plug them
   in, but go ahead and turn them on.
+
 - **Position the patient.** Hold the head while resident pins, remove the head
   of bed and place the Mayfield frame, while resident holds the head you
   tighten to ensure teeth lock as you go in order from head to bed.  At end of
@@ -120,8 +130,10 @@ series: clinical
   When done, you yourself go along the entire body (head to toes) and ensure
   pressure points are relieved, joints are not extended, fingers are relaxed,
   breasts are not smashed, etc.
+
 - **Tie and spin gowns.** Before you scrub in, stand ready in the wings to
   help tie the scrub tech's or resident's gown and spin them.
+
 - **Streamline the prep.** Whatever you can do to help speed prep, do it.
   Each institution and attending has their own preferences and protocols, but
   watch and learn to anticipate.  Get the electric razor ready.  Get tape to
@@ -134,22 +146,28 @@ series: clinical
   scrubbed in and in the mean time do everything I can to speed up the work of
   scrub tech and resident.  Do everything you can to help setup and start
   prepping.  Do everything you can to streamline their process.
+
 - **Do not contaminate anyone.** Do not contaminate yourself, but more
   importantly do not contaminate the attending, resident, or scrub tech. Watch
   what you touch. Don't back up; your back is not sterile.
+
 - **Move slow around the sterile field.** Don't jump quickly to help reach for
   something; you'll unnerve everyone with sudden unpredictable movements, even
   if you're just trying to be helpful. Think before you act.
+
 - **Don't reach over someone's head while gowned.** You'll likely hit their
   head. They'll look up to see what's going on above them. Don't put on the
   light covers until the field is setup.
+
 - **Build your sterile field from incision outward.** Don't skip steps,
   e.g. don't reach to put on light covers until field underneath is ready,
   otherwise you might hit someone's head or the bed with your gown as you're
   reaching.  Go in the same order every time.
+
 - **Watch the scrub tech.** Watch how they gown and glove people.  There will
   come a time when they are busy and another surgeon wants to be gowned and
   gloved.  Be ready to confidently step up to bat when that day comes.
+
 - **Learn to gown and glove yourself.** When things are busy, you can't always
   expect the scrub tech to help you gown and glove.  If the scrub tech has
   bloody gloves, they need to get a fresh pair (ie. waste).  Grab an unused
@@ -166,15 +184,18 @@ series: clinical
   wipe the wound with raytec and hand them the monocryl for skin closure; for
   a biopsy when they finish opening galea, you get navigation ready for them
   to reorient trajectory.
+
 - **Guess what's next.** While you're watching what they are doing, always ask
   yourself 'What is next?' If you keep checking your predictions against what
   actually happens then you will evolve quickly; actively guessing wrong will
   teach you faster than passively watching. The emotional flash of getting it
   wrong will help your amygdala enhance the memory.
+
 - **Give the surgeon elbow room.** Never stand or lean where you might fall
   into their arm and push their instrument into the brain. Don't balance on
   your tippy toes or lean over to get a better view. Don't do anything
   unnatural. Make sure you are firmly planted.
+
 - **Respect the scrub tech and his domain.** When you start a case with a
   scrub tech with whom you've not yet worked, don't be too helpful from the
   start. Observe his routine, layout, methods, and quirks. They mayo stand is
@@ -185,10 +206,12 @@ series: clinical
   of the case the tech will relax and let you handle instruments and
   more. Subsequent cases will go smoothly. But start by building trust and
   showing respect.
+
 - **Recognize when it's a crowd.** When there's not much elbow room, step away
   and watch.  When the scrub tech, attending, and one or two residents are
   present, you likely need to just step way back and watch until someone
   scrubs out.
+
 - **Don't bovie the skin.** After opening incision, you'll use a bovie to stop
   any superficial bleeding.  If you bovie the epidermis, the wound will not
   heal properly in that spot.  There are no vessels right up under the dermis
@@ -197,8 +220,10 @@ series: clinical
   mode (not "coag") for less charge dispersal.  Some people use this setting
   to extend the skin incision, but it's poor form because it causes
   unnecessary scarring.  In those cases, just ask for the knife back.
+
 - **Active bleeding means shut up.** When there is active bleeding in the
   field, keep quiet. Pause conversation; let the surgeons work.
+
 - **Watch what the surgeons are watching.** Can you see what they are doing?
   If there is blood or other fluid obscuring their view of a tissue edge or a
   screw head, you should auction or dab with raytec. If there is none dust,
@@ -279,14 +304,18 @@ doing this right.  I **highly recommend** this
   Tie a knot in any distal suction lines so they don't leak as you drag them,
   carefully pop the bovie and bipolar plugs out, ensure you don't dump the
   cranial drainage bag, etc.  Do this dirty work while still gowned.
+
 - **Don't check your phone.** Look for ways to help wrap up and get the
   patient out of the room sooner.  Help unwrap and move the patient.
+
 - **Warm blankets.** Learn where these are and grab them as soon as the
   patient is settled and waiting to wake up -- this might be after moving to
   the new bed.  There should be a natural lull where the patient is being
   unwrapped and when you can grab warm blankets.
+
 - **Mask on while extubating.** Often patients cough when the tube is coming
   out, don't get hit in the face.
+
 - **Help cleanup.** After the patient is warming and waking, start tearing
   down and cleaning up.  Put bed linens in the laundry, pick up any trash on
   the floor, use any remaining blue towels or linens to sop up any floor
