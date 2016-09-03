@@ -48,6 +48,8 @@ about 13 hours, so listen to it while exercising or on the commute.
   procedures.</figcaption>
 </figure>
 
+A more detailed post on [Making the most of your surgical sub-internship][sub-intern].
+
 More great advice:
 [Tips & Tricks for the Surgery Clerkship](https://redd.it/2vcroj),
 [FAQ for Matching into General Surgery](https://redd.it/2vanpe),
@@ -56,7 +58,7 @@ More great advice:
 
 [Pestana]: http://amzn.to/1SsYvrZ
 [Surgical Recall]: http://amzn.to/1LLV9tD
-
+[sub-intern]: {% post_url 2016-09-02-surgical-subintern %}
 
 
 ## Medicine
