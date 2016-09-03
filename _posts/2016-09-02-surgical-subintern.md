@@ -42,6 +42,11 @@ series: clinical
   through chapters.  An atlas is better than a dense textbook; always a good
   idea to freshen up on anatomy.
 
+- **Know when to keep quiet.** If the residents are busily writing notes or
+  doing any kind of work that involves thought, use conversation sparingly so
+  you don't distract.  Know when it's a bad time to tell that new joke you
+  learned.
+
 
 
 ## Prep before surgery
