@@ -235,7 +235,7 @@ series: clinical
 This is the time when you will likely get the opportunity at bat.  After a
 long case, the resident is tired and they will appreciate that you patiently
 watched and helped along the way. They tell you to close.  Here are tips for
-doing this right.  I highly recommend this
+doing this right.  I **highly recommend** this
 [video from Duke on various knots](https://www.youtube.com/watch?v=TFwFMav_cpE).
 
 - **Good suturing starts with watching.** Obsessively watch the smooth
