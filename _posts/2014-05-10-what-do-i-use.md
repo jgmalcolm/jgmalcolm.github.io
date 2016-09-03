@@ -12,11 +12,10 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air) with
   [thin padded case][acme case]
-* [iPhone][iphone] with [Gumdrop case][gumdrop case] and apps:
+* [iPhone][iphone] with [Tech21 case] and apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
     [Kindle integration][insta-kindle].
-  * [Echophon Pro] for twitter - I found this better than twitter's own client and integrates with Instapaper.
   * [Sleep Cycle] to wake me up gently at just the right time
   * for Facebook and news, I just use Safari.  I want to use Chrome, but Apple
     insists on Safari as the default browser
@@ -28,14 +27,10 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   in low light.  I got the 3G model which has come in handy fetching new books
   while traveling in the US and abroad.  Integrates with
   [Instapaper][instapaper].
-* sound:
-  * stationary listening:
-    [Audéo earbuds] - expensive but
-    superb sound and snug fit (sidenote: might be interesting to
-    [benchmark them][bench])
-  * listening on the go:  [Jarv NMotion Sport Wireless Bluetooth] - good
-    sound, excellent price, great for commute and cordless jogging (despite
-    the description saying not good for jogging, they're fine)
+* [Audéo earbuds] while working at the computer, expensive but superb sound
+  and snug fit
+* [Jarv NMotion Sport Wireless Bluetooth] for listening on the go. Good sound,
+  excellent price, great for commute and cordless jogging
 
   [bench]: http://www.audiocheck.net/soundtests_headphones.php
   [acme case]: http://www.amazon.com/gp/product/B007AK6QBA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007AK6QBA&linkCode=as2&tag=jgmalcolm-20&linkId=PDK4MX2ZIQ6RCJTY
@@ -65,7 +60,6 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [F.lux] to alter my laptop's screen colors to the time of day (blue light is
   bad at night).  If you're on a Chromebook then use [G.lux].
-* [CopyClip] to keep track of the last few items copied to clipboard for those times when I overwrite what I just copied
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [TotalTerminal] for quick full-screen access to the command line.
 * Emacs/vim/bash/screen/git.  Browse my
@@ -75,7 +69,6 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   Russian language files and PowerPC libraries
 
 [Monolingual]: https://ingmarstein.github.io/Monolingual/
-[CopyClip]: https://itunes.apple.com/us/app/copyclip-clipboard-history/id595191960?mt=12
 [Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
 [GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
@@ -86,6 +79,9 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * <a href="javascript:(function(){var a=encodeURIComponent(location.href)+escape('\x0A'+'\x0A')+encodeURIComponent((!!document.getSelection)?document.getSelection():(!!window.getSelection)?window.getSelection():document.selection.createRange().text);var u='http://mail.google.com/mail/?view=cm&ui=2&tf=0&fs=1&su='+encodeURIComponent(document.title)+'&body='+a;if(u.length >= 2048){window.alert('Please select less text');return;}window.open(u,'gmail','height=640,width=840');console.debug(a)})();void(0);">send the current page/quote</a>
   * learn shortcuts to [quickly add events][calender]
   * find out which company has sold your email address with this [Gmail trick][gmail]
+* [Google Apps Scripting] lets you write powerful scripts to manage Gmail, Drive, Calendar, etc.
+  * [Gmail Snooze] lets you push an email out of your inbox for a few days, **highly recommend**
+  * [Gmail Schedule Send] lets you draft an email and specify a time for it to be sent
 * [Wikipedia interface tricks][wikipedia] to navigate and view images more efficiently
 * [IFTTT] - I use facebook and twitter to share articles with friends and
   family.  IFTTT records all my [tweets][ifttt-tweets] and
@@ -93,9 +89,6 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   It's also setup to [cross post][ifttt-fb2tw] facebook article shares over to
   twitter, so I don't have to post to both accounts.  I use the
   [Facebook bookmarklet][fb] to quickly post.
-* [Google Apps Scripting] lets you write powerful scripts to manage Gmail, Drive, Calendar, etc.
-  * [Gmail Snooze] lets you push an email out of your inbox for a few days
-  * [Gmail Schedule Send] lets you draft an email and specify a time for it to be sent
 
 [Google Apps Scripting]: https://developers.google.com/apps-script/
 [Gmail Snooze]: http://lifehacker.com/5825634/how-to-add-a-snooze-button-to-gmail-no-extensions-required
@@ -126,9 +119,8 @@ To use one, drag it to your Bookmarks (toolbar).
 [Instapaper]: http://instapaper.com
 [insta-bookmarklet]: https://www.instapaper.com/save
 [insta-kindle]: https://www.instapaper.com/apps
-[Echophon Pro]: http://www.echofon.com
 [iphone]: https://www.apple.com/iphone
-[gumdrop case]: http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-brandtextbin=Gumdrop%20Cases&linkCode=ur2&node=2335752011&tag=jgmalcolm-20&linkId=RLDCZ6NOR7OIXQHU
+[Tech21 case]: http://amzn.to/2bKM2AE
 [fb]: https://www.facebook.com/share_options.php
 [gmail]: http://gmailblog.blogspot.com/2008/03/2-hidden-ways-to-get-more-from-your.html
 [calender]: https://support.google.com/calendar/answer/36604
