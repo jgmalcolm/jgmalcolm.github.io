@@ -203,6 +203,65 @@ series: clinical
   you irrigate.
 
 
+## Closing
+
+This is the time when you will likely get the opportunity at bat.  After a
+long case, the resident is tired and they will appreciate that you patiently
+watched and helped along the way. They tell you to close.  Here are tips for
+doing this right.
+
+- **Good suturing starts with watching.** Obsessively watch the smooth
+  residents stitch.  Watch where they place galea stitches: how much galea do
+  they grab, at what depth, how many times they grab the needle with each
+  stitch, where they grab the needle in each phase of stitch, how they pop off
+  the needle, how they hand back the driver with spent needle, etc.  Mimic
+  them.  [YouTube](https://www.youtube.com/watch?v=TFwFMav_cpE) has some great
+  videos.
+- **Practicing tying knots during lectures.** Carry some silk suture around.
+  Remove needles or use the multi-pack of silk ties.  After a surgery, ask the
+  scrub tech if you can keep any left over clean suture.  You can do all tying
+  with either one-handed or instrument.
+- **Consistency in placement.** Watch carefully that you enter and exit the
+  skin at the same depth and inset on both sides of the incision.  For running
+  sutures, use the same run length on both sides.
+- **Closing galea.** Make sure to grab galea.  Give the suture a little tug:
+  subcutaneous tissue rips out, galea is firm.  Start the stitch from deep
+  under the galea, then cross the incision superficial, and pierce down
+  through the galea on the other side.  Make sure to have consistent depth on
+  both sides.  Only grab 2-3 mm of galea inset on each side: more and you'll
+  pucker up the skin and subcutaneous fat will stick out, too little and it
+  risks ripping out.
+- **Avoid a stitch abscess.** Each stitch increases your chances of an
+  abscess.  You want to balance having enough stitches to hold and not so many
+  that you necrose the skin or too superficial that it erodes through the
+  dermis.
+- **Subcutaneous.** Learn to start and end with the stitch buried.  Open with
+  a deeper anchor stitch, bury the knot as you come back to the apex, then
+  start your run.  Use an Aberdeen to bury the knot at the end.
+- **Start and end with short runs.** At the start and end corners of the
+  incision, travel only a short distance with each stitch.  This way takes
+  more time but does better at keeping the incision smooth.  In the middle is
+  where you travel longer to make up time.
+- **Watching your suture tail.** Avoid getting tangled. If the resident is
+  already supervising you place each stitch, ask her to "follow you" (they
+  hold the tail out of your way while you stick the needle).
+- **Use fewer touches for speed.** Use the driver to run the needle through
+  tissue, use the pickups to pull it out on other side and immediately reload
+  on the driver at proper angle/position.  Reload the driver while still near
+  the incision, right after you came through the tissue; do not pull stitch
+  through and then load it with your hands by your face.  Keep it down by the
+  wound.  When coming out on last side you use the pickup to load onto needle
+  driver in such a way that you can pull up and pop off in one swoop. The
+  fewer touches, the faster you go.
+- **Breaking stitches.** Be careful as you tie that you don't cause too much
+  friction as the knot comes together; if there is friction then the suture
+  will cut itself as you cinch it down.  Be gentle but make sure the knot is
+  firmly seated.
+- **Cut out bad knots immediately.** Don't sheepishly move on.  Your resident
+  will notice any bad stitch.  Better you see it first, cut it out, and
+  repeat.  Do not ignore it and sheepishly move on.  These will haunt you.
+- **Evert the dermis.** This maximizes the amount of dermis in apposition
+  which enhances granulation and healing.
 
 
 ## After surgery
