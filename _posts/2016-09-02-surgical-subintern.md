@@ -164,7 +164,16 @@ series: clinical
   otherwise you might hit someone's head or the bed with your gown as you're
   reaching.  Go in the same order every time.
 
+- **Watch the scrub tech.** Watch how they gown and glove people.  There will
+  come a time when they are busy and another surgeon wants to be gowned and
+  gloved.  Be ready to confidently step up to bat when that day comes.
 
+- **Learn to gown and glove yourself.** When things are busy, you can't always
+  expect the scrub tech to help you gown and glove.  If the scrub tech has
+  bloody gloves, they need to get a fresh pair (ie. waste).  Grab an unused
+  area of table to setup your gown and gloves so you can do it all yourself.
+  Go very slow and deliberate so you don't contaminate.  Scrub techs gown and
+  glove themselves all the time; watch and learn.
 
 
 ## During surgery
