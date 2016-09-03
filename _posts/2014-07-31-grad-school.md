@@ -256,6 +256,26 @@ and pushing the boundaries of knowledge.
 > and [more posts on writing](/tags/?q=writing).
 
 
+## Conferences
+
+**Build your network.** Look through the attendee list (if available) and
+email anyone whose work you build on to see if you can grab coffee or sit
+together at a session.  It's a conference, not a vacation.
+
+**Read through the program.** Circle anything interesting.  For anything
+related to your work, reach out those authors.  They put as much time into the
+topic as you did so there will definitely be something to talk about, and you
+will likely want to cite each other if relevant.  Maybe you can coauthor
+something.
+
+**Poster sessions.** Print copies of your poster and paper/abstract, and pin
+these up in a folder underneath your poster for anyone to take for later.
+Print like 30 copies of the poster/abstract, fewer of a multi-page paper; lots
+will be wasted but people will be less sheepish about taking one if there are
+plenty.  Double-sided.  Balance time in front of your poster and time walking
+around to interact with other presenters.
+
+
 {% comment %}
 
 ## Peer Review
