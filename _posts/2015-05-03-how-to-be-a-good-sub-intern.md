@@ -177,11 +177,4 @@ overnight events, new lab values, and plan changes.
   spend the extra energy to justify and explain every decision to you.
 
 
-# Surgery
-
-- know anatomy
-- spend 1 minute to learn the indication for surgery in this patient and relevant anatomy
-- don't just stop at preparing for the first surgery, spend 1 minute for every planned procedure
-- Surgical Recall for classic pimping
-
 {% endcomment %}

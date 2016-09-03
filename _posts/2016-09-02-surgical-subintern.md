@@ -28,6 +28,21 @@ series: clinical
 
 
 
+## Case prep before surgery
+
+- **Know anatomy.** Flip through your text or google images for some quick
+  refresher.  Know major arteries, nerves, and veins.  If for every case you
+  spend not even five minutes reviewing, you will soon have seen the relevant
+  anatomy repeatedly and it will no longer be as necessary to review.
+- **Know the indication for surgery.** Know why this patient is on the
+  table. If it's a biopsy, what is the differential diagnosis?  Know 2-3 items
+  and some interesting fact about each.  Example: from imaging alone
+  meningiomas look like hemangiopericytomas.
+- **Prepare for pimping.** [Surgical Recall] has classic responses for pimping
+
+[Surgical Recall]: http://amzn.to/1LLV9tD
+
+
 ## Call room etiquette
 
 - **Never sit while a resident stands.** You are the last person to relax in a
