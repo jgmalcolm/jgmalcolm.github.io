@@ -104,7 +104,7 @@ series: clinical
 - **Keep the Foley bag clean.** After inserting the Foley catheter, use your
   sterile hand to hold the Foley canister off the field while your dirty hand
   (the one holding the genitalia) gathers up all the trash and drapes. Do
-  everyone who comes behind you and handles it a favor: don't touch the
+  everyone a favor who comes behind you and handles it: don't touch the
   canister with your dirty hand.
 
 - **Get gloves, for you and the resident.** Always get your own gloves and
