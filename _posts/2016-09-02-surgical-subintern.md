@@ -131,6 +131,22 @@ series: clinical
   pressure points are relieved, joints are not extended, fingers are relaxed,
   breasts are not smashed, etc.
 
+- **Tie and spin gowns.** Before you scrub in, stand ready in the wings to
+  help tie the scrub tech's or resident's gown and spin them.
+
+- **Streamline the prep.** Whatever you can do to help speed prep, do it.
+  Each institution and attending has their own preferences and protocols, but
+  watch and learn to anticipate.  Get the electric razor ready.  Get tape to
+  pick up stray hairs.  When the resident reaches for the razor, you ready
+  some tape.  Soak some cotton in alcohol. Whatever you observe being doing
+  routinely, get it primed.  Tie the resident's gown and spin them.  Prime the
+  chloraprep sticks so when the resident is ready they are already soaking.
+  Get a kick bucket under the head for drip; consider tossing down a temporary
+  blue towel over the Mayfield frame.  I often wait to be the last person
+  scrubbed in and in the mean time do everything I can to speed up the work of
+  scrub tech and resident.  Do everything you can to help setup and start
+  prepping.  Do everything you can to streamline their process.
+
 - **Do not contaminate anyone.** Do not contaminate yourself, but more
   importantly do not contaminate the attending, resident, or scrub tech. Watch
   what you touch. Don't back up; your back is not sterile.
@@ -147,6 +163,8 @@ series: clinical
   e.g. don't reach to put on light covers until field underneath is ready,
   otherwise you might hit someone's head or the bed with your gown as you're
   reaching.  Go in the same order every time.
+
+
 
 
 ## During surgery
