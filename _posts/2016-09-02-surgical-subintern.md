@@ -262,8 +262,8 @@ doing this right.  I **highly recommend** this
   and it risks ripping out.
 - **Avoid a stitch abscess.** Each stitch increases your chances of an
   abscess.  You want to balance having enough stitches to hold and not so many
-  that you necrose the skin or too superficial that it erodes through the
-  dermis.
+  that you necrose the skin or too superficial that it erodes through and
+  spits out of the dermis.
 - **Don't button-hole the skin.** That's where you come out the back side of
   the skin.
 - **Subcutaneous.** Learn to start and end with the stitch buried.  Open with
