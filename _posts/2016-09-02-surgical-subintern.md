@@ -44,7 +44,7 @@ series: clinical
 
 
 
-## Case prep before surgery
+## Prep before surgery
 
 - **Know anatomy.** Flip through your text or google images for some quick
   refresher.  Know major arteries, nerves, and veins.  If for every case you
