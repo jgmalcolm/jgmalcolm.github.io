@@ -228,7 +228,7 @@ series: clinical
 
 - **Watch what the surgeons are watching.** Can you see what they are doing?
   If there is blood or other fluid obscuring their view of a tissue edge or a
-  screw head, you should auction or dab with raytec. If there is none dust,
+  screw head, you should suction or dab with raytec. If there is bone dust,
   you irrigate.
 
 
@@ -240,19 +240,19 @@ watched and helped along the way. They tell you to close.  Here are tips for
 doing this right.  I **highly recommend** this
 [video from Duke on various knots](https://www.youtube.com/watch?v=TFwFMav_cpE).
 
-- **Good suturing starts with watching.** Obsessively watch the smooth
-  residents stitch.  Watch where they place galea stitches: how much galea do
-  they grab, at what depth, how many times they grab the needle with each
-  stitch, where they grab the needle in each phase of stitch, how they pop off
-  the needle, how they hand back the driver with spent needle, etc.  Mimic
-  them.
+- **Good suturing starts with watching.** Obsessively watch the senior
+  residents and attendings stitch.  Watch where they place galea stitches: how
+  much galea do they grab, at what depth, how many times they grab the needle
+  with each stitch, where they grab the needle in each phase of stitch, how
+  they pop off the needle, how they hand back the driver with spent needle,
+  etc.  Mimic them.
 
 - **Practicing tying knots during lectures.** Carry some silk suture around.
   Remove needles or use the multi-pack of silk ties.  After a surgery, ask the
   scrub tech if you can keep any left over clean suture.  You can do all tying
-  with either one-handed or instrument.  Pick some fixed or heavy object and
-  keep tying back and forth so you get the flow.  This has the added benefit
-  of keeping you awake.
+  with either one-handed or instrument technique.  Pick some fixed or heavy
+  object and keep tying back and forth so you get the flow.  This has the
+  added benefit of keeping you awake.
 
 - **Consistency in placement.** Watch carefully that you enter and exit the
   skin at the same depth and inset on both sides of the incision.  For running
@@ -262,7 +262,7 @@ doing this right.  I **highly recommend** this
   little tug:  subcutaneous tissue rips out, galea is firm.  Start the stitch
   from deep under the galea, then cross the incision superficial, and pierce
   down through the galea on the other side.  Make sure to have consistent
-  depth on both sides.  Only grab 2-3 mm of galea inset on each side: more and
+  depth on both sides.  Only grab 3-4 mm of galea inset on each side: more and
   you'll pucker up the skin and subcutaneous fat will stick out, too little
   and it risks ripping out.
 
