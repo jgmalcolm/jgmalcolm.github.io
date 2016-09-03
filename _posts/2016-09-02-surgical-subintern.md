@@ -72,6 +72,17 @@ layout: post
   it and mimic her steps.  Nothing will make her more comfortable than you
   doing exactly what she does, quirks and all.
 
+- **Placing the foley.** Adequately unwrap the sterile package so your field
+  is wide and doesn't fall back on itself.  Take time to unwrap/uncap every
+  item before touching the patient: hook up the sterile flush syringe very
+  tight so it doesn't pop when you start pushing, unwrap the catheter and
+  stick it into the gel, loosen up the Foley bag and tubing so it doesn't get
+  caught as you're advancing.  Once your "dirty hand" touches the genitals,
+  there's little your sterile hand can do except start advancing the catheter.
+  Be sure your clean hand does not contact anything dirty as you advance the
+  catheter: your dirty hand stays on the genitalia, your clean hand stays on
+  the sterile catheter, and never shall these two cross.
+
 - **Keep the Foley bag clean.** After inserting the Foley catheter, use your
   sterile hand to hold the Foley canister off the field while your dirty hand
   (the one holding the genitalia) gathers up all the trash and drapes. Do
