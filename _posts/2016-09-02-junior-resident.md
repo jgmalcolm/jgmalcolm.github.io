@@ -12,7 +12,7 @@ tags: [clinical]
   clearly what you will want soon.  Be consistent in how you ask for each
   category: "may I have 3 punch please", "we will need a 3 punch soon".
   Whatever feels natural, keep doing it that way so that the scrub tech can
-  recognize the key phrase even when their back is turned.
+  recognize the key phrase even when they are turned to the back table.
 
 - **Please and thank you.** When things are slow and smooth, adding these
   little niceties now and then keeps things pleasant.  When things are moving
