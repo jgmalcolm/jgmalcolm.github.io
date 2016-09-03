@@ -1,5 +1,5 @@
 ---
-title: "Surgical Subintern"
+title: "Surgical sub-intern"
 description: "Make the most of your surgical rotation"
 tags: [medicine,clinical]
 layout: post
