@@ -29,6 +29,21 @@ series: clinical
 
 
 
+## Call room etiquette
+
+- **Never sit while a resident stands.** You are the last person to relax in a
+  chair. If they haven't taken the chair after several minutes, then you might
+  have it.
+
+- **Study when there's a lull.** There is likely a decent neurosurgery atlas
+  or textbook laying around that you can thumb through during down moments.
+  Instead of randomly flipping it to a new chapter each time you pick it up
+  for a minute or two, toss a bookmark in it so you can make actual progress
+  through chapters.  An atlas is better than a dense textbook; always a good
+  idea to freshen up on anatomy.
+
+
+
 ## Case prep before surgery
 
 - **Know anatomy.** Flip through your text or google images for some quick
@@ -42,20 +57,6 @@ series: clinical
 - **Prepare for pimping.** [Surgical Recall] has classic responses for pimping
 
 [Surgical Recall]: http://amzn.to/1LLV9tD
-
-
-## Call room etiquette
-
-- **Never sit while a resident stands.** You are the last person to relax in a
-  chair. If they haven't taken the chair after several minutes, then you might
-  have it.
-
-- **Study when there's a lull.** There is likely a decent neurosurgery atlas
-  or textbook laying around that you can thumb through during down moments.
-  Instead of randomly flipping it to a new chapter each time you pick it up
-  for a minute or two, toss a bookmark in it so you can make actual progress
-  through chapters.  An atlas is better than a dense textbook; always a good
-  idea to freshen up on anatomy.
 
 
 
