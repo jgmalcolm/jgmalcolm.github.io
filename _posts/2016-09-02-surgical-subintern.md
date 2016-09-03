@@ -201,6 +201,9 @@ layout: post
   the new bed.  There should be a natural lull where the patient is being
   unwrapped and when you can grab warm blankets.
 
+- **Mask on while extubating.** Often patients cough when the tube is coming
+  out, don't get hit in the face.
+
 - **Help cleanup.** After the patient is warming and waking, start tearing
   down and cleaning up.  Put bed linens in the laundry, pick up any trash on
   the floor, use any remaining blue towels or linens to sop up any floor
