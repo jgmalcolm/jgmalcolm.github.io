@@ -253,13 +253,13 @@ doing this right.  I highly recommend this
 - **Consistency in placement.** Watch carefully that you enter and exit the
   skin at the same depth and inset on both sides of the incision.  For running
   sutures, use the same run length on both sides.
-- **Closing galea.** Make sure to grab galea.  Give the suture a little tug:
-  subcutaneous tissue rips out, galea is firm.  Start the stitch from deep
-  under the galea, then cross the incision superficial, and pierce down
-  through the galea on the other side.  Make sure to have consistent depth on
-  both sides.  Only grab 2-3 mm of galea inset on each side: more and you'll
-  pucker up the skin and subcutaneous fat will stick out, too little and it
-  risks ripping out.
+- **Closing galea.** Make sure you actually grab galea.  Give the suture a
+  little tug:  subcutaneous tissue rips out, galea is firm.  Start the stitch
+  from deep under the galea, then cross the incision superficial, and pierce
+  down through the galea on the other side.  Make sure to have consistent
+  depth on both sides.  Only grab 2-3 mm of galea inset on each side: more and
+  you'll pucker up the skin and subcutaneous fat will stick out, too little
+  and it risks ripping out.
 - **Avoid a stitch abscess.** Each stitch increases your chances of an
   abscess.  You want to balance having enough stitches to hold and not so many
   that you necrose the skin or too superficial that it erodes through the
