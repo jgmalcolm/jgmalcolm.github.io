@@ -274,6 +274,9 @@ doing this right.
   carefully pop the bovie and bipolar plugs out, ensure you don't dump the
   cranial drainage bag, etc.  Do this dirty work while still gowned.
 
+- **Don't check your phone.** Look for ways to help wrap up and get the
+  patient out of the room sooner.  Help unwrap and move the patient.
+
 - **Warm blankets.** Learn where these are and grab them as soon as the
   patient is settled and waiting to wake up -- this might be after moving to
   the new bed.  There should be a natural lull where the patient is being
