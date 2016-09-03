@@ -247,7 +247,9 @@ doing this right.  I highly recommend this
 - **Practicing tying knots during lectures.** Carry some silk suture around.
   Remove needles or use the multi-pack of silk ties.  After a surgery, ask the
   scrub tech if you can keep any left over clean suture.  You can do all tying
-  with either one-handed or instrument.
+  with either one-handed or instrument.  Pick some fixed or heavy object and
+  keep tying back and forth so you get the flow.  This has the added benefit
+  of keeping you awake.
 - **Consistency in placement.** Watch carefully that you enter and exit the
   skin at the same depth and inset on both sides of the incision.  For running
   sutures, use the same run length on both sides.
