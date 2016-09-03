@@ -3,6 +3,7 @@ title: "Surgical Subintern"
 description: "Make the most of your surgical rotation"
 tags: [medicine,clinical]
 layout: post
+series: clinical
 ---
 
 
