@@ -235,15 +235,15 @@ series: clinical
 This is the time when you will likely get the opportunity at bat.  After a
 long case, the resident is tired and they will appreciate that you patiently
 watched and helped along the way. They tell you to close.  Here are tips for
-doing this right.
+doing this right.  I highly recommend this
+[video from Duke on various knots](https://www.youtube.com/watch?v=TFwFMav_cpE).
 
 - **Good suturing starts with watching.** Obsessively watch the smooth
   residents stitch.  Watch where they place galea stitches: how much galea do
   they grab, at what depth, how many times they grab the needle with each
   stitch, where they grab the needle in each phase of stitch, how they pop off
   the needle, how they hand back the driver with spent needle, etc.  Mimic
-  them.  [YouTube](https://www.youtube.com/watch?v=TFwFMav_cpE) has some great
-  videos.
+  them.
 - **Practicing tying knots during lectures.** Carry some silk suture around.
   Remove needles or use the multi-pack of silk ties.  After a surgery, ask the
   scrub tech if you can keep any left over clean suture.  You can do all tying
