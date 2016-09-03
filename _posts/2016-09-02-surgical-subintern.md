@@ -264,6 +264,8 @@ doing this right.  I highly recommend this
   abscess.  You want to balance having enough stitches to hold and not so many
   that you necrose the skin or too superficial that it erodes through the
   dermis.
+- **Don't button-hole the skin.** That's where you come out the back side of
+  the skin.
 - **Subcutaneous.** Learn to start and end with the stitch buried.  Open with
   a deeper anchor stitch, bury the knot as you come back to the apex, then
   start your run.  Use an Aberdeen to bury the knot at the end.
