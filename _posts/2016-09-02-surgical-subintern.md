@@ -122,13 +122,14 @@ series: clinical
 
 - **Position the patient.** Hold the head while resident pins, remove the head
   of bed and place the Mayfield frame, while resident holds the head you
-  tighten in order from head to bed ensuring teeth lock (it is reversed in
-  opposite order at end of case). If "tucking the arms", then start gelpadding
-  the arms while using 4x4 gauze to pad any plastic IV attachments that might
-  hurt. Tape the arms, but put some folded excess that can be popped if
-  there's too much inspiratory resistance.  When done, you yourself go along
-  the entire body (head to toes) and ensure pressure points are relieved,
-  joints are not extended, fingers are relaxed, breasts are not smashed, etc.
+  tighten to ensure teeth lock as you go in order from head to bed.  At end of
+  case, undue first from head then just drop the handle (skip middle lock). If
+  "tucking the arms", then start gelpadding the arms while using 4x4 gauze to
+  pad any plastic IV attachments that might hurt. Tape the arms, but put some
+  folded excess that can be popped if there's too much inspiratory resistance.
+  When done, you yourself go along the entire body (head to toes) and ensure
+  pressure points are relieved, joints are not extended, fingers are relaxed,
+  breasts are not smashed, etc.
 
 - **Do not contaminate anyone.** Do not contaminate yourself, but more
   importantly do not contaminate the attending, resident, or scrub tech. Watch
