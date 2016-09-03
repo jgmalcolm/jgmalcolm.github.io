@@ -50,10 +50,12 @@ series: clinical
   refresher.  Know major arteries, nerves, and veins.  If for every case you
   spend not even five minutes reviewing, you will soon have seen the relevant
   anatomy repeatedly and it will no longer be as necessary to review.
+
 - **Know the indication for surgery.** Know why this patient is on the
   table. If it's a biopsy, what is the differential diagnosis?  Know 2-3 items
   and some interesting fact about each.  Example: from imaging alone
   meningiomas also look like hemangiopericytomas.
+
 - **Prepare for pimping.** [Surgical Recall] has classic responses for pimping
 
 [Surgical Recall]: http://amzn.to/1LLV9tD
@@ -244,15 +246,18 @@ doing this right.  I **highly recommend** this
   stitch, where they grab the needle in each phase of stitch, how they pop off
   the needle, how they hand back the driver with spent needle, etc.  Mimic
   them.
+
 - **Practicing tying knots during lectures.** Carry some silk suture around.
   Remove needles or use the multi-pack of silk ties.  After a surgery, ask the
   scrub tech if you can keep any left over clean suture.  You can do all tying
   with either one-handed or instrument.  Pick some fixed or heavy object and
   keep tying back and forth so you get the flow.  This has the added benefit
   of keeping you awake.
+
 - **Consistency in placement.** Watch carefully that you enter and exit the
   skin at the same depth and inset on both sides of the incision.  For running
   sutures, use the same run length on both sides.
+
 - **Closing galea.** Make sure you actually grab galea.  Give the suture a
   little tug:  subcutaneous tissue rips out, galea is firm.  Start the stitch
   from deep under the galea, then cross the incision superficial, and pierce
@@ -260,22 +265,28 @@ doing this right.  I **highly recommend** this
   depth on both sides.  Only grab 2-3 mm of galea inset on each side: more and
   you'll pucker up the skin and subcutaneous fat will stick out, too little
   and it risks ripping out.
+
 - **Avoid a stitch abscess.** Each stitch increases your chances of an
   abscess.  You want to balance having enough stitches to hold and not so many
   that you necrose the skin or too superficial that it erodes through and
   spits out of the dermis.
+
 - **Don't button-hole the skin.** That's where you come out the back side of
   the skin.
+
 - **Subcutaneous.** Learn to start and end with the stitch buried.  Open with
   a deeper anchor stitch, bury the knot as you come back to the apex, then
   start your run.  Use an Aberdeen to bury the knot at the end.
+
 - **Start and end with short runs.** At the start and end corners of the
   incision, travel only a short distance with each stitch.  This way takes
   more time but does better at keeping the incision smooth.  In the middle is
   where you travel longer to make up time.
+
 - **Watching your suture tail.** Avoid getting tangled. If the resident is
   already supervising you place each stitch, ask her to "follow you" (they
   hold the tail out of your way while you stick the needle).
+
 - **Use fewer touches for speed.** Use the driver to run the needle through
   tissue, use the pickups to pull it out on other side and immediately reload
   on the driver at proper angle/position.  Reload the driver while still near
@@ -284,13 +295,16 @@ doing this right.  I **highly recommend** this
   wound.  When coming out on last side you use the pickup to load onto needle
   driver in such a way that you can pull up and pop off in one swoop. The
   fewer touches, the faster you go.
+
 - **Breaking stitches.** Be careful as you tie that you don't cause too much
   friction as the knot comes together; if there is friction then the suture
   will cut itself as you cinch it down.  Be gentle but make sure the knot is
   firmly seated.
+
 - **Cut out bad knots immediately.** Don't sheepishly move on.  Your resident
   will notice any bad stitch.  Better you see it first, cut it out, and
   repeat.  Do not ignore it and sheepishly move on.  These will haunt you.
+
 - **Evert the dermis.** This maximizes the amount of dermis in apposition
   which enhances granulation and healing.
 
