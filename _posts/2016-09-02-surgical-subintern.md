@@ -6,6 +6,7 @@ layout: post
 series: clinical
 ---
 
+{% include series.html %}
 
 ## Hours
 
