@@ -25,8 +25,8 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   class="thumb" src="/images/kindle.jpg"></a> for carrying around a small
   library of interesting books and articles.  The backlit screen is fantastic
   in low light.  I got the 3G model which has come in handy fetching new books
-  while traveling in the US and abroad.  Integrates with
-  [Instapaper][instapaper].
+  while traveling in the US and abroad, but Wifi-only is sufficient.
+  Integrates with [Instapaper][instapaper].
 * [Audéo earbuds] while working at the computer, expensive but superb sound
   and snug fit
 * [Jarv NMotion Sport Wireless Bluetooth] for listening on the go. Good sound,
