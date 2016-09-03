@@ -6,7 +6,7 @@ tags: [clinical]
 ---
 
 
-## Scrub tech
+## Your relationship with scrub tech and circulator
 
 - **Enunciate.** Don't mumble.  State clearly what you want.  Also state
   clearly what you will want soon.  Be consistent in how you ask for each
