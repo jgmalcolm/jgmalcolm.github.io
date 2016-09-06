@@ -321,6 +321,15 @@ doing this right.  I **highly recommend** this
   anything I can help with?" That might prompt the resident to suggest you go
   home.
 
+- **Falling asleep.** Do not be seen dozing off to sleep. Activity is key to
+  staying awake.  Keep moving in very small, unseen ways: bounce your foot,
+  gently tap out a beat with your finger, pinch yourself to where you're sure
+  you caused a bruise.  Stand up; if you need to be less obvious, excuse
+  yourself to the restroom, and when you come back just stand in the
+  background instead of resuming your seat. Drink water.  Chew gum.  Write
+  notes, anything that is being said, whatever comes to mind, just keep
+  scribbling words. Anything to force you to move and stay engaged.
+
 
 
 ## Call room etiquette
