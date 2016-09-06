@@ -23,9 +23,9 @@ series: clinical
   that you're only holding them up, or they genuinely believe you're better
   off going home.
 
-- **Never ever ask "Can I go home?"** You can ask the alternate equivalent "Is
-  there anything I can help with?" That might prompt the resident to suggest
-  you go home.
+- **Never ever ask "Can I go home?"** You can ask the alternate "Is there
+  anything I can help with?" That might prompt the resident to suggest you go
+  home.
 
 
 
@@ -205,7 +205,7 @@ series: clinical
 
 - **Respect the scrub tech and his domain.** When you start a case with a
   scrub tech with whom you've not yet worked, don't be too helpful from the
-  start. Observe his routine, layout, methods, and quirks. They mayo stand is
+  start. Observe his routine, layout, methods, and quirks. The mayo stand is
   their domain and responsibility. Don't assume you can touch, hand
   instruments, rearrange, etc. start slow by watching. If the surgeon asks for
   something and the tech is at the back table, go ahead and help, but
