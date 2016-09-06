@@ -8,45 +8,6 @@ series: clinical
 
 {% include series.html %}
 
-## Hours
-
-- **Arrive 5-10 minutes early.** Whatever time they tell you to be there,
-  arrive at least five minutes before that.  Ten is comfortable.
-
-- **Leave when dismissed.** When the resident directly tells you that you may
-  go home, thank them and leave.  If there is clearly something going on that
-  you want to watch or that you might be able to help with, offer that you
-  stay to the end of that and then leave.  The resident likely has a lot of
-  paperwork or crap to do that you can only hinder by making small chat.
-  Leave them to work in peace.  Don't be that idiot who overstays your
-  welcome.  They are dismissing you for a reason: either you're so incompetent
-  that you're only holding them up, or they genuinely believe you're better
-  off going home.
-
-- **Never ever ask "Can I go home?"** You can ask the alternate "Is there
-  anything I can help with?" That might prompt the resident to suggest you go
-  home.
-
-
-
-## Call room etiquette
-
-- **Never sit while a resident stands.** You are the last person to relax in a
-  chair. If they haven't taken the chair after several minutes, then you might
-  have it.
-
-- **Study when there's a lull.** There is likely a decent neurosurgery atlas
-  or textbook laying around that you can thumb through during down moments.
-  Instead of randomly flipping it to a new chapter each time you pick it up
-  for a minute or two, toss a bookmark in it so you can make actual progress
-  through chapters.  An atlas is better than a dense textbook; always a good
-  idea to freshen up on anatomy.
-
-- **Know when to keep quiet.** If the residents are busily writing notes or
-  doing any kind of work that involves thought, use conversation sparingly so
-  you don't distract.  Know when it's a bad time to tell that new joke you
-  learned.
-
 
 
 ## Prep before surgery
@@ -339,3 +300,43 @@ doing this right.  I **highly recommend** this
   down and cleaning up.  Put bed linens in the laundry, pick up any trash on
   the floor, use any remaining blue towels or linens to sop up any floor
   spillage.
+
+
+## Hours
+
+- **Arrive 5-10 minutes early.** Whatever time they tell you to be there,
+  arrive at least five minutes before that.  Ten is comfortable.
+
+- **Leave when dismissed.** When the resident directly tells you that you may
+  go home, thank them and leave.  If there is clearly something going on that
+  you want to watch or that you might be able to help with, offer that you
+  stay to the end of that and then leave.  The resident likely has a lot of
+  paperwork or crap to do that you can only hinder by making small chat.
+  Leave them to work in peace.  Don't be that idiot who overstays your
+  welcome.  They are dismissing you for a reason: either you're so incompetent
+  that you're only holding them up, or they genuinely believe you're better
+  off going home.
+
+- **Never ever ask "Can I go home?"** You can ask the alternate "Is there
+  anything I can help with?" That might prompt the resident to suggest you go
+  home.
+
+
+
+## Call room etiquette
+
+- **Never sit while a resident stands.** You are the last person to relax in a
+  chair. If they haven't taken the chair after several minutes, then you might
+  have it.
+
+- **Study when there's a lull.** There is likely a decent neurosurgery atlas
+  or textbook laying around that you can thumb through during down moments.
+  Instead of randomly flipping it to a new chapter each time you pick it up
+  for a minute or two, toss a bookmark in it so you can make actual progress
+  through chapters.  An atlas is better than a dense textbook; always a good
+  idea to freshen up on anatomy.
+
+- **Know when to keep quiet.** If the residents are busily writing notes or
+  doing any kind of work that involves thought, use conversation sparingly so
+  you don't distract.  Know when it's a bad time to tell that new joke you
+  learned.
