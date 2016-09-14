@@ -134,7 +134,7 @@ me@jgmalcolm.com <br />
    PMID:21256221
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Filtered multi-tensor tractography](/pubs/malcolm2010tmi.pdf).
-   Transactions on Medical Imaging, 29:1664-1675, 2010.  PMID:20805043,
+   Transactions on Medical Imaging, 29(9):1664-1675, 2010.  PMID:20805043,
    DOI:10.1109/TMI.2010.2048121
 1. J. G. Malcolm, O. Michailovich, S. Bouix, C.-F. Westin, M. E. Shenton, and
    Y. Rathi.
