@@ -229,7 +229,7 @@ me@jgmalcolm.com <br />
 1. P. Karasev, J. Malcolm, and A. Tannenbaum.
    [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf).
    *International Conference on Image Processing (ICIP)*, pages 2728-2731,
-   2008. PMID:23666258
+   2008. PMID:23666258, doi:10.1109/ICIP.2008.4712358
 1. S. Lankton, J. Malcolm, A. Nakhmani, and A. Tannenbaum.
    [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
    *International Conference on Image Processing (ICIP)*, pages 241-244, 2008.
