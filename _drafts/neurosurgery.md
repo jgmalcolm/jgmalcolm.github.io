@@ -1,6 +1,9 @@
 Official AANS list:
 http://www.aans.org/Young%20Neurosurgeons/Medical%20Students/Residencymatch.aspx
 
+http://www.neurosurgerymatch.org/
+http://societyns.org/match_information.html
+
 Editable Google Docs list with anonymous statistics:
 
 https://docs.google.com/spreadsheet/ccc?key=0AgentHgCQih2dDJ5R0JuYnBIUTFBS2lhajlsS0Y1Z3c&usp=sharing#gid=5
