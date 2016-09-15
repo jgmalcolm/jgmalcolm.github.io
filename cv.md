@@ -219,7 +219,7 @@ me@jgmalcolm.com <br />
    volume 12, pages 894-902, 2009. PMID:20426073
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf).
-   *Information Processing in Medical Imaging (IPMI)*, pages 126-138, 2009.
+   *Information Processing in Medical Imaging (IPMI)*, 21:126-138, 2009.
    PMID:19694258, DOI:10.1007/978-3-642-02498-6_11
 1. J. Malcolm, Y. Rathi, M. Shenton, and A. Tannenbaum.
    [Label Space: A coupled multi-shape representation](/pubs/malcolm_lss.pdf).
