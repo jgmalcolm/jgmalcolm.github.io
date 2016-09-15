@@ -216,7 +216,7 @@ me@jgmalcolm.com <br />
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Two-tensor tractography using a constrained filter](/pubs/malcolm_cukf.pdf).
    *Medical Image Computing and Computer Assisted Intervention (MICCAI)*,
-   volume 12, pages 894-902, 2009. PMID:20426073
+   volume 12, pages 894-902, 2009. PMID:20426073, doi:10.1007/978-3-642-04268-3_110
 1. J. G. Malcolm, M. E. Shenton, and Y. Rathi.
    [Neural tractography using an unscented Kalman filter](/pubs/malcolm_2t.pdf).
    *Information Processing in Medical Imaging (IPMI)*, 21:126-138, 2009.
