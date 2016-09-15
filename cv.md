@@ -270,7 +270,7 @@ me@jgmalcolm.com <br />
    DOI:10.1109/ICIP.2007.4380030
 1. Y. Rathi, O. Michailovich, J. Malcolm, and A. Tannenbaum.
    [Seeing the unseen: Segmenting with distributions](/pubs/others/rathi_seeing_unseen.pdf).
-   *Conference on Signal and Image Processing*, volume 534, 2006.
+   *Conference on Signal and Image Processing*, volume 534, Dec 2006.
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
    *Conference on Guidance, Navigation, and Control*, 2005. doi:10.2514/6.2005-6001
@@ -282,8 +282,8 @@ me@jgmalcolm.com <br />
 
 1.  Malcolm, Connolly, Gross, Kahana, Mahmoudi.
     ["Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients."](/pubs/malcolm2016aes.pdf)
-    American Epilepsy Society (AES) Annual Meeting, Houston, TX.  December
-    2016. Accepted for poster.
+    American Epilepsy Society (AES) Annual Meeting, Houston,
+    TX. December 2016. Accepted for poster.
 1.  Malcolm, Rindler, Chu, Pradilla, Ahmad.
     [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
     Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
