@@ -341,10 +341,10 @@ me@jgmalcolm.com <br />
    International Symposium on Magnetic Resonance in Medicine (ISMRM),
    Stockholm, Sweden, May 2010.
 1. HP. Ng, M. Kubicki, Y. Rathi, J. Malcolm, P. Pelavin, R. Kikinis, and
-   ME. Shenton. "Decreased fractional anisotropy in inter-hemispheric
-   connection between bilateral superior temporal gyrus gray matter in chronic
-   Schizophrenia." Schizophrenia Research, volume 117, pages 342-343, April
-   2010.
+   ME. Shenton.
+   [Decreased fractional anisotropy in inter-hemispheric connection between bilateral superior temporal gyrus gray matter in chronic Schizophrenia.](/pubs/others/ng-2010-sr.pdf)
+   Schizophrenia Research, 117(2-3):342-343, Florence, Italy,
+   April 2010. doi:10.1016/j.schres.2010.02.596
 1. HP Ng, M Kubicki, P Pelavin, Y Rathi, J Malcolm, D Lucia, M Niznikiewicz, R
    Kikinis, RW McCarley, ME Shenton.
    [Inter-Hemispheric Fiber Tracts Between Bilateral Superior Temporal Gyrus Gray Matter and Its Asymmetry in Chronic Schizophrenia](/pubs/others/mysell_nghp.pdf).
