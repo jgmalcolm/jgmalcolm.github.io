@@ -291,11 +291,12 @@ me@jgmalcolm.com <br />
     [Platform Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
-   Congress of Neurological Surgeons (CNS) 2016. Accepted for [poster](/pubs/malcolm-CNS2016-VPS-poster.pdf).
+   Congress of Neurological Surgeons (CNS), San Diego, CA, Sept
+   24-28, 2016. Accepted for [poster](/pubs/malcolm-CNS2016-VPS-poster.pdf).
 1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla, Ahmad.
    ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
-   American Association of Neurologic Surgeons (AANS) 2016. Accepted for
-   [poster](/pubs/others/rindler-AANS2016.pdf).
+   American Association of Neurologic Surgeons (AANS), Chicago, IL,
+   April 2016. Accepted for [poster](/pubs/others/rindler-AANS2016.pdf).
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-complications.docx)
    American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
@@ -311,8 +312,8 @@ me@jgmalcolm.com <br />
 1. F Chokshi, R Rindler, J Malcolm, S Eshraghi, M Mossa-Basha, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting
    Post-Operative Outcome in Cervical Spondylotic Myelopathy: A Systematic
-   Review." American Society of Neuroradiology (ASNR) 2016.  Accepted for
-   poster.
+   Review." American Society of Neuroradiology (ASNR), Washington, DC,
+   May 2016.  Accepted for poster.
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
@@ -324,20 +325,21 @@ me@jgmalcolm.com <br />
    4-6, 2015. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 1. Rindler, Chokshi, Malcolm, Eshraghi, Mossa-Basha, Chu, Ahmad.
    ["Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative Outcome in Cervical Degenerative Pathologies: A systematic review of the literature."](/pubs/others/rindler-CNS2016-SS.docx)
-   CNS Spine Summit. March 2016. Selected for
+   CNS Spine Summit. Orlando, FL. March 2016. Selected for
    [Oral presentation](/pubs/others/rindler-CNS2016-SS.pdf).
 1. J. Malcolm, A. Webster, and R. Langah.
    ["Cirrhosis: A red flag when treating cellulitis."](/pubs/malcolm_cirrhosis-abstract.pdf)
-   American College of Physicians (ACP), Georgia Chapter Conference. 10-2015.
-   [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
+   American College of Physicians (ACP), Georgia Chapter Conference. Lake
+   Lanier, GA. Oct 2015.  [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
    neural tractography algorithm using the unscented Kalman
    filter. International Symposium on Magnetic Resonance in Medicine
-   (ISMRM), page 3960, 2011.
+   (ISMRM), Montreal, Canada, page 3960, May 2011.
 1. HP. Ng, M. Kubicki, J. Malcolm, Y. Rathi, P. Pelavin, R. W. McCarley, and
    ME. Shenton. "Diffusion two-tensor tractography study on inter-hemispheric
    connection between bilateral heschl's gyrus in schizophrenia."
-   International Symposium on Magnetic Resonance in Medicine (ISMRM), 2010.
+   International Symposium on Magnetic Resonance in Medicine (ISMRM),
+   Stockholm, Sweden, May 2010.
 1. HP. Ng, M. Kubicki, Y. Rathi, J. Malcolm, P. Pelavin, R. Kikinis, and
    ME. Shenton. "Decreased fractional anisotropy in inter-hemispheric
    connection between bilateral superior temporal gyrus gray matter in chronic
