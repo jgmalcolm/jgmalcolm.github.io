@@ -172,7 +172,7 @@ me@jgmalcolm.com <br />
    301-317, 2013. ISBN 978-1-57626-363-1
 1. T. Larsen, G. Pryor, and J. Malcolm.
    [Jacket: GPU Powered MATLAB Acceleration Jacket](/pubs/others/larsen.pdf).
-   *GPU Gems*, chapter 28, pages 387-398. 2011.
+   *GPU Gems*, chapter 28, pages 387-398. 2011. doi:10.1016/B978-0-12-385963-1.00028-9
 1. J. G. Malcolm, Y. Rathi, and C.-F. Westin.
    [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
    "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
