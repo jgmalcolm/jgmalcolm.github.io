@@ -351,19 +351,20 @@ me@jgmalcolm.com <br />
    Harvard Mysell Research Day, 2010.
 1. Y Rathi, J Malcolm, S Bouix, CF Westin, ME Shenton.
    [False positive detection using filtered tractography.](/pubs/others/rathi-ismrm-false-positives.pdf)
-   International Symposium on Magnetic Resonance in Medicine (ISMRM), vol 18,
-   page 4019, 2010.
+   International Symposium on Magnetic Resonance in Medicine (ISMRM), 18:4019,
+   Stockholm, Sweden, May 2010.
 1. Y. Rathi, J. Malcolm, S. Bouix, C-F. Westin, M. Kubicki, and ME. Shenton.
    [Mixture model for estimating fiber ODF and multi-directional tractography](/pubs/others/rathi_watson.pdf).
    International Symposium on Magnetic Resonance in Medicine (ISMRM), page
-   3325, 2009.
+   3549, Honolulu, Hawaii, Apr 2009.
 1. G. Pryor, J. Melonakos, T. Rehman, J. Malcolm. "Jacket: The GPU engine
-   for MATLAB." SuperComputing, 2008.
+   for MATLAB." SuperComputing, Austin, TX, Nov 2008.
 1. AD Wyrzykowski, KM Tchorz, K Inaba, JG Cushman, R Adams, J Malcolm, MB
    Dunham, CJ Dente, JM Nicholas, JP Salomone, WL Ingram, GS Rozycki, DV
    Feliciano.
    ["Changing trends in the management of renal trauma"](/pubs/others/wyrzykowski2006.pdf).
-   In American Association for the Surgery of Trauma, 2006.
+   In American Association for the Surgery of Trauma, New Orleans, Louisiana,
+   Sept 2006.
 
 
 
