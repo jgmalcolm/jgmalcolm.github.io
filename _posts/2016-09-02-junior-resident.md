@@ -51,3 +51,11 @@ tags: [clinical]
   because if you screw that up, you will be famous.  Let everyone do their job
   while you calmly confirm imaging and mentally rehearse.  Don't operate on
   the wrong side.
+
+
+## Closing
+
+**Closing the dura.** If using pericardial implant for decompressive
+craniectomy, lay it down so that later cranioplasty dissection doesn't go into
+brain.  Fit the inlay around the temporal angle before worrying about
+frontal/parietal layout.  Don't cheat yourself.
