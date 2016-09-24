@@ -53,6 +53,21 @@ tags: [clinical]
   the wrong side.
 
 
+## Pulling drains
+
+**JP** Pull slowly so you can be sure you're not getting caught by a stitch or
+causing a bleed.  Leave open the small wound.  If oozing or trickle bleed,
+then consider placing a small gauze bandage.  Preferable to place in red
+environmental hazard bag since non-trivial blood.
+
+**EVD** The drain should already have been clamped before the decision was
+made to withdraw. CloraPrep the area.  Under sterile conditions, place a 3-0
+monocryl stitch to close the opening in a figure-eight.  Withdraw the catheter
+slowly--it's the brain! Tie off your stitch. Place catheter and bedside drain
+in red hazard bag.
+
+
+
 ## Closing
 
 **Closing the dura.** If using pericardial implant for decompressive
