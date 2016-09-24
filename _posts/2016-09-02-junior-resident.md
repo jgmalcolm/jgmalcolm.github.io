@@ -1,7 +1,7 @@
 ---
-title: "Junior resident #fail"
+title: "Junior resident tips and tricks"
 layout: post
-description: "Mistakes to avoid"
+description: "Best practices, pro tips, and mistakes to avoid"
 tags: [clinical]
 ---
 
