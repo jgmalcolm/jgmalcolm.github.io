@@ -46,6 +46,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * [Vimium] to quickly navigate and search pages without moving to the mouse
   * [The Great Suspender] to suspend and save inactive tabs, saves CPU cycles and memory and battery
   * [Facebook bookmarklet][fb] to share pages with friends and family.
+  * [Overwrite Downloads] to avoid accumulating downloads Foo (1), Foo (2), Foo (3), ... instead overwrite Foo
   * Useful ones that I don't use as much anymore:
     * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
     * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
@@ -73,6 +74,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 [Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
 [GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
 [The Great Suspender]: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg
+[Overwrite Downloads]: https://chrome.google.com/webstore/detail/fkomnceojfhfkgjgcijfahmgeljomcfk
 
 ## Services
 * [Google Apps](http://www.google.com/enterprise/apps/business) - get Gmail, Calendar, Drive, etc all using my own domain (jgmalcolm.com)
