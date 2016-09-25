@@ -281,7 +281,7 @@ me@jgmalcolm.com <br />
 ## Abstract and Poster
 
 1.  Malcolm, Connolly, Gross, Kahana, Mahmoudi.
-    ["Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients."](/pubs/malcolm2016aes.pdf)
+    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
     American Epilepsy Society (AES) Annual Meeting, Houston,
     TX. December 2016. Accepted for poster.
 1.  Malcolm, Rindler, Chu, Pradilla, Ahmad.
