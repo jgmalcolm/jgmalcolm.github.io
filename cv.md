@@ -295,7 +295,7 @@ me@jgmalcolm.com <br />
     [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
     Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
     SC. May 2016.
-    [Platform Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
+    [Oral Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
    Congress of Neurological Surgeons (CNS), San Diego, CA, Sept
@@ -324,12 +324,12 @@ me@jgmalcolm.com <br />
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
-   Plantation, GA. December 4-6, 2015. Platform Presentation.
+   Plantation, GA. December 4-6, 2015. Oral Presentation.
 1. JG Malcolm, RS Rindler, FU Ahmad.
    ["Aseptic Bone Resorption Following Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors."](/pubs/malcolm2015resorption.pdf)
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December
-   4-6, 2015. [Platform Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
+   4-6, 2015. [Oral Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 1. Rindler, Chokshi, Malcolm, Eshraghi, Mossa-Basha, Chu, Ahmad.
    ["Role of Spinal Diffusion Tensor Imaging in Predicting Postoperative Outcome in Cervical Degenerative Pathologies: A systematic review of the literature."](/pubs/others/rindler-CNS2016-SS.docx)
    CNS Spine Summit. Orlando, FL. March 2016. Selected for
