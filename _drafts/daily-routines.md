@@ -1,0 +1,1 @@
+http://dailyroutines.typepad.com/
