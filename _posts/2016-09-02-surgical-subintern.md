@@ -163,6 +163,10 @@ series: clinical
   teach you faster than passively watching. The emotional flash of getting it
   wrong will help your amygdala enhance the memory.
 
+- **Don't touch what you can't see.** If you can't see into a hole, don't
+  stick the suction or irrigate.  Always be able to see the tip of your
+  instruments or the effect of your action.
+
 - **Give the surgeon elbow room.** Never stand or lean where you might fall
   into their arm and push their instrument into the brain. Don't balance on
   your tippy toes or lean over to get a better view. Don't do anything
