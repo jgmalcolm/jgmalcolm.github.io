@@ -22,7 +22,7 @@ me@jgmalcolm.com <br />
 
 - Research Fellow, [Psychiatry Neuroimaging Laboratory](//pnl.bwh.harvard.edu/), 2008-2010
   - Advisors: [Yogesh Rathi], [Martha Shenton]
-  - Concentration: Techniques to estimate neural tissue micro-structure
+  - Concentration: tractography to estimate neural tissue micro-structure
 
 
 **Georgia Institute of Technology, Atlanta, GA**
