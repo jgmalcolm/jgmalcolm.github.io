@@ -151,7 +151,11 @@ series: clinical
   galea stitches, you get scissors ready to cut; after galea stitches, you
   wipe the wound with raytec and hand them the monocryl for skin closure; for
   a biopsy when they finish opening galea, you get navigation ready for them
-  to reorient trajectory.
+  to reorient trajectory. If they ask for flowseal, you use the bayonet to
+  ready a cotton pad. If they pick up a leksell, rongeur, kerrison punch,
+  etc., then you pick up a raytec to grab scraps and clean tips.  If they put
+  away the bovie after charring some tissue, you pull it back out briefly so
+  you can clean off the tips for next use.
 
 - **Guess what's next.** While you're watching what they are doing, always ask
   yourself 'What is next?' If you keep checking your predictions against what
