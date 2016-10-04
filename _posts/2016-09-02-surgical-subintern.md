@@ -183,6 +183,9 @@ series: clinical
   more. Subsequent cases will go smoothly. But start by building trust and
   showing respect.
 
+- **Always be thinking of the anatomy.** Keep yourself oriented.  What's in
+  view?  What's nearby?  This will keep you engaged but more importantly safe.
+
 - **Recognize when it's a crowd.** When there's not much elbow room, step away
   and watch.  When the scrub tech, attending, and one or two residents are
   present, you likely need to just step way back and watch until someone
