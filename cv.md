@@ -80,6 +80,10 @@ me@jgmalcolm.com <br />
    cranioplasty is associated with greater neurologic improvement: A
    systematic review and meta-analysis." *Submitted*
 
+1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
+   infection and resorption are associated with presence of a
+   ventriculoperitoneal shunt: A systematic review and meta-analysis."  *Submitted*
+
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *In preparation*
@@ -90,11 +94,6 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
-
-1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
-   infection and resorption are associated with presence of a
-   ventriculoperitoneal shunt: A systematic review and meta-analysis."  *In
-   preparation*
 
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
