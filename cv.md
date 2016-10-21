@@ -113,10 +113,10 @@ me@jgmalcolm.com <br />
    Literature."  Neurosurgery, *Accepted*
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad.
    [Early urgent cranioplasty for symptomatic hygroma: report of two cases.](/pubs/malcolm2016hygroma.pdf)
-   Journal of Clinical Neuroscience. *In Press.* doi:10.1016/j.jocn.2016.08.003
+   Journal of Clinical Neuroscience. *In Press.* PMID:27523587 doi:10.1016/j.jocn.2016.08.003
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Complications following cranioplasty and relationship to timing: A systematic review and meta-analysis.](/pubs/malcolm2016-timing-complications.pdf)
-   Journal of Clinical Neuroscience. *In Press.* doi:10.1016/j.jocn.2016.04.017
+   Journal of Clinical Neuroscience, 33:39-51, 2016, PMID:27499122 doi:10.1016/j.jocn.2016.04.017
 1. E Celano, A Salehani, J Malcolm, E Reinertsen, CG Hadjipanayis.
    ["Spinal Cord Ependymoma: A Review of the Literature and Case Series of Ten Patients."](/pubs/others/celano2016.pdf)
    Journal of Neuro-Oncology, 128(3):377-386, 2016.
