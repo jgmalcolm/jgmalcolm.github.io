@@ -280,6 +280,14 @@ me@jgmalcolm.com <br />
 ## Abstract and Poster
 
 {% comment %}
+
+1. Malcolm, Stern, Drane, Gross, Willie.
+   [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes](/pubs/malcolm-AANS2017-CavMal.docx)
+   American Association of Neurologic Surgeons (AANS), Los Angeles, CA, April
+   2017.
+
+{% endcomment %}
+
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Simultaneous cranioplasty and ventriculoperitoneal shunts are associated with increased complications when compared to staged procedures.](/pubs/others/mustroph-GNS2016-vps.pdf)
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
@@ -288,8 +296,6 @@ me@jgmalcolm.com <br />
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes at one year.](/pubs/malcolm-GNS2016-cav-mal.pdf)
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December 2016. Oral Presentation.
-{% endcomment %}
-
 1. Malcolm, Connolly, Gross, Kahana, Mahmoudi.
    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
    American Epilepsy Society (AES) Annual Meeting, Houston,
