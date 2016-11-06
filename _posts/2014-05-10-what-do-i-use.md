@@ -42,13 +42,12 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [Chrome](https://www.google.com/intl/en_US/chrome/browser/) web browser with extensions:
   * [AdBlock] to knock out advertisements
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
-  * [Google Drive Offline][offline] to enable editing documents and slides without internet
   * [Vimium] to quickly navigate and search pages without moving to the mouse
   * [The Great Suspender] to suspend and save inactive tabs, saves CPU cycles and memory and battery
   * [Facebook bookmarklet][fb] to share pages with friends and family.
   * [Overwrite Downloads] to avoid accumulating downloads Foo (1), Foo (2), Foo (3), ... instead overwrite Foo
   * Useful ones that I don't use as much anymore:
-    * [Gmail Offline] to work with email offline (be sure to also install [background sync][GmailSync])
+    * [Google Drive Offline][offline] & [Gmail Offline] - neither functions well
     * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
     * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
