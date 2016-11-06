@@ -62,7 +62,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   bad at night).  If you're on a Chromebook then use [G.lux].
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
 * [TotalTerminal] for quick full-screen access to the command line.
-* Emacs/vim/bash/screen/git.  Browse my
+* Emacs/vim/bash/screen/git.  Copy my
   [dot files](https://github.com/jgmalcolm/dotfiles).
 * [Monolingual] to remove unused language files and object code
   (architectures), eg. you only use English and use a 64-bit Mac so get rid of
