@@ -449,6 +449,14 @@ me@jgmalcolm.com <br />
 * American Association of Neurological Surgeons
 
 
+## Reviewer
+
+* Computer Vision and Pattern Recognition
+* IEEE Transactions on Medical Imaging
+* Journal of Medical Imaging (SPIE)
+* Journal of Magnetic Resonance Imaging
+
+
 ## Hobbies
 
 * Computer & web programming ([Pharm450.com](//pharm450.com))
