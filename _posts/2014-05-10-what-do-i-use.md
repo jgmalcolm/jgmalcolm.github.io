@@ -32,7 +32,6 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [Jarv NMotion Sport Wireless Bluetooth] for listening on the go. Good sound,
   excellent price, great for commute and cordless jogging
 
-  [bench]: http://www.audiocheck.net/soundtests_headphones.php
   [acme case]: http://www.amazon.com/gp/product/B007AK6QBA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007AK6QBA&linkCode=as2&tag=jgmalcolm-20&linkId=PDK4MX2ZIQ6RCJTY
   [python]: http://amzn.to/2gBaSVQ
   [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
