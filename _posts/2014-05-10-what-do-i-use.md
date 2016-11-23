@@ -11,7 +11,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 
 ## Hardware
 * [Macbook Air 11"](http://www.apple.com/macbook-air) with
-  [thin padded case][acme case]
+  [thin padded case][acme case] and [power cord protector][python]
 * [iPhone][iphone] with [Tech21 case] and apps:
   * [Instapaper] -- instead of reading everything at the moment, I queue up
     articles to read later using their [bookmarklet][insta-bookmarklet] and
@@ -34,6 +34,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 
   [bench]: http://www.audiocheck.net/soundtests_headphones.php
   [acme case]: http://www.amazon.com/gp/product/B007AK6QBA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007AK6QBA&linkCode=as2&tag=jgmalcolm-20&linkId=PDK4MX2ZIQ6RCJTY
+  [python]: http://amzn.to/2gBaSVQ
   [Audéo earbuds]: http://www.amazon.com/gp/product/B003V9QDXK/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B003V9QDXK&linkCode=as2&tag=jgmalcolm-20&linkId=MDT4Q76B4IQOY4BF
   [Jarv NMotion Sport Wireless Bluetooth]: http://www.amazon.com/gp/product/B00JAAJ1F6/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00JAAJ1F6&linkCode=as2&tag=jgmalcolm-20&linkId=MC3Y54SMJGTYZ5Q3
 
