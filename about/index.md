@@ -8,8 +8,10 @@ title: "Hi there!"
 I'm James, and I'm interested in tools, technology, and ideas.  I'm currently
 a medical student in Atlanta, creator of [Pharm450](//pharm450.com),
 co-creator of [ArrayFire](http://arrayfire.com),
-[scientist](/pubs/research.html), and husband.  Check out what I'm
+[scientist](/pubs/research.html), and husband to an [awesome woman].  Check out what I'm
 [working on now][now].
+
+ [awesome woman]: http://www.insleyrace.com/Associates/Malcolm-Kristin-Elizabeth.shtml
 
 I'd really like to hear from you, so shoot me an email!  Have some thoughts on
 what you read here?  Want to chat about ideas?  Email me!  In the Atlanta area
