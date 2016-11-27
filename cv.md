@@ -457,7 +457,7 @@ me@jgmalcolm.com <br />
 * Journal of Magnetic Resonance Imaging
 
 <div class="no-print">
-See record on [Publons](https://publons.com/a/1194832/).
+See record on <a href="https://publons.com/a/1194832/">Publons</a>.
 </div>
 
 ## Hobbies
