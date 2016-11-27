@@ -456,6 +456,9 @@ me@jgmalcolm.com <br />
 * Journal of Medical Imaging (SPIE)
 * Journal of Magnetic Resonance Imaging
 
+<div class="no-print">
+See record on [Publons](https://publons.com/a/1194832/).
+</div>
 
 ## Hobbies
 
