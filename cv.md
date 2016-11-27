@@ -228,16 +228,16 @@ me@jgmalcolm.com <br />
    Award.**  PMID:18982632, DOI:10.1007/978-3-540-85990-1_50
 1. P. Karasev, J. Malcolm, and A. Tannenbaum.
    [Kernel-based high-dimensional histogram estimation for visual tracking](/pubs/others/karasev_hist.pdf).
-   *International Conference on Image Processing (ICIP)*, pages 2728-2731,
-   2008. PMID:23666258, doi:10.1109/ICIP.2008.4712358
+   *International Conference on Image Processing (ICIP)*, pages 2728-2731, 2008.
+    PMID:23666258, doi:10.1109/ICIP.2008.4712358
 1. S. Lankton, J. Malcolm, A. Nakhmani, and A. Tannenbaum.
    [Tracking through changes in scale](/pubs/others/lankton_scale.pdf).
    *International Conference on Image Processing (ICIP)*, pages 241-244, 2008.
    PMID:23645076, DOI:10.1109/ICIP.2008.4711736
 1. S. Lankton, J. Melonakos, J. Malcolm, S. Dambreville, and A. Tannenbaum.
    [Localized statistics for DW-MRI fiber bundle segmentation](/pubs/others/lankton2008.pdf).
-   *Mathematical Methods in Biomedical Image Analysis (MMBIA)*, pages 1-8,
-   2008. PMID:23652079, DOI:10.1109/CVPRW.2008.4562999
+   *Mathematical Methods in Biomedical Image Analysis (MMBIA)*, pages 1-8, 2008.
+   PMID:23652079, DOI:10.1109/CVPRW.2008.4562999
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
    [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf).
    *Combinatorial Image Analysis*, pages 185-196, 2008.
