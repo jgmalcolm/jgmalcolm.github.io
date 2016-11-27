@@ -451,10 +451,21 @@ me@jgmalcolm.com <br />
 
 ## Reviewer
 
-* Computer Vision and Pattern Recognition
-* IEEE Transactions on Medical Imaging
+**Journal:**
+
+* IEEE Transactions on Medical Imaging (TMI)
+* IEEE Transactions on Image Processing (TMI)
+* IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)
+* IEEE Transactions on Information Technology in Biomedicine (TITB)
 * Journal of Medical Imaging (SPIE)
-* Journal of Magnetic Resonance Imaging
+* Journal of Magnetic Resonance Imaging (JMRI)
+* Medical Physics (MP)
+
+**Conference:**
+
+* Computer Vision and Pattern Recognition (CVPR)
+* International Conference on Computer Vision (ICCV)
+* General Purpose GPU Conference (GPGPU)
 
 <div class="no-print">
 See record on <a href="https://publons.com/a/1194832/">Publons</a>.
