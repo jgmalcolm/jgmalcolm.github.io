@@ -72,11 +72,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
-   Kurpad, FU Ahmad. "Spinal diffusion tensor imaging in the evaluation of
-   pre- and post-operative severity in cervical spondylotic myelopathy: A
-   systematic review of the literature." *Submitted*
-
 1. Malcolm, Rindler, Chu, Chokshi, Grossberg, Pradilla, Ahmad. "Early
    cranioplasty is associated with greater neurologic improvement: A
    systematic review and meta-analysis." *Submitted*
@@ -107,6 +102,10 @@ me@jgmalcolm.com <br />
    Therapy in Spinal Cord Injury: A Review." *In preparation*
 {% endcomment %}
 
+1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
+   Kurpad, FU Ahmad. "Spinal diffusion tensor imaging in the evaluation of
+   pre- and post-operative severity in cervical spondylotic myelopathy: A
+   systematic review of the literature." World Neurosurgery, *Accepted*
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow
    Following Decompressive Craniectomy: A Systematic Review of the
