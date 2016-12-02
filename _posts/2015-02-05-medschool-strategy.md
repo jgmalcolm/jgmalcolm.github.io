@@ -1,5 +1,5 @@
 ---
-title: Med School Strategy
+title: Med School Study Strategy
 layout: post
 series: STEP1
 tags: [medicine, studying, STEP1]
