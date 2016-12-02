@@ -226,6 +226,17 @@ things pretty, or shying away from even starting a table or figure because I
 think it'll be a mess.  Go fast and loose, and repeat frequently.
 
 
+## Daily Review
+
+Every day during my Step 1 & 2 study blocks I would start with a blank sheet
+of paper and record scratch notes on anything I got wrong or lessons learned
+-- mostly just two or three word associations or small lists. What was a key
+fact I should know?  This was very fast, loose, and cursory.  It wasn't meant
+to be saved.  What did I do with this? At the start of every new day I would
+scan that list to refresh my brain. It typically took less than five minutes.
+No need to look stuff up, just read what the page has.  I filed these away in
+a stack but rarely looked at them again. Afterward, I was warmed up and would
+begin with a fresh sheet of paper.
 
 
 ## When studying
