@@ -166,12 +166,16 @@ tenured professor who's seen it all to pull a muscle after rolling her eyes.
 
 ## Discussion
 
+- begin by contextualizing and summarizing in one paragraph
 - talk to the audience
 - do not introduce any new results here not already in results section
 - compare your results to published results
 - important to reference papers with different conclusions
   - if you don't include and reviewer finds, it will sink you because reviewer
     wonders 'what else is missing?'
+- as you work on your project, keep a list of interesting papers and 1-2
+  sentence summary of methods and results.  String these together into
+  discussion paragraphs.
 
 
 ## Conclusions
