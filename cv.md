@@ -299,7 +299,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Connolly, Gross, Kahana, Mahmoudi.
    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
    American Epilepsy Society (AES) Annual Meeting, Houston,
-   TX. December 2016. Accepted for poster.
+   TX. December 2016. Accepted for [poster](/pubs/malcolm2016aes-poster.pdf).
 1. Malcolm, Rindler, Chu, Pradilla, Ahmad.
    [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
    Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
