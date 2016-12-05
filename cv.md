@@ -295,7 +295,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Willie, Stern, Gross.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes at one year.](/pubs/malcolm-GNS2016-cav-mal.pdf)
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
-   Plantation, GA. December 2016. Oral Presentation.
+   Plantation, GA. December 2016. [Oral Presentation](https://docs.google.com/presentation/d/e/2PACX-1vR3lnzUnXkPxnIZ3_NhGsljnLgMrTo4EFKWGgNGgEHOopDQZO0q0cMvp0KHsIENaJBBoiqbFyVU_STn/pub?start=false&loop=false).
 1. Malcolm, Connolly, Gross, Kahana, Mahmoudi.
    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
    American Epilepsy Society (AES) Annual Meeting, Houston,
