@@ -84,9 +84,9 @@ me@jgmalcolm.com <br />
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *In preparation*
 
-1. Malcolm, Tan, Johnson. "Image-guided oblique lateral mass screw insertion
-   for primary internal fixation of a unilateral C1 lateral mass oblique
-   sagittal split fracture: technical case report." *In preparation*
+1. Malcolm, Tan, Johnson. "Oblique lateral mass screw insertion for primary
+   internal fixation of a unilateral C1 lateral mass oblique sagittal split
+   fracture: technical case report." *In preparation*
 
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
