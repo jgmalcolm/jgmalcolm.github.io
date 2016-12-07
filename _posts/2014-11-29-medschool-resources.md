@@ -412,7 +412,8 @@ Kaplan bank to cover more material per question.
     body to learn made the experience more vivid.  If I stabbed myself in the
     back below the floating rib, what would I hit?  Trace the pathway of
     nerves/arteries/veins on your own body.  Watch as you flex specific
-    muscles.  All the while imagine what's going on under the hood.
+    muscles.  All the while imagine what's going on under the hood. (Don't
+    actually stab yourself, but just use your imagination.)
 * [U Michigan](http://www.med.umich.edu/lrc/coursepages/m1/anatomy2010/html/INDEX.html)
   has detailed explanations of various dissections along with relevant quizzes.
 * Buy the recommended Clemente dissector and Netter atlas, same edition
