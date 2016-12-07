@@ -16,13 +16,13 @@ blockquote {
 }
 
 a {
-  font-weight: bold;
   text-decoration: none;
-  color: #268bd2;
+  border-bottom: 2px solid #fcc;
+  color: red;
 }
 
 a:hover {
-  text-decoration: underline;
+  border-color: red;
 }
 
 .sidebar {
