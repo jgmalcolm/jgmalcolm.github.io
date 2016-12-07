@@ -140,9 +140,9 @@ tenured professor who's seen it all to pull a muscle after rolling her eyes.
 ## Methods
 
 - knowledgeable reader must be able to reproduce experiments
-  - details, lots of details
-  - consider supplementary materials
-- give values for any constants you assumed, eg. kernel bandwidth, thresholds
+  - details, lots of details, err on the side of too much detail
+  - consider supplementary materials if a lot of additional details
+- give values for any constants or tuning parameters you used, eg. kernel bandwidth, thresholds
 
 
 ## Results
