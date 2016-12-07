@@ -176,6 +176,10 @@ tenured professor who's seen it all to pull a muscle after rolling her eyes.
 - as you work on your project, keep a list of interesting papers and 1-2
   sentence summary of methods and results.  String these together into
   discussion paragraphs.
+- where you can vent. You are now the expert. You can say whatever you believe
+  is correct. It's your opinion. What advice do you have for those that follow
+  your footsteps? What frustrations did you have during the study? Make some
+  recommendations.  Anything you wish you'd done differently?
 
 
 ## Conclusions
