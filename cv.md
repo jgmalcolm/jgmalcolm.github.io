@@ -105,7 +105,7 @@ me@jgmalcolm.com <br />
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad. "Spinal diffusion tensor imaging in the evaluation of
    pre- and post-operative severity in cervical spondylotic myelopathy: A
-   systematic review of the literature." World Neurosurgery, *In Press*
+   systematic review of the literature." World Neurosurgery, *In Press*.
    doi:10.1016/j.wneu.2016.11.141
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow
