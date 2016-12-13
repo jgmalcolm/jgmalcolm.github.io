@@ -476,6 +476,7 @@ studying and productivity in med school.
   [Learn Faster and Better](http://www.scotthyoung.com/blog/2011/01/11/learn-faster-and-better)
 * [What Do Top Students Do Differently]({% post_url 2014-05-07-top-students %}) (from me)
 * [Daniel Willingham](http://www.danielwillingham.com/articles.html)
+* [EffectiveStudy](http://www.effectivestudy.org/)
 
 ### Beyond Medical school
 
