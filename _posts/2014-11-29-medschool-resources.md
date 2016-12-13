@@ -456,7 +456,7 @@ studying and productivity in med school.
 * [How To Study Effectively](http://meded.ucsd.edu/index.cfm//ugme/oess/study_skills_and_exam_strategies//how_to_study_actively/) -
   comprehensive guide from UC San Diego on an organized and active approach to
   studying in med school
-* [Erik Reinertsen](http://erikreinertsen.com/step1-usmle/) describes his approach in the weeks leading up
+* [Erik Reinertsen](http://erikreinertsen.com/prep-for-step-1-usmle/) describes his approach in the weeks leading up
 * [Ken Noguchi on STEP1](http://sidenotelife.tumblr.com/post/88788673049/ken-explains-studying-in-med-school-a-year-long) -
   covering his experience with Firecracker, Pathoma, and UWorld
 * [A Guide to the USMLE STEP1](http://managingmedicine.wordpress.com/2013/08/17/my-guide-to-the-usmle-step-1)
