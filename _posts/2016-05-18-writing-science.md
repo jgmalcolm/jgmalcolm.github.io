@@ -135,15 +135,23 @@ tenured professor who's seen it all to pull a muscle after rolling her eyes.
 
 
 
-{% comment %}
-
 ## Methods
 
-- knowledgeable reader must be able to reproduce experiments
-  - details, lots of details, err on the side of too much detail
-  - consider supplementary materials if a lot of additional details
-- give values for any constants or tuning parameters you used, eg. kernel bandwidth, thresholds
+**Write for a knowledgeable reader.** Your audience should be familiar with
+your research area.  They will likely have done similar projects, worked with
+similar substances, done the procedure themselves, used the same statistical
+tools.  This reader should be able to reproduce your experiments.
 
+**Provide details.** You can almost never have too much. This goes back to
+reproducibility: any constants, thresholds, or tuning parameters must be
+included.  Every inclusion/exclusion decision you made. How long you waited to
+check something.  If it's a very new procedure you're proposing with important
+details you want people to reproduce, then consider submitting a supplemental
+methods document.
+
+
+
+{% comment %}
 
 ## Results
 
@@ -198,16 +206,18 @@ tenured professor who's seen it all to pull a muscle after rolling her eyes.
 
 ## References
 
-- Mendeley, EndNote
+- Mendeley, EndNote, Zotero
 - while writing, don't get bogged down (Smith2002, Johnson2010)
 - too many references means you're unfocused
 - too few and you haven't done homework
 - look at representative papers to judge appropriate count
 
 
+
+
 ## When stuck
 
-- XXX
+- ###
 
 **Copy/paste.** When I'm a little unsure about how to present something, my
 typical trick is to look at 3-5 examples and pick the one or two I like the
@@ -217,6 +227,9 @@ my own data.  In the end there is zero plagiarism but you borrowed a structure
 to get started.  As I continue revisiting and revising, eventually the text
 becomes all my own and turns out completely unique from the initial
 copy/paste.
+
+
+
 
 ## Responding to reviewers
 
