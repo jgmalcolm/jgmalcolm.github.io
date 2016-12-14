@@ -246,6 +246,7 @@ copy/paste.
 - try to answer everything, but okay for minor points to acknowledge and
   justify not addressing.  Better to say you considered something and, while
   you didn't do exactly what is suggested, you did something similar.
+- link to "Being a reviewer"
 
 {% endcomment %}
 
