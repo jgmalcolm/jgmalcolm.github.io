@@ -106,7 +106,7 @@ me@jgmalcolm.com <br />
    Kurpad, FU Ahmad. "Spinal diffusion tensor imaging in the evaluation of
    pre- and post-operative severity in cervical spondylotic myelopathy: A
    systematic review of the literature." World Neurosurgery, *In Press*.
-   doi:10.1016/j.wneu.2016.11.141
+   doi:10.1016/j.wneu.2016.11.141, pmid:27939797
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow
    Following Decompressive Craniectomy: A Systematic Review of the
