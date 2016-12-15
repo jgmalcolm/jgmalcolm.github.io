@@ -17,7 +17,7 @@ me@jgmalcolm.com <br />
 **Emory School of Medicine, Atlanta, GA**
 
 - MD, expected May 2017
-- Joseph B Whitehead Scholar
+  - Joseph B Whitehead Surgery Scholarship
 
 **Brigham & Women's Hospital, Boston, MA**
 
