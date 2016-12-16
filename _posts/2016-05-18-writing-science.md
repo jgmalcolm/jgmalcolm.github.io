@@ -243,10 +243,17 @@ manuscript out.
 
 ## Conclusions
 
-- how does your work advance the field
-- do not repeat abstract or list experimental results
-- indicate applications or future directions or anything you are currently
-  working on
+**What did you contribute?** How did you advance the field?  Be very specific
+but brief.  Rank order your contributions, briefly state them, and don't feel
+like you need to rehash every result.
+
+**Avoid numbers.** The abstract is where you have the quantitative details.
+The conclusion is just to summarize the basic trends.
+
+**Suggestions?** If there is one or two important suggestions buried in your
+discussion, give one last shout out.  Be brief; your paper has all the
+details.  Avoid the pithy 'future work is needed' -- that much should always
+be obvious.  Stating this adds zero value and eats printer ink.
 
 
 ## Acknowledgments
