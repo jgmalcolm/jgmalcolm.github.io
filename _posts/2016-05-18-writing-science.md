@@ -198,22 +198,47 @@ then subsequent captions can omit this.
 trying to communicate?  Use the appropriate tool.
 
 
+
 ## Discussion
 
-- begin by contextualizing and summarizing in one paragraph
-- talk to the audience
-- do not introduce any new results here not already in results section
-- compare your results to published results
-- important to reference papers with different conclusions
-  - if you don't include and reviewer finds, it will sink you because reviewer
-    wonders 'what else is missing?'
-- as you work on your project, keep a list of interesting papers and 1-2
-  sentence summary of methods and results.  String these together into
-  discussion paragraphs.
-- where you can vent. You are now the expert. You can say whatever you believe
-  is correct. It's your opinion. What advice do you have for those that follow
-  your footsteps? What frustrations did you have during the study? Make some
-  recommendations.  Anything you wish you'd done differently?
+**Talk to the audience.** Here is where you switch voice a little.  You've
+just laid out all the facts.  Now you get to take a deep breath and help the
+reader make sense of it all.
+
+**One intro paragraph.** Begin the discussion with one paragraph
+contextualizing and summarizing the results.  Very briefly connect your
+results with one or two other references.
+
+**Nothing new.** Do not introduce any new results.  You should make summary
+references to the results already documented and drawing connections.
+
+**Compare your result with published results.** Make connections. Are your
+findings in line with those of other groups? Did you come up with wildly
+different results?  How did your work specifically extend that of others?
+
+**Address differences.** Reference papers with different conclusions. As long
+as you were careful in your methods, it's okay.  It is what it is.  Someone
+else may come later and figure out why there is a difference, but go ahead and
+take a crack at what you think explains the situation.
+
+**Make notes throughout your project.** Every time you read a relevant paper,
+make a 2-3 sentence note on it.  I record these in the tentative "Discussion"
+section of my developing manuscript, even before I have results.  A good body
+of these will start to take form and it'll be easy later to string these
+bullet points together into sentences and paragraphs.
+
+**What do you suggest?** You are now the expert.  Let your voice come through.
+What do you think is the best way of handling the topic?  What do you suggest
+future studies look into?  You have freedom here to vent a little.  If it's a
+systematic review and you found the literature a mess, tactfully suggest ways
+future studies can be more consistent.  After all your experimental work, did
+you realize you screwed up and future studies should do it differently?
+Suggesting clear lines of future work is a great way to inspire others to
+follow the trail.  Nothing is every done and done.  You shouldn't worry if
+it's something you yourself plan to do -- getting scooped is rare in practice,
+and you already have a massive advantage with just having the present
+manuscript out.
+
 
 
 ## Conclusions
