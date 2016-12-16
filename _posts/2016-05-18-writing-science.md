@@ -175,16 +175,27 @@ risk muddling the message.
 
 
 
-{% comment %}
 
 ## Figures & Tables
 
-- use color sparingly
-  - consider different line styles so looks okay in b&w
-- include necessary color/intensity scales
-- first sentence of caption tells you what you're looking at, second sentence
-  tells you what to take away
-- tables report data, figures show trends
+**Use color sparingly.** Use it to emphasize key portions of a figure or
+graph; not everything has to be in awesome colors and shading.  Not everyone
+prints out on a color printer.  Shading can turn out crappy on a bad printer.
+For graphs, use different line styles that will show up on black and white
+printers.
+
+**Include scale.** Every graph needs x/y-axis labels and units.  Color
+intensity needs a labeled bar. Run your figures by someone completely
+unfamiliar with the project to see if they understand.
+
+**Two sentence captions: what it is, what it means.** First sentence describes
+what you're looking at, second sentence tells you what you should take
+away. If you use several figures of the same style, your first caption can
+include some extra details to familiarize the reader with symbols/layout, but
+then subsequent captions can omit this.
+
+**Tables report data, figures show trends.** What type of information are you
+trying to communicate?  Use the appropriate tool.
 
 
 ## Discussion
