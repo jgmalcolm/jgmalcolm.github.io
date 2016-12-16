@@ -13,6 +13,14 @@ This all assumes you've got the bulk of the results done.  It's normal that as
 you're writing, you come up with new experiments to prove out a point.  The
 manuscript evolves.
 
+**New project, new document.** Whenever a new project is taking shape, I
+create a blank document with headings for abstract, methods, results, and
+discussion.  As the project evolves, I keep adding to this outline.
+Interesting papers get a quick summary in the discussion for later. Ideas for
+experiments and figures get sketched in the results.  Inclusion/exclusion
+criteria in the methods.  Very fast and loose, but something you can share
+with co-authors to update on project status.
+
 
 ## Write in order
 
