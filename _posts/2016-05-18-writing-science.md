@@ -313,8 +313,8 @@ relax more and just get it all out on paper by sprinkling these in wherever I
 know I need to come back later.  Like an embedded TODO list.
 
 **Copy/paste.** When I'm a little unsure about how to present something, my
-typical trick is to look at 3-5 examples and pick the one or two I like the
-most.  Often I will literally copy/paste from another article, and then go
+typical trick is to look at 3-5 example papers and pick the one or two I like
+the most.  Often I will literally copy/paste from another article, and then go
 sentence by sentence using the same structure but rewriting completely using
 my own data.  In the end there is zero plagiarism but you borrowed a structure
 to get started.  As I continue revisiting and revising, eventually the text
