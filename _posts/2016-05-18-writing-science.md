@@ -151,16 +151,31 @@ methods document.
 
 
 
-{% comment %}
-
 ## Results
 
-- only essential results
-- consider supplementary materials
-- subheadings to group
-- clearly answer questions at end of introduction
-- order should mirror abstract & methods
+**Only include the key results.** You don't need to detail every experiment
+you did.  What you include needs to follow a logical progression and build
+toward clear conclusions.  You don't just want a catalog of things you tried.
+If you have more you think might be interesting to others, ie. inconclusive
+experiments others could build off, consider supplementary materials.
 
+**Supplementary materials.** Any data that you want to share but don't want to
+bog down the manuscript.  Others may pick up from where you left off.
+
+**Use subheadings to group.** Organize your results.  This also helps later
+because you can organize your discussion around those exact subheadings.
+
+**Clearly address your goals.** Keep going back and re-reading the abstract
+and intro.  Make sure everything is inline.  Make sure your abstract doesn't
+overstate your actual results.
+
+**Keep a consistent order.** The organization of your results should be mirror
+your abstract and methods.  If you stray from this symmetric structure, you
+risk muddling the message.
+
+
+
+{% comment %}
 
 ## Figures & Tables
 
