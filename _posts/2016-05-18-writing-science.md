@@ -258,8 +258,10 @@ be obvious.  Stating this adds zero value and eats printer ink.
 
 ## Acknowledgments
 
-- advisors, proof-readers, anyone who helped conduct experiments but may not
-  have been justified a co-author spot
+While not everyone deserves a co-author spot, you have the liberty to show
+your appreciation with a small mention.  Did someone help review your stats?
+Did someone do a lot of specimen preparation early in the project?  Anyone who
+helped conduct experiments but may not have been justified a co-author spot.
 
 
 ## References
