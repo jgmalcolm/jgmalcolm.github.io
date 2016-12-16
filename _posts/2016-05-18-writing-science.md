@@ -266,11 +266,31 @@ helped conduct experiments but may not have been justified a co-author spot.
 
 ## References
 
-- Mendeley, EndNote, Zotero
-- while writing, don't get bogged down (Smith2002, Johnson2010)
-- too many references means you're unfocused
-- too few and you haven't done homework
-- look at representative papers to judge appropriate count
+**Software.** Mendeley, EndNote, Zotero -- lots of options, but often it's
+best to use what everyone else in your group is using.  At any given time, I'm
+often using each of them for different projects.  They all have pros and cons.
+I prefer Mendeley and EndNote.
+
+**Don't futz around.** While writing, don't get bogged down searching and
+including references as you go.  Simply cite with name/year and keep typing
+(Smith2002, Johnson2010).  While drafting -- right up until submission -- I
+keep references in LastNameYear style for easier reading.
+
+**Show some judgment.** Too many references means you're unfocused. Don't go
+overboard trying to cite everything that's ever been done and is loosely
+connected.  Focus on the few papers you were most impressed with.  For a
+review article you need to extend a wider net, but for a research article you
+can show judgment.  I've never had a reviewer kick back my papers because I
+didn't cite something.  They may make suggestions, but never is that a make it
+or break it.
+
+**Too few and you haven't done homework.** Nearly everything's been done under
+the sun.  You should easily be able to find a few key papers you're building
+from.
+
+**Look at other papers to judge count.** If the key papers you're extending
+have ~20 citations, then aim for that.  If yours turns out to have 40+, then
+maybe you need to show some judgment.
 
 
 
