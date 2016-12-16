@@ -297,7 +297,12 @@ maybe you need to show some judgment.
 
 ## When stuck
 
-- ###
+**###** When I know I need to come back to something, this is what I drop in
+the text.  It's an unique tag that is easily searchable.  Keep moving forward,
+don't lose momentum.  One of my biggest weaknesses is that I agonize over
+text, getting bogged laying down each sentence in final form.  I've learned to
+relax more and just get it all out on paper by sprinkling these in wherever I
+know I need to come back later.  Like an embedded TODO list.
 
 **Copy/paste.** When I'm a little unsure about how to present something, my
 typical trick is to look at 3-5 examples and pick the one or two I like the
@@ -309,7 +314,7 @@ becomes all my own and turns out completely unique from the initial
 copy/paste.
 
 
-
+{% comment %}
 
 ## Responding to reviewers
 
