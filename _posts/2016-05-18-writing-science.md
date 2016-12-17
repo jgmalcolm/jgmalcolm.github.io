@@ -242,10 +242,10 @@ systematic review and you found the literature a mess, tactfully suggest ways
 future studies can be more consistent.  After all your experimental work, did
 you realize you screwed up and future studies should do it differently?
 Suggesting clear lines of future work is a great way to inspire others to
-follow the trail.  Nothing is every done and done.  You shouldn't worry if
-it's something you yourself plan to do -- getting scooped is rare in practice,
-and you already have a massive advantage with just having the present
-manuscript out.
+follow the trail.  Nothing is ever done and done.  You shouldn't worry if it's
+something you yourself plan to do -- getting scooped is rare in practice, and
+you already have a massive advantage with just having the present manuscript
+out.
 
 
 
