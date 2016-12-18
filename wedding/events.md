@@ -33,7 +33,6 @@ thoughts will certainly be heard, felt, and appreciated across the ocean.
 
 Reception - Meagher Family Guests
 August 2, 2014
-6:30 pm
 Laurel Springs Club House & Facility
 5355 Laurel Oak Drive
 Suwannee, GA 30024
