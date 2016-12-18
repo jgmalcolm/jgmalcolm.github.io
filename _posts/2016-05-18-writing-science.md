@@ -322,25 +322,31 @@ becomes all my own and turns out completely unique from the initial
 copy/paste.
 
 
-{% comment %}
-
 ## Responding to reviewers
 
-- respond quickly, reviewer fatigue / context switching
-- create a document with the reviews verbatim, reformat to be bold/italics,
-  and answer inline with normal font
-- make a separate checklist for you and co-authors, ordered by importance
-  - keep going down that list until you judge not important
-  - justify everything below that line
-- start by thanking reviewer and highlighting what you appreciate
-- never argue, guarantees failure
-- reviewers may be quick/sloppy but they are never stupid and they are always
-  "right"
-- try to answer everything, but okay for minor points to acknowledge and
-  justify not addressing.  Better to say you considered something and, while
-  you didn't do exactly what is suggested, you did something similar.
-- link to "Being a reviewer"
+**Respond quickly.** Reviewers fatigue and their attention wains.  Best to get
+it back to them quick while it's still fresh in their head.
 
-{% endcomment %}
+**Create a response document.** Start by pasting the reviews verbatim.  I tend
+to reformat them in bold/italic with each paragraph prefixed by ">".  I then
+embed my responses in plain text after each reviewer's point.  This way, if
+you have to paste your whole response into a plain text form, the difference
+between reviewers and your comments will still be clear.
+
+**Triage.** Make a separate checklist for you and co-authors, ordered by
+importance.  Keep going down that list until you judge items not important.
+Then justify everything below that line.
+
+**Start by thanking the reviewer.** Highlight any specific ideas you
+appreciated.  Thank them for their time.
+
+**Never argue.** Guarantees failure.  Be tactful in your responses.  Reviewers
+may be quick/sloppy but they are never stupid and they are always "right".
+
+**Address everything.** You might get away with glossing over minor
+suggestions, but best to acknowledge and give your thoughts.  Better to say
+you considered something and, while you didn't do exactly what is suggested,
+you did something similar.
+
 
 [nature]: http://blogs.nature.com/naturejobs/2014/11/03/how-to-get-published-in-high-impact-journals-big-research-and-better-writing/
