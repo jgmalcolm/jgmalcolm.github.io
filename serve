@@ -1,5 +1,5 @@
 #!/bin/sh -e
 
 dir=. #~/repos/jgmalcolm.github.io
-screen -X title jekyll
+screen -X title 11 jekyll
 jekyll serve --incremental --watch --drafts -s $dir -d /tmp/www
