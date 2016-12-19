@@ -216,3 +216,6 @@ with the plugin.
   - examples for practice
 
 {% endcomment %}
+
+
+> See also [Guide to executing and writing a systematic review](http://goo.gl/A0PBq)
