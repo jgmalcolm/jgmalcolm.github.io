@@ -277,7 +277,7 @@ helped conduct experiments but may not have been justified a co-author spot.
 **Software.** Mendeley, EndNote, Zotero -- lots of options, but often it's
 best to use what everyone else in your group is using.  At any given time, I'm
 often using each of them for different projects.  They all have pros and cons.
-I prefer Mendeley and EndNote.
+I prefer Mendeley over EndNote over Zotero.
 
 **Don't futz around.** While writing, don't get bogged down searching and
 including references as you go.  Simply cite with name/year and keep typing
