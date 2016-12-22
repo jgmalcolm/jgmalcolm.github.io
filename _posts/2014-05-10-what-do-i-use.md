@@ -54,7 +54,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [Witch] to switch between the individual windows of an application (Mac OSX
   only lets you switch between full applications with Command+Tab, and
-  Command+` between windows within one application; Witch lets you switch
+  Command+&#96; between windows within one application; Witch lets you switch
   between individual windows in separate applications, just like Windows)
 * [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
