@@ -86,7 +86,7 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
-   reoperation: A systematic review and meta-analysis." *In preparation*
+   reoperation: A systematic review and meta-analysis." *Submitted*
 
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
