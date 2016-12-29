@@ -100,6 +100,9 @@ me@jgmalcolm.com <br />
 
 1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
    Therapy in Spinal Cord Injury: A Review." *In preparation*
+
+1. Malcolm, Connolly, Gross, Mahmoudi. "Quantifying interesting effects of neural
+
 {% endcomment %}
 
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
