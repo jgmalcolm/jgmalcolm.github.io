@@ -29,7 +29,7 @@ me@jgmalcolm.com <br />
 **Georgia Institute of Technology, Atlanta, GA**
 
 - PhD Electrical and Computer Engineering, October 2010
-  - Thesis: [Filtered Tractography](/pubs/research.html)
+  - Thesis: [Filtered Tractography](/pubs/malcolm2010tmi.pdf)
   - Concentration: Computer Vision
   - Advisors: [Yogesh Rathi], [Allen Tannenbaum]
 - MS Electrical and Computer Engineering, August 2008

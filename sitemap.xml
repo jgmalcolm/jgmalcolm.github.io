@@ -15,12 +15,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>http://jgmalcolm.com/reading/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
     <loc>http://jgmalcolm.com/cv/</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>weekly</changefreq>
@@ -28,12 +22,6 @@
   </url>
   <url>
     <loc>http://jgmalcolm.com/pubs/</loc>
-    <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://jgmalcolm.com/pubs/research.html</loc>
     <lastmod>{{ site.time | date_to_xmlschema}}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
