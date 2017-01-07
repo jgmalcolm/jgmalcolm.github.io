@@ -113,7 +113,9 @@ all day might cause the money to fall out.  Partition your assets.
 **Eye patch and inflatable pillow.** Catch some rest whenever and wherever.
 
 **Photocopy your passport.** Put copies in all your luggage and carry-on.
-Write your contact information on these copies.
+Write your contact information on these copies.  Besides this backup copy, you
+want at least two forms of identification, and you want to store them in two
+separate locations.
 
 **Plan on doing laundry.** Only pack clothes for 5-7 days.  Even when
 traveling on some remote islands, I've always been able to find local services
