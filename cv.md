@@ -286,7 +286,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Stern, Drane, Gross, Willie.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes](/pubs/malcolm-2017-AANS-cavmal.pdf)
    American Association of Neurologic Surgeons (AANS), Los Angeles, CA, April
-   2017.
+   2017. Poster.
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Simultaneous cranioplasty and ventriculoperitoneal shunts are associated with increased complications when compared to staged procedures.](/pubs/others/mustroph-GNS2016-vps.pdf)
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
@@ -298,7 +298,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Connolly, Gross, Kahana, Mahmoudi.
    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
    American Epilepsy Society (AES) Annual Meeting, Houston,
-   TX. December 2016. Accepted for [poster](/pubs/malcolm2016aes-poster.pdf).
+   TX. December 2016. [Poster](/pubs/malcolm2016aes-poster.pdf)
 1. Malcolm, Rindler, Chu, Pradilla, Ahmad.
    [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
    Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
@@ -307,28 +307,25 @@ me@jgmalcolm.com <br />
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
    Congress of Neurological Surgeons (CNS), San Diego, CA, Sept
-   24-28, 2016. Accepted for [poster](/pubs/malcolm-CNS2016-VPS-poster.pdf).
+   24-28, 2016. [Poster](/pubs/malcolm-CNS2016-VPS-poster.pdf)
 1. Rindler, Chokshi, Malcolm, Mossa-Basha, Eshraghi, Chu, Pradilla, Ahmad.
    ["Diagnostic Ability of Spinal Diffusion Tensor Imaging in Cervical Degenerative Pathologies: A Systematic Review of the Literature."](/pubs/others/rindler-AANS2016.docx)
    American Association of Neurologic Surgeons (AANS), Chicago, IL,
-   April 2016. Accepted for [poster](/pubs/others/rindler-AANS2016.pdf).
+   April 2016. [Poster](/pubs/others/rindler-AANS2016.pdf)
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Are Complications Following Cranioplasty Related To Its Timing After The Decompressive Surgery? A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-complications.docx)
-   American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
-   [poster](https://docs.google.com/presentation/d/1AZprarjLpPdDYihUKy9R5mZ1K4_8sj6Bgjn7HlX5Wkg/pub?start=false&loop=false&delayms=3000).
+   American Association of Neurologic Surgeons (AANS) 2016.  [Poster](https://docs.google.com/presentation/d/1AZprarjLpPdDYihUKy9R5mZ1K4_8sj6Bgjn7HlX5Wkg/pub?start=false&loop=false&delayms=3000)
 1. Malcolm, Rindler, Chu, Chokshi, Pradilla, Ahmad.
    ["Is Earlier Cranioplasty Associated With Greater Neurologic Improvement?  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-neurologic.docx)
-   American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
-   [poster](https://docs.google.com/presentation/d/1O3pRUKAsUpjQouJ_b3-O6WNz-WbzxCmQeIHWJcajxJE/pub?start=false&loop=false&delayms=3000).
+   American Association of Neurologic Surgeons (AANS) 2016.  [Poster](https://docs.google.com/presentation/d/1O3pRUKAsUpjQouJ_b3-O6WNz-WbzxCmQeIHWJcajxJE/pub?start=false&loop=false&delayms=3000)
 1. Malcolm, Rindler, Chu, Allen, Pradilla, Ahmad,
    ["The Role of Implant Material in Complications After Cranioplasty:  A Systematic Review and Meta-Analysis."](/pubs/malcolm-AANS2016-materials.docx)
-   American Association of Neurologic Surgeons (AANS) 2016.  Accepted for
-   [poster](https://docs.google.com/presentation/d/1TQ1mc74R5eYWaU17cuwjQ1GyY-JSzj82x4kA06Ze2d8/pub?start=false&loop=false&delayms=3000).
+   American Association of Neurologic Surgeons (AANS) 2016.  [Poster](https://docs.google.com/presentation/d/1TQ1mc74R5eYWaU17cuwjQ1GyY-JSzj82x4kA06Ze2d8/pub?start=false&loop=false&delayms=3000)
 1. F Chokshi, R Rindler, J Malcolm, S Eshraghi, M Mossa-Basha, J Chu, F
    Ahmad. "Role of Spinal Diffusion Tensor Imaging in Predicting
    Post-Operative Outcome in Cervical Spondylotic Myelopathy: A Systematic
    Review." American Society of Neuroradiology (ASNR), Washington, DC,
-   May 2016.  Accepted for poster.
+   May 2016.  Poster.
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
    Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
