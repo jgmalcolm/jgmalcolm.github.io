@@ -61,6 +61,10 @@ individually folded and packed, wrinkles are inevitable.  Stack several dress
 shirts on top of each other, toss some t-shirts in the center, and fold the
 dress shirts around the bulky t-shirts to avoid sharp fold creases.
 
+**Pack loose.** Even if you folded your dress clothes neatly, squishing them
+down can still leave wrinkles.  Pack everything else tight and put your dress
+clothes in last and loose.
+
 **Dirty laundry bag.** Preferably one that's water and smell proof.  Don't
 rely on plastic grocery bags; get something a little more sturdy.
 
