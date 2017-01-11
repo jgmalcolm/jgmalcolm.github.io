@@ -72,10 +72,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Malcolm, Rindler, Chu, Chokshi, Grossberg, Pradilla, Ahmad. "Early
-   cranioplasty is associated with greater neurologic improvement: A
-   systematic review and meta-analysis." *Submitted*
-
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
    infection and resorption are associated with presence of a
    ventriculoperitoneal shunt: A systematic review and meta-analysis."  *Submitted*
@@ -105,6 +101,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
+   Ahmad. "Early cranioplasty is associated with greater neurologic
+   improvement: A systematic review and meta-analysis." Neurosurgery,
+   *Accepted*
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad. "Effects of Cranioplasty on Cerebral Blood Flow
    Following Decompressive Craniectomy: A Systematic Review of the
