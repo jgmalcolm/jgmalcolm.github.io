@@ -37,9 +37,9 @@ tags: [clinical]
   into the brain. Not only does that damage tissue but also bends your probes.
 
 - **Hemostasis before proceeding.** When working through a stereotactic burr
-  hole, don't place your don't place your stabilizing plate or cover until you
-  have hemostasis. Same for any procedure where you're operating down a deep
-  dark hole. Control even a trickle hemorrhage from the galea before moving
+  hole, don't place your stabilizing plate or cover until you have
+  hemostasis. Same for any procedure where you're operating down a deep dark
+  hole. Control even a trickle hemorrhage from the galea before moving
   forward. Otherwise you'll be fighting for visibility.
 
 
