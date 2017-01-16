@@ -16,35 +16,27 @@ description: "A list of the last few articles I enjoyed reading"
 <!--
 $(document).ready(function(){
 
-var rss = 'https://script.google.com/macros/s/AKfycbyHcqVsT_eowZpFpyIyLxfv9MQ97tDz-Euzk4Rpy24se5YYGLE/exec';
+var id = '1-QNbUp7N_FMLEk24dgCQVNVvhIvjmer_67r34Vtfbi8';
+var url = "https://spreadsheets.google.com/feeds/list/" + id + "/od6/public/values?alt=json";
 
 function hostname(url) {
   var matches = url.match(/^https?\:\/\/(www\.)?([^\/?#]+)(?:[\/?#]|$)/i);
   return matches[2];
 }
 
-(function(url, callback) {
-    $.ajax({
-        url: document.location.protocol
-             + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=-1&callback=?&q='
-             + encodeURIComponent(url),
-        dataType: 'json',
-        success: function(data) {
-            callback(data.responseData.feed);
-        }
-    });
-})(rss, function(feed){
-    var entries = feed.entries, feed = '';
-    for (var i = 0; i < entries.length; i++) {
-        quote = '';
-        if (entries[i].content && !/\u2026$/.test(entries[i].content))
-            quote = '<br>"' + entries[i].content + '"';
-        feed += '<p><b><a href="' + entries[i].link + '">' + entries[i].title + '</a></b>'
-                + ' <i>@' + hostname(entries[i].link) + '</i>' + quote + '</p>';
-    }
-    $('#feed').append(feed);
-});
+$.getJSON(url, function(data) {
+  var entry = data.feed.entry;
+  var feed = '';
+  $($(entry).get().reverse()).each(function(){
+    var quote = '', excerpt = this.gsx$excerpt.$t;
+    if (excerpt && !/\u2026$/.test(excerpt))
+        quote = '<br>"' + excerpt + '"';
+    feed += '<p><b><a href="' + this.gsx$url.$t + '">' + this.gsx$title.$t + '</a></b>'
+            + ' <i>@' + hostname(this.gsx$url.$t) + '</i>' + quote + '</p>';
+  });
+  $('#feed').append(feed);
 
+});
 
 }); /* ready */
 //-->
