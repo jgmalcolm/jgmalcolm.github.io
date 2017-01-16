@@ -27,3 +27,9 @@ https://mademistakes.com/articles/going-static/
 
 
 [github-seo]: https://help.github.com/articles/search-engine-optimization-for-github-pages/
+
+
+Free stock photos
+https://unsplash.com/
+https://www.pexels.com/
+http://www.loc.gov/pictures/
