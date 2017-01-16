@@ -25,9 +25,8 @@ function hostname(url) {
 }
 
 $.getJSON(url, function(data) {
-  var entry = data.feed.entry;
   var feed = '';
-  $($(entry).get().reverse()).each(function(){
+  $($(data.feed.entry).get().reverse()).each(function(){
     var quote = '', excerpt = this.gsx$excerpt.$t;
     if (excerpt && !/\u2026$/.test(excerpt))
         quote = '<br>"' + excerpt + '"';
