@@ -449,7 +449,7 @@ me@jgmalcolm.com <br />
 **Journal:**
 
 * IEEE Transactions on Medical Imaging (TMI)
-* IEEE Transactions on Image Processing (TMI)
+* IEEE Transactions on Image Processing (TIP)
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)
 * IEEE Transactions on Information Technology in Biomedicine (TITB)
 * Journal of Medical Imaging (SPIE)
