@@ -125,6 +125,18 @@ to do my laundry.
 potential for adventure.
 
 
+# Miscellaneous
+
+**Hijack hotel TVs** When staying in a hotel, skip the annoying local network
+and TV guide and instead plug in your Chromecast/Fire/equivalent for full
+control.
+
+**Packing list.** I tend to pack last minute, but to minimize the risk of
+forgetting something on a new adventure I will start days ahead creating a
+packing list of anything that comes to mind.
+
+
+
 > For more tips on everything from packing lists, planning adventure, and
 > exercising on the road, I recommend posts from two friends:
 >
