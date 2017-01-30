@@ -14,7 +14,8 @@ one or two variables at once.  If you try to run through filling out every
 column for each record, you'll get distracted and be inconsistent the further
 you go.  Pick 1-3 related variables and just extract those in one pass.
 You'll quickly develop good clinical judgment, and can easily go back to
-repeat earlier entries for consistency as you learn.
+repeat earlier entries for consistency as you learn.  Temporarily hide all
+other columns.
 
 # Excel
 
