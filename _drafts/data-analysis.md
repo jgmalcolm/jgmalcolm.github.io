@@ -8,6 +8,14 @@ layout: post
 possible. Sometimes you'll want to go back and re-interpret something, but
 once you've transformed it, you cannot go back.
 
+**Focus on 1-3 variables at a time.** When you're populating a spreadsheet for
+case series or something where you touch a lot of individual records, focus on
+one or two variables at once.  If you try to run through filling out every
+column for each record, you'll get distracted and be inconsistent the further
+you go.  Pick 1-3 related variables and just extract those in one pass.
+You'll quickly develop good clinical judgment, and can easily go back to
+repeat earlier entries for consistency as you learn.
+
 # Excel
 
 Array selection
