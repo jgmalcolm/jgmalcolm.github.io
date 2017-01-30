@@ -17,9 +17,13 @@ You'll quickly develop good clinical judgment, and can easily go back to
 repeat earlier entries for consistency as you learn.  Temporarily hide all
 other columns.
 
-# Excel
+http://www.biostathandbook.com/
+
+# Excel Tips
 
 Array selection
   http://www.exceluser.com/formulas/array-formula-summaries.htm
 Structured references
   https://support.office.com/en-us/article/Using-structured-references-with-Excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
+Real Stats Toolbox
+  http://www.real-statistics.com/
