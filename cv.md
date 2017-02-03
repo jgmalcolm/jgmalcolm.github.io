@@ -286,7 +286,7 @@ me@jgmalcolm.com <br />
 ## Abstract and Poster
 
 1. Malcolm, Stern, Drane, Gross, Willie.
-   [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes](/pubs/malcolm-2017-AANS-cavmal.pdf)
+   [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes.](/pubs/malcolm-2017-AANS-cavmal.pdf)
    American Association of Neurologic Surgeons (AANS), Los Angeles, CA,
    April 2017. Poster.
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
