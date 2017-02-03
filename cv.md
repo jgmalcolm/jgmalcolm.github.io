@@ -92,14 +92,14 @@ me@jgmalcolm.com <br />
    police force a physician to take blood or urine from a non-consenting
    suspect?" *In preparation*
 
-1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
-   anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
+1. Usmani, Pujari, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
+   Oxygen Therapy in Spinal Cord Injury: A Review." *In preparation*
 
 1. Li, Malcolm, Rindler, Baum, Kurpad, Ahmad.  "The Role of Diffusion Tensor Imaging In
    Spinal Pathology: A Review".  *In preparation*
 
-1. Usmani, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric Oxygen
-   Therapy in Spinal Cord Injury: A Review." *In preparation*
+1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
+   anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
 
 {% endcomment %}
 
