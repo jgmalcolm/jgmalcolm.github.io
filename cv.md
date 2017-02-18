@@ -84,19 +84,19 @@ me@jgmalcolm.com <br />
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *Submitted*
 
+1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
+   Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA"
+   *Submitted*
+
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *In preparation*
 
-1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: Can
-   police force a physician to take blood or urine from a non-consenting
-   suspect?" *In preparation*
+1. Li, Malcolm, Rindler, Baum, Kurpad, Ahmad.  "The Role of Diffusion Tensor Imaging In
+   Spinal Pathology: A Review".  *In preparation*
 
 1. Usmani, Pujari, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *In preparation*
-
-1. Li, Malcolm, Rindler, Baum, Kurpad, Ahmad.  "The Role of Diffusion Tensor Imaging In
-   Spinal Pathology: A Review".  *In preparation*
 
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
