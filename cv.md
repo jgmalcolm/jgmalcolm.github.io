@@ -29,9 +29,10 @@ me@jgmalcolm.com <br />
 **Georgia Institute of Technology, Atlanta, GA**
 
 - PhD Electrical and Computer Engineering, October 2010
-  - Thesis: [Filtered Tractography](/pubs/malcolm2010tmi.pdf)
+  - Dissertation: [Filtered Tractography](/pubs/malcolm2010diss.pdf) ([slides](/pubs/malcolm2010diss_slides.pdf))
   - Concentration: Computer Vision
   - Advisors: [Yogesh Rathi], [Allen Tannenbaum]
+  - Committee: [Patricio Vela], [Sylvain Bouix], [Anthony Yezzi], [Hongwei Wu]
 - MS Electrical and Computer Engineering, August 2008
   -  Concentration: Systems and Control
 - MS Computer Science, May 2006
@@ -47,6 +48,10 @@ me@jgmalcolm.com <br />
   [Allen Tannenbaum]: https://en.wikipedia.org/wiki/Allen_Tannenbaum
   [Martha Shenton]: http://pnl.bwh.harvard.edu/martha-shenton-ph-d/
   [Yogesh Rathi]: http://pnl.bwh.harvard.edu/yogesh-rathi-ph-d/
+  [Patricio Vela]: https://www.ece.gatech.edu/faculty-staff-directory/patricio-antonio-vela
+  [Sylvain Bouix]: https://scholar.google.com/citations?hl=en&user=W9SGf20AAAAJ&view_op=list_works&sortby=pubdate
+  [Anthony Yezzi]: https://www.ece.gatech.edu/faculty-staff-directory/anthony-joseph-yezzi
+  [Hongwei Wu]: http://www.bioengineering.gatech.edu/people/hongwei-wu
 
 
 ## Work Experience
