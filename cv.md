@@ -96,7 +96,9 @@ me@jgmalcolm.com <br />
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  *Submitted*
 
-1. Howard, ... Malcolm ... Concurrent surgeries. *In preparation*
+1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
+   3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
+   Has No Adverse Effect on Patient Outcome." *Submitted*
 
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
