@@ -102,13 +102,27 @@ me@jgmalcolm.com <br />
 
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
-   year." *In preparation*
+   year." *Preparing*
 
 1. Usmani, Pujari, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
-   Oxygen Therapy in Spinal Cord Injury: A Review." *In preparation*
+   Oxygen Therapy in Spinal Cord Injury: A Review." *Preparing*
+
+1. Malcolm, Howard, Bray, Lamanna, Willie, Gross, Barrow, Grossberg. "Analysis
+   of ### stereotactic and functional cases demonstrates that overlapping
+   surgery has no adverse effect on patient outcome." *Preparing*
+
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
+   associated with less blood loss and better disposition than pedicle
+   trajectory and posterolateral fusions: a retrospective cohort study."
+   *Preparing*
 
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
-   anterior lumbar interbody fusion with bone morphogenic protein." *In preparation*
+   anterior lumbar interbody fusion with bone morphogenic protein."
+   *Preparing*
+
+1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
+   as missed hallow viscous injury." *Preparing*
+
 
 {% endcomment %}
 
