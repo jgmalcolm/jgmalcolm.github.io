@@ -308,6 +308,16 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+{% comment %}
+
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
+   associated with less blood loss and better disposition than pedicle
+   trajectory and posterolateral fusions: a retrospective cohort study."
+   European Association of Neurosurgical Societies (EANS). Venice,
+   Italy. October 2017.
+
+{% endcomment %}
+
 1. Malcolm, Stern, Drane, Gross, Willie.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes.](/pubs/malcolm-2017-AANS-cavmal.pdf)
    American Association of Neurologic Surgeons (AANS), Los Angeles, CA,
