@@ -192,6 +192,13 @@ me@jgmalcolm.com <br />
    DOI:10.1016/j.laa.2007.03.009
 
 
+## Patent
+
+1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.
+   [System for improving utilization of GPU resources](https://www.google.com/patents/US8339404),
+   June 2009. US Patent US8339404.
+
+
 ## Book Chapters
 
 1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
@@ -413,13 +420,6 @@ me@jgmalcolm.com <br />
    In American Association for the Surgery of Trauma, New Orleans, Louisiana,
    Sept 2006.
 
-
-
-## Patent
-
-1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.
-   [System for improving utilization of GPU resources](https://www.google.com/patents/US8339404),
-   June 2009. US Patent US8339404.
 
 
 
