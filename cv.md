@@ -322,6 +322,14 @@ me@jgmalcolm.com <br />
    trajectory and posterolateral fusions: a retrospective cohort study."
    European Association of Neurosurgical Societies (EANS). Venice,
    Italy. October 2017.
+1. Malcolm, Fasano, Gross, Willie. "Combined stereotactic depth electrodes and
+   laser ablation for extra-temporal epilepsy: a case series." World Society
+   for Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany. June
+   2017.
+1. Malcolm, Stern, Drane, Gross, Willie. "Stereotactic laser ablation of
+   symptomatic cavernous malformations: imaging and clinical outcomes." World
+   Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
+   Germany. June 2017.
 
 {% endcomment %}
 
