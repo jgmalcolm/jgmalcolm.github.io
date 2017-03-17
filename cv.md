@@ -330,6 +330,16 @@ me@jgmalcolm.com <br />
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
    Germany. June 2017.
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
+   associated with less blood loss and better disposition than pedicle
+   trajectory and posterolateral fusions: a retrospective cohort study."
+   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017.
+1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
+   Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
+   Society (GNS), Sea Island, SC. May 2017.
+1. Li, Malcolm, Rindler, Baum, Rao, Shekar, Ahmad. "The Role of Diffusion
+   Tensor Imaging In Spinal Pathology: A Review." Georgia Neurosurgical
+   Society (GNS), Sea Island, SC. May 2017.
 
 {% endcomment %}
 
@@ -339,11 +349,11 @@ me@jgmalcolm.com <br />
    April 2017. [Poster](/pubs/malcolm-2017-AANS-cavmal-poster.pdf).
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Simultaneous cranioplasty and ventriculoperitoneal shunts are associated with increased complications when compared to staged procedures.](/pubs/others/mustroph-GNS2016-vps.pdf)
-   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
+   Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December 2016. Oral Presentation.
 1. Malcolm, Willie, Stern, Gross.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes at one year.](/pubs/malcolm-GNS2016-cav-mal.pdf)
-   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
+   Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December 2016. [Oral Presentation](https://docs.google.com/presentation/d/e/2PACX-1vR3lnzUnXkPxnIZ3_NhGsljnLgMrTo4EFKWGgNGgEHOopDQZO0q0cMvp0KHsIENaJBBoiqbFyVU_STn/pub?start=false&loop=false).
 1. Malcolm, Connolly, Gross, Kahana, Mahmoudi.
    [Predictive Modelling the Effect of Neurostimulation on Memory Biomarkers in Epileptic Patients.](/pubs/malcolm2016aes.pdf)
@@ -351,7 +361,7 @@ me@jgmalcolm.com <br />
    TX. December 2016. [Poster](/pubs/malcolm2016aes-poster.pdf)
 1. Malcolm, Rindler, Chu, Pradilla, Ahmad.
    [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
-   Georgia Neurological Surgeons (GNS) Annual Summer Meeting; Sea Island,
+   Georgia Neurosurgical Society (GNS) Annual Summer Meeting; Sea Island,
    SC. May 2016.
    [Oral Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
@@ -378,11 +388,11 @@ me@jgmalcolm.com <br />
    May 2016.  Poster.
 1. SH Halani, J Chu, J Malcolm, RS Rindler, G Pradilla, FU Ahmad. "Effects of
    Cranioplasty on Cerebral Bloodflow: A Systematic Review of the Literature"
-   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
+   Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December 4-6, 2015. Oral Presentation.
 1. JG Malcolm, RS Rindler, FU Ahmad.
    ["Aseptic Bone Resorption Following Cranioplasty: A Systematic Review of Overall Incidence And Risk Factors."](/pubs/malcolm2015resorption.pdf)
-   Georgia Neurological Surgeons (GNS) Annual Fall Meeting; Reynolds
+   Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
    Plantation, GA. December
    4-6, 2015. [Oral Presentation](https://docs.google.com/presentation/d/1Dz45ipbi4S9Y2RzWbyKobgWdya9J3MwiCx1bWDYRlvY/pub?start=false&loop=false&delayms=3000).
 1. Rindler, Chokshi, Malcolm, Eshraghi, Mossa-Basha, Chu, Ahmad.
