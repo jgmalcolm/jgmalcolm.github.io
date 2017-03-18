@@ -89,10 +89,6 @@ me@jgmalcolm.com <br />
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *Submitted*
 
-1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
-   Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA"
-   *Submitted*
-
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  *Submitted*
 
@@ -128,6 +124,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
+   Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
+   Journal of Healthcare Risk Management, *Accepted*
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad. "Early cranioplasty is associated with greater neurologic
    improvement: A systematic review and meta-analysis." Neurosurgery,
