@@ -191,7 +191,7 @@ me@jgmalcolm.com <br />
    [Distribution metrics and image segmentation.](/pubs/others/georgiou_metrics.pdf),
    Linear Algebra and its Applications, 2(425):663-672, 2007.  PMID:18769529,
    DOI:10.1016/j.laa.2007.03.009
-
+{: reversed="reversed"}
 
 ## Patent
 
@@ -213,6 +213,7 @@ me@jgmalcolm.com <br />
    [Processing and visualization of diffusion MRI](/pubs/malcolm2011pv.pdf).
    "Recent Advances in Biomedical Image Processing and Analysis", chapter 16,
    pages 403-424. Springer, 2011. doi:10.1007/978-3-642-15816-2_16
+{: reversed="reversed"}
 
 
 ## Conference
@@ -310,6 +311,7 @@ me@jgmalcolm.com <br />
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
    *Conference on Guidance, Navigation, and Control*, 2005. doi:10.2514/6.2005-6001
+{: reversed="reversed"}
 
 
 
@@ -438,6 +440,7 @@ me@jgmalcolm.com <br />
    ["Changing trends in the management of renal trauma"](/pubs/others/wyrzykowski2006.pdf).
    In American Association for the Surgery of Trauma, New Orleans, Louisiana,
    Sept 2006.
+{: reversed="reversed"}
 
 
 
@@ -473,6 +476,7 @@ me@jgmalcolm.com <br />
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.  "Closed loop visual
    tracking using observer-based dynamic active contours." *Conference on
    Guidance, Navigation, and Control*, 2005.
+{: reversed="reversed"}
 
 
 
