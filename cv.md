@@ -96,6 +96,9 @@ me@jgmalcolm.com <br />
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." *Submitted*
 
+1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
+   as missed hallow viscous injury." *Submitted*
+
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Preparing*
@@ -115,9 +118,6 @@ me@jgmalcolm.com <br />
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein."
    *Preparing*
-
-1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
-   as missed hallow viscous injury." *Preparing*
 
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
