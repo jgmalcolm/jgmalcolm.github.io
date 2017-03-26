@@ -1,88 +1,61 @@
-Official AANS list:
-http://www.aans.org/Young%20Neurosurgeons/Medical%20Students/Residencymatch.aspx
+---
+title: "Getting into neurosurgery residency"
+description: ""
+layout: post
+tags: [residency,medicine,neurosurgery]
+---
 
 http://www.neurosurgerymatch.org/
 http://societyns.org/match_information.html
 
-Editable Google Docs list with anonymous statistics:
+# Year by year
 
-https://docs.google.com/spreadsheet/ccc?key=0AgentHgCQih2dDJ5R0JuYnBIUTFBS2lhajlsS0Y1Z3c&usp=sharing#gid=5
+**Pre-STEP1.**
 
+**Clerkships.**
 
-Housing: Rotating Room
-http://rotatingroom.com/
-
-
-The Neurosurgery Atlas
-https://www.youtube.com/user/acohenmd
-
-AANS (J Neurosurg) Video Collection:
-https://www.youtube.com/channel/UCXAfmcfOeS0rxDz6sp0cYYg
-
-CNS (Neurosurgery) Video Collection:
-http://journals.lww.com/neurosurgery/Pages/videogallery.aspx
-
-Preparing for Sub-I
-https://www.reddit.com/r/medicalschool/comments/27e977/prepping_for_a_subi_neurosurg/ci09nwv
-
-FREIDA
-https://freida.ama-assn.org/Freida/user/search/programSearch.do
+**Senior year.**
 
 
-https://jomi.com/article/6/Cervical-Laminaplasty/
+
+# Overview of programs
+
+- Ask your home attendings and residents.  Residents have the freshest
+  perspective, attendings have the best overview
+- Program details and ranking:
+ FREIDA: https://freida.ama-assn.org/Freida/user/search/programSearch.do
+ Doximity: https://www.doximity.com/landmarks/specialty-neurosurgery
+
+AANS Young Neurosurgeons http://www.aans.org/en/Young%20Neurosurgeons/Medical%20Students.aspx
 
 
-http://www.journals.elsevier.com/world-neurosurgery/most-cited-articles/
-https://www.doximity.com/landmarks/specialty-neurosurgery
-http://www.neurosurgic.com/index.php?option=com_content&view=category&layout=blog&id=101&Itemid=465
 
-subi: http://nsgapplicants.boards.net/thread/520/read-away-rotation-advice
+# Publications
 
-
-Publications
 - need to be submitted during third year to be published in time for September
   applications
   - can take anywhere between 3-9mo to get something published
   - for your target journal, look at published articles to see example
     "Received" and "Accepted" times
+- Most cited articles in World Neurosurgery
+  http://www.journals.elsevier.com/world-neurosurgery/most-cited-articles/
+- Neurosurgical journals ranked by impact factor
+  http://www.neurosurgic.com/index.php?option=com_content&view=category&layout=blog&id=101&Itemid=465
 
 
-## Sub-intern advice
+# Clinical Experience
 
-* Never complain about being tired or stressed in front of residents or
-  attendings.  Their lives are way harder than yours.
-* Listen for any mention of something needing to get done, and jump on it.
-* Study the surgical cases you'll see tomorrow.  Even just 10 minutes will pay
-  off.  Learn one important step you'll watch for the next day.
-* Prepare answers for the obvious questions: Why neurosurgery? What's your
-  research about?
+- Sub-intern advice
+- Video collections
+   The Neurosurgery Atlas https://www.youtube.com/user/acohenmd
+   AANS/JNS: https://www.youtube.com/channel/UCXAfmcfOeS0rxDz6sp0cYYg
+   CNS/Neurosurgery: http://journals.lww.com/neurosurgery/Pages/videogallery.aspx
 
-
-- Delman's three qualities
-  - integrity
-  - compassion
-  - passion
+[subintern]: {% post_url 2016-09-02-surgical-subintern %}
 
 
-Be useful but not too helpful
-- jumping in to answer a before thinking, often realized the correct answer a second later
-- reach too quickly to grab an OR instrument, you scare people when you move too fast
 
-Learn to anticipate
-- they grab suture, you grab scissors.  But know the difference between
-  sutures they're tying for retraction and those they want cut, and when they
-  want them cut. Line up the fascial sutures and cut in one go.
-- they grab drill, you grab irrigation
-- suction unmanned because they have their hands full, pick it up
-- learn glove sizes for residents and attendings so you can pull gloves. Write
-  this on a 3x5 card for your pocket.
-
-
-falling asleep in a lecture or conference, start writing... write any and all
-thoughts because it somehow keeps you awake.
-
-
-# Away rotations
+# Choosing away rotations
 
 - Where you rotate will open/close geographic regions.  If you do your aways
   all on east coast, then don't bank on any west coast interviews.
@@ -93,7 +66,18 @@ thoughts because it somehow keeps you awake.
   are much more comfortable taking a resident they've worked with for a month
   than one they've only met for interview.
 - It might be easier to get a rotation spot than it is to get an interview.
+- Housing: Rotating Room http://rotatingroom.com/
+- subi: http://nsgapplicants.boards.net/thread/520/read-away-rotation-advice
 
+# Interview season
+
+- PGY5s
+- any faculty interaction is better than not meeting -- it gives them a face
+  to associate
+- Facebook group
+- Chat with everyone because you never know where you'll end up but you will
+  cross paths again.
+- Split hotels
 
 # Second looks
 
