@@ -217,6 +217,14 @@ series: clinical
   random clot and puddle, you'll distract the surgeons and keep agitating
   those areas to keep them from clotting off.
 
+- **Avoid knee jerk answers to pimping.** In my eagerness to answer a
+  question, I often speak before thinking.  The surgeon points to some basic
+  anatomy asking what is it, I respond in knee-jerk fashion, and as soon as
+  the words are out I realize I'm wrong.  If only I had taken a breath and
+  slowly processed before answering.  Train yourself: when asked a question,
+  take a full breath, then answer.  No one is going to jump in to answer
+  before you.  Slow down and think.
+
 
 ## Closing
 
