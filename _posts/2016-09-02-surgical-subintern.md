@@ -292,9 +292,11 @@ doing this right.  I **highly recommend** this
   dirty drapes to the trash.  The scrub tech is packing up instruments and
   moving away the back tables.  The resident is breaking scrub to write
   orders.  You take down the dripping drapes and carefully gather all cords.
-  Tie a knot in any distal suction lines so they don't leak as you drag them,
-  carefully pop the bovie and bipolar plugs out, ensure you don't dump the
-  cranial drainage bag, etc.  Do this dirty work while still gowned.
+  Tie a knot in any distal suction lines so they don't leak as you take down
+  drapes, carefully pop the bovie and bipolar plugs out, ensure you don't dump
+  the cranial drainage bag, etc.  Do this dirty work while still gowned and
+  *after* you've helped apply bandages.  You're dirty now, so don't return to
+  bandaging the patient -- go ungown.
 
 - **Don't check your phone.** Look for ways to help wrap up and get the
   patient out of the room sooner.  Help unwrap and move the patient.
