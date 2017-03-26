@@ -379,3 +379,6 @@ doing this right.  I **highly recommend** this
   doing any kind of work that involves thought, use conversation sparingly so
   you don't distract.  Know when it's a bad time to tell that new joke you
   learned.
+
+
+> [Reddit: Preparing for a sub-i in neurosurgery](https://www.reddit.com/r/medicalschool/comments/27e977/prepping_for_a_subi_neurosurg/ci09nwv)
