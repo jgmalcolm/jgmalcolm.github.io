@@ -208,6 +208,15 @@ series: clinical
   screw head, you should suction or dab with raytec. If there is bone dust,
   you irrigate.
 
+- **Suction.** Keep the important things visible.  If everyone has their hands
+  full and there's a suction unused, pick it up and be ready. Early on I would
+  suck up any blood I noticed anywhere on the field, but eventually I realized
+  that I shouldn't waste time sucking up clots randomly. Focus on the area
+  where the surgeons are working, ignore everything else unless there is
+  active arterial bleeding (ignore oozing).  If you keep sucking up every
+  random clot and puddle, you'll distract the surgeons and keep agitating
+  those areas to keep them from clotting off.
+
 
 ## Closing
 
