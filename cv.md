@@ -323,30 +323,30 @@ me@jgmalcolm.com <br />
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." Congress of Neurological
-   Surgeons (CNS). Boston, MA. October 2017.
+   Surgeons (CNS). Boston, MA. October 2017. *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    European Association of Neurosurgical Societies (EANS). Venice,
-   Italy. October 2017.
-1. Malcolm, Fasano, Gross, Willie. "Combined stereotactic depth electrodes and
-   laser ablation for extra-temporal epilepsy: a case series." World Society
-   for Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany. June
-   2017.
+   Italy. October 2017. *Submitted*
+1. Malcolm, Stern, Fasano, Gross, Willie. "Stereotactic electroencephalography
+   guided laser ablation for neocortical epilepsy." World Society for
+   Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany. June
+   2017. *Submitted*
 1. Malcolm, Stern, Drane, Gross, Willie. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
-   Germany. June 2017.
+   Germany. June 2017. *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
-   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017.
+   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. *Submitted*
 1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017.
+   Society (GNS), Sea Island, SC. May 2017. *Submitted*
 1. Li, Malcolm, Rindler, Baum, Rao, Shekar, Ahmad. "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017.
+   Society (GNS), Sea Island, SC. May 2017. *Submitted*
 
 {% endcomment %}
 
