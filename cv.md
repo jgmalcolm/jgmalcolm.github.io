@@ -134,7 +134,7 @@ me@jgmalcolm.com <br />
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
    [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature.](/pubs/others/halani-2017-cbf.pdf)
-   Neurosurgery, *In Press* doi:10.1093/neuros/nyx054
+   Neurosurgery, *In Press* pmid:28368505, doi:10.1093/neuros/nyx054
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad.
    [Spinal diffusion tensor imaging in the evaluation of pre- and post-operative severity in cervical spondylotic myelopathy: A systematic review of the literature.](/pubs/others/rindler-2017-dti-for-csm.pdf)
