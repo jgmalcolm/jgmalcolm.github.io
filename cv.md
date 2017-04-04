@@ -130,7 +130,7 @@ me@jgmalcolm.com <br />
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad. "Early cranioplasty is associated with greater neurologic
    improvement: A systematic review and meta-analysis." Neurosurgery,
-   *Accepted*
+   *Accepted* doi:10.1093/neuros/nyx182
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
    [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature.](/pubs/others/halani-2017-cbf.pdf)
