@@ -77,6 +77,9 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
+1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
+   brain surgery." *Submitted*
+
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
    infection and resorption are associated with presence of a
    ventriculoperitoneal shunt: A systematic review and meta-analysis."  *Submitted*
