@@ -80,10 +80,6 @@ me@jgmalcolm.com <br />
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." *Submitted*
 
-1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
-   infection and resorption are associated with presence of a
-   ventriculoperitoneal shunt: A systematic review and meta-analysis."  *Submitted*
-
 1. Malcolm, Tan, Johnson. "Internal fixation of a C1 lateral mass oblique
    sagittal split fracture with motion preservation: a technical case report."
    *Submitted*
@@ -127,6 +123,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
+   infection and resorption are associated with presence of a
+   ventriculoperitoneal shunt: A systematic review and meta-analysis." World
+   Neurosurgery, *Accepted*
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
    Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
    Journal of Healthcare Risk Management, *Accepted*
