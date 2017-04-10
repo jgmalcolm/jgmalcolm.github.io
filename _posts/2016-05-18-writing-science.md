@@ -21,6 +21,13 @@ experiments and figures get sketched in the methods and results.
 Inclusion/exclusion criteria in the methods.  Very fast and loose, but
 something you can share with co-authors to update on project status.
 
+**Identify your building blocks.** For every study, there are probably only
+2-4 key clinical studies you're directly building off.  Print out those papers
+and really study them.  Those should be referenced in the introduction as part
+of your motivation and in the first two paragraphs of your discussion to show
+tie in.  Everything else is just a distraction that probably deserves mention
+at best.  Discuss these papers with your senior authors.
+
 
 ## Write in order
 
