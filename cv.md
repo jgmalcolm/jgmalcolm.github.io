@@ -79,45 +79,34 @@ me@jgmalcolm.com <br />
 
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." *Submitted*
-
 1. Malcolm, Tan, Johnson. "Internal fixation of a C1 lateral mass oblique
    sagittal split fracture with motion preservation: a technical case report."
    *Submitted*
-
-1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
-   "Choice of cranioplasty material not associated with infection or
-   reoperation: A systematic review and meta-analysis." *Submitted*
-
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  *Submitted*
-
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." *Submitted*
-
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hallow viscous injury." *Submitted*
-
+1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
+   "Choice of cranioplasty material not associated with infection or
+   reoperation: A systematic review and meta-analysis." *Resubmitting*
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Preparing*
-
 1. Usmani, Pujari, Malcolm, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Preparing*
-
 1. Malcolm, Howard, Bray, Lamanna, Willie, Gross, Barrow, Grossberg. "Analysis
    of ### stereotactic and functional cases demonstrates that overlapping
    surgery has no adverse effect on patient outcome." *Preparing*
-
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    *Preparing*
-
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein."
    *Preparing*
-
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
 
