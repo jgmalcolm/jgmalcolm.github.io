@@ -329,19 +329,18 @@ me@jgmalcolm.com <br />
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
    Germany. June 2017. *Submitted*
+{% endcomment %}
+
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
-   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. *Submitted*
+   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017.
 1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017. *Submitted*
+   Society (GNS), Sea Island, SC. May 2017.
 1. Li, Malcolm, Rindler, Baum, Rao, Shekar, Ahmad. "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017. *Submitted*
-
-{% endcomment %}
-
+   Society (GNS), Sea Island, SC. May 2017.
 1. Malcolm, Stern, Drane, Gross, Willie.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes.](/pubs/malcolm-2017-AANS-cavmal.pdf)
    American Association of Neurologic Surgeons (AANS), Los Angeles, CA,
