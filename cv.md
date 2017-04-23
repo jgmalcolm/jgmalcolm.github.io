@@ -112,13 +112,13 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
-   infection and resorption are associated with presence of a
-   ventriculoperitoneal shunt: A systematic review and meta-analysis." World
-   Neurosurgery, *Accepted*
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
    Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
    Journal of Healthcare Risk Management, *Accepted*
+1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
+   infection and resorption are associated with presence of a
+   ventriculoperitoneal shunt: A systematic review and meta-analysis." World
+   Neurosurgery, *In Press* doi:10.1016/j.wneu.2017.04.066
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
    [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-2017-neurologic.pdf)
