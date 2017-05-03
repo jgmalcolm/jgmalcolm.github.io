@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', 'source-sans-pro', sans-serif;
 }
 code, pre {
   font-family: monospace;
@@ -9,7 +9,7 @@ h1,h2,h3,h4 {
   font-weight: bold;
 }
 body {
-  color: #222;
+  color: rgb(65,65,65);
 }
 blockquote {
   border-left: 4px solid #b00a0f;
@@ -17,19 +17,18 @@ blockquote {
 
 a {
   text-decoration: none;
-  border-bottom: 2px solid #fcc;
-  color: red;
+  color: #925B2A;
 }
 
 a:hover {
-  border-color: red;
+  border-color: #925B2A;
 }
 
 .sidebar {
   color: rgba(255,255,255,.5);
-  background: -webkit-linear-gradient(black, #404040);
-  background:    -moz-linear-gradient(black, #404040);
-  background:         linear-gradient(black, #404040);
+  background: -webkit-linear-gradient(black, #24365F);
+  background:    -moz-linear-gradient(black, #24365F);
+  background:         linear-gradient(black, #24365F);
 }
 
 .header-link {
