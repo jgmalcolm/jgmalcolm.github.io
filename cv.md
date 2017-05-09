@@ -115,7 +115,7 @@ me@jgmalcolm.com <br />
 
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
    Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
-   Journal of Healthcare Risk Management, *Accepted*
+   Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
    infection and resorption are associated with presence of a
    ventriculoperitoneal shunt: A systematic review and meta-analysis." World
