@@ -14,9 +14,10 @@ me@jgmalcolm.com <br />
 
 ## Education
 
-**Emory School of Medicine, Atlanta, GA**
+**Emory University, Atlanta, GA**
 
-- MD, expected May 2017
+- Neurosurgery Residency, expected 2024
+- MD, 2017
   - Joseph B Whitehead Surgery Scholarship
 
 **Brigham & Women's Hospital, Boston, MA**
