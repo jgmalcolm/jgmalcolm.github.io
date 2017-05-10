@@ -1,0 +1,1 @@
+javascript:void(location.href='https://proxy.library.emory.edu/login?auth=shibboleth&url='+location.href)
