@@ -225,7 +225,7 @@ contextualizing and summarizing the results.  Very briefly connect your
 results with one or two other references.
 
 **Nothing new.** Do not introduce any new results.  You should make summary
-references to the results already documented and drawing connections.
+references to the results already documented and draw connections.
 
 **Compare your result with published results.** Make connections. Are your
 findings in line with those of other groups? Did you come up with wildly
