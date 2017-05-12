@@ -313,10 +313,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
-   3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
-   Has No Adverse Effect on Patient Outcome." Congress of Neurological
-   Surgeons (CNS). Boston, MA. October 2017. *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
@@ -324,6 +320,10 @@ me@jgmalcolm.com <br />
    Italy. October 2017. *Submitted*
 {% endcomment %}
 
+1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
+   3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
+   Has No Adverse Effect on Patient Outcome." Congress of Neurological
+   Surgeons (CNS). Boston, MA. October 2017. Oral.
 1. Malcolm, Stern, Fasano, Gross, Willie. "Stereotactic electroencephalography
    guided laser ablation for neocortical epilepsy." World Society for
    Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany. June
