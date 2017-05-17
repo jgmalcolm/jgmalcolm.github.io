@@ -326,8 +326,8 @@ me@jgmalcolm.com <br />
    Surgeons (CNS). Boston, MA. October 2017. Oral.
 1. Malcolm, Stern, Fasano, Gross, Willie. "Stereotactic electroencephalography
    guided laser ablation for neocortical epilepsy." World Society for
-   Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany. June
-   2017. Oral/Flash.
+   Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany.
+   June 2017. Oral/Flash.
 1. Malcolm, Stern, Drane, Gross, Willie. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
