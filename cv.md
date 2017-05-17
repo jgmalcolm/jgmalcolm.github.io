@@ -83,8 +83,6 @@ me@jgmalcolm.com <br />
 1. Malcolm, Tan, Johnson. "Internal fixation of a C1 lateral mass oblique
    sagittal split fracture with motion preservation: a technical case report."
    *Submitted*
-1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
-   Tensor Imaging In Spinal Pathology: A Review".  *Submitted*
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." *Submitted*
@@ -113,6 +111,8 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
+   Tensor Imaging In Spinal Pathology: A Review".  Neurology India, *Accepted*
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
    Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
    Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280
