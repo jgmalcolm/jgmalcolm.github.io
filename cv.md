@@ -86,8 +86,6 @@ me@jgmalcolm.com <br />
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." *Submitted*
-1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
-   as missed hallow viscous injury." *Submitted*
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *Resubmitting*
@@ -111,6 +109,8 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
+   as missed hallow viscous injury." The American Surgeon, *Accepted*
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  Neurology India, *Accepted*
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
