@@ -110,7 +110,7 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
-   as missed hallow viscous injury." The American Surgeon, *Accepted*
+   as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  Neurology India, *Accepted*
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
