@@ -32,8 +32,8 @@ AANS Young Neurosurgeons http://www.aans.org/en/Young%20Neurosurgeons/Medical%20
 
 # Publications
 
-- need to be submitted during third year to be published in time for September
-  applications
+- need to be submitted during second and third year to be published in time
+  for September applications your fourth year
   - can take anywhere between 3-9mo to get something published
   - for your target journal, look at published articles to see example
     "Received" and "Accepted" times
@@ -77,7 +77,7 @@ AANS Young Neurosurgeons http://www.aans.org/en/Young%20Neurosurgeons/Medical%20
 - Facebook group
 - Chat with everyone because you never know where you'll end up but you will
   cross paths again.
-- Split hotels
+- Split hotels, airport rides, etc. with other applicants
 
 # Second looks
 
