@@ -332,9 +332,8 @@ me@jgmalcolm.com <br />
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
    Germany. June 2017. Poster.
-1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
-   associated with less blood loss and better disposition than pedicle
-   trajectory and posterolateral fusions: a retrospective cohort study."
+1. Malcolm, Moore, Chokshi, Ahmad, Refai.
+   [Comparing Cortical Trajectory TLIFs Against Pedicle Trajectory TLIFs and Posterolateral Fusions: A Retrospective Cohort Study of 90 Day Outcomes.](/pubs/malcolm2017-gns-cortical.pdf)
    Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. Oral.
 1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
