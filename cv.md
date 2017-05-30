@@ -334,7 +334,7 @@ me@jgmalcolm.com <br />
    Germany. June 2017. Poster.
 1. Malcolm, Moore, Chokshi, Ahmad, Refai.
    [Comparing Cortical Trajectory TLIFs Against Pedicle Trajectory TLIFs and Posterolateral Fusions: A Retrospective Cohort Study of 90 Day Outcomes.](/pubs/malcolm2017-gns-cortical.pdf)
-   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. Oral.
+   Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. Oral. Winner of Best Resident Abstract.
 1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
    Society (GNS), Sea Island, SC. May 2017. Oral.
