@@ -116,10 +116,6 @@ me@jgmalcolm.com <br />
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
    Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
    Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280
-1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.  "Cranioplasty
-   infection and resorption are associated with presence of a
-   ventriculoperitoneal shunt: A systematic review and meta-analysis." World
-   Neurosurgery, *In Press* doi:10.1016/j.wneu.2017.04.066
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
    [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-2017-neurologic.pdf)
@@ -128,6 +124,9 @@ me@jgmalcolm.com <br />
    Pradilla, FU. Ahmad.
    [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature.](/pubs/others/halani-2017-cbf.pdf)
    Neurosurgery, *In Press* pmid:28368505, doi:10.1093/neuros/nyx054
+1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
+   [Cranioplasty infection and resorption are associated with presence of a ventriculoperitoneal shunt: A systematic review and meta-analysis.](/pubs/others/mustroph-2017-vps.pdf)
+   World Neurosurgery, 103:686-693, 2017. doi:10.1016/j.wneu.2017.04.066, pmid:28434961
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad.
    [Spinal diffusion tensor imaging in the evaluation of pre- and post-operative severity in cervical spondylotic myelopathy: A systematic review of the literature.](/pubs/others/rindler-2017-dti-for-csm.pdf)
