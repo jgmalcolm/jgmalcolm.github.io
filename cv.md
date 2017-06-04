@@ -17,6 +17,7 @@ me@jgmalcolm.com <br />
 **Emory University, Atlanta, GA**
 
 - Neurosurgery Residency, expected 2024
+  - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
 - MD, May 2017
   - Joseph B Whitehead Surgery Scholarship
 
