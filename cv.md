@@ -311,11 +311,10 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
-1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
-   associated with less blood loss and better disposition than pedicle
-   trajectory and posterolateral fusions: a retrospective cohort study."
-   European Association of Neurosurgical Societies (EANS). Venice,
-   Italy. October 2017. Oral.
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs
+   Against Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective
+   Cohort Study of 90 Day Outcomes."  European Association of Neurosurgical
+   Societies (EANS). Venice, Italy. October 2017. Oral.
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
    Has No Adverse Effect on Patient Outcome." Congress of Neurological
