@@ -25,8 +25,8 @@ to use <CODE>ix</CODE> in the next instruction instead of
 <CODE>hl</CODE>.  This slows down the speed a little and adds an
 extra byte so don't use it unless you have to.  The <CODE>iy</CODE> is
 usually holding the value for the beginning of a table for
-the <A HREF="syst.htm">System Flags for TI-OS</A>. Say you
-wanted to write <A HREF="../intermediate/text.htm#opti">inverse
+the <A HREF="syst">System Flags for TI-OS</A>. Say you
+wanted to write <A HREF="../intermediate/text#opti">inverse
 video</A>. You would type the following:
 
 <PRE>set textflags,(IY+textInverse)
@@ -35,7 +35,7 @@ res textflags,(IY+textInverse)</PRE>
 <P>The first command sets the text to white on black and
 the second line resets it to the normal black on
 white. You can use <CODE>iy</CODE> and <CODE>ix</CODE> to make
-your own <A HREF="../intermediate/tabl.htm">tables and arrays</A>.
+your own <A HREF="../intermediate/tabl">tables and arrays</A>.
 
 
 
@@ -60,15 +60,15 @@ register values back.
 <A NAME=other></a><H2>Other Registers</H2>
 Other Registers you can use are the <CODE>i</CODE> and <CODE>r</CODE>
 registers.  The <CODE>i</CODE> register is used with
-<A HREF="inte.htm">interrupts</A>.
+<A HREF="inte">interrupts</A>.
 It just holds the higher byte of the address
 that should be jumped to when an
-<A HREF="inte.htm">Interrupt</A> occurs.  The <CODE>r</CODE>
+<A HREF="inte">Interrupt</A> occurs.  The <CODE>r</CODE>
 register is called the Memory Refresh Register.  It is incremented
 after each instruction (sometimes twice) executed by the processor.  Bit 7 is
 never set though, so it has a maximum value of 127, I don't know why.
 
-<P>It is useful for low-quality <A HREF="../intermediate/rand.htm">random number</A>
+<P>It is useful for low-quality <A HREF="../intermediate/rand">random number</A>
 routines but if you use it a lot in a row, your
 numbers won't be so random because they will use, for example,
 1 and then use 2 and then use 3 and so on.  Here's an OK random

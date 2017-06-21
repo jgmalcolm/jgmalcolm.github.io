@@ -12,7 +12,7 @@ represents a pixel turned on (black).  A sprite is made up of many bits in a row
 bit in the sprite data represents a pixel on the screen.
 
 <P>You can play around with making your own sprites right now using
-<A HREF="JavaScript:popup('../misc/spriteedit.htm')">SpriteEdit</A>.
+<A HREF="JavaScript:popup('../misc/spriteedit')">SpriteEdit</A>.
 Just copy and paste the results right into your source!
 
 <P>Now that you know how to put single pixels on the screen, you
@@ -48,7 +48,7 @@ no pixels set.
 00000000 00000000 00000000 00000000 00000000</PRE>
 
 <P>Here is the assembler code for the sprite we want to work with.
-<A HREF="../advanced/asse.htm#db"><CODE>.db</CODE></A> tells the assembler
+<A HREF="../advanced/asse#db"><CODE>.db</CODE></A> tells the assembler
 the following is to be directly inputted into the program as bytes.
 
 <PRE>.db %00011000
@@ -156,7 +156,7 @@ asking for some info on them.  From his reply I have put together
 the following on the standard <A HREF="../download/sdr8.h">SDR8.h</A>
 routine included in the <A HREF="../download/sdr.zip">zip</A>.
 
-<P>On the <A HREF="../download/download.htm">Download</A> page
+<P>On the <A HREF="../download/download">Download</A> page
 you can find a zip with several
 <A HREF="../download/sdr.zip">Sprite Routines</A> packaged for
 you to choose from.
@@ -165,7 +165,7 @@ you to choose from.
 table by the line numbers. Follow each line and
 try to picture in your head what it is doing. The <I>easiest</I> way to
 do this is to print out the
-<A HREF="JavaScript:popup('sprp.htm')">SDR8 Code</A> and then
+<A HREF="JavaScript:popup('sprp')">SDR8 Code</A> and then
 refer to the explanations.
 
 <PRE><OL>
@@ -267,13 +267,13 @@ Sprite_Label:		;the sprite label
 		in.  We add <CODE>a</CODE> to <CODE>a</CODE> and decrease it so that every
 		bit is set from the far left being written to, all the way to
 		bit 0.  This used with
-		<A HREF="logi.htm#and"><CODE>and</CODE></A> makes a bit mask so that we only
+		<A HREF="logi#and"><CODE>and</CODE></A> makes a bit mask so that we only
 		manipulate the bits that are set in that byte.  We need to save
 		this bit mask into <CODE>e</CODE> for use with each row.
 		<TD>3
 	<TR>	<TD><A HREF="#c11" NAME="l11">&uarr;</A>11-14
 		<TD>Now we need to set up for a
-		<A HREF="../beginner/inst.htm#djnz"><CODE>djnz</CODE></A> loop.  We need to have
+		<A HREF="../beginner/inst#djnz"><CODE>djnz</CODE></A> loop.  We need to have
 		the routine figure out how many times it needs to copy a bit
 		from the sprite to the video memory.  We do this using the 'scraps'
 		from the find pixel routine.  The find pixel routine divides the
@@ -312,7 +312,7 @@ Sprite_Label:		;the sprite label
 		as many times as needed to fit into the bit mask we already
 		figured out.  We use our rotating counter already saved and
 		in <CODE>b</CODE> and rotate the sprite part using a
-		<A HREF="../beginner/inst.htm#djnz"><CODE>djnz</CODE></A> loop.
+		<A HREF="../beginner/inst#djnz"><CODE>djnz</CODE></A> loop.
 		<TD>3
 	<TR>	<TD><A HREF="#c25" NAME="l25">&uarr;</A>25
 		<TD>We want to save what we did into <CODE>d</CODE> and we'll
@@ -326,7 +326,7 @@ Sprite_Label:		;the sprite label
 	<TR>	<TD><A HREF="#c27" NAME="l27">&uarr;</A>27-29
 		<TD>Now here is where we actually put the pixel on the
 		screen using
-		<A HREF="logi.htm#or"><CODE>or</CODE></A> with what's currently on the screen and
+		<A HREF="logi#or"><CODE>or</CODE></A> with what's currently on the screen and
 		what we've done and then putting the answer back on the
 		screen!  Then we just increase <CODE>hl</CODE> to point to
 		where we're write to next in the next byte over!

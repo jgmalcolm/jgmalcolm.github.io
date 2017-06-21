@@ -21,9 +21,9 @@ or off every other execution.
 </UL>
 
 <P>Every time TI-OS goes to put text on the screen, it
-checks if certain bit in the <A HREF="syst.htm">System Flags</A> is set. If
+checks if certain bit in the <A HREF="syst">System Flags</A> is set. If
 that bit's set, it then goes to the appropriate memory address which tells it
-a <A HREF="../variables/abso.htm">Absolute Address Pointer</A> of where
+a <A HREF="../variables/abso">Absolute Address Pointer</A> of where
 your font is in memory. At that address it will ready a byte telling it
 again what size the font is and how many characters are in your font.
 TI-OS searches for the ASCII character it wants and then displays
@@ -35,8 +35,8 @@ in your code. These are the addresses
 where a 24 bit pointer will be stored.  The pointer
 will have the address of where your font data
 is at. These addresses are for
-<A HREF="../intermediate/text.htm#curs">Cursor Font</A>
-and <A HREF="../intermediate/text.htm#vari">Variable
+<A HREF="../intermediate/text#curs">Cursor Font</A>
+and <A HREF="../intermediate/text#vari">Variable
 Width Font</A> respectively.
 <PRE>_AltLFontPtr	=$d2ed	;large font pointer
 _AltSFontPtr	=$d2f0	;small font pointer</PRE>
@@ -46,18 +46,18 @@ _AltSFontPtr	=$d2f0	;small font pointer</PRE>
 	<LI>At either <CODE>_AltLFontPtr</CODE> or <CODE>_AltSFontPtr</CODE>,
 	put a 24 bit pointer to where the font data is for that type of font.
 	<LI>Set either bit 0
-	(<A HREF="../intermediate/text.htm#curs">Cursor
+	(<A HREF="../intermediate/text#curs">Cursor
 	Font</A>) or bit 1
-	(<A HREF="../intermediate/text.htm#vari">Variable
+	(<A HREF="../intermediate/text#vari">Variable
 	Width Font</A>) at offset $23 from the
-	<A HREF="syst.htm">System Flags</A>.
+	<A HREF="syst">System Flags</A>.
 	<LI>Make the font data
 </OL>
 
 
 
 <A NAME="24bi"></a><H2>24 bit Pointer</H2>
-From reading the <A HREF="../variables/abso.htm">Absolute
+From reading the <A HREF="../variables/abso">Absolute
 Addressing Section</A> you should be familiar with
 24 bit pointers. The best way to setup your code is
 to make a pointer to your actual program where the
@@ -73,7 +73,7 @@ got to be some way. If you find out, send me an
 <P>Here's how to setup the absolute pointer. You
 will also need the following equate. It is where
 the name of the current program running is stored
-in <A HREF="../variables/vari.htm">Variable Name
+in <A HREF="../variables/vari">Variable Name
 Format</A>.
 <PRE>_asapvar	=$d6fc</PRE>
 This routine will find the absolute

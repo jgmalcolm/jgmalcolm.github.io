@@ -57,7 +57,7 @@ loop:
 
 <P>This is a listing of the most commonly used assembler
 instructions. Depending upon your type of
-<A HREF="form.htm">assembler</A>, you may need to insert
+<A HREF="form">assembler</A>, you may need to insert
 white-space (leading spaces or tabs) before instructions. Labels
 and comments do not require white-space.
 
@@ -139,7 +139,7 @@ because they require the exact, absolute, position of the label
 in the memory. Calls made to parts of the program itself are
 absolute also. At the start of almost all your programs will
 be the line of code <CODE>.org _asm_exec_ram</CODE> which was an
-<A HREF="../advanced/asse.htm">alias</A> saying
+<A HREF="../advanced/asse">alias</A> saying
 <CODE>.org $d748</CODE>. This tells the assembler to make all
 the label referencing while considering
 that the program is at address $d748. The processor encounters
@@ -149,14 +149,14 @@ to $d748 to get $d77c. Then it returns to where it encountered
 <CODE>call my_routine</CODE> and substitutes that with <CODE>call $d77c</CODE>.
 When it encounters <CODE>call _clrLCD</CODE>, which it knows to be an
 alias, it just substitutes the alias for <CODE>call $4a7e</CODE>. Can be used with
-<A HREF="flag.htm">flags and conditions</A>.
+<A HREF="flag">flags and conditions</A>.
 
 
 <A NAME="cp"></a><H2>cp</H2>
 <CODE>cp <I>arg1</I></CODE> - Compares whatever is in the <CODE>a</CODE>
 register to <I>arg1</I>. <I>Arg1</I> can be either a value, a
 register that points to an address, or another register. Modifies
-the <A HREF="../beginner/flag.htm">processor flags</A> accordingly.
+the <A HREF="../beginner/flag">processor flags</A> accordingly.
 
 <PRE>	cp h		;compare h to a
 	cp $03
@@ -249,7 +249,7 @@ processor is executing code. The jump may tell the processor to
 "move to the label that is 35 bytes backwards from where you
 are now". That is why they are relative to the current
 position of where the processor is executing code. Can be used with
-<A HREF="flag.htm">flags and conditions</A>.
+<A HREF="flag">flags and conditions</A>.
 
 
 <A NAME="jp"></a><H2>jp</H2>
@@ -264,13 +264,13 @@ Absolute jumps made inside the program are called absolute
 calls because they require the exact, absolute, position of the
 label in the memory distance wise from zero, or the beginning of
 the memory at $0000. Can be used with
-<A HREF="flag.htm">flags and conditions</A>.
+<A HREF="flag">flags and conditions</A>.
 
 
 <A NAME="ret"></A><H2>ret</H2>
 <CODE>ret</CODE> - Used with <CODE>call <I>addr1</I></CODE>.
 Tells the processor to go back to wherever it was called from and
 continue executing the code following the call. Can be used with
-<A HREF="flag.htm">flags and conditions</A>.
+<A HREF="flag">flags and conditions</A>.
 
 <PRE>	ret</PRE>

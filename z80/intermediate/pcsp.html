@@ -11,13 +11,13 @@ layout: z80
 
 <H2><A NAME=pc></A>Program Counter</A></H2>
 
-<P>The <A HREF="../beginner/z80p.htm">z80</A> needs to keep track of
+<P>The <A HREF="../beginner/z80p">z80</A> needs to keep track of
 where it's executing code. It stores that address in the 16 bit
 register <CODE>pc</CODE>. You can't directly modify this register
 with regular instructions.
 
 <P>The only way to modify <CODE>pc</CODE> is to push a new value
-onto the <A HREF="stac.htm">Stack</A> and use a <CODE>ret</CODE>.
+onto the <A HREF="stac">Stack</A> and use a <CODE>ret</CODE>.
 The <CODE>ret</CODE> will use the last value on the stack as the
 new Program Counter. It'll jump to that address and start executing
 code again.
@@ -26,7 +26,7 @@ code again.
 
 <H2><A NAME=sp></A>Stack Pointer</A></H2>
 <P>When you <CODE>push</CODE> and <CODE>pop</CODE> stuff on and
-off the <A HREF="stac.htm">Stack</A>, the Stack Pointer
+off the <A HREF="stac">Stack</A>, the Stack Pointer
 (<CODE>sp</CODE>) is updated either with the addition of two bytes by a
 <CODE>pop</CODE> or the subtraction by a <CODE>push</CODE>.
 Remember that the Stack rises in memory as more is pushed

@@ -32,7 +32,7 @@ you would just say it's at address <CODE>$0003</CODE>. The 6th byte
 in memory is at address <CODE>$0006</CODE>.
 
 <P>Addresses are always given in
-<A HREF="../beginner/numb.htm#hex">hexadecimal</A>. It seems
+<A HREF="../beginner/numb#hex">hexadecimal</A>. It seems
 awkward to tell someone an address as <CODE>22322</CODE> compared
 to the easier <CODE>$5732</CODE>. There are fewer digits to
 remember.
@@ -57,14 +57,14 @@ of addressing using three registers for addressing. <CODE>Ahl</CODE> and
 <CODE>BDE</CODE> are two groupings used to address memory. Instead of the
 standard $3ad9 to address something, you have an extra byte
 to give $023ad9. That way you are able to access more memory
-as explained in the <A HREF="../variables/abso.htm">Absolute
+as explained in the <A HREF="../variables/abso">Absolute
 Addressing Section</A>.
 
 <P>Another method developed to access more memory is changing
 out 'pages' of memory. TI has several memory pages that can
 be swapped interchangeably to access different routines. This
 method is faster than using the un-natural three byte
-<A HREF="../variables/abso.htm">addressing</A>
+<A HREF="../variables/abso">addressing</A>
 ($000000). These pages are loaded into the memory of the TI86
 by different routines for temporary use. They are put between
 $010000 and $02bfff for RAM pages and between $02c000 and $05ffff
@@ -72,7 +72,7 @@ for ROM pages. This whole system of swapping out pages is called
 Asynchronous Serial Communications Interface. The ROM port is port
 5 and the RAM port is port 6.
 
-<P>The most frequent <A HREF="romc.htm">ROM calls</A> are to page $0d which then will
+<P>The most frequent <A HREF="romc">ROM calls</A> are to page $0d which then will
 swap in whichever memory page needed, execute the routine on that
 page, and return the pages to how they were before execution.
 You won't have to worry too much about memory pages unless you
@@ -102,7 +102,7 @@ about is not swapped in, your program will probably crash since
 the routine you want isn't where you think it is.
 
 <P>TI changes their
-<A HREF="../beginner/ti86.htm">ROM versions</A> among their
+<A HREF="../beginner/ti86">ROM versions</A> among their
 calculators. To keep up with those ROM versions and call
 addresses, they use ROM page $0d as a reference to all the
 common calls. You usually call the routine which is located
@@ -156,14 +156,14 @@ page 1 for use.
 with ports: You can swap in a ROM page or a RAM page into
 the same memory area. The only difference between requesting
 a ROM page versus a RAM page is whether or not
-<A HREF="../beginner/numb.htm#bitp">bit 6</A> of <CODE>a</CODE> is set
+<A HREF="../beginner/numb#bitp">bit 6</A> of <CODE>a</CODE> is set
 or reset. If bit 6 is set, then the TI86 swaps in a RAM page;
 if is reset, it swaps in a ROM page. Here's two routines,
 they require upon entry that <CODE>a</CODE> is the requested page. To
 change in a ROM page between address $4000 and $7fff, call
 'swap_ROM'; to swap in a RAM page between addresses $8000 and
 $bfff, call 'swap_RAM'. The code swaps in ROM page $0a
-and RAM page $07 (the <A HREF="../variables/vats.htm">Variable
+and RAM page $07 (the <A HREF="../variables/vats">Variable
 Allocation Table</A>) and quits.
 
 <PRE>desired_ROM	=$0a	;ROM page we want to swap in
@@ -198,7 +198,7 @@ swap_ROM:
 The following chart shows
 some frequently used data areas where you can store stuff
 temporarily during program
-execution. The <A HREF="vari.htm">Variables Section</A> goes
+execution. The <A HREF="vari">Variables Section</A> goes
 into much more detail on this.
 
 <P>
@@ -247,8 +247,8 @@ into much more detail on this.
 		next time the user accesses it.
 	<TR>	<TD>$fc00
 		<TD>1024
-		<TD>This is where the <A HREF="scre.htm">LCD</A> is
-		and where the pixels you <A HREF="pixe.htm">draw</A> are displayed. Each byte
+		<TD>This is where the <A HREF="scre">LCD</A> is
+		and where the pixels you <A HREF="pixe">draw</A> are displayed. Each byte
 		stands for 8 pixels, meaning that each bit stands for a
 		pixel black (set) or white (reset). Each row is 16 bytes.
 		This will be explained later in more detail but you shouldn't

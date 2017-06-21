@@ -11,7 +11,7 @@
 	<TR WIDTH="30%">
 		<TD CLASS=header>Purpose
 		<TD>Quick routine loading $ff into the first five bytes
-		of the <A HREF="../intermediate/scre.htm">Video Memory</A>
+		of the <A HREF="../intermediate/scre">Video Memory</A>
 		($fc00).
 	<TR>	<TD CLASS=header>Code
 		<TD><PRE>
@@ -23,7 +23,7 @@
 	ld (ix+3),a
 	ld (ix+4),a
 	<TR>	<TD CLASS=header>Error
-		<TD>First off, using the <A HREF="../advanced/inde.htm">Index
+		<TD>First off, using the <A HREF="../advanced/inde">Index
 		Registers</A> is not a speed efficient choice.  The basic
 		instruction <CODE>ld (ix+$??),a</CODE> is three bytes long.  It is much
 		wiser to stay away from these registers all together.  They are
@@ -42,4 +42,4 @@ loop_start:
 	djnz loop_start	;do it 4 more times until
 			; b=$00
 </TABLE>
-<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode");</SCRIPT>

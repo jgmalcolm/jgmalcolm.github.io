@@ -41,7 +41,7 @@ used to modify other code as this next example shows.  Upon
 entering this routine, the byte at address <CODE>loop_iterations</CODE>
 will contain the number of times we should loop using
 <CODE>djnz</CODE>.  We load that value into the byte loaded into
-<CODE>b</CODE> using the <A HREF="asse.htm#pc">Instruction
+<CODE>b</CODE> using the <A HREF="asse#pc">Instruction
 Pointer</A> (<CODE>$</CODE>) and start the loop.
 
 <PRE>loop_iteration_change:
@@ -71,7 +71,7 @@ loop:
 loop_iteration:	.db $00		;byte determined before
 				; routine starts</PRE>
 
-<P>Let's reference a <A HREF="../intermediate/vari.htm#temp">Temporary
+<P>Let's reference a <A HREF="../intermediate/vari#temp">Temporary
 Trash</A> variable within the program code.
 
 <PRE>	ld a,69

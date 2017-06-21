@@ -5,7 +5,7 @@ layout: z80
 ---
 
 <P>A lot of times you want to access info in a table or a list.  Remember
-the <A HREF="../advanced/inde.htm#index">index registers</A>?
+the <A HREF="../advanced/inde#index">index registers</A>?
 
 <PRE>	ld iy,table_start
 	ld a,(iy+4)</PRE>
@@ -56,7 +56,7 @@ change!
 each element 1 byte in length to hold the
 letters of the alphabet. Let's also
 say the array can be trashed once your program is
-done. We'll use a <A HREF="memo.htm#safe">safe memory</A>
+done. We'll use a <A HREF="memo#safe">safe memory</A>
 area at the end of our program at, say, address
 $f200. Let's start loading the array with
 letter values, incrementing the array length counter
@@ -75,7 +75,7 @@ referencing elements. I'm only trying to show you
 the fundamentals. It would be much faster to do
 it as shown in
 <A HREF="../download/array2.asm">Array2.asm</A> with
-<A HREF="simu.htm">Simulated 16 bit Addition</A>.
+<A HREF="simu">Simulated 16 bit Addition</A>.
 
 <PRE>a_size		=$f200	;array size
 array_start	=$f201	;start of element data
@@ -156,7 +156,7 @@ You input into <CODE>d</CODE> the desired row,
 hold the address of the queried table. You
 can see this routine in action used
 by <A HREF="../download/table.asm">Table.asm</A>.
-It also uses <A HREF="simu.htm">Simulated 16
+It also uses <A HREF="simu">Simulated 16
 bit Addition</A>.
 
 <PRE>	ld de,1*256+2	;row 1, col 2

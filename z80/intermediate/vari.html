@@ -25,10 +25,10 @@ bytes usually.
 address in memory that you are refering to, or else the assembler thinks you're
 crazy. This is similiar to the defined addresses for calls in
 <A HREF="../download/ti86asm.inc">ti86asm.inc</A>. If you're not familiar with
-the <A HREF="../advanced/asse.htm#equa">equate</A> directive, glance at the
-<A HREF="../advanced/asse.htm">Assembler Directives Section</A>. There are
+the <A HREF="../advanced/asse#equa">equate</A> directive, glance at the
+<A HREF="../advanced/asse">Assembler Directives Section</A>. There are
 plenty of areas you can store data to in memory during program execution;
-check out the <A HREF="memo.htm#safe">Memory and ROM Pages</A> section for
+check out the <A HREF="memo#safe">Memory and ROM Pages</A> section for
 some of those addresses. After you know all
 that stuff, the next example should be clear. We're going to save
 the speed of our car already in <CODE>a</CODE> into the byte at <CODE>car_speed</CODE>
@@ -74,7 +74,7 @@ to a designated area used only for running assembly programs. The
 <CODE>_asm_exec_ram</CODE> is the address (<CODE>$d748</CODE>) where the program
 is copied to. The name of the program currently running is
 stored in <CODE>_asapvar</CODE> (<CODE>$d6fc</CODE>) in
-<A HREF="../variables/vari.htm">Variable Name Format</A>.
+<A HREF="../variables/vari">Variable Name Format</A>.
 TI-OS will execute your program at <CODE>_asm_exec_ram</CODE>
 until finished. It will then return the the caller (either the homescreen,
 the TI-BASIC program that ran the assembly program, or the assembly
@@ -295,8 +295,8 @@ to create the hidden file for the first time. If the hidden
 file's not there, everything will go screwy!
 
 <P>The best way
-to do this is using <A HREF="../variables/findsym.htm"><CODE>_FindSym</CODE></A>
-which will return with the <A HREF="../beginner/flag.htm#carry">carry
+to do this is using <A HREF="../variables/findsym"><CODE>_FindSym</CODE></A>
+which will return with the <A HREF="../beginner/flag#carry">carry
 flag</A> set if the variable doesn't exist. Just use that
 condition to jump to a routine to create a new data variable
 with defaults.

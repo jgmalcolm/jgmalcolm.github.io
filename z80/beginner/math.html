@@ -17,13 +17,13 @@ down into four groups:
 You can test these and your own math routines
 using <A HREF="../download/mathtest.asm">MathTest.asm</A>.
 In its current form it only supports the answer
-in the 8 bit <A HREF="regi.htm">register</A> <CODE>a</CODE>;
+in the 8 bit <A HREF="regi">register</A> <CODE>a</CODE>;
 but, you can follow the directions in the comments
 to change it to use <CODE>hl</CODE> in 2 seconds.
 
 <P>Remember also that we are only working with integers here.
 Floating point math is taken care of in
-the <A HREF="../variables/bcd.htm">Binary Coded Decimal</A>
+the <A HREF="../variables/bcd">Binary Coded Decimal</A>
 section. You can always write your own routines which
 will probably be faster than TI's, but why
 reinvent the wheel?
@@ -35,7 +35,7 @@ and bogus answers are sure to follow.
 <A NAME="add"></A><H2>Addition</H2>
 Seems simple enough, right? You're using the accumulator
 (<CODE>a</CODE>) so you load it with one operand and load the other
-into another 8 bit <A HREF="regi.htm">register</A>. After you've
+into another 8 bit <A HREF="regi">register</A>. After you've
 got that setup, go ahead and add them. Let's add 4 and 5 to get 9.
 Using <CODE>add</CODE>, the result will be stored in <CODE>a</CODE>.
 
@@ -54,7 +54,7 @@ is that you can have way bigger operands.
 	add hl,de	;4,000+15,000=19,000</PRE>
 
 <P>Things can get a little more complicated when you start
-using the <A HREF="flag.htm#carry">carry flag</A>.
+using the <A HREF="flag#carry">carry flag</A>.
 The general idea is, add the two operands and, if the carry
 flag is set, add one to the answer. Don't add one if
 the carry flag was reset.
@@ -62,10 +62,10 @@ the carry flag was reset.
 <P>This is helpful, let's say, if you want to account
 for an overflow in the previous calculation. You
 have a calculation (
-<A HREF="../opcodes/opcodesN.htm#add"><CODE>add</CODE></A>,
-<A HREF="../opcodes/opcodesN.htm#sub"><CODE>sub</CODE></A>,
-<A HREF="../opcodes/opcodesN.htm#dec"><CODE>dec</CODE></A>,
-<A HREF="../opcodes/opcodesN.htm#inc"><CODE>inc</CODE></A>, etc.)
+<A HREF="../opcodes/opcodesN#add"><CODE>add</CODE></A>,
+<A HREF="../opcodes/opcodesN#sub"><CODE>sub</CODE></A>,
+<A HREF="../opcodes/opcodesN#dec"><CODE>dec</CODE></A>,
+<A HREF="../opcodes/opcodesN#inc"><CODE>inc</CODE></A>, etc.)
 which may or may not have resulted in an answer that was too big
 for it to store. The carry flag will be set if so.
 
@@ -87,13 +87,13 @@ for it to store. The carry flag will be set if so.
 			; a</PRE>
 
 The practicality of this feature can
-be seen in the <A HREF="../intermediate/simu.htm">Simulated 16 bit
+be seen in the <A HREF="../intermediate/simu">Simulated 16 bit
 Addition</A> section, if you want to get more indepth.
 
 
 <A NAME="sub"></A><H2>Subtraction</H2>
 Similar but opposite,
-<A HREF="../opcodes/opcodesN.htm#sub"><CODE>sub</CODE></A>
+<A HREF="../opcodes/opcodesN#sub"><CODE>sub</CODE></A>
 is used for subtraction. The value you want subtracted <I>from</I>
 is loaded into the accumulator (<CODE>a</CODE>), the value you
 want to subtract is put into another register, and then you
@@ -107,13 +107,13 @@ are ready to perform the actual subtraction.
 You can get into a mess if you try subtracting a
 <I>big</I> number from a <I>little</I> number. You
 won't get the answer you expect and the
-<A HREF="flag.htm#carry">carry flag</A> will be set.
+<A HREF="flag#carry">carry flag</A> will be set.
 
 <PRE>	ld a,4	;one operand
 	ld b,5	;second operand
 	sub b	;a-b=4-5=-1=255</PRE>
 
-From the <A HREF="twos.htm">Two's Compliment</A> section,
+From the <A HREF="twos">Two's Compliment</A> section,
 you can see that a value of -1 means the same as
 255. You can go ahead and add this to another
 8 bit register and it will be the same as
@@ -152,7 +152,7 @@ number subtracted <I>from</I>).
 
 <A NAME="mult"></A><H2>Multiplication</H2>
 If you haven't figured it out yet, there aren't
-any <A HREF="../opcodes/opcodes.htm">instructions</A> to
+any <A HREF="../opcodes/opcodes">instructions</A> to
 directly multiply. You have to mix some
 <CODE>add</CODE>'s, <CODE>sub</CODE>'s,
 shifts, and rotates to get what you want.
@@ -190,7 +190,7 @@ method.
 	<LI>The answer can't
 	excede 255 or there's an
 	overflow. You need to use
-	16 bit <A HREF="regi.htm">registers</A>.
+	16 bit <A HREF="regi">registers</A>.
 </OL>
 
 <P>Time is of the essence, you need
@@ -292,7 +292,7 @@ In this routine, the answer is stored into <CODE>a</CODE>. Remember
 that this is for integers that divide evenly. If you
 have two numbers that you know do <I>not</I> divide
 evenly, you will get an infinite loop usually (Your
-calculator has <A HREF="ohno.htm">crashed</A>).
+calculator has <A HREF="ohno">crashed</A>).
 
 <PRE>	ld c,$00
 divide_loop:
@@ -327,18 +327,18 @@ of 8 using <CODE>srl a</CODE>.
 	srl a	;/8</PRE>
 
 I don't recommend using
-<A HREF="../advanced/shif.htm">shift
+<A HREF="../advanced/shif">shift
 logically</A>
 because it's two bytes long. It
 is nice because it shifts the
 bits right out of here.
-<A HREF="../advanced/shif.htm">Rotate</A>
+<A HREF="../advanced/shif">Rotate</A>
 is faster but it just circulates those
 bits to the other side. If you're
 going to use rotate, make sure
 to mask off those
 bits using
-<A HREF="../intermediate/logi.htm"><CODE>and</CODE></A>.
+<A HREF="../intermediate/logi"><CODE>and</CODE></A>.
 This is one byte shorter. You'll
 save more bytes if you divide
 by higher powers of 2 (8=2^3=2*2*2)

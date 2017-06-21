@@ -5,7 +5,7 @@ layout: z80
 ---
 
 <P>We already went over previously how the TI86 switches in and out
-<A HREF="../intermediate/memo.htm">ROM and RAM Pages</A> so you can look back
+<A HREF="../intermediate/memo">ROM and RAM Pages</A> so you can look back
 at that if you want to refresh yourself real quick.  Here is a chart that
 tells the equivalents of the Absolute Address Pointer (ABS) to the RAM Page
 with an 16 bit address (addressing using the register pairs: <CODE>de</CODE>,
@@ -212,15 +212,15 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 <A NAME="_DataSize"></A><H3>_DataSize=$477f</H3>
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header WIDTH="15%">Description
-		<TD>After performing <A HREF="findsym.htm">_FindSym</A>, use
+		<TD>After performing <A HREF="findsym">_FindSym</A>, use
 		it to find the variable's size.
 	<TR>	<TD CLASS=header>Input
-		<TD>The output of <A HREF="findsym.htm">_FindSym</A>
+		<TD>The output of <A HREF="findsym">_FindSym</A>
 		(like _Delvar=$475f).
 	<TR>	<TD CLASS=header>Destroys
 		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
 	<TR>	<TD CLASS=header>Output
-		<TD><CODE>c</CODE> - <A HREF="vari.htm#type">variable type</A><BR>
+		<TD><CODE>c</CODE> - <A HREF="vari#type">variable type</A><BR>
 		<CODE>de</CODE> - size of variable's data<BR>
 		carry cleared
 </TABLE><BR>
@@ -313,7 +313,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Output
 		<TD><CODE>a</CODE> - byte at ABS <CODE>ahl</CODE><BR>
 		<CODE>hl</CODE> - converted <CODE>ahl</CODE> to 16 bit address
-		<CODE>hl</CODE> and correct <A HREF="../intermediate/memo.htm">RAM
+		<CODE>hl</CODE> and correct <A HREF="../intermediate/memo">RAM
 		page swapped</A>
 </TABLE><BR>
 
@@ -326,7 +326,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Destroys
 		<TD>none
 	<TR>	<TD CLASS=header>Output
-		<TD>RAM Page 1 <A HREF="../intermediate/memo.htm">swapped in</A>
+		<TD>RAM Page 1 <A HREF="../intermediate/memo">swapped in</A>
 </TABLE><BR>
 
 <A NAME="_RAM_Page_7"></A><H3>_RAM_Page_7=$47f3</H3>
@@ -338,7 +338,7 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 	<TR>	<TD CLASS=header>Destroys
 		<TD>none
 	<TR>	<TD CLASS=header>Output
-		<TD>RAM Page 7 <A HREF="../intermediate/memo.htm">swapped in</A>
+		<TD>RAM Page 7 <A HREF="../intermediate/memo">swapped in</A>
 </TABLE><BR>
 
 <A NAME="_WriteB_Inc_ahl"></A><H3>_WriteB_Inc_ahl=$5567</H3>
@@ -360,14 +360,14 @@ into a RAM Page and a 16 bit address is <A HREF="#_Load_RAM_ahl">_Load_RAM_ahl</
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header WIDTH="15%">Description
 		<TD>Compare the bytes at <CODE>ahl</CODE> and <CODE>bde</CODE> much
-		like <A HREF="../beginner/inst.htm#cp"><CODE>cp</CODE></A>.
+		like <A HREF="../beginner/inst#cp"><CODE>cp</CODE></A>.
 	<TR>	<TD CLASS=header>Input
 		<TD><CODE>ahl</CODE> and <CODE>bde</CODE> are ABS pointers to the
 		byte being checked
 	<TR>	<TD CLASS=header>Destroys
 		<TD>none
 	<TR>	<TD CLASS=header>Output
-		<TD><A HREF="../beginner/flag.htm">Flags</A> set accordingly
+		<TD><A HREF="../beginner/flag">Flags</A> set accordingly
 </TABLE><BR>
 
 <A NAME="_Ex_ahl_bde"></A><H3>_Ex_ahl_bde=$45f3</H3>

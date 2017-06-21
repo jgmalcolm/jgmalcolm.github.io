@@ -145,7 +145,7 @@ could be needed a multiply before them when used in an equation.
 <P>The program <A HREF="../download/disptype.asm">disptype.asm</A> is an example
 of each of the different types of paste methods used by TI-OS.
 
-<P>Menus do not support <A HREF="../variables/abso.htm">Absolute
+<P>Menus do not support <A HREF="../variables/abso">Absolute
 Addressing</A> so you will need to do a block copy to put your menu data
 somewhere on RAM page 0. A good place would be at the end of your
 program. Check out <A HREF="../download/tempmemo.asm">another program</A> that
@@ -222,7 +222,7 @@ something. Something you <I>must</I> know is that inside your small assembly
 program, you cannot call any outside routines because of the way the
 stack is being used. If you do make a call such as <CODE>call _clrLCD</CODE>,
 you will get a crashed TI86; that has to do with the status of the
-ROM pages <A HREF="../intermediate/memo.htm">swapped in</A>.
+ROM pages <A HREF="../intermediate/memo">swapped in</A>.
 You can call a routine that is in the area of the executing
 code, like one of your later routines. Just don't call ROM routines that are
 outside your program.

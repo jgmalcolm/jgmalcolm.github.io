@@ -17,9 +17,9 @@ Table (VAT or Symbol Lookup Table) we need to investigate
 where it is and how it's organized.
 
 <A NAME="thev"></A><H2>The VAT</H2>
-The VAT is on <A HREF="../intermediate/memo.htm">RAM</A>
+The VAT is on <A HREF="../intermediate/memo">RAM</A>
 page 7. You can swap it in yourself or you can
-use one of TI-OS' <A HREF="abso.htm#ram7">calls</A> to do
+use one of TI-OS' <A HREF="abso#ram7">calls</A> to do
 the work for you saving one byte.
 
 <PRE>_RAM_Page_7	=$47f3
@@ -43,7 +43,7 @@ start_of_vat		=$bfff
 
 <P>There's a good reason behind making it backwards.
 Think of the variables' memory in the
-<A HREF="../intermediate/memo.htm">RAM</A> as
+<A HREF="../intermediate/memo">RAM</A> as
 being one long block. We could store all the names
 in one area, and all the data  in another but we
 might be wasting space or corrupting memory if
@@ -93,9 +93,9 @@ but <I>backwards</I> in memory.
 	<TR CLASS=header>
 		<TD>Description
 		<TD>Size (bytes)
-	<TR>	<TD>Variable <A HREF="vari.htm#type">type</A>
+	<TR>	<TD>Variable <A HREF="vari#type">type</A>
 		<TD>1
-	<TR>	<TD><A HREF="abso.htm">Absolute Address</A> for start
+	<TR>	<TD><A HREF="abso">Absolute Address</A> for start
 		of variable data
 		<TD>3
 	<TR>	<TD>Trash byte you can use to store anything you
@@ -114,12 +114,12 @@ you're still unsure.
 
 <A NAME="sear"></A><H2>Searching the VAT</H2>
 If you already know the variable's exact name, you ca use
-<A HREF="findsym.htm">_FindSym</A>, but that's not always the
+<A HREF="findsym">_FindSym</A>, but that's not always the
 case.
 
 <P>There's several different ways to go about sifting through the
 VAT. One way, and probably the most used, is by searching for
-a certain variable <A HREF="vari.htm#type">type</A>, most often a
+a certain variable <A HREF="vari#type">type</A>, most often a
 string (<CODE>$0c</CODE>) or program (<CODE>$12</CODE>). Another way is to search alphabetically.
 We're going to focus on searching by the variable type, and our
 examples will search for programs to execute.
@@ -164,25 +164,25 @@ beginner's example of how to search the VAT.
 		<TD ALIGN=CENTER>Explanation
 		<TD WIDTH="5%" ALIGN=CENTER>Bytes
 	<TR>	<TD><A HREF="#c1" NAME="l1">&uarr;</A>1
-		<TD>This call swaps in <A HREF="../intermediate/memo.htm">RAM</A>
+		<TD>This call swaps in <A HREF="../intermediate/memo">RAM</A>
 		page 7 (the VAT) without destroying any
-		<A HREF="../beginner/regi.htm">registers</A>. This three byte
-		<A HREF="../beginner/inst.htm#call"><CODE>call</CODE></A> is
+		<A HREF="../beginner/regi">registers</A>. This three byte
+		<A HREF="../beginner/inst#call"><CODE>call</CODE></A> is
 		used instead of<PRE>	ld a,7
 	out (5),a</PRE>
 		<TD>none
 	<TR>	<TD><A HREF="#c2" NAME="l2">&uarr;</A>2
 		<TD><CODE>_PTEMP_END</CODE> is where the
-		<A HREF="abso.htm">absolute address</A> for
+		<A HREF="abso">absolute address</A> for
 		the end of the VAT is.
 		<TD>none
 	<TR>	<TD><A HREF="#c4" NAME="l4">&uarr;</A>4
-		<TD>Swap in <A HREF="../intermediate/memo.htm">RAM</A>
+		<TD>Swap in <A HREF="../intermediate/memo">RAM</A>
 		page 7.
 		<TD>3
 	<TR>	<TD><A HREF="#c5" NAME="l5">&uarr;</A>5
 		<TD>We just swapped in RAM page 7. <CODE>_PTEMP_END</CODE>
-		is an <A HREF="abso.htm">absolute</A> pointer with
+		is an <A HREF="abso">absolute</A> pointer with
 		3 bytes for addressing; but, if we have the correct
 		memory page swapped in, we only need the last 2 bytes
 		to make up a valid 16 bit pointer. We get that
@@ -198,7 +198,7 @@ beginner's example of how to search the VAT.
 		save it.
 		<TD>1
 	<TR>	<TD><A HREF="#c7" NAME="l7">&uarr;</A>7-8
-		<TD><A HREF="../beginner/math.htm#sbc"><CODE>Sbc</CODE></A>
+		<TD><A HREF="../beginner/math#sbc"><CODE>Sbc</CODE></A>
 		is the only 16 bit subtractor that we have. Clear the carry
 		before you use it so you won't get your answer one off. The
 		size of the VAT will be stored in <CODE>hl</CODE> (if everything
@@ -206,24 +206,24 @@ beginner's example of how to search the VAT.
 		<TD>3
 	<TR>	<TD><A HREF="#c9" NAME="l9">&uarr;</A>9
 		<TD>This might be a little tricky. We needed to
-		<A HREF="../intermediate/stac.htm"><CODE>push</CODE></A>
+		<A HREF="../intermediate/stac"><CODE>push</CODE></A>
 		the address of where we are to start searching from so
 		that it would not be effected in the <A HREF="#c7">subtraction</A>.
 		If the subtraction went wrong, we will be <A HREF="#c10">returning</A>
 		from the routine. We can't return, though, with something on
-		the <A HREF="../intermediate/stac.htm">stack</A> so we get it
+		the <A HREF="../intermediate/stac">stack</A> so we get it
 		off, for a second, and then in <A HREF="#c11">line 11</A> we
 		put it back. Note that we are saving it as <CODE>bc</CODE> because
 		we want <CODE>hl</CODE> to still contain the size of the VAT.
 		<TD>1
 	<TR>	<TD><A HREF="#c10" NAME="l10">&uarr;</A>10
-		<TD>The <A HREF="../beginner/flag.htm#carry">carry flag</A>
+		<TD>The <A HREF="../beginner/flag#carry">carry flag</A>
 		will be set if we don't have any VAT left to search, the
 		subtraction was invalid.
 		<TD>1
 	<TR>	<TD><A HREF="#c11" NAME="l11">&uarr;</A>11
 		<TD>Put back where we are to start from. This is setting
-		us up for the <A HREF="../intermediate/allt.htm#cp_r"><CODE>cpdr</CODE></A>
+		us up for the <A HREF="../intermediate/allt#cp_r"><CODE>cpdr</CODE></A>
 		on <A HREF="#c15">line 15</A>.
 		<TD>1
 	<TR>	<TD><A HREF="#c12" NAME="l12">&uarr;</A>12-13
@@ -240,13 +240,13 @@ beginner's example of how to search the VAT.
 		<TD>1
 	<TR>	<TD><A HREF="#c15" NAME="l15">&uarr;</A>15
 		<TD>Now we perform the actual search!
-		<A HREF="../intermediate/allt.htm"><CODE>Cpdr</CODE></A>
+		<A HREF="../intermediate/allt"><CODE>Cpdr</CODE></A>
 		will search, starting at address <CODE>hl</CODE> for
 		a byte with a value of <CODE>a</CODE> for <CODE>bc</CODE> amount
 		of bytes or until it finds a match incrementing
 		<CODE>hl</CODE> each iteration and decrementing <CODE>bc</CODE> at the
 		same time.
-		<P>The <A HREF="../intermediate/allt.htm">Parity Odd</A>
+		<P>The <A HREF="../intermediate/allt">Parity Odd</A>
 		flag condition will occur if no match was found.
 		We won't be using it, however. We'll check the value
 		of <CODE>bc</CODE> on our own in the next few bytes.
@@ -257,19 +257,19 @@ beginner's example of how to search the VAT.
 		<P>This routine will probably be called
 		several times in a row. The user will not want
 		to have to keep loading up <CODE>a</CODE> with the same
-		<A HREF="vari.htm#type">Variable Type</A> after each
+		<A HREF="vari#type">Variable Type</A> after each
 		iteration. By our saving that value, we save the
 		user this wasted effort at the cost of using <CODE>d</CODE>.
 		<TD>1
 	<TR>	<TD><A HREF="#c17" NAME="l17">&uarr;</A>17-18
 		<TD>Now it's time to check the value of <CODE>bc</CODE> which,
 		if it's zero, tells us to quit searching...there's nothing left.
-		<P>We'll use <A HREF="../intermediate/logi.htm#or"><CODE>or</CODE></A>
+		<P>We'll use <A HREF="../intermediate/logi#or"><CODE>or</CODE></A>
 		to see if <CODE>any</CODE> bits are set in either <CODE>b</CODE>
 		or <CODE>c</CODE>.
 		<TD>2
 	<TR>	<TD><A HREF="#c19" NAME="l19">&uarr;</A>19
-		<TD>We are still preserving the <A HREF="vari.htm#type">Variable
+		<TD>We are still preserving the <A HREF="vari#type">Variable
 		Type</A> byte in <CODE>d</CODE>. Let's put it back before we exit
 		the routine. That way it's there if we exit or if we continue along.
 		It was only needed for <CODE>cpdr</CODE>. Remember: <CODE>ld</CODE>
@@ -283,22 +283,22 @@ beginner's example of how to search the VAT.
 	<TR>	<TD><A HREF="#c21" NAME="l21">&uarr;</A>21-22
 		<TD>Well, <CODE>bc</CODE> must have been zero. There's nothing left for
 		us to search in the VAT. By setting the
-		<A HREF="../beginner/flag.htm#carry">carry</A> flag, we signal
+		<A HREF="../beginner/flag#carry">carry</A> flag, we signal
 		that there was an error of some sort.
-		<P><A HREF="../intermediate/misc.htm"><CODE>Scf</CODE></A> is
+		<P><A HREF="../intermediate/misc"><CODE>Scf</CODE></A> is
 		a great way to set the carry flag. It can tell a user that an
 		error just occured in that routine.
 		<TD>2
 	<TR>	<TD><A HREF="#c24" NAME="l24">&uarr;</A>24-28
 		<TD>Recall that the VAT is backwards. We are currently at the
-		<A HREF="vari.htm#type">Type</A> byte of the variable, the
+		<A HREF="vari#type">Type</A> byte of the variable, the
 		first byte in the viariable's entry. Let's decrement the address
 		past the type byte, past the three bytes for the
-		<A HREF="abso.htm">Absolute Address</A> pointer, and past
+		<A HREF="abso">Absolute Address</A> pointer, and past
 		the trash byte so we are now at the
-		<A HREF="../intermediate/text.htm#stri">length index</A> byte of the
+		<A HREF="../intermediate/text#stri">length index</A> byte of the
 		variable's name (all the user needs to reference the variable
-		using <A HREF="findsym.htm"><CODE>_FindSym</CODE></A>).
+		using <A HREF="findsym"><CODE>_FindSym</CODE></A>).
 		<TD>5
 </TABLE>
 
@@ -336,11 +336,11 @@ speed isn't a necessity, you can use <CODE>_FindAlphaUp=$514b</CODE> and
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header> WIDTH="15%">Description
 		<TD>Finds the variable higher (closer to 'Z') alphabetically than the
-		one stored in OP1 in <A HREF="vari.htm">Variable Name</A>
+		one stored in OP1 in <A HREF="vari">Variable Name</A>
 		format.
 	<TR>	<TD CLASS=header>Input
 		<TD>OP1 - case sensitive variable name in
-		<A HREF="vari.htm">Variable Name Format</A><BR>
+		<A HREF="vari">Variable Name Format</A><BR>
 		<CODE>a</CODE> - if not equal to <CODE>$00</CODE> then
 		ignore type<BR>
 		zero flag set - search for same type variables (real or
@@ -348,23 +348,23 @@ speed isn't a necessity, you can use <CODE>_FindAlphaUp=$514b</CODE> and
 	<TR>	<TD CLASS=header>Destroys
 		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
 	<TR>	<TD CLASS=header>Output
-		<TD><A HREF="../beginner/flag.htm#carry">Carry</A> set - didn't
+		<TD><A HREF="../beginner/flag#carry">Carry</A> set - didn't
 		find one<BR>
-		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo.htm">RAM
+		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo">RAM
 		page</A> swapped in<BR>
-		<A HREF="ti86.htm">OP1</A> and <A HREF="ti86.htm">OP3</A> -
-		found variable in <A HREF="vari.htm">Variable Name</A> format
+		<A HREF="ti86">OP1</A> and <A HREF="ti86">OP3</A> -
+		found variable in <A HREF="vari">Variable Name</A> format
 </TABLE>
 
 <H3>_FindAlphaDn=$514f</H3>
 <TABLE ALIGN=CENTER class="function">
 	<TR>	<TD CLASS=header> WIDTH="15%">Description
 		<TD>Finds the variable lower (closer to 'A') alphabetically than the
-		one stored in OP1 in <A HREF="vari.htm">Variable Name</A>
+		one stored in OP1 in <A HREF="vari">Variable Name</A>
 		format.
 	<TR>	<TD CLASS=header>Input
 		<TD>OP1 - case sensitive variable name in
-		<A HREF="vari.htm">Variable Name Format</A><BR>
+		<A HREF="vari">Variable Name Format</A><BR>
 		<CODE>a</CODE> - if not equal to <CODE>$00</CODE> then
 		ignore type<BR>
 		zero flag set - search for same type variables (real or
@@ -372,12 +372,12 @@ speed isn't a necessity, you can use <CODE>_FindAlphaUp=$514b</CODE> and
 	<TR>	<TD CLASS=header>Destroys
 		<TD><CODE>a, bc, de</CODE>, and <CODE>hl</CODE>
 	<TR>	<TD CLASS=header>Output
-		<TD><A HREF="../beginner/flag.htm#carry">Carry</A> set - didn't
+		<TD><A HREF="../beginner/flag#carry">Carry</A> set - didn't
 		find one<BR>
-		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo.htm">RAM
+		<CODE>hl</CODE> - address in VAT with <A HREF="../intermediate/memo">RAM
 		page</A> swapped in<BR>
-		<A HREF="ti86.htm">OP1</A> and <A HREF="ti86.htm">OP3</A> -
-		found variable in <A HREF="vari.htm">Variable Name</A> format
+		<A HREF="ti86">OP1</A> and <A HREF="ti86">OP3</A> -
+		found variable in <A HREF="vari">Variable Name</A> format
 </TABLE>
 
 <P>Speed is a huge drawback with these two; it's atleast 156,000 clock-cycles

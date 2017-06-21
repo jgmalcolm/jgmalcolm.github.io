@@ -24,8 +24,8 @@ several 9k or less parts...or you can just make an asm program that starts
 executing a string (which can be any length) and then returns to the asm
 program.
 
-<P>First you have to use <A HREF="findsym.htm"><CODE>_FindSym</CODE></A>
-to locate the file. <A HREF="findsym.htm"><CODE>_FindSym</CODE></A>'s
+<P>First you have to use <A HREF="findsym"><CODE>_FindSym</CODE></A>
+to locate the file. <A HREF="findsym"><CODE>_FindSym</CODE></A>'s
 output puts an ABS pointer in <CODE>bde</CODE>. All the routines we'll
 be using to access this will use <CODE>ahl</CODE> so we need to do
 two commands to put <CODE>bde</CODE> into <CODE>ahl</CODE>
@@ -34,15 +34,15 @@ two commands to put <CODE>bde</CODE> into <CODE>ahl</CODE>
 	ld a,b</PRE>
 
 <P>This can be further simplified by using
-<A HREF="abso.htm#ex"><CODE>_Ex_ahl_bde=$45f3</CODE></A>. This is
-one byte longer since it is a <A HREF="../beginner/inst.htm#call"><CODE>call</CODE></A>
+<A HREF="abso#ex"><CODE>_Ex_ahl_bde=$45f3</CODE></A>. This is
+one byte longer since it is a <A HREF="../beginner/inst#call"><CODE>call</CODE></A>
 but will still retain <CODE>a</CODE> instead of writing <CODE>b</CODE> over it.
 
 <P>I hate trying to assemble someone else's code and
 getting all these error messages dealing with the
-<A HREF="../advanced/asse.htm#incl">include</A> files. That
+<A HREF="../advanced/asse#incl">include</A> files. That
 is why I've pasted the equates for many of the
-<A HREF="../intermediate/romc.htm">ROM Calls</A> used
+<A HREF="../intermediate/romc">ROM Calls</A> used
 at the top of the routine. Their addresses are also
 pasted in the comments.
 
@@ -114,17 +114,17 @@ string" as its data.
 	into <CODE>hl</CODE> and create it.
 	<LI>Then we put the ABS pointer <CODE>bde</CODE> (what
 	_CreateSTRNG returned) into <CODE>ahl</CODE>.
-	<LI>Increase it by two to get past the <A HREF="crea.htm#leng">Length
+	<LI>Increase it by two to get past the <A HREF="crea#leng">Length
 	Word</A>
 	<LI>Set that as where we want to ABS block copy to.
 	<LI>Then we put the address of our string into the ABS block copy
 	source.
 	<LI>Load <CODE>a</CODE> with zero because our string is in the
-	<A HREF="../intermediate/memo.htm">64k</A> of bytes currently
+	<A HREF="../intermediate/memo">64k</A> of bytes currently
 	available. We can access it with a 16 bit pointer because it
 	is on a page that is swapped in (all asm programs are put
 	into an area on RAM page 0 which is always
-	<A HREF="../intermediate/memo.htm">swapped in</A>).
+	<A HREF="../intermediate/memo">swapped in</A>).
 	<LI>Then we get the length of the string and put that into the
 	number of bytes to ABS block copy.
 	<LI>Perform the block copy. We jump to the block copy routine
@@ -137,7 +137,7 @@ string" as its data.
 
 <A NAME="high"></A><H2>High Scores</H2>
 Uh, Oh! TI-OS doesn't save your high scores. You need to copy them to the
-program as explained in the <A HREF="../intermediate/vari.htm#game">game saved</A>
+program as explained in the <A HREF="../intermediate/vari#game">game saved</A>
 variables section.
 
 <P>A major thing to remember when
@@ -198,7 +198,7 @@ high_score:		.db 0		;high score in game</PRE>
 	data located in our program at
 	<CODE>_asm_exec_ram</CODE> into the accumulator
 	(<CODE>a</CODE>) and then put that into the high score of the
-	program on the <A HREF="../intermediate/memo.htm">swapped
+	program on the <A HREF="../intermediate/memo">swapped
 	in RAM page</A>.
 </OL>
 
@@ -206,7 +206,7 @@ high_score:		.db 0		;high score in game</PRE>
 an example of copying several bytes of program data back
 to the original program in memory. It's
 the Write Back routine discussed in
-the <A HREF="../intermediate/vari.htm#game">Intermediate Variables
+the <A HREF="../intermediate/vari#game">Intermediate Variables
 Section</A>.
 
 <PRE>_asapvar		=$d6fc
@@ -413,5 +413,5 @@ start:
 end:</PRE>
 
 <P>More information on real and complex numbers
-can be found in the <A HREF="bcd.htm">Binary Coded
+can be found in the <A HREF="bcd">Binary Coded
 Decimal Section</A>.

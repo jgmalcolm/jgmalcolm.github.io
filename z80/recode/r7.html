@@ -27,14 +27,14 @@ routine:
 		it will return $00 and gives ERROR 06 BREAK and give you the option
 		to exit to the homescreen.  The second error is with the
 		<CODE>cp $00</CODE>.  Remember back to our
-		<A HREF="../intermediate/logi.htm">logical
+		<A HREF="../intermediate/logi">logical
 		operators</A>, <CODE>or
 		<CODE>arg1</CODE></CODE> will return any bits set in either
 		<CODE>arg1</CODE> or <CODE>a</CODE>.  So, if you <CODE>or a</CODE>, it
 		will return any bits set
 		in <CODE>a</CODE> or <CODE>a</CODE>...itself!  So if <CODE>a</CODE>
 		does not have any bits set, it will leave <CODE>a</CODE> as zero and set the
-		<A HREF="../beginner/flag.htm">Zero Flag</A>.  <CODE>Or a</CODE>
+		<A HREF="../beginner/flag">Zero Flag</A>.  <CODE>Or a</CODE>
 		is also only one
 		byte so it is faster than the two byte <CODE>cp $00</CODE>
 		or <CODE>cp 0</CODE>.  This little
@@ -50,4 +50,4 @@ routine:
 			; that scancode in a
 			; then return
 </TABLE>
-<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode");</SCRIPT>

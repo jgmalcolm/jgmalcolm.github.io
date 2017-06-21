@@ -10,9 +10,9 @@ whose name is in OP1.  Before calling <CODE>_FindSym</CODE>, you need to have OP
 containing the variable name you want to find (case is sensitive) in Variable
 Name Format.  Once called, it will return: carry flag set if variable by that
 name doesn't exist, carry flag reset if variable exists, <CODE>a</CODE> is
-<A HREF="vari.htm#type">variable type</A>, OP1 will still contain the
+<A HREF="vari#type">variable type</A>, OP1 will still contain the
 variable in Variable Name Format, <CODE>bde</CODE> will be an
-<A HREF="abso.htm">Absolute Address Pointer</A> to variable data, and
+<A HREF="abso">Absolute Address Pointer</A> to variable data, and
 <CODE>hl</CODE> will point to the address of the VAT entry of the variable.
 
 <H3>_FindSym=$46cb</H3>
@@ -21,7 +21,7 @@ variable in Variable Name Format, <CODE>bde</CODE> will be an
 		<TD>Finds the variable with the name stored in OP1.
 	<TR>	<TD CLASS=header>Input
 		<TD>OP1 - case sensitive variable name in
-		<A HREF="vari.htm">Variable Name Format</A>. Note: You
+		<A HREF="vari">Variable Name Format</A>. Note: You
 		can leave out the variable type byte, <CODE>_FindSym</CODE>
 		ignores it and just finds a variable with the same name.
 	<TR>	<TD CLASS=header>Destroys
@@ -54,9 +54,9 @@ variable:  .db $0c,$06,"Stupid"
 
 <P>There is a call that will copy 10 bytes starting at <CODE>hl</CODE> into OP1:
 _Mov10toOP1. This is even shortened more by just putting
-<A HREF="../intermediate/rstc.htm"><CODE>rst 20h</A></CODE> instead
+<A HREF="../intermediate/rstc"><CODE>rst 20h</A></CODE> instead
 of <CODE>call _Mov10toOP1</CODE>. So the above code would be 22 bytes
-(I'm counting <A HREF="../opcodes/opcodes.htm">opcodes</A>) whereas the
+(I'm counting <A HREF="../opcodes/opcodes">opcodes</A>) whereas the
 below code, doing exactly the same thing, would only be 13 bytes.
 
 <PRE>find_variable:

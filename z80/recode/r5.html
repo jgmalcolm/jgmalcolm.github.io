@@ -21,7 +21,7 @@
 	ld (mem_6),a
 	<TR>	<TD CLASS=header>Error
 		<TD>Two errors in this one also. The first is that
-		you can use your <A HREF="../intermediate/logi.htm">logical
+		you can use your <A HREF="../intermediate/logi">logical
 		operators</A> to zero <CODE>a</CODE> just as easily as
 		<CODE>ld a,$00</CODE>. Try
 		<CODE>xor a</CODE>. It will take <CODE>a</CODE> and <CODE>a</CODE> (itself...if you
@@ -33,7 +33,7 @@
 		with <CODE>a</CODE>, you take three bytes. That's okay if we're
 		only going to do it one or two times but if we want to do it
 		four or more times to sequential memory addresses, then you want
-		to try using the <A HREF="../intermediate/misc.htm">block copy</A>
+		to try using the <A HREF="../intermediate/misc">block copy</A>
 		instruction <CODE>ldir</CODE> to copy a byte that's been zeroed to the
 		following memory address, and then incrementing both to do it
 		again (the address copying from having been zeroed the previous
@@ -56,4 +56,4 @@
 			; dec bc; repeate till
 			; bc=$00000
 </TABLE>
-<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode.htm");</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript>bottom("Recode Index","recode");</SCRIPT>

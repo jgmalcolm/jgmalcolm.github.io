@@ -11,12 +11,12 @@ Central</blockquote>
 <P>Welcome to the interrupt section! This section is very comprehensive, and I
 am proud of its unique and detailed information. This covers some of the ROM
 interrupt code and explains Interrupt Mode 1 and Interrupt Mode 2 programming
-applications and theory. For even more <A HREF="im2i.htm">advanced interrupt
+applications and theory. For even more <A HREF="im2i">advanced interrupt
 information</A>, including "The reset, Calc-On, Calc-Off operations", "Fixing
 the Down-Left Bug", "Speedy IM 1", "Speedy IM 2", "TSR techniques",
-please <A HREF="im2i.htm">proceed here</A>. Enjoy!
+please <A HREF="im2i">proceed here</A>. Enjoy!
 
-<P>On the <A HREF="../beginner/z80p.htm">Z80 processor</A>, an interrupt is
+<P>On the <A HREF="../beginner/z80p">Z80 processor</A>, an interrupt is
 an action (<I>triggered by hardware</I>)
 that will suspend CPU operation and force the CPU to perform another function,
 or execute another routine. Right before the Interrupt Routine is called,
@@ -42,9 +42,9 @@ Mode 2?</H2>
 	a restart (1 byte jump) is performed at memory location $0038. $0038 is
 	located on Rom Page 0. Thus $0038 is called 200 times per second.
 
-	<LI><B>Mode 2</B> - When a <A HREF="im2i.htm">Mode 2</A> interrupt occurs, the
+	<LI><B>Mode 2</B> - When a <A HREF="im2i">Mode 2</A> interrupt occurs, the
 	CPU jumps to an address where
-	the <A HREF="inde.htm#other"><CODE>I</CODE> Register</A> is the MSB (Most Significant Byte)
+	the <A HREF="inde#other"><CODE>I</CODE> Register</A> is the MSB (Most Significant Byte)
 	and the data bus is the LSB
 	(Least Significant Byte). The LSB is a random number that you don't know
 	(who knows what would be on the data bus?). That means that you must make
@@ -97,8 +97,8 @@ checksum to see if the memory area is valid. Here is the code:
 0060	1804		jr $0066	; Go to next part of interrupt
 0062	fdcb2396	res 2,(iy+$23)	; Checksum doesn't add up, so it disables usr routine</PRE>
 
-<P>The next part appears to branch off into three choices. If <A HREF="../beginner/numb.htm#bitp">bit 0</A>
-is set on <A HREF="allp.htm#p3">Port 3</A>, it appears some sort of "ON" action has occurred, such as the
+<P>The next part appears to branch off into three choices. If <A HREF="../beginner/numb#bitp">bit 0</A>
+is set on <A HREF="allp#p3">Port 3</A>, it appears some sort of "ON" action has occurred, such as the
 on key has been pressed. It will then branch off to another routine that
 may turn the calc on. If bit 1 is set and bit 0 is clear, it appears that
 the LCD is on and the on interrupt hasn't occurred. This is what happens
@@ -145,9 +145,9 @@ finishes up at <CODE>$0086</CODE>. Here is the code:
 
 <P>As you can see, this code explains a lot. You can disable much of the ability
 of the interrupts with flags. You can disable the run indicator with the
-<A HREF="syst.htm#indicRun">indicRun</A> flag and can disable the built-in keyboard handler with
-<A HREF="syst.htm#indicOnly">indicOnly</A> flag.
-Note this disables <A HREF="../intermediate/getkey.htm"><CODE>get_key</CODE></A> style method
+<A HREF="syst#indicRun">indicRun</A> flag and can disable the built-in keyboard handler with
+<A HREF="syst#indicOnly">indicOnly</A> flag.
+Note this disables <A HREF="../intermediate/getkey"><CODE>get_key</CODE></A> style method
 for getting keys, you must program
 the ports instead. However this is one method for fixing the famous "Down-Left"
 bug. More on this later. Explanations:
@@ -203,7 +203,7 @@ and explain this mystery code. But anyway at <CODE>$86</CODE> it finishes up. Th
 help clarify some of the things that go on during the TI-0S is IM 1.
 
 <P>There is much more to disassemble in the ROM and a lot to learn if you
-are interested. Note this is <A HREF="../beginner/ti86.htm">Rom Version 1.2</A>, and you
+are interested. Note this is <A HREF="../beginner/ti86">Rom Version 1.2</A>, and you
 can get this particular commented Rom Version (thanks to Joshua Grams) from Rom
 Central. You must go through my "security check" to download the rom listing, and you must
 have a 1.2 ROM on your calculator (check your rom version).
@@ -272,7 +272,7 @@ needed to install your own user routine.
 
 	<LI>Then we copy the user routine asm data from our program to the 200 byte
 	area (<CODE>$d2fe</CODE>). This is accomplished with the
-	<A HREF="../intermediate/misc.htm"><CODE>ldir</CODE></A> instruction.
+	<A HREF="../intermediate/misc"><CODE>ldir</CODE></A> instruction.
 
 	<LI>Next we want to calculate the checksum. This 1-byte value will be the sum
 	of the 1st, 40th, 80th, 120th, 160th, and 200th bytes of the routine. Since
@@ -350,7 +350,7 @@ routine. It defines the start of the user interrupt, disables the flag,
 copies the asm code starting at the int: label, calculates the checksum,
 and sets the flag.
 
-<P>There are two <A HREF="asse.htm#org"><CODE>.org</CODE></A> addresses in the program.
+<P>There are two <A HREF="asse#org"><CODE>.org</CODE></A> addresses in the program.
 The first <CODE>.org</CODE> sets the
 instruction counter to <CODE>_asm_exec_ram</CODE>, which is <CODE>$d748</CODE> (the start of all
 asm programs). The second <CODE>.org</CODE> instruction sets the instruction counter

@@ -18,7 +18,7 @@ clock cycles and size.  At the bottom I totalled the information so we can compa
 it with a new way of adding 8-bit registers to 16-bit ones totalled later on.
 
 <P>The faster way to do this is the following code using the
-<A HREF="../beginner/flag.htm#carry">carry flag</A>.
+<A HREF="../beginner/flag#carry">carry flag</A>.
 
 <PRE><OL>
 <LI>	add a,l		;1 byte		4 cycles
@@ -37,12 +37,12 @@ it with a new way of adding 8-bit registers to 16-bit ones totalled later on.
 		<TD>Add the Least Significant Byte (LSB)
 		of <CODE>a</CODE> to the LSB of <CODE>hl</CODE>.  If there
 		was a overflow, the
-		<A HREF="../beginner/flag.htm">carry flag</A> will
+		<A HREF="../beginner/flag">carry flag</A> will
 		be set or reset accordingly.
 	<TR>	<TD>2
 		<TD>Store the result in the LSB of <CODE>hl</CODE>.  This
 		does not dissrupt the
-		<A HREF="../beginner/flag.htm">carry flag's</A> status.
+		<A HREF="../beginner/flag">carry flag's</A> status.
 	<TR>	<TD>3
 		<TD>Add the result again into <CODE>h</CODE>, this will also
 		add 1 to that if the carry was set, or 0 if it was

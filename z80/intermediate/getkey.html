@@ -18,10 +18,10 @@ It is not very useful for breaking out of assembly programs because it doesn't
 always work. Once <CODE>_getkey</CODE> is done, it has changed <CODE>a, de</CODE>,
 and <CODE>hl</CODE> from what they were originally.
 
-<P>All of these keys are <A HREF="../advanced/asse.htm#defi">defined</A> in the include
+<P>All of these keys are <A HREF="../advanced/asse#defi">defined</A> in the include
 file <A HREF="../download/ti86asm.inc"><CODE>ti86asm.inc</CODE></A> contained in
 <A HREF="../download/includes.zip">includes.zip</A>. If you
-<A HREF="../advanced/asse.htm#incl">include</A> <CODE>ti86asm.inc</CODE>
+<A HREF="../advanced/asse#incl">include</A> <CODE>ti86asm.inc</CODE>
 in your source file, you will be able to reference these keys by these
 names. This chart is really unnecessary except for a quick reference for spellings
 and group associations.
@@ -51,10 +51,10 @@ can hold the arrow keys down to make it scroll through the choices real fast. Th
 is called Key Repeat. <CODE>_Getkey</CODE> monitors if a key is being held
 down and returns that keycode as soon as the routine is called instead of polling
 for key presses all over again. <CODE>_Getkey</CODE> does this by checking the
-status of the <A HREF="../advanced/allp.htm#p1">Key Press</A> port (Port 1)
+status of the <A HREF="../advanced/allp#p1">Key Press</A> port (Port 1)
 to what it was last time <CODE>_getkey</CODE> was called. If it is the same,
 it will return the same keycode that it got before. This, however, can
-be disrupted when you use other ports, like to change <A HREF="memo.htm#ROM">ROM
+be disrupted when you use other ports, like to change <A HREF="memo#ROM">ROM
 pages</A>.
 
 <P>Here's an example of how to use <CODE>_getkey</CODE> to find out when [ENTER] was

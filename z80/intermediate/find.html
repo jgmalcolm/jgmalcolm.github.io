@@ -13,7 +13,7 @@ for the byte that that pixel coordinate is in the Video Memory.
 this address relative to zero being the top left of the screen. You might have to add
 $fc00 to the address outputted in order to get the exact address in the Video Memory. The
 bit offset is stored as a bit set in the accumulator (<CODE>a</CODE>
-<A HREF="../beginner/regi.htm">register</A>). The bit
+<A HREF="../beginner/regi">register</A>). The bit
 cooresponds to the pixel you want. If you set the same bit in <CODE>a</CODE> as the address in
 the video memory given by <CODE>hl</CODE>, you will have a little black dot at the coordinates
 you want on the screen. Most routines accept the x coordinate in <CODE>b</CODE> and the y
@@ -23,7 +23,7 @@ coordinate in <CODE>c</CODE>.
 <A HREF="../download/findpixel.asm">FindPixel.asm</A> Routine here. You
 can <A HREF="../download/findpixel.zip">download</A> this along with
 many other Find Pixel routines that I've come across in the
-<A HREF="../download/download.htm">Download Section</A>. Each
+<A HREF="../download/download">Download Section</A>. Each
 line in the routine is represented by a number which corresponds
 to an explanation at the end of the routine. Follow each line and
 try to picture in your head what it is doing.
@@ -119,7 +119,7 @@ try to picture in your head what it is doing.
 	<TR>
 		<TD><A HREF="#c8" NAME="l8">&uarr;</A>8
 		<TD>If this is unfamiliar to you, refer to the
-		<A HREF="../advanced/shif.htm">Shift and Rotate Section</A> to
+		<A HREF="../advanced/shif">Shift and Rotate Section</A> to
 		get a quick lesson. It rotates the bits one to the right with
 		bit 0 being moved to bit 7 and also copied into the carry
 		flag. This also acts as dividing by 2 since we shift over by a
@@ -181,7 +181,7 @@ try to picture in your head what it is doing.
 	<TR>
 		<TD><A HREF="#c18" NAME="l18">&uarr;</A>18-22
 		<TD>This is
-		<A HREF="../intermediate/simu.htm">Simulated 16-bit Addition</A>
+		<A HREF="../intermediate/simu">Simulated 16-bit Addition</A>
 		which will be covered later in more detail. It's faster than just doing
 		<CODE>ld h,0 / ld l,a / add hl,bc</CODE> to get the offset in the table. It
 		adds <CODE>a</CODE> to the LSB of <CODE>hl</CODE>, stores the result in the LSB,

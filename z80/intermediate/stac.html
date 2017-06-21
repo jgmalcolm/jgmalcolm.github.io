@@ -105,7 +105,7 @@ clear_and_draw:			;draws bird at (3,4)
 
 <P>The functionality of this is better used
 with the
-<A HREF="text.htm#vari">variable width</A> (small) font where you have coordinates that are
+<A HREF="text#vari">variable width</A> (small) font where you have coordinates that are
 large hexadecimal numbers.  The following loads the variable cursor
 position with (25,48) which would be ($19,$30) in hexadecimal.
 
@@ -113,7 +113,7 @@ position with (25,48) which would be ($19,$30) in hexadecimal.
 				;across 25 and down 48
 	ld (_penCol),bc		;load up the coordinates for the cursor</PRE>
 
-<P>You can also use <A HREF="../advanced/asse.htm#defi">define</A> to
+<P>You can also use <A HREF="../advanced/asse#defi">define</A> to
 make it even easier.
 
 <PRE>#define coords(x,y)	ld hl,256*y+x / ld (_penCol),hl

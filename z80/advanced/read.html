@@ -16,8 +16,8 @@ sometimes.
 
 <A NAME="chec"></a><H2>Checking Keys</H2>
 Another way of getting the keypresses is to read them directly
-from the keyport. You can read later about <A HREF="allp.htm">All
-the Ports</A> and how the <A HREF="../beginner/z80p.htm">z80</A> uses
+from the keyport. You can read later about <A HREF="allp">All
+the Ports</A> and how the <A HREF="../beginner/z80p">z80</A> uses
 them. They are numbered with the keyport being
 number 1.) We kinda need to send a byte out through the port and
 then wait a second before reading what was returned.
@@ -30,12 +30,12 @@ for. If you wanted to check for the [ALPHA] being pressed, you would send
 (<I>not</I> being pressed now) or reset (being pressed now).
 
 <P>This is only to detect what keys are being held down <I>currently</I> whereas
-<A HREF="../intermediate/getkey.htm">GetKey</A> checked what the last
+<A HREF="../intermediate/getkey">GetKey</A> checked what the last
 key pressed was.
 
 <P>Let's make a loop that won't exit unless
 [ALPHA] is pressed. The program will then branch
-(<A HREF="../beginner/inst.htm#jr">jump</A>) if so.
+(<A HREF="../beginner/inst#jr">jump</A>) if so.
 
 <PRE>key_port	=1		;number of key's port
 check_for_alpha:
