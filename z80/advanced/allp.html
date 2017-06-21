@@ -31,7 +31,7 @@ send = <u> address - $c000 </u>
 
 <a name="p1"></a><h2>Port 1 - Key Port</h2>
 Port 1 is used for the keypresses. If you don't remember us
-talking about that, look back at the <A HREF="read.htm">keypress
+talking about that, look back at the <A HREF="read">keypress
 section</A>. I went into some pretty good detail about it.
 <p>
 
@@ -98,7 +98,7 @@ the calculator will freeze.</FONT>
 
 <p>The <A HREF="../download/presson.asm">PressOn.asm</A>
 program shows how to check for [ON] being pressed like this.
-More on this in the <A HREF="onof.htm">On-Off Section</A>.
+More on this in the <A HREF="onof">On-Off Section</A>.
 <PRE>
 	in a,(on_port)		;get status
 	bit 3,a			;on's bit..reset if down
@@ -110,7 +110,7 @@ this doesn't turn off the calculator, it merely quits
 refreshing the Video Memory to the screen.  The TI86 will
 still be running in normal power mode, as opposed to
 low power mode when TI-OS turns if off.  Details
-in the <A HREF="onof.htm">On-Off Section</A>. Since
+in the <A HREF="onof">On-Off Section</A>. Since
 the processor is executing this code fast, it will
 be turning on and off probably 50 times while you're
 pushing the [ON] button down and releasing it.  You
@@ -148,20 +148,20 @@ power_mode:
 
 
 <a name="p5"></a><h2>Port 5 - ROM Pages</h2>
-See <A HREF="../intermediate/memo.htm">Memory
+See <A HREF="../intermediate/memo">Memory
 and R_M Pages</A>.
 
 <p>
 
 <a name="p6"></a><h2>Port 6 - RAM Pages</h2>
-See <A HREF="../intermediate/memo.htm">Memory
+See <A HREF="../intermediate/memo">Memory
 and R_M Pages</A>.
 
 <p>
 
 <a name="p7"></a><h2>Port 7 - Link Port</h2>
 Port 7 is used for the link port.  It can be used for
-<A HREF="soun.htm">sound</A>, memory expanders, or sending/receiving
+<A HREF="soun">sound</A>, memory expanders, or sending/receiving
 information.  I haven't researched this area much. Check back sometime because
 I've ordered a second TI86 to work with.
 
