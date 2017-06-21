@@ -1,6 +1,5 @@
 ---
 title: z80 game development
-layout: default
 ---
 
 This is a collection of tutorials on developing games in z80 assembler for the
