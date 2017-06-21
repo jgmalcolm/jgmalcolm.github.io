@@ -6,6 +6,8 @@ This is a collection of tutorials on developing games in z80 assembler for the
 TI calculators.  While focused on the TI86, much of this applies to any
 z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.
 
+Testing
+
 - [Beginner](#beginner) - getting started with assembler code, registers, arithmetic, flags, and memory
 - [Intermediate](#intermediate) - more details on the beginner topics
 - [Graphics](#graphics) - manipulating pixels and grayscale
