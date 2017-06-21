@@ -21,7 +21,7 @@ z80-based TI calculator: TI85, TI83/+, TI84/+, TI82.
 
 ## Beginner
 
-- [Number Bases](beginner/numbS.Thtm) - Learn how to understand and convert
+- [Number Bases](beginner/numb.html) - Learn how to understand and convert
   between the different number systems such as binary and hexadecimal. Make
   your calculator do all the work.
 - [z80 Processor](beginner/z80p.htm) - History and specifications of the z80
