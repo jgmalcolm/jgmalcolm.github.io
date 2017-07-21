@@ -84,9 +84,6 @@ me@jgmalcolm.com <br />
    Has No Adverse Effect on Patient Outcome." *Submitted*
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." *Pending*
-1. Malcolm, Tan, Johnson. "Internal fixation of a C1 lateral mass oblique
-   sagittal split fracture with motion preservation: a technical case report."
-   *Pending*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
@@ -128,14 +125,17 @@ me@jgmalcolm.com <br />
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Cranioplasty infection and resorption are associated with presence of a ventriculoperitoneal shunt: A systematic review and meta-analysis.](/pubs/others/mustroph-2017-vps.pdf)
    World Neurosurgery, 103:686-693, 2017. doi:10.1016/j.wneu.2017.04.066, pmid:28434961
+1. Malcolm, Tan, Johnson.
+   [Image-Guided Internal Fixation of an Oblique Sagittal Split Fracture of C1 Lateral Mass with Motion Preservation: A Technical Report](/pubs/malcolm-2017-c1.pdf)
+   Cureus 9(7):e1496, 2017. doi:10.7759/cureus.1496
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad.
    [Spinal diffusion tensor imaging in the evaluation of pre- and post-operative severity in cervical spondylotic myelopathy: A systematic review of the literature.](/pubs/others/rindler-2017-dti-for-csm.pdf)
-   World Neurosurgery, 99:150-158, 2017.  doi:10.1016/j.wneu.2016.11.141,
+   World Neurosurgery 99:150-158, 2017.  doi:10.1016/j.wneu.2016.11.141,
    pmid:27939797
 1. Malcolm, Miller, Grossberg, Pradilla, Ahmad.
    [Early urgent cranioplasty for symptomatic hygroma: report of two cases.](/pubs/malcolm2016hygroma.pdf)
-   Journal of Clinical Neuroscience, 34:273-275, 2016. PMID:27523587,
+   Journal of Clinical Neuroscience 34:273-275, 2016. PMID:27523587,
    doi:10.1016/j.jocn.2016.08.003
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Complications following cranioplasty and relationship to timing: A systematic review and meta-analysis.](/pubs/malcolm2016-timing-complications.pdf)
