@@ -87,7 +87,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
-   *Pending*
+   *Submitted*
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *Resubmitting*
