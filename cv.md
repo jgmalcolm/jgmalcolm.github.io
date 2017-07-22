@@ -121,7 +121,7 @@ me@jgmalcolm.com <br />
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
    [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature.](/pubs/others/halani-2017-cbf.pdf)
-   Neurosurgery, *In Press* pmid:28368505, doi:10.1093/neuros/nyx054
+   Neurosurgery 81(2):204-216, 2017. pmid:28368505, doi:10.1093/neuros/nyx054
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Cranioplasty infection and resorption are associated with presence of a ventriculoperitoneal shunt: A systematic review and meta-analysis.](/pubs/others/mustroph-2017-vps.pdf)
    World Neurosurgery, 103:686-693, 2017. doi:10.1016/j.wneu.2017.04.066, pmid:28434961
