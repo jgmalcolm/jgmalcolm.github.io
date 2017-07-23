@@ -6,8 +6,8 @@ title: "Hi there!"
 <img class="thumb" src="malcolm.jpg">
 
 I'm James, and I'm interested in tools, technology, and ideas.  I'm currently
-a medical student in Atlanta, creator of [Pharm450](//pharm450.com),
-co-creator of [ArrayFire](http://arrayfire.com),
+a neurosurgery resident at Emory in Atlanta, creator of
+[Pharm450](//pharm450.com), co-creator of [ArrayFire](http://arrayfire.com),
 [scientist](/pubs/research.html), and husband to an [awesome woman].  See what
 I'm [working on now][now].
 
