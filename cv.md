@@ -81,13 +81,14 @@ me@jgmalcolm.com <br />
 
 1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
    3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
-   Has No Adverse Effect on Patient Outcome." *Submitted*
+   Has No Adverse Effect on Patient Outcome." *Accepted*
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
-   brain surgery." *Pending*
+   brain surgery." *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    *Submitted*
+
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
    reoperation: A systematic review and meta-analysis." *Resubmitting*
@@ -96,14 +97,15 @@ me@jgmalcolm.com <br />
    year." *Preparing*
 1. Pujari, Malcolm, Usmani, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Preparing*
+1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
+   for craniopharyngiomas: a systematic review." *Preparing*
+
 1. Malcolm, Howard, Bray, Lamanna, Willie, Gross, Barrow, Grossberg. "Analysis
    of ### stereotactic and functional cases demonstrates that overlapping
    surgery has no adverse effect on patient outcome." *Preparing*
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein."
    *Preparing*
-1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
-   for craniopharyngiomas: a systematic review." *Preparing*
 
 {% endcomment %}
 
