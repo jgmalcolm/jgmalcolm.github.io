@@ -88,6 +88,9 @@ me@jgmalcolm.com <br />
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    *Submitted*
+1. Agarwal, Malcolm, Pradilla, Barrow. "Tractography for Optic Radiation
+   Preservation in Transcortical Approaches to Intracerebral Lesions:
+   Presentation of a Case and a Review of the Literature." *Submitted*
 
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
