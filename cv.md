@@ -114,8 +114,9 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
-1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
-   Tensor Imaging In Spinal Pathology: A Review".  Neurology India, *Accepted*
+1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.
+   [The Role of Diffusion Tensor Imaging In Spinal Pathology: A Review](/pubs/others/li-2017-dti-spine.pdf).
+   Neurology India 65(5):982-992, 2017.  doi:10.4103/neuroindia.NI_198_17
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race.
    [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA.](/pubs/malcolm-2017-cops-and-docs.pdf)
    Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280
