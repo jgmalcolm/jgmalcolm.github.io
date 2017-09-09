@@ -9,7 +9,7 @@ series: clinical
 {% include series.html %}
 
 
-The general surgery program directory at my school said they look for three
+The general surgery program director at my school said they look for three
 things in any potential resident: integrity, compassion, and passion.  I
 completely agree that success or failure depends on those qualities.
 
