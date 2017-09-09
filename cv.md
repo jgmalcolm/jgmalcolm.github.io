@@ -116,8 +116,8 @@ me@jgmalcolm.com <br />
    as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.  "The Role of Diffusion
    Tensor Imaging In Spinal Pathology: A Review".  Neurology India, *Accepted*
-1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race. "Cops and Docs: The
-   Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA."
+1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race.
+   [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA.](/pubs/malcolm-2017-cops-and-docs.pdf)
    Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
