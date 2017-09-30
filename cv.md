@@ -88,9 +88,6 @@ me@jgmalcolm.com <br />
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    *Submitted*
-1. Agarwal, Malcolm, Pradilla, Barrow. "Tractography for Optic Radiation
-   Preservation in Transcortical Approaches to Intracerebral Lesions:
-   Presentation of a Case and a Review of the Literature." *Submitted*
 
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
@@ -114,6 +111,9 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
+1. Agarwal, Malcolm, Pradilla, Barrow.
+   [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature.](/pubs/others/agarwal-dti-2017.pdf)
+   Cureus 9(9):e1722, 2017. doi:10.7759/cureus.1722
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.
    [The Role of Diffusion Tensor Imaging In Spinal Pathology: A Review](/pubs/others/li-2017-dti-spine.pdf).
    Neurology India 65(5):982-992, 2017.  doi:10.4103/neuroindia.NI_198_17,
