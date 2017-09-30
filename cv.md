@@ -134,7 +134,7 @@ me@jgmalcolm.com <br />
    World Neurosurgery, 103:686-693, 2017. doi:10.1016/j.wneu.2017.04.066, pmid:28434961
 1. Malcolm, Tan, Johnson.
    [Image-Guided Internal Fixation of an Oblique Sagittal Split Fracture of C1 Lateral Mass with Motion Preservation: A Technical Report](/pubs/malcolm-2017-c1.pdf).
-   Cureus 9(7):e1496, 2017. doi:10.7759/cureus.1496
+   Cureus 9(7):e1496, 2017. doi:10.7759/cureus.1496, pmid:28948116
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad.
    [Spinal diffusion tensor imaging in the evaluation of pre- and post-operative severity in cervical spondylotic myelopathy: A systematic review of the literature.](/pubs/others/rindler-2017-dti-for-csm.pdf)
