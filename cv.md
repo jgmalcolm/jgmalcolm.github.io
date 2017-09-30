@@ -112,28 +112,28 @@ me@jgmalcolm.com <br />
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Agarwal, Malcolm, Pradilla, Barrow.
-   [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature.](/pubs/others/agarwal-dti-2017.pdf)
+   [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature](/pubs/others/agarwal-dti-2017.pdf).
    Cureus 9(9):e1722, 2017. doi:10.7759/cureus.1722
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.
    [The Role of Diffusion Tensor Imaging In Spinal Pathology: A Review](/pubs/others/li-2017-dti-spine.pdf).
    Neurology India 65(5):982-992, 2017.  doi:10.4103/neuroindia.NI_198_17,
    pmid:28879883
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race.
-   [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA.](/pubs/malcolm-2017-cops-and-docs.pdf)
+   [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA](/pubs/malcolm-2017-cops-and-docs.pdf).
    Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280, pmid:28877399
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
-   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-2017-neurologic.pdf)
+   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2017-neurologic.pdf).
    Neurosurgery, *In Press* pmid:28419358, doi:10.1093/neuros/nyx182
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
-   [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature.](/pubs/others/halani-2017-cbf.pdf)
+   [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature](/pubs/others/halani-2017-cbf.pdf).
    Neurosurgery 81(2):204-216, 2017. pmid:28368505, doi:10.1093/neuros/nyx054
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
-   [Cranioplasty infection and resorption are associated with presence of a ventriculoperitoneal shunt: A systematic review and meta-analysis.](/pubs/others/mustroph-2017-vps.pdf)
+   [Cranioplasty infection and resorption are associated with presence of a ventriculoperitoneal shunt: A systematic review and meta-analysis](/pubs/others/mustroph-2017-vps.pdf).
    World Neurosurgery, 103:686-693, 2017. doi:10.1016/j.wneu.2017.04.066, pmid:28434961
 1. Malcolm, Tan, Johnson.
-   [Image-Guided Internal Fixation of an Oblique Sagittal Split Fracture of C1 Lateral Mass with Motion Preservation: A Technical Report](/pubs/malcolm-2017-c1.pdf)
+   [Image-Guided Internal Fixation of an Oblique Sagittal Split Fracture of C1 Lateral Mass with Motion Preservation: A Technical Report](/pubs/malcolm-2017-c1.pdf).
    Cureus 9(7):e1496, 2017. doi:10.7759/cureus.1496
 1. RS Rindler, FH Chokshi, JG Malcolm, SR Eshraghi, M Mossa-Basha, JK Chu, SN
    Kurpad, FU Ahmad.
