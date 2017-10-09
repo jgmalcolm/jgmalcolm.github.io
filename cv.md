@@ -31,7 +31,7 @@ me@jgmalcolm.com <br />
 **Georgia Institute of Technology, Atlanta, GA**
 
 - PhD Electrical and Computer Engineering, October 2010
-  - Dissertation: [Filtered Tractography](/pubs/malcolm2010diss.pdf) ([slides](/pubs/malcolm2010diss_slides.pdf))
+  - Dissertation: [Filtered Tractography](/pubs/malcolm2010diss.pdf) ([slides](/pubs/malcolm2010diss_slides.pdf), [code](https://github.com/pnlbwh/ukftractography))
   - Concentration: Computer Vision
   - Advisors: [Yogesh Rathi], [Allen Tannenbaum]
   - Committee: [Patricio Vela], [Sylvain Bouix], [Anthony Yezzi], [Hongwei Wu]
