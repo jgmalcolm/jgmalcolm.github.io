@@ -88,6 +88,8 @@ me@jgmalcolm.com <br />
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    *Submitted*
+1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
+   Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
 
 1. Malcolm, Rindler, Mahmooth, Chu, Allen, Grossberg, Pradilla, Ahmad.
    "Choice of cranioplasty material not associated with infection or
@@ -95,8 +97,6 @@ me@jgmalcolm.com <br />
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Preparing*
-1. Pujari, Malcolm, Usmani, Ahmad, Singh, Bullock, Dietrich. "Hyperbaric
-   Oxygen Therapy in Spinal Cord Injury: A Review." *Preparing*
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
 
