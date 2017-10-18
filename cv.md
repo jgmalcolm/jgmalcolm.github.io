@@ -202,6 +202,15 @@ me@jgmalcolm.com <br />
 
 ## Book Chapters
 
+{% comment %}
+
+1. Malcolm, Moore, Refai. "Anterior/Anterolateral Thoracic Access and
+   Stabilization from Posterior Approach -- Transpedicular,
+   Costotransversectomy, Lateral Extracavitary Approaches -- Standard
+   Intralesional Resection." In *Spinal Tumor Surgery: A Case-Based Approach*.
+
+{% endcomment %}
+
 1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
    Degenerated/Collapsed Disc." In *eXtreme Lateral Interbody Fusion (XLIF)*
    2e, ed. JA Goodrich and IJ Volcan, chapter 23, pages
