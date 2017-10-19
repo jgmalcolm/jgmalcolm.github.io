@@ -208,6 +208,9 @@ me@jgmalcolm.com <br />
    Stabilization from Posterior Approach -- Transpedicular,
    Costotransversectomy, Lateral Extracavitary Approaches -- Standard
    Intralesional Resection." In *Spinal Tumor Surgery: A Case-Based Approach*.
+1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty after decompressive
+   craniectomy: timing, complications and outcome." In *Evidence within
+   Neurosurgery*.
 
 {% endcomment %}
 
