@@ -335,6 +335,13 @@ me@jgmalcolm.com <br />
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
    Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective Cohort
    Study of 90 Day Outcomes."  AANS/CNS Spine Summit. Orlando, FL. March 2018.
+1. Mahmooth, Malcolm. "Brachytherapy for craniopharyngiomas: A systematic
+   review."  Georgia Neurosurgical Society (GNS). Reynolds Plantation,
+   GA. December 2017. Oral Presentation.
+1. Malcolm, Moore, Refai. "Cortical trajectory TLIFs and traditional pedicle
+   TLIFs have similar fusion rates: a retrospective cohort study."  Georgia
+   Neurosurgical Society (GNS). Reynolds Plantation, GA. December 2017. Oral
+   Presentation.
 
 {% endcomment %}
 
@@ -369,8 +376,8 @@ me@jgmalcolm.com <br />
    April 2017. [Poster](/pubs/malcolm-2017-AANS-cavmal-poster.pdf).
 1. Mustroph, Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    [Simultaneous cranioplasty and ventriculoperitoneal shunts are associated with increased complications when compared to staged procedures.](/pubs/others/mustroph-GNS2016-vps.pdf)
-   Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
-   Plantation, GA. December 2016. Oral Presentation.
+   Georgia Neurosurgical Society (GNS). Reynolds Plantation,
+   GA. December 2016. Oral Presentation.
 1. Malcolm, Willie, Stern, Gross.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes at one year.](/pubs/malcolm-GNS2016-cav-mal.pdf)
    Georgia Neurosurgical Society (GNS) Annual Fall Meeting; Reynolds
