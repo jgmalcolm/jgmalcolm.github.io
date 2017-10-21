@@ -537,6 +537,7 @@ me@jgmalcolm.com <br />
 * IEEE Transactions on Information Technology in Biomedicine (TITB)
 * Journal of Medical Imaging (SPIE)
 * Journal of Magnetic Resonance Imaging (JMRI)
+* Journal of Electronic Imaging (JEI)
 * Medical Physics (MP)
 
 **Conference:**
