@@ -97,7 +97,7 @@ me@jgmalcolm.com <br />
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Preparing*
-1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?). "Brachytherapy
+1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?), Wruble(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
 
 1. Malcolm, Howard, Bray, Lamanna, Willie, Gross, Barrow, Grossberg. "Analysis
