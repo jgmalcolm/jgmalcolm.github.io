@@ -79,9 +79,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
-   3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
-   Has No Adverse Effect on Patient Outcome." *Accepted*
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
@@ -109,6 +106,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
+   [Analysis of 2,275 Neurosurgical Cases Demonstrates that Overlapping Surgery Has No Adverse Effect on Patient Outcome](/pubs/howard-2017-overlapping.pdf)
+   JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Agarwal, Malcolm, Pradilla, Barrow.
