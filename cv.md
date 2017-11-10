@@ -107,7 +107,7 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
-   [Analysis of 2,275 Neurosurgical Cases Demonstrates that Overlapping Surgery Has No Adverse Effect on Patient Outcome](/pubs/howard-2017-overlapping.pdf)
+   [Analysis of 2,275 Neurosurgical Cases Demonstrates that Overlapping Surgery Has No Adverse Effect on Patient Outcome](/pubs/others/howard-2017-overlapping.pdf)
    JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
