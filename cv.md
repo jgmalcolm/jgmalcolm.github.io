@@ -79,8 +79,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
-   brain surgery." *Submitted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
@@ -106,6 +104,8 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
+   brain surgery." BMJ Case Reports, *Accepted*.
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
    [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf)
    JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502
