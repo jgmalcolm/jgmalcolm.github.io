@@ -335,16 +335,17 @@ me@jgmalcolm.com <br />
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
    Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective Cohort
    Study of 90 Day Outcomes."  AANS/CNS Spine Summit. Orlando, FL. March 2018.
-1. Mahmooth, Malcolm. "Brachytherapy for craniopharyngiomas: A systematic
-   review."  Georgia Neurosurgical Society (GNS). Reynolds Plantation,
-   GA. December 2017. Oral Presentation.
-1. Malcolm, Moore, Refai. "Cortical trajectory TLIFs and traditional pedicle
-   TLIFs have similar fusion rates: a retrospective cohort study."  Georgia
-   Neurosurgical Society (GNS). Reynolds Plantation, GA. December 2017. Oral
-   Presentation.
 
 {% endcomment %}
 
+1. Mahmooth, Malcolm. "Recurrence, Re-intervention, and Complications after
+   Treatment of Primarily Cystic Craniopharyngiomas with Brachytherapy: A
+   Review" Georgia Neurosurgical Society (GNS). Reynolds Plantation,
+   GA. December 2017. Oral Presentation.
+1. Malcolm, Moore, Kashlan, Chokshi, Ahmad, Refai.
+   [Cortical trajectory TLIFs and traditional pedicle TLIFs have similar fusion rates: a retrospective cohort study.](/pubs/malcolm-2017-gns-fusion.pdf)
+   Georgia Neurosurgical Society (GNS). Reynolds Plantation,
+   GA. December 2017. Oral Presentation.
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs
    Against Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective
    Cohort Study of 90 Day Outcomes."  European Association of Neurosurgical
