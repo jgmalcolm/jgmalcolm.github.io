@@ -105,15 +105,16 @@ me@jgmalcolm.com <br />
    trajectory and posterolateral fusions: a retrospective cohort study."
    Neurosurgery. *Accepted*
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
-   brain surgery." BMJ Case Reports, *Accepted*.
+   brain surgery." BMJ Case Reports, Dec 2017.  pmid:29196311,
+   doi:10.1136/bcr-2017-222253
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
    [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf)
-   JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502
+   JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502, pmid:29117312
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Agarwal, Malcolm, Pradilla, Barrow.
    [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature](/pubs/others/agarwal-dti-2017.pdf).
-   Cureus 9(9):e1722, 2017. doi:10.7759/cureus.1722
+   Cureus 9(9):e1722, 2017. doi:10.7759/cureus.1722, pmid:29188166
 1. Li, Malcolm, Rindler, Baum, Rao, Kurpad, Ahmad.
    [The Role of Diffusion Tensor Imaging In Spinal Pathology: A Review](/pubs/others/li-2017-dti-spine.pdf).
    Neurology India 65(5):982-992, 2017.  doi:10.4103/neuroindia.NI_198_17,
