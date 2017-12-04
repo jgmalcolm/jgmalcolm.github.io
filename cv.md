@@ -79,10 +79,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
-   associated with less blood loss and better disposition than pedicle
-   trajectory and posterolateral fusions: a retrospective cohort study."
-   *Submitted*
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
 
@@ -104,6 +100,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
+   associated with less blood loss and better disposition than pedicle
+   trajectory and posterolateral fusions: a retrospective cohort study."
+   Neurosurgery. *Accepted*
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." BMJ Case Reports, *Accepted*.
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
