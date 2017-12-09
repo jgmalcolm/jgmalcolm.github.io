@@ -103,7 +103,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
-   Neurosurgery. *Accepted*
+   Neurosurgery. *Accepted* doi:10.1093/neuros/nyx619
 1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
    brain surgery." BMJ Case Reports, Dec 2017.  pmid:29196311,
    doi:10.1136/bcr-2017-222253
