@@ -121,7 +121,7 @@ me@jgmalcolm.com <br />
    pmid:28879883
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race.
    [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA](/pubs/malcolm-2017-cops-and-docs.pdf).
-   Journal of Healthcare Risk Management, *In Press* doi:10.1002/jhrm.21280, pmid:28877399
+   Journal of Healthcare Risk Management 37(2):29-35, 2017. doi:10.1002/jhrm.21280, pmid:28877399
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
    [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2017-neurologic.pdf).
