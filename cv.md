@@ -339,6 +339,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Moore, Refai.
+   [Cortical Trajectory Screw Placement for Transforaminal Lumbar Interbody Fusion.](/pubs/malcolm-2017-cortical-image.pdf)
+   Annals of Neurological Surgery 1(1):1002, 2017.
 1. Mahmooth, Malcolm. "Recurrence, Re-intervention, and Complications after
    Treatment of Primarily Cystic Craniopharyngiomas with Brachytherapy: A
    Review" Georgia Neurosurgical Society (GNS). Reynolds Plantation,
