@@ -470,7 +470,7 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
-1. Malcolm, Agarwal. "Textbook of Neuro-Oncology." Neurosurgery. doi:10.1093/neuros/nyy031
+1. Malcolm, Agarwal. [Textbook of Neuro-Oncology.](http://amzn.to/2BjaPDX) Neurosurgery. doi:10.1093/neuros/nyy031
 
 ## Talks
 
