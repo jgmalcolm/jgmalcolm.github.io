@@ -82,9 +82,9 @@ me@jgmalcolm.com <br />
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
 
-1. Malcolm, Mahmooth, Rindler, Chu, Allen, Grossberg, Pradilla, Ahmad.
-   "Choice of cranioplasty material not associated with infection or
-   reoperation: A systematic review and meta-analysis." *Resubmitting*
+1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Choice of
+   cranioplasty material not associated with infection or reoperation: A
+   systematic review and meta-analysis." *Resubmitting*
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Preparing*
