@@ -63,10 +63,10 @@ me@jgmalcolm.com <br />
 
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
-   review and meta-analysis."  *Resubmitting*
+   review and meta-analysis."  *Submitted*
+
 1. Anastasio, Patil, Malcolm, Thomas.  "Management of severe cerebral malaria
    using artesunate and angiotensin II." *Preparing*
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
