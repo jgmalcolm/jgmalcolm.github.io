@@ -355,5 +355,7 @@ suggestions, but best to acknowledge and give your thoughts.  Better to say
 you considered something and, while you didn't do exactly what is suggested,
 you did something similar.
 
+> Michael Ernst (University of Washington) on
+> ["How to write a technical paper"](https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html)
 
 [nature]: http://blogs.nature.com/naturejobs/2014/11/03/how-to-get-published-in-high-impact-journals-big-research-and-better-writing/
