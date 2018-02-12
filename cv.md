@@ -82,6 +82,13 @@ me@jgmalcolm.com <br />
    anterior lumbar interbody fusion with bone morphogenic protein."
    *Preparing*
 
+- refai: cortical fusion
+- refai: concurrent spine
+- vijay/barrow: vascular malformations and long tract DTI
+- vijay/barrow/lamanna: AVMs with associated aneurysms
+- ahmad/boulis: cranioplasty series
+
+
 {% endcomment %}
 
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
