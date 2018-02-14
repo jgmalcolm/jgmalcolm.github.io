@@ -351,11 +351,11 @@ me@jgmalcolm.com <br />
 1. Malcolm, Stern, Fasano, Gross, Willie. "Stereotactic electroencephalography
    guided laser ablation for neocortical epilepsy." World Society for
    Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany.
-   June 2017. Oral/Flash.
+   June 2017. [Oral/Flash](/pubs/malcolm-2017-wssfn-sEEG.pdf).
 1. Malcolm, Stern, Drane, Gross, Willie. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes." World
    Society for Stereotactic and Functional Neurosurgery (WSSFN). Berlin,
-   Germany. June 2017. Poster.
+   Germany. June 2017. [Poster](/pubs/malcolm-2017-wssfn-cavmal.pdf).
 1. Malcolm, Moore, Chokshi, Ahmad, Refai.
    [Comparing Cortical Trajectory TLIFs Against Pedicle Trajectory TLIFs and Posterolateral Fusions: A Retrospective Cohort Study of 90 Day Outcomes.](/pubs/malcolm2017-gns-cortical.pdf)
    Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. Oral. Winner of Best Resident Abstract.
