@@ -201,8 +201,8 @@ me@jgmalcolm.com <br />
    Costotransversectomy, Lateral Extracavitary Approaches -- Standard
    Intralesional Resection." In *Spinal Tumor Surgery: A Case-Based Approach*.
 1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty after decompressive
-   craniectomy: timing, complications and outcome." In *Evidence within
-   Neurosurgery*.
+   craniectomy: the effect of timing on neurological improvement and
+   complications." In *Evidence within Neurosurgery*.
 1. Malcolm, Barrow. "Combined transylvian and subtemporal approach to basilar
    tip and posterior cerebral aneurysms." In *Integrated Management of Complex
    Intracranial Lesions: Open, Endoscopic, and Keyhole Techniques*. Editor
