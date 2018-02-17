@@ -387,8 +387,8 @@ $P_1$:
 
 $$\begin{align*}
   \ip{\psi|P_1|\psi}
-      &= \ip{\left(a\bra{100} + b\bra{011}\right)|
-             \ket{100}\bra{100} + \ket{011}\bra{011}|
+      &= \ip{\left(a\bra{100} + b\bra{011}\right)
+             \ket{100}\bra{100} + \ket{011}\bra{011}
              \left(a\ket{100} + b\ket{011}\right)} \\
       &= a^2\ip{100|100} + 2ab\ip{100|011}^2 + b^2\ip{011|011} \\
       &= a^2 + b^2 \\
