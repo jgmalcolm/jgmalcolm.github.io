@@ -273,7 +273,7 @@ Here our triplet notation $[n,k,d]$ comes in handy.  For a code to correct up
 to $t$ errors, $d > 2t+1$.
 
 One last important concept to define is that of the *dual* of a code
-define to be the set of all words orthogonal to the code.  We denote the dual
+is defined to be the set of all words orthogonal to the code.  We denote the dual
 as $\C^\perp = \{s \in \B^n : s\cdot t=0,\ \forall t \in \C\}$.
 
 We conclude this summary of classical coding theory by mentioning that, in
