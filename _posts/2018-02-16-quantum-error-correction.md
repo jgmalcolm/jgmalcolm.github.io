@@ -466,10 +466,10 @@ qubit phase flip code, the error was the $X$ operator performing a bit flip:
 $\ket{0} \rightarrow \ket{1}$.  Notice that if we rotate our computational
 basis via the Hadamard gate $H$,
 
-$$
-  \ket{0} & \rightarrow & \ket{\downarrow} \equiv (\ket{0} + \ket{1})/\sqrt{2}
+$$\begin{eqnarray*}
+  \ket{0} & \rightarrow & \ket{\downarrow} \equiv (\ket{0} + \ket{1})/\sqrt{2} \\
   \ket{1} & \rightarrow & \ket{\uparrow}   \equiv (\ket{0} - \ket{1})/\sqrt{2} ,
-$$
+\end{eqnarray*}$$
 
 the phase flip error will analogously be the $HXH$ operation flipping
 $\ket{\downarrow}$ to $\ket{\uparrow}$ and vice versa.  Recall that $H^2=I$,
