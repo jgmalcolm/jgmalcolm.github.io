@@ -142,7 +142,7 @@ Three problems present themselves when designing quantum codes \cite{QCQI}.
 
 Classical coding theory arose out of the need to communicate data in the
 presence of noise.  Following the pattern of most texts, we consider a unit of
-data to be a *bit*, that is, an element of the set $\B=\{0,1\}$, and so
+data to be a *bit*, that is, an element of the set $\B=\\{0,1\\}$, and so
 all arithmetic is modulo two, i.e. $0+0=1+1=0$ and $0+1=1+0=1$.  In this
 scenario, it is convenient to think of arithmetic as simply bitwise XOR.
 
@@ -211,8 +211,8 @@ Another description of the Hamming distance is the minimum number of bits that
 must be flipped to convert one word to another.  A simpler definition for the
 minimum Hamming distance is revealed when we remember that since $\C$ is a
 linear space, $s+t \in \C$ and so $d(s,t)=w(s+t)=w(z)$ for some $z \in \C$.
-Now the minimum Hamming distance is defined simply as $d(\C)=\min \{ w(s) : s
-\in \C \}$.
+Now the minimum Hamming distance is defined simply as $d(\C)=\min \\{ w(s) : s
+\in \C \\}$.
 
 With this notion of distance, we may now quantify the amount of error as the
 distance between an encoded codeword $s$ and the contaminated version
@@ -274,7 +274,7 @@ to $t$ errors, $d > 2t+1$.
 
 One last important concept to define is that of the *dual* of a code
 is defined to be the set of all words orthogonal to the code.  We denote the dual
-as $\C^\perp = \{s \in \B^n : s\cdot t=0,\ \forall t \in \C\}$.
+as $\C^\perp = \\{s \in \B^n : s\cdot t=0,\ \forall t \in \C\\}$.
 
 We conclude this summary of classical coding theory by mentioning that, in
 general, the task of finding the original codeword $s$ in an arbitrarily
@@ -564,7 +564,7 @@ $$\begin{align*}
                                                    &= -Z_1\ket{\psi} ,
 \end{align*}$$
 
-since the Pauli operators anti-commute, i.e. $\{X,Z\} = XZ + ZX = 0$.  Now
+since the Pauli operators anti-commute, i.e. $\\{X,Z\\} = XZ + ZX = 0$.  Now
 notice that our syndrome measurement to detect the phase error on this new
 state $\ket{\psi'}\equiv -Z_1\ket{\psi}$ is equivalent to detecting the phase
 error on the original corrupted state:
@@ -926,9 +926,9 @@ one qubit.
 A *stabilizer* is an Abelian (self commuting) subgroup $\S \subset
 \P_n$ containing only the positive eigenvalue elements.  For example, recall
 our observables to compare the parity of qubits.  They happen to form such a
-group:  $\{I, Z_{12}, Z_{13}, Z_{23}\}$.  Suppose we define a code making use
+group:  $\\{I, Z_{12}, Z_{13}, Z_{23}\\}$.  Suppose we define a code making use
 of the positive nature of the subgroup's eigenvalues:
-$\C(\S) = \{\ket{\psi} : M\ket{\psi} = \ket{\psi}\ \forall M \in \S \}$.
+$\C(\S) = \\{\ket{\psi} : M\ket{\psi} = \ket{\psi}\ \forall M \in \S \\}$.
 Codeword by construction
 reside in the real positive eigenspace of each stabilizer element; however,
 errors $E$ leave codewords into the negative eigenspace when projected on any
@@ -940,7 +940,7 @@ $$\begin{equation*}
 
 A more compact representation for a group is its list of *generators*,
 those elements of the group that the products of which form the remaining
-elements.  In our example of $\{I, Z_{12}, Z_{13}, Z_{23}\}$, notice that
+elements.  In our example of $\\{I, Z_{12}, Z_{13}, Z_{23}\\}$, notice that
 $Z_{12}Z_{23}=Z_{13}$ and $Z_{12}Z_{12}=I$.  Hence, each element of the group
 can be written as a product of two elements $Z_{12}$ and $Z_{23}$.  We can
 then unique represent the group as $\langle Z_{12}, Z_{23} \rangle$.  We have
