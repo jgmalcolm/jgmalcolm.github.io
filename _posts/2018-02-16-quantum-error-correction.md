@@ -983,7 +983,7 @@ Lowering the number of qubits necessary has meant fewer resources for storage.
 Lowering the number of computations necessary for syndrome analysis has meant
 simpler coding circuits.  We now have fundamental results on error bounds,
 limits of robust coding, and thresholds for which reliable quantum computing
-can succeed.  Work continues to design and build and scale physical
+can succeed.  Work continues to design, build, scale physical
 realizations of such systems.
 
 
