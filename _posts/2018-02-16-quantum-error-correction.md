@@ -8,9 +8,6 @@ tags: [math]
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
-    TeX: {
-      extensions: ['AMSsymbols.js']
-    }
   });
 </script>
 <script type="text/javascript" async
