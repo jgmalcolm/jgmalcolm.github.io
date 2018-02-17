@@ -122,10 +122,11 @@ transmission.
 
 Three problems present themselves when designing quantum codes \cite{QCQI}.
 
-* We are unable to replicate an arbitrary state as per the No-Cloning
-  Theorem, hence we cannot simply use replicating an arbitrary qubit to then
-  send.  We can however deterministically spread the information contained in
-  some arbitrary state over a larger state space.
+* We are unable to replicate an arbitrary state as per the
+  [No-Cloning Theorem](https://en.wikipedia.org/wiki/No-cloning_theorem),
+  hence we cannot simply use replicating an arbitrary qubit to then send.  We
+  can however deterministically spread the information contained in some
+  arbitrary state over a larger state space.
 * There is a continuum of possible states and hence a continuum of
   possible errors, and so it is not so simple as detecting which error
   occurred as some errors could have occurred to greater or lesser extent.
