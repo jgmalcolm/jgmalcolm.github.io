@@ -275,7 +275,7 @@ if $d(\C) \ge 2t+1$.  More formally,
 Here our triplet notation $[n,k,d]$ comes in handy.  For a code to correct up
 to $t$ errors, $d > 2t+1$.
 
-One last important concept to define is that of the \textit{dual} of a code
+One last important concept to define is that of the *dual* of a code
 define to be the set of all words orthogonal to the code.  We denote the dual
 as $\C^\perp = \{s \in \B^n : s\cdot t=0,\ \forall t \in \C\}$.
 
@@ -362,7 +362,7 @@ the effect of spreading the original single qubit state over these three
 qubits.  So as not to destroy the contained information, we must be careful
 not to perform any direct measurements that would perturb the state.  Instead,
 we carefully measure certain aspects of this augmented state while retaining
-the original state.  Specifically, we measure the \textit{difference} between
+the original state.  Specifically, we measure the *difference* between
 certain pairs of qubits.
 
 Recall that errors, like all physical transformations, are unitary operators,
@@ -917,7 +917,7 @@ While optimally sized codes have been found, work has been done to develop
 codes that are easier to work with.  Stabilizer codes offer just such an
 easier to manipulate formulation having arisen out of insights from abstract
 algebra.  Notice that the set of Pauli operators together with $\pm1$ and $\pm
-i$ eigenvalues form a group called the \textit{Pauli group}:
+i$ eigenvalues form a group called the *Pauli group*:
 
 $$\begin{equation*}
   \P \equiv \{\pm I, \pm iI, \pm X, \pm iX, \pm Y, \pm iY, \pm Z, \pm iZ \} .
@@ -941,7 +941,7 @@ $$\begin{equation*}
   M(E\ket{\psi}) = -EM\ket{\psi} = -E\ket{\psi} .
 \end{equation*}$$
 
-A more compact representation for a group is its list of \textit{generators},
+A more compact representation for a group is its list of *generators*,
 those elements of the group that the products of which form the remaining
 elements.  In our example of $\{I, Z_{12}, Z_{13}, Z_{23}\}$, notice that
 $Z_{12}Z_{23}=Z_{13}$ and $Z_{12}Z_{12}=I$.  Hence, each element of the group
