@@ -16,7 +16,9 @@ width="100%" height="400" frameborder="0" style="border:0">&nbsp;</iframe>
 For parking, the map below shows our home within the neighborhood.  It is the
 last unit along the back row. Orange indicates several places to park: two
 areas along Knob Hills Circle, in front of the garage behind our unit, or
-along Forkner Drive on the side of the street closest to our neighborhood.
+along Forkner Drive on the side of the street closest to our neighborhood.  Be
+careful not to park in the fire line directly next to our neighborhood on
+Forkner (there are posted signs).
 
 <a style="a:hover { border-bottom: none }" href="parking.png">
   <img width="100%" src="parking.png" alt="Areas for parking marked in orange">
