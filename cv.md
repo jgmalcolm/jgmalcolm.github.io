@@ -83,10 +83,11 @@ me@jgmalcolm.com <br />
    *Preparing*
 
 - refai: cortical fusion
-- refai: concurrent spine
-- vijay/barrow: vascular malformations and long tract DTI
-- vijay/barrow/lamanna: AVMs with associated aneurysms
+- refai/howard/osama/jason: concurrent spine
+- vijay/barrow/haley: vascular malformations and long tract DTI
+- vijay/barrow/amit/lamanna: AVMs with associated aneurysms
 - ahmad/boulis: cranioplasty series
+- willie: deep cavmals
 
 
 {% endcomment %}
