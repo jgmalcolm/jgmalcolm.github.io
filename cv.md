@@ -66,6 +66,8 @@ me@jgmalcolm.com <br />
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
    review and meta-analysis."  *Submitted*
+1. Quillin, Malcolm, Oyesiku. "Utilizing the Storz 4mm Tipcam for 3D
+   endoscopic transsphenoidal approach to the sella." *Submitted*
 
 1. Anastasio, Patil, Malcolm, Thomas.  "Management of severe cerebral malaria
    using artesunate and angiotensin II." *Preparing*
