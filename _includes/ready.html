@@ -47,6 +47,16 @@ $(document).ready(function(){
   /* remove click delays on mobile */
   FastClick.attach(document.body);
 
+  /* cookies */
+  function setCookie(key, value) {
+      var expires = new Date();
+      expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000)); // 1 day
+      document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
+  }
+  function getCookie(key) {
+      var value = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+      return value ? value[2] : null;
+  }
 
 });
 
