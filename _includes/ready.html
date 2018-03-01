@@ -58,6 +58,13 @@ $(document).ready(function(){
       return value ? value[2] : null;
   }
 
+  /* only display pharm450 ad 3 times */
+  var pharm = getCookie('pharm');
+  if (pharm && parseInt(pharm) > 3) {
+    $('#pharm').hide();
+  } else {
+    setCookie('pharm', ++pharm);
+  }
 });
 
 //-->
