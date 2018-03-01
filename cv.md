@@ -118,7 +118,7 @@ me@jgmalcolm.com <br />
    Journal of Healthcare Risk Management 37(2):29-35, 2017. doi:10.1002/jhrm.21280, pmid:28877399
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
-   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2017-neurologic.pdf).
+   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2018-neurologic.pdf).
    Neurosurgery 82(3):278-288, 2018. pmid:28419358, doi:10.1093/neuros/nyx182
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
