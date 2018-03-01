@@ -98,14 +98,18 @@ me@jgmalcolm.com <br />
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study."
    Neurosurgery. *In Press* pmid:29346684, doi:10.1093/neuros/nyx619
-1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
-   brain surgery." BMJ Case Reports, Dec 2017.  pmid:29196311,
-   doi:10.1136/bcr-2017-222253
+1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
+   as missed hollow viscous injury." The American Surgeon, *Accepted*
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
    [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf)
    JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502, pmid:29117312
-1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
-   as missed hollow viscous injury." The American Surgeon, *Accepted*
+1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
+   Ahmad.
+   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2018-neurologic.pdf).
+   Neurosurgery 82(3):278-288, 2018. pmid:28419358, doi:10.1093/neuros/nyx182
+1. Mahmooth, Malcolm, Wetzel, Ahmad. "Unusual cause of encephalopathy after
+   brain surgery." BMJ Case Reports, Dec 2017.  pmid:29196311,
+   doi:10.1136/bcr-2017-222253
 1. Agarwal, Malcolm, Pradilla, Barrow.
    [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature](/pubs/others/agarwal-dti-2017.pdf).
    Cureus 9(9):e1722, 2017. doi:10.7759/cureus.1722, pmid:29188166
@@ -116,10 +120,6 @@ me@jgmalcolm.com <br />
 1. KE Malcolm, JG Malcolm, DT Wu, KA Spainhour, KP Race.
    [Cops and Docs: The Challenges for ED Physicians Balancing the Police, State Laws, and EMTALA](/pubs/malcolm-2017-cops-and-docs.pdf).
    Journal of Healthcare Risk Management 37(2):29-35, 2017. doi:10.1002/jhrm.21280, pmid:28877399
-1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
-   Ahmad.
-   [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2018-neurologic.pdf).
-   Neurosurgery 82(3):278-288, 2018. pmid:28419358, doi:10.1093/neuros/nyx182
 1. SH Halani, J Chu, JG Malcolm, RS Rindler, JW Allen, J Grossberg, G
    Pradilla, FU. Ahmad.
    [Effects of Cranioplasty on Cerebral Blood Flow Following Decompressive Craniectomy: A Systematic Review of the Literature](/pubs/others/halani-2017-cbf.pdf).
