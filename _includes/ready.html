@@ -50,7 +50,7 @@ $(document).ready(function(){
   /* cookies */
   function setCookie(key, value) {
       var expires = new Date();
-      expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000)); // 1 day
+      expires.setTime(expires.getTime() + (60 * 24 * 60 * 60 * 1000)); // 60 days
       document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
   }
   function getCookie(key) {
@@ -58,7 +58,7 @@ $(document).ready(function(){
       return value ? value[2] : null;
   }
 
-  /* only display pharm450 ad 3 times */
+  /* only display pharm450 ad N times */
   var pharm = getCookie('pharm');
   if (pharm && parseInt(pharm) > 3) {
     $('#pharm').hide();
