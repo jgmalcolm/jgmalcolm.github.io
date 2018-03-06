@@ -81,7 +81,7 @@ something.  Stock a travel kit that you know to be complete and ready every
 time.  Restock it after every trip.  Instead of using some generic
 travel-sized shampoo and soap, buy [reusable 3oz travel containers][gotoob]
 and fill them with the shampoo and soap you're hair and body are used to.
-When you find a brand you link, always stock up on extras; running out of
+When you find a brand you like, always stock up on extras; running out of
 something you knowingly use daily is just a sign of poor planning.  Consider
 putting these all in a heavy duty zip-lock in case something leaks or is still
 wet when you have to rush to the airport.  For razors, put a large black
