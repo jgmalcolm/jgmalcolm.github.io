@@ -10,7 +10,6 @@ search: false
 
 me@jgmalcolm.com <br />
 <a href="http://jgmalcolm.com">http://jgmalcolm.com</a> <br />
-(770) 856-9045
 
 ## Education
 
