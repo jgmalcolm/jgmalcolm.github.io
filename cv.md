@@ -76,9 +76,10 @@ me@jgmalcolm.com <br />
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?), Wruble(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
 
-1. Malcolm, Howard, Bray, Lamanna, Willie, Gross, Barrow, Grossberg. "Analysis
-   of ### stereotactic and functional cases demonstrates that overlapping
-   surgery has no adverse effect on patient outcome." *Preparing*
+1. Malcolm, Howard, Lamanna, Bray, Barrow, Grossberg, Boulis, Gross,
+   Willie. "Analysis of ### stereotactic and functional cases demonstrates
+   that overlapping surgery has no adverse effect on patient outcome."
+   *Preparing*
 1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
    anterior lumbar interbody fusion with bone morphogenic protein."
    *Preparing*
