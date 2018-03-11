@@ -94,9 +94,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Malcolm, Moore, Chokshi, Ahmad, Refai. "Cortical trajectory TLIFs
+1. Malcolm, Moore, Chokshi, Ahmad, Refai. [Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
-   trajectory and posterolateral fusions: a retrospective cohort study."
+   trajectory and posterolateral fusions: a retrospective cohort study](/pubs/malcolm-2018-cortical-periop.pdf).
    Neurosurgery. *In Press* pmid:29346684, doi:10.1093/neuros/nyx619
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
    as missed hollow viscous injury." The American Surgeon, *Accepted*
