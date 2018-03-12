@@ -329,6 +329,15 @@ me@jgmalcolm.com <br />
 
 ## Abstract and Poster
 
+{% comment %}
+1. Malcolm, Rindler, Tora, Pujari, Mahmooth, Eshraghi, Elster, Belard,
+   Boulis. "Complication rates after early cranioplasty for severe traumatic
+   brain injury." Military Health System Research Symposium (MHSRS), August
+   2018.
+
+{% endcomment %}
+
+
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
    Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective Cohort
    Study of 90 Day Outcomes."  AANS/CNS Spine Summit. Orlando, FL. March 2018.
