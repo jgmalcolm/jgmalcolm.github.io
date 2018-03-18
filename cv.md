@@ -340,7 +340,8 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
    Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective Cohort
-   Study of 90 Day Outcomes."  AANS/CNS Spine Summit. Orlando, FL. March 2018.
+   Study of 90 Day Outcomes."  AANS/CNS Spine Summit. Orlando,
+   FL. March 2018. Oral.
 1. Malcolm, Moore, Refai.
    [Cortical Trajectory Screw Placement for Transforaminal Lumbar Interbody Fusion.](/pubs/malcolm-2017-cortical-image.pdf)
    Annals of Neurological Surgery 1(1):1002, 2017.
