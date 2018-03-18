@@ -334,6 +334,15 @@ me@jgmalcolm.com <br />
    Boulis. "Complication rates after early cranioplasty for severe traumatic
    brain injury." Military Health System Research Symposium (MHSRS), August
    2018.
+1. Malcolm, Kashlan, Howard, Lamanna, Gary, Rodts, Refai.  "Overlapping spine
+   surgery: A retrospective cohort study of complications."  Georgia
+   Neurosurgical Society (GNS), Sea Island, SC. May 2018. Oral.
+1. Tora, Malcolm, Pujari, Mahmooth, Rindler, Ahmad. "Complication rates after
+   cranioplasty for severe traumatic brain injury." Georgia Neurosurgical
+   Society (GNS), Sea Island, SC. May 2018. Oral.
+1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
+   with associated aneurysms: treatment strategies and outcomes." Georgia
+   Neurosurgical Society (GNS), Sea Island, SC. May 2018. Oral.
 
 {% endcomment %}
 
