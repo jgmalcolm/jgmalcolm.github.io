@@ -580,6 +580,7 @@ me@jgmalcolm.com <br />
 * Journal of Magnetic Resonance Imaging (JMRI)
 * Journal of Electronic Imaging (JEI)
 * Medical Physics (MP)
+* Cureus
 
 **Conference:**
 
