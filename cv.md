@@ -99,7 +99,8 @@ me@jgmalcolm.com <br />
    trajectory and posterolateral fusions: a retrospective cohort study](/pubs/malcolm-2018-cortical-periop.pdf).
    Neurosurgery. *In Press* pmid:29346684, doi:10.1093/neuros/nyx619
 1. Malcolm, Fox, Dente, Patel. "Necrotizing soft tissue infection presenting
-   as missed hollow viscous injury." The American Surgeon, *Accepted*
+   as missed hollow viscous injury." The American Surgeon
+   84(3):465-466, 2018. pmid:29559069
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
    [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf)
    JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502, pmid:29117312
