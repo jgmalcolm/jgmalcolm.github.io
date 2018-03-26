@@ -344,6 +344,9 @@ me@jgmalcolm.com <br />
 1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
    with associated aneurysms: treatment strategies and outcomes." Georgia
    Neurosurgical Society (GNS), Sea Island, SC. May 2018. Oral.
+1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
+   with associated aneurysms: treatment strategies and outcomes."  Congress of
+   Neurological Surgeons (CNS). Houston, TX.  October 2018.
 
 {% endcomment %}
 
