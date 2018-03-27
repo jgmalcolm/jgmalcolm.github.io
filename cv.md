@@ -102,7 +102,7 @@ me@jgmalcolm.com <br />
    as missed hollow viscous injury." The American Surgeon
    84(3):465-466, 2018. pmid:29559069
 1. Howard, Holland, Mehta, Tian, Bray, Lamanna, Malcolm, Barrow, Grossberg.
-   [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf)
+   [Association of Overlapping Surgery With Patient Outcomes in a Large Series of Neurosurgical Cases](/pubs/others/howard-2017-overlapping.pdf).
    JAMA Surgery 2017. *In Press* doi:10.1001/jamasurg.2017.4502, pmid:29117312
 1. JG Malcolm, RS Rindler, JK Chu, F Chokshi, JA Grossberg, G Pradilla, FU
    Ahmad.
