@@ -347,6 +347,9 @@ me@jgmalcolm.com <br />
 1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
    with associated aneurysms: treatment strategies and outcomes."  Congress of
    Neurological Surgeons (CNS). Houston, TX.  October 2018.
+1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
+   retrospective cohort study of 90-day complications."  Congress of
+   Neurological Surgeons (CNS). Houston, TX.  October 2018.
 
 {% endcomment %}
 
