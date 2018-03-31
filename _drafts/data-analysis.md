@@ -6,7 +6,8 @@ layout: post
 
 **Preserve raw data.** Alter your original data as little as
 possible. Sometimes you'll want to go back and re-interpret something, but
-once you've transformed it, you cannot go back.
+once you've transformed it, you cannot go back. Add new columns for data
+transforms, and hide the original data columns.
 
 **Focus on 1-3 variables at a time.** When you're populating a spreadsheet for
 case series or something where you touch a lot of individual records, focus on
