@@ -88,8 +88,8 @@ me@jgmalcolm.com <br />
 - refai/howard/osama/jason: concurrent spine
 - vijay/barrow/haley: vascular malformations and long tract DTI
 - vijay/barrow/amit/lamanna: AVMs with associated aneurysms
-- ahmad/boulis: cranioplasty series
-- willie: deep cavmals
+- ahmad: cranioplasty series
+- willie/neal: deep cavmals
 
 
 {% endcomment %}
@@ -335,9 +335,9 @@ me@jgmalcolm.com <br />
    Boulis. "Complication rates after early cranioplasty for severe traumatic
    brain injury." Military Health System Research Symposium (MHSRS), August
    2018.
-1. Malcolm, Kashlan, Howard, Lamanna, Gary, Rodts, Refai.  "Overlapping spine
-   surgery: A retrospective cohort study of complications."  Georgia
-   Neurosurgical Society (GNS), Sea Island, SC. May 2018. Oral.
+1. Malcolm, Kashlan, Howard, Lamanna, Refai.  "Overlapping spine surgery: A
+   retrospective cohort study of complications."  Georgia Neurosurgical
+   Society (GNS), Sea Island, SC. May 2018. Oral.
 1. Tora, Malcolm, Pujari, Mahmooth, Rindler, Ahmad. "Complication rates after
    cranioplasty for severe traumatic brain injury." Georgia Neurosurgical
    Society (GNS), Sea Island, SC. May 2018. Oral.
