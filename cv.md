@@ -56,7 +56,7 @@ me@jgmalcolm.com <br />
 
 
 
-## Journals
+## Journal articles
 
 {% comment %}
 
