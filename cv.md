@@ -62,9 +62,6 @@ me@jgmalcolm.com <br />
 
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Autologous
-   cranioplasty is associated with increased re-operation rate: A systematic
-   review and meta-analysis."  *Submitted*
 1. Anastasio, Patil, Malcolm, Thomas.  "Management of severe cerebral malaria
    using artesunate and angiotensin II." *Submitted*
 
@@ -92,6 +89,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Autologous
+   cranioplasty is associated with increased re-operation rate: A systematic
+   review and meta-analysis."  World Neurosurgery, *Accepted*
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. [Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study](/pubs/malcolm-2018-cortical-periop.pdf).
