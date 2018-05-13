@@ -43,7 +43,7 @@
 
 {% for tag in site.tags %}
   <url>
-    <loc>http://jgmalcolm.com/search/?q={{ tag | first }}</loc>
+    <loc>http://jgmalcolm.com/tags/?q={{ tag | first }}</loc>
     <priority>0.8</priority>
   </url>
 {% endfor %}
