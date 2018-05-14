@@ -345,12 +345,12 @@ me@jgmalcolm.com <br />
 1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
    with associated aneurysms: treatment strategies and outcomes."  Congress of
    Neurological Surgeons (CNS). Houston, TX.  October 2018.
-1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
-   retrospective cohort study of 90-day complications."  Congress of
-   Neurological Surgeons (CNS). Houston, TX.  October 2018.
 {% endcomment %}
 
 
+1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
+   retrospective cohort study of 90-day complications."  Congress of
+   Neurological Surgeons (CNS). Houston, TX.  October 2018. Oral.
 1. Malcolm, Rindler, Ahmad. "In Reply: Early Cranioplasty is Associated with
    Greater Neurological Improvement."  Neurosurgery. doi:10.1093/neuros/nyy208
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
