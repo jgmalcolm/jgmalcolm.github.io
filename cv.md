@@ -493,12 +493,7 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
-{% comment %}
-
-1. Malcolm. [Cerebral Cortex](https://amzn.to/2FeFpAv). Neurosurgery.
-
-{% endcomment %}
-
+1. Malcolm. [Cerebral Cortex](https://amzn.to/2FeFpAv). Neurosurgery. doi:10.1093/neuros/nyy257
 1. Malcolm. [Stereotactic Brain Microanatomy](http://amzn.to/2EEhJJI). Neurosurgery. doi:10.1093/neuros/nyy078
 1. Malcolm, Agarwal. [Textbook of Neuro-Oncology](http://amzn.to/2BjaPDX). Neurosurgery. doi:10.1093/neuros/nyy031
 {: reversed="reversed"}
