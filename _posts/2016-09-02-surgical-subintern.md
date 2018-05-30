@@ -384,5 +384,5 @@ doing this right.  I **highly recommend** this
   you don't distract.  Know when it's a bad time to tell that new joke you
   learned.
 
-
+> [Excelling During an Away Rotation](https://forums.studentdoctor.net/threads/away-rotations-excelling.1028285/),
 > [Reddit: Preparing for a sub-i in neurosurgery](https://www.reddit.com/r/medicalschool/comments/27e977/prepping_for_a_subi_neurosurg/ci09nwv)
