@@ -334,6 +334,10 @@ me@jgmalcolm.com <br />
    Boulis. "Complication rates after early cranioplasty for severe traumatic
    brain injury." Military Health System Research Symposium (MHSRS), August
    2018.
+1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
+   "Stereotactic laser ablation is a safe and effective treatment for
+   epileptogenic cerebral cavernous malformations" American Epilepsy Society
+   (AES). New Orleans, LA. November 2018.
 {% endcomment %}
 
 
