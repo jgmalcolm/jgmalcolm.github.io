@@ -334,18 +334,18 @@ me@jgmalcolm.com <br />
    Boulis. "Complication rates after early cranioplasty for severe traumatic
    brain injury." Military Health System Research Symposium (MHSRS), August
    2018.
-1. Malcolm, Kashlan, Howard, Lamanna, Refai.  "Overlapping spine surgery: A
-   retrospective cohort study of complications."  Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2018. Oral.
-1. Tora, Malcolm, Pujari, Mahmooth, Rindler, Ahmad. "Complication rates after
-   cranioplasty for severe traumatic brain injury." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2018. Oral.
-1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
-   with associated aneurysms: treatment strategies and outcomes." Georgia
-   Neurosurgical Society (GNS), Sea Island, SC. May 2018. Oral.
 {% endcomment %}
 
 
+1. Malcolm, Kashlan, Howard, Lamanna, Refai.  "Overlapping spine surgery: A
+   retrospective cohort study of complications."  Georgia Neurosurgical
+   Society (GNS), Sea Island, GA. May 2018. Oral.
+1. Tora, Malcolm, Pujari, Mahmooth, Rindler, Ahmad. "Complication rates after
+   cranioplasty for severe traumatic brain injury." Georgia Neurosurgical
+   Society (GNS), Sea Island, GA. May 2018. Oral.
+1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
+   with associated aneurysms: treatment strategies and outcomes." Georgia
+   Neurosurgical Society (GNS), Sea Island, GA. May 2018. Oral.
 1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
    retrospective cohort study of 90-day complications."  Congress of
    Neurological Surgeons (CNS). Houston, TX.  October 2018. Oral.
@@ -390,10 +390,7 @@ me@jgmalcolm.com <br />
    Georgia Neurosurgical Society (GNS), Sea Island, SC. May 2017. Oral. Winner of Best Resident Abstract.
 1. Pujari, Usmani, Malcolm, Singh, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017. Oral.
-1. Li, Malcolm, Rindler, Baum, Rao, Shekar, Ahmad. "The Role of Diffusion
-   Tensor Imaging In Spinal Pathology: A Review." Georgia Neurosurgical
-   Society (GNS), Sea Island, SC. May 2017. Oral.
+   Society (GNS), Sea Island, GA. May 2017. Oral.
 1. Malcolm, Stern, Drane, Gross, Willie.
    [Stereotactic laser ablation of symptomatic cavernous malformations: imaging and clinical outcomes.](/pubs/malcolm-2017-AANS-cavmal.pdf)
    American Association of Neurologic Surgeons (AANS), Los Angeles, CA,
@@ -413,7 +410,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Rindler, Chu, Pradilla, Ahmad.
    [Timing of cranioplasty associated with complications and neurologic improvement: A systematic review and meta-analysis.](/pubs/malcolm-GNS2016-complications-neurologic.pdf)
    Georgia Neurosurgical Society (GNS) Annual Summer Meeting; Sea Island,
-   SC. May 2016.
+   GA. May 2016.
    [Oral Presentation](https://docs.google.com/presentation/d/1We5gMqpWyG0jNmTIEaXBNKEc1caO0PZ2IlAezV3WHvw/pub?start=false&loop=false&delayms=3000).
 1. Malcolm, Rindler, Chu, Grossberg, Pradilla, Ahmad.
    ["Complications After Cranioplasty are More Common In The Presence of a Preexisting Ventriculoperitoneal Shunt: A Systematic Review and Meta-Analysis."](/pubs/malcolm-CNS2016-VPS.pdf)
