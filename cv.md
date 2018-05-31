@@ -89,10 +89,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  "Autologous
+1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
-   review and meta-analysis."  World Neurosurgery, *In Press*
-   doi:10.1016/j.wneu.2018.05.009
+   review and meta-analysis](/pubs/malcolm-2018-materials.pdf).  World Neurosurgery 116:60-68, 2018.
+   doi:10.1016/j.wneu.2018.05.009, pmid:29753896
 1. Malcolm, Moore, Chokshi, Ahmad, Refai. [Cortical trajectory TLIFs
    associated with less blood loss and better disposition than pedicle
    trajectory and posterolateral fusions: a retrospective cohort study](/pubs/malcolm-2018-cortical-periop.pdf).
