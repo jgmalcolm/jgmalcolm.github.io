@@ -330,17 +330,22 @@ me@jgmalcolm.com <br />
 ## Abstract, Poster, Letters
 
 {% comment %}
-1. Malcolm, Rindler, Tora, Pujari, Mahmooth, Eshraghi, Elster, Belard,
-   Boulis. "Complication rates after early cranioplasty for severe traumatic
-   brain injury." Military Health System Research Symposium (MHSRS), August
-   2018.
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
    "Stereotactic laser ablation is a safe and effective treatment for
    epileptogenic cerebral cavernous malformations" American Epilepsy Society
    (AES). New Orleans, LA. November 2018.
 {% endcomment %}
 
-
+1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
+   retrospective cohort study of 90-day complications."  Congress of
+   Neurological Surgeons (CNS). Houston, TX.  October 2018. Oral.
+1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
+   with associated aneurysms: treatment strategies and outcomes."  Congress of
+   Neurological Surgeons (CNS). Houston, TX.  October 2018. Poster.
+1. Malcolm, Rindler, Tora, Pujari, Mahmooth, Eshraghi, Elster, Belard,
+   Boulis. "Complication rates after early cranioplasty for severe traumatic
+   brain injury." Military Health System Research Symposium (MHSRS), August
+   2018.
 1. Malcolm, Kashlan, Howard, Lamanna, Refai.  "Overlapping spine surgery: A
    retrospective cohort study of complications."  Georgia Neurosurgical
    Society (GNS), Sea Island, GA. May 2018. Oral.
@@ -350,12 +355,6 @@ me@jgmalcolm.com <br />
 1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
    with associated aneurysms: treatment strategies and outcomes." Georgia
    Neurosurgical Society (GNS), Sea Island, GA. May 2018. Oral.
-1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
-   retrospective cohort study of 90-day complications."  Congress of
-   Neurological Surgeons (CNS). Houston, TX.  October 2018. Oral.
-1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
-   with associated aneurysms: treatment strategies and outcomes."  Congress of
-   Neurological Surgeons (CNS). Houston, TX.  October 2018. Poster.
 1. Malcolm, Rindler, Ahmad. "In Reply: Early Cranioplasty is Associated with
    Greater Neurological Improvement."  Neurosurgery. doi:10.1093/neuros/nyy208
 1. Malcolm, Moore, Ahmad, Refai. "Comparing Cortical Trajectory TLIFs Against
