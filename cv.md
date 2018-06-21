@@ -86,7 +86,6 @@ me@jgmalcolm.com <br />
 - ahmad: cranioplasty series
 - willie/neal: deep cavmals
 
-
 {% endcomment %}
 
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
