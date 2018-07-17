@@ -62,8 +62,6 @@ me@jgmalcolm.com <br />
 
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-1. Anastasio, Patil, Malcolm, Thomas.  "Management of severe cerebral malaria
-   using artesunate and angiotensin II." *Submitted*
 
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
@@ -88,6 +86,8 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Anastasio, Patil, Malcolm, Thomas.  "Severe imported falciparum malaria -
+   clinical and drug supply challenges." Travel Medicine and Infectious Disease. *Accepted*
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
    review and meta-analysis](/pubs/malcolm-2018-materials.pdf).  World Neurosurgery 116:60-68, 2018.
