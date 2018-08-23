@@ -341,7 +341,7 @@ me@jgmalcolm.com <br />
 1. Pujari, Lamanna, Malcolm, Agarwal, Barrow. "Arteriovenous malformations
    with associated aneurysms: treatment strategies and outcomes."  Congress of
    Neurological Surgeons (CNS). Houston, TX.  October 2018. Poster.
-1. Malcolm, Rindler, Tora, Pujari, Mahmooth, Eshraghi, Elster, Belard,
+1. Tora, Malcolm, Rindler, Pujari, Mahmooth, Eshraghi, Elster, Belard,
    Boulis. "Complication rates after early cranioplasty for severe traumatic
    brain injury." Military Health System Research Symposium (MHSRS), August
    2018.
