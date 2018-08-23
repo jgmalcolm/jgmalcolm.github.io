@@ -62,10 +62,9 @@ me@jgmalcolm.com <br />
 
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
-   year." *Preparing*
+   year." *Submitted*
 
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?), Wruble(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
