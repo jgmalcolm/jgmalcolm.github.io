@@ -85,8 +85,6 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Anastasio, Patil, Malcolm, Thomas.  "Severe imported falciparum malaria -
-   clinical and drug supply challenges." Travel Medicine and Infectious Disease. *Accepted*
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
    review and meta-analysis](/pubs/malcolm-2018-materials.pdf).  World Neurosurgery 116:60-68, 2018.
@@ -334,6 +332,10 @@ me@jgmalcolm.com <br />
    (AES). New Orleans, LA. November 2018.
 {% endcomment %}
 
+1. Anastasio, Patil, Malcolm, Thomas.
+   [Severe imported falciparum malaria - clinical and drug supply challenges.](/pubs/anastasio-2018-cerebral-malaria.pdf)
+   Travel Medicine and Infectious Disease. *In Press*
+   doi:10.1016/j.tmaid.2018.07.006
 1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
    retrospective cohort study of 90-day complications."  Congress of
    Neurological Surgeons (CNS). Houston, TX.  October 2018. Oral.
