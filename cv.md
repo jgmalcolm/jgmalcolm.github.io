@@ -65,6 +65,9 @@ me@jgmalcolm.com <br />
 1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
    symptomatic cavernous malformations: imaging and clinical outcomes at one
    year." *Submitted*
+1. Frerich, Kashlan, Malcolm, ... Gary/Rodts, Refai. "Safety profile and
+   radiographic outcomes of standalone 2-level anterior lumbar interbody
+   fusion." *Submitted*
 
 1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?), Wruble(?). "Brachytherapy
    for craniopharyngiomas: a systematic review." *Preparing*
