@@ -337,7 +337,7 @@ me@jgmalcolm.com <br />
 
 1. Anastasio, Patil, Malcolm, Thomas.
    ["Severe imported falciparum malaria - clinical and drug supply challenges."](/pubs/anastasio-2018-cerebral-malaria.pdf)
-   Travel Medicine and Infectious Disease. *In Press*
+   Travel Medicine and Infectious Disease 25:11-12, 2018.
    doi:10.1016/j.tmaid.2018.07.006
 1. Malcolm, Kashlan, Lamanna, Howard, Refai. "Overlapping spine surgery: A
    retrospective cohort study of 90-day complications."  Congress of
