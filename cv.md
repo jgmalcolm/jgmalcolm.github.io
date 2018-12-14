@@ -62,9 +62,6 @@ me@jgmalcolm.com <br />
 
 1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
    Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-1. Willie, Malcolm, Stern, Philipp, Gross. "Stereotactic laser ablation of
-   symptomatic cavernous malformations: imaging and clinical outcomes at one
-   year." *Submitted*
 1. Frerich, Kashlan, Malcolm, ... Gary/Rodts, Refai. "Safety profile and
    radiographic outcomes of standalone 2-level anterior lumbar interbody
    fusion." *Submitted*
@@ -88,6 +85,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane,
+   Gross. "Stereotactic laser ablation of symptomatic cavernous malformations:
+   imaging and clinical outcomes at one year."
+   Epilepsia. doi:10.1111/epi.14634 *Accepted*
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
    review and meta-analysis](/pubs/malcolm-2018-materials.pdf).  World Neurosurgery 116:60-68, 2018.
