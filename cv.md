@@ -379,10 +379,9 @@ me@jgmalcolm.com <br />
    Against Pedicle Trajectory TLIFs and Posterolateral Fusions A Retrospective
    Cohort Study of 90 Day Outcomes."  European Association of Neurosurgical
    Societies (EANS). Venice, Italy. October 2017. Oral.
-1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg. "Analysis of
-   3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery
-   Has No Adverse Effect on Patient Outcome." Congress of Neurological
-   Surgeons (CNS). Boston, MA. October 2017. Oral.
+1. Howard, Holland, Bray, Lamanna, Malcolm, Barrow, Grossberg.
+   [Analysis of 3,298 Consecutive Neurosurgical Cases Demonstrates that Overlapping Surgery Has No Adverse Effect on Patient Outcome.](/pubs/others/howard-2017-overlapping-abstract.pdf)
+   Congress of Neurological Surgeons (CNS). Boston, MA. October 2017. Oral.
 1. Malcolm, Stern, Fasano, Gross, Willie. "Stereotactic electroencephalography
    guided laser ablation for neocortical epilepsy." World Society for
    Stereotactic and Functional Neurosurgery (WSSFN). Berlin, Germany.
