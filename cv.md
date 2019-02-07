@@ -87,7 +87,7 @@ me@jgmalcolm.com <br />
 
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross. "Safety and
    effectiveness of stereotactic laser ablation for epileptogenic cerebral
-   cavernous malformations."  Epilepsia. doi:10.1111/epi.14634 *In Press*
+   cavernous malformations."  Epilepsia 60(2):220-232, 2019. doi:10.1111/epi.14634, pmid:30653657
 1. Malcolm, Mahmooth, Rindler, Allen, Grossberg, Pradilla, Ahmad.  [Autologous
    cranioplasty is associated with increased re-operation rate: A systematic
    review and meta-analysis](/pubs/malcolm-2018-materials.pdf).  World Neurosurgery 116:60-68, 2018.
