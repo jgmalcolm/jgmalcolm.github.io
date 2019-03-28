@@ -9,7 +9,7 @@ I'm currently a neurosurgery resident at Emory in Atlanta, creator of
 [Pharm450](//pharm450.com), co-creator of [ArrayFire](http://arrayfire.com),
 [scientist](/pubs/research.html), and husband to an [awesome woman].
 
- [awesome woman]: http://www.insleyrace.com/Associates/Malcolm-Kristin-Elizabeth.shtml
+ [awesome woman]: http://www.huffpowellbailey.com/lawyers/kristin-e-malcolm/
 
 Have some thoughts on what you read here? The best way to reach me is via
 email: <a id="email"></a>.
