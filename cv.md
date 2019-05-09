@@ -329,13 +329,12 @@ me@jgmalcolm.com <br />
 
 ## Abstract, Poster, Letters
 
-{% comment %}
+1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome: A Systematic Review." Georgia
+   Neurosurgical Society (GNS), Sea Island, GA. May 2019.
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
    "Stereotactic laser ablation is a safe and effective treatment for
    epileptogenic cerebral cavernous malformations" American Epilepsy Society
    (AES). New Orleans, LA. November 2018.
-{% endcomment %}
-
 1. Anastasio, Patil, Malcolm, Thomas.
    ["Severe imported falciparum malaria - clinical and drug supply challenges."](/pubs/anastasio-2018-cerebral-malaria.pdf)
    Travel Medicine and Infectious Disease 25:11-12, 2018.
