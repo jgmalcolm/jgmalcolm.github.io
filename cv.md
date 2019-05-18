@@ -329,8 +329,12 @@ me@jgmalcolm.com <br />
 
 ## Abstract, Poster, Letters
 
+1. Rich, Malcolm, Refai, Gary. "Early experience with oblique lateral
+   interbody fusion (OLIF) with posterior percutaneous screw placement:
+   Clinical and radiographic outcomes." Georgia Neurosurgical Society
+   (GNS). Sea Island, GA. May 2019. Oral.
 1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome: A Systematic Review." Georgia
-   Neurosurgical Society (GNS), Sea Island, GA. May 2019.
+   Neurosurgical Society (GNS), Sea Island, GA. May 2019. Oral.
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
    "Stereotactic laser ablation is a safe and effective treatment for
    epileptogenic cerebral cavernous malformations" American Epilepsy Society
