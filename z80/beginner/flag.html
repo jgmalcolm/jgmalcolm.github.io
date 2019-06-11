@@ -58,32 +58,38 @@ until a new comparative instruction is executed, this means that
 you could have a comparative command, some code, and then the
 conditional branch (jump).
 
-<P>Here's a chart that compares the flag states to test operands
-in TI-BASIC considering you used:
-
 <PRE>	cp <I>arg1</I></PRE>
 
+<P>Here's a chart that compares the flag states to test operands. The argument
+is subtracted from <code>a</code> without modifying <code>a</code>,
+i.e. <code>a - <i>arg1</i></code>. When the carry flag is set, the zero flag
+is also set.  This is not necessarily the other way around too.
+
+
 <P><TABLE ALIGN=CENTER CLASS=info>
-	<TR CLASS=header> ALIGN=CENTER>
-		<TD>Assembler
-		<TD>High Level
-	<TR>	<TD>Carry
-		<TD><I>arg1</I> >= <CODE>a</CODE>
-	<TR>	<TD>Zero
-		<TD><I>arg1</I> == <CODE>a</CODE>
-	<TR>	<TD>No Carry
-		<TD><I>arg1</I> < <CODE>a</CODE>
-	<TR>	<TD>No Zero
-		<TD><I>arg1</I> != <CODE>a</CODE>
+	<TR CLASS=header ALIGN=CENTER>
+		<TD>Assembler</TD>
+		<TD>Flag Change</TD>
+    </TR>
+	<TR>
+      <TD><I>arg1</I> >= <CODE>a</CODE></TD>
+      <TD>Carry set</TD>
+    </TR>
+	<TR>
+	  <TD><I>arg1</I> < <CODE>a</CODE></TD>
+      <TD>Carry reset</TD>
+    </TR>
+	<TR>
+	  <TD><I>arg1</I> == <CODE>a</CODE></TD>
+      <TD>Zero set</TD>
+    </TR>
+	<TR>
+	  <TD><I>arg1</I> != <CODE>a</CODE></TD>
+      <TD>Zero reset</TD>
+    </TR>
 </TABLE>
 
-<P>The following chart* shows the
-relationships of the flags to different operations being
-performed.
-
-<P>Note: When the carry flag is set, the zero
-flag is also set.  This is not neccessarily the other way around too.
-
+<P>The following examples might help:
 
 <TABLE ALIGN=CENTER CLASS=info WIDTH="80%">
 	<TR CLASS=header>
