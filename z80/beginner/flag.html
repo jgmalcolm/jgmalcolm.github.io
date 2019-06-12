@@ -62,8 +62,10 @@ conditional branch (jump).
 
 <P>Here's a chart that compares the flag states to test operands. The argument
 is subtracted from <code>a</code> without modifying <code>a</code>,
-i.e. <code>a - <i>arg1</i></code>. When the carry flag is set, the zero flag
-is also set.  This is not necessarily the other way around too.
+i.e. <code>a - <i>arg1</i></code>. If <i>arg1</i> is greater
+than <code>a</code> then a carryover event happens and the carry flag is
+set. If <i>arg1</i> is less than <code>a</code>, then no event occurred so the
+carry flag is reset.
 
 
 <P><TABLE ALIGN=CENTER CLASS=info>
@@ -72,11 +74,11 @@ is also set.  This is not necessarily the other way around too.
 		<TD>Flag Change</TD>
     </TR>
 	<TR>
-      <TD><I>arg1</I> >= <CODE>a</CODE></TD>
+      <TD><I>arg1</I> > <CODE>a</CODE></TD>
       <TD>Carry set</TD>
     </TR>
 	<TR>
-	  <TD><I>arg1</I> < <CODE>a</CODE></TD>
+	  <TD><I>arg1</I> <= <CODE>a</CODE></TD>
       <TD>Carry reset</TD>
     </TR>
 	<TR>
