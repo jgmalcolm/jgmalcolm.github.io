@@ -335,6 +335,9 @@ me@jgmalcolm.com <br />
    (GNS). Sea Island, GA. May 2019. Oral.
 1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome: A Systematic Review." Georgia
    Neurosurgical Society (GNS), Sea Island, GA. May 2019. Oral.
+1. McMahon, Funk, Malcolm, Howard. "Weaning external ventricular drains in
+   aneurysmal subarachnoid hemorrhage: a case-control study." Georgia
+   Neurosurgical Society (GNS), Sea Island, GA. May 2019. Oral.
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
    "Stereotactic laser ablation is a safe and effective treatment for
    epileptogenic cerebral cavernous malformations" American Epilepsy Society
