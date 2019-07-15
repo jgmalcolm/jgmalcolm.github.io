@@ -329,6 +329,8 @@ me@jgmalcolm.com <br />
 
 ## Abstract, Poster, Letters
 
+1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome and Sickle Cell Disease:
+   A Systematic Review." Congress of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
 1. Tora, Malcolm, Mahmooth, Pujari, Steed, Rindler, Boulis, Ahmad. "Early Cranioplasty and Increased
    Odds of Complications in Traumatic Brain Injury – A 274 Patient Case Series." Congress of
    Neurological Surgeons (CNS). San Francisco, CA.  October 2019. Poster.
