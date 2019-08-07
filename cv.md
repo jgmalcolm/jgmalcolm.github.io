@@ -329,6 +329,9 @@ me@jgmalcolm.com <br />
 
 ## Abstract, Poster, Letters
 
+1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic laser ablation of deep-seated
+   cerebral cavernous malformations". Congress of Neurological Surgeons (CNS). San Francisco, CA. October
+   2019. Poster.
 1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome and Sickle Cell Disease:
    A Systematic Review." Congress of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
 1. Tora, Malcolm, Mahmooth, Pujari, Steed, Rindler, Boulis, Ahmad. "Early Cranioplasty and Increased
