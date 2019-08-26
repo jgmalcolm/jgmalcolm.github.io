@@ -198,9 +198,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty after decompressive
-   craniectomy: the effect of timing on neurological improvement and
-   complications." In *Evidence within Neurosurgery*.
 1. Malcolm, Barrow. "Combined transylvian and subtemporal approach to basilar
    tip and posterior cerebral aneurysms." In *Integrated Management of Complex
    Intracranial Lesions: Open, Endoscopic, and Keyhole Techniques*. Editor
@@ -208,6 +205,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty:  Does Timing Have Any
+   Effect on the Degree of Neurological Recovery or the Complication
+   Rate?". In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*.
+   p19-40, 2019. Springer doi:10.1007/978-3-030-16323-5_3
 1. JG Malcolm, MK Moore, D Refai, "Anterior/Anterolateral Thoracic Access and
    Stabilization from Posterior Approach: Transpedicular,
    Costotransversectomy, Lateral Extracavitary Approaches: Standard
