@@ -60,28 +60,11 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Pujari, Malcolm, Usmani, Bullock, Dietrich, Ahmad. "Hyperbaric
-   Oxygen Therapy in Spinal Cord Injury: A Review." *Submitted*
-1. Frerich, Kashlan, Malcolm, ... Gary/Rodts, Refai. "Safety profile and
-   radiographic outcomes of standalone 2-level anterior lumbar interbody
-   fusion." *Submitted*
-
-1. Mahmooth, Malcolm, McCracken, Kumar, Oyesiku(?), Olson(?), Wruble(?). "Brachytherapy
-   for craniopharyngiomas: a systematic review." *Preparing*
-1. Malcolm, Howard, Lamanna, Bray, Barrow, Grossberg, Boulis, Gross,
-   Willie. "Analysis of ### stereotactic and functional cases demonstrates
-   that overlapping surgery has no adverse effect on patient outcome."
-   *Preparing*
-1. Malcolm, Malcolm. "Retroperitoneal heterotopic ossification following
-   anterior lumbar interbody fusion with bone morphogenic protein."
-   *Preparing*
-
-- refai: cortical fusion
-- refai/howard/osama/jason: concurrent spine
-- vijay/barrow/haley: vascular malformations and long tract DTI
-- vijay/barrow/amit/lamanna: AVMs with associated aneurysms
-- ahmad: cranioplasty series
-- willie/neal: deep cavmals
+1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Stand-alone 2-level
+   Anterior Lumbar Interbody Fusion as a Safe Alternative to 360-degree
+   Stabilization, Even in the Setting of Prior Posterior Surgery." *Submitted*
+1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya
+   Syndrome and Sickle Cell Disease: A Systematic Review." *Submitted*
 
 {% endcomment %}
 
