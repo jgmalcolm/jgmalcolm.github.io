@@ -313,6 +313,14 @@ me@jgmalcolm.com <br />
 
 ## Abstract, Poster, Letters
 
+{% comment %}
+
+1. Tracy, Malcolm, Chiedo, LaxPati, Gelbard. "Posterior Cervical Spine Fusion
+   Is A Risk Factor for Feeding Gastrostomy Using a Propensity Score-Matched
+   Cohort." Submitted to ASIA.
+
+{% endcomment %}
+
 1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic laser ablation of deep-seated
    cerebral cavernous malformations". Congress of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
 1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome and Sickle Cell Disease:
