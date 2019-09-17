@@ -190,7 +190,7 @@ me@jgmalcolm.com <br />
 
 1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty:  Does Timing Have Any
    Effect on the Degree of Neurological Recovery or the Complication
-   Rate?". In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*
+   Rate?" In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*
    p19-40, 2019. Springer doi:10.1007/978-3-030-16323-5_3
 1. JG Malcolm, MK Moore, D Refai, "Anterior/Anterolateral Thoracic Access and
    Stabilization from Posterior Approach: Transpedicular,
