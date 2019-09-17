@@ -181,9 +181,9 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Malcolm, Barrow. "Combined transylvian and subtemporal approach to basilar
-   tip and posterior cerebral aneurysms." In *Integrated Management of Complex
-   Intracranial Lesions: Open, Endoscopic, and Keyhole Techniques*. Editor
+1. Malcolm, Barrow. "Transsylvian-subtemporal Approach to Anterior Circulation
+   and Basilar Apex Aneurysms." In *Integrated Management of Complex
+   Intracranial Lesions:  Open, Endoscopic, and Keyhole Techniques*. Editor
    Vijay Agarwal.
 
 {% endcomment %}
