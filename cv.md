@@ -321,19 +321,23 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic laser ablation of deep-seated
-   cerebral cavernous malformations". Congress of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
-1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome and Sickle Cell Disease:
-   A Systematic Review." Congress of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
-1. Tora, Malcolm, Mahmooth, Pujari, Steed, Rindler, Boulis, Ahmad. "Early Cranioplasty and Increased
-   Odds of Complications in Traumatic Brain Injury – A 274 Patient Case Series." Congress of
-   Neurological Surgeons (CNS). San Francisco, CA.  October 2019. Poster.
+1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic
+   laser ablation of deep-seated cerebral cavernous malformations".  Congress
+   of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Oral.
+1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya
+   Syndrome and Sickle Cell Disease:  A Systematic Review." Congress of
+   Neurological Surgeons (CNS). San Francisco, CA. October 2019. Poster.
+1. Tora, Malcolm, Mahmooth, Pujari, Steed, Rindler, Boulis, Ahmad.  "Early
+   Cranioplasty and Increased Odds of Complications in Traumatic Brain Injury
+   – A 274 Patient Case Series." Congress of Neurological Surgeons (CNS). San
+   Francisco, CA.  October 2019. Poster.
 1. Rich, Malcolm, Refai, Gary. "Early experience with oblique lateral
    interbody fusion (OLIF) with posterior percutaneous screw placement:
    Clinical and radiographic outcomes." Georgia Neurosurgical Society
    (GNS). Sea Island, GA. May 2019. Oral.
-1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome: A Systematic Review." Georgia
-   Neurosurgical Society (GNS), Sea Island, GA. May 2019. Oral.
+1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya
+   Syndrome: A Systematic Review."  Georgia Neurosurgical Society (GNS), Sea
+   Island, GA. May 2019. Oral.
 1. McMahon, Funk, Malcolm, Howard. "Weaning external ventricular drains in
    aneurysmal subarachnoid hemorrhage: a case-control study." Georgia
    Neurosurgical Society (GNS), Sea Island, GA. May 2019. Oral.
