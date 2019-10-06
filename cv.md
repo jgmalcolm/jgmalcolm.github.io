@@ -315,7 +315,7 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Tracy, Malcolm, Chiedo, LaxPati, Gelbard. "Posterior Cervical Spine Fusion
+1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
    Is A Risk Factor for Feeding Gastrostomy Using a Propensity Score-Matched
    Cohort." Submitted to ASIA.
 
