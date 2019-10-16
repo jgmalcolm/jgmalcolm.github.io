@@ -505,6 +505,7 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
+1. Malcolm. [Book Review: Neurosurgery Primary Board Review](https://amzn.to/35Af7aq). Neurosurgery. doi:10.1093/neuros/nyz496
 1. Malcolm. [Neurosurgery: A Case-Based Approach](https://amzn.to/2IQMpaO). Neurosurgery. doi:10.1093/neuros/nyz287
 1. Malcolm. [Cerebral Cortex](https://amzn.to/2FeFpAv). Neurosurgery. doi:10.1093/neuros/nyy257
 1. Malcolm. [Stereotactic Brain Microanatomy](http://amzn.to/2EEhJJI). Neurosurgery. doi:10.1093/neuros/nyy078
