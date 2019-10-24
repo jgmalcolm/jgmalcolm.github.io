@@ -330,7 +330,7 @@ me@jgmalcolm.com <br />
 1. Tora, Malcolm, Mahmooth, Pujari, Steed, Rindler, Boulis, Ahmad.  "Early
    Cranioplasty and Increased Odds of Complications in Traumatic Brain Injury
    – A 274 Patient Case Series." Congress of Neurological Surgeons (CNS). San
-   Francisco, CA.  October 2019. Poster. **Winner of Best Operative Technique Poster**
+   Francisco, CA.  October 2019. Poster. *Winner of Best Operative Technique Poster*
 1. Rich, Malcolm, Refai, Gary. "Early experience with oblique lateral
    interbody fusion (OLIF) with posterior percutaneous screw placement:
    Clinical and radiographic outcomes." Georgia Neurosurgical Society
