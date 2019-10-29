@@ -321,6 +321,21 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Greven, Malcolm, Chadd, Howard. "Overlapping functional and stereotactic
+   surgery: A retrospective cohort study of 90-day complications."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
+1. McMahon, Malcolm, Howard. "Laser Interstitial Thermal Therapy for Radiation
+   Necrosis and Metastatic Disease of the Cerebellum."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
+1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular sacrifice of V4 and PICA
+   for ruptured lesions: A retrospective case series."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
+1. Newman, Boulter, Malcolm, Pradilla. "Prognostics and Management of Patients
+   with Moyamoya Syndrome and Sickle Cell Disease: A retrospective review."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
+1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
+   series of an often missed diagnosis."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
 1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic
    laser ablation of deep-seated cerebral cavernous malformations".  Congress
    of Neurological Surgeons (CNS). San Francisco, CA. October 2019. Oral.
