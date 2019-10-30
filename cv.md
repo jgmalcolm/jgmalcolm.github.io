@@ -331,6 +331,11 @@ me@jgmalcolm.com <br />
 1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
    series of an often missed diagnosis."
    American Association of Neurologic Surgeons (AANS) 2020.
+1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
+   "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
+   Study Of 90-day Outcomes."
+   American Association of Neurologic Surgeons (AANS) 2020.
+ 1. Newman, Boulter, Malcolm, Pradilla.
 
 {% endcomment %}
 
