@@ -318,6 +318,19 @@ me@jgmalcolm.com <br />
 1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
    Is A Risk Factor for Feeding Gastrostomy Using a Propensity Score-Matched
    Cohort." Submitted to ASIA.
+1. Tracy, Malcolm, Gimbel, Gelbard. "The Acutely Injured Cord And Vasopressors:
+   Proceed With Caution In The Frail."
+   American Association of Neurologic Surgeons (AANS) 2020.
+1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular Sacrifice Of V4 And
+   PICA For Ruptured Lesions: A Retrospective Case Series."
+   American Association of Neurologic Surgeons (AANS) 2020.
+1. McMahon, Malcolm, Greven, Miller, Funk, Howard. "CSF Protein And Initial Blood
+   Burden Are Associated With Permanent Shunting In Patients With Aneurysmal
+   Subarachnoid Hemorrhage: A Retrospective Case Control Study."
+   American Association of Neurologic Surgeons (AANS) 2020.
+1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
+   series of an often missed diagnosis."
+   American Association of Neurologic Surgeons (AANS) 2020.
 
 {% endcomment %}
 
