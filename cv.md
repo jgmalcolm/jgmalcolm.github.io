@@ -315,9 +315,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
-   Is A Risk Factor for Feeding Gastrostomy Using a Propensity Score-Matched
-   Cohort." Submitted to ASIA.
 1. Tracy, Malcolm, Gimbel, Gelbard. "The Acutely Injured Cord And Vasopressors:
    Proceed With Caution In The Frail."
    American Association of Neurologic Surgeons (AANS) 2020.
@@ -335,10 +332,16 @@ me@jgmalcolm.com <br />
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
    American Association of Neurologic Surgeons (AANS) 2020.
- 1. Newman, Boulter, Malcolm, Pradilla.
+1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla.
+   "Prognostics and Management of Patients with Moyamoya Syndrome and Sickle
+   Cell Disease: A Retrospective Cohort Study."
+   American Association of Neurologic Surgeons (AANS) 2020.
 
 {% endcomment %}
 
+1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
+   Increases the Risk of Feeding Gastrostomy Using a Propensity Score Matched Cohort."
+   American Spinal Injury Association (ASIA), New Orleans, LA. May 2020. Oral.
 1. Greven, Malcolm, Chadd, Howard. "Overlapping functional and stereotactic
    surgery: A retrospective cohort study of 90-day complications."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
@@ -348,8 +351,9 @@ me@jgmalcolm.com <br />
 1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular sacrifice of V4 and PICA
    for ruptured lesions: A retrospective case series."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
-1. Newman, Boulter, Malcolm, Pradilla. "Prognostics and Management of Patients
-   with Moyamoya Syndrome and Sickle Cell Disease: A retrospective review."
+1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla.
+   "Prognostics and Management of Patients with Moyamoya Syndrome and Sickle
+   Cell Disease: A Retrospective Review."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
 1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
    series of an often missed diagnosis."
