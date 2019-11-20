@@ -60,13 +60,15 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Stand-alone 2-level
-   Anterior Lumbar Interbody Fusion as a Safe Alternative to 360-degree
-   Stabilization, Even in the Setting of Prior Posterior Surgery." *Submitted*
+1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
+   Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
+   Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
+
 {% endcomment %}
 
-1. Newman, Boulter, Malcolm, Pradilla. "Outcomes in Patients with Moyamoya Syndrome
-   and Sickle Cell Disease: A Systematic Review." World Neurosurgery. *Accepted*
+1. Newman, Boulter, Malcolm, Pradilla, Pradilla. "Outcomes in Patients with
+   Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
+   Neurosurgery 2019. doi:10.1016/j.wneu.2019.11.137
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross. "Safety and
    effectiveness of stereotactic laser ablation for epileptogenic cerebral
    cavernous malformations."  Epilepsia 60(2):220-232, 2019. doi:10.1111/epi.14634, pmid:30653657
