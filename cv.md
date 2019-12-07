@@ -319,6 +319,9 @@ me@jgmalcolm.com <br />
 1. Tracy, Malcolm, Gimbel, Gelbard. "The Acutely Injured Cord And Vasopressors:
    Proceed With Caution In The Frail."
    American Association of Neurologic Surgeons (AANS) 2020.
+1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
+   "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
+
 1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular Sacrifice Of V4 And
    PICA For Ruptured Lesions: A Retrospective Case Series."
    American Association of Neurologic Surgeons (AANS) 2020.
