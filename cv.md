@@ -329,9 +329,9 @@ me@jgmalcolm.com <br />
    Burden Are Associated With Permanent Shunting In Patients With Aneurysmal
    Subarachnoid Hemorrhage: A Retrospective Case Control Study."
    American Association of Neurologic Surgeons (AANS) 2020.
-1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
-   series of an often missed diagnosis."
-   American Association of Neurologic Surgeons (AANS) 2020.
+1. Laxpati, Malcolm, Refai, Gary.  "Spinal arachnoid webs: The largest case
+   series of an often missed diagnosis."  American Association of Neurologic
+   Surgeons (AANS) 2020.
 1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
@@ -359,7 +359,7 @@ me@jgmalcolm.com <br />
    "Prognostics and Management of Patients with Moyamoya Syndrome and Sickle
    Cell Disease: A Retrospective Review."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
-1. Laxpati, Malcolm, Gary.  "Spinal arachnoid webs: The largest case
+1. Laxpati, Malcolm, Refai, Gary.  "Spinal arachnoid webs: The largest case
    series of an often missed diagnosis."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
 1. Douglas, Greven, Rich, Malcolm, Gross, Willie. "MRI-guided stereotactic
