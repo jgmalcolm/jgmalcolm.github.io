@@ -63,6 +63,10 @@ me@jgmalcolm.com <br />
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
    Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
+1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.
+   "Early experience with oblique lateral interbody fusion (OLIF) with
+   posterior percutaneous screw placement (OLIFwPPS): Clinical and
+   radiographic outcomes" *In preparation*
 
 {% endcomment %}
 
