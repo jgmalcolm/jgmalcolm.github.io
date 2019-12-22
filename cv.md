@@ -70,8 +70,8 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Newman, Boulter, Malcolm, Pradilla, Pradilla. "Outcomes in Patients with
-   Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
+1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla. "Outcomes in Patients
+   with Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
    Neurosurgery 2019. doi:10.1016/j.wneu.2019.11.137
 1. Willie, Malcolm, Stern, Lowder, Neill, Cabaniss, Drane, Gross. "Safety and
    effectiveness of stereotactic laser ablation for epileptogenic cerebral
