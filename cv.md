@@ -320,15 +320,9 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Tracy, Malcolm, Gimbel, Gelbard. "The Acutely Injured Cord And Vasopressors:
-   Proceed With Caution In The Frail."
-   American Association of Neurologic Surgeons (AANS) 2020.
 1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
    "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
 
-1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular Sacrifice Of V4 And
-   PICA For Ruptured Lesions: A Retrospective Case Series."
-   American Association of Neurologic Surgeons (AANS) 2020.
 1. McMahon, Malcolm, Greven, Miller, Funk, Howard. "CSF Protein And Initial Blood
    Burden Are Associated With Permanent Shunting In Patients With Aneurysmal
    Subarachnoid Hemorrhage: A Retrospective Case Control Study."
@@ -336,10 +330,6 @@ me@jgmalcolm.com <br />
 1. Laxpati, Malcolm, Refai, Gary.  "Spinal arachnoid webs: The largest case
    series of an often missed diagnosis."  American Association of Neurologic
    Surgeons (AANS) 2020.
-1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
-   "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
-   Study Of 90-day Outcomes."
-   American Association of Neurologic Surgeons (AANS) 2020.
 1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla.
    "Prognostics and Management of Patients with Moyamoya Syndrome and Sickle
    Cell Disease: A Retrospective Cohort Study."
@@ -347,6 +337,16 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
+   "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
+   Study Of 90-day Outcomes."
+   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
+1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular Sacrifice Of V4 And
+   PICA For Ruptured Lesions: A Retrospective Case Series."
+   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
+1. Tracy, Malcolm, Gimbel, Gelbard. "The Acutely Injured Cord And Vasopressors:
+   Proceed With Caution In The Frail."
+   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. Oral.
 1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
    Increases the Risk of Feeding Gastrostomy Using a Propensity Score Matched Cohort."
    American Spinal Injury Association (ASIA), New Orleans, LA. May 2020. Oral.
