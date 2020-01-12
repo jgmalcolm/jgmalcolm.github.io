@@ -323,10 +323,6 @@ me@jgmalcolm.com <br />
 1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
    "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
 
-1. Laxpati, Malcolm, Refai, Gary.  "Spinal arachnoid webs: The largest case
-   series of an often missed diagnosis."  American Association of Neurologic
-   Surgeons (AANS) 2020.
-
 1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
@@ -334,6 +330,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Laxpati, Malcolm, Refai, Gary. "Spinal arachnoid webs: The largest case
+   series of an often missed diagnosis."
+   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
 1. McMahon, Malcolm, Willie. "Laser Interstitial Thermal Therapy for Radiation
    Necrosis and Metastatic Disease of the Cerebellum."
    American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
