@@ -323,8 +323,6 @@ me@jgmalcolm.com <br />
 1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
    "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
 
-1. McMahon - LITT - AANS
-
 1. Laxpati, Malcolm, Refai, Gary.  "Spinal arachnoid webs: The largest case
    series of an often missed diagnosis."  American Association of Neurologic
    Surgeons (AANS) 2020.
@@ -336,9 +334,12 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. McMahon, Malcolm, Greven, Miller, Funk, Howard. "CSF Protein And Initial Blood
-   Burden Are Associated With Permanent Shunting In Patients With Aneurysmal
-   Subarachnoid Hemorrhage: A Retrospective Case Control Study."
+1. McMahon, Malcolm, Willie. "Laser Interstitial Thermal Therapy for Radiation
+   Necrosis and Metastatic Disease of the Cerebellum."
+   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
+1. McMahon, Malcolm, Douglas, Greven, Funk, Howard. "CSF Protein and Initial
+   Blood Burden are Associated with Progression to Permanent Shunt in Patients
+   with Aneurysmal Subarachnoid Hemorrhage: A Case Control Study."
    American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
 1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla.
    "Prognostics and Management of Patients with Moyamoya Syndrome and Sickle
