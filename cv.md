@@ -326,7 +326,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
-   American Association of Neurologic Surgeons (AANS). Boston, MA. April 2020. E-poster.
+   American Society for Stereotactic and Functional Neurosurgery (ASSFN). Boston, MA. June 2020. E-poster.
 
 {% endcomment %}
 
