@@ -353,10 +353,10 @@ me@jgmalcolm.com <br />
 1. Tracy, Malcolm, Chiedo, Laxpati, Gelbard. "Posterior Cervical Spine Fusion
    Increases the Risk of Feeding Gastrostomy Using a Propensity Score Matched Cohort."
    American Spinal Injury Association (ASIA), New Orleans, LA. May 2020. Oral.
-1. Greven, Malcolm, Chadd, Howard. "Overlapping functional and stereotactic
+1. Greven, Malcolm, Lamanna, Howard. "Overlapping functional and stereotactic
    surgery: A retrospective cohort study of 90-day complications."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
-1. McMahon, Malcolm, Howard. "Laser Interstitial Thermal Therapy for Radiation
+1. McMahon, Malcolm, Willie. "Laser Interstitial Thermal Therapy for Radiation
    Necrosis and Metastatic Disease of the Cerebellum."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2019. Oral.
 1. Malcolm, Laxpati, Grossberg, Howard. "Endovascular sacrifice of V4 and PICA
