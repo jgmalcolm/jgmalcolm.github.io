@@ -648,8 +648,8 @@ me@jgmalcolm.com <br />
 * Journal of Medical Imaging (SPIE)
 * Journal of Magnetic Resonance Imaging (JMRI)
 * Journal of Electronic Imaging (JEI)
-* Journal of Neurology (2019)
-* World Neurosurgery (2019)
+* Journal of Neurology
+* World Neurosurgery (WNS)
 * Medical Physics (MP)
 * Cureus
 
