@@ -67,6 +67,10 @@ me@jgmalcolm.com <br />
    "Early experience with oblique lateral interbody fusion (OLIF) with
    posterior percutaneous screw placement (OLIFwPPS): Clinical and
    radiographic outcomes" *In preparation*
+1. Miller\*, Malcolm\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
+   Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
+   cavernous malformations." *Submitted*
+
 
 {% endcomment %}
 
