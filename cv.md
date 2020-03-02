@@ -184,15 +184,10 @@ me@jgmalcolm.com <br />
 
 ## Book Chapters
 
-{% comment %}
-
 1. Malcolm, Barrow. "Transsylvian-subtemporal Approach to Anterior Circulation
    and Basilar Apex Aneurysms." In *Integrated Management of Complex
    Intracranial Lesions:  Open, Endoscopic, and Keyhole Techniques*. Editor
-   Vijay Agarwal.
-
-{% endcomment %}
-
+   Vijay Agarwal. *In press*
 1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty:  Does Timing Have Any
    Effect on the Degree of Neurological Recovery or the Complication
    Rate?" In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*
