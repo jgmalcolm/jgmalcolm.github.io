@@ -560,9 +560,9 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
-1. Malcolm, Ahmad. [Book Review: Cervical Trauma: Surgical Management](https://amzn.to/3awQJZx). Operative Neurosurgery.
-1. Malcolm. [Book Review: Deep Brain Stimulation: Techniques and Practices](https://amzn.to/2TdvMMW). Operative Neurosurgery. doi:10.1093/onsurg/opaa072
-1. Malcolm. [Book Review: Neurosurgery Primary Board Review](https://amzn.to/35Af7aq). Neurosurgery. doi:10.1093/neuros/nyz496
+1. Malcolm, Ahmad. [Cervical Trauma: Surgical Management](https://amzn.to/3awQJZx). Operative Neurosurgery.
+1. Malcolm. [Deep Brain Stimulation: Techniques and Practices](https://amzn.to/2TdvMMW). Operative Neurosurgery. doi:10.1093/onsurg/opaa072
+1. Malcolm. [Neurosurgery Primary Board Review](https://amzn.to/35Af7aq). Neurosurgery. doi:10.1093/neuros/nyz496
 1. Malcolm. [Neurosurgery: A Case-Based Approach](https://amzn.to/2IQMpaO). Neurosurgery. doi:10.1093/neuros/nyz287
 1. Malcolm. [Cerebral Cortex](https://amzn.to/2FeFpAv). Neurosurgery. doi:10.1093/neuros/nyy257
 1. Malcolm. [Stereotactic Brain Microanatomy](http://amzn.to/2EEhJJI). Neurosurgery. doi:10.1093/neuros/nyy078
