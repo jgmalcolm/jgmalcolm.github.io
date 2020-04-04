@@ -563,7 +563,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Ahmad. [Cervical Trauma: Surgical Management](https://amzn.to/3awQJZx).
    Operative Neurosurgery.
 1. Malcolm. [Deep Brain Stimulation: Techniques and Practices](https://amzn.to/2TdvMMW).
-   Operative Neurosurgery. doi:10.1093/onsurg/opaa072
+   Operative Neurosurgery. doi:10.1093/ons/opaa072
 1. Malcolm. [Neurosurgery Primary Board Review](https://amzn.to/35Af7aq).
    Neurosurgery. doi:10.1093/neuros/nyz496
 1. Malcolm. [Neurosurgery: A Case-Based Approach](https://amzn.to/2IQMpaO).
