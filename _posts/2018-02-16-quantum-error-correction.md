@@ -990,8 +990,96 @@ realizations of such systems.
 
 {% comment %}
 
-\nocite{Gottesman2005,Gottesman1997,QCQI,Preskill1999,Spence2005,Steane2004,Preskill1998}
-
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup
+
+@article{Shor1995,
+  author = "P. Shor",
+  title = "Scheme for reducing decoherence in quantum memory",
+  journal = "Physical Review Letters A",
+  volume = 52,
+  number = "R2493",
+  year = 1995
+}
+@article{Calderbank1996,
+  author = "A. Calderbank and P. Shor",
+  title = "Good quantum error-correcting codes exist",
+  journal = "Physical Review Letters A",
+  volume = 54,
+  number = 2,
+  year = 1996,
+  eprint = "quant-ph/9512032"
+}
+@article{Steane1996b,
+  author = "A. Steane",
+  title = "Error correcting codes in quantum theory",
+  journal = "Phys. Rev. Lett.",
+  volume = 77,
+  number = 5,
+  year = 1996
+}
+@article{Laflamme1996,
+  author = "R. Laflamme and C. Miquel and J. Paz and W. Zurek",
+  title = "Perfect quantum error correction code",
+  journal = "Phys. Rev. Lett.",
+  volume = 77,
+  number = 1998,
+  year = 1996
+}
+@article{Bennett1996,
+  author = "C. Bennett and D. DiVincenzo and J. Smolin and W. Wootters",
+  title = "Mixed-state entanglement and quantum error correction",
+  journal = "Phys. Rev. Lett. A",
+  volume = 54,
+  number = 3824,
+  year = 1996
+}
+@article{Steane2004,
+  author = "A. Steane",
+  title = "Quantum Errors Corrected",
+  journal = "Nature",
+  year = 2004,
+  volume = 432
+}
+@article{Preskill1998,
+  author = "J. Preskill",
+  title = "Reliable Quantum Computers",
+  journal = "Proc. R. Soc. Lond. A",
+  volume = 454,
+  number = 1969,
+  year = 1998,
+}
+@misc{Spence2005,
+  author = "S. Spence Adams",
+  title = "Introduction to Algebraic Coding Theory",
+  howpublished = "\url{http://www.math.cornell.edu/~kbrown/336/coding.pdf}",
+  year = 2005
+}
+@misc{Preskill1999,
+  author = "J. Preskill",
+  title = "Physics 219: Quantum Computation Lecture Notes",
+  howpublished = "\url{http://www.theory.caltech.edu/~preskill/ph219}",
+  year = 1999
+}
+@article{Gottesman2005,
+  author = "D. Gottesman",
+  title = "Quantum Error Correction and Fault-Tolerance",
+  journal = "Encyclopedia of Mathematical Physics",
+  volume = 4,
+  year = 2006,
+  eprint = "quant-ph/0507174"
+}
+@phdthesis{Gottesman1997,
+  author = "D. Gottesman",
+  title = "Stabilizer Codes and Quantum Error Correction",
+  year = 1997,
+  school = "Caltech",
+  eprint = "quant-ph/9705052"
+}
+@book{QCQI,
+  author = "M. Nielsen and I. Chuang",
+  title = "Quantum Computation and Quantum Information",
+  publisher = "Cambridge",
+  year = 2000
+}
 
 {% endcomment %}
