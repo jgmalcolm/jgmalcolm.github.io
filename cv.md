@@ -330,6 +330,12 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Bray, Stricsek, Malcolm, Gutierrez, Greven, Barrow, Rodts, Gary, Refai.
+   "Letter: Maintaining Neurosurgical Resident Education and Safety During the COVID-19 Pandemic."
+   Neurosurgery, *Accepted*.
+1. Greven, Rich, Malcolm, Bray, Rodts, Refai, Gary.
+   "Letter: Neurosurgical Management of Spinal Pathology Via Telemedicine During the COVID-19 Pandemic:
+   Early Experience and Unique Challenges". Neurosurgery, *Accepted*.
 1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
