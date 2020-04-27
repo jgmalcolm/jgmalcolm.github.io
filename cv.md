@@ -335,7 +335,7 @@ me@jgmalcolm.com <br />
    Neurosurgery, *Accepted*.
 1. Bray, Stricsek, Malcolm, Gutierrez, Greven, Barrow, Rodts, Gary, Refai.
    "Letter: Maintaining Neurosurgical Resident Education and Safety During the COVID-19 Pandemic."
-   Neurosurgery, *Accepted*.
+   Neurosurgery, doi:10.1093/neuros/nyaa164
 1. Greven, Rich, Malcolm, Bray, Rodts, Refai, Gary.
    "Letter: Neurosurgical Management of Spinal Pathology Via Telemedicine During the COVID-19 Pandemic:
    Early Experience and Unique Challenges". Neurosurgery, *Accepted*.
