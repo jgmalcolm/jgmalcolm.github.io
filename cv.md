@@ -62,7 +62,7 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
    "Endovascular sacrifice of the proximal posterior inferior cerebellar artery
-   for ruptured 1intracranial aneurysmsis safe and effective."
+   for ruptured intracranial aneurysms is safe and effective."
    *In preparation*
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
