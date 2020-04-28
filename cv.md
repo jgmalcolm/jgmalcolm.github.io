@@ -60,6 +60,10 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
+1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
+   "Endovascular sacrifice of the proximal posterior inferior cerebellar artery
+   for ruptured 1intracranial aneurysmsis safe and effective."
+   *In preparation*
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
    Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
@@ -72,10 +76,6 @@ me@jgmalcolm.com <br />
 1. Miller\*, Malcolm\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
-1. Stern, Malcolm, Gross, Willie, Drane.  "Letter: Magnetic Resonance
-   Imaging-Guided Laser Interstitial Thermal Therapy for Epilepsy: Systemic
-   Review of Technique, Indications, and Outcomes." *Submitted*
-
 
 {% endcomment %}
 
