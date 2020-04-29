@@ -338,7 +338,7 @@ me@jgmalcolm.com <br />
    Neurosurgery, doi:10.1093/neuros/nyaa164
 1. Greven, Rich, Malcolm, Bray, Rodts, Refai, Gary.
    "Letter: Neurosurgical Management of Spinal Pathology Via Telemedicine During the COVID-19 Pandemic:
-   Early Experience and Unique Challenges". Neurosurgery, *Accepted*.
+   Early Experience and Unique Challenges". Neurosurgery, doi:10.1093/neuros/nyaa165
 1. Malcolm, Howard, Greven, Campbell, Lamanna, Boulis, Gross, Willie.
    "Overlapping Functional And Stereotactic Surgery: A Retrospective Cohort
    Study Of 90-day Outcomes."
