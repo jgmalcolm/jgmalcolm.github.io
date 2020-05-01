@@ -17,6 +17,7 @@ me@jgmalcolm.com <br />
 
 - Neurosurgery Residency, expected 2024
   - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
+  - Alpha Omega Alpha Honor Society (Housestaff Award), 2020
 - MD, May 2017
   - Joseph B Whitehead Surgery Scholarship
 
@@ -647,7 +648,8 @@ me@jgmalcolm.com <br />
 
 ## Awards
 
-* Joseph B Whitehead Scholarship, Emory Medical School, 2016
+* Alpha Omega Alpha Honor Society, Emory Medical School (2020)
+* Joseph B Whitehead Scholarship, Emory Medical School (2016)
 * AccelerEyes, winner of Georgia Research Alliance / Technology Association of Georgia award, $100k cash, $200k services (2009) ([www](http://www.bizjournals.com/atlanta/blog/atlantech/2009/06/accelereyes_bags_gratag_biz_launch_competition.html),[www](https://www.ece.gatech.edu/news/57038/accelereyes-named-gratag-award-finalist))
 * AccelerEyes, winner of Georgia Tech Business Plan Competition, $10k cash prize (2008) ([www](https://www.scheller.gatech.edu/news-events/latest-news/2011/articles/SpherIngenics.html))
 * Outstanding Undergraduate Teaching Assistant, Georgia Tech, Dept. of Computer Science (2003)
