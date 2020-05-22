@@ -61,10 +61,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
-   "Endovascular sacrifice of the proximal posterior inferior cerebellar artery
-   for ruptured intracranial aneurysms is safe and effective."
-   *In preparation*
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
    Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
@@ -80,6 +76,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm\*, Grossberg\*, Laxpati, Alawieh, Tong, Cawley, Howard.
+   "Endovascular sacrifice of the proximal posterior inferior cerebellar
+   artery for treatment of ruptured intracranial aneurysms."
+   Journal of NeuroInterventional Surgery. *Accepted*
 1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla. "Outcomes in Patients
    with Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
    Neurosurgery 135:165-170, 2020. doi:10.1016/j.wneu.2019.11.137
