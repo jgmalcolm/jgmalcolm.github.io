@@ -22,6 +22,7 @@ me@jgmalcolm.com <br />
   - House Staff Organization Professionalism Excellence (HOPE) Award - Overall, June 2020
 - MD, May 2017
   - Joseph B Whitehead Surgery Scholarship
+  - Halsted Award 2017
 
 **Brigham & Women's Hospital, Boston, MA**
 
