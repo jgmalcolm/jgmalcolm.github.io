@@ -18,11 +18,10 @@ me@jgmalcolm.com <br />
 - Neurosurgery Residency, expected 2024
   - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
   - Alpha Omega Alpha Honor Society (Housestaff Award), May 2020
-  - House Staff Organization Professionalism Excellence (HOPE) Award - Neurosurgery, June 2020
-  - House Staff Organization Professionalism Excellence (HOPE) Award - Overall, June 2020
+  - House Staff Organization Professionalism Excellence (HOPE) Award - Overall and Neurosurgery categories, June 2020
 - MD, May 2017
-  - Joseph B Whitehead Surgery Scholarship
-  - Halsted Award 2017
+  - Joseph B Whitehead Surgery Scholarship, August 2016
+  - Halsted Award, May 2017
 
 **Brigham & Women's Hospital, Boston, MA**
 
@@ -679,6 +678,7 @@ me@jgmalcolm.com <br />
 * IEEE Transactions on Image Processing (TIP)
 * IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)
 * IEEE Transactions on Information Technology in Biomedicine (TITB)
+* IEEE Access
 * Journal of Medical Imaging (SPIE)
 * Journal of Magnetic Resonance Imaging (JMRI)
 * Journal of Electronic Imaging (JEI)
