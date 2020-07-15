@@ -117,7 +117,7 @@ me@jgmalcolm.com <br />
    [Early cranioplasty is associated with greater neurologic improvement: A systematic review and meta-analysis](/pubs/malcolm-2018-neurologic.pdf).
    Neurosurgery 82(3):278-288, 2018. pmid:28419358, doi:10.1093/neuros/nyx182
 1. Mahmooth, Malcolm, Wetzel, Ahmad.
-   [Unusual cause of encephalopathy after brain surgery](/pubs/others/mahmooth-2018-encephalopathy.pdf).
+   [Unusual cause of encephalopathy after brain surgery](/pubs/others/mahmooth-2017-encephalopathy.pdf).
    BMJ Case Reports, Dec 2017.  pmid:29196311, doi:10.1136/bcr-2017-222253
 1. Agarwal, Malcolm, Pradilla, Barrow.
    [Tractography for Optic Radiation Preservation in Transcortical Approaches to Intracerebral Lesions:  Presentation of a Case and a Review of the Literature](/pubs/others/agarwal-dti-2017.pdf).
