@@ -78,7 +78,7 @@ me@jgmalcolm.com <br />
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad. "Complication Rates in Early vs Late Cranioplasty – A 14-Year Single
    Center Experience." *Submitted*
-1. Miller\*, Malcolm\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
+1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
 1. Newman, McMahon, Boulter, Malcolm, Chern, Barrow, Pradilla.
