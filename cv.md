@@ -206,6 +206,9 @@ me@jgmalcolm.com <br />
 
 ## Book Chapters
 
+1. Malcolm, Laxpati, Aliawah, Oyesiku. "How to Conduct Meaningful Research:
+   How Not to Reinvent Just Another Wheel." In *Surviving
+   Neurosurgery*. Editors Agarwal, Reddy. *In press*
 1. Malcolm, Barrow. "Transsylvian-subtemporal Approach to Anterior Circulation
    and Basilar Apex Aneurysms." In *Integrated Management of Complex
    Intracranial Lesions:  Open, Endoscopic, and Keyhole Techniques*. Editor
