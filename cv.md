@@ -348,7 +348,7 @@ me@jgmalcolm.com <br />
 1. Stern, Malcolm, Willie, Gross, Drane.
    "Letter: MRI-Guided Laser Interstitial Thermal Therapy for Epilepsy: Systematic Review of Technique,
    Indications, and Outcomes."
-   Neurosurgery, doi:10.1093/neuros/nyaa274
+   Neurosurgery 87(3):E438–E439, 2020. doi:10.1093/neuros/nyaa274, pmid:32615597
 1. Bray, Stricsek, Malcolm, Gutierrez, Greven, Barrow, Rodts, Gary, Refai.
    "Letter: Maintaining Neurosurgical Resident Education and Safety During the COVID-19 Pandemic."
    Neurosurgery, doi:10.1093/neuros/nyaa164
