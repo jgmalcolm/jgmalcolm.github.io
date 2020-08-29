@@ -720,8 +720,8 @@ var html = $('main').html();
 $('main').html(html.replace(/(J\.?|J\.? ?G\.?) Malcolm/g, '<b>$&</b>')
                    .replace(/>Malcolm/g, '><b>Malcolm</b>')
                    .replace(/, Malcolm/g, ', <b>Malcolm</b>')
-                   .replace(/DOI:(10.(\d)+)\/([^\s<,]+)/gi, "<a href='http://dx.doi.org/$1/$3'>doi:$1/$3</a>")
-                   .replace(/PMC([\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pmc/articles/PMC$1'>pubmed:$1</a>")
-                   .replace(/PMID:([\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pubmed/$1'>pubmed:$1</a>"));
+                   .replace(/DOI:(10.(\d)+)\/([^\s<,]+)/gi, "<a href='http://dx.doi.org/$1/$3'>$1/$3</a>")
+                   .replace(/PMC([\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pmc/articles/PMC$1'>$1</a>")
+                   .replace(/PMID:([\d]+)/gi, "<a href='http://www.ncbi.nlm.nih.gov/pubmed/$1'>$1</a>"));
 //-->
 </script>
