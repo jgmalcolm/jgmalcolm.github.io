@@ -72,9 +72,6 @@ me@jgmalcolm.com <br />
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
    Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
-1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
-   oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
-   placement (OLIFwPPS): Clinical and radiographic outcomes." *Submitted*
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad. "Complication Rates in Early vs Late Cranioplasty – A 14-Year Single
    Center Experience." *Submitted*
@@ -87,6 +84,11 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
+   oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
+   placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
+   Interdisciplinary Neurosurgery: Advanced Techniques and Case Management,
+   *Accepted*
 1. Malcolm\*, Grossberg\*, Laxpati, Alawieh, Tong, Cawley, Howard.
    "Endovascular sacrifice of the proximal posterior inferior cerebellar
    artery for treatment of ruptured intracranial aneurysms."
