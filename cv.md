@@ -72,9 +72,6 @@ me@jgmalcolm.com <br />
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
    Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
-1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
-   Ahmad. "Complication Rates in Early vs Late Cranioplasty – A 14-Year Single
-   Center Experience." *Submitted*
 1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
@@ -88,6 +85,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
+   Ahmad.  "Complications in Early vs Late Cranioplasty – 14 Year Single
+   Center Experience." Operative Neurosurgery, *Accepted*
 1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
    placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
