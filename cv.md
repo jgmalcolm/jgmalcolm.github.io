@@ -75,10 +75,10 @@ me@jgmalcolm.com <br />
 1. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Dramatic Reduction in Stroke Risk in Patients
    with Sickle Cell-Associated Moyamoya Syndrome." *In preparation*
-1. McMahon\*, Malcolm\*, Douglas, Greven, Samuels, Cawley, Barrow, Grossberg,
-   Howard. "Shunt-Dependent Hydrocephalus After Aneurysmal Subarachnoid
-   Hemorrhage: Identification of Novel Prognostic Variables and Creation of a
-   Stronger Predictive Model." *In preparation*
+1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
+   Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
+   Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
+   Creation of a Stronger Predictive Model." *In preparation*
 
 {% endcomment %}
 
