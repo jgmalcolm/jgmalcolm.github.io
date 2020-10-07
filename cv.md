@@ -66,9 +66,9 @@ me@jgmalcolm.com <br />
 1. Ashraf, Luther, McMahon, Malcolm, Arzumanov, Mansour, Lee, Willie, Komotar, Danish.
    "Magnetic Resonance-Guided Laser Induced Thermal Therapy for Posterior Fossa Neoplasms"
    JNS submitted
-1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
-   Radiographic Outcomes of Stand-alone 2-level Anterior Lumbar Interbody
-   Fusion: A Case Series of 41 Consecutive Patients." *Submitted*
+1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and Radiographic and
+   Clinical Outcomes of Stand-alone 2-level Anterior Lumbar Interbody Fusion: A Case
+   Series of 41 Consecutive Patients." *Submitted*
 1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
