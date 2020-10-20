@@ -79,9 +79,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour; Lee, Willie, Komotar,
+1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
    Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
-   Posterior Fossa Neoplasms" Journal of Neuro-Oncology. *Accepted*
+   Posterior Fossa Neoplasms" Journal of Neuro-Oncology.
+   doi:10.1007/s11060-020-03645-y
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
    spine patients: Questionnaire assessment of 346 consecutive patients."
