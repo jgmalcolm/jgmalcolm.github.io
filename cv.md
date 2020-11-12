@@ -70,12 +70,15 @@ me@jgmalcolm.com <br />
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
 1. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
-   "Revascularization is Associated with a Dramatic Reduction in Stroke Risk in Patients
-   with Sickle Cell-Associated Moyamoya Syndrome." *In preparation*
+   "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
+   Cell-Associated Moyamoya Syndrome." *In submission*
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
-   Creation of a Stronger Predictive Model." *In preparation*
+   Creation of a Stronger Predictive Model." *In submission*
+1. Stricsek, Kashlan, Malcolm, Refai. "Retrospective Review Comparing Cortical Bone
+   Trajectory with Traditional Trajectory Pedicle Screw Placement in the setting of
+   Transforaminal Lumbar Interbody Fusion." *In submission*
 
 {% endcomment %}
 
