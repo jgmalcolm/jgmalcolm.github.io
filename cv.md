@@ -89,7 +89,7 @@ me@jgmalcolm.com <br />
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
    spine patients: Questionnaire assessment of 346 consecutive patients."
-   Spine, *Accepted*
+   Spine, pmid:33186272, doi:10.1097/BRS.0000000000003821
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad.  "Complications in Early vs Late Cranioplasty – 14 Year Single
    Center Experience." Operative Neurosurgery, *Accepted*
