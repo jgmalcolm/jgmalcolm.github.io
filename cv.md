@@ -63,9 +63,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and Radiographic and
-   Clinical Outcomes of Stand-alone 2-level Anterior Lumbar Interbody Fusion: A Case
-   Series of 41 Consecutive Patients." *Submitted*
 1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
    Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
    cavernous malformations." *Submitted*
@@ -82,6 +79,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
+   Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
+   Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
+   e11684, 2020. doi:10.7759/cureus.11684
 1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
    Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
    Posterior Fossa Neoplasms" Journal of Neuro-Oncology.
