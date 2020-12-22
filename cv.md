@@ -355,8 +355,11 @@ me@jgmalcolm.com <br />
 1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
    "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
 
-
 {% endcomment %}
+
+1. Philbrick, Malcolm, Pradilla, Grossberg, Ahmad, Gimbel. "Traumatic CervicalFacet Dislocation Treated
+   with Anterior Cervical Discectomy and Fusion: A series of 27 cases."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2020. Oral.
 1. Stern, Malcolm, Willie, Gross, Drane.
    "Letter: MRI-Guided Laser Interstitial Thermal Therapy for Epilepsy: Systematic Review of Technique,
    Indications, and Outcomes."
