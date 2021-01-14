@@ -85,7 +85,7 @@ me@jgmalcolm.com <br />
    e11684, 2020. doi:10.7759/cureus.11684
 1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
    Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
-   Posterior Fossa Neoplasms" Journal of Neuro-Oncology.
+   Posterior Fossa Neoplasms" Journal of Neuro-Oncology (JNO) 149:533–542, 2020.
    doi:10.1007/s11060-020-03645-y
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
@@ -97,12 +97,13 @@ me@jgmalcolm.com <br />
 1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
    placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
-   Interdisciplinary Neurosurgery: Advanced Techniques and Case Management,
+   Interdisciplinary Neurosurgery: Advanced Techniques and Case Management, 23:100900, 2021
    doi:10.1016/j.inat.2020.100900
 1. Malcolm\*, Grossberg\*, Laxpati, Alawieh, Tong, Cawley, Howard.
    "Endovascular sacrifice of the proximal posterior inferior cerebellar
    artery for treatment of ruptured intracranial aneurysms."
-   Journal of NeuroInterventional Surgery. doi:10.1136/neurintsurg-2020-016261
+   Journal of NeuroInterventional Surgery (JNIS) 12:777-782, 2020.
+   doi:10.1136/neurintsurg-2020-016261
 1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla. "Outcomes in Patients
    with Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
    Neurosurgery 135:165-170, 2020. doi:10.1016/j.wneu.2019.11.137, pmid:31790841
