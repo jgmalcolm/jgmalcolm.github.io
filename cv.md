@@ -93,7 +93,8 @@ me@jgmalcolm.com <br />
    Spine, pmid:33186272, doi:10.1097/BRS.0000000000003821
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad.  "Complications in Early vs Late Cranioplasty – 14 Year Single
-   Center Experience." Operative Neurosurgery, *Accepted*
+   Center Experience." Operative Neurosurgery,
+   doi:10.1093/ons/opaa408
 1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
    placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
