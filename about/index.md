@@ -7,7 +7,8 @@ title: "Hi there!"
 
 I'm currently a neurosurgery resident at Emory in Atlanta, creator of
 [Pharm450](//pharm450.com), co-creator of [ArrayFire](http://arrayfire.com),
-[scientist](/pubs/research.html), and husband to an [awesome woman].
+[scientist](/pubs/research.html), husband to an [awesome woman], and father of
+two small humans..
 
  [awesome woman]: http://www.huffpowellbailey.com/lawyers/kristin-e-malcolm/
 
