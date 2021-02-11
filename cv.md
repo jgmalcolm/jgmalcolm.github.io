@@ -79,6 +79,9 @@ me@jgmalcolm.com <br />
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in the
    Largest Case Series." *In submission*
+1. Hamilton, Malcolm, Desai, Reisner, Chern. "The Utility of Intraoperative
+   MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
+   Cohort Study." *Submitted*
 
 {% endcomment %}
 
