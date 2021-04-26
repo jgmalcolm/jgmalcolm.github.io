@@ -96,10 +96,10 @@ me@jgmalcolm.com <br />
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
    spine patients: Questionnaire assessment of 346 consecutive patients."
-   Spine, pmid:33186272, doi:10.1097/BRS.0000000000003821
+   Spine 46(7):472-477, 2021, pmid:33186272, doi:10.1097/BRS.0000000000003821
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad.  "Complications in Early vs Late Cranioplasty – 14 Year Single
-   Center Experience." Operative Neurosurgery,
+   Center Experience." Operative Neurosurgery 20(4):389–396, 2021,
    doi:10.1093/ons/opaa408
 1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
