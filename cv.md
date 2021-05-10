@@ -63,9 +63,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
-   Willie.  "MRI-guided stereotactic laser ablation of subcortical cerebral
-   cavernous malformations." *Submitted*
 1. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
    Cell-Associated Moyamoya Syndrome." *In submission*
@@ -85,6 +82,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
+   Willie.  "Feasibility and morbidity of MRI-guided stereotactic laser
+   ablation of deep cerebral cavernous malformations: A report of four cases."
+   Neurosurgery, *Accepted*
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
    Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
