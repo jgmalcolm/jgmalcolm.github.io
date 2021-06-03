@@ -82,9 +82,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Malcolm\*, Miller\*, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross,
-   Willie.  "Feasibility and morbidity of MRI-guided stereotactic laser
-   ablation of deep cerebral cavernous malformations: A report of four cases."
+1. Malcolm, Miller, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
+   "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
+   deep cerebral cavernous malformations: A report of four cases."
    Neurosurgery, *Accepted*
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
