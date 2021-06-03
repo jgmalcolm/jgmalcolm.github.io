@@ -369,6 +369,12 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Douglas, Dawoud, Greven, Albers, Mustroph, Malcolm, Gimbel.
+   "Devastating Neurological Injury and Resource Expenditure: Experience from a Level 1 Trauma Center."
+   Georgia Neurosurgical Society (GNS). Sea Island, GA. May 2021. Oral.
+1. Greven, Douglas, Malcolm, Campbell, Howard, Lamanna, Willie, Boulis, Gross.
+   "Overlapping functional and stereotactic surgery: A retrospective cohort study of 1-year complications."
+   Georgia Neurosurgical Society (GNS). Sea Island, GA. May 2021. Oral.
 1. Philbrick, Malcolm, Pradilla, Grossberg, Ahmad, Gimbel. "Traumatic CervicalFacet Dislocation Treated
    with Anterior Cervical Discectomy and Fusion: A series of 27 cases."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2020. Oral.
