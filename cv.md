@@ -70,9 +70,10 @@ me@jgmalcolm.com <br />
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
    Creation of a Stronger Predictive Model." *In submission*
-1. Stricsek, Kashlan, Malcolm, Refai. "Retrospective Review Comparing Cortical Bone
-   Trajectory with Traditional Trajectory Pedicle Screw Placement in the setting of
-   Transforaminal Lumbar Interbody Fusion." *In submission*
+1. Gutierrez, Stricsek, Kashlan, Malcolm, Refai. "Retrospective Review
+   Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
+   Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
+   *In submission*
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in the
    Largest Case Series." *In submission*
