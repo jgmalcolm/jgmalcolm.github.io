@@ -63,7 +63,11 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
+1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
+   "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
+   first time on the day of surgery compared to historical controls."
+   *In preparation*
+3. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
    Cell-Associated Moyamoya Syndrome." *In submission*
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
