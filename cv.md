@@ -90,7 +90,7 @@ me@jgmalcolm.com <br />
 1. Malcolm, Miller, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
-   Neurosurgery, *Accepted*
+   Neurosurgery, *Accepted*, doi:10.1093/neuros/nyab241
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
    Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
