@@ -370,7 +370,7 @@ me@jgmalcolm.com <br />
    "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
 1. Revuelta Barbero, Malcolm, Soriano, Bray, Mattox, Pradilla.
    "Microsurgical Gross-Total Resection of an Intracanalicular-Cisternal (Koos 2) Vestibular Schwannoma
-   via a Retrosigmoid Approach." Neurosurgical Focus Video
+   via a Retrosigmoid Approach." World Neurosurgery
 
 {% endcomment %}
 
