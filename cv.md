@@ -78,15 +78,15 @@ me@jgmalcolm.com <br />
    Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
    Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
    *In submission*
-1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
-   "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in the
-   Largest Case Series." *In submission*
 1. Hamilton, Malcolm, Desai, Reisner, Chern. "The Utility of Intraoperative
    MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
    Cohort Study." *Submitted*
 
 {% endcomment %}
 
+1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
+   "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
+   Patients." Neurosurgery, *Accepted*
 1. Malcolm, Miller, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
