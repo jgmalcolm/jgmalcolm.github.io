@@ -113,13 +113,15 @@ me@jgmalcolm.com <br />
    Interdisciplinary Neurosurgery: Advanced Techniques and Case Management, 23:100900, 2021
    doi:10.1016/j.inat.2020.100900
 1. Malcolm\*, Grossberg\*, Laxpati, Alawieh, Tong, Cawley, Howard.
-   "Endovascular sacrifice of the proximal posterior inferior cerebellar
-   artery for treatment of ruptured intracranial aneurysms."
+   [Endovascular sacrifice of the proximal posterior inferior cerebellar
+   artery for treatment of ruptured intracranial aneurysms.](/pubs/malcolm-2020-pica.pdf)
    Journal of NeuroInterventional Surgery (JNIS) 12:777-782, 2020.
    doi:10.1136/neurintsurg-2020-016261
-1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla. "Outcomes in Patients
-   with Moyamoya Syndrome and Sickle Cell Disease: A Systematic Review." World
-   Neurosurgery 135:165-170, 2020. doi:10.1016/j.wneu.2019.11.137, pmid:31790841
+1. Newman, Boulter, Malcolm, I Pradilla, G Pradilla.
+   [Outcomes in Patients with Moyamoya Syndrome and Sickle Cell Disease:
+   A Systematic Review.](/pubs/other/newman-2020-moyamoya.pdf)
+   World Neurosurgery 135:165-170, 2020. doi:10.1016/j.wneu.2019.11.137,
+   pmid:31790841
 1. Willie\*, Malcolm\*, Stern, Lowder, Neill, Cabaniss, Drane, Gross.
    [Safety and effectiveness of stereotactic laser ablation for epileptogenic
    cerebral cavernous malformations](/pubs/others/willie-2019-laser-cavmal.pdf).
