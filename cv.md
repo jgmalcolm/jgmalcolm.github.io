@@ -17,7 +17,7 @@ me@jgmalcolm.com <br />
 
 - Neurosurgery Residency, expected 2024
   - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
-  - Alpha Omega Alpha Honor Society (Housestaff Award), May 2020
+  - Alpha Omega Alpha Honor Society (House Staff Award), May 2020
   - House Staff Organization Professionalism Excellence (HOPE) Award - Overall and Neurosurgery categories, June 2020
 - MD, May 2017
   - Joseph B Whitehead Surgery Scholarship, 2016-2017 AY
