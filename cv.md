@@ -112,7 +112,7 @@ me@jgmalcolm.com <br />
    placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
    Interdisciplinary Neurosurgery: Advanced Techniques and Case Management, 23:100900, 2021
    doi:10.1016/j.inat.2020.100900
-1. Malcolm\*, Grossberg\*, Laxpati, Alawieh, Tong, Cawley, Howard.
+1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
    [Endovascular sacrifice of the proximal posterior inferior cerebellar
    artery for treatment of ruptured intracranial aneurysms.](/pubs/malcolm-2020-pica.pdf)
    Journal of NeuroInterventional Surgery (JNIS) 12:777-782, 2020.
