@@ -67,9 +67,6 @@ me@jgmalcolm.com <br />
    "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
    first time on the day of surgery compared to historical controls."
    *In preparation*
-3. Newman\*, McMahon\*, Boulter, Malcolm, Chern, Barrow, Pradilla.
-   "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
-   Cell-Associated Moyamoya Syndrome." *In submission*
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
@@ -84,6 +81,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Newman, McMahon, Boulter, Malcolm, Chern, Barrow, Pradilla.
+   "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
+   Cell-Associated Moyamoya Syndrome." Neurosurgery, *Accepted*
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
    Patients." Neurosurgery, *Accepted*
