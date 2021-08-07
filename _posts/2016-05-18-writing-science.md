@@ -13,6 +13,8 @@ This all assumes you've got the bulk of the results done.  It's normal that as
 you're writing, you come up with new experiments to prove out a point.  The
 manuscript evolves.
 
+<img src="/images/calvin.gif">
+
 **New project, new document.** Whenever a new project is taking shape, I
 create a blank document with headings for abstract, methods, results, and
 discussion.  As the project evolves, I keep adding to this outline.
