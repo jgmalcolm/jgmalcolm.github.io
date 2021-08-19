@@ -376,6 +376,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Dawoud, Miller, Greven, Albers, Mustroph, Malcolm, Gimbel.
+   "Devastating Neurological Injury and Resource Expenditure: Experience from a Level I Trauma Center."
+   Congress of Neurological Surgeons (CNS). October 16–20, 2021. Austin, Texas. Poster.
 1. Greven, Douglas, Malcolm, Campbell, Howard, Lamanna, Willie, Boulis, Gross.
    "Overlapping functional and stereotactic surgery: A retrospective cohort study of 1-year complications."
    Congress of Neurological Surgeons (CNS). October 16–20, 2021. Austin, Texas. Oral.
