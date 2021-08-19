@@ -388,7 +388,7 @@ me@jgmalcolm.com <br />
 1. Greven, Douglas, Malcolm, Campbell, Howard, Lamanna, Willie, Boulis, Gross.
    "Overlapping functional and stereotactic surgery: A retrospective cohort study of 1-year complications."
    Georgia Neurosurgical Society (GNS). Sea Island, GA. May 2021. Oral.
-1. Philbrick, Malcolm, Pradilla, Grossberg, Ahmad, Gimbel. "Traumatic CervicalFacet Dislocation Treated
+1. Philbrick, Malcolm, Pradilla, Grossberg, Ahmad, Gimbel. "Traumatic Cervical Facet Dislocation Treated
    with Anterior Cervical Discectomy and Fusion: A series of 27 cases."
    Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2020. Oral.
 1. Stern, Malcolm, Willie, Gross, Drane.
