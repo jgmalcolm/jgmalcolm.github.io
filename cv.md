@@ -236,7 +236,8 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Laxpati, Aliawah, Oyesiku. "How to Conduct Meaningful Research:
    How Not to Reinvent Just Another Wheel." In *Surviving
-   Neurosurgery*. Editors Agarwal, Reddy. *In press*
+   Neurosurgery*. Editors Agarwal, Reddy. ISBN 978-3-030-86916-8,
+   doi:10.1007/978-3-030-86917-5 *In press*
 1. Malcolm, Barrow. "Transsylvian-subtemporal Approach to Anterior Circulation
    and Basilar Apex Aneurysms." In *Integrated Management of Complex
    Intracranial Lesions:  Open, Endoscopic, and Keyhole Techniques*. Editor
