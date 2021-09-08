@@ -87,7 +87,7 @@ me@jgmalcolm.com <br />
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
    Patients." Neurosurgery, doi:10.1093/neuros/nyab321
-1. Malcolm, Miller, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
+1. Malcolm, Douglas, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
    Neurosurgery, doi:10.1093/neuros/nyab241
