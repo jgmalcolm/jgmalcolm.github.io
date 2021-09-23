@@ -66,12 +66,12 @@ me@jgmalcolm.com <br />
 1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
    "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
    first time on the day of surgery compared to historical controls."
-   *In preparation*
+   *In submission*
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
    Creation of a Stronger Predictive Model." *In submission*
-1. Gutierrez, Stricsek, Kashlan, Malcolm, Refai. "Retrospective Review
+1. Gutierrez/Erwood, Stricsek, Kashlan, Greven, Malcolm, Refai. "Retrospective Review
    Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
    Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
    *In submission*
