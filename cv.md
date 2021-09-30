@@ -78,6 +78,9 @@ me@jgmalcolm.com <br />
 1. Hamilton, Malcolm, Desai, Reisner, Chern. "The Utility of Intraoperative
    MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
    Cohort Study." *Submitted*
+1. Greven, Douglas, Malcolm, Campbell, Laxpati, Lamanna, Bray, Howard, Willie,
+   Boulis, Gross. "Overlapping functional and stereotactic surgery is not
+   associated with increased complications: A retrospective cohort study."
 
 {% endcomment %}
 
