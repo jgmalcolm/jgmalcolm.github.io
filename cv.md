@@ -241,10 +241,11 @@ me@jgmalcolm.com <br />
    How Not to Reinvent Just Another Wheel." In *Surviving
    Neurosurgery*. Editors Agarwal, Reddy. ISBN 978-3-030-86916-8,
    doi:10.1007/978-3-030-86917-5 *In press*
-1. Malcolm, Barrow. "Transsylvian-subtemporal Approach to Anterior Circulation
-   and Basilar Apex Aneurysms." In *Integrated Management of Complex
-   Intracranial Lesions:  Open, Endoscopic, and Keyhole Techniques*. Editor
-   Vijay Agarwal. *In press*
+1. Malcolm, Barrow. "Combined Transsylvian-Subtemporal Approach to Anterior
+   Circulation and Basilar Apex Aneurysms." In *Integrated Management of
+   Complex Intracranial Lesions:  Open, Endoscopic, and Keyhole
+   Techniques*. Editor Vijay Agarwal. chapter 21, pages 214-222, October 2021.
+   doi:10.1017/9781108908610.022
 1. Mahmooth, Malcolm, Rindler, Ahmad. "Cranioplasty:  Does Timing Have Any
    Effect on the Degree of Neurological Recovery or the Complication
    Rate?" In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*
