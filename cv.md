@@ -269,22 +269,8 @@ me@jgmalcolm.com <br />
 {: reversed="reversed"}
 
 
-## Conference
+## Conference (Peer Reviewed)
 
-1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
-   Mohammed, Spafford, Venugopalakrishnan, Malcolm.
-   [Productive high-performance software for OpenCL devices.](/pubs/others/melonakos2013.pdf)
-   *Proceedings of the SPIE*, Volume 8752, 2013. doi:10.1117/12.2016216
-1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
-   K. Patel, and J. Melonakos.
-   [ArrayFire: a GPU acceleration platform.](/pubs/malcolm2011arrayfire.pdf)
-   *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
-   volume 8403, 2012. doi:10.1117/12.921122
-1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
-   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
-   [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
-   *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
-   volume 8060, 2011. doi:10.1117/12.884899
 1. Y. Rathi, J. Malcolm, O. Michailovich, J. Goldstein, L. Seidman,
    R. W. McCarley, C.-F. Westin, and M. E. Shenton.
    [Biomarkers for identifying first-episode schizophrenia patients using diffusion weighted imaging](/pubs/others/rathi2010miccai.pdf).
@@ -332,17 +318,6 @@ me@jgmalcolm.com <br />
    [Label Space: A multi-object shape representation](/pubs/malcolm2008_labelspace.pdf).
    *Combinatorial Image Analysis*, pages 185-196, 2008.
    DOI:10.1007/978-3-540-78275-9_16
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
-   [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
-   *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
-    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf).  *SPIE
-    Electronic Imaging*, 2008. DOI:10.1117/12.768546
-1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
-   and A. Tannenbaum.
-   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
-   *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
-   6914, 2008.  DOI:10.1117/12.769511
 1. J. Malcolm, Y. Rathi, and A. Tannenbaum.
    [A graph cut approach to image segmentation in tensor space.](/pubs/malcolm_tc.pdf)
    *Component Analysis Methods (in CVPR)*, pages 1-8, 2007.  PMID:23680693,
@@ -364,6 +339,37 @@ me@jgmalcolm.com <br />
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
    *Conference on Guidance, Navigation, and Control*, 2005. doi:10.2514/6.2005-6001
+
+
+
+
+## Conference (Not Peer Reviewed)
+
+1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
+   Mohammed, Spafford, Venugopalakrishnan, Malcolm.
+   [Productive high-performance software for OpenCL devices.](/pubs/others/melonakos2013.pdf)
+   *Proceedings of the SPIE*, Volume 8752, 2013. doi:10.1117/12.2016216
+1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
+   K. Patel, and J. Melonakos.
+   [ArrayFire: a GPU acceleration platform.](/pubs/malcolm2011arrayfire.pdf)
+   *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
+   volume 8403, 2012. doi:10.1117/12.921122
+1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
+   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
+   [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
+   *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
+   volume 8060, 2011. doi:10.1117/12.884899
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+   [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
+   *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf).  *SPIE
+    Electronic Imaging*, 2008. DOI:10.1117/12.768546
+1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
+   and A. Tannenbaum.
+   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
+   *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
+   6914, 2008.  DOI:10.1117/12.769511
 {: reversed="reversed"}
 
 
