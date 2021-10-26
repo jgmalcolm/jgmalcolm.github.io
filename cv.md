@@ -339,38 +339,8 @@ me@jgmalcolm.com <br />
 1. P. Vela, M. Niethammer, J. Malcolm, and A. Tannenbaum.
    [Closed loop visual tracking using observer-based dynamic active contours](/pubs/others/vela_closed.pdf).
    *Conference on Guidance, Navigation, and Control*, 2005. doi:10.2514/6.2005-6001
-
-
-
-
-## Conference (Not Peer Reviewed)
-
-1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
-   Mohammed, Spafford, Venugopalakrishnan, Malcolm.
-   [Productive high-performance software for OpenCL devices.](/pubs/others/melonakos2013.pdf)
-   *Proceedings of the SPIE*, Volume 8752, 2013. doi:10.1117/12.2016216
-1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
-   K. Patel, and J. Melonakos.
-   [ArrayFire: a GPU acceleration platform.](/pubs/malcolm2011arrayfire.pdf)
-   *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
-   volume 8403, 2012. doi:10.1117/12.921122
-1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
-   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
-   [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
-   *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
-   volume 8060, 2011. doi:10.1117/12.884899
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
-   [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
-   *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
-1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
-    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf).  *SPIE
-    Electronic Imaging*, 2008. DOI:10.1117/12.768546
-1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
-   and A. Tannenbaum.
-   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
-   *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
-   6914, 2008.  DOI:10.1117/12.769511
 {: reversed="reversed"}
+
 
 
 
@@ -606,10 +576,24 @@ me@jgmalcolm.com <br />
    ["Cirrhosis: A red flag when treating cellulitis."](/pubs/malcolm_cirrhosis-abstract.pdf)
    American College of Physicians (ACP), Georgia Chapter Conference. Lake
    Lanier, GA. Oct 2015.  [Poster](/pubs/malcolm_cirrhosis-poster.pdf)
+1. Melonakos, Yalamanchili, McClanahan, Arshad, Landes, Jamboti, Joshi,
+   Mohammed, Spafford, Venugopalakrishnan, Malcolm.
+   [Productive high-performance software for OpenCL devices.](/pubs/others/melonakos2013.pdf)
+   *Proceedings of the SPIE*, Volume 8752, 2013. doi:10.1117/12.2016216
+1. J. Malcolm, P. Yalamanchili, C. McClanahan, C. Venugopalakrishnan,
+   K. Patel, and J. Melonakos.
+   [ArrayFire: a GPU acceleration platform.](/pubs/malcolm2011arrayfire.pdf)
+   *SPIE Modeling and Simulation for Defense Systems and Applications VII*,
+   volume 8403, 2012. doi:10.1117/12.921122
 1. S. Lienhard, J. Malcolm, C.-F. Westin, and Y. Rathi. A full bi-tensor
    neural tractography algorithm using the unscented Kalman
    filter. International Symposium on Magnetic Resonance in Medicine
    (ISMRM), Montreal, Canada, page 3960, May 2011.
+1. G. Pryor, B. Lucey, S. Maddipatla, C. McClanahan, J. Melonakos,
+   V. Venugopalakrishnan, K. Patel, P. Yalamanchili, and J. Malcolm.
+   [High-level GPU computing with Jacket for MATLAB and C/C++.](/pubs/others/pryor2011.pdf)
+   *SPIE Modeling and Simulation for Defense Systems and Applications VI*,
+   volume 8060, 2011. doi:10.1117/12.884899
 1. HP. Ng, M. Kubicki, J. Malcolm, Y. Rathi, P. Pelavin, R. W. McCarley, and
    ME. Shenton. "Diffusion two-tensor tractography study on inter-hemispheric
    connection between bilateral heschl's gyrus in schizophrenia."
@@ -634,6 +618,17 @@ me@jgmalcolm.com <br />
    3549, Honolulu, Hawaii, Apr 2009.
 1. G. Pryor, J. Melonakos, T. Rehman, J. Malcolm. "Jacket: The GPU engine
    for MATLAB." SuperComputing, Austin, TX, Nov 2008.
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+   [Fast approximate surface evolution in arbitrary dimension](/pubs/malcolm-lsdiscreteND.pdf).
+   *SPIE Medical Imaging*, 2008. DOI:10.1117/12.771080
+1. J. Malcolm, Y. Rathi, A. Yezzi, and A. Tannenbaum.
+    [Fast approximate curve evolution](/pubs/malcolm_lsdt.pdf).  *SPIE
+    Electronic Imaging*, 2008. DOI:10.1117/12.768546
+1. Y. Rathi, S. Dambreville, M. Niethammer, J. Malcolm, J. Levitt, M. Shenton,
+   and A. Tannenbaum.
+   [Segmenting images analytically in shape space](/pubs/others/rathi_segmenting_analytically.pdf).
+   *Progress in Biomedical Optics and Imaging - Proceedings of SPIE*, volume
+   6914, 2008.  DOI:10.1117/12.769511
 1. AD Wyrzykowski, KM Tchorz, K Inaba, JG Cushman, R Adams, J Malcolm, MB
    Dunham, CJ Dente, JM Nicholas, JP Salomone, WL Ingram, GS Rozycki, DV
    Feliciano.
