@@ -387,6 +387,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Malcolm, Jahangiri, Refai, Gary.
+   "Preoperative traction in the management of chronic craniocervical
+   deformities: a case series "
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2021. Oral.
 1. Dawoud, Miller, Greven, Albers, Mustroph, Malcolm, Gimbel.
    "Devastating Neurological Injury and Resource Expenditure: Experience from a Level I Trauma Center."
    Congress of Neurological Surgeons (CNS). October 16–20, 2021. Austin, Texas. Poster.
