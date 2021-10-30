@@ -93,11 +93,11 @@ me@jgmalcolm.com <br />
    Cell-Associated Moyamoya Syndrome." Neurosurgery, *Accepted*
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
-   Patients." Neurosurgery, doi:10.1093/neuros/nyab321
+   Patients." Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321
 1. Malcolm, Douglas, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
-   Neurosurgery 89(4):635-644. doi:10.1093/neuros/nyab241
+   Neurosurgery 89(4):635-644, 2021. doi:10.1093/neuros/nyab241
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
    Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
