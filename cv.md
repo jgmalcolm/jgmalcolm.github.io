@@ -72,22 +72,19 @@ me@jgmalcolm.com <br />
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
    Creation of a Stronger Predictive Model." *In submission*
-1. Gutierrez/Erwood, Stricsek, Kashlan, Greven, Malcolm, Refai. "Retrospective Review
+1. Erwood, Stricsek, Kashlan, Greven, Malcolm, Refai. "Retrospective Review
    Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
    Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
    *In submission*
-1. Hamilton, Malcolm, Desai, Reisner, Chern. "The Utility of Intraoperative
-   MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
-   Cohort Study." *Submitted*
 1. Greven, Douglas, Malcolm, Campbell, Laxpati, Lamanna, Bray, Howard, Willie,
    Boulis, Gross. "Overlapping functional and stereotactic surgery is not
    associated with increased complications: A retrospective cohort study."
-1. Hamilton\*, Malcolm\*, Desai, Reisner, Chern. "The Utility of Intraoperative MRI
-   in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A Cohort Study."
-   *Submitted*
 
 {% endcomment %}
 
+1. Hamilton\*, Malcolm\*, Desai, Reisner, Chern. "The Utility of Intraoperative
+   MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
+   Cohort Study." Operative Neurosurgery, *Accepted*.
 1. Newman, McMahon, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
    Cell-Associated Moyamoya Syndrome." Neurosurgery, *Accepted*
