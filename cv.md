@@ -355,12 +355,11 @@ me@jgmalcolm.com <br />
 1. Revuelta Barbero, Malcolm, Soriano, Bray, Mattox, Pradilla.
    "Microsurgical Gross-Total Resection of an Intracanalicular-Cisternal (Koos 2) Vestibular Schwannoma
    via a Retrosigmoid Approach." World Neurosurgery
-1. Laxpati, Malcolm, Mustroph, Gary.
-   "Reply: Spinal Arachnoid Webs: Presentation, Natural history, and Outcomes
-   in 38 Patients." Neurosurgery.
-
 {% endcomment %}
 
+1. Laxpati, Malcolm, Mustroph, Gary.
+   "Reply: Spinal Arachnoid Webs: Presentation, Natural history, and Outcomes
+   in 38 Patients." Neurosurgery. *Accepted*
 1. Malcolm, Jahangiri, Refai, Gary.
    "Preoperative traction in the management of chronic craniocervical
    deformities: a case series "
