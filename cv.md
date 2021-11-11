@@ -355,6 +355,10 @@ me@jgmalcolm.com <br />
 1. Revuelta Barbero, Malcolm, Soriano, Bray, Mattox, Pradilla.
    "Microsurgical Gross-Total Resection of an Intracanalicular-Cisternal (Koos 2) Vestibular Schwannoma
    via a Retrosigmoid Approach." World Neurosurgery
+1. Malcolm, Greven, Sonders, Gary, Refai.
+   "The completely virtual spine patient: a case series."
+   AANS/CNS Spine Summit. Las Vegas, NV. February 2022.
+
 {% endcomment %}
 
 1. Laxpati, Malcolm, Mustroph, Gary.
