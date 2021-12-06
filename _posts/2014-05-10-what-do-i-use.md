@@ -52,7 +52,7 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
     * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
-* [Witch] to switch between the individual windows of an application (Mac OSX
+* [AltTab] to switch between the individual windows of an application (Mac OSX
   only lets you switch between full applications with Command+Tab, and
   Command+&#96; between windows within one application; Witch lets you switch
   between individual windows in separate applications, just like Windows)
@@ -130,7 +130,7 @@ To use one, drag it to your Bookmarks (toolbar).
 [offline]: https://support.google.com/drive/answer/2375012
 [Google Quick Scroll]: https://chrome.google.com/webstore/detail/google-quick-scroll/okanipcmceoeemlbjnmnbdibhgpbllgc
 [MenuMeters]: http://www.ragingmenace.com/software/menumeters
-[Witch]: http://manytricks.com/witch
+[AltTab]: https://alt-tab-macos.netlify.app/
 [Airfoil]: https://www.rogueamoeba.com/airfoil
 [bose]: http://www.amazon.com/gp/product/B0090Z3QD4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0090Z3QD4&linkCode=as2&tag=jgmalcolm-20&linkId=7RRGBSYFGX4EC4U3
 [Caffeine]: http://lightheadsw.com/caffeine
