@@ -358,7 +358,7 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
-1. Malcolm, Sonders, Gary, Refai.
+1. Malcolm, Greven, Sonders, Gary, Refai.
    "The completely virtual spine patient: a case series."
    AANS/CNS Spine Summit. Las Vegas, NV. February 2022. *Accepted*
 1. Laxpati, Malcolm, Mustroph, Gary.
