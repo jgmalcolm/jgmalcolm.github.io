@@ -81,7 +81,7 @@ me@jgmalcolm.com <br />
    associated with increased complications: A retrospective cohort study."
 1. Schupper, ... "Turning on the light for brain tumor surgery: A 5-aminolevulinic acid
    story." Journal of Neuro-Oncology (JNO). *In submission*
-1. Yousefi, Sabahi, Malcolm, Willie, Adada, Borghei-Razavi.
+1. Yousefi, Sabahi, Malcolm, Adada, Borghei-Razavi.
    "Laser Interstitial Thermal Therapy for cavernous malformations; A
    systematic review." *In submission*
 
