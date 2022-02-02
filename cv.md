@@ -95,19 +95,20 @@ me@jgmalcolm.com <br />
    Cell-Associated Moyamoya Syndrome." Neurosurgery, *Accepted*
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
-   Patients." Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321
+   Patients." Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321,
+   pmid:34432878
 1. Malcolm, Douglas, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
-   Neurosurgery 89(4):635-644, 2021. doi:10.1093/neuros/nyab241
+   Neurosurgery 89(4):635-644, 2021. doi:10.1093/neuros/nyab241, pmid:34270738
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
    Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
-   e11684, 2020. doi:10.7759/cureus.11684
+   e11684, 2020. doi:10.7759/cureus.11684, pmid:33391920
 1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
    Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
    Posterior Fossa Neoplasms" Journal of Neuro-Oncology (JNO) 149:533–542, 2020.
-   doi:10.1007/s11060-020-03645-y
+   doi:10.1007/s11060-020-03645-y, pmid:33057919
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
    spine patients: Questionnaire assessment of 346 consecutive patients."
@@ -120,7 +121,7 @@ me@jgmalcolm.com <br />
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
    placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
    Interdisciplinary Neurosurgery: Advanced Techniques and Case Management, 23:100900, 2021
-   doi:10.1016/j.inat.2020.100900
+   doi:10.1016/j.inat.2020.100900,
 1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
    [Endovascular sacrifice of the proximal posterior inferior cerebellar
    artery for treatment of ruptured intracranial aneurysms.](/pubs/malcolm-2020-pica.pdf)
