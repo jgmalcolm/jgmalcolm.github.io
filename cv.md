@@ -654,6 +654,8 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
+1. Malcolm. [Medical Management of Neurosurgical Patients](https://amzn.to/3GqOKVu).
+   Neurosurgery. *In press*
 1. Malcolm. [Functional Neurosurgery](https://amzn.to/2YLihGp).
    Neurosurgery. doi:10.1093/neuros/nyaa452
 1. Malcolm, Ahmad. [Cervical Trauma: Surgical Management](https://amzn.to/3awQJZx).
