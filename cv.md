@@ -19,9 +19,9 @@ me@jgmalcolm.com <br />
   - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
   - Alpha Omega Alpha Honor Society (House Staff Award), May 2020
   - House Staff Organization Professionalism Excellence (HOPE) Award - Overall and Neurosurgery categories, June 2020
-  - Complex Spine, 2021-2022 AY
+  - Complex and Minimally Invasive Spine, AY 2021-2022
 - MD, May 2017
-  - Joseph B Whitehead Surgery Scholarship, 2016-2017 AY
+  - Joseph B Whitehead Surgery Scholarship, AY 2016-2017
   - Halsted Award, May 2017
 
 **Brigham & Women's Hospital, Boston, MA**
