@@ -771,6 +771,7 @@ me@jgmalcolm.com <br />
 * World Neurosurgery (WNS)
 * Medical Physics (MP)
 * Cureus
+* Frontiers in Surgery
 
 **Conference:**
 
