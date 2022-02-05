@@ -107,8 +107,9 @@ me@jgmalcolm.com <br />
    Patients](/pubs/others/kashlan-stand-alone-alif.pdf). Cureus 12(11):
    e11684, 2020. doi:10.7759/cureus.11684, pmid:33391920
 1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
-   Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
-   Posterior Fossa Neoplasms" Journal of Neuro-Oncology (JNO) 149:533–542, 2020.
+   Danish. [Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
+   Posterior Fossa Neoplasms](/pubs/others/ashraf-2020-poster-fossa-litt.pdf).
+   Journal of Neuro-Oncology (JNO) 149:533–542, 2020.
    doi:10.1007/s11060-020-03645-y, pmid:33057919
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
    Gary.  "Telemedicine in the evaluation and management of neurosurgical
