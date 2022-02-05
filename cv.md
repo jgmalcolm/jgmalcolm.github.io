@@ -101,9 +101,10 @@ me@jgmalcolm.com <br />
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
    deep cerebral cavernous malformations: A report of four cases."
    Neurosurgery 89(4):635-644, 2021. doi:10.1093/neuros/nyab241, pmid:34270738
-1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. "Safety Profile and
+1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. [Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
-   Interbody Fusion: A Case Series of 41 Consecutive Patients." Cureus 12(11):
+   Interbody Fusion: A Case Series of 41 Consecutive
+   Patients](/pubs/others/kashlan-stand-alone-alif.pdf). Cureus 12(11):
    e11684, 2020. doi:10.7759/cureus.11684, pmid:33391920
 1. Ashraf, Arzumanov, Luther, McMahon, Malcolm, Mansour, Lee, Willie, Komotar,
    Danish. "Magnetic Resonance-Guided Laser Interstitial Thermal Therapy for
