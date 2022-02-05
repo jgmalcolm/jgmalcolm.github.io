@@ -112,8 +112,9 @@ me@jgmalcolm.com <br />
    Journal of Neuro-Oncology (JNO) 149:533–542, 2020.
    doi:10.1007/s11060-020-03645-y, pmid:33057919
 1. Greven, McGinley, Guisse, McGee, Pirkle, Malcolm, Boden, Rodts, Refai,
-   Gary.  "Telemedicine in the evaluation and management of neurosurgical
-   spine patients: Questionnaire assessment of 346 consecutive patients."
+   Gary.  [Telemedicine in the evaluation and management of neurosurgical
+   spine patients: Questionnaire assessment of 346 consecutive
+   patients](/pubs/others/greven-2021-telemedicine-spine.pdf).
    Spine 46(7):472-477, 2021, pmid:33186272, doi:10.1097/BRS.0000000000003821
 1. Tora\*, Malcolm\*, Mahmooth, Pujari, Rindler, Boulis, Pradilla, Grossberg,
    Ahmad.  "Complication Rates in Early Versus Late Cranioplasty-A 14-Year
