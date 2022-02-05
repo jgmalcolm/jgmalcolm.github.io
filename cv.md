@@ -119,11 +119,12 @@ me@jgmalcolm.com <br />
    Ahmad.  "Complication Rates in Early Versus Late Cranioplasty-A 14-Year
    Single-Center Case Series." Operative Neurosurgery 20(4):389–396, 2021,
    doi:10.1093/ons/opaa408, pmid:33469653.
-1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary.  "Early experience with
+1. Rich, Philbrick, Malcolm, Refai, Rodts, Gary. [Early experience with
    oblique lateral interbody fusion (OLIF) with posterior percutaneous screw
-   placement (OLIFwPPS): Case series with clinical and radiographic outcomes."
-   Interdisciplinary Neurosurgery: Advanced Techniques and Case Management, 23:100900, 2021
-   doi:10.1016/j.inat.2020.100900,
+   placement (OLIFwPPS): Case series with clinical and radiographic
+   outcomes.](/pubs/others/rich-2021-olif-w-psp.pdf).
+   Interdisciplinary Neurosurgery: Advanced Techniques and Case Management,
+   23:100900, 2021. doi:10.1016/j.inat.2020.100900
 1. Malcolm, Grossberg, Laxpati, Alawieh, Tong, Cawley, Howard.
    [Endovascular sacrifice of the proximal posterior inferior cerebellar
    artery for treatment of ruptured intracranial aneurysms.](/pubs/malcolm-2020-pica.pdf)
