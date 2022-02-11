@@ -64,10 +64,6 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
-   "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
-   first time on the day of surgery compared to historical controls."
-   *In submission*
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
@@ -87,6 +83,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
+   "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
+   first time on the day of surgery compared to historical controls."
+   World Neurosurgery. *Accepted*
 1. Hamilton\*, Malcolm\*, Desai, Reisner, Chern. "The Utility of Intraoperative
    MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
    Cohort Study." Operative Neurosurgery, *Accepted*.
