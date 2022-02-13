@@ -92,7 +92,8 @@ me@jgmalcolm.com <br />
    Cohort Study." Operative Neurosurgery, *Accepted*.
 1. Newman, McMahon, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
-   Cell-Associated Moyamoya Syndrome." Neurosurgery, *Accepted*
+   Cell-Associated Moyamoya Syndrome." Neurosurgery, *In press*,
+   pmid:35132969, doi:10.1227/NEU.0000000000001847.
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
    "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
    Patients." Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321,
