@@ -251,7 +251,7 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Laxpati, Aliawah, Oyesiku. "How to Conduct Meaningful Research:
    How Not to Reinvent Just Another Wheel." In *Surviving
-   Neurosurgery*, chapter 76. Editors Agarwal, Reddy. Springer 2021,
+   Neurosurgery*, chapter 76, pages 391-394. Editors Agarwal, Reddy. Springer 2021,
    ISBN 978-3-030-86916-8,
    doi:10.1007/978-3-030-86917-5_76
 1. Malcolm, Barrow. "Combined Transsylvian-Subtemporal Approach to Anterior
