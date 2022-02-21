@@ -89,7 +89,7 @@ me@jgmalcolm.com <br />
    World Neurosurgery. *Accepted*
 1. Hamilton\*, Malcolm\*, Desai, Reisner, Chern. "The Utility of Intraoperative
    MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
-   Cohort Study." Operative Neurosurgery, *Accepted*.
+   Cohort Study." Operative Neurosurgery, doi:10.1227/ONS.0000000000000112
 1. Newman, McMahon, Boulter, Malcolm, Chern, Barrow, Pradilla.
    "Revascularization is Associated with a Reduced Stroke Risk in Patients with Sickle
    Cell-Associated Moyamoya Syndrome." Neurosurgery, *In press*,
