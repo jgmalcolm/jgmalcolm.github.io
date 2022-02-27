@@ -372,10 +372,10 @@ me@jgmalcolm.com <br />
 
 1. Malcolm, Greven, Sonders, Gary, Refai.
    "The completely virtual spine patient: a case series."
-   AANS/CNS Spine Summit. Las Vegas, NV. February 2022. *Accepted*
+   AANS/CNS Spine Summit. Las Vegas, NV. February 2022. Oral
 1. Laxpati, Malcolm, Mustroph, Gary.
    "Reply: Spinal Arachnoid Webs: Presentation, Natural history, and Outcomes
-   in 38 Patients." Neurosurgery. *Accepted*
+   in 38 Patients." Neurosurgery 90(3):e83, 2022. doi:10.1227/NEU.0000000000001814
 1. Malcolm, Jahangiri, Refai, Gary.
    "Preoperative traction in the management of chronic craniocervical
    deformities: a case series "
