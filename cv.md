@@ -397,6 +397,7 @@ me@jgmalcolm.com <br />
 1. Greven, Douglas, Malcolm, Campbell, Howard, Lamanna, Willie, Boulis, Gross.
    "Overlapping functional and stereotactic surgery: A retrospective cohort study of 1-year complications."
    Congress of Neurological Surgeons (CNS). October 16–20, 2021. Austin, Texas. Oral.
+   doi:10.1227/NEU.0000000000001880_202
 1. Douglas, Dawoud, Greven, Albers, Mustroph, Malcolm, Gimbel.
    "Devastating Neurological Injury and Resource Expenditure: Experience from a Level 1 Trauma Center."
    Georgia Neurosurgical Society (GNS). Sea Island, GA. May 2021. Oral.
