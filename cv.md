@@ -86,7 +86,8 @@ me@jgmalcolm.com <br />
 1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
    "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
    first time on the day of surgery compared to historical controls."
-   World Neurosurgery. doi:10.1016/j.wneu.2022.02.041
+   World Neurosurgery 161:e495-e499, 2022. doi:10.1016/j.wneu.2022.02.041,
+   pmid:35189421
 1. Hamilton\*, Malcolm\*, Desai, Reisner, Chern. "The Utility of Intraoperative
    MRI in the Resection of Cerebellar Hemispheric Pilocytic Astrocytomas: A
    Cohort Study." Operative Neurosurgery 22(4):187-191, 2022.
