@@ -77,12 +77,14 @@ me@jgmalcolm.com <br />
    associated with increased complications: A retrospective cohort study."
 1. Schupper, ... "Turning on the light for brain tumor surgery: A 5-aminolevulinic acid
    story." Journal of Neuro-Oncology (JNO). *In submission*
-1. Yousefi, Sabahi, Malcolm, Adada, Borghei-Razavi.
-   "Laser Interstitial Thermal Therapy for cavernous malformations; A
-   systematic review." *In submission*
 
 {% endcomment %}
 
+1. Yousefi, Sabahi, Malcolm, Adada, Borghei-Razavi.
+   [Laser Interstitial Thermal Therapy for cavernous malformations; A
+   systematic review](/pubs/others/yousefi-LITT-for-cavmal-review.pdf).
+   Frontiers in Surgery 9:887329, 2022.
+   doi:10.3389/fsurg.2022.887329, pmid:35647010
 1. Greven, McGinley, Nakirikanti, Couceyro, Malcolm, Rodts, Refai, Gary.
    "Telemedicine in spine surgery: Outcomes for 138 patients seen in person for the
    first time on the day of surgery compared to historical controls."
