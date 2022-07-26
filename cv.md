@@ -675,7 +675,7 @@ me@jgmalcolm.com <br />
 ## Book Reviews
 
 1. Malcolm. [Youmans and Winn Neurological Surgery 8e](https://amzn.to/3x8k6yK).
-   Neurosurgery. *In press*
+   Neurosurgery. doi:10.1227/neu.0000000000002077
 1. Malcolm. [Medical Management of Neurosurgical Patients](https://amzn.to/3GqOKVu).
    Neurosurgery. doi:10.1227/NEU.0000000000001956
 1. Malcolm. [Functional Neurosurgery](https://amzn.to/2YLihGp).
