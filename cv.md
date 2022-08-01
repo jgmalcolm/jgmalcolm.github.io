@@ -674,6 +674,8 @@ me@jgmalcolm.com <br />
 
 ## Book Reviews
 
+1. Malcolm. [Perioperative Neuroscience: Translational Research](https://www.amazon.com/dp/0323910033/).
+   Neurosurgery. *In press*
 1. Malcolm. [Youmans and Winn Neurological Surgery 8e](https://amzn.to/3x8k6yK).
    Neurosurgery. doi:10.1227/neu.0000000000002077
 1. Malcolm. [Medical Management of Neurosurgical Patients](https://amzn.to/3GqOKVu).
