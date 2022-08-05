@@ -72,14 +72,16 @@ me@jgmalcolm.com <br />
    Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
    Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
    *In submission*
-1. Greven, Douglas, Malcolm, Campbell, Laxpati, Lamanna, Bray, Howard, Willie,
-   Boulis, Gross. "Overlapping functional and stereotactic surgery is not
-   associated with increased complications: A retrospective cohort study."
 1. Schupper, ... "Turning on the light for brain tumor surgery: A 5-aminolevulinic acid
    story." Journal of Neuro-Oncology (JNO). *In submission*
 
 {% endcomment %}
 
+1. Greven, Douglas, Nakirikanti, Malcolm, Campbell, Easley, Laxpati, Lamanna,
+   Bray, Howard, Willie, Boulis, Gross.
+   "Overlapping functional and stereotactic surgery is not
+   associated with increased complications: A retrospective cohort study."
+   Journal of Neurosurgery *In Press*
 1. Yousefi, Sabahi, Malcolm, Adada, Borghei-Razavi.
    [Laser Interstitial Thermal Therapy for cavernous malformations; A
    systematic review](/pubs/others/yousefi-LITT-for-cavmal-review.pdf).
