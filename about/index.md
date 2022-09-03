@@ -8,7 +8,7 @@ title: "Hi there!"
 I'm currently a neurosurgery resident at Emory in Atlanta, creator of
 [Pharm450](//pharm450.com), co-creator of [ArrayFire](http://arrayfire.com),
 [scientist](/pubs/research.html), husband to an awesome woman, and father of
-two small humans.
+three small humans.
 
 Have some thoughts on what you read here? The best way to reach me is via
 email: <a id="email"></a>.
