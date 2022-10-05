@@ -101,8 +101,9 @@ me@jgmalcolm.com <br />
    Cell-Associated Moyamoya Syndrome." Neurosurgery 90(4):441-446, 2022.
    pmid:35132969, doi:10.1227/NEU.0000000000001847
 1. Laxpati, Malcolm, Bouobda Tsemo, Mustroph, Saindane, Ahmad, Refai, Gary.
-   "Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
-   Patients." Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321,
+   [Spinal Arachnoid Webs: Presentation, Natural History, and Outcomes in 38
+   Patients](pubs/others/laxpati-arachnoid-webs.pdf).
+   Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321,
    pmid:34432878
 1. Malcolm, Douglas, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
    "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
