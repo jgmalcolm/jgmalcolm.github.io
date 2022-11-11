@@ -72,11 +72,13 @@ me@jgmalcolm.com <br />
    Comparing Cortical Bone Trajectory with Traditional Trajectory Pedicle
    Screw Placement in the setting of Transforaminal Lumbar Interbody Fusion."
    *In submission*
-1. Schupper, ... "Turning on the light for brain tumor surgery: A 5-aminolevulinic acid
-   story." Journal of Neuro-Oncology (JNO). *In submission*
 
 {% endcomment %}
 
+1. McCracken, Schupper, Lakomkin, Malcolm, Bray, Hadjipanayis.  "Turning on
+   the light for brain tumor surgery: A 5-aminolevulinic acid story."
+   Neuro-Oncology 24(6):S52–S61, 2022. pmid:36322101,
+   doi:10.1093/neuonc/noac191
 1. Greven, Douglas, Nakirikanti, Malcolm, Campbell, Easley, Laxpati, Lamanna,
    Bray, Howard, Willie, Boulis, Gross.
    "Overlapping functional and stereotactic surgery is not
