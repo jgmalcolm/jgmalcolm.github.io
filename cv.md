@@ -376,7 +376,7 @@ me@jgmalcolm.com <br />
 
 
 
-## Abstract, Poster, Letters, Videos
+## Abstracts, Posters, Letters, Videos
 
 {% comment %}
 
