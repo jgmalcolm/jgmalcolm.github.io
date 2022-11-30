@@ -388,6 +388,9 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Gary, Malcolm. "Preoperative Traction in the Management of Chronic
+   Craniocervical Deformity." International Symposium on Acute Neurocritical and
+   Neurosurgical Care." Cali, Colombia.  October 2022
 1. Malcolm, Greven, Sonders, Gary, Refai.
    "The completely virtual spine patient: a case series."
    AANS/CNS Spine Summit. Las Vegas, NV. February 2022. Oral
