@@ -386,8 +386,16 @@ me@jgmalcolm.com <br />
    "Microsurgical Gross-Total Resection of an Intracanalicular-Cisternal (Koos 2) Vestibular Schwannoma
    via a Retrosigmoid Approach." World Neurosurgery
 
+1. Malcolm, Erwood, Ahmad. "Treatment of high-grade spondylolisthesis using
+   the Rialto screw for posterior transsacral fixation: A modification of the
+   Bohlman technique."
+
 {% endcomment %}
 
+1. Malcolm, Erwood, Ahmad. "Treatment of high-grade spondylolisthesis using
+   the Rialto screw for posterior transsacral fixation: A modification of the
+   Bohlman technique."
+   Georgia Neurosurgical Society (GNS). Lake Oconee, GA. Dec 2022. Oral.
 1. Gary, Malcolm. "Preoperative Traction in the Management of Chronic
    Craniocervical Deformity." International Symposium on Acute Neurocritical and
    Neurosurgical Care." Cali, Colombia.  October 2022
