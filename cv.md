@@ -389,6 +389,10 @@ me@jgmalcolm.com <br />
 1. Malcolm, Erwood, Ahmad. "Treatment of high-grade spondylolisthesis using
    the Rialto screw for posterior transsacral fixation: A modification of the
    Bohlman technique."
+1. Malcolm. ... Gary.
+   "Is there consensus on best practices for lumbar wound closure or are we
+   simply perpetuating regional dogma?  A worldwide survey of 280 spine
+   surgeons."  Global Spine Congress (GSC), May 31-June 3, 2023, Prague, Czech Republic.
 
 {% endcomment %}
 
