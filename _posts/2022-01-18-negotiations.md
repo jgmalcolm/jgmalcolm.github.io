@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Negotiation"
+title: "Negotiations"
 description: "Effective negotiation involves preparation, priorities, and flexibility."
 tags: [better]
 ---
