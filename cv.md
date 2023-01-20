@@ -380,23 +380,16 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. Tracy, Todd, Fitzgerald, Malcolm, Gelbard.
-   "Using Machine-Learning To Examine The Influence Of Vasopressors On Spinal Cord Injury Outcomes."
-1. Revuelta Barbero, Malcolm, Soriano, Bray, Mattox, Pradilla.
-   "Microsurgical Gross-Total Resection of an Intracanalicular-Cisternal (Koos 2) Vestibular Schwannoma
-   via a Retrosigmoid Approach." World Neurosurgery
-
-1. Malcolm. ... Gary.
-   "Is there consensus on best practices for lumbar wound closure or are we
-   simply perpetuating regional dogma?  A worldwide survey of 280 spine
-   surgeons."  Global Spine Congress (GSC), May 31-June 3, 2023, Prague, Czech Republic.
-
 {% endcomment %}
 
 1. Malcolm, Erwood, Ahmad. "Treatment of high-grade spondylolisthesis using
    the Rialto screw for posterior transsacral fixation: A modification of the
    Bohlman technique."
    AANS/CNS Spine Summit. Miami, FL. March 2023. Oral
+1. Malcolm, Yoon, Wu, Kim, Gary, on behalf of AO Spine Knowledge Forum Degenerative.
+   "Is there consensus on best practices for lumbar wound closure or are we
+   simply perpetuating regional dogma?  A worldwide survey of 280 spine
+   surgeons."  Global Spine Congress (GSC), May 31-June 3, 2023, Prague, Czech Republic.
 1. Malcolm, Erwood, Ahmad. "Treatment of high-grade spondylolisthesis using
    the Rialto screw for posterior transsacral fixation: A modification of the
    Bohlman technique."
