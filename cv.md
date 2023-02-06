@@ -108,8 +108,8 @@ me@jgmalcolm.com <br />
    Neurosurgery, 89(5):917–927, 2021. doi:10.1093/neuros/nyab321,
    pmid:34432878
 1. Malcolm, Douglas, Greven, Rich, Dawoud, Hu, Reisner, Barrow, Gross, Willie.
-   "Feasibility and morbidity of MRI-guided stereotactic laser ablation of
-   deep cerebral cavernous malformations: A report of four cases."
+   [Feasibility and morbidity of MRI-guided stereotactic laser ablation of
+   deep cerebral cavernous malformations: A report of four cases.](/pubs/malcolm-2021-deep-ablation.pdf)
    Neurosurgery 89(4):635-644, 2021. doi:10.1093/neuros/nyab241, pmid:34270738
 1. Kashlan, Frerich, Malcolm, Gary, Rodts, Refai. [Safety Profile and
    Radiographic and Clinical Outcomes of Stand-alone 2-level Anterior Lumbar
