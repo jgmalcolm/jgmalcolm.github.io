@@ -44,24 +44,17 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
   * [LastPass] to keep all my passwords safe, quickly log me into sites, and fill out tedious forms
   * [Vimium] to quickly navigate and search pages without moving to the mouse
   * [The Great Suspender] to suspend and save inactive tabs, saves CPU cycles and memory and battery
-  * [Facebook bookmarklet][fb] to share pages with friends and family.
   * [Overwrite Downloads] to avoid accumulating downloads Foo (1), Foo (2), Foo (3), ... instead overwrite Foo
-  * Useful ones that I don't use as much anymore:
-    * [Google Drive Offline][offline] & [Gmail Offline] - neither functions well
-    * [Google Quick Scroll] to jump right to the interesting bits of an article based on your Google search terms
-    * [RescueTime](//rescuetime.com) to track where I'm spending time (Facebook, email, school-related, ...)
 * [Spectacle](http://spectacleapp.com) to move and resize windows with hot keys
 * [MenuMeters] to keep an eye on CPU, memory, internet speed, etc.
 * [AltTab] to switch between the individual windows of an application (Mac OSX
   only lets you switch between full applications with Command+Tab, and
   Command+&#96; between windows within one application; Witch lets you switch
   between individual windows in separate applications, just like Windows)
-* [Airfoil] to route Chrome, YouTube, and any audio from my laptop to [Bose Airplay][bose] speakers
 * [Caffeine] to keep my Mac from going to sleep while I'm presenting or surfing
 * [F.lux] to alter my laptop's screen colors to the time of day (blue light is
   bad at night).  If you're on a Chromebook then use [G.lux].
 * [SelfControl] (Mac) and [ColdTurkey] (Win) to keep me off facebook, email, and the news when I need to be productive
-* [TotalTerminal] for quick full-screen access to the command line.
 * Emacs/vim/bash/screen/git.  Copy my
   [dot files](https://github.com/jgmalcolm/dotfiles).
 * [Monolingual] to remove unused language files and object code
@@ -72,8 +65,6 @@ leverage.  Here are lists of the hardware, software, and services I use daily.
 [AutoRaise]: https://github.com/sbmpost/AutoRaise
 [Monolingual]: https://ingmarstein.github.io/Monolingual/
 [Vimium]: https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb
-[Gmail Offline]: https://support.google.com/mail/answer/1306847?hl=en&ref_topic=3397997
-[GmailSync]: https://chrome.google.com/webstore/detail/gmail-offline-sync-optimi/dncjnngcblhgeeocnhmmihpanahkjbmi/
 [The Great Suspender]: https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg
 [Overwrite Downloads]: https://chrome.google.com/webstore/detail/fkomnceojfhfkgjgcijfahmgeljomcfk
 
