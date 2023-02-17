@@ -281,10 +281,11 @@ me@jgmalcolm.com <br />
    Effect on the Degree of Neurological Recovery or the Complication
    Rate?" In: Bartels, Rovers, Westert (eds) *Evidence for Neurosurgery.*
    p19-40, 2019. Springer doi:10.1007/978-3-030-16323-5_3
-1. JG Malcolm, MK Moore, D Refai, "Anterior/Anterolateral Thoracic Access and
+1. JG Malcolm, MK Moore, D Refai, [Anterior/Anterolateral Thoracic Access and
    Stabilization from Posterior Approach: Transpedicular,
    Costotransversectomy, Lateral Extracavitary Approaches: Standard
-   Intralesional Resection." In: Sciubba D. (eds) *Spinal Tumor Surgery*,
+   Intralesional Resection.](/pubs/malcolm-2019-LECA.pdf)
+   In: Sciubba D. (eds) *Spinal Tumor Surgery*,
    chapter 14, pages 141-153, 2019. Springer. doi:10.1007/978-3-319-98422-3_14
 1. JR Malcolm, JA Hyde, JG Malcolm, JP McAfee, PC McAfee. "XLIF for
    Degenerated/Collapsed Disc." In *eXtreme Lateral Interbody Fusion (XLIF)*
