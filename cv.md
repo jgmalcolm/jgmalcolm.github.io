@@ -267,7 +267,7 @@ me@jgmalcolm.com <br />
    In *Spino-Plastic Reconstruction: A Comprehensive Review of the Interplay
    Between Bone and Soft Tissue*, chapter 13.
    Editors Reece, Ropper, Winocour, Bohl. ISBN 978-1-68-420501-1 *In press*
-1. Malcolm, Laxpati, Aliawah, Oyesiku. "How to Conduct Meaningful Research:
+1. Malcolm, Laxpati, Alawieh, Oyesiku. "How to Conduct Meaningful Research:
    How Not to Reinvent Just Another Wheel." In *Surviving
    Neurosurgery*, chapter 76, pages 391-394. Editors Agarwal, Reddy. Springer 2021,
    ISBN 978-3-030-86916-8,
