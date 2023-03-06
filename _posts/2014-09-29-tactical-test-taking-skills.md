@@ -163,7 +163,9 @@ Always review explanations.  First for the correct answer, second for your
 wrong answer, but also for all the other answers.  Specifically look for how
 you could have ruled out each incorrect answer.  The point of the question
 isn't just the information limited to the correct choice; the point of the
-question is the integration and contrasts between all answer choices.
+question is the integration and contrasts between all answer choices. A good
+rule of thumb is that you should spend more time studying the explanation than
+you just spent completing the question.
 
 **Markup your notes/textbook.** Find the topic in your notes, underline the
 most important physical or lab findings, etc.  Put a small dot next to the
