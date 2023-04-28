@@ -83,7 +83,8 @@ me@jgmalcolm.com <br />
    Bray, Howard, Willie, Boulis, Gross.
    "Overlapping functional and stereotactic surgery is not
    associated with increased complications: A retrospective cohort study."
-   Journal of Neurosurgery *In Press* doi:10.3171/2022.8.JNS212363
+   Journal of Neurosurgery 138(4):1043-9, 2022.
+   pmid:36461842, doi:10.3171/2022.8.JNS212363
 1. Yousefi, Sabahi, Malcolm, Adada, Borghei-Razavi.
    [Laser Interstitial Thermal Therapy for cavernous malformations; A
    systematic review](/pubs/others/yousefi-LITT-for-cavmal-review.pdf).
