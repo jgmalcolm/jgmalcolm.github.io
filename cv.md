@@ -805,6 +805,7 @@ me@jgmalcolm.com <br />
 * Journal of Electronic Imaging (JEI)
 * Journal of Neurology
 * BMC Neurology
+* BMJ Case Reports
 * World Neurosurgery (WNS)
 * Medical Physics (MP)
 * Cureus
