@@ -75,6 +75,10 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Gutierrez, Erwood, Malcolm, Grogan, Greven. Gary, Rodts, Stricsek, Refai.
+   "Comparing Cortical Bone Trajectory and Traditional Pedicle Screws in
+   Transforaminal Lumbar Interbody Fusion: A Retrospective Cohort Study of
+   One-Year Outcomes." Cureus 15(8): e43237, 2023. doi:10.7759/cureus.43237
 1. McCracken, Schupper, Lakomkin, Malcolm, Bray, Hadjipanayis.  "Turning on
    the light for brain tumor surgery: A 5-aminolevulinic acid story."
    Neuro-Oncology 24(6):S52–S61, 2022. pmid:36322101,
