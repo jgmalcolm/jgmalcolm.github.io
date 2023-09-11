@@ -68,10 +68,6 @@ me@jgmalcolm.com <br />
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
    Creation of a Stronger Predictive Model." *In submission*
-1. Gutierrez, Erwood, Malcolm, Grogan, Greven, Gary, Rodts, Stricsek, Refai.
-   "Comparing Cortical Trajectory Against Pedicle Trajectory In Transforaminal
-   Lumbar Interbody Fusion: A Retrospective Cohort Study of 1-Year Outcomes."
-   Cureus, *In submission*
 
 {% endcomment %}
 
