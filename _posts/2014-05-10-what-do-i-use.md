@@ -122,7 +122,7 @@ To use one, drag it to your Bookmarks (toolbar).
 [LastPass]: https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd
 [offline]: https://support.google.com/drive/answer/2375012
 [Google Quick Scroll]: https://chrome.google.com/webstore/detail/google-quick-scroll/okanipcmceoeemlbjnmnbdibhgpbllgc
-[MenuMeters]: http://www.ragingmenace.com/software/menumeters
+[MenuMeters]: https://github.com/yujitach/MenuMeters
 [AltTab]: https://alt-tab-macos.netlify.app/
 [Airfoil]: https://www.rogueamoeba.com/airfoil
 [bose]: http://www.amazon.com/gp/product/B0090Z3QD4/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0090Z3QD4&linkCode=as2&tag=jgmalcolm-20&linkId=7RRGBSYFGX4EC4U3
