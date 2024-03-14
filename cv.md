@@ -814,6 +814,9 @@ me@jgmalcolm.com <br />
 * Medical Physics (MP)
 * Cureus
 * Frontiers in Surgery
+* Quantitative Imaging in Medicine and Surgery
+* Operative Neurosurgery
+* Neurosurgery Practice
 
 **Conference:**
 
