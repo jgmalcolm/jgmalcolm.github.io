@@ -754,6 +754,10 @@ me@jgmalcolm.com <br />
 
 ## Work Experience
 
+- [Southeastern Neurosurgical Specialists](//www.se-neurosurgical.com)
+  (8/2024-present). Staff Neurosurgeon.
+- [Emory University](//www.emory.edu) (7/2017-6/2024). Resident in
+  Neurosurgery.
 - [AccelerEyes & ArrayFire](//www.arrayfire.com). (VP Engineering, co-founder)
   Development of software enabling easy parallel programming. (2007-2013)
   - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
