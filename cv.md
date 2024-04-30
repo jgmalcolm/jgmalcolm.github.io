@@ -69,13 +69,13 @@ me@jgmalcolm.com <br />
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
    Creation of a Stronger Predictive Model." *In submission*
-1. Muthu, Ćorluka, Buser, Malcolm, Luo, Prajwal, Ambrosio, Griffoni, Demetriades,
-   Ivandić, Wu, Wang, Meisel, Yoon. "Failure Rate of Decompression-only Procedure
-   for Lumbar Degenerative Spondylolisthesis – a PRISMA Compliant Systematic Review of
-   Literature." *In submission*
 
 {% endcomment %}
 
+1. Muthu, Ćorluka, Buser, Malcolm, Luo, Prajwal, Ambrosio, Griffoni, Demetriades,
+   Ivandić, Wu, Wang, Meisel, Yoon. "Failure Rate of Decompression-only Procedure
+   for Lumbar Degenerative Spondylolisthesis – a PRISMA Compliant Systematic Review of
+   Literature." Journal of Bone and Joint Surgery (JBJS), *Accepted*
 1. Gutierrez, Erwood, Malcolm, Grogan, Greven. Gary, Rodts, Stricsek, Refai.
    "Comparing Cortical Bone Trajectory and Traditional Pedicle Screws in
    Transforaminal Lumbar Interbody Fusion: A Retrospective Cohort Study of
