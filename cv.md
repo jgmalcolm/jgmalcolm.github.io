@@ -389,6 +389,11 @@ me@jgmalcolm.com <br />
 
 {% endcomment %}
 
+1. Muthu, Corluka, Buser, Malcolm, Luo, Ambrosio, Griffoni, Demetriades,
+   Dokuzovic, Wu, Wang, Hans-Jorg, Yoon. "Failure rate of decompression-only
+   procedure for lumbar degenerative spondylolisthesis - Evidence from a
+   PRISMA-compliant systematic review of literature." Global Spine Congress (GSC),
+   May 15-18, 2024, Bangkok, Thailand. Oral.
 1. Malcolm, Yoon, Wu, Kim, Gary, on behalf of AO Spine Knowledge Forum Degenerative.
    "Is there consensus on best practices for lumbar wound closure or are we
    simply perpetuating regional dogma?  A worldwide survey of 280 spine
