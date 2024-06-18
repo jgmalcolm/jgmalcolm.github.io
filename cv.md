@@ -15,13 +15,13 @@ me@jgmalcolm.com <br />
 
 **Emory University, Atlanta, GA**
 
-- Neurosurgery Residency, expected June 2024
+- Neurosurgery Residency, AY 2017-2024
   - Georgia Neurosurgical Society, 2017 Annual Summer Meeting, Resident Research Award
   - Alpha Omega Alpha Honor Society (House Staff Award), May 2020
   - House Staff Organization Professionalism Excellence (HOPE) Award - Overall and Neurosurgery categories, June 2020
   - Complex and Minimally Invasive Spine, AY 2021-2022
   - Resident fellow, CNS Journal Club Podcast, AY 2023-2025
-- MD, May 2017
+- MD, AY 2013-2017
   - Joseph B Whitehead Surgery Scholarship, AY 2016-2017
   - Halsted Award, May 2017
 
