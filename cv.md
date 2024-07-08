@@ -75,7 +75,8 @@ me@jgmalcolm.com <br />
 1. Muthu, Ćorluka, Buser, Malcolm, Luo, Prajwal, Ambrosio, Griffoni, Demetriades,
    Ivandić, Wu, Wang, Meisel, Yoon. "Failure Rate of Decompression-only Procedure
    for Lumbar Degenerative Spondylolisthesis – a PRISMA Compliant Systematic Review of
-   Literature." Journal of Bone and Joint Surgery (JBJS), *Accepted*
+   Literature." Journal of Bone and Joint Surgery (JBJS) Open Access 9(3):e23.00163, 2024.
+   doi:10.2106/JBJS.OA.23.00163
 1. Gutierrez, Erwood, Malcolm, Grogan, Greven. Gary, Rodts, Stricsek, Refai.
    "Comparing Cortical Bone Trajectory and Traditional Pedicle Screws in
    Transforaminal Lumbar Interbody Fusion: A Retrospective Cohort Study of
