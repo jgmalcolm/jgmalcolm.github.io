@@ -5,7 +5,7 @@ title: "Hi there!"
 
 <img class="thumb" src="malcolm.jpg">
 
-I'm currently a neurosurgery resident at Emory in Atlanta, creator of
+I'm currently a neurosurgeon at Northside Hospital in Atlanta, creator of
 [Pharm450](//pharm450.com), co-creator of [ArrayFire](http://arrayfire.com),
 [scientist](/pubs/research.html), husband to an awesome woman, and father of
 three small humans.
