@@ -272,9 +272,9 @@ me@jgmalcolm.com <br />
 {% endcomment %}
 
 1. Malcolm, Rodts, Gary. "Bone Void Fillers: Autograft and Harvest Techniques."
-   In *Spino-Plastic Reconstruction: A Comprehensive Review of the Interplay
-   Between Bone and Soft Tissue*, chapter 13.
-   Editors Reece, Ropper, Winocour, Bohl. ISBN 978-1-68-420501-1 *In press*
+   In *Spinoplastic Reconstruction*, chapter 13.
+   Editors Reece, Ropper, Winocour, Bohl. ISBN 978-1-68-420501-1, 2024.
+   doi:10.1055/b000000739
 1. Malcolm, Laxpati, Alawieh, Oyesiku. "How to Conduct Meaningful Research:
    How Not to Reinvent Just Another Wheel." In *Surviving
    Neurosurgery*, chapter 76, pages 391-394. Editors Agarwal, Reddy. Springer 2021,
