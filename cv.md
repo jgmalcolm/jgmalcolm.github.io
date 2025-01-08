@@ -68,7 +68,7 @@ me@jgmalcolm.com <br />
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
-   Creation of a Stronger Predictive Model." *In submission*
+   Creation of a Stronger Predictive Model." *Accepted to WNS*
 
 {% endcomment %}
 
