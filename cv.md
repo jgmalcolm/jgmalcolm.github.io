@@ -65,13 +65,13 @@ me@jgmalcolm.com <br />
 
 {% comment %}
 
-1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
-   Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
-   Subarachnoid Hemorrhage: Identification of Novel Prognostic Variables and
-   Creation of a Stronger Predictive Model." *Accepted to WNS*
-
 {% endcomment %}
 
+1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
+   Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
+   Subarachnoid Hemorrhage: Investigation of Prognostic Variables and
+   Creation of a Stronger Predictive Model." World Neurosurgery (WNS),
+   doi:10.1016/j.wneu.2025.123659, pmid:39778627 *In Press*
 1. Muthu, Ćorluka, Buser, Malcolm, Luo, Prajwal, Ambrosio, Griffoni, Demetriades,
    Ivandić, Wu, Wang, Meisel, Yoon. "Failure Rate of Decompression-only Procedure
    for Lumbar Degenerative Spondylolisthesis – a PRISMA Compliant Systematic Review of
