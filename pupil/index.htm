@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Pupil</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
   margin: 0;
@@ -44,6 +45,11 @@ canvas.result {
   height: 200px;
   border: 1px solid #444;
   margin: 4px;
+}
+
+button {
+  margin: 6px;
+  padding: 8px;
 }
 </style>
 </head>
@@ -114,137 +120,153 @@ function captureFrame(){
   return ctx.getImageData(0,0,c.width,c.height);
 }
 
-// ---------- PROCESS ----------
-function toGray(frame){
-  const g=new Float32Array(frame.width*frame.height);
-  const d=frame.data;
-  for(let i=0,j=0;i<d.length;i+=4,j++){
-    g[j]=(d[i]+d[i+1]+d[i+2])/3;
-  }
-  return g;
-}
+// ---------- GRADIENT ----------
+function computeGradient(frame){
 
-function sobel(gray,w,h){
-  const out=new Float32Array(w*h);
+  const w=frame.width, h=frame.height;
+  const d=frame.data;
+
+  const gray=new Float32Array(w*h);
+  for(let i=0,j=0;i<d.length;i+=4,j++){
+    gray[j]=(d[i]+d[i+1]+d[i+2])/3;
+  }
+
+  const gx=new Float32Array(w*h);
+  const gy=new Float32Array(w*h);
+  const mag=new Float32Array(w*h);
 
   for(let y=1;y<h-1;y++){
     for(let x=1;x<w-1;x++){
+
       const i=y*w+x;
 
-      const gx =
+      const sx =
         -gray[i-w-1]-2*gray[i-1]-gray[i+w-1]+
          gray[i-w+1]+2*gray[i+1]+gray[i+w+1];
 
-      const gy =
+      const sy =
         -gray[i-w-1]-2*gray[i-w]-gray[i-w+1]+
          gray[i+w-1]+2*gray[i+w]+gray[i+w+1];
 
-      out[i]=Math.sqrt(gx*gx+gy*gy);
+      gx[i]=sx;
+      gy[i]=sy;
+      mag[i]=Math.sqrt(sx*sx+sy*sy);
     }
   }
-  return out;
+
+  return {gx,gy,mag};
 }
 
-// ---------- GUIDE ROI ----------
+// ---------- GUIDE ----------
 function getGuideCircle(){
+
+  const rect = video.getBoundingClientRect();
+  const guide = irisGuide.getBoundingClientRect();
+
+  const scaleX = 240 / rect.width;
+  const scaleY = 320 / rect.height;
+
   return {
-    cx: 120,
-    cy: 160,
-    r: 60
+    cx: (guide.left - rect.left + guide.width/2) * scaleX,
+    cy: (guide.top - rect.top + guide.height/2) * scaleY,
+    r: (guide.width/2) * scaleX
   };
 }
 
-// ---------- ROI-CONSTRAINED HOUGH ----------
-function houghCircleROI(edges,w,h,cx,cy,minR,maxR,roiR){
-
-  let best=null, bestScore=0;
-
-  for(let r=minR;r<maxR;r+=2){
-
-    let score=0;
-
-    for(let a=0;a<360;a+=8){
-      const rad=a*Math.PI/180;
-
-      const x=Math.round(cx+r*Math.cos(rad));
-      const y=Math.round(cy+r*Math.sin(rad));
-
-      if(x<0||y<0||x>=w||y>=h) continue;
-
-      // enforce ROI
-      const dx=x-cx;
-      const dy=y-cy;
-      if(Math.sqrt(dx*dx+dy*dy) > roiR) continue;
-
-      if(edges[y*w+x] > 100) score++;
-    }
-
-    if(score > bestScore){
-      bestScore = score;
-      best = {cx,cy,r};
-    }
-  }
-
-  return best;
-}
-
-// ---------- DETECT ----------
+// ---------- DIRECTIONAL HOUGH ----------
 function detect(frame){
 
   const w=frame.width, h=frame.height;
 
-  const gray=toGray(frame);
-  const edges=sobel(gray,w,h);
+  const {gx,gy,mag} = computeGradient(frame);
+  const guide = getGuideCircle();
 
-  const guide=getGuideCircle();
+  const iris = guide;
 
-  // IRIS: tightly constrained to guide circle
-  const iris = {
-    cx: guide.cx,
-    cy: guide.cy,
-    r: guide.r
+  let bestR=0;
+  let bestScore=0;
+
+  for(let r=6; r<iris.r*0.6; r+=1){
+
+    let score=0;
+
+    for(let y=0;y<h;y++){
+      for(let x=0;x<w;x++){
+
+        const i=y*w+x;
+
+        if(mag[i] < 60) continue;
+
+        const dx=x-iris.cx;
+        const dy=y-iris.cy;
+
+        // must be inside iris
+        if(dx*dx+dy*dy > iris.r*iris.r) continue;
+
+        // gradient direction
+        const gxn=gx[i];
+        const gyn=gy[i];
+
+        const len=Math.sqrt(gxn*gxn+gyn*gyn);
+        if(len===0) continue;
+
+        const nx=gxn/len;
+        const ny=gyn/len;
+
+        // expected circle normal direction
+        const ex=dx/Math.sqrt(dx*dx+dy*dy);
+        const ey=dy/Math.sqrt(dx*dx+dy*dy);
+
+        const dot = nx*ex + ny*ey;
+
+        // alignment check
+        if(dot > 0.8){
+
+          const dist = Math.sqrt(dx*dx+dy*dy);
+
+          if(Math.abs(dist - r) < 2){
+            score++;
+          }
+        }
+      }
+    }
+
+    if(score > bestScore){
+      bestScore = score;
+      bestR = r;
+    }
+  }
+
+  return {
+    iris,
+    pupil: bestScore > 50 ? {cx:iris.cx, cy:iris.cy, r:bestR} : null,
+    mag
   };
-
-  // PUPIL: constrained inside iris
-  const pupil = houghCircleROI(
-    edges,
-    w,
-    h,
-    iris.cx,
-    iris.cy,
-    8,
-    iris.r * 0.6,
-    iris.r
-  );
-
-  return {edges, iris, pupil};
 }
 
 // ---------- DRAW ----------
 function drawDebug(canvas,data){
-  const ctx=canvas.getContext("2d");
 
+  const ctx=canvas.getContext("2d");
   const img=ctx.createImageData(240,320);
 
-  for(let i=0;i<data.edges.length;i++){
-    const v=data.edges[i];
-    const val=Math.min(255,v*2);
-
-    img.data[i*4]=val;
-    img.data[i*4+1]=val;
-    img.data[i*4+2]=val;
+  for(let i=0;i<data.mag.length;i++){
+    const v=Math.min(255,data.mag[i]*2);
+    img.data[i*4]=v;
+    img.data[i*4+1]=v;
+    img.data[i*4+2]=v;
     img.data[i*4+3]=255;
   }
 
   ctx.putImageData(img,0,0);
 
-  // iris (yellow)
+  // iris
   ctx.beginPath();
   ctx.arc(data.iris.cx,data.iris.cy,data.iris.r,0,2*Math.PI);
   ctx.strokeStyle="yellow";
   ctx.stroke();
 
-  // pupil (cyan)
+  // pupil
   if(data.pupil){
     ctx.beginPath();
     ctx.arc(data.pupil.cx,data.pupil.cy,data.pupil.r,0,2*Math.PI);
@@ -261,6 +283,11 @@ function liveDetect(){
   const ctx=overlay.getContext("2d");
   ctx.clearRect(0,0,240,320);
 
+  ctx.beginPath();
+  ctx.arc(d.iris.cx,d.iris.cy,d.iris.r,0,2*Math.PI);
+  ctx.strokeStyle="yellow";
+  ctx.stroke();
+
   if(d.pupil){
     ctx.beginPath();
     ctx.arc(d.pupil.cx,d.pupil.cy,d.pupil.r,0,2*Math.PI);
@@ -271,14 +298,20 @@ function liveDetect(){
   requestAnimationFrame(liveDetect);
 }
 
+// ---------- FLASH ----------
+async function flash(){
+  document.body.style.background="#fff";
+  await new Promise(r=>setTimeout(r,200));
+  document.body.style.background="#111";
+}
+
 // ---------- TEST ----------
 async function runTest(){
 
   let frames=[],vals=[];
 
   for(let i=0;i<6;i++){
-    let f=captureFrame();
-    let d=detect(f);
+    let d=detect(captureFrame());
     frames.push(d);
     vals.push(d.pupil?d.pupil.r:null);
     await new Promise(r=>setTimeout(r,80));
@@ -287,8 +320,7 @@ async function runTest(){
   await flash();
 
   for(let i=0;i<15;i++){
-    let f=captureFrame();
-    let d=detect(f);
+    let d=detect(captureFrame());
     frames.push(d);
     vals.push(d.pupil?d.pupil.r:null);
     await new Promise(r=>setTimeout(r,80));
@@ -313,13 +345,6 @@ async function runTest(){
     `Dilated: ${baseline.toFixed(1)} px<br>
      Constricted: ${minVal.toFixed(1)} px<br>
      Constriction: ${constriction.toFixed(1)}%`;
-}
-
-// ---------- FLASH ----------
-async function flash(){
-  document.body.style.background="#fff";
-  await new Promise(r=>setTimeout(r,200));
-  document.body.style.background="#111";
 }
 </script>
 
