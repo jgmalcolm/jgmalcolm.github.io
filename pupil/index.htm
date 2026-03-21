@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pupil Response (Hough)</title>
+<title>Pupil</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -30,6 +30,7 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scaleX(-1); /* mirror for usability */
 }
 
 #irisGuide {
@@ -95,14 +96,13 @@ button {
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
-let stream, track;
+let stream;
 
 async function startCamera(){
   stream = await navigator.mediaDevices.getUserMedia({
-    video:{facingMode:{ideal:"environment"}}
+    video:{ facingMode: "user" }
   });
   video.srcObject = stream;
-  track = stream.getVideoTracks()[0];
 }
 
 function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
@@ -134,84 +134,80 @@ function toGray(frame){
   const g = new Float32Array(frame.width * frame.height);
   const d = frame.data;
   for(let i=0,j=0;i<d.length;i+=4,j++){
-    g[j] = (d[i]+d[i+1]+d[i+2])/3;
+    g[j]=(d[i]+d[i+1]+d[i+2])/3;
   }
   return g;
 }
 
-function sobel(gray, w, h){
+function sobel(gray,w,h){
   const out = new Float32Array(w*h);
 
   for(let y=1;y<h-1;y++){
     for(let x=1;x<w-1;x++){
 
-      const i = y*w + x;
+      const i=y*w+x;
 
       const gx =
-        -gray[i-w-1] -2*gray[i-1] -gray[i+w-1] +
-         gray[i-w+1] +2*gray[i+1] +gray[i+w+1];
+        -gray[i-w-1]-2*gray[i-1]-gray[i+w-1] +
+         gray[i-w+1]+2*gray[i+1]+gray[i+w+1];
 
       const gy =
-        -gray[i-w-1] -2*gray[i-w] -gray[i-w+1] +
-         gray[i+w-1] +2*gray[i+w] +gray[i+w+1];
+        -gray[i-w-1]-2*gray[i-w]-gray[i-w+1] +
+         gray[i+w-1]+2*gray[i+w]+gray[i+w+1];
 
-      out[i] = Math.sqrt(gx*gx + gy*gy);
+      out[i]=Math.sqrt(gx*gx+gy*gy);
     }
   }
 
   return out;
 }
 
-// ---------- HOUGH CIRCLE (simplified) ----------
+// ---------- HOUGH ----------
 
 function detectPupil(frame){
 
-  const w = frame.width;
-  const h = frame.height;
+  const w=frame.width;
+  const h=frame.height;
 
-  const gray = toGray(frame);
-  const edges = sobel(gray, w, h);
+  const gray=toGray(frame);
+  const edges=sobel(gray,w,h);
 
-  const cx = w/2;
-  const cy = h/2;
+  const cx=w/2;
+  const cy=h/2;
 
-  const irisR = Math.min(w,h)*0.25;
-  const minR = irisR*0.15;
-  const maxR = irisR*0.5;
+  const irisR=Math.min(w,h)*0.25;
+  const minR=irisR*0.15;
+  const maxR=irisR*0.5;
 
-  let best = null;
-  let bestScore = 0;
+  let best=null;
+  let bestScore=0;
 
-  for(let r=minR; r<maxR; r+=2){
+  for(let r=minR;r<maxR;r+=2){
+
+    let score=0;
 
     for(let a=0;a<360;a+=10){
-      const rad = a*Math.PI/180;
-
-      const x = Math.round(cx + r*Math.cos(rad));
-      const y = Math.round(cy + r*Math.sin(rad));
+      const rad=a*Math.PI/180;
+      const x=Math.round(cx+r*Math.cos(rad));
+      const y=Math.round(cy+r*Math.sin(rad));
 
       if(x<1||y<1||x>=w-1||y>=h-1) continue;
 
-      const i = y*w + x;
+      const i=y*w+x;
+      if(edges[i]>80) score++;
+    }
 
-      if(edges[i] > 80){ // edge threshold
-        let score = edges[i];
-
-        if(score > bestScore){
-          bestScore = score;
-          best = {cx, cy, r};
-        }
-      }
+    if(score>bestScore){
+      bestScore=score;
+      best={cx,cy,r};
     }
   }
 
   return best;
 }
 
-// ---------- DRAW ----------
-
-function draw(canvas, frame, res){
-  const ctx = canvas.getContext("2d");
+function draw(canvas,frame,res){
+  const ctx=canvas.getContext("2d");
   ctx.putImageData(frame,0,0);
 
   if(!res) return;
@@ -223,38 +219,22 @@ function draw(canvas, frame, res){
   ctx.stroke();
 }
 
-// ---------- FLASH ----------
-
 async function flash(){
-  try{
-    const caps = track.getCapabilities();
-    if(caps.torch){
-      await track.applyConstraints({advanced:[{torch:true}]});
-      await sleep(200);
-      await track.applyConstraints({advanced:[{torch:false}]});
-      return;
-    }
-  }catch{}
-
   document.body.style.background="#fff";
   await sleep(200);
   document.body.style.background="#111";
 }
 
-// ---------- MAIN ----------
-
 async function runTest(){
 
-  let frames=[], vals=[], times=[];
+  let frames=[],vals=[],times=[];
 
   for(let i=0;i<6;i++){
     let f=captureFrame();
     let r=detectPupil(f);
-
     frames.push({f,r});
-    vals.push(r ? r.r : null);
+    vals.push(r?r.r:null);
     times.push(performance.now());
-
     await sleep(80);
   }
 
@@ -263,17 +243,15 @@ async function runTest(){
   for(let i=0;i<15;i++){
     let f=captureFrame();
     let r=detectPupil(f);
-
     frames.push({f,r});
-    vals.push(r ? r.r : null);
+    vals.push(r?r.r:null);
     times.push(performance.now());
-
     await sleep(80);
   }
 
-  let baselineIndex = vals.findIndex(v=>v!==null);
+  let baselineIndex=vals.findIndex(v=>v!==null);
 
-  let minVal=Infinity, minIndex=-1;
+  let minVal=Infinity,minIndex=-1;
 
   for(let i=6;i<vals.length;i++){
     if(vals[i]!==null && vals[i]<minVal){
@@ -282,12 +260,12 @@ async function runTest(){
     }
   }
 
-  if(baselineIndex===-1 || minIndex===-1){
+  if(baselineIndex===-1||minIndex===-1){
     document.getElementById("status").innerText="Detection failed";
     return;
   }
 
-  let baseline = vals[baselineIndex];
+  let baseline=vals[baselineIndex];
 
   draw(document.getElementById("baselineCanvas"),
        frames[baselineIndex].f,
@@ -297,14 +275,14 @@ async function runTest(){
        frames[minIndex].f,
        frames[minIndex].r);
 
-  let constriction = ((baseline-minVal)/baseline)*100;
+  let constriction=((baseline-minVal)/baseline)*100;
 
-  let dt = times[minIndex]-times[baselineIndex];
-  let slope = (baseline-minVal)/dt;
+  let dt=times[minIndex]-times[baselineIndex];
+  let slope=(baseline-minVal)/dt;
 
-  let brisk = slope > 0.02 ? "Brisk" : "Sluggish";
+  let brisk=slope>0.02?"Brisk":"Sluggish";
 
-  document.getElementById("results").innerHTML =
+  document.getElementById("results").innerHTML=
     `Dilated: ${baseline.toFixed(1)} px<br>
      Constricted: ${minVal.toFixed(1)} px<br>
      Constriction: ${constriction.toFixed(1)}%<br>
