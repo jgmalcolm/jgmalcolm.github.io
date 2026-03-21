@@ -22,14 +22,20 @@ body {
   position: relative;
   width: 240px;
   height: 320px;
-  overflow: hidden;
   border-radius: 10px;
+  overflow: hidden;
 }
 
-video {
+video, canvas.overlay {
+  position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* mirror preview for usability */
+video {
+  transform: scaleX(-1);
 }
 
 #irisGuide {
@@ -49,7 +55,7 @@ video {
   margin-top: 6px;
 }
 
-canvas {
+canvas.result {
   width: 150px;
   height: 200px;
   border: 1px solid #444;
@@ -76,6 +82,7 @@ button {
 
 <div id="videoContainer">
   <video id="video" autoplay playsinline></video>
+  <canvas id="overlay" class="overlay"></canvas>
   <div id="irisGuide"></div>
 </div>
 
@@ -85,54 +92,56 @@ button {
 </div>
 
 <div id="row">
-  <canvas id="baselineCanvas" width="240" height="320"></canvas>
-  <canvas id="minCanvas" width="240" height="320"></canvas>
+  <canvas id="baselineCanvas" class="result" width="240" height="320"></canvas>
+  <canvas id="minCanvas" class="result" width="240" height="320"></canvas>
 </div>
 
 <div id="results">—</div>
-<div id="status">Align iris and press Measure</div>
+<div id="status">Align iris. Verify circle locks on pupil.</div>
 
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
-let stream, track;
+let stream;
+let running = false;
 
 async function startCamera(){
   stream = await navigator.mediaDevices.getUserMedia({
-    video:{ facingMode: { ideal: "environment" } }
+    video:{ facingMode:"user" }
   });
+
   video.srcObject = stream;
-  track = stream.getVideoTracks()[0];
+
+  running = true;
+  requestAnimationFrame(liveDetect);
 }
 
-function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
-
 function captureFrame(){
-  const c = document.getElementById("procCanvas");
-  const ctx = c.getContext("2d");
+  const c=document.getElementById("procCanvas");
+  const ctx=c.getContext("2d");
 
-  c.width = 240;
-  c.height = 320;
+  c.width=240;
+  c.height=320;
 
-  const vw = video.videoWidth;
-  const vh = video.videoHeight;
+  const vw=video.videoWidth;
+  const vh=video.videoHeight;
 
-  const scale = Math.max(c.width/vw, c.height/vh);
-  const sw = c.width/scale;
-  const sh = c.height/scale;
-  const sx = (vw-sw)/2;
-  const sy = (vh-sh)/2;
+  const scale=Math.max(c.width/vw,c.height/vh);
+  const sw=c.width/scale;
+  const sh=c.height/scale;
+  const sx=(vw-sw)/2;
+  const sy=(vh-sh)/2;
 
-  ctx.drawImage(video, sx, sy, sw, sh, 0, 0, c.width, c.height);
+  ctx.drawImage(video,sx,sy,sw,sh,0,0,c.width,c.height);
 
   return ctx.getImageData(0,0,c.width,c.height);
 }
 
-// --- image processing ---
+// ---------- IMAGE PROCESSING ----------
 
 function toGray(frame){
-  const g = new Float32Array(frame.width*frame.height);
-  const d = frame.data;
+  const g=new Float32Array(frame.width*frame.height);
+  const d=frame.data;
   for(let i=0,j=0;i<d.length;i+=4,j++){
     g[j]=(d[i]+d[i+1]+d[i+2])/3;
   }
@@ -140,53 +149,45 @@ function toGray(frame){
 }
 
 function sobel(gray,w,h){
-  const out = new Float32Array(w*h);
+  const out=new Float32Array(w*h);
 
   for(let y=1;y<h-1;y++){
     for(let x=1;x<w-1;x++){
-
       const i=y*w+x;
 
-      const gx =
-        -gray[i-w-1]-2*gray[i-1]-gray[i+w-1] +
+      const gx=
+        -gray[i-w-1]-2*gray[i-1]-gray[i+w-1]+
          gray[i-w+1]+2*gray[i+1]+gray[i+w+1];
 
-      const gy =
-        -gray[i-w-1]-2*gray[i-w]-gray[i-w+1] +
+      const gy=
+        -gray[i-w-1]-2*gray[i-w]-gray[i-w+1]+
          gray[i+w-1]+2*gray[i+w]+gray[i+w+1];
 
       out[i]=Math.sqrt(gx*gx+gy*gy);
     }
   }
-
   return out;
 }
 
-// --- Hough circle (simplified) ---
+// ---------- HOUGH ----------
 
 function detectPupil(frame){
-
-  const w=frame.width;
-  const h=frame.height;
-
+  const w=frame.width,h=frame.height;
   const gray=toGray(frame);
   const edges=sobel(gray,w,h);
 
-  const cx=w/2;
-  const cy=h/2;
+  const cx=w/2,cy=h/2;
 
   const irisR=Math.min(w,h)*0.25;
   const minR=irisR*0.15;
   const maxR=irisR*0.5;
 
-  let best=null;
-  let bestScore=0;
+  let best=null,bestScore=0;
 
-  for(let r=minR;r<maxR;r+=2){
-
+  for(let r=minR;r<maxR;r+=3){
     let score=0;
 
-    for(let a=0;a<360;a+=10){
+    for(let a=0;a<360;a+=15){
       const rad=a*Math.PI/180;
       const x=Math.round(cx+r*Math.cos(rad));
       const y=Math.round(cy+r*Math.sin(rad));
@@ -206,40 +207,42 @@ function detectPupil(frame){
   return best;
 }
 
-// --- drawing ---
+// ---------- LIVE OVERLAY ----------
 
-function draw(canvas,frame,res){
+function liveDetect(){
+  if(!running) return;
+
+  const frame=captureFrame();
+  const res=detectPupil(frame);
+
+  const canvas=document.getElementById("overlay");
   const ctx=canvas.getContext("2d");
-  ctx.putImageData(frame,0,0);
 
-  if(!res) return;
+  canvas.width=240;
+  canvas.height=320;
 
-  ctx.beginPath();
-  ctx.arc(res.cx,res.cy,res.r,0,2*Math.PI);
-  ctx.strokeStyle="cyan";
-  ctx.lineWidth=2;
-  ctx.stroke();
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+
+  if(res){
+    ctx.beginPath();
+    ctx.arc(res.cx,res.cy,res.r,0,2*Math.PI);
+    ctx.strokeStyle="cyan";
+    ctx.lineWidth=2;
+    ctx.stroke();
+  }
+
+  requestAnimationFrame(liveDetect);
 }
 
-// --- flash ---
+// ---------- FLASH (screen only) ----------
 
 async function flash(){
-  try{
-    const caps = track.getCapabilities();
-    if(caps.torch){
-      await track.applyConstraints({advanced:[{torch:true}]});
-      await sleep(200);
-      await track.applyConstraints({advanced:[{torch:false}]});
-      return;
-    }
-  }catch{}
-
   document.body.style.background="#fff";
-  await sleep(200);
+  await new Promise(r=>setTimeout(r,200));
   document.body.style.background="#111";
 }
 
-// --- main ---
+// ---------- TEST ----------
 
 async function runTest(){
 
@@ -251,7 +254,7 @@ async function runTest(){
     frames.push({f,r});
     vals.push(r?r.r:null);
     times.push(performance.now());
-    await sleep(80);
+    await new Promise(r=>setTimeout(r,80));
   }
 
   await flash();
@@ -262,7 +265,7 @@ async function runTest(){
     frames.push({f,r});
     vals.push(r?r.r:null);
     times.push(performance.now());
-    await sleep(80);
+    await new Promise(r=>setTimeout(r,80));
   }
 
   let baselineIndex=vals.findIndex(v=>v!==null);
@@ -283,19 +286,11 @@ async function runTest(){
 
   let baseline=vals[baselineIndex];
 
-  draw(document.getElementById("baselineCanvas"),
-       frames[baselineIndex].f,
-       frames[baselineIndex].r);
-
-  draw(document.getElementById("minCanvas"),
-       frames[minIndex].f,
-       frames[minIndex].r);
+  drawResult("baselineCanvas",frames[baselineIndex]);
+  drawResult("minCanvas",frames[minIndex]);
 
   let constriction=((baseline-minVal)/baseline)*100;
-
-  let dt=times[minIndex]-times[baselineIndex];
-  let slope=(baseline-minVal)/dt;
-
+  let slope=(baseline-minVal)/(times[minIndex]-times[baselineIndex]);
   let brisk=slope>0.02?"Brisk":"Sluggish";
 
   document.getElementById("results").innerHTML=
@@ -303,6 +298,19 @@ async function runTest(){
      Constricted: ${minVal.toFixed(1)} px<br>
      Constriction: ${constriction.toFixed(1)}%<br>
      Briskness: ${brisk}`;
+}
+
+function drawResult(id,obj){
+  const ctx=document.getElementById(id).getContext("2d");
+  ctx.putImageData(obj.f,0,0);
+
+  if(!obj.r) return;
+
+  ctx.beginPath();
+  ctx.arc(obj.r.cx,obj.r.cy,obj.r.r,0,2*Math.PI);
+  ctx.strokeStyle="cyan";
+  ctx.lineWidth=2;
+  ctx.stroke();
 }
 </script>
 
