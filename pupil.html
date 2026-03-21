@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Pupil Response App</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body { font-family: Arial; text-align: center; background: #111; color: #fff; }
+  video, canvas { width: 95%; max-width: 400px; border-radius: 10px; margin-top: 10px; }
+  button { padding: 12px; margin: 8px; font-size: 16px; border-radius: 8px; }
+  #status { margin-top: 10px; color: #0f0; }
+</style>
+</head>
+<body>
+
+<h2>Pupil Response</h2>
+
+<video id="video" autoplay playsinline></video>
+<canvas id="canvas" style="display:none;"></canvas>
+
+<div>
+  <button onclick="startCamera()">Start Camera</button>
+  <button onclick="toggleTorch()">Toggle Flash</button>
+</div>
+
+<div id="status">Idle</div>
+
+<script>
+let stream = null;
+let track = null;
+let torchOn = false;
+
+async function startCamera() {
+  const status = document.getElementById("status");
+
+  try {
+    status.innerText = "Requesting rear camera...";
+
+    stream = await navigator.mediaDevices.getUserMedia({
+      video: {
+        facingMode: { ideal: "environment" },
+        width: { ideal: 1280 },
+        height: { ideal: 720 }
+      }
+    });
+
+    const video = document.getElementById("video");
+    video.srcObject = stream;
+
+    track = stream.getVideoTracks()[0];
+
+    status.innerText = "Rear camera active";
+
+    // Check torch capability
+    const capabilities = track.getCapabilities();
+    if (capabilities.torch) {
+      status.innerText += " | Flash supported";
+    } else {
+      status.innerText += " | Flash NOT supported";
+    }
+
+  } catch (err) {
+    status.innerText = "Camera error: " + err.message;
+    console.error(err);
+  }
+}
+
+async function toggleTorch() {
+  const status = document.getElementById("status");
+
+  if (!track) {
+    status.innerText = "Start camera first";
+    return;
+  }
+
+  const capabilities = track.getCapabilities();
+
+  if (!capabilities.torch) {
+    status.innerText = "Flash not supported on this device/browser";
+    return;
+  }
+
+  try {
+    torchOn = !torchOn;
+
+    await track.applyConstraints({
+      advanced: [{ torch: torchOn }]
+    });
+
+    status.innerText = torchOn ? "Flash ON" : "Flash OFF";
+
+  } catch (err) {
+    status.innerText = "Flash error: " + err.message;
+    console.error(err);
+  }
+}
+</script>
+
+</body>
+</html>
