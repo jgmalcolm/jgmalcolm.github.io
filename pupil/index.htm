@@ -23,43 +23,21 @@ body {
 }
 
 video {
-  width: 55vw;
-  max-width: 220px;
+  width: 60vw;
+  max-width: 240px;
   border-radius: 8px;
 }
 
-/* CROSSHAIR */
-#crosshair {
+#irisGuide {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 40px;
-  height: 40px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid cyan;
+  border-radius: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
-}
-
-#crosshair::before,
-#crosshair::after {
-  content: "";
-  position: absolute;
-  background: cyan;
-}
-
-#crosshair::before {
-  width: 2px;
-  height: 100%;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-}
-
-#crosshair::after {
-  height: 2px;
-  width: 100%;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
 }
 
 canvas {
@@ -89,11 +67,12 @@ button {
 
 <div id="videoContainer">
   <video id="video" autoplay playsinline></video>
-  <div id="crosshair"></div>
+  <div id="irisGuide"></div>
 </div>
 
 <div>
   <button onclick="startCamera()">Start</button>
+  <button onclick="runTest()">Measure</button>
 </div>
 
 <div id="row">
@@ -101,57 +80,58 @@ button {
   <canvas id="minCanvas"></canvas>
 </div>
 
-<div id="status">Align pupil with crosshair, then tap</div>
+<div id="status">Align iris with circle, then press Measure</div>
 
 <canvas id="hidden" style="display:none;"></canvas>
 
 <script>
-let stream;
-let track;
-let clickPoint = null;
+let stream, track;
 
 async function startCamera() {
-  stream = await navigator.mediaDevices.getUserMedia({
-    video: { facingMode: { ideal: "environment" } }
-  });
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({
+      video: { facingMode: { ideal: "environment" } }
+    });
 
-  video.srcObject = stream;
-  track = stream.getVideoTracks()[0];
+    video.srcObject = stream;
+    track = stream.getVideoTracks()[0];
 
-  document.getElementById("status").innerText =
-    "Align pupil with crosshair, then tap screen";
+    document.getElementById("status").innerText =
+      "Align iris with circle, then press Measure";
+
+  } catch (e) {
+    document.getElementById("status").innerText =
+      "Camera error: " + e.message;
+  }
 }
-
-video.addEventListener("click", async (e) => {
-  const rect = video.getBoundingClientRect();
-
-  clickPoint = {
-    x: (e.clientX - rect.left) * (video.videoWidth / rect.width),
-    y: (e.clientY - rect.top) * (video.videoHeight / rect.height)
-  };
-
-  document.getElementById("status").innerText = "Measuring...";
-
-  await runTest();
-});
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
 }
 
-function detectPupil(frame, w, h, cx, cy) {
+function detectPupil(frame, w, h) {
   const data = frame.data;
-  const radiusSearch = 60;
 
-  let sumX=0, sumY=0, count=0;
+  const cx = w / 2;
+  const cy = h / 2;
 
-  for (let y = cy-radiusSearch; y < cy+radiusSearch; y++) {
-    for (let x = cx-radiusSearch; x < cx+radiusSearch; x++) {
+  const irisRadius = Math.min(w, h) * 0.18;
+  const searchRadius = irisRadius * 0.6;
 
-      if (x<0 || y<0 || x>=w || y>=h) continue;
+  let sumX = 0, sumY = 0, count = 0;
+
+  for (let y = cy - searchRadius; y < cy + searchRadius; y++) {
+    for (let x = cx - searchRadius; x < cx + searchRadius; x++) {
+
+      if (x < 0 || y < 0 || x >= w || y >= h) continue;
+
+      const dx = x - cx;
+      const dy = y - cy;
+
+      if (Math.sqrt(dx*dx + dy*dy) > searchRadius) continue;
 
       const i = (y*w + x)*4;
-      const b = (data[i]+data[i+1]+data[i+2])/3;
+      const b = (data[i] + data[i+1] + data[i+2]) / 3;
 
       if (b < 60) {
         sumX += x;
@@ -164,28 +144,23 @@ function detectPupil(frame, w, h, cx, cy) {
   if (count < 50) return null;
 
   return {
-    cx: sumX/count,
-    cy: sumY/count,
-    r: Math.sqrt(count/Math.PI)
+    cx: sumX / count,
+    cy: sumY / count,
+    r: Math.sqrt(count / Math.PI)
   };
 }
 
-function draw(frame, res, canvas, shade=false) {
+function draw(frame, res, canvas) {
   const ctx = canvas.getContext("2d");
-  ctx.putImageData(frame,0,0);
+  ctx.putImageData(frame, 0, 0);
 
   if (!res) return;
 
   ctx.beginPath();
-  ctx.arc(res.cx,res.cy,res.r,0,2*Math.PI);
+  ctx.arc(res.cx, res.cy, res.r, 0, 2 * Math.PI);
 
-  if (shade) {
-    ctx.fillStyle="rgba(0,255,255,0.3)";
-    ctx.fill();
-  }
-
-  ctx.strokeStyle="cyan";
-  ctx.lineWidth=2;
+  ctx.strokeStyle = "cyan";
+  ctx.lineWidth = 2;
   ctx.stroke();
 }
 
@@ -203,9 +178,10 @@ async function flash() {
     } catch {}
   }
 
-  document.body.style.background="#fff";
+  // fallback flash
+  document.body.style.background = "#fff";
   await sleep(200);
-  document.body.style.background="#111";
+  document.body.style.background = "#111";
 }
 
 async function runTest() {
@@ -219,42 +195,47 @@ async function runTest() {
   let frames = [];
   let values = [];
 
-  for (let i=0;i<6;i++){
-    ctx.drawImage(video,0,0);
-    let f = ctx.getImageData(0,0,hidden.width,hidden.height);
-    let res = detectPupil(f,hidden.width,hidden.height,clickPoint.x,clickPoint.y);
+  // baseline
+  for (let i = 0; i < 6; i++) {
+    ctx.drawImage(video, 0, 0);
+    let f = ctx.getImageData(0, 0, hidden.width, hidden.height);
+    let res = detectPupil(f, hidden.width, hidden.height);
 
-    frames.push({f,res});
-    values.push(res?res.r:0);
+    frames.push({f, res});
+    values.push(res ? res.r : 0);
+
     await sleep(80);
   }
 
   await flash();
 
-  for (let i=0;i<15;i++){
-    ctx.drawImage(video,0,0);
-    let f = ctx.getImageData(0,0,hidden.width,hidden.height);
-    let res = detectPupil(f,hidden.width,hidden.height,clickPoint.x,clickPoint.y);
+  // response
+  for (let i = 0; i < 15; i++) {
+    ctx.drawImage(video, 0, 0);
+    let f = ctx.getImageData(0, 0, hidden.width, hidden.height);
+    let res = detectPupil(f, hidden.width, hidden.height);
 
-    frames.push({f,res});
-    values.push(res?res.r:0);
+    frames.push({f, res});
+    values.push(res ? res.r : 0);
+
     await sleep(80);
   }
 
   let minIndex = values.indexOf(Math.min(...values));
 
   draw(frames[0].f, frames[0].res,
-       document.getElementById("baselineCanvas"), false);
+       document.getElementById("baselineCanvas"));
 
   draw(frames[minIndex].f, frames[minIndex].res,
-       document.getElementById("minCanvas"), true);
+       document.getElementById("minCanvas"));
 
   let baseline = values[0];
   let minVal = values[minIndex];
-  let constriction = ((baseline - minVal)/baseline)*100;
+
+  let constriction = ((baseline - minVal) / baseline) * 100;
 
   document.getElementById("status").innerText =
-    `Constriction: ${constriction.toFixed(1)}%`;
+    `Baseline: ${baseline.toFixed(1)} | Min: ${minVal.toFixed(1)} | Constriction: ${constriction.toFixed(1)}%`;
 }
 </script>
 
