@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Pupil Response</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
   body {
@@ -14,30 +14,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     height: 100vh;
     overflow: hidden;
   }
 
-  h2 { margin: 6px 0; font-size: 18px; }
+  h2 { margin: 4px; font-size: 16px; }
 
   video {
-    width: 60vw;
-    max-width: 240px;
-    border-radius: 10px;
-  }
-
-  button {
-    padding: 10px;
-    margin: 5px;
-    font-size: 14px;
+    width: 55vw;
+    max-width: 220px;
     border-radius: 8px;
   }
 
-  #controls {
+  canvas {
+    width: 40vw;
+    max-width: 160px;
+    border: 1px solid #444;
+    margin: 4px;
+  }
+
+  #row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+  }
+
+  button {
+    padding: 8px;
+    margin: 4px;
+    font-size: 13px;
   }
 
   #status {
@@ -50,137 +55,169 @@
 <body>
 
 <h2>Pupil Response</h2>
+
 <video id="video" autoplay playsinline></video>
 
-<div id="controls">
+<div>
   <button onclick="startCamera()">Start</button>
-  <button onclick="toggleTorch()">Flash</button>
   <button onclick="recordTest()">Test</button>
+</div>
+
+<div id="row">
+  <canvas id="baselineCanvas"></canvas>
+  <canvas id="minCanvas"></canvas>
 </div>
 
 <div id="status">Idle</div>
 
-<canvas id="canvas" style="display:none;"></canvas>
+<canvas id="hiddenCanvas" style="display:none;"></canvas>
 
 <script>
-let stream = null;
-let track = null;
-let torchOn = false;
-let capturing = false;
+let stream, track;
 
 async function startCamera() {
   const status = document.getElementById("status");
 
   try {
     stream = await navigator.mediaDevices.getUserMedia({
-      video: { facingMode: { ideal: "environment" } }
+      video: { facingMode: "user" }
     });
 
-    const video = document.getElementById("video");
     video.srcObject = stream;
-
     track = stream.getVideoTracks()[0];
 
-    status.innerText = "Camera ready";
+    status.innerText = "Front camera ready";
 
-  } catch (err) {
-    status.innerText = "Camera error: " + err.message;
+  } catch (e) {
+    status.innerText = "Camera error: " + e.message;
   }
-}
-
-async function toggleTorch() {
-  if (!track) return;
-
-  const capabilities = track.getCapabilities();
-  if (!capabilities.torch) {
-    document.getElementById("status").innerText = "No flash support";
-    return;
-  }
-
-  torchOn = !torchOn;
-
-  await track.applyConstraints({
-    advanced: [{ torch: torchOn }]
-  });
-}
-
-function estimatePupil(frame) {
-  const data = frame.data;
-  let darkPixels = 0;
-
-  for (let i = 0; i < data.length; i += 4) {
-    const brightness = (data[i] + data[i+1] + data[i+2]) / 3;
-    if (brightness < 50) darkPixels++;
-  }
-
-  return Math.sqrt(darkPixels); // crude diameter proxy
-}
-
-async function recordTest() {
-  if (!track) return;
-
-  const status = document.getElementById("status");
-  const video = document.getElementById("video");
-  const canvas = document.getElementById("canvas");
-  const ctx = canvas.getContext("2d");
-
-  canvas.width = video.videoWidth;
-  canvas.height = video.videoHeight;
-
-  let measurements = [];
-  capturing = true;
-
-  status.innerText = "Recording baseline...";
-
-  // capture baseline frames (1 sec)
-  for (let i = 0; i < 10; i++) {
-    await captureFrame();
-  }
-
-  status.innerText = "Flash stimulus";
-
-  // turn flash ON briefly
-  await track.applyConstraints({ advanced: [{ torch: true }] });
-  await sleep(300);
-
-  await track.applyConstraints({ advanced: [{ torch: false }] });
-
-  // capture response frames (2 sec)
-  for (let i = 0; i < 20; i++) {
-    await captureFrame();
-  }
-
-  analyze(measurements);
-
-  async function captureFrame() {
-    ctx.drawImage(video, 0, 0);
-    const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
-    const size = estimatePupil(frame);
-    measurements.push(size);
-    await sleep(100);
-  }
-
-  function analyze(m) {
-    const baseline = avg(m.slice(0, 5));
-    const minVal = Math.min(...m);
-    const constriction = ((baseline - minVal) / baseline) * 100;
-
-    const slope = baseline - m[10]; // rough velocity proxy
-
-    let label = slope > 5 ? "Brisk" : "Sluggish";
-
-    status.innerText =
-      `Baseline: ${baseline.toFixed(1)} | Min: ${minVal.toFixed(1)} | ` +
-      `Constriction: ${constriction.toFixed(1)}% | ${label}`;
-  }
-}
-
-function avg(arr) {
-  return arr.reduce((a,b)=>a+b,0)/arr.length;
 }
 
 function sleep(ms) {
   return new Promise(r => setTimeout(r, ms));
+}
+
+function detectPupil(frame, w, h) {
+  const data = frame.data;
+
+  let cx = 0, cy = 0, count = 0;
+
+  // focus on center region (ROI)
+  const xStart = w * 0.25;
+  const xEnd = w * 0.75;
+  const yStart = h * 0.25;
+  const yEnd = h * 0.75;
+
+  for (let y = yStart; y < yEnd; y++) {
+    for (let x = xStart; x < xEnd; x++) {
+      const i = (y * w + x) * 4;
+      const brightness = (data[i] + data[i+1] + data[i+2]) / 3;
+
+      if (brightness < 60) {
+        cx += x;
+        cy += y;
+        count++;
+      }
+    }
+  }
+
+  if (count === 0) return null;
+
+  cx /= count;
+  cy /= count;
+
+  const radius = Math.sqrt(count / Math.PI);
+
+  return { cx, cy, radius, count };
+}
+
+function drawCircle(ctx, frame, result, shade=false) {
+  ctx.putImageData(frame, 0, 0);
+
+  if (!result) return;
+
+  ctx.beginPath();
+  ctx.arc(result.cx, result.cy, result.radius, 0, 2*Math.PI);
+
+  if (shade) {
+    ctx.fillStyle = "rgba(0,255,255,0.3)";
+    ctx.fill();
+  }
+
+  ctx.strokeStyle = "cyan";
+  ctx.lineWidth = 2;
+  ctx.stroke();
+}
+
+async function recordTest() {
+  const video = document.getElementById("video");
+  const hidden = document.getElementById("hiddenCanvas");
+  const ctx = hidden.getContext("2d");
+
+  const baselineCanvas = document.getElementById("baselineCanvas");
+  const minCanvas = document.getElementById("minCanvas");
+
+  const bctx = baselineCanvas.getContext("2d");
+  const mctx = minCanvas.getContext("2d");
+
+  hidden.width = video.videoWidth;
+  hidden.height = video.videoHeight;
+
+  baselineCanvas.width = hidden.width;
+  baselineCanvas.height = hidden.height;
+
+  minCanvas.width = hidden.width;
+  minCanvas.height = hidden.height;
+
+  let measurements = [];
+  let frames = [];
+
+  // baseline frames
+  for (let i = 0; i < 8; i++) {
+    ctx.drawImage(video, 0, 0);
+    const frame = ctx.getImageData(0, 0, hidden.width, hidden.height);
+    const res = detectPupil(frame, hidden.width, hidden.height);
+
+    frames.push({ frame, res });
+    measurements.push(res ? res.radius : 0);
+
+    await sleep(100);
+  }
+
+  // simulate flash (screen brightness spike substitute)
+  document.body.style.background = "#fff";
+  await sleep(200);
+  document.body.style.background = "#111";
+
+  // response frames
+  for (let i = 0; i < 15; i++) {
+    ctx.drawImage(video, 0, 0);
+    const frame = ctx.getImageData(0, 0, hidden.width, hidden.height);
+    const res = detectPupil(frame, hidden.width, hidden.height);
+
+    frames.push({ frame, res });
+    measurements.push(res ? res.radius : 0);
+
+    await sleep(100);
+  }
+
+  // compute
+  let baselineIndex = 0;
+  let minIndex = measurements.indexOf(Math.min(...measurements));
+
+  const baselineFrame = frames[baselineIndex];
+  const minFrame = frames[minIndex];
+
+  drawCircle(bctx, baselineFrame.frame, baselineFrame.res, false);
+  drawCircle(mctx, minFrame.frame, minFrame.res, true);
+
+  const baseline = measurements[baselineIndex];
+  const minVal = measurements[minIndex];
+
+  const constriction = ((baseline - minVal) / baseline) * 100;
+
+  document.getElementById("status").innerText =
+    `Baseline: ${baseline.toFixed(1)} | Min: ${minVal.toFixed(1)} | Constriction: ${constriction.toFixed(1)}%`;
 }
 </script>
 
