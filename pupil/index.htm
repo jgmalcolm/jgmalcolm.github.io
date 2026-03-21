@@ -33,11 +33,6 @@ video, canvas.overlay {
   object-fit: cover;
 }
 
-/* mirror preview for usability */
-video {
-  transform: scaleX(-1);
-}
-
 #irisGuide {
   position: absolute;
   top: 50%;
@@ -88,6 +83,7 @@ button {
 
 <div>
   <button onclick="startCamera()">Start</button>
+  <button onclick="toggleCamera()">Switch Camera</button>
   <button onclick="runTest()">Measure</button>
 </div>
 
@@ -97,24 +93,52 @@ button {
 </div>
 
 <div id="results">—</div>
-<div id="status">Align iris. Verify circle locks on pupil.</div>
+<div id="status">Camera: Rear</div>
 
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
 let stream;
+let track;
 let running = false;
+let useFront = false;
+
+// -------- CAMERA CONTROL --------
 
 async function startCamera(){
-  stream = await navigator.mediaDevices.getUserMedia({
-    video:{ facingMode:"user" }
-  });
-
-  video.srcObject = stream;
-
+  await initCamera();
   running = true;
   requestAnimationFrame(liveDetect);
 }
+
+async function toggleCamera(){
+  useFront = !useFront;
+  await initCamera();
+}
+
+async function initCamera(){
+
+  if(stream){
+    stream.getTracks().forEach(t => t.stop());
+  }
+
+  stream = await navigator.mediaDevices.getUserMedia({
+    video: {
+      facingMode: useFront ? "user" : { ideal: "environment" }
+    }
+  });
+
+  video.srcObject = stream;
+  track = stream.getVideoTracks()[0];
+
+  // mirror only for front camera
+  video.style.transform = useFront ? "scaleX(-1)" : "none";
+
+  document.getElementById("status").innerText =
+    "Camera: " + (useFront ? "Front" : "Rear");
+}
+
+// -------- FRAME CAPTURE --------
 
 function captureFrame(){
   const c=document.getElementById("procCanvas");
@@ -137,7 +161,7 @@ function captureFrame(){
   return ctx.getImageData(0,0,c.width,c.height);
 }
 
-// ---------- IMAGE PROCESSING ----------
+// -------- IMAGE PROCESSING --------
 
 function toGray(frame){
   const g=new Float32Array(frame.width*frame.height);
@@ -168,8 +192,6 @@ function sobel(gray,w,h){
   }
   return out;
 }
-
-// ---------- HOUGH ----------
 
 function detectPupil(frame){
   const w=frame.width,h=frame.height;
@@ -207,7 +229,7 @@ function detectPupil(frame){
   return best;
 }
 
-// ---------- LIVE OVERLAY ----------
+// -------- LIVE OVERLAY --------
 
 function liveDetect(){
   if(!running) return;
@@ -234,15 +256,27 @@ function liveDetect(){
   requestAnimationFrame(liveDetect);
 }
 
-// ---------- FLASH (screen only) ----------
+// -------- FLASH --------
 
 async function flash(){
+  if(!useFront){
+    try{
+      const caps = track.getCapabilities();
+      if(caps.torch){
+        await track.applyConstraints({advanced:[{torch:true}]});
+        await new Promise(r=>setTimeout(r,200));
+        await track.applyConstraints({advanced:[{torch:false}]});
+        return;
+      }
+    }catch{}
+  }
+
   document.body.style.background="#fff";
   await new Promise(r=>setTimeout(r,200));
   document.body.style.background="#111";
 }
 
-// ---------- TEST ----------
+// -------- TEST --------
 
 async function runTest(){
 
@@ -271,7 +305,6 @@ async function runTest(){
   let baselineIndex=vals.findIndex(v=>v!==null);
 
   let minVal=Infinity,minIndex=-1;
-
   for(let i=6;i<vals.length;i++){
     if(vals[i]!==null && vals[i]<minVal){
       minVal=vals[i];
