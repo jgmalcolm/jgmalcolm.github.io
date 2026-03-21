@@ -2,46 +2,78 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Pupil Response App</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pupil Response</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
 <style>
-  body { font-family: Arial; text-align: center; background: #111; color: #fff; }
-  video, canvas { width: 95%; max-width: 400px; border-radius: 10px; margin-top: 10px; }
-  button { padding: 12px; margin: 8px; font-size: 16px; border-radius: 8px; }
-  #status { margin-top: 10px; color: #0f0; }
+  body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  h2 { margin: 6px 0; font-size: 18px; }
+
+  video {
+    width: 60vw;
+    max-width: 240px;
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 8px;
+  }
+
+  #controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #status {
+    font-size: 12px;
+    text-align: center;
+  }
 </style>
 </head>
+
 <body>
 
 <h2>Pupil Response</h2>
-
 <video id="video" autoplay playsinline></video>
-<canvas id="canvas" style="display:none;"></canvas>
 
-<div>
-  <button onclick="startCamera()">Start Camera</button>
-  <button onclick="toggleTorch()">Toggle Flash</button>
+<div id="controls">
+  <button onclick="startCamera()">Start</button>
+  <button onclick="toggleTorch()">Flash</button>
+  <button onclick="recordTest()">Test</button>
 </div>
 
 <div id="status">Idle</div>
+
+<canvas id="canvas" style="display:none;"></canvas>
 
 <script>
 let stream = null;
 let track = null;
 let torchOn = false;
+let capturing = false;
 
 async function startCamera() {
   const status = document.getElementById("status");
 
   try {
-    status.innerText = "Requesting rear camera...";
-
     stream = await navigator.mediaDevices.getUserMedia({
-      video: {
-        facingMode: { ideal: "environment" },
-        width: { ideal: 1280 },
-        height: { ideal: 720 }
-      }
+      video: { facingMode: { ideal: "environment" } }
     });
 
     const video = document.getElementById("video");
@@ -49,50 +81,106 @@ async function startCamera() {
 
     track = stream.getVideoTracks()[0];
 
-    status.innerText = "Rear camera active";
-
-    // Check torch capability
-    const capabilities = track.getCapabilities();
-    if (capabilities.torch) {
-      status.innerText += " | Flash supported";
-    } else {
-      status.innerText += " | Flash NOT supported";
-    }
+    status.innerText = "Camera ready";
 
   } catch (err) {
     status.innerText = "Camera error: " + err.message;
-    console.error(err);
   }
 }
 
 async function toggleTorch() {
-  const status = document.getElementById("status");
-
-  if (!track) {
-    status.innerText = "Start camera first";
-    return;
-  }
+  if (!track) return;
 
   const capabilities = track.getCapabilities();
-
   if (!capabilities.torch) {
-    status.innerText = "Flash not supported on this device/browser";
+    document.getElementById("status").innerText = "No flash support";
     return;
   }
 
-  try {
-    torchOn = !torchOn;
+  torchOn = !torchOn;
 
-    await track.applyConstraints({
-      advanced: [{ torch: torchOn }]
-    });
+  await track.applyConstraints({
+    advanced: [{ torch: torchOn }]
+  });
+}
 
-    status.innerText = torchOn ? "Flash ON" : "Flash OFF";
+function estimatePupil(frame) {
+  const data = frame.data;
+  let darkPixels = 0;
 
-  } catch (err) {
-    status.innerText = "Flash error: " + err.message;
-    console.error(err);
+  for (let i = 0; i < data.length; i += 4) {
+    const brightness = (data[i] + data[i+1] + data[i+2]) / 3;
+    if (brightness < 50) darkPixels++;
   }
+
+  return Math.sqrt(darkPixels); // crude diameter proxy
+}
+
+async function recordTest() {
+  if (!track) return;
+
+  const status = document.getElementById("status");
+  const video = document.getElementById("video");
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  canvas.width = video.videoWidth;
+  canvas.height = video.videoHeight;
+
+  let measurements = [];
+  capturing = true;
+
+  status.innerText = "Recording baseline...";
+
+  // capture baseline frames (1 sec)
+  for (let i = 0; i < 10; i++) {
+    await captureFrame();
+  }
+
+  status.innerText = "Flash stimulus";
+
+  // turn flash ON briefly
+  await track.applyConstraints({ advanced: [{ torch: true }] });
+  await sleep(300);
+
+  await track.applyConstraints({ advanced: [{ torch: false }] });
+
+  // capture response frames (2 sec)
+  for (let i = 0; i < 20; i++) {
+    await captureFrame();
+  }
+
+  analyze(measurements);
+
+  async function captureFrame() {
+    ctx.drawImage(video, 0, 0);
+    const frame = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    const size = estimatePupil(frame);
+    measurements.push(size);
+    await sleep(100);
+  }
+
+  function analyze(m) {
+    const baseline = avg(m.slice(0, 5));
+    const minVal = Math.min(...m);
+    const constriction = ((baseline - minVal) / baseline) * 100;
+
+    const slope = baseline - m[10]; // rough velocity proxy
+
+    let label = slope > 5 ? "Brisk" : "Sluggish";
+
+    status.innerText =
+      `Baseline: ${baseline.toFixed(1)} | Min: ${minVal.toFixed(1)} | ` +
+      `Constriction: ${constriction.toFixed(1)}% | ${label}`;
+  }
+}
+
+function avg(arr) {
+  return arr.reduce((a,b)=>a+b,0)/arr.length;
+}
+
+function sleep(ms) {
+  return new Promise(r => setTimeout(r, ms));
 }
 </script>
 
