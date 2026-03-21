@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <title>Pupil</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <style>
 body {
   margin: 0;
@@ -20,7 +19,6 @@ body {
   position: relative;
   width: 240px;
   height: 320px;
-  overflow: hidden;
 }
 
 video, canvas.overlay {
@@ -41,27 +39,11 @@ video, canvas.overlay {
   transform: translate(-50%, -50%);
 }
 
-#row {
-  display: flex;
-  gap: 8px;
-  margin-top: 6px;
-}
-
 canvas.result {
   width: 150px;
   height: 200px;
   border: 1px solid #444;
-}
-
-button {
-  margin: 6px;
-  padding: 8px;
-}
-
-#results {
-  margin-top: 8px;
-  font-size: 13px;
-  text-align: center;
+  margin: 4px;
 }
 </style>
 </head>
@@ -79,19 +61,17 @@ button {
   <button onclick="runTest()">Measure</button>
 </div>
 
-<div id="row">
+<div>
   <canvas id="baselineCanvas" class="result" width="240" height="320"></canvas>
   <canvas id="minCanvas" class="result" width="240" height="320"></canvas>
 </div>
 
-<div id="results">—</div>
+<div id="results"></div>
 
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
-let stream, track, useFront=false;
-
-// -------- INIT --------
+let stream, useFront=false;
 
 window.onload = async () => {
   await initCamera();
@@ -106,8 +86,6 @@ async function initCamera(){
   });
 
   video.srcObject = stream;
-  track = stream.getVideoTracks()[0];
-
   video.style.transform = useFront ? "scaleX(-1)" : "none";
 }
 
@@ -116,11 +94,10 @@ function toggleCamera(){
   initCamera();
 }
 
-// -------- FRAME --------
-
+// ---------- FRAME ----------
 function captureFrame(){
-  const c = document.getElementById("procCanvas");
-  const ctx = c.getContext("2d");
+  const c=procCanvas;
+  const ctx=c.getContext("2d");
 
   c.width=240; c.height=320;
 
@@ -134,12 +111,10 @@ function captureFrame(){
   const sy=(vh-sh)/2;
 
   ctx.drawImage(video,sx,sy,sw,sh,0,0,c.width,c.height);
-
   return ctx.getImageData(0,0,c.width,c.height);
 }
 
-// -------- PROCESS --------
-
+// ---------- PROCESS ----------
 function toGray(frame){
   const g=new Float32Array(frame.width*frame.height);
   const d=frame.data;
@@ -170,75 +145,82 @@ function sobel(gray,w,h){
   return out;
 }
 
-// -------- IRIS CENTER --------
-
-function irisCentroid(gray,w,h){
-  let sumX=0,sumY=0,count=0;
-
-  for(let i=0;i<gray.length;i++){
-    if(gray[i]<80){
-      const x=i%w;
-      const y=Math.floor(i/w);
-      sumX+=x; sumY+=y; count++;
-    }
-  }
-
-  if(count<100) return {cx:w/2,cy:h/2};
-
-  return {cx:sumX/count, cy:sumY/count};
+// ---------- GUIDE ROI ----------
+function getGuideCircle(){
+  return {
+    cx: 120,
+    cy: 160,
+    r: 60
+  };
 }
 
-// -------- HOUGH --------
+// ---------- ROI-CONSTRAINED HOUGH ----------
+function houghCircleROI(edges,w,h,cx,cy,minR,maxR,roiR){
 
-function houghCircle(edges,w,h,cx,cy,minR,maxR){
-  let best=null,bestScore=0;
+  let best=null, bestScore=0;
 
-  for(let r=minR;r<maxR;r+=3){
+  for(let r=minR;r<maxR;r+=2){
+
     let score=0;
 
-    for(let a=0;a<360;a+=10){
+    for(let a=0;a<360;a+=8){
       const rad=a*Math.PI/180;
+
       const x=Math.round(cx+r*Math.cos(rad));
       const y=Math.round(cy+r*Math.sin(rad));
 
       if(x<0||y<0||x>=w||y>=h) continue;
 
-      if(edges[y*w+x]>100) score++;
+      // enforce ROI
+      const dx=x-cx;
+      const dy=y-cy;
+      if(Math.sqrt(dx*dx+dy*dy) > roiR) continue;
+
+      if(edges[y*w+x] > 100) score++;
     }
 
-    if(score>bestScore){
-      bestScore=score;
-      best={cx,cy,r};
+    if(score > bestScore){
+      bestScore = score;
+      best = {cx,cy,r};
     }
   }
 
   return best;
 }
 
-// -------- DETECT --------
-
+// ---------- DETECT ----------
 function detect(frame){
 
-  const w=frame.width,h=frame.height;
+  const w=frame.width, h=frame.height;
 
   const gray=toGray(frame);
   const edges=sobel(gray,w,h);
 
-  const {cx,cy} = irisCentroid(gray,w,h);
+  const guide=getGuideCircle();
 
-  const iris = houghCircle(edges,w,h,cx,cy,40,100);
+  // IRIS: tightly constrained to guide circle
+  const iris = {
+    cx: guide.cx,
+    cy: guide.cy,
+    r: guide.r
+  };
 
-  let pupil=null;
+  // PUPIL: constrained inside iris
+  const pupil = houghCircleROI(
+    edges,
+    w,
+    h,
+    iris.cx,
+    iris.cy,
+    8,
+    iris.r * 0.6,
+    iris.r
+  );
 
-  if(iris){
-    pupil = houghCircle(edges,w,h,iris.cx,iris.cy,10,iris.r*0.6);
-  }
-
-  return {gray,edges,iris,pupil};
+  return {edges, iris, pupil};
 }
 
-// -------- DRAW DEBUG --------
-
+// ---------- DRAW ----------
 function drawDebug(canvas,data){
   const ctx=canvas.getContext("2d");
 
@@ -256,13 +238,13 @@ function drawDebug(canvas,data){
 
   ctx.putImageData(img,0,0);
 
-  if(data.iris){
-    ctx.beginPath();
-    ctx.arc(data.iris.cx,data.iris.cy,data.iris.r,0,2*Math.PI);
-    ctx.strokeStyle="yellow";
-    ctx.stroke();
-  }
+  // iris (yellow)
+  ctx.beginPath();
+  ctx.arc(data.iris.cx,data.iris.cy,data.iris.r,0,2*Math.PI);
+  ctx.strokeStyle="yellow";
+  ctx.stroke();
 
+  // pupil (cyan)
   if(data.pupil){
     ctx.beginPath();
     ctx.arc(data.pupil.cx,data.pupil.cy,data.pupil.r,0,2*Math.PI);
@@ -271,13 +253,12 @@ function drawDebug(canvas,data){
   }
 }
 
-// -------- LIVE --------
-
+// ---------- LIVE ----------
 function liveDetect(){
-  const frame=captureFrame();
-  const d=detect(frame);
+  const f=captureFrame();
+  const d=detect(f);
 
-  const ctx=document.getElementById("overlay").getContext("2d");
+  const ctx=overlay.getContext("2d");
   ctx.clearRect(0,0,240,320);
 
   if(d.pupil){
@@ -290,16 +271,7 @@ function liveDetect(){
   requestAnimationFrame(liveDetect);
 }
 
-// -------- FLASH --------
-
-async function flash(){
-  document.body.style.background="#fff";
-  await new Promise(r=>setTimeout(r,200));
-  document.body.style.background="#111";
-}
-
-// -------- TEST --------
-
+// ---------- TEST ----------
 async function runTest(){
 
   let frames=[],vals=[];
@@ -331,18 +303,23 @@ async function runTest(){
     }
   }
 
-  if(minIndex===-1) return;
-
-  drawDebug(document.getElementById("baselineCanvas"),frames[0]);
-  drawDebug(document.getElementById("minCanvas"),frames[minIndex]);
+  drawDebug(baselineCanvas,frames[0]);
+  drawDebug(minCanvas,frames[minIndex]);
 
   let baseline=vals[0];
   let constriction=((baseline-minVal)/baseline)*100;
 
-  document.getElementById("results").innerHTML =
+  results.innerHTML =
     `Dilated: ${baseline.toFixed(1)} px<br>
      Constricted: ${minVal.toFixed(1)} px<br>
      Constriction: ${constriction.toFixed(1)}%`;
+}
+
+// ---------- FLASH ----------
+async function flash(){
+  document.body.style.background="#fff";
+  await new Promise(r=>setTimeout(r,200));
+  document.body.style.background="#111";
 }
 </script>
 
