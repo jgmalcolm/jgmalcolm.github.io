@@ -30,7 +30,6 @@ video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transform: scaleX(-1); /* mirror for usability */
 }
 
 #irisGuide {
@@ -96,13 +95,14 @@ button {
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
-let stream;
+let stream, track;
 
 async function startCamera(){
   stream = await navigator.mediaDevices.getUserMedia({
-    video:{ facingMode: "user" }
+    video:{ facingMode: { ideal: "environment" } }
   });
   video.srcObject = stream;
+  track = stream.getVideoTracks()[0];
 }
 
 function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
@@ -128,10 +128,10 @@ function captureFrame(){
   return ctx.getImageData(0,0,c.width,c.height);
 }
 
-// ---------- IMAGE PROCESSING ----------
+// --- image processing ---
 
 function toGray(frame){
-  const g = new Float32Array(frame.width * frame.height);
+  const g = new Float32Array(frame.width*frame.height);
   const d = frame.data;
   for(let i=0,j=0;i<d.length;i+=4,j++){
     g[j]=(d[i]+d[i+1]+d[i+2])/3;
@@ -162,7 +162,7 @@ function sobel(gray,w,h){
   return out;
 }
 
-// ---------- HOUGH ----------
+// --- Hough circle (simplified) ---
 
 function detectPupil(frame){
 
@@ -206,6 +206,8 @@ function detectPupil(frame){
   return best;
 }
 
+// --- drawing ---
+
 function draw(canvas,frame,res){
   const ctx=canvas.getContext("2d");
   ctx.putImageData(frame,0,0);
@@ -219,11 +221,25 @@ function draw(canvas,frame,res){
   ctx.stroke();
 }
 
+// --- flash ---
+
 async function flash(){
+  try{
+    const caps = track.getCapabilities();
+    if(caps.torch){
+      await track.applyConstraints({advanced:[{torch:true}]});
+      await sleep(200);
+      await track.applyConstraints({advanced:[{torch:false}]});
+      return;
+    }
+  }catch{}
+
   document.body.style.background="#fff";
   await sleep(200);
   document.body.style.background="#111";
 }
+
+// --- main ---
 
 async function runTest(){
 
