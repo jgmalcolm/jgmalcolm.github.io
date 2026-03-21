@@ -3,428 +3,247 @@
 <head>
 <meta charset="UTF-8">
 <title>Pupil Response</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-  :root {
-    --preview-w: 240px;
-    --preview-h: 320px;
-    --guide-d: 120px;
-  }
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
 
-  body {
-    margin: 0;
-    background: #111;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-  }
+#videoContainer {
+  position: relative;
+  width: 240px;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
-  #videoContainer {
-    position: relative;
-    width: var(--preview-w);
-    height: var(--preview-h);
-    margin-top: 8px;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #000;
-  }
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-  video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-  }
+#irisGuide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  border: 2px solid cyan;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  #irisGuide {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: var(--guide-d);
-    height: var(--guide-d);
-    border: 2px solid cyan;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    box-sizing: border-box;
-  }
+#row {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
 
-  #controls {
-    margin-top: 8px;
-  }
+canvas {
+  width: 150px;
+  height: 200px;
+  border: 1px solid #444;
+}
 
-  button {
-    margin: 4px;
-    padding: 8px 12px;
-    font-size: 14px;
-    border-radius: 8px;
-  }
+button {
+  margin: 6px;
+  padding: 8px;
+}
 
-  #row {
-    display: flex;
-    gap: 8px;
-    margin-top: 8px;
-  }
+#results {
+  margin-top: 8px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.4;
+}
 
-  canvas.result {
-    width: 150px;
-    height: 200px;
-    border: 1px solid #444;
-    background: #000;
-  }
-
-  #status {
-    margin-top: 8px;
-    font-size: 12px;
-    text-align: center;
-    padding: 0 8px;
-    min-height: 32px;
-  }
+#status {
+  font-size: 12px;
+  margin-top: 4px;
+}
 </style>
 </head>
+
 <body>
 
 <div id="videoContainer">
-  <video id="video" autoplay playsinline muted></video>
+  <video id="video" autoplay playsinline></video>
   <div id="irisGuide"></div>
 </div>
 
-<div id="controls">
-  <button id="startBtn">Start</button>
-  <button id="measureBtn">Measure</button>
+<div>
+  <button onclick="startCamera()">Start</button>
+  <button onclick="runTest()">Measure</button>
 </div>
 
 <div id="row">
-  <canvas id="baselineCanvas" class="result" width="240" height="320"></canvas>
-  <canvas id="minCanvas" class="result" width="240" height="320"></canvas>
+  <canvas id="baselineCanvas" width="240" height="320"></canvas>
+  <canvas id="minCanvas" width="240" height="320"></canvas>
 </div>
 
-<div id="status">Align the iris to the cyan circle, then press Measure.</div>
+<div id="results">
+  Dilated: —<br>
+  Constricted: —<br>
+  Constriction: —<br>
+  Briskness: —
+</div>
+
+<div id="status">Align iris and press Measure</div>
 
 <canvas id="procCanvas" style="display:none;"></canvas>
 
 <script>
-let stream = null;
-let track = null;
-
-const video = document.getElementById('video');
-const videoContainer = document.getElementById('videoContainer');
-const irisGuide = document.getElementById('irisGuide');
-const procCanvas = document.getElementById('procCanvas');
-const statusEl = document.getElementById('status');
-
-document.getElementById('startBtn').addEventListener('click', startCamera);
-document.getElementById('measureBtn').addEventListener('click', runTest);
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+let stream, track;
 
 async function startCamera() {
-  try {
-    if (stream) {
-      stream.getTracks().forEach(t => t.stop());
-    }
+  stream = await navigator.mediaDevices.getUserMedia({
+    video: { facingMode: { ideal: "environment" } }
+  });
 
-    stream = await navigator.mediaDevices.getUserMedia({
-      video: {
-        facingMode: { ideal: 'environment' },
-        width: { ideal: 1280 },
-        height: { ideal: 720 }
-      },
-      audio: false
-    });
-
-    video.srcObject = stream;
-    track = stream.getVideoTracks()[0];
-
-    await video.play();
-
-    statusEl.textContent = 'Camera ready. Align iris to circle, then press Measure.';
-  } catch (e) {
-    statusEl.textContent = 'Camera error: ' + e.message;
-  }
+  video.srcObject = stream;
+  track = stream.getVideoTracks()[0];
 }
 
-/**
- * This is the critical fix.
- * We do NOT process the raw camera frame directly.
- * We first reproduce the same crop the user sees in the preview box.
- */
-function captureDisplayedFrame() {
+function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
+
+function captureFrame(){
+  const c = document.getElementById("procCanvas");
+  const ctx = c.getContext("2d");
+
   const vw = video.videoWidth;
   const vh = video.videoHeight;
-  const dw = videoContainer.clientWidth;
-  const dh = videoContainer.clientHeight;
 
-  if (!vw || !vh || !dw || !dh) {
-    return null;
-  }
+  c.width = 240;
+  c.height = 320;
 
-  // Match the displayed preview box exactly.
-  procCanvas.width = dw;
-  procCanvas.height = dh;
-  const ctx = procCanvas.getContext('2d', { willReadFrequently: true });
+  const scale = Math.max(c.width/vw, c.height/vh);
+  const sw = c.width/scale;
+  const sh = c.height/scale;
+  const sx = (vw-sw)/2;
+  const sy = (vh-sh)/2;
 
-  // Reproduce object-fit: cover mathematically.
-  const scale = Math.max(dw / vw, dh / vh);
-  const sw = dw / scale;
-  const sh = dh / scale;
-  const sx = (vw - sw) / 2;
-  const sy = (vh - sh) / 2;
+  ctx.drawImage(video, sx, sy, sw, sh, 0, 0, c.width, c.height);
 
-  ctx.drawImage(
-    video,
-    sx, sy, sw, sh,
-    0, 0, dw, dh
-  );
-
-  return ctx.getImageData(0, 0, dw, dh);
+  return ctx.getImageData(0,0,c.width,c.height);
 }
 
-function getGuideGeometry() {
-  const containerRect = videoContainer.getBoundingClientRect();
-  const guideRect = irisGuide.getBoundingClientRect();
-
-  const cx = (guideRect.left + guideRect.width / 2) - containerRect.left;
-  const cy = (guideRect.top + guideRect.height / 2) - containerRect.top;
-  const r = guideRect.width / 2;
-
-  return { cx, cy, r };
-}
-
-function detectPupil(frame, w, h, guide) {
+function detect(frame){
   const data = frame.data;
-  const irisCx = guide.cx;
-  const irisCy = guide.cy;
-  const irisR = guide.r;
+  const w = frame.width;
+  const h = frame.height;
 
-  // Restrict search to the inner iris region.
-  const searchR = irisR * 0.58;
+  const cx = w/2;
+  const cy = h/2;
+  const rSearch = 50;
 
-  let pixels = [];
-  let minX = Math.max(0, Math.floor(irisCx - searchR));
-  let maxX = Math.min(w - 1, Math.ceil(irisCx + searchR));
-  let minY = Math.max(0, Math.floor(irisCy - searchR));
-  let maxY = Math.min(h - 1, Math.ceil(irisCy + searchR));
+  let sumX=0,sumY=0,count=0;
 
-  // Collect grayscale values inside circular ROI
-  for (let y = minY; y <= maxY; y++) {
-    for (let x = minX; x <= maxX; x++) {
-      const dx = x - irisCx;
-      const dy = y - irisCy;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      if (dist > searchR) continue;
+  for(let y=cy-rSearch;y<cy+rSearch;y++){
+    for(let x=cx-rSearch;x<cx+rSearch;x++){
+      if(x<0||y<0||x>=w||y>=h) continue;
 
-      const i = (y * w + x) * 4;
-      const gray = (data[i] + data[i + 1] + data[i + 2]) / 3;
-      pixels.push(gray);
-    }
-  }
+      const i=(y*w+x)*4;
+      const b=(data[i]+data[i+1]+data[i+2])/3;
 
-  if (pixels.length < 100) return null;
-
-  // Adaptive threshold using lower quantile instead of fixed 60.
-  pixels.sort((a, b) => a - b);
-  const qIndex = Math.floor(pixels.length * 0.18);
-  const thresh = Math.min(pixels[qIndex] + 8, 90);
-
-  let sumX = 0;
-  let sumY = 0;
-  let count = 0;
-
-  for (let y = minY; y <= maxY; y++) {
-    for (let x = minX; x <= maxX; x++) {
-      const dx = x - irisCx;
-      const dy = y - irisCy;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      if (dist > searchR) continue;
-
-      const i = (y * w + x) * 4;
-      const gray = (data[i] + data[i + 1] + data[i + 2]) / 3;
-
-      // Bias toward center so eyelashes/shadows at iris edge matter less.
-      if (gray <= thresh && dist < searchR * 0.82) {
-        sumX += x;
-        sumY += y;
-        count++;
+      if(b<60){
+        sumX+=x; sumY+=y; count++;
       }
     }
   }
 
-  if (count < 40) return null;
+  if(count<50) return null;
 
-  const cx = sumX / count;
-  const cy = sumY / count;
-
-  // Second pass: estimate radius around the detected center
-  let areaCount = 0;
-  const maxPupilR = irisR * 0.48;
-
-  for (let y = Math.max(0, Math.floor(cy - maxPupilR)); y <= Math.min(h - 1, Math.ceil(cy + maxPupilR)); y++) {
-    for (let x = Math.max(0, Math.floor(cx - maxPupilR)); x <= Math.min(w - 1, Math.ceil(cx + maxPupilR)); x++) {
-      const dx = x - cx;
-      const dy = y - cy;
-      const dist = Math.sqrt(dx * dx + dy * dy);
-      if (dist > maxPupilR) continue;
-
-      const i = (y * w + x) * 4;
-      const gray = (data[i] + data[i + 1] + data[i + 2]) / 3;
-      if (gray <= thresh) areaCount++;
-    }
-  }
-
-  if (areaCount < 20) return null;
-
-  const r = Math.sqrt(areaCount / Math.PI);
-
-  return { cx, cy, r, irisR, thresh };
+  return {
+    cx: sumX/count,
+    cy: sumY/count,
+    r: Math.sqrt(count/Math.PI)
+  };
 }
 
-function drawResult(canvas, frame, pupil, guide) {
-  const ctx = canvas.getContext('2d');
-  const tmp = document.createElement('canvas');
-  tmp.width = frame.width;
-  tmp.height = frame.height;
-  tmp.getContext('2d').putImageData(frame, 0, 0);
+function draw(canvas, frame, res){
+  const ctx = canvas.getContext("2d");
+  ctx.putImageData(frame,0,0);
 
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.drawImage(tmp, 0, 0, canvas.width, canvas.height);
+  if(!res) return;
 
-  const sx = canvas.width / frame.width;
-  const sy = canvas.height / frame.height;
-
-  // Iris guide outline
   ctx.beginPath();
-  ctx.arc(guide.cx * sx, guide.cy * sy, guide.r * sx, 0, Math.PI * 2);
-  ctx.strokeStyle = 'rgba(0,255,255,0.6)';
-  ctx.lineWidth = 1.5;
+  ctx.arc(res.cx,res.cy,res.r,0,2*Math.PI);
+  ctx.strokeStyle="cyan";
+  ctx.lineWidth=2;
   ctx.stroke();
-
-  if (pupil) {
-    ctx.beginPath();
-    ctx.arc(pupil.cx * sx, pupil.cy * sy, pupil.r * sx, 0, Math.PI * 2);
-    ctx.strokeStyle = 'cyan';
-    ctx.lineWidth = 2;
-    ctx.stroke();
-  }
 }
 
-async function flashStimulus() {
-  if (!track) return;
-
-  try {
-    const caps = track.getCapabilities ? track.getCapabilities() : {};
-    if (caps.torch) {
-      await track.applyConstraints({ advanced: [{ torch: true }] });
-      await sleep(220);
-      await track.applyConstraints({ advanced: [{ torch: false }] });
+async function flash(){
+  try{
+    const caps = track.getCapabilities();
+    if(caps.torch){
+      await track.applyConstraints({advanced:[{torch:true}]});
+      await sleep(200);
+      await track.applyConstraints({advanced:[{torch:false}]});
       return;
     }
-  } catch (_) {
-    // fall through
-  }
+  }catch{}
 
-  const oldBg = document.body.style.background;
-  document.body.style.background = '#fff';
-  await sleep(220);
-  document.body.style.background = oldBg || '#111';
+  document.body.style.background="#fff";
+  await sleep(200);
+  document.body.style.background="#111";
 }
 
-async function runTest() {
-  if (!video.srcObject) {
-    statusEl.textContent = 'Start the camera first.';
-    return;
-  }
+async function runTest(){
 
-  if (!video.videoWidth || !video.videoHeight) {
-    statusEl.textContent = 'Camera is not ready yet.';
-    return;
-  }
+  let frames=[], vals=[], times=[];
 
-  statusEl.textContent = 'Capturing baseline...';
-
-  const frames = [];
-  const measures = [];
-
-  const guide = getGuideGeometry();
-
-  for (let i = 0; i < 6; i++) {
-    const frame = captureDisplayedFrame();
-    if (!frame) {
-      statusEl.textContent = 'Could not capture frame.';
-      return;
-    }
-    const pupil = detectPupil(frame, frame.width, frame.height, guide);
-    frames.push({ frame, pupil });
-    measures.push(pupil ? pupil.r : Infinity);
+  for(let i=0;i<6;i++){
+    let f=captureFrame();
+    let r=detect(f);
+    frames.push({f,r});
+    vals.push(r?r.r:0);
+    times.push(performance.now());
     await sleep(80);
   }
 
-  statusEl.textContent = 'Flashing...';
-  await flashStimulus();
+  await flash();
 
-  statusEl.textContent = 'Capturing response...';
-  for (let i = 0; i < 15; i++) {
-    const frame = captureDisplayedFrame();
-    if (!frame) {
-      statusEl.textContent = 'Could not capture frame.';
-      return;
-    }
-    const pupil = detectPupil(frame, frame.width, frame.height, guide);
-    frames.push({ frame, pupil });
-    measures.push(pupil ? pupil.r : Infinity);
+  for(let i=0;i<15;i++){
+    let f=captureFrame();
+    let r=detect(f);
+    frames.push({f,r});
+    vals.push(r?r.r:0);
+    times.push(performance.now());
     await sleep(80);
   }
 
-  // Use smallest valid radius after baseline window
-  let baselineIndex = 0;
-  let minIndex = -1;
-  let minVal = Infinity;
+  let minIndex = vals.indexOf(Math.min(...vals));
 
-  for (let i = 6; i < measures.length; i++) {
-    if (Number.isFinite(measures[i]) && measures[i] < minVal) {
-      minVal = measures[i];
-      minIndex = i;
-    }
-  }
+  let baseline = vals[0];
+  let minVal = vals[minIndex];
 
-  const baseline = frames[baselineIndex].pupil;
-  const minimum = minIndex >= 0 ? frames[minIndex].pupil : null;
+  draw(document.getElementById("baselineCanvas"), frames[0].f, frames[0].r);
+  draw(document.getElementById("minCanvas"), frames[minIndex].f, frames[minIndex].r);
 
-  drawResult(
-    document.getElementById('baselineCanvas'),
-    frames[baselineIndex].frame,
-    baseline,
-    guide
-  );
+  let constriction = ((baseline-minVal)/baseline)*100;
 
-  if (minIndex >= 0) {
-    drawResult(
-      document.getElementById('minCanvas'),
-      frames[minIndex].frame,
-      minimum,
-      guide
-    );
-  }
+  // briskness = slope (pixels/ms)
+  let dt = times[minIndex]-times[0];
+  let slope = (baseline-minVal)/dt;
 
-  if (!baseline || !minimum) {
-    statusEl.textContent = 'Detection failed in one or more frames. Improve alignment, fill the guide circle with iris, and avoid glare.';
-    return;
-  }
+  let brisk = slope > 0.02 ? "Brisk" : "Sluggish";
 
-  const constrictionPct = ((baseline.r - minimum.r) / baseline.r) * 100;
-  const pupilToIrisBase = baseline.r / baseline.irisR;
-  const pupilToIrisMin = minimum.r / minimum.irisR;
-
-  statusEl.textContent =
-    `Baseline: ${baseline.r.toFixed(1)} px | Min: ${minimum.r.toFixed(1)} px | ` +
-    `Constriction: ${constrictionPct.toFixed(1)}% | ` +
-    `Pupil/Iris: ${pupilToIrisBase.toFixed(2)} → ${pupilToIrisMin.toFixed(2)}`;
+  document.getElementById("results").innerHTML =
+    `Dilated: ${baseline.toFixed(1)} px<br>
+     Constricted: ${minVal.toFixed(1)} px<br>
+     Constriction: ${constriction.toFixed(1)}%<br>
+     Briskness: ${brisk}`;
 }
 </script>
 
