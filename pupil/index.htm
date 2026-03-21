@@ -82,7 +82,6 @@ button {
 </div>
 
 <div>
-  <button onclick="startCamera()">Start</button>
   <button onclick="toggleCamera()">Switch Camera</button>
   <button onclick="runTest()">Measure</button>
 </div>
@@ -93,7 +92,7 @@ button {
 </div>
 
 <div id="results">—</div>
-<div id="status">Camera: Rear</div>
+<div id="status">Initializing camera...</div>
 
 <canvas id="procCanvas" style="display:none;"></canvas>
 
@@ -103,13 +102,15 @@ let track;
 let running = false;
 let useFront = false;
 
-// -------- CAMERA CONTROL --------
+// -------- AUTO INIT --------
 
-async function startCamera(){
+window.addEventListener("load", async () => {
   await initCamera();
   running = true;
   requestAnimationFrame(liveDetect);
-}
+});
+
+// -------- CAMERA CONTROL --------
 
 async function toggleCamera(){
   useFront = !useFront;
@@ -118,24 +119,31 @@ async function toggleCamera(){
 
 async function initCamera(){
 
-  if(stream){
-    stream.getTracks().forEach(t => t.stop());
-  }
+  try {
 
-  stream = await navigator.mediaDevices.getUserMedia({
-    video: {
-      facingMode: useFront ? "user" : { ideal: "environment" }
+    if(stream){
+      stream.getTracks().forEach(t => t.stop());
     }
-  });
 
-  video.srcObject = stream;
-  track = stream.getVideoTracks()[0];
+    stream = await navigator.mediaDevices.getUserMedia({
+      video: {
+        facingMode: useFront ? "user" : { ideal: "environment" }
+      }
+    });
 
-  // mirror only for front camera
-  video.style.transform = useFront ? "scaleX(-1)" : "none";
+    video.srcObject = stream;
+    track = stream.getVideoTracks()[0];
 
-  document.getElementById("status").innerText =
-    "Camera: " + (useFront ? "Front" : "Rear");
+    // mirror only for front
+    video.style.transform = useFront ? "scaleX(-1)" : "none";
+
+    document.getElementById("status").innerText =
+      "Camera: " + (useFront ? "Front" : "Rear");
+
+  } catch(e) {
+    document.getElementById("status").innerText =
+      "Camera error: " + e.message;
+  }
 }
 
 // -------- FRAME CAPTURE --------
@@ -261,7 +269,7 @@ function liveDetect(){
 async function flash(){
   if(!useFront){
     try{
-      const caps = track.getCapabilities();
+      const caps=track.getCapabilities();
       if(caps.torch){
         await track.applyConstraints({advanced:[{torch:true}]});
         await new Promise(r=>setTimeout(r,200));
