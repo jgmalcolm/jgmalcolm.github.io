@@ -21,23 +21,41 @@ function hostname(url) {
   return matches[2];
 }
 
+function parseCSV(text) {
+  var rows = [];
+  var lines = text.trim().split('\n');
+  lines.forEach(function(line) {
+    var cols = [];
+    var inQuote = false;
+    var cur = '';
+    for (var i = 0; i < line.length; i++) {
+      var c = line[i];
+      if (c === '"') {
+        inQuote = !inQuote;
+      } else if (c === ',' && !inQuote) {
+        cols.push(cur);
+        cur = '';
+      } else {
+        cur += c;
+      }
+    }
+    cols.push(cur);
+    rows.push(cols);
+  });
+  return rows;
+}
+
 fetch(url)
   .then(function(r) { return r.text(); })
   .then(function(csv) {
-    var rows = csv.trim().split('\n');
-    var headers = rows[0].split(',').map(function(h) {
-      return h.trim().replace(/^"|"$/g, '').toLowerCase();
-    });
+    var rows = parseCSV(csv);
+    var headers = rows[0].map(function(h) { return h.toLowerCase().trim(); });
     var urlIdx     = headers.indexOf('url');
     var titleIdx   = headers.indexOf('title');
     var excerptIdx = headers.indexOf('excerpt');
 
     var feed = '';
-    rows.slice(1).reverse().forEach(function(line) {
-      // Split CSV respecting quoted fields
-      var cols = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
-      cols = cols.map(function(c) { return c.trim().replace(/^"|"$/g, ''); });
-
+    rows.slice(1).reverse().forEach(function(cols) {
       var href    = cols[urlIdx]     || '';
       var title   = cols[titleIdx]   || '';
       var excerpt = cols[excerptIdx] || '';
