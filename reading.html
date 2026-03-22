@@ -11,32 +11,50 @@ description: "A list of the last few articles I enjoyed reading"
 
 <a href="https://www.instapaper.com/p/jgmalcolm">See more articles...</a>
 
-
 <script>
-<!--
 $(document).ready(function(){
 
 var id = '1-QNbUp7N_FMLEk24dgCQVNVvhIvjmer_67r34Vtfbi8';
-var url = "https://spreadsheets.google.com/feeds/list/" + id + "/od6/public/values?alt=json";
+var url = 'https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:csv';
 
 function hostname(url) {
   var matches = url.match(/^https?\:\/\/(www\.)?([^\/?#]+)(?:[\/?#]|$)/i);
   return matches[2];
 }
 
-$.getJSON(url, function(data) {
-  var feed = '';
-  $($(data.feed.entry).get().reverse()).each(function(){
-    var quote = '', excerpt = this.gsx$excerpt.$t;
-    if (excerpt && !/\u2026$/.test(excerpt))
-        quote = '<br>"' + excerpt + '"';
-    feed += '<p><b><a href="' + this.gsx$url.$t + '">' + this.gsx$title.$t + '</a></b>'
-            + ' <i>@' + hostname(this.gsx$url.$t) + '</i>' + quote + '</p>';
-  });
-  $('#feed').append(feed);
+fetch(url)
+  .then(function(r) { return r.text(); })
+  .then(function(csv) {
+    var rows = csv.trim().split('\n');
+    var headers = rows[0].split(',').map(function(h) {
+      return h.trim().replace(/^"|"$/g, '').toLowerCase();
+    });
+    var urlIdx     = headers.indexOf('url');
+    var titleIdx   = headers.indexOf('title');
+    var excerptIdx = headers.indexOf('excerpt');
 
-});
+    var feed = '';
+    rows.slice(1).reverse().forEach(function(line) {
+      // Split CSV respecting quoted fields
+      var cols = line.match(/(".*?"|[^",]+)(?=\s*,|\s*$)/g) || [];
+      cols = cols.map(function(c) { return c.trim().replace(/^"|"$/g, ''); });
+
+      var href    = cols[urlIdx]     || '';
+      var title   = cols[titleIdx]   || '';
+      var excerpt = cols[excerptIdx] || '';
+
+      if (!href || !title) return;
+
+      var quote = '';
+      if (excerpt && !/\u2026$/.test(excerpt))
+        quote = '<br>"' + excerpt + '"';
+
+      feed += '<p><b><a href="' + href + '">' + title + '</a></b>'
+            + ' <i>@' + hostname(href) + '</i>' + quote + '</p>';
+    });
+
+    $('#feed').append(feed);
+  });
 
 }); /* ready */
-//-->
 </script>
