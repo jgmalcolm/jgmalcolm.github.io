@@ -89,10 +89,6 @@ me@jgmalcolm.com <br />
 
 ## Journal articles
 
-{% comment %}
-
-{% endcomment %}
-
 1. McMahon, Malcolm, Douglas, Greven, Sadan, Samuels, Cawley, Barrow,
    Grossberg, Howard.  "Shunt-Dependent Hydrocephalus After Aneurysmal
    Subarachnoid Hemorrhage: Investigation of Prognostic Variables and
@@ -283,6 +279,8 @@ me@jgmalcolm.com <br />
    DOI:10.1016/j.laa.2007.03.009
 {: reversed="reversed"}
 
+
+
 ## Patent
 
 1. G. Pryor, J. Malcolm, J. Melonakos, and T. Rehman.
@@ -291,11 +289,6 @@ me@jgmalcolm.com <br />
 
 
 ## Book Chapters
-
-{% comment %}
-
-
-{% endcomment %}
 
 1. Malcolm, Rodts, Gary. "Bone Void Fillers: Autograft and Harvest Techniques."
    In *Spinoplastic Reconstruction*, chapter 13.
@@ -412,10 +405,6 @@ me@jgmalcolm.com <br />
 
 
 ## Abstracts, Posters, Letters, Videos
-
-{% comment %}
-
-{% endcomment %}
 
 1. Muthu, Corluka, Buser, Malcolm, Luo, Ambrosio, Griffoni, Demetriades,
    Dokuzovic, Wu, Wang, Hans-Jorg, Yoon. "Failure rate of decompression-only
