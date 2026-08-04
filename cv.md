@@ -11,6 +11,32 @@ search: false
 me@jgmalcolm.com <br />
 <a href="http://jgmalcolm.com">http://jgmalcolm.com</a> <br />
 
+
+## Work Experience
+
+- [Southeastern Neurosurgical Specialists](//www.se-neurosurgical.com)
+  and [Northside Hospital Atlanta](//www.northside.com) (8/2024-present). Neurosurgeon.
+- [Emory University](//www.emory.edu) (7/2017-6/2024). Resident in
+  Neurosurgery.
+- [AccelerEyes & ArrayFire](//www.arrayfire.com). (VP Engineering, co-founder)
+  Development of software enabling easy parallel programming. (2007-2013)
+  - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
+    computing platform enabling GPU acceleration of MATLAB-based codes.
+  - [ArrayFire](//www.arrayfire.com) is an open-source library for GPU
+    acceleration of C, Fortran, and Java.
+- CellularEyes. (co-founder) Development of software enabling easy storage and
+  analysis of microscopy data. (2007-2013)
+- Diagis. (Engineer) Implementation of research-level programming language
+  techniques for security analysis of commercial languages. (2007)
+- Consultant software developer. Development of target tracking systems under
+  the direction of my advisor Allen Tannenbaum. Contracts have been with
+  [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
+  [The Optical Sciences Company](//tosc.com). (2005-2007)
+
+
+
+
+
 ## Education
 
 **Emory University, Atlanta, GA**
@@ -758,28 +784,6 @@ me@jgmalcolm.com <br />
    tracking using observer-based dynamic active contours." *Conference on
    Guidance, Navigation, and Control*, 2005.
 {: reversed="reversed"}
-
-
-## Work Experience
-
-- [Southeastern Neurosurgical Specialists](//www.se-neurosurgical.com)
-  (8/2024-present). Staff Neurosurgeon.
-- [Emory University](//www.emory.edu) (7/2017-6/2024). Resident in
-  Neurosurgery.
-- [AccelerEyes & ArrayFire](//www.arrayfire.com). (VP Engineering, co-founder)
-  Development of software enabling easy parallel programming. (2007-2013)
-  - [Jacket](https://en.wikipedia.org/wiki/Jacket_(software)) is a numerical
-    computing platform enabling GPU acceleration of MATLAB-based codes.
-  - [ArrayFire](//www.arrayfire.com) is an open-source library for GPU
-    acceleration of C, Fortran, and Java.
-- CellularEyes. (co-founder) Development of software enabling easy storage and
-  analysis of microscopy data. (2007-2013)
-- Diagis. (Engineer) Implementation of research-level programming language
-  techniques for security analysis of commercial languages. (2007)
-- Consultant software developer. Development of target tracking systems under
-  the direction of my advisor Allen Tannenbaum. Contracts have been with
-  [Boeing](//www.boeing.com), [MZA Associates Corp](//mza.com), and
-  [The Optical Sciences Company](//tosc.com). (2005-2007)
 
 
 
